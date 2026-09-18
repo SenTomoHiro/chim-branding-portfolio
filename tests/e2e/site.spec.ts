@@ -96,15 +96,17 @@ test("Branding and Photography details keep a sticky header and close to their s
   await page.setViewportSize({ width: 390, height: 844 });
   for (const [route, expectedBusiness] of [["/food", "branding"], ["/photo", "photography"]] as const) {
     await page.goto(route);
+    const listHeaderHeight = await page.locator(".siteHeader").evaluate((header) => header.getBoundingClientRect().height);
     const card = page.locator(".caseCard a").first(); const href = await card.getAttribute("href"); await card.click();
     await page.waitForURL((url) => url.pathname === href);
     expect(new URL(page.url()).pathname).toBe(href);
     const headerLayout = await page.locator(".siteHeader").evaluate((header) => {
       const navigation = header.querySelector(".siteNavigation")!.getBoundingClientRect();
-      const close = header.querySelector(".detailClose")!.getBoundingClientRect();
-      return { headerCount: document.querySelectorAll(".siteHeader").length, sharedNavigation: Boolean(header.querySelector(":scope > .headerActions > .siteNavigation")), closeBelowNavigation: close.top >= navigation.bottom };
+      const close = document.querySelector<HTMLElement>(".detailClose")!; const closeBox = close.getBoundingClientRect();
+      return { headerCount: document.querySelectorAll(".siteHeader").length, sharedNavigation: Boolean(header.querySelector(":scope > .headerActions > .siteNavigation")), closeOutsideHeader: !header.contains(close), closeIsFixed: getComputedStyle(close).position === "fixed", closeBelowNavigation: closeBox.top >= navigation.bottom, headerHeight: header.getBoundingClientRect().height };
     });
-    expect(headerLayout).toEqual({ headerCount: 1, sharedNavigation: true, closeBelowNavigation: true });
+    expect(headerLayout).toMatchObject({ headerCount: 1, sharedNavigation: true, closeOutsideHeader: true, closeIsFixed: true, closeBelowNavigation: true });
+    expect(Math.abs(headerLayout.headerHeight - listHeaderHeight)).toBeLessThanOrEqual(1);
     await expectStickyHeader(page);
     const metadata = await page.locator(".workIntro div>p").textContent();
     if (expectedBusiness === "photography") expect(metadata).toMatch(/^商业摄影 · /); else expect(metadata).not.toMatch(/^ · /);
@@ -155,6 +157,8 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
 
   await page.getByRole("link", { name: "新建案例" }).click();
   await expect(page.getByLabel("Slug", { exact: true })).toHaveCount(0);
+  await expect(page.getByLabel("细分品类")).toBeVisible(); await expect(page.getByLabel("主要行业")).toHaveCount(0);
+  await expect(page.getByText("案例列表封面", { exact: true })).toBeVisible(); await expect(page.getByText("案例详情页首图", { exact: true })).toBeVisible();
   await page.getByLabel("名称", { exact: true }).fill(brandingPublished[0].name); await page.getByLabel("餐饮").check(); await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".formError")).toHaveText("案例名称已存在，请使用唯一名称。");
   await page.locator(".adminHeader .wordmark").click(); await page.getByRole("link", { name: "新建案例" }).click();
@@ -166,7 +170,7 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await page.getByLabel("品牌设计").check();
   await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
   await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check(); await page.getByLabel("商业摄影").check();
-  await page.getByLabel("主要行业").fill("咖啡");
+  await page.getByLabel("细分品类").fill("咖啡");
   const mediaInputs = page.locator('.mediaInput input[type="file"]'); await mediaInputs.first().setInputFiles("public/media/cases/N013/cover.webp"); await mediaInputs.nth(1).setInputFiles("public/media/cases/N013/hero.webp");
   await expect(page.locator(".mediaPreview")).toHaveCount(2);
   await page.getByRole("button", { name: "保存案例" }).click();

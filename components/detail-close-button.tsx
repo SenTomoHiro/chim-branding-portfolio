@@ -1,10 +1,11 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import type { Business } from "@/lib/types";
 
 const listRoutes = new Set(["/", "/food", "/drinks", "/ip", "/other", "/photo"]);
 
-export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
+export function DetailCloseButton({ business, fallback }: { business: Business; fallback: "/" | "/photo" }) {
   const router = useRouter();
 
   function close() {
@@ -20,5 +21,5 @@ export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
     router.push(fallback);
   }
 
-  return <button className="detailClose" type="button" onClick={close} aria-label="返回案例列表"><span aria-hidden="true">×</span></button>;
+  return <button className="detailClose" data-business={business} type="button" onClick={close} aria-label="返回案例列表"><span aria-hidden="true">×</span></button>;
 }
