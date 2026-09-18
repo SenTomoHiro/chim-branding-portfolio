@@ -1,0 +1,2745 @@
+{
+  "schema_version": "2.0",
+  "audit_scope": {
+    "new_cases": 20,
+    "legacy_cases": 30,
+    "total_cases": 50,
+    "excluded_reference_pages": 8,
+    "formal_extracted_assets": 998,
+    "native_video_assets": 0,
+    "legacy_boundary_rule": "除封面/报价/说明页外，每个作品展示页独立成案。"
+  },
+  "cases": [
+    {
+      "case_id": "N001",
+      "previous_case_id": "C01",
+      "case_type": "new",
+      "name": "W² Concept Cafe",
+      "reference_folder": "新案例/250820-W² Concept Cafe",
+      "industry_primary": "咖啡",
+      "industry_tags": [
+        "餐饮",
+        "年轻消费品牌"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "IP Design",
+        "Illustration",
+        "Packaging",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "咖啡品牌能力",
+        "IP 设计能力",
+        "年轻消费品牌能力",
+        "连锁应用延展能力"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
+        "新案例/250820-W² Concept Cafe/W² Concept Cafe-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 36,
+      "cover_asset": "case-audit-v2/extracted/N001/asset_022.jpg",
+      "hero_asset": "case-audit-v2/extracted/N001/asset_026.png",
+      "body_assets": [
+        "case-audit-v2/extracted/N001/asset_001.jpg",
+        "case-audit-v2/extracted/N001/asset_002.jpg",
+        "case-audit-v2/extracted/N001/asset_003.jpg",
+        "case-audit-v2/extracted/N001/asset_004.jpg",
+        "case-audit-v2/extracted/N001/asset_005.jpg",
+        "case-audit-v2/extracted/N001/asset_006.jpg",
+        "case-audit-v2/extracted/N001/asset_007.jpg",
+        "case-audit-v2/extracted/N001/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N002",
+      "previous_case_id": "C02",
+      "case_type": "new",
+      "name": "粤有福手作",
+      "reference_folder": "新案例/251015-粤有福手作",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "奶茶",
+        "连锁餐饮"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "visual_strength": "中",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "茶饮品牌能力",
+        "连锁品牌能力",
+        "包装与终端应用能力"
+      ],
+      "target_segments": [
+        "饮品甜品",
+        "连锁餐饮"
+      ],
+      "source_files": [
+        "新案例/251015-粤有福手作/251015-粤有福手作.pdf",
+        "新案例/251015-粤有福手作/有福手作-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 56,
+      "cover_asset": "case-audit-v2/extracted/N002/asset_033.jpg",
+      "hero_asset": "case-audit-v2/extracted/N002/asset_053.png",
+      "body_assets": [
+        "case-audit-v2/extracted/N002/asset_001.jpg",
+        "case-audit-v2/extracted/N002/asset_002.jpg",
+        "case-audit-v2/extracted/N002/asset_003.jpg",
+        "case-audit-v2/extracted/N002/asset_004.jpg",
+        "case-audit-v2/extracted/N002/asset_005.jpg",
+        "case-audit-v2/extracted/N002/asset_006.jpg",
+        "case-audit-v2/extracted/N002/asset_007.jpg",
+        "case-audit-v2/extracted/N002/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N003",
+      "previous_case_id": "C03",
+      "case_type": "new",
+      "name": "小满",
+      "reference_folder": "新案例/251211-小满",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "中式餐饮",
+        "地方风味"
+      ],
+      "design_primary": "Visual Identity",
+      "design_tags": [
+        "Logo",
+        "Typography",
+        "Illustration",
+        "Signage",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "中式餐饮品牌能力",
+        "文化气质营造",
+        "空间延展能力"
+      ],
+      "target_segments": [
+        "默认",
+        "中式餐饮",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/251211-小满/251211-小满.pdf",
+        "新案例/251211-小满/小满-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 32,
+      "cover_asset": "case-audit-v2/extracted/N003/asset_016.png",
+      "hero_asset": "case-audit-v2/extracted/N003/asset_014.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N003/asset_001.jpg",
+        "case-audit-v2/extracted/N003/asset_002.jpg",
+        "case-audit-v2/extracted/N003/asset_003.jpg",
+        "case-audit-v2/extracted/N003/asset_004.jpg",
+        "case-audit-v2/extracted/N003/asset_005.jpg",
+        "case-audit-v2/extracted/N003/asset_006.jpg",
+        "case-audit-v2/extracted/N003/asset_007.jpg",
+        "case-audit-v2/extracted/N003/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N004",
+      "previous_case_id": "C04",
+      "case_type": "new",
+      "name": "三餐好乡邻",
+      "reference_folder": "新案例/251224-三餐好乡邻",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "家常菜",
+        "连锁餐饮"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Illustration",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "餐饮品牌全案",
+        "连锁店物料能力",
+        "亲民家常餐饮定位"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/251224-三餐好乡邻/251224-三餐好乡邻.pdf",
+        "新案例/251224-三餐好乡邻/三餐好乡邻-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 28,
+      "cover_asset": "case-audit-v2/extracted/N004/asset_001.jpg",
+      "hero_asset": "case-audit-v2/extracted/N004/asset_028.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N004/asset_002.png",
+        "case-audit-v2/extracted/N004/asset_003.png",
+        "case-audit-v2/extracted/N004/asset_004.png",
+        "case-audit-v2/extracted/N004/asset_005.png",
+        "case-audit-v2/extracted/N004/asset_006.png",
+        "case-audit-v2/extracted/N004/asset_007.png",
+        "case-audit-v2/extracted/N004/asset_008.png",
+        "case-audit-v2/extracted/N004/asset_009.png"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N005",
+      "previous_case_id": "C05",
+      "case_type": "new",
+      "name": "水果老爸 Fruits Pops",
+      "reference_folder": "新案例/251229-水果老爸",
+      "industry_primary": "甜品",
+      "industry_tags": [
+        "冰淇淋",
+        "年轻消费品牌"
+      ],
+      "design_primary": "Packaging",
+      "design_tags": [
+        "Brand Identity",
+        "Logo",
+        "Illustration",
+        "Campaign",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "包装设计能力",
+        "年轻消费品牌能力",
+        "色彩系统能力",
+        "餐饮零售化能力"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "IP/年轻化",
+        "包装"
+      ],
+      "source_files": [
+        "新案例/251229-水果老爸/251229-水果老爸.pdf",
+        "新案例/251229-水果老爸/水果老爸-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 51,
+      "cover_asset": "case-audit-v2/extracted/N005/asset_030.jpg",
+      "hero_asset": "case-audit-v2/extracted/N005/asset_040.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N005/asset_001.jpg",
+        "case-audit-v2/extracted/N005/asset_002.jpg",
+        "case-audit-v2/extracted/N005/asset_003.jpg",
+        "case-audit-v2/extracted/N005/asset_004.jpg",
+        "case-audit-v2/extracted/N005/asset_005.jpg",
+        "case-audit-v2/extracted/N005/asset_006.jpg",
+        "case-audit-v2/extracted/N005/asset_007.png",
+        "case-audit-v2/extracted/N005/asset_008.png"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N006",
+      "previous_case_id": "C06",
+      "case_type": "new",
+      "name": "Oi·Coffee",
+      "reference_folder": "新案例/260325-Oi·Coffee",
+      "industry_primary": "咖啡",
+      "industry_tags": [
+        "饮品",
+        "年轻消费品牌"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "IP Design",
+        "Illustration",
+        "Packaging",
+        "Campaign",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "咖啡品牌能力",
+        "IP 设计能力",
+        "年轻化品牌能力",
+        "包装延展能力"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
+        "新案例/260325-Oi·Coffee/Oi coffee-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 50,
+      "cover_asset": "case-audit-v2/extracted/N006/asset_029.jpg",
+      "hero_asset": "case-audit-v2/extracted/N006/asset_020.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N006/asset_001.jpg",
+        "case-audit-v2/extracted/N006/asset_002.jpg",
+        "case-audit-v2/extracted/N006/asset_003.jpg",
+        "case-audit-v2/extracted/N006/asset_004.jpg",
+        "case-audit-v2/extracted/N006/asset_005.jpg",
+        "case-audit-v2/extracted/N006/asset_006.jpg",
+        "case-audit-v2/extracted/N006/asset_007.jpg",
+        "case-audit-v2/extracted/N006/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N007",
+      "previous_case_id": "C07",
+      "case_type": "new",
+      "name": "稻米香·湘菜小炒",
+      "reference_folder": "新案例/260330-稻米香 · 湘菜小炒",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "湘菜",
+        "快餐"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Typography",
+        "Graphic System",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "湘菜品牌能力",
+        "快餐品牌能力",
+        "终端营销物料能力"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮"
+      ],
+      "source_files": [
+        "新案例/260330-稻米香 · 湘菜小炒/260330-稻米香 · 湘菜小炒.pdf",
+        "新案例/260330-稻米香 · 湘菜小炒/稻米香-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 41,
+      "cover_asset": "case-audit-v2/extracted/N007/asset_023.jpg",
+      "hero_asset": "case-audit-v2/extracted/N007/asset_011.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N007/asset_001.png",
+        "case-audit-v2/extracted/N007/asset_002.png",
+        "case-audit-v2/extracted/N007/asset_003.png",
+        "case-audit-v2/extracted/N007/asset_004.png",
+        "case-audit-v2/extracted/N007/asset_005.png",
+        "case-audit-v2/extracted/N007/asset_006.png",
+        "case-audit-v2/extracted/N007/asset_007.png",
+        "case-audit-v2/extracted/N007/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N008",
+      "previous_case_id": "C08",
+      "case_type": "new",
+      "name": "果壳里 Shell Nook",
+      "reference_folder": "新案例/260409-果壳里",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "一人食",
+        "休闲餐饮"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Illustration",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "餐饮品牌全案",
+        "年轻化视觉能力",
+        "包装与外带场景能力"
+      ],
+      "target_segments": [
+        "连锁餐饮",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/260409-果壳里/260409-果壳里.pdf",
+        "新案例/260409-果壳里/果壳里·SHELL NOOK 品牌设计提案.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 42,
+      "cover_asset": "case-audit-v2/extracted/N008/asset_003.jpg",
+      "hero_asset": "case-audit-v2/extracted/N008/asset_004.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N008/asset_001.jpg",
+        "case-audit-v2/extracted/N008/asset_002.jpg",
+        "case-audit-v2/extracted/N008/asset_005.jpg",
+        "case-audit-v2/extracted/N008/asset_006.jpg",
+        "case-audit-v2/extracted/N008/asset_007.jpg",
+        "case-audit-v2/extracted/N008/asset_008.jpg",
+        "case-audit-v2/extracted/N008/asset_009.jpg",
+        "case-audit-v2/extracted/N008/asset_010.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N009",
+      "previous_case_id": "C09",
+      "case_type": "new",
+      "name": "饭点时光",
+      "reference_folder": "新案例/260420-饭点时光",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "融合餐饮",
+        "品质餐饮"
+      ],
+      "design_primary": "Art Direction",
+      "design_tags": [
+        "Brand Identity",
+        "Photography",
+        "Typography",
+        "Campaign",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "品质餐饮品牌能力",
+        "食物摄影与艺术指导",
+        "整体品牌气质营造"
+      ],
+      "target_segments": [
+        "默认",
+        "中式餐饮",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/260420-饭点时光/260420-饭点时光.pdf",
+        "新案例/260420-饭点时光/饭点时光-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 44,
+      "cover_asset": "case-audit-v2/extracted/N009/asset_001.jpg",
+      "hero_asset": "case-audit-v2/extracted/N009/asset_032.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N009/asset_002.jpg",
+        "case-audit-v2/extracted/N009/asset_003.jpg",
+        "case-audit-v2/extracted/N009/asset_004.jpg",
+        "case-audit-v2/extracted/N009/asset_005.jpg",
+        "case-audit-v2/extracted/N009/asset_006.jpg",
+        "case-audit-v2/extracted/N009/asset_007.jpg",
+        "case-audit-v2/extracted/N009/asset_008.jpg",
+        "case-audit-v2/extracted/N009/asset_009.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N010",
+      "previous_case_id": "C10",
+      "case_type": "new",
+      "name": "禾之伴 RURU Bite",
+      "reference_folder": "新案例/260428-禾之伴",
+      "industry_primary": "轻食",
+      "industry_tags": [
+        "健康餐饮",
+        "年轻消费品牌"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Illustration",
+        "Packaging",
+        "Social Media",
+        "Campaign"
+      ],
+      "visual_strength": "中",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "健康轻食品牌能力",
+        "包装与外卖物料能力",
+        "清新年轻化视觉能力"
+      ],
+      "target_segments": [
+        "连锁餐饮",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/260428-禾之伴/260428-禾之伴.pdf",
+        "新案例/260428-禾之伴/禾之伴-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 37,
+      "cover_asset": "case-audit-v2/extracted/N010/asset_019.png",
+      "hero_asset": "case-audit-v2/extracted/N010/asset_030.png",
+      "body_assets": [
+        "case-audit-v2/extracted/N010/asset_001.jpg",
+        "case-audit-v2/extracted/N010/asset_002.jpg",
+        "case-audit-v2/extracted/N010/asset_003.jpg",
+        "case-audit-v2/extracted/N010/asset_004.jpg",
+        "case-audit-v2/extracted/N010/asset_005.jpg",
+        "case-audit-v2/extracted/N010/asset_006.jpg",
+        "case-audit-v2/extracted/N010/asset_007.jpg",
+        "case-audit-v2/extracted/N010/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N011",
+      "previous_case_id": "C11",
+      "case_type": "new",
+      "name": "豚豚冰屋 Tone",
+      "reference_folder": "新案例/260520-豚豚冰屋Tone",
+      "industry_primary": "甜品",
+      "industry_tags": [
+        "冰品",
+        "年轻消费品牌"
+      ],
+      "design_primary": "IP Design",
+      "design_tags": [
+        "Brand Identity",
+        "Character Design",
+        "Illustration",
+        "Packaging",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "IP 设计能力",
+        "甜品品牌能力",
+        "包装延展能力",
+        "年轻消费品牌能力"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
+        "新案例/260520-豚豚冰屋Tone/豚豚冰屋Tone-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 43,
+      "cover_asset": "case-audit-v2/extracted/N011/asset_038.png",
+      "hero_asset": "case-audit-v2/extracted/N011/asset_023.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N011/asset_001.jpg",
+        "case-audit-v2/extracted/N011/asset_002.jpg",
+        "case-audit-v2/extracted/N011/asset_003.jpg",
+        "case-audit-v2/extracted/N011/asset_004.jpg",
+        "case-audit-v2/extracted/N011/asset_005.jpg",
+        "case-audit-v2/extracted/N011/asset_006.jpg",
+        "case-audit-v2/extracted/N011/asset_007.jpg",
+        "case-audit-v2/extracted/N011/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N012",
+      "previous_case_id": "C12",
+      "case_type": "new",
+      "name": "郑社长满分果汁",
+      "reference_folder": "新案例/260526-郑社长满分果汁",
+      "industry_primary": "饮品",
+      "industry_tags": [
+        "果汁",
+        "年轻消费品牌"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Packaging",
+        "Campaign",
+        "Graphic System",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "饮品品牌能力",
+        "包装设计能力",
+        "强色彩品牌系统",
+        "连锁传播物料能力"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "IP/年轻化",
+        "包装"
+      ],
+      "source_files": [
+        "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
+        "新案例/260526-郑社长满分果汁/郑社长满分果汁-品牌梳理(5).pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 48,
+      "cover_asset": "case-audit-v2/extracted/N012/asset_028.jpg",
+      "hero_asset": "case-audit-v2/extracted/N012/asset_025.png",
+      "body_assets": [
+        "case-audit-v2/extracted/N012/asset_001.jpg",
+        "case-audit-v2/extracted/N012/asset_002.jpg",
+        "case-audit-v2/extracted/N012/asset_003.jpg",
+        "case-audit-v2/extracted/N012/asset_004.jpg",
+        "case-audit-v2/extracted/N012/asset_005.jpg",
+        "case-audit-v2/extracted/N012/asset_006.jpg",
+        "case-audit-v2/extracted/N012/asset_007.jpg",
+        "case-audit-v2/extracted/N012/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N013",
+      "previous_case_id": "C13",
+      "case_type": "new",
+      "name": "堡乎乎 Manual Burger",
+      "reference_folder": "新案例/260602-堡乎乎",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "汉堡",
+        "快餐"
+      ],
+      "design_primary": "IP Design",
+      "design_tags": [
+        "Brand Identity",
+        "Character Design",
+        "Illustration",
+        "Packaging",
+        "Campaign"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "IP 设计能力",
+        "快餐品牌能力",
+        "包装设计能力",
+        "潮流品牌能力"
+      ],
+      "target_segments": [
+        "默认",
+        "连锁餐饮",
+        "IP/年轻化",
+        "包装"
+      ],
+      "source_files": [
+        "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
+        "新案例/260602-堡乎乎/manual burger-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 45,
+      "cover_asset": "case-audit-v2/extracted/N013/asset_042.jpg",
+      "hero_asset": "case-audit-v2/extracted/N013/asset_006.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N013/asset_001.jpg",
+        "case-audit-v2/extracted/N013/asset_002.jpg",
+        "case-audit-v2/extracted/N013/asset_003.jpg",
+        "case-audit-v2/extracted/N013/asset_004.jpg",
+        "case-audit-v2/extracted/N013/asset_005.jpg",
+        "case-audit-v2/extracted/N013/asset_007.jpg",
+        "case-audit-v2/extracted/N013/asset_008.jpg",
+        "case-audit-v2/extracted/N013/asset_009.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N014",
+      "previous_case_id": "C14",
+      "case_type": "new",
+      "name": "欢树 Halo Tree",
+      "reference_folder": "新案例/260623-欢树",
+      "industry_primary": "咖啡",
+      "industry_tags": [
+        "日咖夜酒",
+        "庭院空间"
+      ],
+      "design_primary": "Art Direction",
+      "design_tags": [
+        "Brand Identity",
+        "Photography",
+        "Typography",
+        "Packaging",
+        "Spatial / Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "空间型品牌能力",
+        "咖啡/酒馆品牌能力",
+        "高级感艺术指导",
+        "摄影与场景营造"
+      ],
+      "target_segments": [
+        "默认",
+        "饮品甜品",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/260623-欢树/260623-欢树.pdf",
+        "新案例/260623-欢树/欢树-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 49,
+      "cover_asset": "case-audit-v2/extracted/N014/asset_019.jpg",
+      "hero_asset": "case-audit-v2/extracted/N014/asset_020.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N014/asset_001.jpg",
+        "case-audit-v2/extracted/N014/asset_002.jpg",
+        "case-audit-v2/extracted/N014/asset_003.jpg",
+        "case-audit-v2/extracted/N014/asset_004.jpg",
+        "case-audit-v2/extracted/N014/asset_005.jpg",
+        "case-audit-v2/extracted/N014/asset_006.jpg",
+        "case-audit-v2/extracted/N014/asset_007.jpg",
+        "case-audit-v2/extracted/N014/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N015",
+      "previous_case_id": "C15",
+      "case_type": "new",
+      "name": "台滋味·台式厨房",
+      "reference_folder": "新案例/260629-台滋味·台式厨房",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "台式餐饮",
+        "地方风味"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Typography",
+        "Illustration",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "地方风味品牌能力",
+        "中式快餐品牌能力",
+        "食物摄影与传播物料能力"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/260629-台滋味·台式厨房/260629-台滋味·台式厨房.pdf",
+        "新案例/260629-台滋味·台式厨房/品牌名字.docx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 22,
+      "cover_asset": "case-audit-v2/extracted/N015/asset_017.jpg",
+      "hero_asset": "case-audit-v2/extracted/N015/asset_009.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N015/asset_001.png",
+        "case-audit-v2/extracted/N015/asset_002.jpg",
+        "case-audit-v2/extracted/N015/asset_003.jpg",
+        "case-audit-v2/extracted/N015/asset_004.jpg",
+        "case-audit-v2/extracted/N015/asset_005.jpg",
+        "case-audit-v2/extracted/N015/asset_006.jpg",
+        "case-audit-v2/extracted/N015/asset_007.png",
+        "case-audit-v2/extracted/N015/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "未提供 PPTX，独立图像由 PDF 图像对象恢复"
+      ]
+    },
+    {
+      "case_id": "N016",
+      "previous_case_id": "C16",
+      "case_type": "new",
+      "name": "荟 HUI·威士忌水烟吧",
+      "reference_folder": "新案例/260707-荟HUI·威士忌水烟吧",
+      "industry_primary": "酒吧",
+      "industry_tags": [
+        "威士忌",
+        "夜生活"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Typography",
+        "Art Direction",
+        "Campaign",
+        "Packaging",
+        "Spatial / Signage"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "高端夜生活品牌能力",
+        "酒吧品牌能力",
+        "氛围摄影与艺术指导",
+        "空间导视能力"
+      ],
+      "target_segments": [
+        "默认",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
+        "新案例/260707-荟HUI·威士忌水烟吧/荟HUI·威士忌水烟吧-品牌梳理(1).pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 48,
+      "cover_asset": "case-audit-v2/extracted/N016/asset_001.jpg",
+      "hero_asset": "case-audit-v2/extracted/N016/asset_019.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N016/asset_002.jpg",
+        "case-audit-v2/extracted/N016/asset_003.jpg",
+        "case-audit-v2/extracted/N016/asset_004.jpg",
+        "case-audit-v2/extracted/N016/asset_005.jpg",
+        "case-audit-v2/extracted/N016/asset_006.jpg",
+        "case-audit-v2/extracted/N016/asset_007.jpg",
+        "case-audit-v2/extracted/N016/asset_008.jpg",
+        "case-audit-v2/extracted/N016/asset_009.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N017",
+      "previous_case_id": "C17",
+      "case_type": "new",
+      "name": "大利村·手工鲜汤粉",
+      "reference_folder": "新案例/260717-大利村",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "汤粉",
+        "地方风味"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Typography",
+        "Illustration",
+        "Graphic System",
+        "Packaging",
+        "Campaign"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "A",
+      "commercial_value": [
+        "中式餐饮品牌能力",
+        "地方文化视觉转译",
+        "快餐包装与传播能力"
+      ],
+      "target_segments": [
+        "默认",
+        "中式餐饮",
+        "连锁餐饮"
+      ],
+      "source_files": [
+        "新案例/260717-大利村/260717-大利村.pdf",
+        "新案例/260717-大利村/大利村·手工鲜汤粉-品牌梳理(1).pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 43,
+      "cover_asset": "case-audit-v2/extracted/N017/asset_001.jpg",
+      "hero_asset": "case-audit-v2/extracted/N017/asset_030.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N017/asset_002.jpg",
+        "case-audit-v2/extracted/N017/asset_003.jpg",
+        "case-audit-v2/extracted/N017/asset_004.jpg",
+        "case-audit-v2/extracted/N017/asset_005.jpg",
+        "case-audit-v2/extracted/N017/asset_006.jpg",
+        "case-audit-v2/extracted/N017/asset_007.jpg",
+        "case-audit-v2/extracted/N017/asset_008.jpg",
+        "case-audit-v2/extracted/N017/asset_009.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "high",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N018",
+      "previous_case_id": "C18",
+      "case_type": "new",
+      "name": "觅咔咔 Meekaka",
+      "reference_folder": "新案例/260730-觅咔咔",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "融合餐饮",
+        "地方风味"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Graphic System",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "visual_strength": "中",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "融合餐饮品牌能力",
+        "文化图形系统",
+        "餐饮物料延展能力"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮",
+        "品质/场景"
+      ],
+      "source_files": [
+        "新案例/260730-觅咔咔/260730-觅咔咔 .pdf",
+        "新案例/260730-觅咔咔/咔咔融合餐厅-品牌梳理(2).pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 49,
+      "cover_asset": "case-audit-v2/extracted/N018/asset_042.png",
+      "hero_asset": "case-audit-v2/extracted/N018/asset_027.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N018/asset_001.jpg",
+        "case-audit-v2/extracted/N018/asset_002.jpg",
+        "case-audit-v2/extracted/N018/asset_003.jpg",
+        "case-audit-v2/extracted/N018/asset_004.jpg",
+        "case-audit-v2/extracted/N018/asset_005.jpg",
+        "case-audit-v2/extracted/N018/asset_006.jpg",
+        "case-audit-v2/extracted/N018/asset_007.jpg",
+        "case-audit-v2/extracted/N018/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N019",
+      "previous_case_id": "C19",
+      "case_type": "new",
+      "name": "鮮燙町 Senmachi",
+      "reference_folder": "新案例/260805-鮮燙町",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "麻辣烫",
+        "日式街头"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Logo",
+        "Illustration",
+        "Typography",
+        "Campaign",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "快餐品牌能力",
+        "餐饮主视觉能力",
+        "菜品摄影与传播能力"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮"
+      ],
+      "source_files": [
+        "新案例/260805-鮮燙町/260805-鮮燙町.pdf",
+        "新案例/260805-鮮燙町/鮮燙町-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 44,
+      "cover_asset": "case-audit-v2/extracted/N019/asset_031.jpg",
+      "hero_asset": "case-audit-v2/extracted/N019/asset_023.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N019/asset_001.jpg",
+        "case-audit-v2/extracted/N019/asset_002.jpg",
+        "case-audit-v2/extracted/N019/asset_003.jpg",
+        "case-audit-v2/extracted/N019/asset_004.jpg",
+        "case-audit-v2/extracted/N019/asset_005.jpg",
+        "case-audit-v2/extracted/N019/asset_006.jpg",
+        "case-audit-v2/extracted/N019/asset_007.jpg",
+        "case-audit-v2/extracted/N019/asset_008.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "N020",
+      "previous_case_id": "C20",
+      "case_type": "new",
+      "name": "巴适的钵 Awesome Bo",
+      "reference_folder": "新案例/260811-巴适的钵",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "川味小吃",
+        "串串"
+      ],
+      "design_primary": "IP Design",
+      "design_tags": [
+        "Brand Identity",
+        "Character Design",
+        "Graphic System",
+        "Packaging",
+        "Merchandise"
+      ],
+      "visual_strength": "强",
+      "completeness": "基本完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "川味小吃品牌能力",
+        "IP 设计能力",
+        "外卖与快餐物料能力"
+      ],
+      "target_segments": [
+        "中式餐饮",
+        "连锁餐饮",
+        "IP/年轻化"
+      ],
+      "source_files": [
+        "新案例/260811-巴适的钵/260811-巴适的钵.pdf",
+        "新案例/260811-巴适的钵/巴适的钵-品牌梳理.pptx"
+      ],
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 11,
+      "cover_asset": "case-audit-v2/extracted/N020/asset_002.jpg",
+      "hero_asset": "case-audit-v2/extracted/N020/asset_001.jpg",
+      "body_assets": [
+        "case-audit-v2/extracted/N020/asset_003.jpg",
+        "case-audit-v2/extracted/N020/asset_004.jpg",
+        "case-audit-v2/extracted/N020/asset_005.jpg",
+        "case-audit-v2/extracted/N020/asset_006.jpg",
+        "case-audit-v2/extracted/N020/asset_007.jpg",
+        "case-audit-v2/extracted/N020/asset_008.jpg",
+        "case-audit-v2/extracted/N020/asset_009.png",
+        "case-audit-v2/extracted/N020/asset_010.jpg"
+      ],
+      "cover_reason": "从 PPTX 内嵌原图/PDF 图像对象中选取，不使用合并后的整页 JPG。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "仙兔策划·太空兔 Space Bunnies",
+      "reference_page": "2",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-02.jpg",
+      "industry_primary": "活动策划 / 文创",
+      "industry_tags": [
+        "活动策划 / 文创",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "活动策划 / 文创行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "活动策划 / 文创",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_artboard": 2,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L001/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L001/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "华南行",
+      "reference_page": "3",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-03.jpg",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "餐饮",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "餐饮行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "餐饮",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": null,
+      "source_artboard": 3,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L002/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L002/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "咖啡肆拾 Coffee Forty",
+      "reference_page": "4",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-04.jpg",
+      "industry_primary": "咖啡",
+      "industry_tags": [
+        "咖啡",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "咖啡行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "咖啡",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_artboard": 4,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L003/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L003/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "MaxDona",
+      "reference_page": "5",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-05.jpg",
+      "industry_primary": "美妆",
+      "industry_tags": [
+        "美妆",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Packaging",
+      "design_tags": [
+        "Packaging",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "美妆行业案例",
+        "Packaging能力"
+      ],
+      "target_segments": [
+        "美妆",
+        "Packaging"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_artboard": 5,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L004/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L004/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "标志设计合集 I",
+      "reference_page": "6",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-06.jpg",
+      "industry_primary": "多行业",
+      "industry_tags": [
+        "多行业",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Logo Design",
+      "design_tags": [
+        "Logo Design",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "多行业行业案例",
+        "Logo Design能力"
+      ],
+      "target_segments": [
+        "多行业",
+        "Logo Design"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_artboard": 6,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L005/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L005/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "标志设计合集 II",
+      "reference_page": "7",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-07.jpg",
+      "industry_primary": "多行业",
+      "industry_tags": [
+        "多行业",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Logo Design",
+      "design_tags": [
+        "Logo Design",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "多行业行业案例",
+        "Logo Design能力"
+      ],
+      "target_segments": [
+        "多行业",
+        "Logo Design"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_artboard": 7,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L006/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L006/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "迪迈猫粮",
+      "reference_page": "8",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-08.jpg",
+      "industry_primary": "宠物食品",
+      "industry_tags": [
+        "宠物食品",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Packaging",
+      "design_tags": [
+        "Packaging",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "宠物食品行业案例",
+        "Packaging能力"
+      ],
+      "target_segments": [
+        "宠物食品",
+        "Packaging"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_artboard": 8,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L007/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L007/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L008",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "胖福月饼",
+      "reference_page": "9",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-09.jpg",
+      "industry_primary": "食品 / 礼盒",
+      "industry_tags": [
+        "食品 / 礼盒",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Packaging",
+      "design_tags": [
+        "Packaging",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "食品 / 礼盒行业案例",
+        "Packaging能力"
+      ],
+      "target_segments": [
+        "食品 / 礼盒",
+        "Packaging"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_artboard": 9,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L008/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L008/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L009",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "hacinana",
+      "reference_page": "10",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-10.jpg",
+      "industry_primary": "美妆 / 护肤",
+      "industry_tags": [
+        "美妆 / 护肤",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Packaging",
+      "design_tags": [
+        "Packaging",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "待源文件二次处理",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "美妆 / 护肤行业案例",
+        "Packaging能力"
+      ],
+      "target_segments": [
+        "美妆 / 护肤",
+        "Packaging"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_artboard": 10,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "PARTIALLY_EXTRACTED",
+      "website_assets_ready": false,
+      "asset_count": 1,
+      "cover_asset": "case-audit-v2/extracted/L009/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L009/asset_001.png",
+      "body_assets": [],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组",
+        "目前只恢复到 AI 画板成片，独立网站素材不足；不以旧 JPG/PDF 补位"
+      ]
+    },
+    {
+      "case_id": "L010",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "春莱 ChunLai·品牌视觉",
+      "reference_page": "11",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-11.jpg",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "茶饮",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "茶饮行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "茶饮",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_11.psd",
+      "source_artboard": 11,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 9,
+      "cover_asset": "case-audit-v2/extracted/L010/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L010/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L010/asset_003.png",
+        "case-audit-v2/extracted/L010/asset_004.png",
+        "case-audit-v2/extracted/L010/asset_005.png",
+        "case-audit-v2/extracted/L010/asset_006.png",
+        "case-audit-v2/extracted/L010/asset_007.png",
+        "case-audit-v2/extracted/L010/asset_008.png",
+        "case-audit-v2/extracted/L010/asset_009.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组"
+      ]
+    },
+    {
+      "case_id": "L011",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "春莱 ChunLai·品牌升级",
+      "reference_page": "12",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-12.jpg",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "茶饮",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "茶饮行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "茶饮",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_12.psd",
+      "source_artboard": 12,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 7,
+      "cover_asset": "case-audit-v2/extracted/L011/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L011/asset_003.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L011/asset_002.png",
+        "case-audit-v2/extracted/L011/asset_004.png",
+        "case-audit-v2/extracted/L011/asset_005.png",
+        "case-audit-v2/extracted/L011/asset_006.png",
+        "case-audit-v2/extracted/L011/asset_007.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组"
+      ]
+    },
+    {
+      "case_id": "L012",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "文柠记",
+      "reference_page": "13",
+      "reference_jpg": "旧案例/平面-JPG/设计作品集-13.jpg",
+      "industry_primary": "柠檬茶",
+      "industry_tags": [
+        "柠檬茶",
+        "旧案例",
+        "品牌设计"
+      ],
+      "design_primary": "Brand Identity",
+      "design_tags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "柠檬茶行业案例",
+        "Brand Identity能力"
+      ],
+      "target_segments": [
+        "柠檬茶",
+        "Brand Identity"
+      ],
+      "source_ai": "旧案例/设计作品集.ai",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_13.psd",
+      "source_artboard": 13,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 8,
+      "cover_asset": "case-audit-v2/extracted/L012/asset_007.png",
+      "hero_asset": "case-audit-v2/extracted/L012/asset_001.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L012/asset_002.png",
+        "case-audit-v2/extracted/L012/asset_003.png",
+        "case-audit-v2/extracted/L012/asset_004.png",
+        "case-audit-v2/extracted/L012/asset_005.png",
+        "case-audit-v2/extracted/L012/asset_006.png",
+        "case-audit-v2/extracted/L012/asset_008.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产",
+        "PSD 可读但仅含单一扁平化像素层，无智能对象/图层组"
+      ]
+    },
+    {
+      "case_id": "L013",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "骄慕·养生茶",
+      "reference_page": "2",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_2.jpg",
+      "industry_primary": "饮品",
+      "industry_tags": [
+        "饮品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "饮品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "饮品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 2,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 11,
+      "cover_asset": "case-audit-v2/extracted/L013/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L013/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L013/asset_003.png",
+        "case-audit-v2/extracted/L013/asset_004.png",
+        "case-audit-v2/extracted/L013/asset_005.png",
+        "case-audit-v2/extracted/L013/asset_006.png",
+        "case-audit-v2/extracted/L013/asset_007.png",
+        "case-audit-v2/extracted/L013/asset_008.png",
+        "case-audit-v2/extracted/L013/asset_009.png",
+        "case-audit-v2/extracted/L013/asset_010.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L014",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "骄慕·枸杞原浆",
+      "reference_page": "3",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_3.jpg",
+      "industry_primary": "饮品",
+      "industry_tags": [
+        "饮品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "完整",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "饮品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "饮品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 3,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 4,
+      "cover_asset": "case-audit-v2/extracted/L014/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L014/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L014/asset_003.png",
+        "case-audit-v2/extracted/L014/asset_004.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L015",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "后谷咖啡",
+      "reference_page": "4",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_4.jpg",
+      "industry_primary": "咖啡",
+      "industry_tags": [
+        "咖啡",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "咖啡行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "咖啡",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 4,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 8,
+      "cover_asset": "case-audit-v2/extracted/L015/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L015/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L015/asset_003.png",
+        "case-audit-v2/extracted/L015/asset_004.png",
+        "case-audit-v2/extracted/L015/asset_005.png",
+        "case-audit-v2/extracted/L015/asset_006.png",
+        "case-audit-v2/extracted/L015/asset_007.png",
+        "case-audit-v2/extracted/L015/asset_008.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L016",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "七港九·港九莓莓",
+      "reference_page": "5",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_5.jpg",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "茶饮",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "中",
+      "completeness": "完整",
+      "homepage_tier": "C",
+      "commercial_value": [
+        "茶饮行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "茶饮",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 5,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 3,
+      "cover_asset": "case-audit-v2/extracted/L016/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L016/asset_003.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L016/asset_002.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L017",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "七港九·茶饮系列",
+      "reference_page": "6",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_6.jpg",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "茶饮",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "茶饮行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "茶饮",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 6,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 8,
+      "cover_asset": "case-audit-v2/extracted/L017/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L017/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L017/asset_003.png",
+        "case-audit-v2/extracted/L017/asset_004.png",
+        "case-audit-v2/extracted/L017/asset_005.png",
+        "case-audit-v2/extracted/L017/asset_006.png",
+        "case-audit-v2/extracted/L017/asset_007.png",
+        "case-audit-v2/extracted/L017/asset_008.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L018",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "PavoMea·饼干",
+      "reference_page": "7",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_7.jpg",
+      "industry_primary": "休闲食品",
+      "industry_tags": [
+        "休闲食品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "休闲食品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "休闲食品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 7,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 9,
+      "cover_asset": "case-audit-v2/extracted/L018/asset_002.png",
+      "hero_asset": "case-audit-v2/extracted/L018/asset_001.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L018/asset_003.png",
+        "case-audit-v2/extracted/L018/asset_004.png",
+        "case-audit-v2/extracted/L018/asset_005.png",
+        "case-audit-v2/extracted/L018/asset_006.png",
+        "case-audit-v2/extracted/L018/asset_007.png",
+        "case-audit-v2/extracted/L018/asset_008.png",
+        "case-audit-v2/extracted/L018/asset_009.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L019",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "PavoMea·脆栗子",
+      "reference_page": "8",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_8.jpg",
+      "industry_primary": "休闲食品",
+      "industry_tags": [
+        "休闲食品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "休闲食品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "休闲食品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 8,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 5,
+      "cover_asset": "case-audit-v2/extracted/L019/asset_003.png",
+      "hero_asset": "case-audit-v2/extracted/L019/asset_001.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L019/asset_002.png",
+        "case-audit-v2/extracted/L019/asset_004.png",
+        "case-audit-v2/extracted/L019/asset_005.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L020",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "PavoMea·玛德琳蛋糕",
+      "reference_page": "9",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_9.jpg",
+      "industry_primary": "休闲食品",
+      "industry_tags": [
+        "休闲食品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "休闲食品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "休闲食品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 9,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 6,
+      "cover_asset": "case-audit-v2/extracted/L020/asset_002.png",
+      "hero_asset": "case-audit-v2/extracted/L020/asset_001.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L020/asset_003.png",
+        "case-audit-v2/extracted/L020/asset_004.png",
+        "case-audit-v2/extracted/L020/asset_005.png",
+        "case-audit-v2/extracted/L020/asset_006.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L021",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "ALASSIS·香薰蜡烛",
+      "reference_page": "10",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_10.jpg",
+      "industry_primary": "家居香氛",
+      "industry_tags": [
+        "家居香氛",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "家居香氛行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "家居香氛",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 10,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 14,
+      "cover_asset": "case-audit-v2/extracted/L021/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L021/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L021/asset_003.png",
+        "case-audit-v2/extracted/L021/asset_004.png",
+        "case-audit-v2/extracted/L021/asset_005.png",
+        "case-audit-v2/extracted/L021/asset_006.png",
+        "case-audit-v2/extracted/L021/asset_007.png",
+        "case-audit-v2/extracted/L021/asset_008.png",
+        "case-audit-v2/extracted/L021/asset_009.png",
+        "case-audit-v2/extracted/L021/asset_010.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L022",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "mosanana·眼镜",
+      "reference_page": "11",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_11.jpg",
+      "industry_primary": "眼镜",
+      "industry_tags": [
+        "眼镜",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "眼镜行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "眼镜",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 11,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 5,
+      "cover_asset": "case-audit-v2/extracted/L022/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L022/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L022/asset_003.png",
+        "case-audit-v2/extracted/L022/asset_004.png",
+        "case-audit-v2/extracted/L022/asset_005.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L023",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "迷物家居",
+      "reference_page": "12",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_12.jpg",
+      "industry_primary": "家居",
+      "industry_tags": [
+        "家居",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "家居行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "家居",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 12,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 14,
+      "cover_asset": "case-audit-v2/extracted/L023/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L023/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L023/asset_003.png",
+        "case-audit-v2/extracted/L023/asset_004.png",
+        "case-audit-v2/extracted/L023/asset_005.png",
+        "case-audit-v2/extracted/L023/asset_006.png",
+        "case-audit-v2/extracted/L023/asset_007.png",
+        "case-audit-v2/extracted/L023/asset_008.png",
+        "case-audit-v2/extracted/L023/asset_009.png",
+        "case-audit-v2/extracted/L023/asset_010.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L024",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "CT BEE·咖啡与奶茶",
+      "reference_page": "13",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_13.jpg",
+      "industry_primary": "饮品",
+      "industry_tags": [
+        "饮品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "饮品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "饮品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 13,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 7,
+      "cover_asset": "case-audit-v2/extracted/L024/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L024/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L024/asset_003.png",
+        "case-audit-v2/extracted/L024/asset_004.png",
+        "case-audit-v2/extracted/L024/asset_005.png",
+        "case-audit-v2/extracted/L024/asset_006.png",
+        "case-audit-v2/extracted/L024/asset_007.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L025",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "紫庐·中西餐",
+      "reference_page": "14",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_14.jpg",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "餐饮",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "餐饮行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "餐饮",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 14,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 14,
+      "cover_asset": "case-audit-v2/extracted/L025/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L025/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L025/asset_003.png",
+        "case-audit-v2/extracted/L025/asset_004.png",
+        "case-audit-v2/extracted/L025/asset_005.png",
+        "case-audit-v2/extracted/L025/asset_006.png",
+        "case-audit-v2/extracted/L025/asset_007.png",
+        "case-audit-v2/extracted/L025/asset_008.png",
+        "case-audit-v2/extracted/L025/asset_009.png",
+        "case-audit-v2/extracted/L025/asset_010.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L026",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "李大妈把猪脚米线",
+      "reference_page": "15",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_15.jpg",
+      "industry_primary": "餐饮",
+      "industry_tags": [
+        "餐饮",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "餐饮行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "餐饮",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 15,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 7,
+      "cover_asset": "case-audit-v2/extracted/L026/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L026/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L026/asset_003.png",
+        "case-audit-v2/extracted/L026/asset_004.png",
+        "case-audit-v2/extracted/L026/asset_005.png",
+        "case-audit-v2/extracted/L026/asset_006.png",
+        "case-audit-v2/extracted/L026/asset_007.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L027",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "乌铜走银·茶与工艺",
+      "reference_page": "16",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_16.jpg",
+      "industry_primary": "非遗工艺",
+      "industry_tags": [
+        "非遗工艺",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "非遗工艺行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "非遗工艺",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 16,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 8,
+      "cover_asset": "case-audit-v2/extracted/L027/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L027/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L027/asset_003.png",
+        "case-audit-v2/extracted/L027/asset_004.png",
+        "case-audit-v2/extracted/L027/asset_005.png",
+        "case-audit-v2/extracted/L027/asset_006.png",
+        "case-audit-v2/extracted/L027/asset_007.png",
+        "case-audit-v2/extracted/L027/asset_008.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L028",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "乌铜走银·银器首饰",
+      "reference_page": "17",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_17.jpg",
+      "industry_primary": "非遗工艺",
+      "industry_tags": [
+        "非遗工艺",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "非遗工艺行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "非遗工艺",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 17,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 8,
+      "cover_asset": "case-audit-v2/extracted/L028/asset_003.png",
+      "hero_asset": "case-audit-v2/extracted/L028/asset_001.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L028/asset_002.png",
+        "case-audit-v2/extracted/L028/asset_004.png",
+        "case-audit-v2/extracted/L028/asset_005.png",
+        "case-audit-v2/extracted/L028/asset_006.png",
+        "case-audit-v2/extracted/L028/asset_007.png",
+        "case-audit-v2/extracted/L028/asset_008.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L029",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "陇上花牛苹果汁",
+      "reference_page": "18",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_18.jpg",
+      "industry_primary": "饮品",
+      "industry_tags": [
+        "饮品",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "饮品行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "饮品",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 18,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 10,
+      "cover_asset": "case-audit-v2/extracted/L029/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L029/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L029/asset_003.png",
+        "case-audit-v2/extracted/L029/asset_004.png",
+        "case-audit-v2/extracted/L029/asset_005.png",
+        "case-audit-v2/extracted/L029/asset_006.png",
+        "case-audit-v2/extracted/L029/asset_007.png",
+        "case-audit-v2/extracted/L029/asset_008.png",
+        "case-audit-v2/extracted/L029/asset_009.png",
+        "case-audit-v2/extracted/L029/asset_010.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    },
+    {
+      "case_id": "L030",
+      "previous_case_id": null,
+      "case_type": "legacy",
+      "name": "春莱 ChunLai·茶饮摄影",
+      "reference_page": "18 副本",
+      "reference_jpg": "旧案例/摄影-JPG/摄影作品集_18 副本.jpg",
+      "industry_primary": "茶饮",
+      "industry_tags": [
+        "茶饮",
+        "旧案例",
+        "商业摄影"
+      ],
+      "design_primary": "Photography",
+      "design_tags": [
+        "Photography",
+        "Art Direction"
+      ],
+      "visual_strength": "强",
+      "completeness": "完整",
+      "homepage_tier": "B",
+      "commercial_value": [
+        "茶饮行业案例",
+        "Photography能力"
+      ],
+      "target_segments": [
+        "茶饮",
+        "Photography"
+      ],
+      "source_ai": "旧案例/摄影作品集.ai",
+      "source_psd": null,
+      "source_artboard": 21,
+      "source_group": null,
+      "source_smart_object": null,
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "asset_count": 5,
+      "cover_asset": "case-audit-v2/extracted/L030/asset_001.png",
+      "hero_asset": "case-audit-v2/extracted/L030/asset_002.png",
+      "body_assets": [
+        "case-audit-v2/extracted/L030/asset_003.png",
+        "case-audit-v2/extracted/L030/asset_004.png",
+        "case-audit-v2/extracted/L030/asset_005.png"
+      ],
+      "cover_reason": "仅从 AI 内嵌图像/画板对应源恢复；参考 JPG/PDF 未作为正式素材。",
+      "motion_native": false,
+      "motion_potential": "medium",
+      "issues": [
+        "没有原生视频资产"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1710 @@
+{
+  "cases": [
+    {
+      "id": "N001",
+      "slug": "n001-w-concept-cafe",
+      "name": "W² Concept Cafe",
+      "intro": "咖啡品牌视觉与Brand Identity设计。",
+      "industryPrimary": "咖啡",
+      "industryTags": [
+        "餐饮",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "IP Design",
+        "Illustration",
+        "Packaging",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N001/cover.webp",
+      "hero": "/media/cases/N001/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N001-body-1",
+          "type": "image",
+          "src": "/media/cases/N001/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N001-body-2",
+          "type": "image",
+          "src": "/media/cases/N001/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N001-body-3",
+          "type": "image",
+          "src": "/media/cases/N001/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N001-body-4",
+          "type": "image",
+          "src": "/media/cases/N001/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N001-body-5",
+          "type": "image",
+          "src": "/media/cases/N001/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N001-body-6",
+          "type": "image",
+          "src": "/media/cases/N001/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N001-body-7",
+          "type": "image",
+          "src": "/media/cases/N001/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N001-body-8",
+          "type": "image",
+          "src": "/media/cases/N001/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N002",
+      "slug": "n002-粤有福手作",
+      "name": "粤有福手作",
+      "intro": "茶饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "茶饮",
+      "industryTags": [
+        "奶茶",
+        "连锁餐饮"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "cover": "/media/cases/N002/cover.webp",
+      "hero": "/media/cases/N002/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N002-body-1",
+          "type": "image",
+          "src": "/media/cases/N002/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N002-body-2",
+          "type": "image",
+          "src": "/media/cases/N002/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N002-body-3",
+          "type": "image",
+          "src": "/media/cases/N002/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N002-body-4",
+          "type": "image",
+          "src": "/media/cases/N002/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N002-body-5",
+          "type": "image",
+          "src": "/media/cases/N002/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N002-body-6",
+          "type": "image",
+          "src": "/media/cases/N002/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N002-body-7",
+          "type": "image",
+          "src": "/media/cases/N002/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N002-body-8",
+          "type": "image",
+          "src": "/media/cases/N002/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N003",
+      "slug": "n003-小满",
+      "name": "小满",
+      "intro": "餐饮品牌视觉与Visual Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "中式餐饮",
+        "地方风味"
+      ],
+      "designPrimary": "Visual Identity",
+      "designTags": [
+        "Logo",
+        "Typography",
+        "Illustration",
+        "Signage",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N003/cover.webp",
+      "hero": "/media/cases/N003/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N003-body-1",
+          "type": "image",
+          "src": "/media/cases/N003/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N003-body-2",
+          "type": "image",
+          "src": "/media/cases/N003/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N003-body-3",
+          "type": "image",
+          "src": "/media/cases/N003/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N003-body-4",
+          "type": "image",
+          "src": "/media/cases/N003/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N003-body-5",
+          "type": "image",
+          "src": "/media/cases/N003/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N003-body-6",
+          "type": "image",
+          "src": "/media/cases/N003/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N003-body-7",
+          "type": "image",
+          "src": "/media/cases/N003/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N003-body-8",
+          "type": "image",
+          "src": "/media/cases/N003/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N004",
+      "slug": "n004-三餐好乡邻",
+      "name": "三餐好乡邻",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "家常菜",
+        "连锁餐饮"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Illustration",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "cover": "/media/cases/N004/cover.webp",
+      "hero": "/media/cases/N004/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N004-body-1",
+          "type": "image",
+          "src": "/media/cases/N004/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N004-body-2",
+          "type": "image",
+          "src": "/media/cases/N004/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N004-body-3",
+          "type": "image",
+          "src": "/media/cases/N004/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N004-body-4",
+          "type": "image",
+          "src": "/media/cases/N004/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N004-body-5",
+          "type": "image",
+          "src": "/media/cases/N004/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N004-body-6",
+          "type": "image",
+          "src": "/media/cases/N004/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N004-body-7",
+          "type": "image",
+          "src": "/media/cases/N004/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N004-body-8",
+          "type": "image",
+          "src": "/media/cases/N004/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N005",
+      "slug": "n005-fruits-pops",
+      "name": "水果老爸 Fruits Pops",
+      "intro": "甜品品牌视觉与Packaging设计。",
+      "industryPrimary": "甜品",
+      "industryTags": [
+        "冰淇淋",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "Packaging",
+      "designTags": [
+        "Brand Identity",
+        "Logo",
+        "Illustration",
+        "Campaign",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N005/cover.webp",
+      "hero": "/media/cases/N005/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N005-body-1",
+          "type": "image",
+          "src": "/media/cases/N005/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N005-body-2",
+          "type": "image",
+          "src": "/media/cases/N005/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N005-body-3",
+          "type": "image",
+          "src": "/media/cases/N005/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N005-body-4",
+          "type": "image",
+          "src": "/media/cases/N005/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N005-body-5",
+          "type": "image",
+          "src": "/media/cases/N005/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N005-body-6",
+          "type": "image",
+          "src": "/media/cases/N005/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N005-body-7",
+          "type": "image",
+          "src": "/media/cases/N005/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N005-body-8",
+          "type": "image",
+          "src": "/media/cases/N005/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N006",
+      "slug": "n006-oi-coffee",
+      "name": "Oi·Coffee",
+      "intro": "咖啡品牌视觉与Brand Identity设计。",
+      "industryPrimary": "咖啡",
+      "industryTags": [
+        "饮品",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "IP Design",
+        "Illustration",
+        "Packaging",
+        "Campaign",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N006/cover.webp",
+      "hero": "/media/cases/N006/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N006-body-1",
+          "type": "image",
+          "src": "/media/cases/N006/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N006-body-2",
+          "type": "image",
+          "src": "/media/cases/N006/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N006-body-3",
+          "type": "image",
+          "src": "/media/cases/N006/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N006-body-4",
+          "type": "image",
+          "src": "/media/cases/N006/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N006-body-5",
+          "type": "image",
+          "src": "/media/cases/N006/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N006-body-6",
+          "type": "image",
+          "src": "/media/cases/N006/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N006-body-7",
+          "type": "image",
+          "src": "/media/cases/N006/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N006-body-8",
+          "type": "image",
+          "src": "/media/cases/N006/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N007",
+      "slug": "n007-稻米香·湘菜小炒",
+      "name": "稻米香·湘菜小炒",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "湘菜",
+        "快餐"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Typography",
+        "Graphic System",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "cover": "/media/cases/N007/cover.webp",
+      "hero": "/media/cases/N007/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N007-body-1",
+          "type": "image",
+          "src": "/media/cases/N007/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N007-body-2",
+          "type": "image",
+          "src": "/media/cases/N007/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N007-body-3",
+          "type": "image",
+          "src": "/media/cases/N007/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N007-body-4",
+          "type": "image",
+          "src": "/media/cases/N007/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N007-body-5",
+          "type": "image",
+          "src": "/media/cases/N007/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N007-body-6",
+          "type": "image",
+          "src": "/media/cases/N007/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N007-body-7",
+          "type": "image",
+          "src": "/media/cases/N007/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N007-body-8",
+          "type": "image",
+          "src": "/media/cases/N007/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N008",
+      "slug": "n008-shell-nook",
+      "name": "果壳里 Shell Nook",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "一人食",
+        "休闲餐饮"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Illustration",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "cover": "/media/cases/N008/cover.webp",
+      "hero": "/media/cases/N008/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N008-body-1",
+          "type": "image",
+          "src": "/media/cases/N008/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N008-body-2",
+          "type": "image",
+          "src": "/media/cases/N008/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N008-body-3",
+          "type": "image",
+          "src": "/media/cases/N008/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N008-body-4",
+          "type": "image",
+          "src": "/media/cases/N008/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N008-body-5",
+          "type": "image",
+          "src": "/media/cases/N008/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N008-body-6",
+          "type": "image",
+          "src": "/media/cases/N008/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N008-body-7",
+          "type": "image",
+          "src": "/media/cases/N008/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N008-body-8",
+          "type": "image",
+          "src": "/media/cases/N008/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N009",
+      "slug": "n009-饭点时光",
+      "name": "饭点时光",
+      "intro": "餐饮品牌视觉与Art Direction设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "融合餐饮",
+        "品质餐饮"
+      ],
+      "designPrimary": "Art Direction",
+      "designTags": [
+        "Brand Identity",
+        "Photography",
+        "Typography",
+        "Campaign",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N009/cover.webp",
+      "hero": "/media/cases/N009/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N009-body-1",
+          "type": "image",
+          "src": "/media/cases/N009/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N009-body-2",
+          "type": "image",
+          "src": "/media/cases/N009/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N009-body-3",
+          "type": "image",
+          "src": "/media/cases/N009/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N009-body-4",
+          "type": "image",
+          "src": "/media/cases/N009/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N009-body-5",
+          "type": "image",
+          "src": "/media/cases/N009/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N009-body-6",
+          "type": "image",
+          "src": "/media/cases/N009/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N009-body-7",
+          "type": "image",
+          "src": "/media/cases/N009/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N009-body-8",
+          "type": "image",
+          "src": "/media/cases/N009/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N010",
+      "slug": "n010-ruru-bite",
+      "name": "禾之伴 RURU Bite",
+      "intro": "轻食品牌视觉与Brand Identity设计。",
+      "industryPrimary": "轻食",
+      "industryTags": [
+        "健康餐饮",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Illustration",
+        "Packaging",
+        "Social Media",
+        "Campaign"
+      ],
+      "cover": "/media/cases/N010/cover.webp",
+      "hero": "/media/cases/N010/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N010-body-1",
+          "type": "image",
+          "src": "/media/cases/N010/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N010-body-2",
+          "type": "image",
+          "src": "/media/cases/N010/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N010-body-3",
+          "type": "image",
+          "src": "/media/cases/N010/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N010-body-4",
+          "type": "image",
+          "src": "/media/cases/N010/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N010-body-5",
+          "type": "image",
+          "src": "/media/cases/N010/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N010-body-6",
+          "type": "image",
+          "src": "/media/cases/N010/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N010-body-7",
+          "type": "image",
+          "src": "/media/cases/N010/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N010-body-8",
+          "type": "image",
+          "src": "/media/cases/N010/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N011",
+      "slug": "n011-tone",
+      "name": "豚豚冰屋 Tone",
+      "intro": "甜品品牌视觉与IP Design设计。",
+      "industryPrimary": "甜品",
+      "industryTags": [
+        "冰品",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "IP Design",
+      "designTags": [
+        "Brand Identity",
+        "Character Design",
+        "Illustration",
+        "Packaging",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N011/cover.webp",
+      "hero": "/media/cases/N011/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N011-body-1",
+          "type": "image",
+          "src": "/media/cases/N011/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N011-body-2",
+          "type": "image",
+          "src": "/media/cases/N011/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N011-body-3",
+          "type": "image",
+          "src": "/media/cases/N011/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N011-body-4",
+          "type": "image",
+          "src": "/media/cases/N011/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N011-body-5",
+          "type": "image",
+          "src": "/media/cases/N011/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N011-body-6",
+          "type": "image",
+          "src": "/media/cases/N011/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N011-body-7",
+          "type": "image",
+          "src": "/media/cases/N011/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N011-body-8",
+          "type": "image",
+          "src": "/media/cases/N011/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N012",
+      "slug": "n012-郑社长满分果汁",
+      "name": "郑社长满分果汁",
+      "intro": "饮品品牌视觉与Brand Identity设计。",
+      "industryPrimary": "饮品",
+      "industryTags": [
+        "果汁",
+        "年轻消费品牌"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Packaging",
+        "Campaign",
+        "Graphic System",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N012/cover.webp",
+      "hero": "/media/cases/N012/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N012-body-1",
+          "type": "image",
+          "src": "/media/cases/N012/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N012-body-2",
+          "type": "image",
+          "src": "/media/cases/N012/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N012-body-3",
+          "type": "image",
+          "src": "/media/cases/N012/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N012-body-4",
+          "type": "image",
+          "src": "/media/cases/N012/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N012-body-5",
+          "type": "image",
+          "src": "/media/cases/N012/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N012-body-6",
+          "type": "image",
+          "src": "/media/cases/N012/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N012-body-7",
+          "type": "image",
+          "src": "/media/cases/N012/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N012-body-8",
+          "type": "image",
+          "src": "/media/cases/N012/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N013",
+      "slug": "n013-manual-burger",
+      "name": "堡乎乎 Manual Burger",
+      "intro": "餐饮品牌视觉与IP Design设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "汉堡",
+        "快餐"
+      ],
+      "designPrimary": "IP Design",
+      "designTags": [
+        "Brand Identity",
+        "Character Design",
+        "Illustration",
+        "Packaging",
+        "Campaign"
+      ],
+      "cover": "/media/cases/N013/cover.webp",
+      "hero": "/media/cases/N013/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N013-body-1",
+          "type": "image",
+          "src": "/media/cases/N013/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N013-body-2",
+          "type": "image",
+          "src": "/media/cases/N013/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N013-body-3",
+          "type": "image",
+          "src": "/media/cases/N013/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N013-body-4",
+          "type": "image",
+          "src": "/media/cases/N013/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N013-body-5",
+          "type": "image",
+          "src": "/media/cases/N013/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N013-body-6",
+          "type": "image",
+          "src": "/media/cases/N013/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N013-body-7",
+          "type": "image",
+          "src": "/media/cases/N013/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N013-body-8",
+          "type": "image",
+          "src": "/media/cases/N013/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N014",
+      "slug": "n014-halo-tree",
+      "name": "欢树 Halo Tree",
+      "intro": "咖啡品牌视觉与Art Direction设计。",
+      "industryPrimary": "咖啡",
+      "industryTags": [
+        "日咖夜酒",
+        "庭院空间"
+      ],
+      "designPrimary": "Art Direction",
+      "designTags": [
+        "Brand Identity",
+        "Photography",
+        "Typography",
+        "Packaging",
+        "Spatial / Signage"
+      ],
+      "cover": "/media/cases/N014/cover.webp",
+      "hero": "/media/cases/N014/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N014-body-1",
+          "type": "image",
+          "src": "/media/cases/N014/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N014-body-2",
+          "type": "image",
+          "src": "/media/cases/N014/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N014-body-3",
+          "type": "image",
+          "src": "/media/cases/N014/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N014-body-4",
+          "type": "image",
+          "src": "/media/cases/N014/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N014-body-5",
+          "type": "image",
+          "src": "/media/cases/N014/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N014-body-6",
+          "type": "image",
+          "src": "/media/cases/N014/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N014-body-7",
+          "type": "image",
+          "src": "/media/cases/N014/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N014-body-8",
+          "type": "image",
+          "src": "/media/cases/N014/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N015",
+      "slug": "n015-台滋味·台式厨房",
+      "name": "台滋味·台式厨房",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "台式餐饮",
+        "地方风味"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Typography",
+        "Illustration",
+        "Campaign",
+        "Packaging",
+        "Signage"
+      ],
+      "cover": "/media/cases/N015/cover.webp",
+      "hero": "/media/cases/N015/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N015-body-1",
+          "type": "image",
+          "src": "/media/cases/N015/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N015-body-2",
+          "type": "image",
+          "src": "/media/cases/N015/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N015-body-3",
+          "type": "image",
+          "src": "/media/cases/N015/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N015-body-4",
+          "type": "image",
+          "src": "/media/cases/N015/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N015-body-5",
+          "type": "image",
+          "src": "/media/cases/N015/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N015-body-6",
+          "type": "image",
+          "src": "/media/cases/N015/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N015-body-7",
+          "type": "image",
+          "src": "/media/cases/N015/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N015-body-8",
+          "type": "image",
+          "src": "/media/cases/N015/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N016",
+      "slug": "n016-hui",
+      "name": "荟 HUI·威士忌水烟吧",
+      "intro": "酒吧品牌视觉与Brand Identity设计。",
+      "industryPrimary": "酒吧",
+      "industryTags": [
+        "威士忌",
+        "夜生活"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Typography",
+        "Art Direction",
+        "Campaign",
+        "Packaging",
+        "Spatial / Signage"
+      ],
+      "cover": "/media/cases/N016/cover.webp",
+      "hero": "/media/cases/N016/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N016-body-1",
+          "type": "image",
+          "src": "/media/cases/N016/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N016-body-2",
+          "type": "image",
+          "src": "/media/cases/N016/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N016-body-3",
+          "type": "image",
+          "src": "/media/cases/N016/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N016-body-4",
+          "type": "image",
+          "src": "/media/cases/N016/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N016-body-5",
+          "type": "image",
+          "src": "/media/cases/N016/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N016-body-6",
+          "type": "image",
+          "src": "/media/cases/N016/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N016-body-7",
+          "type": "image",
+          "src": "/media/cases/N016/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N016-body-8",
+          "type": "image",
+          "src": "/media/cases/N016/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N017",
+      "slug": "n017-大利村·手工鲜汤粉",
+      "name": "大利村·手工鲜汤粉",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "汤粉",
+        "地方风味"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Typography",
+        "Illustration",
+        "Graphic System",
+        "Packaging",
+        "Campaign"
+      ],
+      "cover": "/media/cases/N017/cover.webp",
+      "hero": "/media/cases/N017/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N017-body-1",
+          "type": "image",
+          "src": "/media/cases/N017/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N017-body-2",
+          "type": "image",
+          "src": "/media/cases/N017/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N017-body-3",
+          "type": "image",
+          "src": "/media/cases/N017/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N017-body-4",
+          "type": "image",
+          "src": "/media/cases/N017/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N017-body-5",
+          "type": "image",
+          "src": "/media/cases/N017/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N017-body-6",
+          "type": "image",
+          "src": "/media/cases/N017/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N017-body-7",
+          "type": "image",
+          "src": "/media/cases/N017/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N017-body-8",
+          "type": "image",
+          "src": "/media/cases/N017/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N018",
+      "slug": "n018-meekaka",
+      "name": "觅咔咔 Meekaka",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "融合餐饮",
+        "地方风味"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Graphic System",
+        "Packaging",
+        "Campaign",
+        "Signage"
+      ],
+      "cover": "/media/cases/N018/cover.webp",
+      "hero": "/media/cases/N018/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N018-body-1",
+          "type": "image",
+          "src": "/media/cases/N018/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N018-body-2",
+          "type": "image",
+          "src": "/media/cases/N018/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N018-body-3",
+          "type": "image",
+          "src": "/media/cases/N018/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N018-body-4",
+          "type": "image",
+          "src": "/media/cases/N018/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N018-body-5",
+          "type": "image",
+          "src": "/media/cases/N018/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N018-body-6",
+          "type": "image",
+          "src": "/media/cases/N018/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N018-body-7",
+          "type": "image",
+          "src": "/media/cases/N018/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N018-body-8",
+          "type": "image",
+          "src": "/media/cases/N018/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N019",
+      "slug": "n019-senmachi",
+      "name": "鮮燙町 Senmachi",
+      "intro": "餐饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "麻辣烫",
+        "日式街头"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Logo",
+        "Illustration",
+        "Typography",
+        "Campaign",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N019/cover.webp",
+      "hero": "/media/cases/N019/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N019-body-1",
+          "type": "image",
+          "src": "/media/cases/N019/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N019-body-2",
+          "type": "image",
+          "src": "/media/cases/N019/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N019-body-3",
+          "type": "image",
+          "src": "/media/cases/N019/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N019-body-4",
+          "type": "image",
+          "src": "/media/cases/N019/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N019-body-5",
+          "type": "image",
+          "src": "/media/cases/N019/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N019-body-6",
+          "type": "image",
+          "src": "/media/cases/N019/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N019-body-7",
+          "type": "image",
+          "src": "/media/cases/N019/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N019-body-8",
+          "type": "image",
+          "src": "/media/cases/N019/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N020",
+      "slug": "n020-awesome-bo",
+      "name": "巴适的钵 Awesome Bo",
+      "intro": "餐饮品牌视觉与IP Design设计。",
+      "industryPrimary": "餐饮",
+      "industryTags": [
+        "川味小吃",
+        "串串"
+      ],
+      "designPrimary": "IP Design",
+      "designTags": [
+        "Brand Identity",
+        "Character Design",
+        "Graphic System",
+        "Packaging",
+        "Merchandise"
+      ],
+      "cover": "/media/cases/N020/cover.webp",
+      "hero": "/media/cases/N020/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "N020-body-1",
+          "type": "image",
+          "src": "/media/cases/N020/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N020-body-2",
+          "type": "image",
+          "src": "/media/cases/N020/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N020-body-3",
+          "type": "image",
+          "src": "/media/cases/N020/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N020-body-4",
+          "type": "image",
+          "src": "/media/cases/N020/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N020-body-5",
+          "type": "image",
+          "src": "/media/cases/N020/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "N020-body-6",
+          "type": "image",
+          "src": "/media/cases/N020/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N020-body-7",
+          "type": "image",
+          "src": "/media/cases/N020/body-07.webp",
+          "layout": "full"
+        },
+        {
+          "id": "N020-body-8",
+          "type": "image",
+          "src": "/media/cases/N020/body-08.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "L010",
+      "slug": "l010-chunlai",
+      "name": "春莱 ChunLai·品牌视觉",
+      "intro": "茶饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "茶饮",
+      "industryTags": [
+        "茶饮",
+        "旧案例",
+        "品牌设计"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "cover": "/media/cases/L010/cover.webp",
+      "hero": "/media/cases/L010/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "L010-body-1",
+          "type": "image",
+          "src": "/media/cases/L010/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "L010-body-2",
+          "type": "image",
+          "src": "/media/cases/L010/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L010-body-3",
+          "type": "image",
+          "src": "/media/cases/L010/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L010-body-4",
+          "type": "image",
+          "src": "/media/cases/L010/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L010-body-5",
+          "type": "image",
+          "src": "/media/cases/L010/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L010-body-6",
+          "type": "image",
+          "src": "/media/cases/L010/body-06.webp",
+          "layout": "full"
+        },
+        {
+          "id": "L010-body-7",
+          "type": "image",
+          "src": "/media/cases/L010/body-07.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "L011",
+      "slug": "l011-chunlai",
+      "name": "春莱 ChunLai·品牌升级",
+      "intro": "茶饮品牌视觉与Brand Identity设计。",
+      "industryPrimary": "茶饮",
+      "industryTags": [
+        "茶饮",
+        "旧案例",
+        "品牌设计"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "cover": "/media/cases/L011/cover.webp",
+      "hero": "/media/cases/L011/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "L011-body-1",
+          "type": "image",
+          "src": "/media/cases/L011/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "L011-body-2",
+          "type": "image",
+          "src": "/media/cases/L011/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L011-body-3",
+          "type": "image",
+          "src": "/media/cases/L011/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L011-body-4",
+          "type": "image",
+          "src": "/media/cases/L011/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L011-body-5",
+          "type": "image",
+          "src": "/media/cases/L011/body-05.webp",
+          "layout": "half"
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "L012",
+      "slug": "l012-文柠记",
+      "name": "文柠记",
+      "intro": "柠檬茶品牌视觉与Brand Identity设计。",
+      "industryPrimary": "柠檬茶",
+      "industryTags": [
+        "柠檬茶",
+        "旧案例",
+        "品牌设计"
+      ],
+      "designPrimary": "Brand Identity",
+      "designTags": [
+        "Brand Identity",
+        "Art Direction"
+      ],
+      "cover": "/media/cases/L012/cover.webp",
+      "hero": "/media/cases/L012/hero.webp",
+      "bodyAssets": [
+        {
+          "id": "L012-body-1",
+          "type": "image",
+          "src": "/media/cases/L012/body-01.webp",
+          "layout": "full"
+        },
+        {
+          "id": "L012-body-2",
+          "type": "image",
+          "src": "/media/cases/L012/body-02.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L012-body-3",
+          "type": "image",
+          "src": "/media/cases/L012/body-03.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L012-body-4",
+          "type": "image",
+          "src": "/media/cases/L012/body-04.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L012-body-5",
+          "type": "image",
+          "src": "/media/cases/L012/body-05.webp",
+          "layout": "half"
+        },
+        {
+          "id": "L012-body-6",
+          "type": "image",
+          "src": "/media/cases/L012/body-06.webp",
+          "layout": "full"
+        }
+      ],
+      "published": true
+    }
+  ],
+  "defaultOrder": [
+    "N013",
+    "N014",
+    "N005",
+    "N016",
+    "N017",
+    "N011",
+    "N009",
+    "N006",
+    "N003",
+    "N012",
+    "N001",
+    "N004",
+    "N019",
+    "N008",
+    "N002",
+    "N015",
+    "N018",
+    "N010",
+    "N007",
+    "N020",
+    "L012",
+    "L010",
+    "L011"
+  ],
+  "versions": [
+    {
+      "slug": "food",
+      "name": "Food",
+      "enabled": true,
+      "priorityCaseIds": [
+        "N017",
+        "N003",
+        "N013",
+        "N009",
+        "N004",
+        "N007",
+        "N019",
+        "N020",
+        "N015",
+        "N018",
+        "N008",
+        "N010"
+      ]
+    },
+    {
+      "slug": "drinks",
+      "name": "Drinks",
+      "enabled": true,
+      "priorityCaseIds": [
+        "N002",
+        "N012",
+        "L012",
+        "N006",
+        "L011",
+        "N001",
+        "L010",
+        "N014",
+        "N005",
+        "N011"
+      ]
+    },
+    {
+      "slug": "ip",
+      "name": "IP",
+      "enabled": true,
+      "priorityCaseIds": [
+        "N013",
+        "N011",
+        "N006",
+        "N001",
+        "N020",
+        "N005",
+        "N012",
+        "N004",
+        "N008",
+        "N010"
+      ]
+    },
+    {
+      "slug": "premium",
+      "name": "Premium",
+      "enabled": true,
+      "priorityCaseIds": [
+        "N014",
+        "N016",
+        "N009",
+        "N003",
+        "N015",
+        "N018"
+      ]
+    }
+  ]
+}
