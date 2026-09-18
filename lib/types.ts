@@ -33,7 +33,6 @@ export type BodyAsset = {
 
 export type PortfolioCase = {
   id: string;
-  slug: string;
   name: string;
   intro: string;
   business: Business;

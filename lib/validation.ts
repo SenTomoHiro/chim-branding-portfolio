@@ -1,7 +1,6 @@
 import type { AssetProvenance, Business, CaseCategory, ContentData, PortfolioCase } from "./types";
 import { BUSINESSES, CASE_CATEGORIES } from "./taxonomy";
 
-const slugPattern = /^[\p{L}\p{N}]+(?:[-·][\p{L}\p{N}]+)*$/u;
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
 const businessValues = new Set<string>(BUSINESSES.map((item) => item.value));
 const categoryValues = new Set<string>(CASE_CATEGORIES.map((item) => item.value));
@@ -34,9 +33,7 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   if (!value || typeof value !== "object") throw new Error("案例数据无效");
   const input = value as Record<string, unknown>;
   const name = String(input.name || "").trim();
-  const slug = String(input.slug || "").trim().toLowerCase();
   if (!name) throw new Error("请输入案例名称");
-  if (!slugPattern.test(slug)) throw new Error("Slug 仅支持中英文字母、数字、连字符与间隔点");
   const business = String(input.business || "") as Business;
   if (!businessValues.has(business)) throw new Error("请选择所属业务");
   const submittedCategories = [...new Set(strings(input.categories))];
@@ -47,7 +44,7 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
     return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, provenance: provenance(media.provenance) };
   }).filter((item) => item.src) : [];
   return {
-    id: existing?.id || String(input.id || `C${Date.now()}`), slug, name,
+    id: existing?.id || String(input.id || `C${Date.now()}`), name,
     intro: String(input.intro || "").trim(), business,
     categories: categories as CaseCategory[], primaryIndustry: String(input.primaryIndustry || "").trim(),
     cover: String(input.cover || ""),
@@ -60,6 +57,6 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   };
 }
 
-export function assertUniqueSlug(data: ContentData, item: PortfolioCase) {
-  if (data.cases.some((entry) => entry.slug === item.slug && entry.id !== item.id)) throw new Error("Slug 已被其他案例使用");
+export function assertUniqueName(data: ContentData, item: PortfolioCase) {
+  if (data.cases.some((entry) => entry.name === item.name && entry.id !== item.id)) throw new Error("案例名称已存在，请使用唯一名称。");
 }

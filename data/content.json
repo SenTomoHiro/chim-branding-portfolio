@@ -2,7 +2,6 @@
   "cases": [
     {
       "id": "N001",
-      "slug": "n001-w-concept-cafe",
       "name": "W² Concept Cafe",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N001/v3-cover.webp",
@@ -161,7 +160,6 @@
     },
     {
       "id": "N002",
-      "slug": "n002-粤有福手作",
       "name": "粤有福手作",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N002/v3-cover.webp",
@@ -509,7 +507,6 @@
     },
     {
       "id": "N003",
-      "slug": "n003-小满",
       "name": "小满",
       "intro": "餐饮品牌视觉与Visual Identity设计。",
       "cover": "/media/cases/N003/v3-cover.webp",
@@ -781,7 +778,6 @@
     },
     {
       "id": "N004",
-      "slug": "n004-三餐好乡邻",
       "name": "三餐好乡邻",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N004/v3-cover.webp",
@@ -977,7 +973,6 @@
     },
     {
       "id": "N005",
-      "slug": "n005-fruits-pops",
       "name": "水果老爸 Fruits Pops",
       "intro": "甜品品牌视觉与Packaging设计。",
       "cover": "/media/cases/N005/v3-cover.webp",
@@ -1268,7 +1263,6 @@
     },
     {
       "id": "N006",
-      "slug": "n006-oi-coffee",
       "name": "Oi·Coffee",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N006/v3-cover.webp",
@@ -1598,7 +1592,6 @@
     },
     {
       "id": "N007",
-      "slug": "n007-稻米香·湘菜小炒",
       "name": "稻米香·湘菜小炒",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N007/v3-cover.webp",
@@ -1832,7 +1825,6 @@
     },
     {
       "id": "N008",
-      "slug": "n008-shell-nook",
       "name": "果壳里 Shell Nook",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N008/v3-cover.webp",
@@ -2066,7 +2058,6 @@
     },
     {
       "id": "N009",
-      "slug": "n009-饭点时光",
       "name": "饭点时光",
       "intro": "餐饮品牌视觉与Art Direction设计。",
       "cover": "/media/cases/N009/v3-cover.webp",
@@ -2357,7 +2348,6 @@
     },
     {
       "id": "N010",
-      "slug": "n010-ruru-bite",
       "name": "禾之伴 RURU Bite",
       "intro": "轻食品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N010/v3-cover.webp",
@@ -2458,7 +2448,6 @@
     },
     {
       "id": "N011",
-      "slug": "n011-tone",
       "name": "豚豚冰屋 Tone",
       "intro": "甜品品牌视觉与IP Design设计。",
       "cover": "/media/cases/N011/v3-cover.webp",
@@ -2712,7 +2701,6 @@
     },
     {
       "id": "N012",
-      "slug": "n012-郑社长满分果汁",
       "name": "郑社长满分果汁",
       "intro": "饮品品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N012/v3-cover.webp",
@@ -3098,7 +3086,6 @@
     },
     {
       "id": "N013",
-      "slug": "n013-manual-burger",
       "name": "堡乎乎 Manual Burger",
       "intro": "餐饮品牌视觉与IP Design设计。",
       "cover": "/media/cases/N013/v3-cover.webp",
@@ -3390,7 +3377,6 @@
     },
     {
       "id": "N014",
-      "slug": "n014-halo-tree",
       "name": "欢树 Halo Tree",
       "intro": "咖啡品牌视觉与Art Direction设计。",
       "cover": "/media/cases/N014/v3-cover.webp",
@@ -3701,7 +3687,6 @@
     },
     {
       "id": "N015",
-      "slug": "n015-台滋味·台式厨房",
       "name": "台滋味·台式厨房",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N015/v3-cover.webp",
@@ -3916,7 +3901,6 @@
     },
     {
       "id": "N016",
-      "slug": "n016-hui",
       "name": "荟 HUI·威士忌水烟吧",
       "intro": "酒吧品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N016/v3-cover.webp",
@@ -4245,7 +4229,6 @@
     },
     {
       "id": "N017",
-      "slug": "n017-大利村·手工鲜汤粉",
       "name": "大利村·手工鲜汤粉",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N017/v3-cover.webp",
@@ -4498,7 +4481,6 @@
     },
     {
       "id": "N018",
-      "slug": "n018-meekaka",
       "name": "觅咔咔 Meekaka",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N018/v3-cover.webp",
@@ -4789,7 +4771,6 @@
     },
     {
       "id": "N019",
-      "slug": "n019-senmachi",
       "name": "鮮燙町 Senmachi",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N019/v3-cover.webp",
@@ -4947,7 +4928,6 @@
     },
     {
       "id": "N020",
-      "slug": "n020-awesome-bo",
       "name": "巴适的钵 Awesome Bo",
       "intro": "餐饮品牌视觉与IP Design设计。",
       "cover": "/media/cases/N020/v3-cover.webp",
@@ -5087,7 +5067,6 @@
     },
     {
       "id": "L010",
-      "slug": "l010-chunlai",
       "name": "春莱 ChunLai·品牌视觉",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/L010/cover.webp",
@@ -5147,7 +5126,6 @@
     },
     {
       "id": "L011",
-      "slug": "l011-chunlai",
       "name": "春莱 ChunLai·品牌升级",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/L011/cover.webp",
@@ -5195,7 +5173,6 @@
     },
     {
       "id": "L012",
-      "slug": "l012-文柠记",
       "name": "文柠记",
       "intro": "柠檬茶品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/L012/cover.webp",
@@ -5249,7 +5226,6 @@
     },
     {
       "id": "L001",
-      "slug": "l001-space-bunnies",
       "name": "仙兔策划·太空兔 Space Bunnies",
       "intro": "仙兔策划·太空兔 Space Bunnies的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L001/psd-cover.webp",
@@ -5663,7 +5639,6 @@
     },
     {
       "id": "L002",
-      "slug": "l002-huananxing",
       "name": "华南行",
       "intro": "华南行的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L002/psd-cover.webp",
@@ -6077,7 +6052,6 @@
     },
     {
       "id": "L003",
-      "slug": "l003-coffee-forty",
       "name": "咖啡肆拾 Coffee Forty",
       "intro": "咖啡肆拾 Coffee Forty的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L003/psd-cover.webp",
@@ -6299,7 +6273,6 @@
     },
     {
       "id": "L004",
-      "slug": "l004-maxdona",
       "name": "MaxDona",
       "intro": "MaxDona的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L004/psd-cover.webp",
@@ -6521,7 +6494,6 @@
     },
     {
       "id": "L005",
-      "slug": "l005-logo-collection-1",
       "name": "标志设计合集 I",
       "intro": "标志设计合集 I的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L005/psd-cover.webp",
@@ -6863,7 +6835,6 @@
     },
     {
       "id": "L006",
-      "slug": "l006-logo-collection-2",
       "name": "标志设计合集 II",
       "intro": "标志设计合集 II的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L006/psd-cover.webp",
@@ -7181,7 +7152,6 @@
     },
     {
       "id": "L007",
-      "slug": "l007-dimai-cat-food",
       "name": "迪迈猫粮",
       "intro": "迪迈猫粮的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L007/psd-cover.webp",
@@ -7403,7 +7373,6 @@
     },
     {
       "id": "L008",
-      "slug": "l008-pangfu-mooncake",
       "name": "胖福月饼",
       "intro": "胖福月饼的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L008/psd-cover.webp",
@@ -7553,7 +7522,6 @@
     },
     {
       "id": "L009",
-      "slug": "l009-hacinana",
       "name": "hacinana",
       "intro": "hacinana的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L009/psd-cover.webp",
@@ -7679,7 +7647,6 @@
     },
     {
       "id": "L021",
-      "slug": "l021-alassis",
       "name": "ALASSIS·香薰蜡烛",
       "intro": "ALASSIS·香薰蜡烛商业摄影与美术指导案例。",
       "cover": "/media/cases/L021/photo-cover.webp",
@@ -7873,7 +7840,6 @@
     },
     {
       "id": "L023",
-      "slug": "l023-miwu-home",
       "name": "迷物家居",
       "intro": "迷物家居商业摄影与美术指导案例。",
       "cover": "/media/cases/L023/photo-cover.webp",
@@ -8067,7 +8033,6 @@
     },
     {
       "id": "L015",
-      "slug": "l015-hogood-coffee",
       "name": "后谷咖啡",
       "intro": "后谷咖啡商业摄影与美术指导案例。",
       "cover": "/media/cases/L015/photo-cover.webp",
@@ -8223,7 +8188,6 @@
     },
     {
       "id": "L018",
-      "slug": "l018-pavomea-cookies",
       "name": "PavoMea·饼干",
       "intro": "PavoMea·饼干商业摄影与美术指导案例。",
       "cover": "/media/cases/L018/photo-cover.webp",
@@ -8398,7 +8362,6 @@
     },
     {
       "id": "L025",
-      "slug": "l025-zilu",
       "name": "紫庐·中西餐",
       "intro": "紫庐·中西餐商业摄影与美术指导案例。",
       "cover": "/media/cases/L025/photo-cover.webp",
@@ -8592,7 +8555,6 @@
     },
     {
       "id": "L017",
-      "slug": "l017-gangjiu-tea",
       "name": "七港九·茶饮系列",
       "intro": "七港九·茶饮系列商业摄影与美术指导案例。",
       "cover": "/media/cases/L017/photo-cover.webp",
@@ -8748,7 +8710,6 @@
     },
     {
       "id": "L028",
-      "slug": "l028-wutong-silver",
       "name": "乌铜走银·银器首饰",
       "intro": "乌铜走银·银器首饰商业摄影与美术指导案例。",
       "cover": "/media/cases/L028/photo-cover.webp",
@@ -8904,7 +8865,6 @@
     },
     {
       "id": "L013",
-      "slug": "l013-jiaomu-wellness-tea",
       "name": "骄慕·养生茶",
       "intro": "骄慕·养生茶商业摄影与美术指导案例。",
       "cover": "/media/cases/L013/photo-cover.webp",
@@ -9098,7 +9058,6 @@
     },
     {
       "id": "L022",
-      "slug": "l022-mosanana",
       "name": "mosanana·眼镜",
       "intro": "mosanana·眼镜商业摄影与美术指导案例。",
       "cover": "/media/cases/L022/photo-cover.webp",
@@ -9197,7 +9156,6 @@
     },
     {
       "id": "L020",
-      "slug": "l020-pavomea-madeleine",
       "name": "PavoMea·玛德琳蛋糕",
       "intro": "PavoMea·玛德琳蛋糕商业摄影与美术指导案例。",
       "cover": "/media/cases/L020/photo-cover.webp",
@@ -9315,7 +9273,6 @@
     },
     {
       "id": "L027",
-      "slug": "l027-wutong-tea",
       "name": "乌铜走银·茶与工艺",
       "intro": "乌铜走银·茶与工艺商业摄影与美术指导案例。",
       "cover": "/media/cases/L027/photo-cover.webp",
@@ -9471,7 +9428,6 @@
     },
     {
       "id": "L029",
-      "slug": "l029-longshang-apple",
       "name": "陇上花牛苹果汁",
       "intro": "陇上花牛苹果汁商业摄影与美术指导案例。",
       "cover": "/media/cases/L029/photo-cover.webp",
@@ -9665,7 +9621,6 @@
     },
     {
       "id": "L024",
-      "slug": "l024-ct-bee",
       "name": "CT BEE·咖啡与奶茶",
       "intro": "CT BEE·咖啡与奶茶商业摄影与美术指导案例。",
       "cover": "/media/cases/L024/photo-cover.webp",
@@ -9802,7 +9757,6 @@
     },
     {
       "id": "L019",
-      "slug": "l019-pavomea-chestnut",
       "name": "PavoMea·脆栗子",
       "intro": "PavoMea·脆栗子商业摄影与美术指导案例。",
       "cover": "/media/cases/L019/photo-cover.webp",
@@ -9901,7 +9855,6 @@
     },
     {
       "id": "L030",
-      "slug": "l030-chunlai-photo",
       "name": "春莱 ChunLai·茶饮摄影",
       "intro": "春莱 ChunLai·茶饮摄影商业摄影与美术指导案例。",
       "cover": "/media/cases/L030/photo-cover.webp",
@@ -10000,7 +9953,6 @@
     },
     {
       "id": "L026",
-      "slug": "l026-li-dama",
       "name": "李大妈把猪脚米线",
       "intro": "李大妈把猪脚米线商业摄影与美术指导案例。",
       "cover": "/media/cases/L026/photo-cover.webp",
@@ -10137,7 +10089,6 @@
     },
     {
       "id": "L014",
-      "slug": "l014-jiaomu-goji",
       "name": "骄慕·枸杞原浆",
       "intro": "骄慕·枸杞原浆商业摄影与美术指导案例。",
       "cover": "/media/cases/L014/photo-cover.webp",
@@ -10217,7 +10168,6 @@
     },
     {
       "id": "L016",
-      "slug": "l016-gangjiu-berry",
       "name": "七港九·港九莓莓",
       "intro": "七港九·港九莓莓商业摄影与美术指导案例。",
       "cover": "/media/cases/L016/photo-cover.webp",

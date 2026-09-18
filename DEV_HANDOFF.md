@@ -18,7 +18,7 @@ CHIM Portfolio 的分类模型、后台字段、公开导航、路由标题、�
 - `/photo`：全部已发布 Photography。
 - `/food`、`/drinks`、`/ip`、`/other`：从 Branding 默认顺序中按固定分类过滤。
 - `/premium`：已删除并返回 404。
-- `/work/[slug]`：Branding 与 Photography 共用详情实现。
+- `/work/[name]`：Branding 与 Photography 共用详情实现，案例名称编码后作为 URL 路径。
 - `/admin`：唯一后台入口；保留 Branding 与 Photography 两套默认排序。
 
 ## UI AND MOTION

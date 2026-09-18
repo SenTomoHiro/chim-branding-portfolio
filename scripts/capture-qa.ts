@@ -31,7 +31,7 @@ async function main() {
   await desktop.screenshot({ path: path.join(output, "desktop-home-middle.png") });
   await desktop.evaluate(() => scrollTo(0, document.body.scrollHeight));
   await desktop.screenshot({ path: path.join(output, "desktop-home-lower.png") });
-  await desktop.goto("http://localhost:3000/work/n009-%E9%A5%AD%E7%82%B9%E6%97%B6%E5%85%89", { waitUntil: "networkidle" });
+  await desktop.goto("http://localhost:3000/work/%E9%A5%AD%E7%82%B9%E6%97%B6%E5%85%89", { waitUntil: "networkidle" });
   await checkPage(desktop, "desktop unicode detail", issues);
   await desktop.screenshot({ path: path.join(output, "desktop-detail-n009.png") });
   await desktop.close();
@@ -42,7 +42,7 @@ async function main() {
   await mobile.goto("http://localhost:3000", { waitUntil: "networkidle" });
   await checkPage(mobile, "mobile home", issues);
   await mobile.screenshot({ path: path.join(output, "mobile-home.png") });
-  await mobile.goto("http://localhost:3000/work/n013-manual-burger", { waitUntil: "networkidle" });
+  await mobile.goto("http://localhost:3000/work/%E5%A0%A1%E4%B9%8E%E4%B9%8E%20Manual%20Burger", { waitUntil: "networkidle" });
   await checkPage(mobile, "mobile detail", issues);
   await mobile.screenshot({ path: path.join(output, "mobile-detail-n013.png") });
   await mobile.goto("http://localhost:3000/admin", { waitUntil: "networkidle" });

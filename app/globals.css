@@ -6,7 +6,8 @@ a { color:inherit; text-decoration:none; }
 .siteHeader { min-height:110px; padding:18px var(--pad); display:flex; align-items:center; justify-content:space-between; gap:36px; border-bottom:1px solid var(--line); position:relative; z-index:5; animation:headerReveal var(--motion-medium) var(--motion-ease) both; }
 .wordmark { font-size:1.35rem; font-weight:800; letter-spacing:-.06em; }
 .wordmark span { font-size:.55rem; vertical-align:top; margin-left:2px; }
-.siteNavigation { display:grid; justify-items:end; gap:13px; }
+.headerActions,.siteNavigation { min-width:0; display:grid; justify-items:end; }
+.siteNavigation { gap:13px; }
 .siteHeader nav { display:flex; align-items:flex-start; gap:clamp(14px,2.3vw,34px); }
 .siteHeader nav a { min-height:44px; display:grid; align-content:center; gap:2px; opacity:.42; transition:opacity var(--motion-fast),transform var(--motion-fast) var(--motion-ease); }
 .siteHeader nav a strong { font-size:.88rem; font-weight:600; }
@@ -15,9 +16,8 @@ a { color:inherit; text-decoration:none; }
 .categoryNav { padding-top:12px; border-top:1px solid var(--line); }
 .categoryNav a strong { font-size:.75rem !important; }
 .categoryNav a span { font-size:.5rem !important; }
-.detailHeader { position:sticky; top:0; z-index:20; background:rgba(244,243,239,.98); }
-.detailHeader .siteNavigation { display:flex; align-items:center; gap:clamp(18px,2.4vw,36px); }
-.detailHeader .categoryNav { padding:0 0 0 clamp(18px,2.4vw,36px); border-top:0; border-left:1px solid var(--line); }
+.detailHeader { position:sticky; top:0; z-index:20; padding-bottom:0; background:rgba(244,243,239,.98); }
+.detailControls { width:100%; display:flex; justify-content:flex-end; }
 .detailClose { width:44px; height:44px; flex:0 0 44px; display:grid; place-items:center; border:0; background:transparent; color:var(--ink); cursor:pointer; }
 .detailClose span { font-size:2rem; line-height:1; font-weight:300; transform:translateY(-1px); }
 .detailClose:hover span { transform:translateY(-1px) rotate(90deg); transition:transform var(--motion-fast) var(--motion-ease); }
@@ -141,21 +141,16 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 @media (min-width:768px) and (max-width:1199px) {
   .siteHeader { gap:24px; }
   .siteHeader nav { gap:clamp(13px,2vw,24px); }
-  .detailHeader .siteNavigation { flex:1; }
   .workHero { height:min(72vh,820px); }
   .workIntro { grid-template-columns:minmax(0,3fr) minmax(240px,2fr); gap:32px; }
   .workIntro h1 { font-size:clamp(4rem,9vw,7rem); }
 }
 @media (max-width:767px) {
-  .siteHeader { min-height:0; padding-top:18px; padding-bottom:16px; align-items:flex-start; }
+  .siteHeader { min-height:0; padding-top:18px; padding-bottom:16px; align-items:flex-start; gap:16px; }
+  .detailHeader { padding-bottom:0; }
+  .headerActions { width:min(275px,calc(100% - 70px)); }
   .siteNavigation { max-width:275px; gap:11px; }
   .siteHeader nav { width:100%; flex-wrap:nowrap; justify-content:flex-end; gap:14px; }
-  .detailHeader { display:grid; grid-template-columns:auto minmax(0,1fr) 44px; align-items:start; gap:8px 14px; }
-  .detailHeader .wordmark { align-self:center; }
-  .detailHeader .siteNavigation { grid-column:1/-1; grid-row:2; width:100%; max-width:none; display:grid; grid-template-columns:auto minmax(0,1fr); align-items:start; gap:14px; }
-  .detailHeader .businessNav { justify-content:flex-start; }
-  .detailHeader .categoryNav { padding:0 0 3px; border:0; justify-content:flex-end !important; }
-  .detailClose { grid-column:3; grid-row:1; }
   .businessNav a strong { font-size:.78rem !important; }
   .categoryNav { overflow-x:auto; justify-content:flex-start !important; padding-bottom:3px; scrollbar-width:none; }
   .categoryNav a { flex:0 0 auto; }

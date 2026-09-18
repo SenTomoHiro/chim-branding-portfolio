@@ -16,11 +16,6 @@ type LegacyAudit = {
   case_id: string; name: string; industry_primary: string;
 };
 
-const slugs: Record<string, string> = {
-  L001: "l001-space-bunnies", L002: "l002-huananxing", L003: "l003-coffee-forty",
-  L004: "l004-maxdona", L005: "l005-logo-collection-1", L006: "l006-logo-collection-2",
-  L007: "l007-dimai-cat-food", L008: "l008-pangfu-mooncake", L009: "l009-hacinana",
-};
 const root = process.cwd();
 
 async function optimize(source: string, destination: string, kind: "cover" | "content") {
@@ -74,7 +69,6 @@ async function main() {
     }
     imported.push({
       id: recovered.case_id,
-      slug: current?.slug ?? slugs[recovered.case_id],
       name: current?.name ?? audit.name,
       intro: current?.intro ?? `${audit.name}的品牌视觉与平面设计案例。`,
       business: "branding",

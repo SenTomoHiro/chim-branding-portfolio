@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ViewTransition, useEffect, useRef, useState, type CSSProperties } from "react";
+import { casePath } from "@/lib/case-route";
 import { formatCaseMetadata } from "@/lib/taxonomy";
 import type { PortfolioCase } from "@/lib/types";
 
@@ -17,8 +18,9 @@ export function CaseCard({ item, index, style }: { item: PortfolioCase; index: n
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [visible]);
+  const href = casePath(item.name);
   return <article ref={ref} className={`caseCard ${visible ? "isVisible" : ""}`} data-case-id={item.id} style={{ ...style, "--reveal-delay": `${(index % 3) * 70}ms` } as CSSProperties}>
-    <Link href={`/work/${item.slug}`} onClick={() => sessionStorage.setItem("chim-case-list-entry", JSON.stringify({ source: window.location.pathname, target: `/work/${item.slug}` }))} onPointerEnter={() => { setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
+    <Link href={href} onClick={() => sessionStorage.setItem("chim-case-list-entry", JSON.stringify({ source: window.location.pathname, target: href }))} onPointerEnter={() => { setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
       <ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none">
         <div className="caseImage"><Image className="primaryMedia" src={`${item.cover}?v=${item.coverWidth}x${item.coverHeight}`} alt="" width={item.coverWidth} height={item.coverHeight} sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw" priority={index < 3} />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={secondary} alt="" loading="lazy" decoding="async" />}</div>
       </ViewTransition>

@@ -3,7 +3,7 @@ import { createMasonryLayout } from "../../lib/masonry";
 import type { PortfolioCase } from "../../lib/types";
 
 const item = (id: string, width: number, height: number): PortfolioCase => ({
-  id, slug: id.toLowerCase(), name: id, intro: "", business: "branding", categories: ["other"], primaryIndustry: "",
+  id, name: id, intro: "", business: "branding", categories: ["other"], primaryIndustry: "",
   cover: "", coverWidth: width, coverHeight: height,
   hero: "", bodyAssets: [], published: true,
 });
