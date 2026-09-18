@@ -1,0 +1,532 @@
+{
+  "schema_version": 1,
+  "scan_root": "/Users/chim/Codex开发项目/案例展示网站",
+  "scan_excluded_directories": [
+    ".git",
+    ".next",
+    "node_modules"
+  ],
+  "discovered_pdf_count": 22,
+  "reconciliation_row_count": 22,
+  "invariant_discovered_equals_reconciled": true,
+  "items": [
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/旧案例/SC-平面设计案例.pdf",
+      "relative_path": "旧案例/SC-平面设计案例.pdf",
+      "filename": "SC-平面设计案例.pdf",
+      "parent_folder": "旧案例",
+      "file_size_bytes": 167864578,
+      "page_count": 17,
+      "sha256": "6ef99c5c625aec58bde092da7e98d7e74fd7b889764d13408b7d3fd0b24af46e",
+      "classification": "LEGACY_REFERENCE",
+      "case_ids": [
+        "L001",
+        "L002",
+        "L003",
+        "L004",
+        "L005",
+        "L006",
+        "L007",
+        "L008",
+        "L009",
+        "L010",
+        "L011",
+        "L012"
+      ],
+      "case_names": [
+        "仙兔策划·太空兔 Space Bunnies",
+        "华南行",
+        "咖啡肆拾 Coffee Forty",
+        "MaxDona",
+        "标志设计合集 I",
+        "标志设计合集 II",
+        "迪迈猫粮",
+        "胖福月饼",
+        "hacinana",
+        "春莱 ChunLai·品牌视觉",
+        "春莱 ChunLai·品牌升级",
+        "文柠记"
+      ],
+      "page_ranges": "L001–L012 = pages 2–13; page 1 cover; pages 14–17 pricing/notice",
+      "previously_omitted": false,
+      "reason": "Legacy multi-case boundary/reference PDF; AI/PSD remains the formal asset authority.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/LEGACY-FLAT"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/旧案例/SC-摄影案例.pdf",
+      "relative_path": "旧案例/SC-摄影案例.pdf",
+      "filename": "SC-摄影案例.pdf",
+      "parent_folder": "旧案例",
+      "file_size_bytes": 231785833,
+      "page_count": 21,
+      "sha256": "71395317fce8166689c319be8cee43637f0663e10f77d9b015f4d1c6b8565cc1",
+      "classification": "LEGACY_REFERENCE",
+      "case_ids": [
+        "L013",
+        "L014",
+        "L015",
+        "L016",
+        "L017",
+        "L018",
+        "L019",
+        "L020",
+        "L021",
+        "L022",
+        "L023",
+        "L024",
+        "L025",
+        "L026",
+        "L027",
+        "L028",
+        "L029",
+        "L030"
+      ],
+      "case_names": [
+        "骄慕·养生茶",
+        "骄慕·枸杞原浆",
+        "后谷咖啡",
+        "七港九·港九莓莓",
+        "七港九·茶饮系列",
+        "PavoMea·饼干",
+        "PavoMea·脆栗子",
+        "PavoMea·玛德琳蛋糕",
+        "ALASSIS·香薰蜡烛",
+        "mosanana·眼镜",
+        "迷物家居",
+        "CT BEE·咖啡与奶茶",
+        "紫庐·中西餐",
+        "李大妈把猪脚米线",
+        "乌铜走银·茶与工艺",
+        "乌铜走银·银器首饰",
+        "陇上花牛苹果汁",
+        "春莱 ChunLai·茶饮摄影"
+      ],
+      "page_ranges": "L013–L030 = pages 2–19; page 1 cover; pages 20–21 pricing/notice",
+      "previously_omitted": false,
+      "reason": "Legacy multi-case boundary/reference PDF; AI/PSD remains the formal asset authority.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/LEGACY-PHOTO"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
+      "relative_path": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
+      "filename": "250820-W² Concept Cafe.pdf",
+      "parent_folder": "新案例/250820-W² Concept Cafe",
+      "file_size_bytes": 4524503,
+      "page_count": 33,
+      "sha256": "350f079f2e41894a45cee165346705ea32e459da238792c4823b4c000eeddb38",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N001"
+      ],
+      "case_names": [
+        "W² Concept Cafe"
+      ],
+      "page_ranges": "pages 1–33",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N001"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/251015-粤有福手作/251015-粤有福手作.pdf",
+      "relative_path": "新案例/251015-粤有福手作/251015-粤有福手作.pdf",
+      "filename": "251015-粤有福手作.pdf",
+      "parent_folder": "新案例/251015-粤有福手作",
+      "file_size_bytes": 7551914,
+      "page_count": 48,
+      "sha256": "656e30effa8be87e607b6661ccaeeb66a79acd912a5a4e722bbcc3e11733a47d",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N002"
+      ],
+      "case_names": [
+        "粤有福手作"
+      ],
+      "page_ranges": "pages 1–48",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N002"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/251211-小满/251211-小满.pdf",
+      "relative_path": "新案例/251211-小满/251211-小满.pdf",
+      "filename": "251211-小满.pdf",
+      "parent_folder": "新案例/251211-小满",
+      "file_size_bytes": 6795483,
+      "page_count": 36,
+      "sha256": "e0c319d4ef08e7711a0dfe49288908ea51be8f2b35ddc7f100858daecca029bc",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N003"
+      ],
+      "case_names": [
+        "小满"
+      ],
+      "page_ranges": "pages 1–36",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N003"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/251224-三餐好乡邻/251224-三餐好乡邻.pdf",
+      "relative_path": "新案例/251224-三餐好乡邻/251224-三餐好乡邻.pdf",
+      "filename": "251224-三餐好乡邻.pdf",
+      "parent_folder": "新案例/251224-三餐好乡邻",
+      "file_size_bytes": 4058377,
+      "page_count": 26,
+      "sha256": "f055d357ce644e88df0872c652717c2dffc087c045f5b0b20b669ee4a83dd515",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N004"
+      ],
+      "case_names": [
+        "三餐好乡邻"
+      ],
+      "page_ranges": "pages 1–26",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N004"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/251229-水果老爸/251229-水果老爸.pdf",
+      "relative_path": "新案例/251229-水果老爸/251229-水果老爸.pdf",
+      "filename": "251229-水果老爸.pdf",
+      "parent_folder": "新案例/251229-水果老爸",
+      "file_size_bytes": 3917294,
+      "page_count": 31,
+      "sha256": "4c929cee4c6e3782e7ab2dad1e80ee36defb51f219d048ee194e3a9a5168f1bd",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N005"
+      ],
+      "case_names": [
+        "水果老爸 Fruits Pops"
+      ],
+      "page_ranges": "pages 1–31",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N005"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
+      "relative_path": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
+      "filename": "260325-Oi·Coffee.pdf",
+      "parent_folder": "新案例/260325-Oi·Coffee",
+      "file_size_bytes": 6552238,
+      "page_count": 41,
+      "sha256": "2641daa1577cc00c43abbcb101dc9c6a75404d24e782916289f5493980f6bd36",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N006"
+      ],
+      "case_names": [
+        "Oi·Coffee"
+      ],
+      "page_ranges": "pages 1–41",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N006"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260330-稻米香 · 湘菜小炒/260330-稻米香 · 湘菜小炒.pdf",
+      "relative_path": "新案例/260330-稻米香 · 湘菜小炒/260330-稻米香 · 湘菜小炒.pdf",
+      "filename": "260330-稻米香 · 湘菜小炒.pdf",
+      "parent_folder": "新案例/260330-稻米香 · 湘菜小炒",
+      "file_size_bytes": 4325754,
+      "page_count": 33,
+      "sha256": "7258011ddd474b97cf36f1e628d292e2afd77bfba3d5a78859ca944d5f5dfc85",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N007"
+      ],
+      "case_names": [
+        "稻米香·湘菜小炒"
+      ],
+      "page_ranges": "pages 1–33",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N007"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260409-果壳里/260409-果壳里.pdf",
+      "relative_path": "新案例/260409-果壳里/260409-果壳里.pdf",
+      "filename": "260409-果壳里.pdf",
+      "parent_folder": "新案例/260409-果壳里",
+      "file_size_bytes": 3666797,
+      "page_count": 30,
+      "sha256": "79f106672f34b803003eab1c223a65c2c02c75bfc6fb028ad4a4e913c82b6c30",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N008"
+      ],
+      "case_names": [
+        "果壳里 Shell Nook"
+      ],
+      "page_ranges": "pages 1–30",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N008"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260420-饭点时光/260420-饭点时光.pdf",
+      "relative_path": "新案例/260420-饭点时光/260420-饭点时光.pdf",
+      "filename": "260420-饭点时光.pdf",
+      "parent_folder": "新案例/260420-饭点时光",
+      "file_size_bytes": 5302100,
+      "page_count": 40,
+      "sha256": "336156cd0eb49321de698edff8e0e092f58f94cd46b67fefa24646ef5ddaeeb5",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N009"
+      ],
+      "case_names": [
+        "饭点时光"
+      ],
+      "page_ranges": "pages 1–40",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N009"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260428-禾之伴/260428-禾之伴.pdf",
+      "relative_path": "新案例/260428-禾之伴/260428-禾之伴.pdf",
+      "filename": "260428-禾之伴.pdf",
+      "parent_folder": "新案例/260428-禾之伴",
+      "file_size_bytes": 4478416,
+      "page_count": 28,
+      "sha256": "578b707f10de64b0da50d36a49d97b156ae78b1dde5e87f0c5783503d663c29c",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N010"
+      ],
+      "case_names": [
+        "禾之伴 RURU Bite"
+      ],
+      "page_ranges": "pages 1–28",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N010"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
+      "relative_path": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
+      "filename": "260520-豚豚冰屋Tone.pdf",
+      "parent_folder": "新案例/260520-豚豚冰屋Tone",
+      "file_size_bytes": 5585916,
+      "page_count": 30,
+      "sha256": "d8b774041c5349a851385c2354bdd71bf8958c899bfb617dc7fa2ea3def1f806",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N011"
+      ],
+      "case_names": [
+        "豚豚冰屋 Tone"
+      ],
+      "page_ranges": "pages 1–30",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N011"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
+      "relative_path": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
+      "filename": "260526-郑社长满分果汁.pdf",
+      "parent_folder": "新案例/260526-郑社长满分果汁",
+      "file_size_bytes": 11209629,
+      "page_count": 40,
+      "sha256": "ac37d5f9b0f53c2692c4eeec28ceb7bba98866bc114851fd3e5689c26d908ae3",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N012"
+      ],
+      "case_names": [
+        "郑社长满分果汁"
+      ],
+      "page_ranges": "pages 1–40",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N012"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260602-堡乎乎/260602-堡乎乎.pdf",
+      "relative_path": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
+      "filename": "260602-堡乎乎.pdf",
+      "parent_folder": "新案例/260602-堡乎乎",
+      "file_size_bytes": 5511006,
+      "page_count": 35,
+      "sha256": "7a5b8c51474ff40de768aaca7aea6055777bca00666c813cbe7d82ad021984e1",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N013"
+      ],
+      "case_names": [
+        "堡乎乎 Manual Burger"
+      ],
+      "page_ranges": "pages 1–35",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N013"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260623-欢树/260623-欢树.pdf",
+      "relative_path": "新案例/260623-欢树/260623-欢树.pdf",
+      "filename": "260623-欢树.pdf",
+      "parent_folder": "新案例/260623-欢树",
+      "file_size_bytes": 6736584,
+      "page_count": 33,
+      "sha256": "99f9cabe1b6969a9dbbf0ab5779b1c562229919e30f04ffbc8e9896037ed70f0",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N014"
+      ],
+      "case_names": [
+        "欢树 Halo Tree"
+      ],
+      "page_ranges": "pages 1–33",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N014"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260629-台滋味·台式厨房/260629-台滋味·台式厨房.pdf",
+      "relative_path": "新案例/260629-台滋味·台式厨房/260629-台滋味·台式厨房.pdf",
+      "filename": "260629-台滋味·台式厨房.pdf",
+      "parent_folder": "新案例/260629-台滋味·台式厨房",
+      "file_size_bytes": 3835934,
+      "page_count": 25,
+      "sha256": "a012a972033109b18b5632efdb32b6fd0a5f9f56f4c5ef5be8ebb07de8548f85",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N015"
+      ],
+      "case_names": [
+        "台滋味·台式厨房"
+      ],
+      "page_ranges": "pages 1–25",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N015"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
+      "relative_path": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
+      "filename": "260707-荟HUI·威士忌水烟吧.pdf",
+      "parent_folder": "新案例/260707-荟HUI·威士忌水烟吧",
+      "file_size_bytes": 4246169,
+      "page_count": 25,
+      "sha256": "3a3617d994a94abfc1b7b804b5a2c33fc92440b24764b68385a1a8612a95da6c",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N016"
+      ],
+      "case_names": [
+        "荟 HUI·威士忌水烟吧"
+      ],
+      "page_ranges": "pages 1–25",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N016"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260717-大利村/260717-大利村.pdf",
+      "relative_path": "新案例/260717-大利村/260717-大利村.pdf",
+      "filename": "260717-大利村.pdf",
+      "parent_folder": "新案例/260717-大利村",
+      "file_size_bytes": 5288563,
+      "page_count": 30,
+      "sha256": "bfba1f602f53af4f2d02c09fe5852259805a184a30a92a968d58338c3b9eae75",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N017"
+      ],
+      "case_names": [
+        "大利村·手工鲜汤粉"
+      ],
+      "page_ranges": "pages 1–30",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N017"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260730-觅咔咔/260730-觅咔咔 .pdf",
+      "relative_path": "新案例/260730-觅咔咔/260730-觅咔咔 .pdf",
+      "filename": "260730-觅咔咔 .pdf",
+      "parent_folder": "新案例/260730-觅咔咔",
+      "file_size_bytes": 9656377,
+      "page_count": 33,
+      "sha256": "ff953e5efcf863698bebd195c2aa6d679c456e41ced82e2708dc78417769bc56",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N018"
+      ],
+      "case_names": [
+        "觅咔咔 Meekaka"
+      ],
+      "page_ranges": "pages 1–33",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N018"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260805-鮮燙町/260805-鮮燙町.pdf",
+      "relative_path": "新案例/260805-鮮燙町/260805-鮮燙町.pdf",
+      "filename": "260805-鮮燙町.pdf",
+      "parent_folder": "新案例/260805-鮮燙町",
+      "file_size_bytes": 3904616,
+      "page_count": 23,
+      "sha256": "ca7a885c43ed290b008a9bac42cfa682c43653610d6a27f56d875ddf8403c861",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N019"
+      ],
+      "case_names": [
+        "鮮燙町 Senmachi"
+      ],
+      "page_ranges": "pages 1–23",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N019"
+    },
+    {
+      "absolute_path": "/Users/chim/Codex开发项目/案例展示网站/新案例/260811-巴适的钵/260811-巴适的钵.pdf",
+      "relative_path": "新案例/260811-巴适的钵/260811-巴适的钵.pdf",
+      "filename": "260811-巴适的钵.pdf",
+      "parent_folder": "新案例/260811-巴适的钵",
+      "file_size_bytes": 5567206,
+      "page_count": 20,
+      "sha256": "5bd14b0108aad3e2cb004bfe402f998d6e4e50db1c9aae858551acd74997f8cc",
+      "classification": "NEW_CASE_FINAL",
+      "case_ids": [
+        "N020"
+      ],
+      "case_names": [
+        "巴适的钵 Awesome Bo"
+      ],
+      "page_ranges": "pages 1–20",
+      "previously_omitted": false,
+      "reason": "Independent new brand project; every page was rendered and visually classified for V3.",
+      "visually_checked": true,
+      "render_directory": "case-audit-v3/pdf-renders/N020"
+    }
+  ]
+}

@@ -1,0 +1,2934 @@
+{
+  "generated_at": "2026-09-18T13:54:26.820Z",
+  "cases": [
+    {
+      "case_id": "N001",
+      "source_pdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "research"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "reference"
+        },
+        {
+          "page": 6,
+          "classification": "concept"
+        },
+        {
+          "page": 7,
+          "classification": "concept"
+        },
+        {
+          "page": 8,
+          "classification": "concept"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "mixed",
+          "note": "final applications plus explanatory/reference material"
+        },
+        {
+          "page": 24,
+          "classification": "mixed",
+          "note": "final applications plus explanatory/reference material"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N002",
+      "source_pdf": "新案例/251015-粤有福手作/251015-粤有福手作.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "strategy"
+        },
+        {
+          "page": 22,
+          "classification": "strategy"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "mixed",
+          "note": "final packaging direction plus source photography"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        },
+        {
+          "page": 36,
+          "classification": "final_design"
+        },
+        {
+          "page": 37,
+          "classification": "final_design"
+        },
+        {
+          "page": 38,
+          "classification": "final_design"
+        },
+        {
+          "page": 39,
+          "classification": "final_design"
+        },
+        {
+          "page": 40,
+          "classification": "final_design"
+        },
+        {
+          "page": 41,
+          "classification": "final_design"
+        },
+        {
+          "page": 42,
+          "classification": "final_design"
+        },
+        {
+          "page": 43,
+          "classification": "final_design"
+        },
+        {
+          "page": 44,
+          "classification": "final_design"
+        },
+        {
+          "page": 45,
+          "classification": "final_design"
+        },
+        {
+          "page": 46,
+          "classification": "final_design"
+        },
+        {
+          "page": 47,
+          "classification": "final_design"
+        },
+        {
+          "page": 48,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N003",
+      "source_pdf": "新案例/251211-小满/251211-小满.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "moodboard"
+        },
+        {
+          "page": 3,
+          "classification": "moodboard"
+        },
+        {
+          "page": 4,
+          "classification": "moodboard"
+        },
+        {
+          "page": 5,
+          "classification": "moodboard"
+        },
+        {
+          "page": 6,
+          "classification": "moodboard"
+        },
+        {
+          "page": 7,
+          "classification": "concept"
+        },
+        {
+          "page": 8,
+          "classification": "concept"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "mixed",
+          "note": "final logo application plus contextual photography"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        },
+        {
+          "page": 36,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N004",
+      "source_pdf": "新案例/251224-三餐好乡邻/251224-三餐好乡邻.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "mixed",
+          "note": "brand concept plus source food photography"
+        },
+        {
+          "page": 7,
+          "classification": "moodboard"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "mixed",
+          "note": "visual direction board containing reference imagery"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N005",
+      "source_pdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "final_design"
+        },
+        {
+          "page": 2,
+          "classification": "final_design"
+        },
+        {
+          "page": 3,
+          "classification": "concept"
+        },
+        {
+          "page": 4,
+          "classification": "moodboard"
+        },
+        {
+          "page": 5,
+          "classification": "final_design"
+        },
+        {
+          "page": 6,
+          "classification": "final_design"
+        },
+        {
+          "page": 7,
+          "classification": "final_design"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N006",
+      "source_pdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "moodboard"
+        },
+        {
+          "page": 3,
+          "classification": "moodboard"
+        },
+        {
+          "page": 4,
+          "classification": "moodboard"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "strategy"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "mixed",
+          "note": "final identity elements combined with reference/context photography"
+        },
+        {
+          "page": 20,
+          "classification": "mixed",
+          "note": "final identity elements combined with reference/context photography"
+        },
+        {
+          "page": 21,
+          "classification": "mixed",
+          "note": "final identity elements combined with reference/context photography"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        },
+        {
+          "page": 36,
+          "classification": "final_design"
+        },
+        {
+          "page": 37,
+          "classification": "final_design"
+        },
+        {
+          "page": 38,
+          "classification": "final_design"
+        },
+        {
+          "page": 39,
+          "classification": "final_design"
+        },
+        {
+          "page": 40,
+          "classification": "final_design"
+        },
+        {
+          "page": 41,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N007",
+      "source_pdf": "新案例/260330-稻米香 · 湘菜小炒/260330-稻米香 · 湘菜小炒.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "research"
+        },
+        {
+          "page": 3,
+          "classification": "research"
+        },
+        {
+          "page": 4,
+          "classification": "research"
+        },
+        {
+          "page": 5,
+          "classification": "research"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "strategy"
+        },
+        {
+          "page": 10,
+          "classification": "strategy"
+        },
+        {
+          "page": 11,
+          "classification": "mixed",
+          "note": "final positioning page combined with unbranded reference photography"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "mixed",
+          "note": "final identity direction plus reference image"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "mixed",
+          "note": "final graphic system plus contextual photograph"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N008",
+      "source_pdf": "新案例/260409-果壳里/260409-果壳里.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "research"
+        },
+        {
+          "page": 5,
+          "classification": "research"
+        },
+        {
+          "page": 6,
+          "classification": "concept"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "moodboard"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "strategy"
+        },
+        {
+          "page": 12,
+          "classification": "strategy"
+        },
+        {
+          "page": 13,
+          "classification": "mixed",
+          "note": "final identity elements shown with reference/context imagery"
+        },
+        {
+          "page": 14,
+          "classification": "mixed",
+          "note": "final identity elements shown with reference/context imagery"
+        },
+        {
+          "page": 15,
+          "classification": "strategy"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N009",
+      "source_pdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "reference"
+        },
+        {
+          "page": 3,
+          "classification": "reference"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "strategy"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        },
+        {
+          "page": 36,
+          "classification": "final_design"
+        },
+        {
+          "page": 37,
+          "classification": "final_design"
+        },
+        {
+          "page": 38,
+          "classification": "final_design"
+        },
+        {
+          "page": 39,
+          "classification": "final_design"
+        },
+        {
+          "page": 40,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N010",
+      "source_pdf": "新案例/260428-禾之伴/260428-禾之伴.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "reference"
+        },
+        {
+          "page": 3,
+          "classification": "reference"
+        },
+        {
+          "page": 4,
+          "classification": "reference"
+        },
+        {
+          "page": 5,
+          "classification": "reference"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "reference",
+          "note": "unbranded source vegetation photography"
+        },
+        {
+          "page": 13,
+          "classification": "mixed",
+          "note": "final pattern combined with source photography"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N011",
+      "source_pdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "final_design"
+        },
+        {
+          "page": 6,
+          "classification": "final_design"
+        },
+        {
+          "page": 7,
+          "classification": "final_design"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "mixed",
+          "note": "final graphic element combined with source food photography"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N012",
+      "source_pdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "research"
+        },
+        {
+          "page": 3,
+          "classification": "research"
+        },
+        {
+          "page": 4,
+          "classification": "research"
+        },
+        {
+          "page": 5,
+          "classification": "research"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "strategy"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        },
+        {
+          "page": 36,
+          "classification": "final_design"
+        },
+        {
+          "page": 37,
+          "classification": "final_design"
+        },
+        {
+          "page": 38,
+          "classification": "final_design"
+        },
+        {
+          "page": 39,
+          "classification": "final_design"
+        },
+        {
+          "page": 40,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N013",
+      "source_pdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "concept"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        },
+        {
+          "page": 34,
+          "classification": "final_design"
+        },
+        {
+          "page": 35,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N014",
+      "source_pdf": "新案例/260623-欢树/260623-欢树.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "reference"
+        },
+        {
+          "page": 3,
+          "classification": "reference"
+        },
+        {
+          "page": 4,
+          "classification": "reference"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "strategy"
+        },
+        {
+          "page": 10,
+          "classification": "strategy"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "mixed",
+          "note": "final identity direction combined with contextual imagery"
+        },
+        {
+          "page": 15,
+          "classification": "strategy"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N015",
+      "source_pdf": "新案例/260629-台滋味·台式厨房/260629-台滋味·台式厨房.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "reference"
+        },
+        {
+          "page": 2,
+          "classification": "reference"
+        },
+        {
+          "page": 3,
+          "classification": "reference"
+        },
+        {
+          "page": 4,
+          "classification": "reference"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "final_design"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N016",
+      "source_pdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "final_design"
+        },
+        {
+          "page": 2,
+          "classification": "mixed",
+          "note": "brand concept combined with source photography"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "mixed",
+          "note": "brand concept combined with source photography"
+        },
+        {
+          "page": 5,
+          "classification": "final_design"
+        },
+        {
+          "page": 6,
+          "classification": "final_design"
+        },
+        {
+          "page": 7,
+          "classification": "final_design"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N017",
+      "source_pdf": "新案例/260717-大利村/260717-大利村.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "mixed",
+          "note": "brand concept combined with source food photography"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "strategy"
+        },
+        {
+          "page": 7,
+          "classification": "strategy"
+        },
+        {
+          "page": 8,
+          "classification": "strategy"
+        },
+        {
+          "page": 9,
+          "classification": "strategy"
+        },
+        {
+          "page": 10,
+          "classification": "strategy"
+        },
+        {
+          "page": 11,
+          "classification": "mixed",
+          "note": "final logo construction presented on reference documentary photography"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "mixed",
+          "note": "final brand material system presented on reference documentary photography"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N018",
+      "source_pdf": "新案例/260730-觅咔咔/260730-觅咔咔 .pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "research"
+        },
+        {
+          "page": 4,
+          "classification": "research"
+        },
+        {
+          "page": 5,
+          "classification": "research"
+        },
+        {
+          "page": 6,
+          "classification": "research"
+        },
+        {
+          "page": 7,
+          "classification": "research"
+        },
+        {
+          "page": 8,
+          "classification": "research"
+        },
+        {
+          "page": 9,
+          "classification": "research"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        },
+        {
+          "page": 24,
+          "classification": "final_design"
+        },
+        {
+          "page": 25,
+          "classification": "final_design"
+        },
+        {
+          "page": 26,
+          "classification": "final_design"
+        },
+        {
+          "page": 27,
+          "classification": "final_design"
+        },
+        {
+          "page": 28,
+          "classification": "final_design"
+        },
+        {
+          "page": 29,
+          "classification": "final_design"
+        },
+        {
+          "page": 30,
+          "classification": "final_design"
+        },
+        {
+          "page": 31,
+          "classification": "final_design"
+        },
+        {
+          "page": 32,
+          "classification": "final_design"
+        },
+        {
+          "page": 33,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N019",
+      "source_pdf": "新案例/260805-鮮燙町/260805-鮮燙町.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "research"
+        },
+        {
+          "page": 3,
+          "classification": "research"
+        },
+        {
+          "page": 4,
+          "classification": "research"
+        },
+        {
+          "page": 5,
+          "classification": "research"
+        },
+        {
+          "page": 6,
+          "classification": "research"
+        },
+        {
+          "page": 7,
+          "classification": "research"
+        },
+        {
+          "page": 8,
+          "classification": "research"
+        },
+        {
+          "page": 9,
+          "classification": "research"
+        },
+        {
+          "page": 10,
+          "classification": "concept"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        },
+        {
+          "page": 21,
+          "classification": "final_design"
+        },
+        {
+          "page": 22,
+          "classification": "final_design"
+        },
+        {
+          "page": 23,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "N020",
+      "source_pdf": "新案例/260811-巴适的钵/260811-巴适的钵.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "concept"
+        },
+        {
+          "page": 2,
+          "classification": "strategy"
+        },
+        {
+          "page": 3,
+          "classification": "strategy"
+        },
+        {
+          "page": 4,
+          "classification": "strategy"
+        },
+        {
+          "page": 5,
+          "classification": "strategy"
+        },
+        {
+          "page": 6,
+          "classification": "final_design"
+        },
+        {
+          "page": 7,
+          "classification": "final_design"
+        },
+        {
+          "page": 8,
+          "classification": "final_design"
+        },
+        {
+          "page": 9,
+          "classification": "final_design"
+        },
+        {
+          "page": 10,
+          "classification": "final_design"
+        },
+        {
+          "page": 11,
+          "classification": "final_design"
+        },
+        {
+          "page": 12,
+          "classification": "final_design"
+        },
+        {
+          "page": 13,
+          "classification": "final_design"
+        },
+        {
+          "page": 14,
+          "classification": "final_design"
+        },
+        {
+          "page": 15,
+          "classification": "final_design"
+        },
+        {
+          "page": 16,
+          "classification": "final_design"
+        },
+        {
+          "page": 17,
+          "classification": "final_design"
+        },
+        {
+          "page": 18,
+          "classification": "final_design"
+        },
+        {
+          "page": 19,
+          "classification": "final_design"
+        },
+        {
+          "page": 20,
+          "classification": "final_design"
+        }
+      ]
+    },
+    {
+      "case_id": "LEGACY-FLAT",
+      "source_pdf": "旧案例/SC-平面设计案例.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "case_boundaries": "L001–L012 map one-to-one to pages 2–13",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "reference",
+          "note": "Portfolio cover; non-case."
+        },
+        {
+          "page": 2,
+          "classification": "final_design",
+          "note": "Legacy case L001 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 3,
+          "classification": "final_design",
+          "note": "Legacy case L002 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 4,
+          "classification": "final_design",
+          "note": "Legacy case L003 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 5,
+          "classification": "final_design",
+          "note": "Legacy case L004 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 6,
+          "classification": "final_design",
+          "note": "Legacy case L005 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 7,
+          "classification": "final_design",
+          "note": "Legacy case L006 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 8,
+          "classification": "final_design",
+          "note": "Legacy case L007 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 9,
+          "classification": "final_design",
+          "note": "Legacy case L008 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 10,
+          "classification": "final_design",
+          "note": "Legacy case L009 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 11,
+          "classification": "final_design",
+          "note": "Legacy case L010 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 12,
+          "classification": "final_design",
+          "note": "Legacy case L011 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 13,
+          "classification": "final_design",
+          "note": "Legacy case L012 boundary/reference page; AI/PSD remains formal source."
+        },
+        {
+          "page": 14,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        },
+        {
+          "page": 15,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        },
+        {
+          "page": 16,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        },
+        {
+          "page": 17,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        }
+      ]
+    },
+    {
+      "case_id": "LEGACY-PHOTO",
+      "source_pdf": "旧案例/SC-摄影案例.pdf",
+      "visual_review": "rendered_page_reviewed",
+      "case_boundaries": "L013–L030 map one-to-one to pages 2–19",
+      "pages": [
+        {
+          "page": 1,
+          "classification": "reference",
+          "note": "Portfolio cover; non-case."
+        },
+        {
+          "page": 2,
+          "classification": "final_design",
+          "note": "Legacy photography case L013 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 3,
+          "classification": "final_design",
+          "note": "Legacy photography case L014 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 4,
+          "classification": "final_design",
+          "note": "Legacy photography case L015 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 5,
+          "classification": "final_design",
+          "note": "Legacy photography case L016 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 6,
+          "classification": "final_design",
+          "note": "Legacy photography case L017 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 7,
+          "classification": "final_design",
+          "note": "Legacy photography case L018 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 8,
+          "classification": "final_design",
+          "note": "Legacy photography case L019 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 9,
+          "classification": "final_design",
+          "note": "Legacy photography case L020 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 10,
+          "classification": "final_design",
+          "note": "Legacy photography case L021 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 11,
+          "classification": "final_design",
+          "note": "Legacy photography case L022 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 12,
+          "classification": "final_design",
+          "note": "Legacy photography case L023 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 13,
+          "classification": "final_design",
+          "note": "Legacy photography case L024 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 14,
+          "classification": "final_design",
+          "note": "Legacy photography case L025 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 15,
+          "classification": "final_design",
+          "note": "Legacy photography case L026 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 16,
+          "classification": "final_design",
+          "note": "Legacy photography case L027 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 17,
+          "classification": "final_design",
+          "note": "Legacy photography case L028 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 18,
+          "classification": "final_design",
+          "note": "Legacy photography case L029 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 19,
+          "classification": "final_design",
+          "note": "Legacy photography case L030 boundary/reference page; source photography files remain formal source."
+        },
+        {
+          "page": 20,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        },
+        {
+          "page": 21,
+          "classification": "reference",
+          "note": "Pricing or notice page; non-case."
+        }
+      ]
+    }
+  ]
+}

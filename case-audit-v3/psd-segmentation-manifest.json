@@ -1,0 +1,1933 @@
+{
+  "schema_version": 1,
+  "generated_by": "case-audit-v3/tools/segment_flat_psds.mjs",
+  "method": "Single-layer PSD composite export followed by visually verified whitespace/grid segmentation.",
+  "processed_psd_count": 9,
+  "extracted_asset_count": 81,
+  "excluded_regions": [
+    {
+      "case_id": "L009",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "analysis_box": [0, 775, 800, 451],
+      "reason": "Ms.Su panel belongs to another brand and was visually excluded from hacinana."
+    },
+    {
+      "case_id": "L009",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "analysis_box": [0, 1283, 800, 449],
+      "reason": "Klinic panel belongs to another brand and was visually excluded from hacinana."
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "L001",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L001/asset_007.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L001/asset_001.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L001/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_007.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_008.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_009.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_010.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_011.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_012.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_013.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_014.png",
+        "case-audit-v3/extracted-from-psd/L001/asset_015.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L002",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L002/asset_001.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L002/asset_003.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L002/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_007.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_008.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_009.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_010.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_011.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_012.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_013.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_014.png",
+        "case-audit-v3/extracted-from-psd/L002/asset_015.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L003",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L003/asset_007.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L003/asset_001.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L003/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L003/asset_007.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L004",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L004/asset_005.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L004/asset_001.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L004/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L004/asset_007.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L005",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": false,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L005/asset_001.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L005/asset_002.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L005/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_007.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_008.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_009.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_010.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_011.png",
+        "case-audit-v3/extracted-from-psd/L005/asset_012.png"
+      ],
+      "publication_note": "Multi-brand logo collection remains Draft even though source assets are now recoverable."
+    },
+    {
+      "case_id": "L006",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": false,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L006/asset_008.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L006/asset_002.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L006/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_007.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_008.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_009.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_010.png",
+        "case-audit-v3/extracted-from-psd/L006/asset_011.png"
+      ],
+      "publication_note": "Multi-brand logo collection remains Draft even though source assets are now recoverable."
+    },
+    {
+      "case_id": "L007",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L007/asset_007.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L007/asset_001.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L007/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_004.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_005.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_006.png",
+        "case-audit-v3/extracted-from-psd/L007/asset_007.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L008",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L008/asset_002.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L008/asset_003.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L008/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L008/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L008/asset_003.png",
+        "case-audit-v3/extracted-from-psd/L008/asset_004.png"
+      ],
+      "publication_note": null
+    },
+    {
+      "case_id": "L009",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "source_asset_status": "READY_FROM_SOURCE",
+      "website_assets_ready": true,
+      "published": true,
+      "cover_asset": "case-audit-v3/extracted-from-psd/L009/asset_001.png",
+      "hero_asset": "case-audit-v3/extracted-from-psd/L009/asset_003.png",
+      "body_assets": [
+        "case-audit-v3/extracted-from-psd/L009/asset_001.png",
+        "case-audit-v3/extracted-from-psd/L009/asset_002.png",
+        "case-audit-v3/extracted-from-psd/L009/asset_003.png"
+      ],
+      "publication_note": "Only the hacinana panels were retained; unrelated Ms.Su and Klinic panels on the mixed PSD board were excluded."
+    }
+  ],
+  "assets": [
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "d93846d0cfd76b4d80ff62be3d19d8c5fc2c0ace731d7ef46ac3be718d97ddf9",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "813bbfaa8a8b38840cc723a1318fd26680c8ea093ed5d013be583e67abf48669",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "9de801bbf5738e2db742bc4bda258ea9b1d37cd59c89e47496fb23ec0b7e7dc2",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "0abc8cf11f334f446b825099cce82760e2a72e5266822af66ce6b1a1205eed3e",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "1c29293846a357c66ae05c14d40191c647bed1ab2f0fcc5269001df6b756b23c",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "17395afdbef7e3d3af4d9636a50f40c1e4b61b249bb4432286e423e0721f632c",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "9cb17321825c6ec6e6926896ae4c3073bc6b483cdcd7815dd29972154d030852",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-008",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_008.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "7a4d02944260814fc0761b96286bdff4606541dad583899ccd137ad6e1cedabf",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-009",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_009.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "bd3f8fa441922b566e103262a3437910bd6172f81affe84999e117821837d772",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-010",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_010.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "bc7eec0efd9faf0975c46fd03a30e56f32e5ce675df6507ea78f92b6944395ab",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-011",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_011.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "2881d8ba290d70b043f2ca6b25fe1ec30e98e3fc6b5d29749f3f4fcd676a14f9",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-012",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_012.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "5825f7b36c34076d05d01247da91ef6e4765144557328a4da880766a0560d26d",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-013",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_013.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "d0cbbb73554e65aa0ee22ba328e0093e4003e74c260788be24140202a1898589",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-014",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_014.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "555edec3738c9dcb63d554f4ac6aa3b983911eae7b0d16c8bb527180ce5068f2",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L001",
+      "asset_id": "L001-PSD-015",
+      "file": "case-audit-v3/extracted-from-psd/L001/asset_015.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_02.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "b52c8e6d2008f2e6407d7fdbe0eefe9fd96944f1255eda8155c952609954a636",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "f9ef7a8e3f571aeb44f9064c1e5a97fa6dd25bf9cb89d6310a2df534839e1fe0",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "d3c0bff388d8e891fc4a0469827496f99bd7e98c8c1deefd34ba4539d05d216d",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "08378744f5fb2ed84743f5f7e321d7f6c81b52b40d6bea3267c9a171f8032814",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "d7225e3f8cefd89e003be9903ce1352a24ee8c68adf77ea5833fa5f32d8e06f6",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "d8df101f8307461b6fd457b016244f1e8a51e6dc0181ae1e4220a712488ae408",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "574b49d992605cb5551dcb185bffbd14f2276fbf4acc5f64bebe101d242eac72",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "c9aefec5a60216c7252aab4a2a227ec4f78afe44e64c64db80b56044fc405ceb",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-008",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_008.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "d242f27772e1deed93ae4810714f5c2a63d4b207ed0b21ca63d5e948a0aa8c66",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-009",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_009.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        10585,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "102c92ca4c9293c5170bd4d1635d5a5e5cbc748a0a7bac7ad229c99fc686040d",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-010",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_010.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "710a01de2d6e55750518454e4f5be820f385da9c7bf01d65a2055c4ec64af55b",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-011",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_011.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "08e9da7d5781475b1b506df7a11abe67b6bb1cf15eeb7e1b91235790d189ac00",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-012",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_012.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        11824,
+        2202,
+        1238
+      ],
+      "width": 2202,
+      "height": 1238,
+      "sha256": "3e06d2e237478adc31176f8a757f93cc0f3c9f76789b59b90443a459f0ab68cb",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-013",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_013.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "3eb045fc9e6973c76291b8555749dcb09887b7d49ed8ad803c07e6d495caf535",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-014",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_014.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "ad99c16e9d8f97687d567337b9e402b9793933d93ec5ff2e39300847da5ae790",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L002",
+      "asset_id": "L002-PSD-015",
+      "file": "case-audit-v3/extracted-from-psd/L002/asset_015.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_04.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        13062,
+        2202,
+        1239
+      ],
+      "width": 2202,
+      "height": 1239,
+      "sha256": "9a9cd34edf1fac01e8a56970824c4b348337e9343b22f675ab4601c1c5e035ea",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "e65c0d14d83f540255b36ffe2c2fe535fbbed8c9b34ba2484fa47cb446e74179",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "36fbe9e2b0b8e3011736f9f573557d0e3979bec6d7c5676a10b2a20d3b29180f",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "96071f062fe44af5bb5894ecef82a6b78563e483404ecd462c78e91db0ff4161",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "2d747e2fec2f5d2bdc0b27264dba2e9ee231185224d59ec4edb4f22c07b254a8",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "5efd4cdfd830bc182f511f7558b4343e7d32748d0f3c595c7d8acf3f4218e07e",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        8373,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "a4bde82a7fbe0f3258e6c6c010cc3c4e4953748e2f24be2d7d7eb464f300a303",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L003",
+      "asset_id": "L003-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L003/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_05.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10585,
+        6606,
+        3716
+      ],
+      "width": 6606,
+      "height": 3716,
+      "sha256": "a97f9ed0a9283fae8ebc8dcacd78b5b15e584cb180c8407f018928bf47aff15c",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "b96b935bc672c2655b714a1d31e2b65baea02cb97b3acb4b35602fe9167ea049",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        4029,
+        3303,
+        1875
+      ],
+      "width": 3303,
+      "height": 1875,
+      "sha256": "14290fd6d01dddc44c6d73ffae3be74ad34863ee74a4c0cd3cc53cae9199308f",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "7006fb812fa23d49d598a0ddd833a7b6ce40d976c81c8af40bc01218646c7cc0",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        6201,
+        3303,
+        1874
+      ],
+      "width": 3303,
+      "height": 1874,
+      "sha256": "b292bfbdc6b51518e099e5c4adeefae7ba5d8d478fe9c232455a8ccf2b7bbc06",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        9099,
+        6606,
+        2576
+      ],
+      "width": 6606,
+      "height": 2576,
+      "sha256": "a3de58863c060707b6e773fdd9d3a3ad25c0b237727cac0a13be2a08aa595592",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        12443,
+        3303,
+        1858
+      ],
+      "width": 3303,
+      "height": 1858,
+      "sha256": "8d9582bb449aaeb6c3d1321cbd1be983b781b4392f86486a545498d8b11cef0c",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L004",
+      "asset_id": "L004-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L004/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_06.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        12443,
+        3303,
+        1858
+      ],
+      "width": 3303,
+      "height": 1858,
+      "sha256": "c05c879982f3192567302f4729177a57493db30d88a4009e9939c8fd52dcda38",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "ee81c7697a9bc7b0feb0e5404105e4f0b3c151c955bf7b4cf384171e0b81afdd",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "463435daa62b4451e76ed9faa2181258746614c686578f9c952b98fd93143277",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "ef1f906aa267a6c57906e0b372db0500a897d582458130e54063a603c5626fc9",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "b363ada7a19eb67f671507d510c343961ac4d2b144074f333f446fad26f98ecd",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "c8381726a23a035c68d0466171b7543c845376f8ac4c82f330927ad2ac25357b",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "158147d0dc0b0fc509eff64e1d76d26a8ce325f4e4c80547ff2d6fdad2c3d1a7",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "6342803a0dddbff09f4d2bd849dbb1fbf76c175447e37d41fb65328e4f9d2b39",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-008",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_008.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "4e6b889946155bed44b7eb35e749d0b2ae18cc85e3a0fa073d9b1ee96584c205",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-009",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_009.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "e07dc6cef594a86bf04b8f1f4dbd22b823c8545e2c26311534ca009a5930cd49",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-010",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_010.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10726,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "612fdeb561c21642c7e5933a56966f972f1ad359082da1cb93b082ba623c0b22",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-011",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_011.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        10726,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "46ce0600a2cf671b8b6ee24f68bc89e78614d00e649cd75290b252f9b85fe8e9",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L005",
+      "asset_id": "L005-PSD-012",
+      "file": "case-audit-v3/extracted-from-psd/L005/asset_012.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_07.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        10726,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "05c9dfdafccbea97de8f08669caa6637b5a839ba231a47695a5178dd3f4e989a",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "714719040e719539c4c6f6d6b651d619e2a30c10d1cda4d2195a2c3cc751c61b",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "d3f0413e8056ad19e08d189380e47cf883d107ccb1ea9f94b508ece2b2dcff77",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        0,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "5f2f817c7c7bad2bca314c5b41f368f37b5adcec664fb98f85b64eb1c2bcc231",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "e6fc2e62a729f943e0c92179d251714ded2ca6e053ac6ff678e741e93c58d081",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "e297e0ae948ae794e143ce8ffa847ce695d2afd66b44a01ce01a81bd7ff63ed6",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        3575,
+        2202,
+        3576
+      ],
+      "width": 2202,
+      "height": 3576,
+      "sha256": "cc4398a31dcecf072ea9875f39959e14fe9ea9d3667cbf032c29cd6648af02e6",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "9198ea15014b6ec6d43e4cf797b7d9866f257f62fd7e59ca7d6dd17bfe0e9f6f",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-008",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_008.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        2202,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "3be0e152b66adc244250ab19e5c11e77a3a1ac1bcdde9bc9c8cf2530ed834693",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-009",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_009.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        4404,
+        7151,
+        2202,
+        3575
+      ],
+      "width": 2202,
+      "height": 3575,
+      "sha256": "233d0562196be95fdbb7f1df5e2ea52d1dd3f47e43b4c9920b31792c16374095",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-010",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_010.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10726,
+        3303,
+        3575
+      ],
+      "width": 3303,
+      "height": 3575,
+      "sha256": "08707152987b2d31e3dee321f6c1408940ac0ca7e1b854cadba167b2f694ef83",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L006",
+      "asset_id": "L006-PSD-011",
+      "file": "case-audit-v3/extracted-from-psd/L006/asset_011.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_08.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        10726,
+        3303,
+        3575
+      ],
+      "width": 3303,
+      "height": 3575,
+      "sha256": "b62f324ef47703fe33e7442c6e67b75491f4d80e885399ca2fcff2a60e4412b7",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        0,
+        6606,
+        2122
+      ],
+      "width": 6606,
+      "height": 2122,
+      "sha256": "2c334142eb385b2a8dce97f39ab84c76a4a3d20dff32b344620fb30928f2269d",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        3592,
+        6606,
+        1313
+      ],
+      "width": 6606,
+      "height": 1313,
+      "sha256": "685e349a4452d8743ca48ad55b7c0de597fe66a546c5bd119c533316f61ee95b",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        5714,
+        6606,
+        1263
+      ],
+      "width": 6606,
+      "height": 1263,
+      "sha256": "1ae0675096d028ae722e288d0ee12341234077b5ba2b14cb6aafc4f770ff15e3",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        7951,
+        3303,
+        2428
+      ],
+      "width": 3303,
+      "height": 2428,
+      "sha256": "2fd041726071d1f2be2d6ae31068921220a33826f861219d453f82ce59ef531e",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-005",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_005.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        7951,
+        3303,
+        2428
+      ],
+      "width": 3303,
+      "height": 2428,
+      "sha256": "72b8deb8b91586842e0f8cb004599ef522b32c719800a59f9286e6c902a7747f",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-006",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_006.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        11196,
+        3303,
+        2651
+      ],
+      "width": 3303,
+      "height": 2651,
+      "sha256": "6b23a566ecf59ca4ab69715e75f0ef427944d180b259ad81b07a466e5444142c",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L007",
+      "asset_id": "L007-PSD-007",
+      "file": "case-audit-v3/extracted-from-psd/L007/asset_007.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_09.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        11196,
+        3303,
+        2651
+      ],
+      "width": 3303,
+      "height": 2651,
+      "sha256": "b81e453564d99e4e294afdd8d628da80dd6cb8dbeea15971b43050e60efae422",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L008",
+      "asset_id": "L008-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L008/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        0,
+        6606,
+        2791
+      ],
+      "width": 6606,
+      "height": 2791,
+      "sha256": "91d4b6bc233fa7f175889eba805dfe3dbd5529dd70d494c2357001ffd1e01772",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L008",
+      "asset_id": "L008-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L008/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        2799,
+        6606,
+        3666
+      ],
+      "width": 6606,
+      "height": 3666,
+      "sha256": "05e77531e7af0f964138c117749e53194e9c4bb38860d5484ec045fbdf004006",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L008",
+      "asset_id": "L008-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L008/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        6738,
+        6606,
+        3385
+      ],
+      "width": 6606,
+      "height": 3385,
+      "sha256": "458f9e8adb03b040d925041ae58a24de6354564fd2b37e16e98d2c404f8bb4d7",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L008",
+      "asset_id": "L008-PSD-004",
+      "file": "case-audit-v3/extracted-from-psd/L008/asset_004.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_10.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        10395,
+        6606,
+        3906
+      ],
+      "width": 6606,
+      "height": 3906,
+      "sha256": "310efd4a464a5f1b20cbc0970ea68a3c11615e1d7b94d59dbd4fa2a01abd9e83",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L009",
+      "asset_id": "L009-PSD-001",
+      "file": "case-audit-v3/extracted-from-psd/L009/asset_001.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        0,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "cae4646b8a321985ee5a78afe82bd2abe21ef59c76753078781fc79efa2e20fa",
+      "final_work_verified": true,
+      "visual_role": [
+        "cover_primary",
+        "body"
+      ]
+    },
+    {
+      "case_id": "L009",
+      "asset_id": "L009-PSD-002",
+      "file": "case-audit-v3/extracted-from-psd/L009/asset_002.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        3303,
+        0,
+        3303,
+        1866
+      ],
+      "width": 3303,
+      "height": 1866,
+      "sha256": "9f848e05c5286fcace26fdd153cfe28291e46ac5fcafd050e16f4129d4d7fbf2",
+      "final_work_verified": true,
+      "visual_role": [
+        "body"
+      ]
+    },
+    {
+      "case_id": "L009",
+      "asset_id": "L009-PSD-003",
+      "file": "case-audit-v3/extracted-from-psd/L009/asset_003.png",
+      "source_psd": "旧案例/平面设计作品/CHIMxEVOK作品集-平面-含报价_页面_16.psd",
+      "source_layer_count": 1,
+      "extraction_method": "whitespace_segmentation",
+      "bounding_box": [
+        0,
+        2221,
+        6606,
+        3699
+      ],
+      "width": 6606,
+      "height": 3699,
+      "sha256": "10bf9785384e982a04b073f20414166b12109befc4d75c4180475d09d1bfe85d",
+      "final_work_verified": true,
+      "visual_role": [
+        "hero_primary",
+        "body"
+      ]
+    }
+  ]
+}

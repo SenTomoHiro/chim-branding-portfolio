@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "import:cases": "tsx scripts/import-cases.ts",
+    "typecheck": "tsc --noEmit",
+    "import:cases": "tsx scripts/import-cases.ts && tsx scripts/import-legacy-psd-cases.ts && tsx scripts/import-photography-cases.ts",
+    "audit:pdf-inventory": "node case-audit-v3/tools/inventory_all_pdfs.mjs",
+    "audit:segment-psd": "node case-audit-v3/tools/segment_flat_psds.mjs",
     "test": "vitest run",
     "test:e2e": "playwright test"
   },

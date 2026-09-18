@@ -1,26 +1,16 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
-import type { ContentData, PortfolioCase } from "../lib/types";
+import type { AssetProvenance, ContentData } from "../lib/types";
 
-const PUBLIC_IDS = ["N001","N002","N003","N004","N005","N006","N007","N008","N009","N010","N011","N012","N013","N014","N015","N016","N017","N018","N019","N020","L010","L011","L012"];
-const DEFAULT_ORDER = ["N013","N014","N005","N016","N017","N011","N009","N006","N003","N012","N001","N004","N019","N008","N002","N015","N018","N010","N007","N020","L012","L010","L011"];
-const VERSIONS = [
-  { slug: "food", name: "Food", enabled: true, priorityCaseIds: ["N017","N003","N013","N009","N004","N007","N019","N020","N015","N018","N008","N010"] },
-  { slug: "drinks", name: "Drinks", enabled: true, priorityCaseIds: ["N002","N012","L012","N006","L011","N001","L010","N014","N005","N011"] },
-  { slug: "ip", name: "IP", enabled: true, priorityCaseIds: ["N013","N011","N006","N001","N020","N005","N012","N004","N008","N010"] },
-  { slug: "premium", name: "Premium", enabled: true, priorityCaseIds: ["N014","N016","N009","N003","N015","N018"] },
-];
-
-type AuditCase = {
-  case_id: string; name: string; industry_primary: string; industry_tags: string[];
-  design_primary: string; design_tags: string[]; cover_asset: string; hero_asset: string; body_assets: string[];
+type AuditCase = { case_id: string; cover_asset: string; hero_asset: string; body_assets: string[] };
+type AuditAsset = {
+  asset_id: string; file: string; source_pdf: string; source_page: number; source_object: string;
+  extraction_method: string; width: number; height: number; sha256: string;
+  classification: "final_design" | "mixed"; final_work_verified: true;
 };
 
-const slugify = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || value.toLowerCase();
-
-async function optimize(source: string, targetBase: string, kind: "cover" | "content") {
-  const destination = `${targetBase}.webp`;
+async function optimize(source: string, destination: string, kind: "cover" | "content") {
   await fs.mkdir(path.dirname(destination), { recursive: true });
   let image = sharp(source, { failOn: "none" }).rotate();
   image = kind === "cover"
@@ -30,48 +20,61 @@ async function optimize(source: string, targetBase: string, kind: "cover" | "con
   return { src: `/${path.relative(path.join(process.cwd(), "public"), destination).split(path.sep).join("/")}`, width: info.width, height: info.height };
 }
 
+function provenance(asset: AuditAsset): AssetProvenance {
+  if (!asset.source_pdf.toLowerCase().endsWith(".pdf")) throw new Error(`Non-PDF V3 source rejected: ${asset.source_pdf}`);
+  if (!asset.final_work_verified || asset.classification !== "final_design") throw new Error(`Unverified V3 asset rejected: ${asset.asset_id}`);
+  return {
+    assetId: asset.asset_id, sourceType: "pdf", sourcePdf: asset.source_pdf, sourcePage: asset.source_page,
+    sourceObject: asset.source_object, extractionMethod: asset.extraction_method,
+    width: asset.width, height: asset.height, sha256: asset.sha256,
+    classification: asset.classification, finalWorkVerified: true,
+  };
+}
+
 async function main() {
   const root = process.cwd();
-  const inventory = JSON.parse(await fs.readFile(path.join(root, "case-audit-v2/case-inventory-v2.json"), "utf8"));
-  const selected = (inventory.cases as AuditCase[]).filter((item) => PUBLIC_IDS.includes(item.case_id));
-  if (selected.length !== PUBLIC_IDS.length) throw new Error(`Expected ${PUBLIC_IDS.length} cases, found ${selected.length}.`);
-  const oldPath = path.join(root, "data/content.json");
-  let existing: ContentData | undefined;
-  try { existing = JSON.parse(await fs.readFile(oldPath, "utf8")); } catch {}
+  const contentPath = path.join(root, "data/content.json");
+  const existing = JSON.parse(await fs.readFile(contentPath, "utf8")) as ContentData;
+  const inventory = JSON.parse(await fs.readFile(path.join(root, "case-audit-v3/case-inventory-v3.json"), "utf8")) as { cases: AuditCase[] };
+  const manifest = JSON.parse(await fs.readFile(path.join(root, "case-audit-v3/asset-manifest-v3.json"), "utf8")) as { assets: AuditAsset[] };
+  const assetByFile = new Map(manifest.assets.map((asset) => [asset.file, asset]));
+  const auditById = new Map(inventory.cases.map((item) => [item.case_id, item]));
+  const newCaseIds = new Set(inventory.cases.map((item) => item.case_id));
+  if (newCaseIds.size === 0) throw new Error("V3 inventory contains no discovered new cases.");
 
-  const cases: PortfolioCase[] = [];
-  for (const item of selected) {
-    const directory = path.join(root, "public/media/cases", item.case_id);
-    const cover = await optimize(path.join(root, item.cover_asset), path.join(directory, "cover"), "cover");
-    const hero = await optimize(path.join(root, item.hero_asset), path.join(directory, "hero"), "content");
+  const cases = [];
+  for (const current of existing.cases) {
+    if (!newCaseIds.has(current.id)) { cases.push(current); continue; }
+    const audit = auditById.get(current.id);
+    if (!audit) throw new Error(`Missing V3 audit for ${current.id}`);
+    const mediaDirectory = path.join(root, "public/media/cases", current.id);
+    const coverAsset = assetByFile.get(audit.cover_asset);
+    const heroAsset = assetByFile.get(audit.hero_asset);
+    if (!coverAsset || !heroAsset) throw new Error(`Missing V3 cover/hero provenance for ${current.id}`);
+    const cover = await optimize(path.join(root, audit.cover_asset), path.join(mediaDirectory, "v3-cover.webp"), "cover");
+    const hero = await optimize(path.join(root, audit.hero_asset), path.join(mediaDirectory, "v3-hero.webp"), "content");
     const bodyAssets = [];
-    for (const [index, file] of item.body_assets.entries()) {
-      const media = await optimize(path.join(root, file), path.join(directory, `body-${String(index + 1).padStart(2, "0")}`), "content");
-      bodyAssets.push({ id: `${item.case_id}-body-${index + 1}`, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const });
+    for (const [index, file] of audit.body_assets.entries()) {
+      const asset = assetByFile.get(file);
+      if (!asset) throw new Error(`Missing V3 body provenance: ${file}`);
+      const media = await optimize(path.join(root, file), path.join(mediaDirectory, `v3-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
+      bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, provenance: provenance(asset) });
     }
-    const old = existing?.cases.find((entry) => entry.id === item.case_id);
     cases.push({
-      id: item.case_id,
-      slug: old?.slug || `${item.case_id.toLowerCase()}-${slugify(item.name)}`,
-      name: old?.name || item.name,
-      intro: old?.intro || `${item.industry_primary}品牌视觉与${item.design_primary}设计。`,
-      industryPrimary: old?.industryPrimary || item.industry_primary,
-      industryTags: old?.industryTags || item.industry_tags,
-      designPrimary: old?.designPrimary || item.design_primary,
-      designTags: old?.designTags || item.design_tags,
-      cover: cover.src, coverWidth: cover.width, coverHeight: cover.height, hero: hero.src, bodyAssets: old?.bodyAssets || bodyAssets, published: old?.published ?? true,
+      ...current,
+      cover: cover.src, coverWidth: cover.width, coverHeight: cover.height,
+      hero: hero.src, coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
     });
   }
-  const content: ContentData = {
-    cases,
-    defaultOrder: existing?.defaultOrder?.length ? existing.defaultOrder.filter((id) => cases.some((item) => item.id === id)).concat(cases.map((item) => item.id).filter((id) => !existing!.defaultOrder.includes(id))) : DEFAULT_ORDER,
-    versions: existing?.versions?.length ? existing.versions : VERSIONS,
-  };
-  await fs.mkdir(path.dirname(oldPath), { recursive: true });
-  const temp = `${oldPath}.tmp`;
-  await fs.writeFile(temp, `${JSON.stringify(content, null, 2)}\n`);
-  await fs.rename(temp, oldPath);
-  console.log(`Imported ${cases.length} cases and ${cases.reduce((sum, item) => sum + item.bodyAssets.length + 2, 0)} optimized media files.`);
+
+  const migratedIds = new Set(cases.filter((item) => newCaseIds.has(item.id)).map((item) => item.id));
+  const missing = [...newCaseIds].filter((id) => !migratedIds.has(id));
+  if (missing.length) throw new Error(`Existing content.json is missing discovered new cases: ${missing.join(", ")}`);
+  const content: ContentData = { ...existing, cases };
+  const temporary = `${contentPath}.tmp`;
+  await fs.writeFile(temporary, `${JSON.stringify(content, null, 2)}\n`);
+  await fs.rename(temporary, contentPath);
+  console.log(`Migrated ${newCaseIds.size} discovered new cases to V3 PDF-only assets; preserved business fields, ordering, versions, and legacy cases.`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });

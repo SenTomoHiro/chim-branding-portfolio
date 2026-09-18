@@ -1,5 +1,9 @@
 import type { PortfolioCase } from "./types";
 
+export const isPhotographyCase = (item: PortfolioCase) => item.designPrimary === "Photography";
+export const getBrandingCases = (cases: PortfolioCase[]) => cases.filter((item) => !isPhotographyCase(item));
+export const getPhotographyCases = (cases: PortfolioCase[]) => cases.filter(isPhotographyCase);
+
 export function sortPublishedCases(
   cases: PortfolioCase[],
   defaultOrder: string[],

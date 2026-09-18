@@ -10,7 +10,8 @@ export async function readContent(): Promise<ContentData> {
   const raw = process.env.CONTENT_FILE_PATH
     ? await fs.readFile(/* turbopackIgnore: true */ process.env.CONTENT_FILE_PATH, "utf8")
     : await fs.readFile(defaultContentFile, "utf8");
-  return JSON.parse(raw) as ContentData;
+  const data = JSON.parse(raw) as ContentData;
+  return { ...data, photographyCaseOrder: data.photographyCaseOrder ?? [] };
 }
 
 export async function writeContent(data: ContentData) {

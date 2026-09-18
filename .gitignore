@@ -17,3 +17,5 @@ case-audit-v2/*
 !case-audit-v2/case-inventory-v2.json
 !case-audit-v2/asset-manifest.json
 public/media/uploads/
+case-audit-v3/candidates/
+case-audit-v3/tmp/

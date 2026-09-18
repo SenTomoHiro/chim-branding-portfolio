@@ -4,7 +4,9 @@ import type { ContentData } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
 const published = content.cases.filter((item) => item.published);
-test.setTimeout(120_000);
+const brandingPublished = published.filter((item) => item.designPrimary !== "Photography");
+const photographyPublished = published.filter((item) => item.designPrimary === "Photography");
+test.setTimeout(180_000);
 
 async function expectNoHorizontalOverflow(page: Page) {
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth);
@@ -15,7 +17,7 @@ test("public versions use an equal-width, tight, natural-ratio masonry", async (
   await page.setViewportSize({ width: 1440, height: 1000 });
   for (const route of ["/", "/food", "/drinks", "/ip", "/premium"]) {
     await page.goto(route);
-    await expect(page.locator(".caseCard")).toHaveCount(23);
+    await expect(page.locator(".caseCard")).toHaveCount(brandingPublished.length);
     await expect(page.locator('a[href="/admin"]')).toHaveCount(0);
     await page.waitForTimeout(650);
     await expectNoHorizontalOverflow(page);
@@ -48,7 +50,23 @@ test("public versions use an equal-width, tight, natural-ratio masonry", async (
   await expect(page.getByRole("heading", { name: "堡乎乎 Manual Burger" })).toBeVisible();
 });
 
-test("all 23 published case routes resolve to their strict canonical detail", async ({ page }) => {
+test("photography is an independent, responsive natural-ratio masonry", async ({ page }) => {
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
+    await page.setViewportSize(viewport);
+    const response = await page.goto("/photo");
+    expect(response?.status()).toBe(200);
+    await expect(page.locator(".caseCard")).toHaveCount(photographyPublished.length);
+    await expect(page.locator('.siteHeader a[href="/photo"]')).toHaveClass(/active/);
+    await expectNoHorizontalOverflow(page);
+    const ids = await page.locator(".caseCard").evaluateAll((cards) => cards.map((card) => card.getAttribute("data-case-id")));
+    expect(ids).toEqual(content.photographyCaseOrder);
+    expect(await page.locator(".caseCard img").first().evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
+  }
+  await page.goto("/");
+  for (const item of photographyPublished) await expect(page.locator(`[data-case-id="${item.id}"]`)).toHaveCount(0);
+});
+
+test("all published case routes resolve to their strict canonical detail", async ({ page }) => {
   for (const item of published) {
     const response = await page.goto(`/work/${item.slug}`);
     expect(response?.status(), item.id).toBe(200);
@@ -60,7 +78,7 @@ test("all 23 published case routes resolve to their strict canonical detail", as
 });
 
 test("representative image, unicode and legacy cases work on desktop and mobile", async ({ page }) => {
-  const representatives = ["N013", "N014", "N005", "N009", "L010"];
+  const representatives = ["N013", "N014", "N005", "N009", "L001", "L007", "L009", "L010", "L021", "L015", "L025"];
   for (const viewport of [{ width: 1440, height: 1000 }, { width: 390, height: 844 }]) {
     await page.setViewportSize(viewport);
     for (const id of representatives) {
@@ -85,7 +103,9 @@ test("admin login and every requested mutation are usable and reversible", async
   await page.getByLabel("管理员密码").fill("e2e-password");
   await page.getByRole("button", { name: "登录" }).click();
   await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-  await expect(page.locator(".adminCaseList article")).toHaveCount(23);
+  await expect(page.locator(".adminCaseList article")).toHaveCount(content.cases.length);
+  await expect(page.locator('[data-order-type="branding"] .adminCaseList article')).toHaveCount(32);
+  await expect(page.locator('[data-order-type="photography"] .adminCaseList article')).toHaveCount(18);
 
   const n009 = page.locator(".adminCaseList article").filter({ hasText: "饭点时光" });
   await n009.getByRole("link", { name: "编辑" }).click();
@@ -106,11 +126,12 @@ test("admin login and every requested mutation are usable and reversible", async
   await expect(n009Restored.getByRole("button", { name: "已发布" })).toBeVisible();
 
   const firstName = await page.locator(".adminCaseName strong").first().textContent();
-  await page.locator(".adminCaseList article").nth(1).dragTo(page.locator(".adminCaseList article").first());
-  await page.getByRole("button", { name: "保存排序" }).click();
-  await expect(page.locator(".saveMessage")).toContainText("已保存");
-  await page.locator(".adminCaseList article").nth(1).dragTo(page.locator(".adminCaseList article").first());
-  await page.getByRole("button", { name: "保存排序" }).click();
+  const brandingSection = page.locator('[data-order-type="branding"]');
+  await brandingSection.locator(".adminCaseList article").nth(1).dragTo(brandingSection.locator(".adminCaseList article").first());
+  await brandingSection.getByRole("button", { name: "保存排序" }).click();
+  await expect(brandingSection.locator(".saveMessage")).toContainText("已保存");
+  await brandingSection.locator(".adminCaseList article").nth(1).dragTo(brandingSection.locator(".adminCaseList article").first());
+  await brandingSection.getByRole("button", { name: "保存排序" }).click();
   await expect(page.locator(".adminCaseName strong").first()).toHaveText(firstName || "");
 
   const drinks = page.locator(".versionCard").filter({ hasText: "Drinks" });
