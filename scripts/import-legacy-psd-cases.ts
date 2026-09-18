@@ -2,6 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 import type { AssetProvenance, ContentData, PortfolioCase } from "../lib/types";
+import { INITIAL_CATEGORIES } from "./taxonomy-map";
 
 type SegmentAsset = {
   case_id: string; asset_id: string; file: string; source_psd: string; source_layer_count: number;
@@ -12,8 +13,7 @@ type SegmentCase = {
   case_id: string; published: boolean; cover_asset: string; hero_asset: string; body_assets: string[];
 };
 type LegacyAudit = {
-  case_id: string; name: string; industry_primary: string; industry_tags: string[];
-  design_primary: string; design_tags: string[];
+  case_id: string; name: string; industry_primary: string;
 };
 
 const slugs: Record<string, string> = {
@@ -77,10 +77,9 @@ async function main() {
       slug: current?.slug ?? slugs[recovered.case_id],
       name: current?.name ?? audit.name,
       intro: current?.intro ?? `${audit.name}的品牌视觉与平面设计案例。`,
-      industryPrimary: current?.industryPrimary ?? audit.industry_primary,
-      industryTags: current?.industryTags ?? audit.industry_tags,
-      designPrimary: current?.designPrimary ?? audit.design_primary,
-      designTags: current?.designTags ?? audit.design_tags,
+      business: "branding",
+      categories: current?.categories ?? INITIAL_CATEGORIES[recovered.case_id],
+      primaryIndustry: current?.primaryIndustry ?? audit.industry_primary,
       cover: cover.src, coverWidth: cover.width, coverHeight: cover.height, hero: hero.src,
       coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
       published: current?.published ?? recovered.published,
@@ -96,7 +95,7 @@ async function main() {
   const temporary = `${contentPath}.tmp`;
   await fs.writeFile(temporary, `${JSON.stringify(result, null, 2)}\n`);
   await fs.rename(temporary, contentPath);
-  console.log(`Imported ${imported.length} recovered PSD cases; ${imported.filter((item) => item.published).length} published and ${imported.filter((item) => !item.published).length} draft. Existing ordering and version priorities were preserved.`);
+  console.log(`Imported ${imported.length} recovered PSD cases; ${imported.filter((item) => item.published).length} published and ${imported.filter((item) => !item.published).length} draft. Existing taxonomy and ordering were preserved.`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });

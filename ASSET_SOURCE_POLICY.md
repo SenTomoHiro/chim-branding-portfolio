@@ -14,6 +14,6 @@ AI/PSD = source. Legacy JPG/PDF files are reference and case-boundary material o
 
 For single-layer legacy PSD boards, complete visuals may be recovered with visually checked whitespace segmentation. Each crop must retain PSD path, layer count, bounding box, dimensions, hash, and extraction method. `case-audit-v3/psd-segmentation-manifest.json` is the authority for these recovered assets.
 
-Photography cases L013–L030 use formal embedded images recovered from `旧案例/摄影作品集.ai`. They stay in the shared case data model, publish under `/photo`, and use the independent `photographyCaseOrder` rather than the Branding order or targeted versions.
+Photography cases L013–L030 use formal embedded images recovered from `旧案例/摄影作品集.ai`. They stay in the shared case data model, publish under `/photo`, and use the independent `photographyCaseOrder` rather than the Branding order.
 
 `case-audit-v3/asset-manifest-v3.json` is the provenance authority for discovered new cases. `npm run import:cases` intentionally has no PPT/PPTX/DOC/DOCX fallback and preserves existing business fields while replacing new-case media, then synchronizes approved legacy PSD recoveries and Photography source assets.

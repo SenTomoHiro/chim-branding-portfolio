@@ -5,19 +5,6 @@
       "slug": "n001-w-concept-cafe",
       "name": "W² Concept Cafe",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
-      "industryPrimary": "咖啡",
-      "industryTags": [
-        "餐饮",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "IP Design",
-        "Illustration",
-        "Packaging",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N001/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 888,
@@ -164,25 +151,19 @@
         "sha256": "cf66a053c32890e1a8d525a9686af1f0772a95fb9e4a40470487628c40fa0fdc",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "咖啡"
     },
     {
       "id": "N002",
       "slug": "n002-粤有福手作",
       "name": "粤有福手作",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "奶茶",
-        "连锁餐饮"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Packaging",
-        "Campaign",
-        "Signage"
-      ],
       "cover": "/media/cases/N002/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -519,26 +500,18 @@
         "sha256": "f982c82aa4a23b8fc6c39db35c89381482db24236001190a146d466b5b4be578",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     },
     {
       "id": "N003",
       "slug": "n003-小满",
       "name": "小满",
       "intro": "餐饮品牌视觉与Visual Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "中式餐饮",
-        "地方风味"
-      ],
-      "designPrimary": "Visual Identity",
-      "designTags": [
-        "Logo",
-        "Typography",
-        "Illustration",
-        "Signage",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N003/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 788,
@@ -799,26 +772,18 @@
         "sha256": "a8a00544be6d5647973a906f6cf95bf45839c2075b21f971d3edb6f8b58eb6a3",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N004",
       "slug": "n004-三餐好乡邻",
       "name": "三餐好乡邻",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "家常菜",
-        "连锁餐饮"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Illustration",
-        "Campaign",
-        "Packaging",
-        "Signage"
-      ],
       "cover": "/media/cases/N004/v3-cover.webp",
       "coverWidth": 1299,
       "coverHeight": 906,
@@ -1003,26 +968,18 @@
         "sha256": "4054a025ff60fb70dfcee1d36672dc76326888661bb81c3d7030d40222a6e5e4",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N005",
       "slug": "n005-fruits-pops",
       "name": "水果老爸 Fruits Pops",
       "intro": "甜品品牌视觉与Packaging设计。",
-      "industryPrimary": "甜品",
-      "industryTags": [
-        "冰淇淋",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "Packaging",
-      "designTags": [
-        "Brand Identity",
-        "Logo",
-        "Illustration",
-        "Campaign",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N005/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1027,
@@ -1302,26 +1259,18 @@
         "sha256": "1a2ceb8f0c1f453428cf99ba1a34eeb81fcf387e904cd4b00081f7c650eb8332",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "甜品"
     },
     {
       "id": "N006",
       "slug": "n006-oi-coffee",
       "name": "Oi·Coffee",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
-      "industryPrimary": "咖啡",
-      "industryTags": [
-        "饮品",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "IP Design",
-        "Illustration",
-        "Packaging",
-        "Campaign",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N006/v3-cover.webp",
       "coverWidth": 1354,
       "coverHeight": 1083,
@@ -1639,26 +1588,19 @@
         "sha256": "156c928e4f6ea9fc5b15f1c51a7619369f696a236664480cfdbd9d304951b8fc",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "咖啡"
     },
     {
       "id": "N007",
       "slug": "n007-稻米香·湘菜小炒",
       "name": "稻米香·湘菜小炒",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "湘菜",
-        "快餐"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Typography",
-        "Graphic System",
-        "Campaign",
-        "Packaging",
-        "Signage"
-      ],
       "cover": "/media/cases/N007/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1077,
@@ -1881,26 +1823,18 @@
         "sha256": "725417cbbedfca6ba9354a3020b6998b7bf03d375d9b553e8bcd5dcdf4f221b7",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N008",
       "slug": "n008-shell-nook",
       "name": "果壳里 Shell Nook",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "一人食",
-        "休闲餐饮"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Illustration",
-        "Packaging",
-        "Campaign",
-        "Signage"
-      ],
       "cover": "/media/cases/N008/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 880,
@@ -2123,26 +2057,18 @@
         "sha256": "97cb258676c0190f97f6d310b2831803f6da736d17b1e65df2bb6493e4dc542f",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N009",
       "slug": "n009-饭点时光",
       "name": "饭点时光",
       "intro": "餐饮品牌视觉与Art Direction设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "融合餐饮",
-        "品质餐饮"
-      ],
-      "designPrimary": "Art Direction",
-      "designTags": [
-        "Brand Identity",
-        "Photography",
-        "Typography",
-        "Campaign",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N009/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 807,
@@ -2422,26 +2348,18 @@
         "sha256": "fb694e968402595c471c90e0a4dea486195e14cdb59441d77006a1447e69e5e7",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N010",
       "slug": "n010-ruru-bite",
       "name": "禾之伴 RURU Bite",
       "intro": "轻食品牌视觉与Brand Identity设计。",
-      "industryPrimary": "轻食",
-      "industryTags": [
-        "健康餐饮",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Illustration",
-        "Packaging",
-        "Social Media",
-        "Campaign"
-      ],
       "cover": "/media/cases/N010/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 880,
@@ -2531,26 +2449,18 @@
         "sha256": "6bd339c2c2276e68051a8619577741312690f563bc83022d65cd94eea8202fdf",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "轻食"
     },
     {
       "id": "N011",
       "slug": "n011-tone",
       "name": "豚豚冰屋 Tone",
       "intro": "甜品品牌视觉与IP Design设计。",
-      "industryPrimary": "甜品",
-      "industryTags": [
-        "冰品",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "IP Design",
-      "designTags": [
-        "Brand Identity",
-        "Character Design",
-        "Illustration",
-        "Packaging",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N011/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -2792,26 +2702,19 @@
         "sha256": "42daa2f04151ebeba94d61cb20ff82ef9f3224f475fddaa38e6e04d742362406",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "甜品"
     },
     {
       "id": "N012",
       "slug": "n012-郑社长满分果汁",
       "name": "郑社长满分果汁",
       "intro": "饮品品牌视觉与Brand Identity设计。",
-      "industryPrimary": "饮品",
-      "industryTags": [
-        "果汁",
-        "年轻消费品牌"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Packaging",
-        "Campaign",
-        "Graphic System",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N012/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1050,
@@ -3186,26 +3089,18 @@
         "sha256": "a37562bf3e29f070dd3e0f9ae05212563d1d2452a75642f967b18c0ac96b0e00",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品"
     },
     {
       "id": "N013",
       "slug": "n013-manual-burger",
       "name": "堡乎乎 Manual Burger",
       "intro": "餐饮品牌视觉与IP Design设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "汉堡",
-        "快餐"
-      ],
-      "designPrimary": "IP Design",
-      "designTags": [
-        "Brand Identity",
-        "Character Design",
-        "Illustration",
-        "Packaging",
-        "Campaign"
-      ],
       "cover": "/media/cases/N013/v3-cover.webp",
       "coverWidth": 930,
       "coverHeight": 1288,
@@ -3485,26 +3380,19 @@
         "sha256": "83947af8c8bc4c18f8409a35f4459c79412d4beac540e48d7e1a88374f895a5d",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food",
+        "ip"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N014",
       "slug": "n014-halo-tree",
       "name": "欢树 Halo Tree",
       "intro": "咖啡品牌视觉与Art Direction设计。",
-      "industryPrimary": "咖啡",
-      "industryTags": [
-        "日咖夜酒",
-        "庭院空间"
-      ],
-      "designPrimary": "Art Direction",
-      "designTags": [
-        "Brand Identity",
-        "Photography",
-        "Typography",
-        "Packaging",
-        "Spatial / Signage"
-      ],
       "cover": "/media/cases/N014/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 977,
@@ -3803,26 +3691,19 @@
         "sha256": "38098997e8151a9f3fce6f39e76bf75f39700d2cfe4b0899c5f38ee86506c8cc",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "other"
+      ],
+      "primaryIndustry": "咖啡"
     },
     {
       "id": "N015",
       "slug": "n015-台滋味·台式厨房",
       "name": "台滋味·台式厨房",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "台式餐饮",
-        "地方风味"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Typography",
-        "Illustration",
-        "Campaign",
-        "Packaging",
-        "Signage"
-      ],
       "cover": "/media/cases/N015/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -4026,26 +3907,18 @@
         "sha256": "dd3cfd1b6ed42a876c090e4fcafcdeec8db27d06199dcf8cdfe50d182f96e373",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N016",
       "slug": "n016-hui",
       "name": "荟 HUI·威士忌水烟吧",
       "intro": "酒吧品牌视觉与Brand Identity设计。",
-      "industryPrimary": "酒吧",
-      "industryTags": [
-        "威士忌",
-        "夜生活"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Typography",
-        "Art Direction",
-        "Campaign",
-        "Packaging",
-        "Spatial / Signage"
-      ],
       "cover": "/media/cases/N016/v3-cover.webp",
       "coverWidth": 932,
       "coverHeight": 1198,
@@ -4363,26 +4236,18 @@
         "sha256": "e4f0abc794eae5c598b41390136f111098a41237cd1747d65ec1b2ded32d6f6e",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "酒吧"
     },
     {
       "id": "N017",
       "slug": "n017-大利村·手工鲜汤粉",
       "name": "大利村·手工鲜汤粉",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "汤粉",
-        "地方风味"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Typography",
-        "Illustration",
-        "Graphic System",
-        "Packaging",
-        "Campaign"
-      ],
       "cover": "/media/cases/N017/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1050,
@@ -4624,26 +4489,18 @@
         "sha256": "7c276dca5c4939203921bc30625cc30cfa0ea4cfa656abc0ac6ba026d4e900e5",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N018",
       "slug": "n018-meekaka",
       "name": "觅咔咔 Meekaka",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "融合餐饮",
-        "地方风味"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Graphic System",
-        "Packaging",
-        "Campaign",
-        "Signage"
-      ],
       "cover": "/media/cases/N018/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 931,
@@ -4923,26 +4780,18 @@
         "sha256": "096c4d2bf4fbdad165d2a8df4fe9cbe626fbf861950deb7d0d5ad7fb80d4f7ba",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N019",
       "slug": "n019-senmachi",
       "name": "鮮燙町 Senmachi",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "麻辣烫",
-        "日式街头"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Logo",
-        "Illustration",
-        "Typography",
-        "Campaign",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N019/v3-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 977,
@@ -5089,26 +4938,18 @@
         "sha256": "294dd33e51617ee430953bef7c436648e32c7aa4bb43eba6fdcaa4378ce02c3a",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "N020",
       "slug": "n020-awesome-bo",
       "name": "巴适的钵 Awesome Bo",
       "intro": "餐饮品牌视觉与IP Design设计。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "川味小吃",
-        "串串"
-      ],
-      "designPrimary": "IP Design",
-      "designTags": [
-        "Brand Identity",
-        "Character Design",
-        "Graphic System",
-        "Packaging",
-        "Merchandise"
-      ],
       "cover": "/media/cases/N020/v3-cover.webp",
       "coverWidth": 853,
       "coverHeight": 1280,
@@ -5236,24 +5077,19 @@
         "sha256": "dd1f48da0b1f2ae91c0b53107c4cb385ed750935cab77b5b73fed36bfe74749a",
         "classification": "final_design",
         "finalWorkVerified": true
-      }
+      },
+      "business": "branding",
+      "categories": [
+        "food",
+        "ip"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "L010",
       "slug": "l010-chunlai",
       "name": "春莱 ChunLai·品牌视觉",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "茶饮",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L010/cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1050,
@@ -5302,24 +5138,18 @@
           "layout": "full"
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     },
     {
       "id": "L011",
       "slug": "l011-chunlai",
       "name": "春莱 ChunLai·品牌升级",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "茶饮",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L011/cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1451,
@@ -5356,24 +5186,18 @@
           "layout": "half"
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     },
     {
       "id": "L012",
       "slug": "l012-文柠记",
       "name": "文柠记",
       "intro": "柠檬茶品牌视觉与Brand Identity设计。",
-      "industryPrimary": "柠檬茶",
-      "industryTags": [
-        "柠檬茶",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L012/cover.webp",
       "coverWidth": 426,
       "coverHeight": 741,
@@ -5416,24 +5240,18 @@
           "layout": "full"
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "柠檬茶"
     },
     {
       "id": "L001",
       "slug": "l001-space-bunnies",
       "name": "仙兔策划·太空兔 Space Bunnies",
       "intro": "仙兔策划·太空兔 Space Bunnies的品牌视觉与平面设计案例。",
-      "industryPrimary": "活动策划 / 文创",
-      "industryTags": [
-        "活动策划 / 文创",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L001/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 788,
@@ -5836,24 +5654,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "活动策划 / 文创"
     },
     {
       "id": "L002",
       "slug": "l002-huananxing",
       "name": "华南行",
       "intro": "华南行的品牌视觉与平面设计案例。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "餐饮",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L002/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 795,
@@ -6256,24 +6068,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "L003",
       "slug": "l003-coffee-forty",
       "name": "咖啡肆拾 Coffee Forty",
       "intro": "咖啡肆拾 Coffee Forty的品牌视觉与平面设计案例。",
-      "industryPrimary": "咖啡",
-      "industryTags": [
-        "咖啡",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Brand Identity",
-      "designTags": [
-        "Brand Identity",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L003/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 788,
@@ -6484,24 +6290,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "咖啡"
     },
     {
       "id": "L004",
       "slug": "l004-maxdona",
       "name": "MaxDona",
       "intro": "MaxDona的品牌视觉与平面设计案例。",
-      "industryPrimary": "美妆",
-      "industryTags": [
-        "美妆",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Packaging",
-      "designTags": [
-        "Packaging",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L004/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 546,
@@ -6712,24 +6512,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "美妆"
     },
     {
       "id": "L005",
       "slug": "l005-logo-collection-1",
       "name": "标志设计合集 I",
       "intro": "标志设计合集 I的品牌视觉与平面设计案例。",
-      "industryPrimary": "多行业",
-      "industryTags": [
-        "多行业",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Logo Design",
-      "designTags": [
-        "Logo Design",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L005/psd-cover.webp",
       "coverWidth": 1109,
       "coverHeight": 1800,
@@ -7060,24 +6854,18 @@
           }
         }
       ],
-      "published": false
+      "published": false,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "多行业"
     },
     {
       "id": "L006",
       "slug": "l006-logo-collection-2",
       "name": "标志设计合集 II",
       "intro": "标志设计合集 II的品牌视觉与平面设计案例。",
-      "industryPrimary": "多行业",
-      "industryTags": [
-        "多行业",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Logo Design",
-      "designTags": [
-        "Logo Design",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L006/psd-cover.webp",
       "coverWidth": 1109,
       "coverHeight": 1800,
@@ -7384,24 +7172,18 @@
           }
         }
       ],
-      "published": false
+      "published": false,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "多行业"
     },
     {
       "id": "L007",
       "slug": "l007-dimai-cat-food",
       "name": "迪迈猫粮",
       "intro": "迪迈猫粮的品牌视觉与平面设计案例。",
-      "industryPrimary": "宠物食品",
-      "industryTags": [
-        "宠物食品",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Packaging",
-      "designTags": [
-        "Packaging",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L007/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 1124,
@@ -7612,24 +7394,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "宠物食品"
     },
     {
       "id": "L008",
       "slug": "l008-pangfu-mooncake",
       "name": "胖福月饼",
       "intro": "胖福月饼的品牌视觉与平面设计案例。",
-      "industryPrimary": "食品 / 礼盒",
-      "industryTags": [
-        "食品 / 礼盒",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Packaging",
-      "designTags": [
-        "Packaging",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L008/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 777,
@@ -7768,24 +7544,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "食品 / 礼盒"
     },
     {
       "id": "L009",
       "slug": "l009-hacinana",
       "name": "hacinana",
       "intro": "hacinana的品牌视觉与平面设计案例。",
-      "industryPrimary": "美妆 / 护肤",
-      "industryTags": [
-        "美妆 / 护肤",
-        "旧案例",
-        "品牌设计"
-      ],
-      "designPrimary": "Packaging",
-      "designTags": [
-        "Packaging",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L009/psd-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 791,
@@ -7900,24 +7670,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "美妆 / 护肤"
     },
     {
       "id": "L021",
       "slug": "l021-alassis",
       "name": "ALASSIS·香薰蜡烛",
       "intro": "ALASSIS·香薰蜡烛商业摄影与美术指导案例。",
-      "industryPrimary": "家居香氛",
-      "industryTags": [
-        "家居香氛",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L021/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -8102,24 +7866,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "家居香氛"
     },
     {
       "id": "L023",
       "slug": "l023-miwu-home",
       "name": "迷物家居",
       "intro": "迷物家居商业摄影与美术指导案例。",
-      "industryPrimary": "家居",
-      "industryTags": [
-        "家居",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L023/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -8304,24 +8062,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "家居"
     },
     {
       "id": "L015",
       "slug": "l015-hogood-coffee",
       "name": "后谷咖啡",
       "intro": "后谷咖啡商业摄影与美术指导案例。",
-      "industryPrimary": "咖啡",
-      "industryTags": [
-        "咖啡",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L015/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -8468,24 +8220,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "咖啡"
     },
     {
       "id": "L018",
       "slug": "l018-pavomea-cookies",
       "name": "PavoMea·饼干",
       "intro": "PavoMea·饼干商业摄影与美术指导案例。",
-      "industryPrimary": "休闲食品",
-      "industryTags": [
-        "休闲食品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L018/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -8651,24 +8397,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "休闲食品"
     },
     {
       "id": "L025",
       "slug": "l025-zilu",
       "name": "紫庐·中西餐",
       "intro": "紫庐·中西餐商业摄影与美术指导案例。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "餐饮",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L025/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -8853,24 +8593,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "L017",
       "slug": "l017-gangjiu-tea",
       "name": "七港九·茶饮系列",
       "intro": "七港九·茶饮系列商业摄影与美术指导案例。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "茶饮",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L017/photo-cover.webp",
       "coverWidth": 1273,
       "coverHeight": 1800,
@@ -9017,24 +8751,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     },
     {
       "id": "L028",
       "slug": "l028-wutong-silver",
       "name": "乌铜走银·银器首饰",
       "intro": "乌铜走银·银器首饰商业摄影与美术指导案例。",
-      "industryPrimary": "非遗工艺",
-      "industryTags": [
-        "非遗工艺",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L028/photo-cover.webp",
       "coverWidth": 1024,
       "coverHeight": 1535,
@@ -9181,24 +8909,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "非遗工艺"
     },
     {
       "id": "L013",
       "slug": "l013-jiaomu-wellness-tea",
       "name": "骄慕·养生茶",
       "intro": "骄慕·养生茶商业摄影与美术指导案例。",
-      "industryPrimary": "饮品",
-      "industryTags": [
-        "饮品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L013/photo-cover.webp",
       "coverWidth": 724,
       "coverHeight": 1086,
@@ -9383,24 +9105,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品"
     },
     {
       "id": "L022",
       "slug": "l022-mosanana",
       "name": "mosanana·眼镜",
       "intro": "mosanana·眼镜商业摄影与美术指导案例。",
-      "industryPrimary": "眼镜",
-      "industryTags": [
-        "眼镜",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L022/photo-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -9490,24 +9206,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "眼镜"
     },
     {
       "id": "L020",
       "slug": "l020-pavomea-madeleine",
       "name": "PavoMea·玛德琳蛋糕",
       "intro": "PavoMea·玛德琳蛋糕商业摄影与美术指导案例。",
-      "industryPrimary": "休闲食品",
-      "industryTags": [
-        "休闲食品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L020/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -9616,24 +9326,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "休闲食品"
     },
     {
       "id": "L027",
       "slug": "l027-wutong-tea",
       "name": "乌铜走银·茶与工艺",
       "intro": "乌铜走银·茶与工艺商业摄影与美术指导案例。",
-      "industryPrimary": "非遗工艺",
-      "industryTags": [
-        "非遗工艺",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L027/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -9780,24 +9484,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "非遗工艺"
     },
     {
       "id": "L029",
       "slug": "l029-longshang-apple",
       "name": "陇上花牛苹果汁",
       "intro": "陇上花牛苹果汁商业摄影与美术指导案例。",
-      "industryPrimary": "饮品",
-      "industryTags": [
-        "饮品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L029/photo-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -9982,24 +9680,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品"
     },
     {
       "id": "L024",
       "slug": "l024-ct-bee",
       "name": "CT BEE·咖啡与奶茶",
       "intro": "CT BEE·咖啡与奶茶商业摄影与美术指导案例。",
-      "industryPrimary": "饮品",
-      "industryTags": [
-        "饮品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L024/photo-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -10127,24 +9819,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品"
     },
     {
       "id": "L019",
       "slug": "l019-pavomea-chestnut",
       "name": "PavoMea·脆栗子",
       "intro": "PavoMea·脆栗子商业摄影与美术指导案例。",
-      "industryPrimary": "休闲食品",
-      "industryTags": [
-        "休闲食品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L019/photo-cover.webp",
       "coverWidth": 724,
       "coverHeight": 1086,
@@ -10234,24 +9920,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "休闲食品"
     },
     {
       "id": "L030",
       "slug": "l030-chunlai-photo",
       "name": "春莱 ChunLai·茶饮摄影",
       "intro": "春莱 ChunLai·茶饮摄影商业摄影与美术指导案例。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "茶饮",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L030/photo-cover.webp",
       "coverWidth": 1200,
       "coverHeight": 1800,
@@ -10341,24 +10021,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     },
     {
       "id": "L026",
       "slug": "l026-li-dama",
       "name": "李大妈把猪脚米线",
       "intro": "李大妈把猪脚米线商业摄影与美术指导案例。",
-      "industryPrimary": "餐饮",
-      "industryTags": [
-        "餐饮",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L026/photo-cover.webp",
       "coverWidth": 1400,
       "coverHeight": 934,
@@ -10486,24 +10160,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮"
     },
     {
       "id": "L014",
       "slug": "l014-jiaomu-goji",
       "name": "骄慕·枸杞原浆",
       "intro": "骄慕·枸杞原浆商业摄影与美术指导案例。",
-      "industryPrimary": "饮品",
-      "industryTags": [
-        "饮品",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L014/photo-cover.webp",
       "coverWidth": 724,
       "coverHeight": 1086,
@@ -10574,24 +10242,18 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品"
     },
     {
       "id": "L016",
       "slug": "l016-gangjiu-berry",
       "name": "七港九·港九莓莓",
       "intro": "七港九·港九莓莓商业摄影与美术指导案例。",
-      "industryPrimary": "茶饮",
-      "industryTags": [
-        "茶饮",
-        "旧案例",
-        "商业摄影"
-      ],
-      "designPrimary": "Photography",
-      "designTags": [
-        "Photography",
-        "Art Direction"
-      ],
       "cover": "/media/cases/L016/photo-cover.webp",
       "coverWidth": 1201,
       "coverHeight": 1800,
@@ -10643,7 +10305,12 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "business": "photography",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
     }
   ],
   "defaultOrder": [
@@ -10679,74 +10346,6 @@
     "L007",
     "L008",
     "L009"
-  ],
-  "versions": [
-    {
-      "slug": "food",
-      "name": "Food",
-      "enabled": true,
-      "priorityCaseIds": [
-        "N017",
-        "N003",
-        "N013",
-        "N009",
-        "N004",
-        "N007",
-        "N019",
-        "N020",
-        "N015",
-        "N018",
-        "N008",
-        "N010"
-      ]
-    },
-    {
-      "slug": "drinks",
-      "name": "Drinks",
-      "enabled": true,
-      "priorityCaseIds": [
-        "N002",
-        "N012",
-        "L012",
-        "N006",
-        "L011",
-        "N001",
-        "L010",
-        "N014",
-        "N005",
-        "N011"
-      ]
-    },
-    {
-      "slug": "ip",
-      "name": "IP",
-      "enabled": true,
-      "priorityCaseIds": [
-        "N013",
-        "N011",
-        "N006",
-        "N001",
-        "N020",
-        "N005",
-        "N012",
-        "N004",
-        "N008",
-        "N010"
-      ]
-    },
-    {
-      "slug": "premium",
-      "name": "Premium",
-      "enabled": true,
-      "priorityCaseIds": [
-        "N014",
-        "N016",
-        "N009",
-        "N003",
-        "N015",
-        "N018"
-      ]
-    }
   ],
   "photographyCaseOrder": [
     "L021",

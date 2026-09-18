@@ -10,7 +10,7 @@ describe("Photography category", () => {
     const photography = getPhotographyCases(content.cases);
     expect(photography).toHaveLength(18);
     expect(photography.every((item) => item.published && item.cover && item.hero && item.bodyAssets.length > 0)).toBe(true);
-    expect(getBrandingCases(content.cases).some((item) => item.designPrimary === "Photography")).toBe(false);
+    expect(getBrandingCases(content.cases).some((item) => item.business === "photography")).toBe(false);
   });
 
   it("uses the approved independent order and formal AI provenance", () => {

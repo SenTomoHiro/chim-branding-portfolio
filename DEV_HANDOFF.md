@@ -2,69 +2,52 @@
 
 ## STATUS
 
-第一轮人工验收暴露的瀑布流与案例详情 404 已修复，并重新完成真实浏览器验收。
+CHIM Portfolio 的分类模型、后台字段、公开导航、路由标题、详情 Metadata 与 Motion Pass 已完成重构，并通过 Production 浏览器验收。
 
-## FIXES
+## TAXONOMY
 
-- 首页与 4 个定向版本改为真正的等宽瀑布流：按封面自然比例展示、按当前最短列放置，桌面 3 列、平板 2 列、手机 1 列，列内间距为 18px。
-- 移除原有 `nth-child` 编辑式跨列规则、固定封面比例及封面裁切；23 张 Cover 已按自然比例重新生成，并记录实际宽高用于无跳动排版。
-- 封面 URL 加尺寸版本参数，避免重新导入后被 Next Image 的旧优化缓存继续显示成历史裁切比例。
-- 案例路由先对 URL 段执行一次严格解码，再与唯一正式 slug 精确匹配；没有增加 alias、重定向或兜底页面。
-- Slug 校验同步支持中文等 Unicode 字母，保证既有中文 slug 在后台编辑后仍可正常保存。
-- `/admin` 保持为唯一后台入口，前台未增加后台链接。
-
-## ROOT_CAUSE
-
-- 详情 404：当前 Next.js 动态路由参数中的中文段是百分号编码值，旧代码直接拿它与数据中的已解码 slug 比较，因此中文 slug 全部匹配失败；原 E2E 只点击了英文 slug N013，没有覆盖到问题。
-- 首页非瀑布流：旧实现是 12 列编辑式 Grid，并通过 `nth-child` 指定 8/4 跨列，同时用固定 4:3、3:4 容器和 `object-fit: cover` 裁切封面；导入脚本也把封面统一裁成 1400×1050。
-
-## DATA
-
-- Case：23
-- Published：23
-- Draft：0
-- 优化媒体：224 个（Cover、Hero、正文）
-- 正式数据无测试草稿、测试上传或验收文案残留；默认排序、发布状态与 Drinks 优先级均已恢复。
+- 唯一正式分类模型：`business`、`categories`、`primaryIndustry`。
+- 所属业务：`branding`（品牌设计）、`photography`（商业摄影），单选且必填。
+- 所属分类：`food`、`drinks`、`ip`、`other`，固定多选且至少一个。
+- 已删除 `industryTags`、`designPrimary`、`designTags`、`versions`、`priorityCaseIds` 及相关 API/UI/排序逻辑。
+- 数据保持 50 个 Case、48 个公开；Branding 30 个公开、Photography 18 个公开；L005/L006 仍为草稿。
 
 ## ROUTES
 
-- 前台：`http://localhost:3000/`
-- 定向版本：`/food`、`/drinks`、`/ip`、`/premium`
-- 案例详情：`/work/[slug]`
-- 后台：`http://localhost:3000/admin`
+- `/`：全部已发布 Branding。
+- `/photo`：全部已发布 Photography。
+- `/food`、`/drinks`、`/ip`、`/other`：从 Branding 默认顺序中按固定分类过滤。
+- `/premium`：已删除并返回 404。
+- `/work/[slug]`：Branding 与 Photography 共用详情实现。
+- `/admin`：唯一后台入口；保留 Branding 与 Photography 两套默认排序。
+
+## UI AND MOTION
+
+- 双语导航采用“业务一级 / Branding 分类二级”结构，中文主、英文辅；Photography 不显示二级分类。
+- 页面标题使用英文主标题与中文辅助标题。
+- 统一 Motion tokens；包含 Header reveal、标题 mask reveal、Masonry IntersectionObserver reveal、桌面 Cover 到 Hero/正文图的按需 crossfade、详情 Hero clip/scale、正文媒体 reveal。
+- 使用 React ViewTransition 对列表图片与详情 Hero 做渐进增强；不支持时正常导航。
+- `prefers-reduced-motion` 会关闭非必要位移、裁切与缩放。
+- Hover 次级媒体首次指针进入时才挂载并懒加载；Mobile 不模拟 Hover。
 
 ## TESTS
 
 - TypeScript：`npx tsc --noEmit` 通过。
-- Vitest：2 个测试文件、5 个核心测试，全部通过。
-- Playwright / Chrome：4 个真实浏览器验收流程，全部通过。
-- 23/23 个已发布案例详情逐条返回 200，页面标题、Hero 与正文媒体均通过断言。
-- 代表案例 N013、N014、N005、N009、L010 已在 1440 与 390 宽度验证；包含中文 slug、旧编号案例、Next case 与返回首页。
-- 后台已验证错误密码、正确密码、编辑并恢复 N009、下架再恢复、默认排序调整再恢复、Drinks 优先级调整再恢复、Cover/Hero/正文上传、删除正文上传、创建与删除测试草稿。
-- E2E 使用临时内容副本，测试数据不会写入正式 `data/content.json`。
+- Vitest：6 个测试文件、14 个测试全部通过。
+- Playwright / Chrome：5 个流程全部通过；覆盖业务/分类真实筛选、相对排序、多分类、Masonry、6 个 Hover、48 个公开详情、1440×900 与 390×844、后台分类字段与可逆增删改发流程。
+- Production Build：`npm run build` 通过。
+- Production 核心路由：`/`、`/food`、`/drinks`、`/ip`、`/other`、`/photo`、Branding Detail、Photography Detail、`/admin` 均已实际浏览；`/premium` 返回 404。
+- Production Console：CHIM 页面未发现 runtime、hydration、asset 404 或 React 警告。
 
-## VISUAL_QA
+## VISUAL QA
 
-- Production 浏览器截图：1440×900 首页顶部/中部/底部、N009 中文详情页；390×844 首页、N013 详情页、后台列表。
-- 已检查等宽列、自然比例、最短列布局、首屏位置、底部收口、中文显示、Hero、手机单列、后台布局与横向溢出。
-- 浏览器 Console / pageerror：0；横向溢出：0。
-- Production 后台使用当前 `.env.local` 密码真实登录成功，显示 23 条案例。
+- Desktop：检查双语导航、标题、Masonry、慢速/快速滚动、分类切换、Branding/Photography Detail 与正文 Reveal。
+- Mobile 390×844：检查双语导航换行、标题、单列 Masonry、Detail、后台列表与横向溢出。
+- COLLINS 案例列表与 Bose 详情已实际浏览、滚动、点击与返回；借鉴其节奏和连续感，未复制视觉或引入复杂滚动依赖。
 
-## BUILD
-
-- Production Build：通过。
-- Production Server：已实际启动于 `http://localhost:3000`。
-- 最终截图与后台真实登录均在 Production Server 上完成。
-
-## KNOWN_ISSUES
+## KNOWN ISSUES
 
 None.
-
-## GIT
-
-- 保留提交：`4250996 feat: build local branding portfolio`
-- 保留提交：`91aa372 docs: add verified development handoff`
-- 本轮提交：`fix: repair masonry layout and case routes`
 
 ## DEPLOYMENT
 

@@ -1,5 +1,7 @@
 export type MediaType = "image" | "video";
 export type MediaLayout = "full" | "half";
+export type Business = "branding" | "photography";
+export type CaseCategory = "food" | "drinks" | "ip" | "other";
 
 export type AssetProvenance = {
   assetId: string;
@@ -34,10 +36,9 @@ export type PortfolioCase = {
   slug: string;
   name: string;
   intro: string;
-  industryPrimary: string;
-  industryTags: string[];
-  designPrimary: string;
-  designTags: string[];
+  business: Business;
+  categories: CaseCategory[];
+  primaryIndustry: string;
   cover: string;
   coverWidth: number;
   coverHeight: number;
@@ -48,16 +49,8 @@ export type PortfolioCase = {
   published: boolean;
 };
 
-export type ShowcaseVersion = {
-  slug: string;
-  name: string;
-  enabled: boolean;
-  priorityCaseIds: string[];
-};
-
 export type ContentData = {
   cases: PortfolioCase[];
   defaultOrder: string[];
   photographyCaseOrder: string[];
-  versions: ShowcaseVersion[];
 };

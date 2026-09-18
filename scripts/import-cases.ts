@@ -74,7 +74,7 @@ async function main() {
   const temporary = `${contentPath}.tmp`;
   await fs.writeFile(temporary, `${JSON.stringify(content, null, 2)}\n`);
   await fs.rename(temporary, contentPath);
-  console.log(`Migrated ${newCaseIds.size} discovered new cases to V3 PDF-only assets; preserved business fields, ordering, versions, and legacy cases.`);
+  console.log(`Migrated ${newCaseIds.size} discovered new cases to V3 PDF-only assets; preserved taxonomy, ordering, and legacy cases.`);
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });
