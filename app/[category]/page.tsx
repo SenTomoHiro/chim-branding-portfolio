@@ -6,8 +6,6 @@ import { getPublishedCases } from "@/lib/sort-cases";
 import { CATEGORY_ROUTES } from "@/lib/taxonomy";
 import type { CaseCategory } from "@/lib/types";
 
-export const dynamic = "force-dynamic";
-
 const pageContent: Record<CaseCategory, { title: string; subtitle: string; description: string }> = {
   food: { title: "Food Branding", subtitle: "餐饮品牌案例", description: "CHIM 餐饮品牌设计案例。" },
   drinks: { title: "Drinks Branding", subtitle: "饮品品牌案例", description: "CHIM 饮品品牌设计案例。" },
@@ -16,6 +14,10 @@ const pageContent: Record<CaseCategory, { title: string; subtitle: string; descr
 };
 
 const getCategory = (value: string) => CATEGORY_ROUTES.includes(value as CaseCategory) ? value as CaseCategory : undefined;
+
+export function generateStaticParams() {
+  return CATEGORY_ROUTES.map((category) => ({ category }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string }> }): Promise<Metadata> {
   const category = getCategory((await params).category);

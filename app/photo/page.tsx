@@ -3,7 +3,6 @@ import { readContent } from "@/lib/content";
 import { getPublishedCases } from "@/lib/sort-cases";
 import type { Metadata } from "next";
 
-export const dynamic = "force-dynamic";
 export const metadata: Metadata = { title: "商业摄影案例", description: "CHIM 商业摄影案例作品集。" };
 
 export default async function PhotographyPage() {

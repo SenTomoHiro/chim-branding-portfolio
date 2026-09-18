@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { assetPath } from "@/lib/site-path";
 import { useEffect, useRef, useState } from "react";
 import type { BodyAsset } from "@/lib/types";
 
@@ -13,5 +14,5 @@ export function RevealMedia({ media }: { media: BodyAsset }) {
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, []);
-  return <figure ref={ref} className={`${media.layout} revealMedia ${visible ? "isVisible" : ""}`}>{media.type === "video" ? <video src={media.src} controls playsInline /> : <Image src={media.src} alt="" width={1800} height={1200} sizes={media.layout === "half" ? "(max-width: 700px) 100vw, 50vw" : "100vw"} />}</figure>;
+  return <figure ref={ref} className={`${media.layout} revealMedia ${visible ? "isVisible" : ""}`}>{media.type === "video" ? <video src={assetPath(media.src)} controls playsInline /> : <Image src={assetPath(media.src)} alt="" width={1800} height={1200} sizes={media.layout === "half" ? "(max-width: 700px) 100vw, 50vw" : "100vw"} />}</figure>;
 }
