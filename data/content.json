@@ -19,6 +19,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N001/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 1120,
       "hero": "/media/cases/N001/hero.webp",
       "bodyAssets": [
         {
@@ -90,6 +92,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N002/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 934,
       "hero": "/media/cases/N002/hero.webp",
       "bodyAssets": [
         {
@@ -162,6 +166,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N003/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 788,
       "hero": "/media/cases/N003/hero.webp",
       "bodyAssets": [
         {
@@ -234,6 +240,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N004/cover.webp",
+      "coverWidth": 1280,
+      "coverHeight": 1561,
       "hero": "/media/cases/N004/hero.webp",
       "bodyAssets": [
         {
@@ -306,6 +314,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N005/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 1027,
       "hero": "/media/cases/N005/hero.webp",
       "bodyAssets": [
         {
@@ -378,6 +388,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N006/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 1050,
       "hero": "/media/cases/N006/hero.webp",
       "bodyAssets": [
         {
@@ -450,6 +462,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N007/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 787,
       "hero": "/media/cases/N007/hero.webp",
       "bodyAssets": [
         {
@@ -522,6 +536,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N008/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 788,
       "hero": "/media/cases/N008/hero.webp",
       "bodyAssets": [
         {
@@ -594,6 +610,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N009/cover.webp",
+      "coverWidth": 1257,
+      "coverHeight": 1800,
       "hero": "/media/cases/N009/hero.webp",
       "bodyAssets": [
         {
@@ -666,6 +684,8 @@
         "Campaign"
       ],
       "cover": "/media/cases/N010/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 787,
       "hero": "/media/cases/N010/hero.webp",
       "bodyAssets": [
         {
@@ -738,6 +758,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N011/cover.webp",
+      "coverWidth": 499,
+      "coverHeight": 886,
       "hero": "/media/cases/N011/hero.webp",
       "bodyAssets": [
         {
@@ -810,6 +832,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N012/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 934,
       "hero": "/media/cases/N012/hero.webp",
       "bodyAssets": [
         {
@@ -882,6 +906,8 @@
         "Campaign"
       ],
       "cover": "/media/cases/N013/cover.webp",
+      "coverWidth": 843,
+      "coverHeight": 1083,
       "hero": "/media/cases/N013/hero.webp",
       "bodyAssets": [
         {
@@ -954,6 +980,8 @@
         "Spatial / Signage"
       ],
       "cover": "/media/cases/N014/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 786,
       "hero": "/media/cases/N014/hero.webp",
       "bodyAssets": [
         {
@@ -1026,6 +1054,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N015/cover.webp",
+      "coverWidth": 1250,
+      "coverHeight": 540,
       "hero": "/media/cases/N015/hero.webp",
       "bodyAssets": [
         {
@@ -1098,6 +1128,8 @@
         "Spatial / Signage"
       ],
       "cover": "/media/cases/N016/cover.webp",
+      "coverWidth": 828,
+      "coverHeight": 1800,
       "hero": "/media/cases/N016/hero.webp",
       "bodyAssets": [
         {
@@ -1170,6 +1202,8 @@
         "Campaign"
       ],
       "cover": "/media/cases/N017/cover.webp",
+      "coverWidth": 1350,
+      "coverHeight": 1800,
       "hero": "/media/cases/N017/hero.webp",
       "bodyAssets": [
         {
@@ -1242,6 +1276,8 @@
         "Signage"
       ],
       "cover": "/media/cases/N018/cover.webp",
+      "coverWidth": 499,
+      "coverHeight": 886,
       "hero": "/media/cases/N018/hero.webp",
       "bodyAssets": [
         {
@@ -1314,6 +1350,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N019/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 788,
       "hero": "/media/cases/N019/hero.webp",
       "bodyAssets": [
         {
@@ -1386,6 +1424,8 @@
         "Merchandise"
       ],
       "cover": "/media/cases/N020/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 787,
       "hero": "/media/cases/N020/hero.webp",
       "bodyAssets": [
         {
@@ -1456,6 +1496,8 @@
         "Art Direction"
       ],
       "cover": "/media/cases/L010/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 1050,
       "hero": "/media/cases/L010/hero.webp",
       "bodyAssets": [
         {
@@ -1520,6 +1562,8 @@
         "Art Direction"
       ],
       "cover": "/media/cases/L011/cover.webp",
+      "coverWidth": 1400,
+      "coverHeight": 1451,
       "hero": "/media/cases/L011/hero.webp",
       "bodyAssets": [
         {
@@ -1572,6 +1616,8 @@
         "Art Direction"
       ],
       "cover": "/media/cases/L012/cover.webp",
+      "coverWidth": 426,
+      "coverHeight": 741,
       "hero": "/media/cases/L012/hero.webp",
       "bodyAssets": [
         {

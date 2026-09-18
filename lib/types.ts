@@ -18,6 +18,8 @@ export type PortfolioCase = {
   designPrimary: string;
   designTags: string[];
   cover: string;
+  coverWidth: number;
+  coverHeight: number;
   hero: string;
   bodyAssets: BodyAsset[];
   published: boolean;

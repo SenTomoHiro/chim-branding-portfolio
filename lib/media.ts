@@ -16,8 +16,8 @@ export async function saveUploadedMedia(file: File) {
   const buffer = Buffer.from(await file.arrayBuffer());
   if (IMAGE_TYPES.has(file.type)) {
     const destination = path.join(root, `${stem}.webp`);
-    await sharp(buffer, { failOn: "error", animated: false }).rotate().resize({ width: 2200, height: 2600, fit: "inside", withoutEnlargement: true }).webp({ quality: 86, alphaQuality: 95 }).toFile(destination);
-    return { type: "image" as const, src: `/media/uploads/${path.basename(destination)}` };
+    const info = await sharp(buffer, { failOn: "error", animated: false }).rotate().resize({ width: 2200, height: 2600, fit: "inside", withoutEnlargement: true }).webp({ quality: 86, alphaQuality: 95 }).toFile(destination);
+    return { type: "image" as const, src: `/media/uploads/${path.basename(destination)}`, width: info.width, height: info.height };
   }
   if (VIDEO_TYPES.has(file.type)) {
     const ext = file.type === "video/webm" ? "webm" : "mp4";

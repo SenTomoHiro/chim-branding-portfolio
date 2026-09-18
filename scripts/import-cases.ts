@@ -24,10 +24,10 @@ async function optimize(source: string, targetBase: string, kind: "cover" | "con
   await fs.mkdir(path.dirname(destination), { recursive: true });
   let image = sharp(source, { failOn: "none" }).rotate();
   image = kind === "cover"
-    ? image.resize(1400, 1050, { fit: "cover", position: "attention" })
+    ? image.resize({ width: 1400, height: 1800, fit: "inside", withoutEnlargement: true })
     : image.resize({ width: 2200, height: 2600, fit: "inside", withoutEnlargement: true });
-  await image.webp({ quality: kind === "cover" ? 84 : 86, alphaQuality: 95, smartSubsample: true }).toFile(destination);
-  return `/${path.relative(path.join(process.cwd(), "public"), destination).split(path.sep).join("/")}`;
+  const info = await image.webp({ quality: kind === "cover" ? 84 : 86, alphaQuality: 95, smartSubsample: true }).toFile(destination);
+  return { src: `/${path.relative(path.join(process.cwd(), "public"), destination).split(path.sep).join("/")}`, width: info.width, height: info.height };
 }
 
 async function main() {
@@ -46,8 +46,8 @@ async function main() {
     const hero = await optimize(path.join(root, item.hero_asset), path.join(directory, "hero"), "content");
     const bodyAssets = [];
     for (const [index, file] of item.body_assets.entries()) {
-      const src = await optimize(path.join(root, file), path.join(directory, `body-${String(index + 1).padStart(2, "0")}`), "content");
-      bodyAssets.push({ id: `${item.case_id}-body-${index + 1}`, type: "image" as const, src, layout: index > 0 && index < 5 ? "half" as const : "full" as const });
+      const media = await optimize(path.join(root, file), path.join(directory, `body-${String(index + 1).padStart(2, "0")}`), "content");
+      bodyAssets.push({ id: `${item.case_id}-body-${index + 1}`, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const });
     }
     const old = existing?.cases.find((entry) => entry.id === item.case_id);
     cases.push({
@@ -59,7 +59,7 @@ async function main() {
       industryTags: old?.industryTags || item.industry_tags,
       designPrimary: old?.designPrimary || item.design_primary,
       designTags: old?.designTags || item.design_tags,
-      cover, hero, bodyAssets: old?.bodyAssets || bodyAssets, published: old?.published ?? true,
+      cover: cover.src, coverWidth: cover.width, coverHeight: cover.height, hero: hero.src, bodyAssets: old?.bodyAssets || bodyAssets, published: old?.published ?? true,
     });
   }
   const content: ContentData = {

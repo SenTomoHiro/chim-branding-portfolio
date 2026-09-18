@@ -1,6 +1,6 @@
 import type { ContentData, PortfolioCase, ShowcaseVersion } from "./types";
 
-const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const slugPattern = /^[\p{L}\p{N}]+(?:[-·][\p{L}\p{N}]+)*$/u;
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
 
 export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCase {
@@ -9,7 +9,7 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   const name = String(input.name || "").trim();
   const slug = String(input.slug || "").trim().toLowerCase();
   if (!name) throw new Error("请输入案例名称");
-  if (!slugPattern.test(slug)) throw new Error("Slug 仅支持小写字母、数字与连字符");
+  if (!slugPattern.test(slug)) throw new Error("Slug 仅支持中英文字母、数字、连字符与间隔点");
   const bodyAssets = Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
     const media = item as Record<string, unknown>;
     return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const };
@@ -18,7 +18,10 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
     id: existing?.id || String(input.id || `C${Date.now()}`), slug, name,
     intro: String(input.intro || "").trim(), industryPrimary: String(input.industryPrimary || "").trim(),
     industryTags: strings(input.industryTags), designPrimary: String(input.designPrimary || "").trim(),
-    designTags: strings(input.designTags), cover: String(input.cover || ""), hero: String(input.hero || ""),
+    designTags: strings(input.designTags), cover: String(input.cover || ""),
+    coverWidth: Number(input.coverWidth) > 0 ? Number(input.coverWidth) : existing?.coverWidth || 1400,
+    coverHeight: Number(input.coverHeight) > 0 ? Number(input.coverHeight) : existing?.coverHeight || 1050,
+    hero: String(input.hero || ""),
     bodyAssets, published: Boolean(input.published),
   };
 }
