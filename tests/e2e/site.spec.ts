@@ -81,6 +81,7 @@ test("mobile, tablet and desktop layouts have no overflow and use responsive mas
 });
 
 async function expectStickyHeader(page: Page) {
+  await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
   for (const progress of [0.25, 0.5, 0.9]) {
     await page.evaluate((ratio) => window.scrollTo(0, (document.documentElement.scrollHeight - innerHeight) * ratio), progress);
     await expect(page.locator(".detailHeader")).toBeVisible();
@@ -100,6 +101,7 @@ test("Branding and Photography details keep a sticky header and close to their s
     const card = page.locator(".caseCard a").first(); const href = await card.getAttribute("href"); await card.click();
     await page.waitForURL((url) => url.pathname === href);
     expect(new URL(page.url()).pathname).toBe(href);
+    if (await page.evaluate(() => document.documentElement.matches(":active-view-transition"))) await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "0");
     const headerLayout = await page.locator(".siteHeader").evaluate((header) => {
       const navigation = header.querySelector(".siteNavigation")!.getBoundingClientRect();
       const close = document.querySelector<HTMLElement>(".detailClose")!; const closeBox = close.getBoundingClientRect();
