@@ -1,18 +1,25 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { getPublishedCases } from "../../lib/sort-cases";
+import { formatCaseMetadata } from "../../lib/taxonomy";
 import type { ContentData } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
 
 describe("portfolio taxonomy", () => {
-  it("requires one business and at least one unique fixed category for every case", () => {
+  it("requires Branding categories and keeps Photography categories empty", () => {
     for (const item of content.cases) {
       expect(["branding", "photography"]).toContain(item.business);
-      expect(item.categories.length).toBeGreaterThan(0);
+      if (item.business === "branding") expect(item.categories.length).toBeGreaterThanOrEqual(1);
+      else expect(item.categories).toEqual([]);
       expect(new Set(item.categories).size).toBe(item.categories.length);
       expect(item.categories.every((category) => ["food", "drinks", "ip", "other"].includes(category))).toBe(true);
     }
+  });
+
+  it("formats Branding and Photography metadata through one formatter", () => {
+    expect(formatCaseMetadata({ business: "branding", categories: ["food", "ip"], primaryIndustry: "汉堡" })).toBe("餐饮 / IP · 汉堡");
+    expect(formatCaseMetadata({ business: "photography", categories: [], primaryIndustry: "茶饮" })).toBe("商业摄影 · 茶饮");
   });
 
   it("keeps 30 published Branding and 18 published Photography cases", () => {

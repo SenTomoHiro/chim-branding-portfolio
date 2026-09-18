@@ -54,22 +54,63 @@ test("all published case routes resolve with taxonomy metadata and reveal media"
     const response = await page.goto(`/work/${item.slug}`);
     expect(response?.status(), item.id).toBe(200);
     await expect(page.getByRole("heading", { name: item.name })).toBeVisible();
-    await expect(page.locator(".workIntro div>p")).toContainText(item.primaryIndustry);
+    const taxonomy = item.business === "photography" ? "商业摄影" : item.categories.map((category) => ({ food: "餐饮", drinks: "饮品", ip: "IP", other: "其他" })[category]).join(" / ");
+    await expect(page.locator(".workIntro div>p")).toHaveText(`${taxonomy} · ${item.primaryIndustry}`);
     await expect(page.locator(".workHero img")).toHaveJSProperty("complete", true);
     await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
   }
 });
 
-test("desktop and mobile navigation, details and admin have no overflow", async ({ page }) => {
-  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
+test("mobile, tablet and desktop layouts have no overflow and use responsive masonry", async ({ page }) => {
+  const viewports = [{ width: 375, height: 812 }, { width: 390, height: 844 }, { width: 430, height: 932 }, { width: 768, height: 1024 }, { width: 820, height: 1180 }, { width: 1024, height: 1366 }, { width: 1024, height: 768 }, { width: 1440, height: 900 }];
+  for (const viewport of viewports) {
     await page.setViewportSize(viewport);
     for (const route of ["/", "/food", "/drinks", "/ip", "/other", "/photo", `/work/${brandingPublished[0].slug}`, `/work/${photographyPublished[0].slug}`, "/admin"]) {
       await page.goto(route); await expectNoHorizontalOverflow(page);
     }
+    await page.goto("/"); await page.waitForTimeout(650);
+    const columnCount = await page.locator(".caseCard").evaluateAll((cards) => new Set(cards.slice(0, 8).map((card) => Math.round(card.getBoundingClientRect().left))).size);
+    expect(columnCount).toBe(viewport.width < 768 ? 1 : viewport.width < 1200 ? 2 : 3);
+  }
+});
+
+async function expectStickyHeader(page: Page) {
+  for (const progress of [0.25, 0.5, 0.9]) {
+    await page.evaluate((ratio) => window.scrollTo(0, (document.documentElement.scrollHeight - innerHeight) * ratio), progress);
+    await expect(page.locator(".detailHeader")).toBeVisible();
+    const position = await page.locator(".detailHeader").evaluate((header) => ({ top: header.getBoundingClientRect().top, position: getComputedStyle(header).position }));
+    expect(position.position).toBe("sticky");
+    expect(Math.abs(position.top)).toBeLessThanOrEqual(1);
+  }
+  const closeBox = await page.getByRole("button", { name: "返回案例列表" }).boundingBox();
+  expect(closeBox?.width).toBeGreaterThanOrEqual(44); expect(closeBox?.height).toBeGreaterThanOrEqual(44);
+}
+
+test("Branding and Photography details keep a sticky header and close to their source lists", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  for (const [route, expectedBusiness] of [["/food", "branding"], ["/photo", "photography"]] as const) {
+    await page.goto(route);
+    await page.locator(".caseCard a").first().click();
+    await expect(page).toHaveURL(/\/work\//);
+    await expectStickyHeader(page);
+    const metadata = await page.locator(".workIntro div>p").textContent();
+    if (expectedBusiness === "photography") expect(metadata).toMatch(/^商业摄影 · /); else expect(metadata).not.toMatch(/^ · /);
+    await page.getByRole("button", { name: "返回案例列表" }).click();
+    await expect(page).toHaveURL(new RegExp(`${route.replace("/", "\\/")}$`));
+  }
+});
+
+test("direct detail URLs close to their business fallback", async ({ page }) => {
+  for (const [item, route] of [[brandingPublished[0], "/"], [photographyPublished[0], "/photo"]] as const) {
+    await page.goto(`/work/${item.slug}`);
+    await page.evaluate(() => sessionStorage.removeItem("chim-case-list-entry"));
+    await page.getByRole("button", { name: "返回案例列表" }).click();
+    await expect(page).toHaveURL(new RegExp(`${route === "/" ? "\\/$" : "\\/photo$"}`));
   }
 });
 
 test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
   await page.goto("/admin");
   await page.getByLabel("管理员密码").fill("wrong"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.locator(".formError")).toContainText("密码错误");
   await page.getByLabel("管理员密码").fill("e2e-password"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
@@ -83,13 +124,21 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
 
   await page.getByRole("link", { name: "新建案例" }).click();
   await page.getByLabel("名称", { exact: true }).fill("分类验收草稿"); await page.getByLabel("Slug", { exact: true }).fill("taxonomy-acceptance-draft");
-  await page.getByLabel("商业摄影").check(); await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check(); await page.getByLabel("主要行业").fill("咖啡");
+  await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check();
+  await page.getByLabel("商业摄影").check();
+  await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
+  await expect(page.getByLabel("饮品")).toBeDisabled(); await expect(page.getByText("商业摄影无需选择所属分类")).toBeVisible();
+  await page.getByLabel("品牌设计").check();
+  await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
+  await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check(); await page.getByLabel("商业摄影").check();
+  await page.getByLabel("主要行业").fill("咖啡");
   const mediaInputs = page.locator('.mediaInput input[type="file"]'); await mediaInputs.first().setInputFiles("public/media/cases/N013/cover.webp"); await mediaInputs.nth(1).setInputFiles("public/media/cases/N013/hero.webp");
   await page.getByRole("button", { name: "保存案例" }).click();
-  let row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await expect(row).toContainText("商业摄影 · 饮品 / IP · 咖啡");
-  await row.getByRole("link", { name: "编辑" }).click(); await expect(page.getByLabel("商业摄影")).toBeChecked(); await expect(page.getByLabel("饮品")).toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).toBeChecked();
-  await page.getByLabel("饮品").uncheck(); await page.getByLabel("其他").check(); await page.getByRole("button", { name: "保存案例" }).click();
-  row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await expect(row).toContainText("IP / 其他");
+  let row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await expect(row).toContainText("商业摄影 · 咖啡");
+  await page.reload(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await row.getByRole("link", { name: "编辑" }).click();
+  await expect(page.getByLabel("商业摄影")).toBeChecked(); await expect(page.getByLabel("饮品")).toBeDisabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
+  await page.getByLabel("品牌设计").check(); await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked();
+  await page.locator(".adminHeader .wordmark").click(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" });
   await row.getByRole("button", { name: "草稿" }).click(); await expect(row.getByRole("button", { name: "已发布" })).toBeVisible();
   await row.getByRole("button", { name: "已发布" }).click(); await expect(row.getByRole("button", { name: "草稿" })).toBeVisible();
   page.once("dialog", (dialog) => dialog.accept()); await row.getByRole("button", { name: "删除" }).click(); await expect(row).toHaveCount(0);

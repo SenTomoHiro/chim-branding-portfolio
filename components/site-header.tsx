@@ -1,9 +1,10 @@
 import Link from "next/link";
+import { DetailCloseButton } from "./detail-close-button";
 import { BUSINESSES, CASE_CATEGORIES } from "@/lib/taxonomy";
 import type { Business, CaseCategory } from "@/lib/types";
 
-export function SiteHeader({ business = "branding", category }: { business?: Business; category?: CaseCategory }) {
-  return <header className="siteHeader">
+export function SiteHeader({ business = "branding", category, detail = false }: { business?: Business; category?: CaseCategory; detail?: boolean }) {
+  return <header className={`siteHeader ${detail ? "detailHeader" : ""}`}>
     <Link className="wordmark" href="/" aria-label="CHIM 首页">CHIM<span>®</span></Link>
     <div className="siteNavigation">
       <nav className="businessNav" aria-label="所属业务">
@@ -13,5 +14,6 @@ export function SiteHeader({ business = "branding", category }: { business?: Bus
         {CASE_CATEGORIES.map((item) => <Link key={item.value} className={category === item.value ? "active" : ""} href={`/${item.value}`}><strong>{item.zh}</strong><span>{item.en}</span></Link>)}
       </nav>}
     </div>
+    {detail && <DetailCloseButton fallback={business === "photography" ? "/photo" : "/"} />}
   </header>;
 }

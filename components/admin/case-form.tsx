@@ -4,7 +4,7 @@ import Image from "next/image";
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
 import { BUSINESSES, CASE_CATEGORIES } from "@/lib/taxonomy";
-import type { BodyAsset, CaseCategory, PortfolioCase } from "@/lib/types";
+import type { BodyAsset, Business, CaseCategory, PortfolioCase } from "@/lib/types";
 
 const empty: PortfolioCase = { id: "", slug: "", name: "", intro: "", business: "branding", categories: [], primaryIndustry: "", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: false };
 
@@ -31,6 +31,7 @@ export function CaseForm({ initial }: { initial?: PortfolioCase }) {
   const [dragged, setDragged] = useState<number | null>(null);
   const router = useRouter();
   const set = (key: keyof PortfolioCase, value: unknown) => setItem({ ...item, [key]: value });
+  const setBusiness = (business: Business) => setItem({ ...item, business, categories: business === "photography" ? [] : item.categories });
   const toggleCategory = (category: CaseCategory) => set("categories", item.categories.includes(category) ? item.categories.filter((entry) => entry !== category) : [...item.categories, category]);
 
   async function addBody(file?: File) {
@@ -55,8 +56,8 @@ export function CaseForm({ initial }: { initial?: PortfolioCase }) {
       <label>名称<input required value={item.name} onChange={(event) => set("name", event.target.value)} /></label>
       <label>Slug<input required value={item.slug} onChange={(event) => set("slug", event.target.value)} /></label>
       <label className="fullField">简介<textarea rows={3} value={item.intro} onChange={(event) => set("intro", event.target.value)} /></label>
-      <fieldset className="taxonomyField"><legend>所属业务</legend><div className="optionRow">{BUSINESSES.map((business) => <label key={business.value}><input type="radio" name="business" value={business.value} checked={item.business === business.value} onChange={() => set("business", business.value)} />{business.zh}</label>)}</div></fieldset>
-      <fieldset className="taxonomyField"><legend>所属分类</legend><div className="optionRow">{CASE_CATEGORIES.map((category) => <label key={category.value}><input type="checkbox" checked={item.categories.includes(category.value)} onChange={() => toggleCategory(category.value)} />{category.zh}</label>)}</div></fieldset>
+      <fieldset className="taxonomyField"><legend>所属业务</legend><div className="optionRow">{BUSINESSES.map((business) => <label key={business.value}><input type="radio" name="business" value={business.value} checked={item.business === business.value} onChange={() => setBusiness(business.value)} />{business.zh}</label>)}</div></fieldset>
+      <fieldset className="taxonomyField" disabled={item.business === "photography"}><legend>所属分类</legend><div className="optionRow">{CASE_CATEGORIES.map((category) => <label key={category.value}><input type="checkbox" checked={item.categories.includes(category.value)} onChange={() => toggleCategory(category.value)} />{category.zh}</label>)}</div>{item.business === "photography" && <p className="fieldHint">商业摄影无需选择所属分类</p>}</fieldset>
       <label className="fullField">主要行业<input value={item.primaryIndustry} onChange={(event) => set("primaryIndustry", event.target.value)} placeholder="例如：咖啡、汉堡、家居香氛" /></label>
       <label className="checkLabel fullField"><input type="checkbox" checked={item.published} onChange={(event) => set("published", event.target.checked)} /> 发布到前台</label>
     </div></section>

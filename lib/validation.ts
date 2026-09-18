@@ -39,8 +39,9 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   if (!slugPattern.test(slug)) throw new Error("Slug 仅支持中英文字母、数字、连字符与间隔点");
   const business = String(input.business || "") as Business;
   if (!businessValues.has(business)) throw new Error("请选择所属业务");
-  const categories = [...new Set(strings(input.categories))];
-  if (!categories.length || categories.some((item) => !categoryValues.has(item))) throw new Error("请至少选择一个有效分类");
+  const submittedCategories = [...new Set(strings(input.categories))];
+  if (business === "branding" && (!submittedCategories.length || submittedCategories.some((item) => !categoryValues.has(item)))) throw new Error("品牌设计请至少选择一个有效分类");
+  const categories = business === "photography" ? [] : submittedCategories;
   const bodyAssets = Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
     const media = item as Record<string, unknown>;
     return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, provenance: provenance(media.provenance) };
