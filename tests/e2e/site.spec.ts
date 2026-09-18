@@ -103,9 +103,10 @@ test("Branding and Photography details keep a sticky header and close to their s
     const headerLayout = await page.locator(".siteHeader").evaluate((header) => {
       const navigation = header.querySelector(".siteNavigation")!.getBoundingClientRect();
       const close = document.querySelector<HTMLElement>(".detailClose")!; const closeBox = close.getBoundingClientRect();
-      return { headerCount: document.querySelectorAll(".siteHeader").length, sharedNavigation: Boolean(header.querySelector(":scope > .headerActions > .siteNavigation")), closeOutsideHeader: !header.contains(close), closeIsFixed: getComputedStyle(close).position === "fixed", closeBelowNavigation: closeBox.top >= navigation.bottom, headerHeight: header.getBoundingClientRect().height };
+      const headerBox = header.getBoundingClientRect(); const topSpacing = closeBox.top - headerBox.bottom; const rightSpacing = innerWidth - closeBox.right;
+      return { headerCount: document.querySelectorAll(".siteHeader").length, sharedNavigation: Boolean(header.querySelector(":scope > .headerActions > .siteNavigation")), closeOutOfFlow: getComputedStyle(close).position === "absolute", closeBelowNavigation: closeBox.top >= navigation.bottom, balancedSpacing: Math.abs(topSpacing - rightSpacing) < .1, headerHeight: headerBox.height };
     });
-    expect(headerLayout).toMatchObject({ headerCount: 1, sharedNavigation: true, closeOutsideHeader: true, closeIsFixed: true, closeBelowNavigation: true });
+    expect(headerLayout).toMatchObject({ headerCount: 1, sharedNavigation: true, closeOutOfFlow: true, closeBelowNavigation: true, balancedSpacing: true });
     expect(Math.abs(headerLayout.headerHeight - listHeaderHeight)).toBeLessThanOrEqual(1);
     await expectStickyHeader(page);
     const metadata = await page.locator(".workIntro div>p").textContent();
