@@ -48,6 +48,6 @@ Production set：`portfolio-additions-sol-v1`
 
 ## Release
 
-- Git commit：pending release commit
-- Pages run：pending push
-- Online QA：pending deployment
+- Implementation commit：`c6317e3df8a033cb3f247a7f1430a9ef544da811`
+- Pages run：[`35459769525`](https://github.com/SenTomoHiro/chim-branding-portfolio/actions/runs/35459769525) — success
+- Online QA：pass（6 个案例、Admin 只读、desktop/mobile return、filter、Browser Back、direct fallback、console、404）
