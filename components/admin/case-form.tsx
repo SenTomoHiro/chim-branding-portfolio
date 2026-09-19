@@ -2,8 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { FormEvent, useState } from "react";
-import { useRouter } from "next/navigation";
+import { FormEvent, useMemo, useState } from "react";
 import { BUSINESSES, CASE_CATEGORIES } from "@/lib/taxonomy";
 import { assetPath } from "@/lib/site-path";
 import type { BodyAsset, Business, CaseCategory, PortfolioCase } from "@/lib/types";
@@ -24,12 +23,13 @@ function MediaInput({ label, value, onChange, uploadFile, caseId }: { label: str
 }
 
 export function CaseForm({ initial, persistence = localPersistence }: { initial?: PortfolioCase; persistence?: AdminPersistence }) {
-  const isEdit = Boolean(initial);
   const [item, setItem] = useState(initial || empty);
+  const [isPersisted, setIsPersisted] = useState(Boolean(initial));
+  const [savedItem, setSavedItem] = useState(initial || empty);
   const [pending, setPending] = useState(false);
-  const [error, setError] = useState("");
+  const [status, setStatus] = useState(initial ? "已保存" : "有未保存修改");
   const [dragged, setDragged] = useState<number | null>(null);
-  const router = useRouter();
+  const dirty = useMemo(() => JSON.stringify(item) !== JSON.stringify(savedItem), [item, savedItem]);
   const set = (key: keyof PortfolioCase, value: unknown) => setItem((current) => ({ ...current, [key]: value }));
   const setBusiness = (business: Business) => setItem((current) => ({ ...current, business, categories: business === "photography" ? [] : current.categories }));
   const toggleCategory = (category: CaseCategory) => setItem((current) => ({ ...current, categories: current.categories.includes(category) ? current.categories.filter((entry) => entry !== category) : [...current.categories, category] }));
@@ -41,12 +41,16 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
   }
   function moveBody(index: number, to: number) { setItem((current) => { const next = [...current.bodyAssets]; const [asset] = next.splice(index, 1); next.splice(to, 0, asset); return { ...current, bodyAssets: next }; }); }
   async function submit(event: FormEvent) {
-    event.preventDefault(); setPending(true); setError("");
-    try { await persistence.saveCase(item, isEdit); } catch (error) { setPending(false); setError(error instanceof Error ? error.message : "保存失败"); return; } setPending(false);
-    router.push("/admin"); router.refresh();
+    event.preventDefault(); setPending(true); setStatus("保存中…");
+    try { await persistence.saveCase(item, isPersisted); setIsPersisted(true); setSavedItem(item); setStatus("保存成功"); }
+    catch (error) { setStatus(`保存失败：${error instanceof Error ? error.message : "请重试"}`); }
+    finally { setPending(false); }
   }
 
-  return <main className="caseEditor"><div className="editorHeading"><div><p>Cases / {isEdit ? "Edit" : "New"}</p><h1>{isEdit ? "编辑案例" : "新建案例"}</h1></div><div className="saveRow"><Link href="/admin">返回后台</Link><button form="case-form" className="primaryButton" disabled={pending}>{pending ? "保存中…" : "保存案例"}</button></div></div><form id="case-form" onSubmit={submit}>
+  const leave = (event: React.MouseEvent<HTMLAnchorElement>) => { if (dirty && !confirm("当前有未保存修改，确认离开吗？")) event.preventDefault(); };
+
+  const feedback = pending ? "保存中…" : dirty ? "有未保存修改" : status;
+  return <main className="caseEditor"><div className="editorHeading"><div><p>Cases / {isPersisted ? "Edit" : "New"}</p><h1>{isPersisted ? "编辑案例" : "新建案例"}</h1></div><div className="saveRow"><span className="saveMessage" role="status">{feedback}</span><Link href="/admin" onClick={leave}>返回后台</Link><button form="case-form" className="primaryButton" disabled={pending || !dirty}>{pending ? "保存中…" : "保存案例"}</button></div></div><form id="case-form" onSubmit={submit}>
     <section className="formSection"><h2>基本信息</h2><div className="formGrid">
       <label className="fullField">名称<input required value={item.name} onChange={(event) => set("name", event.target.value)} /></label>
       <label className="fullField">简介<textarea rows={3} value={item.intro} onChange={(event) => set("intro", event.target.value)} /></label>
@@ -57,6 +61,5 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
     </div></section>
     <section className="formSection"><h2>案例图片</h2><div className="mediaInputs"><MediaInput label="案例列表封面" value={item.cover} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value, width, height) => setItem((current) => ({ ...current, cover: value, coverWidth: width || current.coverWidth, coverHeight: height || current.coverHeight }))} /><MediaInput label="案例详情页首图" value={item.hero} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value) => set("hero", value)} /></div></section>
     <section className="formSection"><div className="sectionHeading"><div><h2>正文媒体</h2><p>可拖动调整顺序；两个相邻的 Half 会并排显示，落单 Half 自动满宽。</p></div><label className="primaryButton">上传媒体<input type="file" accept="image/*,video/mp4,video/webm" onChange={(event) => addBody(event.target.files?.[0])} /></label></div><div className="bodyAssetList">{item.bodyAssets.map((asset: BodyAsset, index) => <article key={asset.id} draggable onDragStart={() => setDragged(index)} onDragOver={(event) => event.preventDefault()} onDrop={() => { if (dragged !== null) moveBody(dragged, index); setDragged(null); }}><div className="assetPreview">{asset.type === "video" ? <video src={assetPath(asset.src)} controls playsInline /> : <Image src={assetPath(asset.src)} alt={`正文媒体 ${index + 1} 预览`} fill sizes="160px" />}</div><div><strong>⠿ 媒体 {index + 1}</strong><span>{asset.src}</span></div><select value={asset.layout} onChange={(event) => { const next = [...item.bodyAssets]; next[index] = { ...asset, layout: event.target.value === "half" ? "half" : "full" }; setItem({ ...item, bodyAssets: next }); }}><option value="full">Full</option><option value="half">Half</option></select><button type="button" disabled={index === 0} onClick={() => moveBody(index, index - 1)}>↑</button><button type="button" disabled={index === item.bodyAssets.length - 1} onClick={() => moveBody(index, index + 1)}>↓</button><button type="button" className="dangerText" onClick={() => setItem({ ...item, bodyAssets: item.bodyAssets.filter((_, itemIndex) => itemIndex !== index) })}>删除</button></article>)}</div></section>
-    {error && <p className="formError" role="alert">{error}</p>}
   </form></main>;
 }

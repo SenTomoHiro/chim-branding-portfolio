@@ -79,6 +79,9 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .formError { color:#d9362b; font-size:.85rem; }
 .adminPage,.caseEditor { max-width:1320px; margin:auto; padding:clamp(32px,6vw,90px) clamp(16px,4vw,56px); }
 .adminTitle,.editorHeading,.sectionHeading { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; }
+.adminTitle { position:sticky; top:0; z-index:4; padding:20px 0; background:#f2f2f2; border-bottom:1px solid #bbb; }
+.editorHeading { position:sticky; top:0; z-index:4; padding:18px 0; background:#f2f2f2; border-bottom:1px solid #bbb; }
+.adminSection .sectionHeading { position:sticky; top:128px; z-index:3; padding:18px 0; background:#f2f2f2; }
 .adminTitle h1,.editorHeading h1 { margin:8px 0 0; font-size:clamp(3rem,7vw,6.5rem); line-height:.85; letter-spacing:-.065em; }
 .adminSection,.formSection { margin-top:72px; }
 .sectionHeading { padding-bottom:18px; border-bottom:1px solid #bbb; }
@@ -92,10 +95,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .adminThumb img,.mediaPreview img,.assetPreview img { object-fit:cover; }
 .adminCaseName { display:grid; gap:6px; }
 .adminCaseName span { color:#777; font-size:.8rem; }
-.githubPagesAdmin .adminCaseList article { grid-template-columns:minmax(0,1fr) max-content 72px 48px; gap:18px; }
-.githubPagesAdmin .adminCaseName { min-width:0; }
-.githubPagesAdmin .adminCaseName strong,.githubPagesAdmin .adminCaseName span { overflow-wrap:anywhere; }
-.githubPagesAdmin .adminCaseList article>a,.githubPagesAdmin .adminCaseList article>button:not(.status) { width:max-content; justify-self:end; }
 .status { border:0; background:#ddd; padding:7px 9px; cursor:pointer; }
 .status.published { background:#111; color:white; }
 .dangerText { color:#b72a21 !important; }
@@ -175,6 +174,9 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .mediaFlow figure { margin-bottom:var(--pad); }
   .nextCase { min-height:40vh; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; gap:22px; }
   .adminTitle,.editorHeading { align-items:flex-start; }
+  .adminTitle,.editorHeading { position:sticky; top:0; padding:14px 0; }
+  .adminTitle { flex-wrap:wrap; }
+  .adminSection .sectionHeading { top:106px; align-items:flex-start; flex-wrap:wrap; }
   .editorHeading { flex-wrap:wrap; }
   .adminTitle h1,.editorHeading h1 { font-size:3.2rem; }
   .adminCaseList article { grid-template-columns:20px 72px 1fr auto; gap:10px; padding:12px 0; }
@@ -182,10 +184,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .status { grid-column:3; width:max-content; }
   .mobileReorder { display:flex; grid-column:4; grid-row:1; }
   .adminCaseList article>a,.adminCaseList article>.dangerText { grid-row:2; }
-  .githubPagesAdmin .adminCaseList article { grid-template-columns:minmax(0,1fr) max-content; gap:10px; }
-  .githubPagesAdmin .adminCaseList article .status { grid-column:1; grid-row:2; }
-  .githubPagesAdmin .adminCaseList article>a { grid-column:2; grid-row:1; }
-  .githubPagesAdmin .adminCaseList article>.dangerText { grid-column:2; grid-row:2; }
   .versionCard summary { grid-template-columns:1fr auto; }
   .versionCard summary code { display:none; }
   .versionFields,.formGrid,.mediaInputs { grid-template-columns:1fr; }
