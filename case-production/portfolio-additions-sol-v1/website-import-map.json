@@ -1,0 +1,867 @@
+[
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 1,
+    "finalAsset": "final-assets/mustache-matcha/01-品牌空间开场.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-01.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-04.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 2,
+    "finalAsset": "final-assets/mustache-matcha/02-线上门店系统.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-02.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-06.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 3,
+    "finalAsset": "final-assets/mustache-matcha/03-开业落地.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-03.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-09.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 4,
+    "finalAsset": "final-assets/mustache-matcha/04-电子菜单.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-04.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/03-菜单-MacBook.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 5,
+    "finalAsset": "final-assets/mustache-matcha/05-门店菜单系统.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-05.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/04-菜单.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 6,
+    "finalAsset": "final-assets/mustache-matcha/06-大众点评.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-06.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/05-点评.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 7,
+    "finalAsset": "final-assets/mustache-matcha/07-美团门店.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-07.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/08-美团.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 8,
+    "finalAsset": "final-assets/mustache-matcha/08-户外欢迎海报.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-08.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/06-欢迎光临海报-户外.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 9,
+    "finalAsset": "final-assets/mustache-matcha/09-门头识别.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-09.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/09-门头发光字.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 10,
+    "finalAsset": "final-assets/mustache-matcha/10-室内灯箱.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-10.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/10-室内发光字.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 11,
+    "finalAsset": "final-assets/mustache-matcha/11-室内品牌墙.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-11.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/11-室内立体字.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子抹茶 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N021",
+    "order": 12,
+    "finalAsset": "final-assets/mustache-matcha/12-招牌产品海报.jpg",
+    "websiteAsset": "/media/mustache-matcha/body-12.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/12-招牌产品海报.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 1,
+    "finalAsset": "final-assets/zhenxin-tea/01-门店开场.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-01.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/05-灯箱-门头2展示.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 2,
+    "finalAsset": "final-assets/zhenxin-tea/02-核心杯装.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-02.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/01-杯子样机-带杯贴.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 3,
+    "finalAsset": "final-assets/zhenxin-tea/03-纸袋包装.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-03.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/10-纸袋样机.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 4,
+    "finalAsset": "final-assets/zhenxin-tea/04-品牌与包装总览.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-04.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-1.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 5,
+    "finalAsset": "final-assets/zhenxin-tea/05-门店应用总览.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-05.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-3.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 6,
+    "finalAsset": "final-assets/zhenxin-tea/06-菜单应用.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-06.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/03-菜单.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 7,
+    "finalAsset": "final-assets/zhenxin-tea/07-线下海报.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-07.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/06-甲马海报.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 8,
+    "finalAsset": "final-assets/zhenxin-tea/08-线上门店.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-08.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/04-大众点评.jpg"
+    ],
+    "chapter": "真心制茶"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 9,
+    "finalAsset": "composites/zhenxin-tea/09-初春花茶系列.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-09.jpg",
+    "sources": [
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报-_画板 1.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--02.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--03.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--04.jpg"
+    ],
+    "chapter": "花与茶的四季叙事"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 10,
+    "finalAsset": "composites/zhenxin-tea/10-清雅花材系列.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-10.jpg",
+    "sources": [
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--05.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--06.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--07.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--08.jpg"
+    ],
+    "chapter": "花与茶的四季叙事"
+  },
+  {
+    "case": "真心茶事 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N022",
+    "order": 11,
+    "finalAsset": "composites/zhenxin-tea/11-暖色花茶系列.jpg",
+    "websiteAsset": "/media/zhenxin-tea/body-11.jpg",
+    "sources": [
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--09.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--10.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--11.jpg",
+      "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--12.jpg"
+    ],
+    "chapter": "花与茶的四季叙事"
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 1,
+    "finalAsset": "final-assets/chunlai-courtyard/01-品牌主视觉.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-01.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 2,
+    "finalAsset": "final-assets/chunlai-courtyard/02-平台门店.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-02.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 3,
+    "finalAsset": "final-assets/chunlai-courtyard/03-线上视觉系统.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-03.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 4,
+    "finalAsset": "final-assets/chunlai-courtyard/04-图形语言.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-04.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 5,
+    "finalAsset": "final-assets/chunlai-courtyard/05-招聘海报.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-05.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 6,
+    "finalAsset": "final-assets/chunlai-courtyard/06-产品海报.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-06.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 7,
+    "finalAsset": "final-assets/chunlai-courtyard/07-菜单内页.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-07.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 8,
+    "finalAsset": "final-assets/chunlai-courtyard/08-菜单封面.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-08.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 9,
+    "finalAsset": "final-assets/chunlai-courtyard/09-鸡蛋花插画.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-09.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "春莱小院 · 品牌视觉",
+    "caseAction": "create",
+    "caseId": "N023",
+    "order": 10,
+    "finalAsset": "final-assets/chunlai-courtyard/10-热带植物插画.jpg",
+    "websiteAsset": "/media/chunlai-courtyard/body-10.jpg",
+    "sources": [
+      "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 1,
+    "finalAsset": "final-assets/wenningji/01-品牌主视觉.jpg",
+    "websiteAsset": "/media/wenningji/body-01.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/IMG_1609.JPG"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 2,
+    "finalAsset": "final-assets/wenningji/02-开业产品海报.jpg",
+    "websiteAsset": "/media/wenningji/body-02.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/产品海报1.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 3,
+    "finalAsset": "final-assets/wenningji/03-主打产品海报.jpg",
+    "websiteAsset": "/media/wenningji/body-03.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/海报2.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 4,
+    "finalAsset": "final-assets/wenningji/04-杯贴系列.jpg",
+    "websiteAsset": "/media/wenningji/body-04.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/5个杯贴.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 5,
+    "finalAsset": "final-assets/wenningji/05-视觉元素系统.jpg",
+    "websiteAsset": "/media/wenningji/body-05.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/提案_画板 1.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 6,
+    "finalAsset": "final-assets/wenningji/06-应用版式系统.jpg",
+    "websiteAsset": "/media/wenningji/body-06.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/提案_画板 1 副本.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 7,
+    "finalAsset": "composites/wenningji/07-菜单系统.jpg",
+    "websiteAsset": "/media/wenningji/body-07.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/菜单展示1.jpg",
+      "/Users/chim/Downloads/文柠记/提案/菜单展示2.jpg",
+      "/Users/chim/Downloads/文柠记/提案/菜单展示3.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 8,
+    "finalAsset": "composites/wenningji/08-线上门店与开业触点.jpg",
+    "websiteAsset": "/media/wenningji/body-08.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/大众点评.jpg",
+      "/Users/chim/Downloads/文柠记/提案/美团.jpg",
+      "/Users/chim/Downloads/文柠记/提案/开业邀请函.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 9,
+    "finalAsset": "final-assets/wenningji/09-外带包装.jpg",
+    "websiteAsset": "/media/wenningji/body-09.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/打包贴纸.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "文柠记 · 品牌视觉",
+    "caseAction": "update",
+    "caseId": "L012",
+    "order": 10,
+    "finalAsset": "final-assets/wenningji/10-门店招聘物料.jpg",
+    "websiteAsset": "/media/wenningji/body-10.jpg",
+    "sources": [
+      "/Users/chim/Downloads/文柠记/提案/招聘海报.jpg"
+    ],
+    "chapter": null
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 1,
+    "finalAsset": "final-assets/mustache-cocoa-winter/01-首轮产品海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-01.jpg",
+    "sources": [
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_海报-1.jpg"
+    ],
+    "chapter": "热可可启航"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 2,
+    "finalAsset": "final-assets/mustache-cocoa-winter/02-新品预告.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-02.jpg",
+    "sources": [
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241016-大胡子可可-热饮6款-预告海报.jpg"
+    ],
+    "chapter": "热可可启航"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 3,
+    "finalAsset": "final-assets/mustache-cocoa-winter/03-六款产品总览.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-03.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-13.jpg"
+    ],
+    "chapter": "热可可启航"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 4,
+    "finalAsset": "composites/mustache-cocoa-winter/04-首轮产品肖像.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-04.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-07.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-08.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-09.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-10.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-11.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-12.jpg"
+    ],
+    "chapter": "热可可启航"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 5,
+    "finalAsset": "composites/mustache-cocoa-winter/05-首轮平台头图.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-05.jpg",
+    "sources": [
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg",
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg",
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg",
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg",
+      "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg"
+    ],
+    "chapter": "热可可启航"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 6,
+    "finalAsset": "final-assets/mustache-cocoa-winter/06-第二轮预告.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-06.jpg",
+    "sources": [
+      "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_预告海报.jpg"
+    ],
+    "chapter": "可可航海系列"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 7,
+    "finalAsset": "final-assets/mustache-cocoa-winter/07-第二轮产品海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-07.jpg",
+    "sources": [
+      "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_产品海报.jpg"
+    ],
+    "chapter": "可可航海系列"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 8,
+    "finalAsset": "final-assets/mustache-cocoa-winter/08-第二轮产品一.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-08.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-1.jpg"
+    ],
+    "chapter": "可可航海系列"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 9,
+    "finalAsset": "final-assets/mustache-cocoa-winter/09-第二轮产品二.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-09.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-2.jpg"
+    ],
+    "chapter": "可可航海系列"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 10,
+    "finalAsset": "final-assets/mustache-cocoa-winter/10-阶段主视觉.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-10.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-04.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 11,
+    "finalAsset": "final-assets/mustache-cocoa-winter/11-棉花糖可可.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-11.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-01.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 12,
+    "finalAsset": "final-assets/mustache-cocoa-winter/12-桂花乌龙可可.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-12.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-02.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 13,
+    "finalAsset": "final-assets/mustache-cocoa-winter/13-玫瑰红茶可可.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-13.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-03.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 14,
+    "finalAsset": "final-assets/mustache-cocoa-winter/14-茶香双品海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-14.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-05.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseAction": "create",
+    "caseId": "N024",
+    "order": 15,
+    "finalAsset": "final-assets/mustache-cocoa-winter/15-香蕉棉花糖可可海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-winter/body-15.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-06.jpg"
+    ],
+    "chapter": "茶香与香蕉延展"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 1,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/01-圣诞角色主视觉.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-01.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-01.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 2,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/02-圣诞标题画面.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-02.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-02.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 3,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/03-联名产品横幅.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-03.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-08.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 4,
+    "finalAsset": "composites/mustache-cocoa-tatan/04-圣诞联名产品.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-04.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 5,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/05-圣诞角色与产品.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-05.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-13.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 6,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/06-圣诞竖版海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-06.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-28.jpg"
+    ],
+    "chapter": "小胖当家 · 圣诞来袭"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 7,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/07-新年角色主视觉.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-07.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-01.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 8,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/08-新年标题画面.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-08.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-02.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 9,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/09-新年传播横幅.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-09.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-08.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 10,
+    "finalAsset": "composites/mustache-cocoa-tatan/10-新年联名产品.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-10.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-05.jpg",
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-06.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 11,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/11-新年角色与产品.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-11.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-13.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  },
+  {
+    "case": "大胡子可可 × TATAN · 联名系列",
+    "caseAction": "create",
+    "caseId": "N025",
+    "order": 12,
+    "finalAsset": "final-assets/mustache-cocoa-tatan/12-新年竖版海报.jpg",
+    "websiteAsset": "/media/mustache-cocoa-tatan/body-12.jpg",
+    "sources": [
+      "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-28.jpg"
+    ],
+    "chapter": "冬日约定 · 莓好圣诞"
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+  "cropCount": 6,
+  "crops": [
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 193,
+        "top": 245,
+        "width": 1201,
+        "height": 901
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-01.jpg",
+      "outputDimensions": {
+        "width": 1201,
+        "height": 901
+      },
+      "label": "棉花糖可可产品图",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "c49bebd4a02522fdde8c4c80e6a64e34a63fc130f569b94ce8f720d4e0a30d5c"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 1413,
+        "top": 245,
+        "width": 1201,
+        "height": 901
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-02.jpg",
+      "outputDimensions": {
+        "width": 1201,
+        "height": 901
+      },
+      "label": "桂花乌龙可可产品图",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "d4a5b52baa5192e72bc42aebb69f3560c7b3a0c1d9fdedd259798eb3cbad5a3c"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 2633,
+        "top": 245,
+        "width": 1201,
+        "height": 901
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-03.jpg",
+      "outputDimensions": {
+        "width": 1201,
+        "height": 901
+      },
+      "label": "玫瑰红茶可可产品图",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "bbc16d98ad25775fff5272aa475ee5be01ac0e40c31b54d8a8fb02621d921435"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 3853,
+        "top": 146,
+        "width": 1001,
+        "height": 1000
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-04.jpg",
+      "outputDimensions": {
+        "width": 1001,
+        "height": 1000
+      },
+      "label": "茶香热可可系列主视觉",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "9c9b2308b047f79ea780dc013e8c126cc90a162f4905e559fbc60336e1c8eb8e"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 193,
+        "top": 1165,
+        "width": 2000,
+        "height": 3001
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-05.jpg",
+      "outputDimensions": {
+        "width": 2000,
+        "height": 3001
+      },
+      "label": "桂花乌龙与玫瑰红茶系列海报",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "2fdeea4967004264b936dbc425ba99df7f0e0c2cdbc65a2d42b18b680830a6ab"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+      "sourceDimensions": {
+        "width": 5042,
+        "height": 4384
+      },
+      "crop": {
+        "left": 2213,
+        "top": 1165,
+        "width": 2000,
+        "height": 3001
+      },
+      "output": "case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-06.jpg",
+      "outputDimensions": {
+        "width": 2000,
+        "height": 3001
+      },
+      "label": "香蕉棉花糖可可海报",
+      "method": "deterministic crop at fully white artboard gutters; no generative fill or content-aware editing",
+      "sha256": "4b0f76769bed75b9e44eef8b0e2bfdfa20c0dfa8f322ceea839d27061159e601"
+    }
+  ]
+}

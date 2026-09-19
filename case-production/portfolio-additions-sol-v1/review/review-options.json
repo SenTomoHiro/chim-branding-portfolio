@@ -1,0 +1,7 @@
+{
+  "preset": "detail-review",
+  "title": "CHIM Portfolio Additions · Final Review",
+  "showCaptions": true,
+  "minTileWidth": 340,
+  "output": "review-board.html"
+}

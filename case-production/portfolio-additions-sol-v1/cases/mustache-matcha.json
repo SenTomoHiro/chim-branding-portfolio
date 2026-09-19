@@ -1,0 +1,261 @@
+{
+  "case": "大胡子抹茶 · 品牌视觉",
+  "siteName": "大胡子抹茶 · 品牌视觉",
+  "caseKey": "mustache-matcha",
+  "caseAction": "create",
+  "existingCaseId": null,
+  "id": "N021",
+  "categories": [
+    "drinks",
+    "ip"
+  ],
+  "primaryIndustry": "抹茶饮品",
+  "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。",
+  "coverOrder": 10,
+  "heroOrder": 9,
+  "chapterCount": 0,
+  "chapters": [],
+  "finalImageCount": 12,
+  "items": [
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/01-品牌空间开场.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-04.jpg"
+      ],
+      "editorialRole": "品牌空间开场",
+      "decisionReason": "完整门头与室内场景最适合作为品牌叙事开场。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "df2f35515863d4157363857a7cf8b18b6b5ec58212c9249d98a141d2fd9feedc",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/02-线上门店系统.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-06.jpg"
+      ],
+      "editorialRole": "线上门店系统",
+      "decisionReason": "以手机界面呈现线上触点的完整适配。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "c9ee5d91669fc94597a74c1987ac69c025cf30eecbb4a5d24259873bd887e979",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/03-开业落地.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-09.jpg"
+      ],
+      "editorialRole": "开业落地",
+      "decisionReason": "展示开业信息在户外立牌上的实际应用。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "4836cdef2f22ca63f4856e1985074aebf7ae359a54aa67fac3a5fcb80a8275c4",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/04-电子菜单.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/03-菜单-MacBook.jpg"
+      ],
+      "editorialRole": "电子菜单",
+      "decisionReason": "完成态 PSD 样机清楚呈现菜单在桌面设备中的使用。",
+      "width": 2800,
+      "height": 1925,
+      "sha256": "3927c7c02de8c98b5ba41bea2f230d34cc41daf94e61484b8c904b7970d1be3d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/05-门店菜单系统.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/04-菜单.jpg"
+      ],
+      "editorialRole": "门店菜单系统",
+      "decisionReason": "宽幅屏幕样机展示完整产品矩阵。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "ede42b58b542a13db9e60035aec89d7e4e4fdf4fd0b41450bc4d0dffc3ade854",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/06-大众点评.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/05-点评.jpg"
+      ],
+      "editorialRole": "大众点评",
+      "decisionReason": "平台页面与品牌图形保持一致。",
+      "width": 2365,
+      "height": 2800,
+      "sha256": "50eb8aad61759c823f60926a7aa0eb9ecc709856bdee22a4e1bd50af6f58023c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/07-美团门店.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/08-美团.jpg"
+      ],
+      "editorialRole": "美团门店",
+      "decisionReason": "补充另一主要线上渠道的完成态。",
+      "width": 2707,
+      "height": 2800,
+      "sha256": "93937d97c31a46eb2a23edff3483a0b4d74ae5dee53bf664170744607a8119a5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/08-户外欢迎海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/06-欢迎光临海报-户外.jpg"
+      ],
+      "editorialRole": "户外欢迎海报",
+      "decisionReason": "真实空间尺度强化开业物料的可读性。",
+      "width": 2800,
+      "height": 1867,
+      "sha256": "54f1d117116175bf5bd6017f8fd0f6efe49ed85f003b54d035ed0409e3fc7e6c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/09-门头识别.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/09-门头发光字.jpg"
+      ],
+      "editorialRole": "门头识别",
+      "decisionReason": "横向门头适合作为详情页 Hero。",
+      "width": 2800,
+      "height": 1371,
+      "sha256": "73699d7f68d72ee44d95e6bad8762999ca2de1dbf83978bb0fd68457a4e8097b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/10-室内灯箱.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/10-室内发光字.jpg"
+      ],
+      "editorialRole": "室内灯箱",
+      "decisionReason": "纵向空间画面在列表缩略图中仍具辨识度。",
+      "width": 2222,
+      "height": 2800,
+      "sha256": "bcad49301d0125c79e7138c2cb94b6426c49cd3198ff4b9126f06f0d64195c75",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 11,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/11-室内品牌墙.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/11-室内立体字.jpg"
+      ],
+      "editorialRole": "室内品牌墙",
+      "decisionReason": "品牌标识与材质、光线关系清晰。",
+      "width": 2483,
+      "height": 2800,
+      "sha256": "ac7b593b2acd26dc41edac255df5a76efdac8c47f0407311a2a303d1b81cf684",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 12,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/12-招牌产品海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/12-招牌产品海报.jpg"
+      ],
+      "editorialRole": "招牌产品海报",
+      "decisionReason": "以主打产品和肖像语言收束品牌系统。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "d18a6d359f814efaaf61c6f06b421339502c403fb3fdf1c201af1bab6701b0c5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    }
+  ]
+}

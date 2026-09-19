@@ -1,0 +1,144 @@
+{
+  "key": "chunlai-courtyard",
+  "name": "春莱小院",
+  "action": "create",
+  "sources": [
+    "/Users/chim/Downloads/春莱小院/提案"
+  ],
+  "sourceFileCount": 10,
+  "typeCounts": {
+    "jpg": 10
+  },
+  "files": [
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG",
+      "extension": "jpg",
+      "bytes": 2235512,
+      "sha256": "269543171c5622ce2152d123973140b910e2b959a2affc14062976a93d944da8",
+      "classification": "photo",
+      "width": 3562,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG",
+      "extension": "jpg",
+      "bytes": 363544,
+      "sha256": "9da9edadf87e933f78545c36f82dfef2d8c9c7fb0166b220cb87d2c3f1bd14d0",
+      "classification": "photo",
+      "width": 1983,
+      "height": 1322,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG",
+      "extension": "jpg",
+      "bytes": 528430,
+      "sha256": "161aff6ddd19bfd6caff4e39973ef5c9f8bcd4b860233be60f3545bf42659646",
+      "classification": "photo",
+      "width": 2550,
+      "height": 1360,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG",
+      "extension": "jpg",
+      "bytes": 971697,
+      "sha256": "8d8a62b4c027051ec5db9ffbd5ca4272a377a1508a50afb564e5ed9b7af25fea",
+      "classification": "photo",
+      "width": 3278,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG",
+      "extension": "jpg",
+      "bytes": 668918,
+      "sha256": "e1a4549a2b26f4b3082235fc5712b2cd0510f2e85a59eb8fe286fa9af2b8688a",
+      "classification": "photo",
+      "width": 3662,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG",
+      "extension": "jpg",
+      "bytes": 746730,
+      "sha256": "b4653ab555295facaeefd2b928a1e7deccdbab9deb42f070cbabf5960e1c8b0b",
+      "classification": "photo",
+      "width": 3662,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG",
+      "extension": "jpg",
+      "bytes": 566914,
+      "sha256": "c786a724afc5c03968e6e138d714cc1cb9fc540a4204d72fadf7dcad2d2360f4",
+      "classification": "photo",
+      "width": 3658,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG",
+      "extension": "jpg",
+      "bytes": 579563,
+      "sha256": "d7991667d9517e5eccd7630f92a34c5778709f4fb6bef0479cf6ebb043b9923c",
+      "classification": "photo",
+      "width": 3658,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG",
+      "extension": "jpg",
+      "bytes": 510106,
+      "sha256": "59c84e0ec5301e8e8c6301db9aa7f03df7513b6e73eaea81388a05fc07118b99",
+      "classification": "photo",
+      "width": 2004,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    },
+    {
+      "case": "春莱小院",
+      "caseKey": "chunlai-courtyard",
+      "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG",
+      "extension": "jpg",
+      "bytes": 530711,
+      "sha256": "8b348072373f9f921e3a3ddcffde484b4f08a149634a5899651d193ccc57989a",
+      "classification": "photo",
+      "width": 2004,
+      "height": 2514,
+      "space": "srgb",
+      "format": "jpeg"
+    }
+  ]
+}

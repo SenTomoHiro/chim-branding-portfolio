@@ -1,0 +1,2476 @@
+[
+  {
+    "case": "大胡子抹茶",
+    "caseKey": "mustache-matcha",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-matcha-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评-二楼背景.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评-二楼背景.jpg",
+        "index": "001",
+        "label": "240905-大胡子-线上_大众点评-二楼背景.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-1.jpg",
+        "index": "002",
+        "label": "240905-大胡子-线上_大众点评头图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-2.jpg",
+        "index": "003",
+        "label": "240905-大胡子-线上_大众点评头图-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-3.jpg",
+        "index": "004",
+        "label": "240905-大胡子-线上_大众点评头图-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-4.jpg",
+        "index": "005",
+        "label": "240905-大胡子-线上_大众点评头图-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_大众点评头图-5.jpg",
+        "index": "006",
+        "label": "240905-大胡子-线上_大众点评头图-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_饿了么-海报（横幅）.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_饿了么-海报（横幅）.jpg",
+        "index": "007",
+        "label": "240905-大胡子-线上_饿了么-海报（横幅）.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_饿了么-招牌.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_饿了么-招牌.jpg",
+        "index": "008",
+        "label": "240905-大胡子-线上_饿了么-招牌.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-大图招牌.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-大图招牌.jpg",
+        "index": "009",
+        "label": "240905-大胡子-线上_美团-大图招牌.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-店内海报（横幅）.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-店内海报（横幅）.jpg",
+        "index": "010",
+        "label": "240905-大胡子-线上_美团-店内海报（横幅）.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-小图招牌.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团-小图招牌.jpg",
+        "index": "011",
+        "label": "240905-大胡子-线上_美团-小图招牌.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团橱窗背景.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团橱窗背景.jpg",
+        "index": "012",
+        "label": "240905-大胡子-线上_美团橱窗背景.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-1.jpg",
+        "index": "013",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-10.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-10.jpg",
+        "index": "014",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-11.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-11.jpg",
+        "index": "015",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-12.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-12.jpg",
+        "index": "016",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-13.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-13.jpg",
+        "index": "017",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-14.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-14.jpg",
+        "index": "018",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-15.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-15.jpg",
+        "index": "019",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-16.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-16.jpg",
+        "index": "020",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-16.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-17.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-17.jpg",
+        "index": "021",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-17.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-18.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-18.jpg",
+        "index": "022",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-18.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-19.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-19.jpg",
+        "index": "023",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-19.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-2.jpg",
+        "index": "024",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-2.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子抹茶",
+    "caseKey": "mustache-matcha",
+    "page": 2,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-matcha-02.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-20.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-20.jpg",
+        "index": "025",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-20.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-21.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-21.jpg",
+        "index": "026",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-21.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-22.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-22.jpg",
+        "index": "027",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-22.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-23.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-23.jpg",
+        "index": "028",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-23.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-24.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-24.jpg",
+        "index": "029",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-24.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-3.jpg",
+        "index": "030",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-4.jpg",
+        "index": "031",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-5.jpg",
+        "index": "032",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-6.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-6.jpg",
+        "index": "033",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-6.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-7.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-7.jpg",
+        "index": "034",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-7.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-8.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-8.jpg",
+        "index": "035",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-8.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-9.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_美团饿了么通用菜品图-9.jpg",
+        "index": "036",
+        "label": "240905-大胡子-线上_美团饿了么通用菜品图-9.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_头像（全平台通用）.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线上_头像（全平台通用）.jpg",
+        "index": "037",
+        "label": "240905-大胡子-线上_头像（全平台通用）.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_冰淇淋玻璃板-60x90cm.png",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_冰淇淋玻璃板-60x90cm.png",
+        "index": "038",
+        "label": "240905-大胡子-线下_冰淇淋玻璃板-60x90cm.png"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_冰淇淋海报-60x90cm.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_冰淇淋海报-60x90cm.jpg",
+        "index": "039",
+        "label": "240905-大胡子-线下_冰淇淋海报-60x90cm.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_电视机欢迎海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_电视机欢迎海报.jpg",
+        "index": "040",
+        "label": "240905-大胡子-线下_电视机欢迎海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_电子屏菜单.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_电子屏菜单.jpg",
+        "index": "041",
+        "label": "240905-大胡子-线下_电子屏菜单.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_招牌产品海报-60x90cm.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/jpg素材/240905-大胡子-线下_招牌产品海报-60x90cm.jpg",
+        "index": "042",
+        "label": "240905-大胡子-线下_招牌产品海报-60x90cm.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "043",
+        "label": "01-240904-大胡子抹茶-提案-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "044",
+        "label": "01-240904-大胡子抹茶-提案-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "045",
+        "label": "01-240904-大胡子抹茶-提案-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "046",
+        "label": "01-240904-大胡子抹茶-提案-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "047",
+        "label": "01-240904-大胡子抹茶-提案-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "048",
+        "label": "01-240904-大胡子抹茶-提案-06.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子抹茶",
+    "caseKey": "mustache-matcha",
+    "page": 3,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-matcha-03.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "049",
+        "label": "01-240904-大胡子抹茶-提案-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "050",
+        "label": "01-240904-大胡子抹茶-提案-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "051",
+        "label": "01-240904-大胡子抹茶-提案-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "052",
+        "label": "01-240904-大胡子抹茶-提案-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "053",
+        "label": "01-240904-大胡子抹茶-提案-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/ai/01-240904-大胡子抹茶-提案-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240904-大胡子抹茶-提案.ai",
+        "index": "054",
+        "label": "01-240904-大胡子抹茶-提案-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-01.jpg",
+        "kind": "PDF render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "055",
+        "label": "01-240905-大胡子抹茶-全套提案-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-02.jpg",
+        "kind": "PDF render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "056",
+        "label": "01-240905-大胡子抹茶-全套提案-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-03.jpg",
+        "kind": "PDF render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "057",
+        "label": "01-240905-大胡子抹茶-全套提案-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-04.jpg",
+        "kind": "PDF render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "058",
+        "label": "01-240905-大胡子抹茶-全套提案-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-05.jpg",
+        "kind": "PDF render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "059",
+        "label": "01-240905-大胡子抹茶-全套提案-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-06.jpg",
+        "kind": "PDF render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "060",
+        "label": "01-240905-大胡子抹茶-全套提案-06.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-07.jpg",
+        "kind": "PDF render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "061",
+        "label": "01-240905-大胡子抹茶-全套提案-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-08.jpg",
+        "kind": "PDF render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "062",
+        "label": "01-240905-大胡子抹茶-全套提案-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-09.jpg",
+        "kind": "PDF render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "063",
+        "label": "01-240905-大胡子抹茶-全套提案-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-10.jpg",
+        "kind": "PDF render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "064",
+        "label": "01-240905-大胡子抹茶-全套提案-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-11.jpg",
+        "kind": "PDF render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "065",
+        "label": "01-240905-大胡子抹茶-全套提案-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-12.jpg",
+        "kind": "PDF render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/240905-大胡子抹茶-全套提案.pdf",
+        "index": "066",
+        "label": "01-240905-大胡子抹茶-全套提案-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/01-冰淇淋海报.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/冰淇淋海报.psd",
+        "index": "067",
+        "label": "01-冰淇淋海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/02-玻璃板.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/玻璃板.psd",
+        "index": "068",
+        "label": "02-玻璃板.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/03-菜单-MacBook.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/菜单- MacBook.psd",
+        "index": "069",
+        "label": "03-菜单-MacBook.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/04-菜单.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/菜单.psd",
+        "index": "070",
+        "label": "04-菜单.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/05-点评.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/点评.psd",
+        "index": "071",
+        "label": "05-点评.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/06-欢迎光临海报-户外.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/欢迎光临海报-户外.psd",
+        "index": "072",
+        "label": "06-欢迎光临海报-户外.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子抹茶",
+    "caseKey": "mustache-matcha",
+    "page": 4,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-matcha-04.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/07-欢迎光临海报.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/欢迎光临海报.psd",
+        "index": "073",
+        "label": "07-欢迎光临海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/08-美团.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/美团.psd",
+        "index": "074",
+        "label": "08-美团.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/09-门头发光字.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/门头发光字.psd",
+        "index": "075",
+        "label": "09-门头发光字.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/10-室内发光字.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/室内发光字.psd",
+        "index": "076",
+        "label": "10-室内发光字.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/11-室内立体字.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/室内立体字.psd",
+        "index": "077",
+        "label": "11-室内立体字.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/psd/12-招牌产品海报.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子抹茶/240905-大胡子全套提案/提案/招牌产品海报.psd",
+        "index": "078",
+        "label": "12-招牌产品海报.jpg"
+      }
+    ]
+  },
+  {
+    "case": "真心茶事",
+    "caseKey": "zhenxin-tea",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/zhenxin-tea-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报-_画板 1.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报-_画板 1.jpg",
+        "index": "001",
+        "label": "231117-真心茶事-电视机海报-_画板 1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--02.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--02.jpg",
+        "index": "002",
+        "label": "231117-真心茶事-电视机海报--02.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--03.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--03.jpg",
+        "index": "003",
+        "label": "231117-真心茶事-电视机海报--03.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--04.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--04.jpg",
+        "index": "004",
+        "label": "231117-真心茶事-电视机海报--04.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--05.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--05.jpg",
+        "index": "005",
+        "label": "231117-真心茶事-电视机海报--05.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--06.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--06.jpg",
+        "index": "006",
+        "label": "231117-真心茶事-电视机海报--06.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--07.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--07.jpg",
+        "index": "007",
+        "label": "231117-真心茶事-电视机海报--07.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--08.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--08.jpg",
+        "index": "008",
+        "label": "231117-真心茶事-电视机海报--08.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--09.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--09.jpg",
+        "index": "009",
+        "label": "231117-真心茶事-电视机海报--09.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--10.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--10.jpg",
+        "index": "010",
+        "label": "231117-真心茶事-电视机海报--10.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--11.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--11.jpg",
+        "index": "011",
+        "label": "231117-真心茶事-电视机海报--11.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--12.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--12.jpg",
+        "index": "012",
+        "label": "231117-真心茶事-电视机海报--12.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/杯子样机-带杯贴 拷贝.png",
+        "kind": "original · mockup",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/杯子样机-带杯贴 拷贝.png",
+        "index": "013",
+        "label": "杯子样机-带杯贴 拷贝.png"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-二楼背景-1600x3200px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-二楼背景-1600x3200px.jpg",
+        "index": "014",
+        "label": "真心茶事-线上-方案2_大众点评-二楼背景-1600x3200px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-1.jpg",
+        "index": "015",
+        "label": "真心茶事-线上-方案2_大众点评-商家招牌菜-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-2.jpg",
+        "index": "016",
+        "label": "真心茶事-线上-方案2_大众点评-商家招牌菜-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-3.jpg",
+        "index": "017",
+        "label": "真心茶事-线上-方案2_大众点评-商家招牌菜-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-4.jpg",
+        "index": "018",
+        "label": "真心茶事-线上-方案2_大众点评-商家招牌菜-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-商家招牌菜-5.jpg",
+        "index": "019",
+        "label": "真心茶事-线上-方案2_大众点评-商家招牌菜-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-1.jpg",
+        "index": "020",
+        "label": "真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-2.jpg",
+        "index": "021",
+        "label": "真心茶事-线上-方案2_大众点评-套餐首图-1600x900px-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 3.jpg",
+        "index": "022",
+        "label": "真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 4.jpg",
+        "index": "023",
+        "label": "真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1 4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1.jpg",
+        "index": "024",
+        "label": "真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-1.jpg"
+      }
+    ]
+  },
+  {
+    "case": "真心茶事",
+    "caseKey": "zhenxin-tea",
+    "page": 2,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/zhenxin-tea-02.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-2.jpg",
+        "index": "025",
+        "label": "真心茶事-线上-方案2_大众点评-图片菜单-1600x900px-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-非商户通专用-1600x1200px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-非商户通专用-1600x1200px.jpg",
+        "index": "026",
+        "label": "真心茶事-线上-方案2_大众点评头图-非商户通专用-1600x1200px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-1.jpg",
+        "index": "027",
+        "label": "真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-2.jpg",
+        "index": "028",
+        "label": "真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-3.jpg",
+        "index": "029",
+        "label": "真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-4.jpg",
+        "index": "030",
+        "label": "真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-5.jpg",
+        "index": "031",
+        "label": "真心茶事-线上-方案2_大众点评头图-商户通5张版-800x600px-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_点评入口图-美团头像-1600x1600px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_点评入口图-美团头像-1600x1600px.jpg",
+        "index": "032",
+        "label": "真心茶事-线上-方案2_点评入口图-美团头像-1600x1600px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团菜品图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团菜品图-1.jpg",
+        "index": "033",
+        "label": "真心茶事-线上-方案2_美团菜品图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团菜品图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团菜品图-2.jpg",
+        "index": "034",
+        "label": "真心茶事-线上-方案2_美团菜品图-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团店招-1500x576px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团店招-1500x576px.jpg",
+        "index": "035",
+        "label": "真心茶事-线上-方案2_美团店招-1500x576px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团横幅-常规-720x240px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团横幅-常规-720x240px.jpg",
+        "index": "036",
+        "label": "真心茶事-线上-方案2_美团横幅-常规-720x240px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团口袋店长店招-750x450px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团口袋店长店招-750x450px.jpg",
+        "index": "037",
+        "label": "真心茶事-线上-方案2_美团口袋店长店招-750x450px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团口袋店长配套横幅-720x240px.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/线上/真心茶事-线上-方案2_美团口袋店长配套横幅-720x240px.jpg",
+        "index": "038",
+        "label": "真心茶事-线上-方案2_美团口袋店长配套横幅-720x240px.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-杯装手提袋-270x210x110mm-方案2_1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-杯装手提袋-270x210x110mm-方案2_1.jpg",
+        "index": "039",
+        "label": "真心茶事-杯装手提袋-270x210x110mm-方案2_1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-杯装手提袋-270x210x110mm-方案2_2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-杯装手提袋-270x210x110mm-方案2_2.jpg",
+        "index": "040",
+        "label": "真心茶事-杯装手提袋-270x210x110mm-方案2_2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-菜单-A4或A5-方案2_画板 1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-菜单-A4或A5-方案2_画板 1.jpg",
+        "index": "041",
+        "label": "真心茶事-菜单-A4或A5-方案2_画板 1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-甲马上线海报-60x90cm_画板 1.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-甲马上线海报-60x90cm_画板 1.jpg",
+        "index": "042",
+        "label": "真心茶事-甲马上线海报-60x90cm_画板 1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-门头-3820x420mm_画板 1 副本.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-门头-3820x420mm_画板 1 副本.jpg",
+        "index": "043",
+        "label": "真心茶事-门头-3820x420mm_画板 1 副本.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-门头-3820x420mm_画板 1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-门头-3820x420mm_画板 1.jpg",
+        "index": "044",
+        "label": "真心茶事-门头-3820x420mm_画板 1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-热饮杯杯贴_总体效果.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/设计原稿/真心茶事-热饮杯杯贴_总体效果.jpg",
+        "index": "045",
+        "label": "真心茶事-热饮杯杯贴_总体效果.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/01-杯子样机-带杯贴.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/杯子样机-带杯贴.psd",
+        "index": "046",
+        "label": "01-杯子样机-带杯贴.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/02-杯子样机.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/杯子样机.psd",
+        "index": "047",
+        "label": "02-杯子样机.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/03-菜单.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/菜单.psd",
+        "index": "048",
+        "label": "03-菜单.jpg"
+      }
+    ]
+  },
+  {
+    "case": "真心茶事",
+    "caseKey": "zhenxin-tea",
+    "page": 3,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/zhenxin-tea-03.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/04-大众点评.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/大众点评.psd",
+        "index": "049",
+        "label": "04-大众点评.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/05-灯箱-门头2展示.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/灯箱+门头2展示.psd",
+        "index": "050",
+        "label": "05-灯箱-门头2展示.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/06-甲马海报.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/甲马海报.psd",
+        "index": "051",
+        "label": "06-甲马海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/07-美团-头像界面.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/美团-头像界面.psd",
+        "index": "052",
+        "label": "07-美团-头像界面.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/08-美团常规横幅.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/美团常规横幅.psd",
+        "index": "053",
+        "label": "08-美团常规横幅.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/09-美团大尺寸横幅.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/美团大尺寸横幅.psd",
+        "index": "054",
+        "label": "09-美团大尺寸横幅.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/ai/01-真心茶事-提案-1.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.ai",
+        "index": "055",
+        "label": "01-真心茶事-提案-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/ai/01-真心茶事-提案-2.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.ai",
+        "index": "056",
+        "label": "01-真心茶事-提案-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/ai/01-真心茶事-提案-3.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.ai",
+        "index": "057",
+        "label": "01-真心茶事-提案-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/ai/01-真心茶事-提案-4.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.ai",
+        "index": "058",
+        "label": "01-真心茶事-提案-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-1.jpg",
+        "kind": "PDF render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.pdf",
+        "index": "059",
+        "label": "01-真心茶事-提案-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-2.jpg",
+        "kind": "PDF render · page 2",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.pdf",
+        "index": "060",
+        "label": "01-真心茶事-提案-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-3.jpg",
+        "kind": "PDF render · page 3",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.pdf",
+        "index": "061",
+        "label": "01-真心茶事-提案-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-4.jpg",
+        "kind": "PDF render · page 4",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/真心茶事-提案.pdf",
+        "index": "062",
+        "label": "01-真心茶事-提案-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/psd/10-纸袋样机.jpg",
+        "kind": "PSD render · page 1",
+        "origin": "/Users/chim/Downloads/真心茶事/提案/纸袋样机.psd",
+        "index": "063",
+        "label": "10-纸袋样机.jpg"
+      }
+    ]
+  },
+  {
+    "case": "春莱小院",
+    "caseKey": "chunlai-courtyard",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/chunlai-courtyard-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG",
+        "index": "001",
+        "label": "IMG_3136.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG",
+        "index": "002",
+        "label": "IMG_3137.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG",
+        "index": "003",
+        "label": "IMG_3138.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG",
+        "index": "004",
+        "label": "IMG_3139.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG",
+        "index": "005",
+        "label": "IMG_3140.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG",
+        "index": "006",
+        "label": "IMG_3141.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG",
+        "index": "007",
+        "label": "IMG_3142.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG",
+        "index": "008",
+        "label": "IMG_3143.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG",
+        "index": "009",
+        "label": "IMG_3144.JPG"
+      },
+      {
+        "source": "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG",
+        "index": "010",
+        "label": "IMG_3145.JPG"
+      }
+    ]
+  },
+  {
+    "case": "文柠记",
+    "caseKey": "wenningji",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/wenningji-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/5个杯贴.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/5个杯贴.jpg",
+        "index": "001",
+        "label": "5个杯贴.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/菜单展示1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/菜单展示1.jpg",
+        "index": "002",
+        "label": "菜单展示1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/菜单展示2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/菜单展示2.jpg",
+        "index": "003",
+        "label": "菜单展示2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/菜单展示3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/菜单展示3.jpg",
+        "index": "004",
+        "label": "菜单展示3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/产品海报1.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/文柠记/提案/产品海报1.jpg",
+        "index": "005",
+        "label": "产品海报1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/打包贴纸.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/打包贴纸.jpg",
+        "index": "006",
+        "label": "打包贴纸.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/大众点评.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/大众点评.jpg",
+        "index": "007",
+        "label": "大众点评.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/海报2.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/文柠记/提案/海报2.jpg",
+        "index": "008",
+        "label": "海报2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/开业邀请函.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/文柠记/提案/开业邀请函.jpg",
+        "index": "009",
+        "label": "开业邀请函.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/美团.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/文柠记/提案/美团.jpg",
+        "index": "010",
+        "label": "美团.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/提案_画板 1 副本.jpg",
+        "kind": "original · proposal",
+        "origin": "/Users/chim/Downloads/文柠记/提案/提案_画板 1 副本.jpg",
+        "index": "011",
+        "label": "提案_画板 1 副本.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/提案_画板 1.jpg",
+        "kind": "original · proposal",
+        "origin": "/Users/chim/Downloads/文柠记/提案/提案_画板 1.jpg",
+        "index": "012",
+        "label": "提案_画板 1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/招聘海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/文柠记/提案/招聘海报.jpg",
+        "index": "013",
+        "label": "招聘海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/文柠记/提案/IMG_1609.JPG",
+        "kind": "original · photo",
+        "origin": "/Users/chim/Downloads/文柠记/提案/IMG_1609.JPG",
+        "index": "014",
+        "label": "IMG_1609.JPG"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseKey": "mustache-cocoa-winter",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-winter-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg",
+        "index": "001",
+        "label": "241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg",
+        "index": "002",
+        "label": "241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg",
+        "index": "003",
+        "label": "241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg",
+        "index": "004",
+        "label": "241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg",
+        "index": "005",
+        "label": "241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_海报-1.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_海报-1.jpg",
+        "index": "006",
+        "label": "241014-大胡子可可-热饮6款-改1_海报-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-1.jpg",
+        "index": "007",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-2.jpg",
+        "index": "008",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-3.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-3.jpg",
+        "index": "009",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-4.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-4.jpg",
+        "index": "010",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-4.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-5.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-5.jpg",
+        "index": "011",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-5.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-6.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-6.jpg",
+        "index": "012",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-6.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-7.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-7.jpg",
+        "index": "013",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-7.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-8.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-8.jpg",
+        "index": "014",
+        "label": "241014-大胡子可可-热饮6款-改1_美团饿了么通用菜品图-8.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_头像（全平台通用）.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_头像（全平台通用）.jpg",
+        "index": "015",
+        "label": "241014-大胡子可可-热饮6款-改1_头像（全平台通用）.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1-海报-印刷-60x90cm.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1-海报-印刷-60x90cm.jpg",
+        "index": "016",
+        "label": "241014-大胡子可可-热饮6款-改1-海报-印刷-60x90cm.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.jpg",
+        "index": "017",
+        "label": "241014-大胡子可可-热饮6款-改1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1(1).jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1(1).jpg",
+        "index": "018",
+        "label": "241014-大胡子可可-热饮6款-改1(1).jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241016-大胡子可可-热饮6款-预告海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241016-大胡子可可-热饮6款-预告海报.jpg",
+        "index": "019",
+        "label": "241016-大胡子可可-热饮6款-预告海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_产品海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_产品海报.jpg",
+        "index": "020",
+        "label": "241024-大胡子可可-热饮2款_产品海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_美团饿了么通用菜品图-1.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_美团饿了么通用菜品图-1.jpg",
+        "index": "021",
+        "label": "241024-大胡子可可-热饮2款_美团饿了么通用菜品图-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_美团饿了么通用菜品图-2.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_美团饿了么通用菜品图-2.jpg",
+        "index": "022",
+        "label": "241024-大胡子可可-热饮2款_美团饿了么通用菜品图-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_预告海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_预告海报.jpg",
+        "index": "023",
+        "label": "241024-大胡子可可-热饮2款_预告海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款-印刷_产品海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款-印刷_产品海报.jpg",
+        "index": "024",
+        "label": "241024-大胡子可可-热饮2款-印刷_产品海报.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 · 冬季热饮新品系列",
+    "caseKey": "mustache-cocoa-winter",
+    "page": 2,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-winter-02.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款-印刷_预告海报.jpg",
+        "kind": "original · finished visual",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款-印刷_预告海报.jpg",
+        "index": "025",
+        "label": "241024-大胡子可可-热饮2款-印刷_预告海报.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241105-大胡子可可-新品3个-改1.jpg",
+        "index": "026",
+        "label": "241105-大胡子可可-新品3个-改1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "027",
+        "label": "01-241014-大胡子可可-热饮6款-改1-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "028",
+        "label": "01-241014-大胡子可可-热饮6款-改1-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "029",
+        "label": "01-241014-大胡子可可-热饮6款-改1-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "030",
+        "label": "01-241014-大胡子可可-热饮6款-改1-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "031",
+        "label": "01-241014-大胡子可可-热饮6款-改1-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "032",
+        "label": "01-241014-大胡子可可-热饮6款-改1-06.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "033",
+        "label": "01-241014-大胡子可可-热饮6款-改1-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "034",
+        "label": "01-241014-大胡子可可-热饮6款-改1-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "035",
+        "label": "01-241014-大胡子可可-热饮6款-改1-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "036",
+        "label": "01-241014-大胡子可可-热饮6款-改1-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "037",
+        "label": "01-241014-大胡子可可-热饮6款-改1-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "038",
+        "label": "01-241014-大胡子可可-热饮6款-改1-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-13.jpg",
+        "kind": "AI render · page 13",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "039",
+        "label": "01-241014-大胡子可可-热饮6款-改1-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-14.jpg",
+        "kind": "AI render · page 14",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "040",
+        "label": "01-241014-大胡子可可-热饮6款-改1-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-15.jpg",
+        "kind": "AI render · page 15",
+        "origin": "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1.ai",
+        "index": "041",
+        "label": "01-241014-大胡子可可-热饮6款-改1-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-1.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
+        "index": "042",
+        "label": "02-241024-大胡子可可-热饮2款-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-2.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
+        "index": "043",
+        "label": "02-241024-大胡子可可-热饮2款-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-3.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
+        "index": "044",
+        "label": "02-241024-大胡子可可-热饮2款-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-4.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
+        "index": "045",
+        "label": "02-241024-大胡子可可-热饮2款-4.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 1,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-01.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.jpg",
+        "index": "001",
+        "label": "241201-大胡子可可-tatan联名-圣诞-线上.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.jpg",
+        "index": "002",
+        "label": "241201-大胡子可可-tatan联名-圣诞-印刷.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.jpg",
+        "index": "003",
+        "label": "241201-大胡子可可-tatan联名-圣诞-印刷后加.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.jpg",
+        "kind": "original · production artwork",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.jpg",
+        "index": "004",
+        "label": "241201-大胡子可可-tatan联名-新年-线上.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.jpg",
+        "index": "005",
+        "label": "241201-大胡子可可-tatan联名-新年-印刷.jpg"
+      },
+      {
+        "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.jpg",
+        "kind": "original · other",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.jpg",
+        "index": "006",
+        "label": "241201-大胡子可可-tatan联名-新年-印刷后加.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "007",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "008",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "009",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "010",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "011",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "012",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "013",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "014",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "015",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "016",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "017",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "018",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-13.jpg",
+        "kind": "AI render · page 13",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "019",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-14.jpg",
+        "kind": "AI render · page 14",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "020",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-15.jpg",
+        "kind": "AI render · page 15",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "021",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-16.jpg",
+        "kind": "AI render · page 16",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "022",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-16.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-17.jpg",
+        "kind": "AI render · page 17",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "023",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-17.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-18.jpg",
+        "kind": "AI render · page 18",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "024",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-18.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 2,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-02.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-19.jpg",
+        "kind": "AI render · page 19",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "025",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-19.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-20.jpg",
+        "kind": "AI render · page 20",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "026",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-20.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-21.jpg",
+        "kind": "AI render · page 21",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "027",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-21.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-22.jpg",
+        "kind": "AI render · page 22",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "028",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-22.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-23.jpg",
+        "kind": "AI render · page 23",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "029",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-23.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-24.jpg",
+        "kind": "AI render · page 24",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "030",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-24.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-25.jpg",
+        "kind": "AI render · page 25",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "031",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-25.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-26.jpg",
+        "kind": "AI render · page 26",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "032",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-26.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-27.jpg",
+        "kind": "AI render · page 27",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "033",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-27.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-28.jpg",
+        "kind": "AI render · page 28",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "034",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-28.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-29.jpg",
+        "kind": "AI render · page 29",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "035",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-29.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-30.jpg",
+        "kind": "AI render · page 30",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "036",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-30.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-31.jpg",
+        "kind": "AI render · page 31",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "037",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-31.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-32.jpg",
+        "kind": "AI render · page 32",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "038",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-32.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-33.jpg",
+        "kind": "AI render · page 33",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "039",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-33.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-34.jpg",
+        "kind": "AI render · page 34",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "040",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-34.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-35.jpg",
+        "kind": "AI render · page 35",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "041",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-35.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-36.jpg",
+        "kind": "AI render · page 36",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "042",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-36.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-37.jpg",
+        "kind": "AI render · page 37",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "043",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-37.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-38.jpg",
+        "kind": "AI render · page 38",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+        "index": "044",
+        "label": "01-241201-大胡子可可-tatan联名-圣诞-线上-38.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "045",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "046",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "047",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "048",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-04.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 3,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-03.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "049",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "050",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-06.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "051",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "052",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "053",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "054",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "055",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "056",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-13.jpg",
+        "kind": "AI render · page 13",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "057",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-14.jpg",
+        "kind": "AI render · page 14",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "058",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-15.jpg",
+        "kind": "AI render · page 15",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "059",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-16.jpg",
+        "kind": "AI render · page 16",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "060",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-16.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-17.jpg",
+        "kind": "AI render · page 17",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "061",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-17.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-18.jpg",
+        "kind": "AI render · page 18",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "062",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-18.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/02-241201-大胡子可可-tatan联名-圣诞-印刷-19.jpg",
+        "kind": "AI render · page 19",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+        "index": "063",
+        "label": "02-241201-大胡子可可-tatan联名-圣诞-印刷-19.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/03-241201-大胡子可可-tatan联名-圣诞-印刷后加-1.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.ai",
+        "index": "064",
+        "label": "03-241201-大胡子可可-tatan联名-圣诞-印刷后加-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/03-241201-大胡子可可-tatan联名-圣诞-印刷后加-2.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.ai",
+        "index": "065",
+        "label": "03-241201-大胡子可可-tatan联名-圣诞-印刷后加-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/03-241201-大胡子可可-tatan联名-圣诞-印刷后加-3.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.ai",
+        "index": "066",
+        "label": "03-241201-大胡子可可-tatan联名-圣诞-印刷后加-3.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "067",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "068",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "069",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "070",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "071",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "072",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-06.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 4,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-04.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "073",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "074",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "075",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "076",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "077",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "078",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-13.jpg",
+        "kind": "AI render · page 13",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "079",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-14.jpg",
+        "kind": "AI render · page 14",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "080",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-15.jpg",
+        "kind": "AI render · page 15",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "081",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-16.jpg",
+        "kind": "AI render · page 16",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "082",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-16.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-17.jpg",
+        "kind": "AI render · page 17",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "083",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-17.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-18.jpg",
+        "kind": "AI render · page 18",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "084",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-18.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-19.jpg",
+        "kind": "AI render · page 19",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "085",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-19.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-20.jpg",
+        "kind": "AI render · page 20",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "086",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-20.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-21.jpg",
+        "kind": "AI render · page 21",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "087",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-21.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-22.jpg",
+        "kind": "AI render · page 22",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "088",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-22.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-23.jpg",
+        "kind": "AI render · page 23",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "089",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-23.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-24.jpg",
+        "kind": "AI render · page 24",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "090",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-24.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-25.jpg",
+        "kind": "AI render · page 25",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "091",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-25.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-26.jpg",
+        "kind": "AI render · page 26",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "092",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-26.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-27.jpg",
+        "kind": "AI render · page 27",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "093",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-27.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-28.jpg",
+        "kind": "AI render · page 28",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "094",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-28.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-29.jpg",
+        "kind": "AI render · page 29",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "095",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-29.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-30.jpg",
+        "kind": "AI render · page 30",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "096",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-30.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 5,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-05.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-31.jpg",
+        "kind": "AI render · page 31",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "097",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-31.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-32.jpg",
+        "kind": "AI render · page 32",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "098",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-32.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-33.jpg",
+        "kind": "AI render · page 33",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "099",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-33.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-34.jpg",
+        "kind": "AI render · page 34",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "100",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-34.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-35.jpg",
+        "kind": "AI render · page 35",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "101",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-35.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-36.jpg",
+        "kind": "AI render · page 36",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "102",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-36.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-37.jpg",
+        "kind": "AI render · page 37",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "103",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-37.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-38.jpg",
+        "kind": "AI render · page 38",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
+        "index": "104",
+        "label": "04-241201-大胡子可可-tatan联名-新年-线上-38.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-01.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "105",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-01.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-02.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "106",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-02.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-03.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "107",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-03.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-04.jpg",
+        "kind": "AI render · page 4",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "108",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-04.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-05.jpg",
+        "kind": "AI render · page 5",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "109",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-05.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-06.jpg",
+        "kind": "AI render · page 6",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "110",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-06.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-07.jpg",
+        "kind": "AI render · page 7",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "111",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-07.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-08.jpg",
+        "kind": "AI render · page 8",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "112",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-08.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-09.jpg",
+        "kind": "AI render · page 9",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "113",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-09.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-10.jpg",
+        "kind": "AI render · page 10",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "114",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-10.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-11.jpg",
+        "kind": "AI render · page 11",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "115",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-11.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-12.jpg",
+        "kind": "AI render · page 12",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "116",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-12.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-13.jpg",
+        "kind": "AI render · page 13",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "117",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-13.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-14.jpg",
+        "kind": "AI render · page 14",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "118",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-14.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-15.jpg",
+        "kind": "AI render · page 15",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "119",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-15.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-16.jpg",
+        "kind": "AI render · page 16",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "120",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-16.jpg"
+      }
+    ]
+  },
+  {
+    "case": "大胡子可可 × TATAN",
+    "caseKey": "mustache-cocoa-tatan",
+    "page": 6,
+    "contactSheet": "case-production/portfolio-additions-sol-v1/review/contact-sheets/mustache-cocoa-tatan-06.jpg",
+    "items": [
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/05-241201-大胡子可可-tatan联名-新年-印刷-17.jpg",
+        "kind": "AI render · page 17",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+        "index": "121",
+        "label": "05-241201-大胡子可可-tatan联名-新年-印刷-17.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/06-241201-大胡子可可-tatan联名-新年-印刷后加-1.jpg",
+        "kind": "AI render · page 1",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.ai",
+        "index": "122",
+        "label": "06-241201-大胡子可可-tatan联名-新年-印刷后加-1.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/06-241201-大胡子可可-tatan联名-新年-印刷后加-2.jpg",
+        "kind": "AI render · page 2",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.ai",
+        "index": "123",
+        "label": "06-241201-大胡子可可-tatan联名-新年-印刷后加-2.jpg"
+      },
+      {
+        "source": "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/06-241201-大胡子可可-tatan联名-新年-印刷后加-3.jpg",
+        "kind": "AI render · page 3",
+        "origin": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.ai",
+        "index": "124",
+        "label": "06-241201-大胡子可可-tatan联名-新年-印刷后加-3.jpg"
+      }
+    ]
+  }
+]

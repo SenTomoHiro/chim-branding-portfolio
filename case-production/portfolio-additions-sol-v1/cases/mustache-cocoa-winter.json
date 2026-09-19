@@ -1,0 +1,343 @@
+{
+  "case": "大胡子可可 · 冬季热饮新品系列",
+  "siteName": "大胡子可可 · 冬季热饮新品系列",
+  "caseKey": "mustache-cocoa-winter",
+  "caseAction": "create",
+  "existingCaseId": null,
+  "id": "N024",
+  "categories": [
+    "drinks",
+    "ip"
+  ],
+  "primaryIndustry": "冬季热饮",
+  "intro": "以大胡子人物肖像和高饱和色彩连续发布冬季热饮，并在茶香、香蕉与棉花糖风味中扩展产品叙事。",
+  "coverOrder": 10,
+  "heroOrder": 1,
+  "chapterCount": 3,
+  "chapters": [
+    {
+      "title": "热可可启航",
+      "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。"
+    },
+    {
+      "title": "可可航海系列",
+      "description": "以复古地图与探险家肖像扩展第二轮热饮风味。"
+    },
+    {
+      "title": "茶香与香蕉延展",
+      "description": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。"
+    }
+  ],
+  "finalImageCount": 15,
+  "items": [
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/01-首轮产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_海报-1.jpg"
+      ],
+      "editorialRole": "首轮产品海报",
+      "decisionReason": "六款热可可与品牌肖像形成明确发布开场。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "29d2b4b92645e1182ae65e6bf85b9188795f27857b82a6fbff0d493126ef0995",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 2,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/02-新品预告.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241016-大胡子可可-热饮6款-预告海报.jpg"
+      ],
+      "editorialRole": "新品预告",
+      "decisionReason": "航海帽肖像与地图背景建立首轮叙事。",
+      "width": 2133,
+      "height": 3200,
+      "sha256": "3600ea1fecafd3b191581d459f30580fc24727ca18e20c6f1de6cb5963d91e0c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/03-六款产品总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-13.jpg"
+      ],
+      "editorialRole": "六款产品总览",
+      "decisionReason": "纵向画板完整呈现首轮产品阵容。",
+      "width": 1867,
+      "height": 2800,
+      "sha256": "1e2abc194298e727e151ad513a4d2e6acc6c7b6928d142bb8579cfc0a52ab3c4",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 4,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-winter/04-首轮产品肖像.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-07.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-08.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-09.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-10.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-11.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-12.jpg"
+      ],
+      "editorialRole": "首轮产品肖像",
+      "decisionReason": "六款产品使用一致肖像结构，合并为完整 SKU 系列。",
+      "width": 2748,
+      "height": 1824,
+      "sha256": "0a34c1cae879354aa1df10b6290c2deb347e100c94157034d48c82aa91f9ea02",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 5,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-winter/05-首轮平台头图.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg"
+      ],
+      "editorialRole": "首轮平台头图",
+      "decisionReason": "五张连续平台头图属于同一传播单元。",
+      "width": 2748,
+      "height": 1424,
+      "sha256": "b6989cf96732191887dfd80b9e584b3029eeb1ac22d0794a413fb5bb104a8bd2",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/06-第二轮预告.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_预告海报.jpg"
+      ],
+      "editorialRole": "第二轮预告",
+      "decisionReason": "复古航海肖像明确区分第二次发布。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "9f5dfcad087c768a6cb41807aa64d46d8f22665a22625fe89cacef358ae522f3",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 7,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/07-第二轮产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_产品海报.jpg"
+      ],
+      "editorialRole": "第二轮产品海报",
+      "decisionReason": "两款产品在同一复古地图体系中集中发布。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "fc947c9164dc62dc5b1093099230808c001d9330455eb7145136bfcb03619882",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 8,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/08-第二轮产品一.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-1.jpg"
+      ],
+      "editorialRole": "第二轮产品一",
+      "decisionReason": "保留单品肖像以说明杯身与风味变化。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "5d6522ef5ffb2187f9b01f7696a3b7ccb4eab580808765b09da88ef7823e248d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/09-第二轮产品二.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-2.jpg"
+      ],
+      "editorialRole": "第二轮产品二",
+      "decisionReason": "与前一画面组成连续双品展示。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "a5df6319f55f30a334f2079b516ffaf738db0bd91c3043dfef73e0b5a87e4e7f",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 10,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/10-阶段主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-04.jpg"
+      ],
+      "editorialRole": "阶段主视觉",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1001,
+      "height": 1000,
+      "sha256": "aca20d9abc291bbbb53d676c00ed51df3afc46f177232df29c54b0eb434dd8fd",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 11,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/11-棉花糖可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-01.jpg"
+      ],
+      "editorialRole": "棉花糖可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "acf36e9e860bc1d96377031032b13b06f3ba184ee40a9ae880d54ec7fbc6e1a8",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 12,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/12-桂花乌龙可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-02.jpg"
+      ],
+      "editorialRole": "桂花乌龙可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "4b2f6215246a74e4e562fbd3aa6bd24e7e728df1ebb99354f3db1cd8922ac256",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 13,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/13-玫瑰红茶可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-03.jpg"
+      ],
+      "editorialRole": "玫瑰红茶可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "3734f0eb4fd30615d045c151e97066e9076422df7ba398adb480c12c6f83a7b5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 14,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/14-茶香双品海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-05.jpg"
+      ],
+      "editorialRole": "茶香双品海报",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 2000,
+      "height": 3001,
+      "sha256": "9796ce5aced18bd6001e7713a7f50be72e7a21f45b06566677adf4e590d4469d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 15,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/15-香蕉棉花糖可可海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-06.jpg"
+      ],
+      "editorialRole": "香蕉棉花糖可可海报",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 2000,
+      "height": 3001,
+      "sha256": "20f698bb42de13f766b8b302d6e6f6e2a112f9662ab23c8efc076b377a0d39c1",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    }
+  ]
+}

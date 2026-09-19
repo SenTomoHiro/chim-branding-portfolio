@@ -9,7 +9,7 @@ export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
   function close() {
     const entry = readCaseListEntry();
     const current = normalizePortfolioPath(window.location.pathname);
-    if (entry?.target === current && isCaseListRoute(entry.source) && window.history.length > entry.historyLength) {
+    if (entry?.target === current && isCaseListRoute(entry.source)) {
       requestCaseListReturn(entry);
       router.back();
       return;

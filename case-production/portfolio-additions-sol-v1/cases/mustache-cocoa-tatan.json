@@ -1,0 +1,273 @@
+{
+  "case": "大胡子可可 × TATAN · 联名系列",
+  "siteName": "大胡子可可 × TATAN · 联名系列",
+  "caseKey": "mustache-cocoa-tatan",
+  "caseAction": "create",
+  "existingCaseId": null,
+  "id": "N025",
+  "categories": [
+    "drinks",
+    "ip"
+  ],
+  "primaryIndustry": "茶饮联名",
+  "intro": "以 TATAN 人物肖像转化为节日角色，在圣诞深绿与新年莓红两套视觉中连接产品、活动与平台传播。",
+  "coverOrder": 1,
+  "heroOrder": 3,
+  "chapterCount": 2,
+  "chapters": [
+    {
+      "title": "小胖当家 · 圣诞来袭",
+      "description": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。"
+    },
+    {
+      "title": "冬日约定 · 莓好圣诞",
+      "description": "以草莓角色和暖红色系延展新年阶段的联名传播。"
+    }
+  ],
+  "finalImageCount": 12,
+  "items": [
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/01-圣诞角色主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-01.jpg"
+      ],
+      "editorialRole": "圣诞角色主视觉",
+      "decisionReason": "人物肖像与圣诞角色化处理形成联名核心记忆。",
+      "width": 2800,
+      "height": 2800,
+      "sha256": "94fc57b2351bb37ce43539f3f53b58299f9385d10b17168a0dcea2c1d1d8d2cf",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 2,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/02-圣诞标题画面.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-02.jpg"
+      ],
+      "editorialRole": "圣诞标题画面",
+      "decisionReason": "标题画面清楚建立第一波节日叙事。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "8b859f1ff7755996b750a956f0dc9b62fb8540d388228889e76d7badd409871a",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/03-联名产品横幅.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-08.jpg"
+      ],
+      "editorialRole": "联名产品横幅",
+      "decisionReason": "三款产品与联名角色同框，适合作为详情页 Hero。",
+      "width": 2800,
+      "height": 934,
+      "sha256": "b558cf1eeb64afe6728644577ccb684c3f1e182b01560dbe341bff898a6f1127",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 4,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-tatan/04-圣诞联名产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg"
+      ],
+      "editorialRole": "圣诞联名产品",
+      "decisionReason": "三款杯装在同一视觉模板中，组合为一个产品系统展示。",
+      "width": 2748,
+      "height": 900,
+      "sha256": "a557b9f94b485a4de0ca6606a506be6387352d63b342a9ad0498d0b84762169d",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 5,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/05-圣诞角色与产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-13.jpg"
+      ],
+      "editorialRole": "圣诞角色与产品",
+      "decisionReason": "角色和单品同框形成更亲近的传播画面。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "5d497ae1294d18150625d6346918d99ab6cbc8742d8b40633f9b0c6e51df248f",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/06-圣诞竖版海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-28.jpg"
+      ],
+      "editorialRole": "圣诞竖版海报",
+      "decisionReason": "竖版海报整合人物、产品与活动标题。",
+      "width": 2100,
+      "height": 2800,
+      "sha256": "51a39b5c0a7ff2e71da3eb0ec448d41ca421eb2358884da3a7d9952f9f88bf5e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 7,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/07-新年角色主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-01.jpg"
+      ],
+      "editorialRole": "新年角色主视觉",
+      "decisionReason": "草莓角色造型开启第二阶段。",
+      "width": 2800,
+      "height": 2800,
+      "sha256": "6a11b8ae93ecad99fdef6b9af69ea033aa0b6f832ba68306675b98979cb38acc",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 8,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/08-新年标题画面.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-02.jpg"
+      ],
+      "editorialRole": "新年标题画面",
+      "decisionReason": "暖红色与标题建立新年阶段的独立语气。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "d4deffd4ee3c54b7646a7ff4c3de827f1119b64563ad030cd0f2fb67c8f7440e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/09-新年传播横幅.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-08.jpg"
+      ],
+      "editorialRole": "新年传播横幅",
+      "decisionReason": "角色与标题在横向平台触点中保持一致。",
+      "width": 2800,
+      "height": 934,
+      "sha256": "deda5edf48da95e578a114372fbfebe4812bbb8bd352ee3a80d7ac43b3c98453",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 10,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-tatan/10-新年联名产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-05.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-06.jpg"
+      ],
+      "editorialRole": "新年联名产品",
+      "decisionReason": "两款新品属于同一阶段的产品组合。",
+      "width": 2424,
+      "height": 1000,
+      "sha256": "75e7a0d0a058d66cff5fe6de7f57315ebd46e7b031d7acb22cb651112ff83259",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 11,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/11-新年角色与产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-13.jpg"
+      ],
+      "editorialRole": "新年角色与产品",
+      "decisionReason": "角色、草莓与杯装共同说明新年口味延展。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "09aa4cb081497d20ad069a62684cbf0673c074597694aa0761ce17c9e01ef0a0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 12,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/12-新年竖版海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-28.jpg"
+      ],
+      "editorialRole": "新年竖版海报",
+      "decisionReason": "完整竖版物料收束第二阶段。",
+      "width": 2100,
+      "height": 2800,
+      "sha256": "ef40f284cb434f19c2f04bd99504b2f5d8b62c11082bd4c4f81334ba1d7fb28c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    }
+  ]
+}

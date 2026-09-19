@@ -26,7 +26,7 @@ test("the frozen Springlai import contains exactly seven ordered cases and 88 ma
     const mapped = importMap.assets.filter((asset) => asset.case === item.name).sort((a, b) => a.order - b.order);
     expect(item.bodyAssets.map((asset) => asset.src)).toEqual(mapped.map((asset) => asset.websiteAsset));
   }
-  expect(content.cases.filter((item) => /春莱|ChunLai/i.test(item.name))).toHaveLength(7);
+  expect(content.cases.filter((item) => item.id.startsWith("SL"))).toHaveLength(7);
   expect(content.cases.some((item) => ["L010", "L011", "L030"].includes(item.id))).toBe(false);
 });
 

@@ -1,0 +1,55 @@
+{
+  "application": "Adobe Illustrator",
+  "version": "30.0.0",
+  "sourceFilesOverwritten": 0,
+  "tatan": {
+    "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
+    "artboardCount": 38,
+    "layers": [
+      "标注信息",
+      "设计稿件",
+      "图层 3"
+    ],
+    "hiddenProductionLayers": [
+      "标注信息"
+    ],
+    "selectedWebsiteAssetsReplaced": 0,
+    "decision": "保留已入选、字体呈现完整且无生产标记的线上稿；Illustrator 原生导出用于验证图层与画板，没有覆盖源文件。"
+  },
+  "springlaiCorrection": {
+    "caseId": "SL005",
+    "bodyAssetCount": 21,
+    "chapterTitles": [
+      "桃与乌龙",
+      "桃花艺人",
+      "桂花艺人"
+    ],
+    "sourceAiLayers": [
+      "标注信息",
+      "各种包装线",
+      "设计稿件",
+      "插画图片"
+    ],
+    "productionLayersExcluded": [
+      "标注信息",
+      "各种包装线"
+    ],
+    "correctedWebsiteAssets": [
+      {
+        "path": "/media/springlai/peach-osmanthus/05.jpg",
+        "oldSha256": "f43211b603493fda87b72190070d21a990f01686cc478b43523d0d39b0b4e64f",
+        "sha256": "56a506c8a75b2b05031b831516b3b70c8c87304286a0379fcb1a797f393206bf"
+      },
+      {
+        "path": "/media/springlai/peach-osmanthus/11.jpg",
+        "oldSha256": "a18129df2d299d371bb6d0dc77efe02812f0467f9b9b967783bb52f98df83e40",
+        "sha256": "4ac200ae3fd9be6c91db9c8cd281204b59ca3f01194bec29c8c2ece91f3f720d"
+      },
+      {
+        "path": "/media/springlai/peach-osmanthus/12.jpg",
+        "oldSha256": "eea1c14f1d345663494378549d224b12d8b1134ed45beb044e2e958f2a3b6397",
+        "sha256": "0849e186d53f61a378df86713fc6efc04be24c3a18918fddc409660c73fc1def"
+      }
+    ]
+  }
+}

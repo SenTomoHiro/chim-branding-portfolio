@@ -1,0 +1,1626 @@
+{
+  "version": "portfolio-additions-sol-v1",
+  "generatedAt": "2026-09-19T17:11:34.232Z",
+  "sourceCandidateCount": 334,
+  "sourceFileCount": 177,
+  "psdPsbRenderSuccess": 22,
+  "aiPdfRenderSuccess": 12,
+  "skippedForFontsRenderOrProductionMarks": 4,
+  "cropCount": 6,
+  "compositeCount": 9,
+  "finalDisplayImageCount": 70,
+  "photoshopVerification": {
+    "application": "Adobe Photoshop",
+    "version": "27.2.0",
+    "exported": 22,
+    "failed": 0,
+    "sourceFilesOverwritten": 0
+  },
+  "illustratorVerification": {
+    "application": "Adobe Illustrator",
+    "version": "30.0.0",
+    "artboardCount": 38,
+    "hiddenProductionLayers": [
+      "标注信息"
+    ],
+    "sourceFilesOverwritten": 0,
+    "selectedWebsiteAssetsReplaced": 0
+  },
+  "springlaiCorrection": {
+    "caseId": "SL005",
+    "correctedAssetCount": 3,
+    "productionLayersExcluded": [
+      "标注信息",
+      "各种包装线"
+    ]
+  },
+  "cases": [
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "siteName": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "id": "N021",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "抹茶饮品",
+      "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。",
+      "coverOrder": 10,
+      "heroOrder": 9,
+      "chapterCount": 0,
+      "chapters": [],
+      "finalImageCount": 12
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "siteName": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "id": "N022",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "中式茶饮",
+      "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。",
+      "coverOrder": 2,
+      "heroOrder": 1,
+      "chapterCount": 2,
+      "chapters": [
+        {
+          "title": "真心制茶",
+          "description": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。"
+        },
+        {
+          "title": "花与茶的四季叙事",
+          "description": "以花材、器物与产品组合发展连续的季节传播系列。"
+        }
+      ],
+      "finalImageCount": 11
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "siteName": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "id": "N023",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "泰式餐饮",
+      "intro": "以热带植物插画、泰中双语字形与深绿、赭红色系构建泰北餐饮品牌，并延展菜单与平台视觉。",
+      "coverOrder": 4,
+      "heroOrder": 1,
+      "chapterCount": 0,
+      "chapters": [],
+      "finalImageCount": 10
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "siteName": "文柠记",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "id": "L012",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "柠檬茶",
+      "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。",
+      "coverOrder": 2,
+      "heroOrder": 1,
+      "chapterCount": 0,
+      "chapters": [],
+      "finalImageCount": 10
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "siteName": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "id": "N024",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "冬季热饮",
+      "intro": "以大胡子人物肖像和高饱和色彩连续发布冬季热饮，并在茶香、香蕉与棉花糖风味中扩展产品叙事。",
+      "coverOrder": 10,
+      "heroOrder": 1,
+      "chapterCount": 3,
+      "chapters": [
+        {
+          "title": "热可可启航",
+          "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。"
+        },
+        {
+          "title": "可可航海系列",
+          "description": "以复古地图与探险家肖像扩展第二轮热饮风味。"
+        },
+        {
+          "title": "茶香与香蕉延展",
+          "description": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。"
+        }
+      ],
+      "finalImageCount": 15
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "siteName": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "id": "N025",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "茶饮联名",
+      "intro": "以 TATAN 人物肖像转化为节日角色，在圣诞深绿与新年莓红两套视觉中连接产品、活动与平台传播。",
+      "coverOrder": 1,
+      "heroOrder": 3,
+      "chapterCount": 2,
+      "chapters": [
+        {
+          "title": "小胖当家 · 圣诞来袭",
+          "description": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。"
+        },
+        {
+          "title": "冬日约定 · 莓好圣诞",
+          "description": "以草莓角色和暖红色系延展新年阶段的联名传播。"
+        }
+      ],
+      "finalImageCount": 12
+    }
+  ],
+  "items": [
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/01-品牌空间开场.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-04.jpg"
+      ],
+      "editorialRole": "品牌空间开场",
+      "decisionReason": "完整门头与室内场景最适合作为品牌叙事开场。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "df2f35515863d4157363857a7cf8b18b6b5ec58212c9249d98a141d2fd9feedc",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/02-线上门店系统.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-06.jpg"
+      ],
+      "editorialRole": "线上门店系统",
+      "decisionReason": "以手机界面呈现线上触点的完整适配。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "c9ee5d91669fc94597a74c1987ac69c025cf30eecbb4a5d24259873bd887e979",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/03-开业落地.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-matcha/pdf/01-240905-大胡子抹茶-全套提案-09.jpg"
+      ],
+      "editorialRole": "开业落地",
+      "decisionReason": "展示开业信息在户外立牌上的实际应用。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "4836cdef2f22ca63f4856e1985074aebf7ae359a54aa67fac3a5fcb80a8275c4",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/04-电子菜单.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/03-菜单-MacBook.jpg"
+      ],
+      "editorialRole": "电子菜单",
+      "decisionReason": "完成态 PSD 样机清楚呈现菜单在桌面设备中的使用。",
+      "width": 2800,
+      "height": 1925,
+      "sha256": "3927c7c02de8c98b5ba41bea2f230d34cc41daf94e61484b8c904b7970d1be3d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/05-门店菜单系统.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/04-菜单.jpg"
+      ],
+      "editorialRole": "门店菜单系统",
+      "decisionReason": "宽幅屏幕样机展示完整产品矩阵。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "ede42b58b542a13db9e60035aec89d7e4e4fdf4fd0b41450bc4d0dffc3ade854",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/06-大众点评.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/05-点评.jpg"
+      ],
+      "editorialRole": "大众点评",
+      "decisionReason": "平台页面与品牌图形保持一致。",
+      "width": 2365,
+      "height": 2800,
+      "sha256": "50eb8aad61759c823f60926a7aa0eb9ecc709856bdee22a4e1bd50af6f58023c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/07-美团门店.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/08-美团.jpg"
+      ],
+      "editorialRole": "美团门店",
+      "decisionReason": "补充另一主要线上渠道的完成态。",
+      "width": 2707,
+      "height": 2800,
+      "sha256": "93937d97c31a46eb2a23edff3483a0b4d74ae5dee53bf664170744607a8119a5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/08-户外欢迎海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/06-欢迎光临海报-户外.jpg"
+      ],
+      "editorialRole": "户外欢迎海报",
+      "decisionReason": "真实空间尺度强化开业物料的可读性。",
+      "width": 2800,
+      "height": 1867,
+      "sha256": "54f1d117116175bf5bd6017f8fd0f6efe49ed85f003b54d035ed0409e3fc7e6c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/09-门头识别.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/09-门头发光字.jpg"
+      ],
+      "editorialRole": "门头识别",
+      "decisionReason": "横向门头适合作为详情页 Hero。",
+      "width": 2800,
+      "height": 1371,
+      "sha256": "73699d7f68d72ee44d95e6bad8762999ca2de1dbf83978bb0fd68457a4e8097b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/10-室内灯箱.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/10-室内发光字.jpg"
+      ],
+      "editorialRole": "室内灯箱",
+      "decisionReason": "纵向空间画面在列表缩略图中仍具辨识度。",
+      "width": 2222,
+      "height": 2800,
+      "sha256": "bcad49301d0125c79e7138c2cb94b6426c49cd3198ff4b9126f06f0d64195c75",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 11,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/11-室内品牌墙.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/11-室内立体字.jpg"
+      ],
+      "editorialRole": "室内品牌墙",
+      "decisionReason": "品牌标识与材质、光线关系清晰。",
+      "width": 2483,
+      "height": 2800,
+      "sha256": "ac7b593b2acd26dc41edac255df5a76efdac8c47f0407311a2a303d1b81cf684",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子抹茶 · 品牌视觉",
+      "caseKey": "mustache-matcha",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 12,
+      "type": "mockup",
+      "finalAsset": "final-assets/mustache-matcha/12-招牌产品海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/mustache-matcha/psd/12-招牌产品海报.jpg"
+      ],
+      "editorialRole": "招牌产品海报",
+      "decisionReason": "以主打产品和肖像语言收束品牌系统。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "d18a6d359f814efaaf61c6f06b421339502c403fb3fdf1c201af1bab6701b0c5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 1,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/01-门店开场.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/05-灯箱-门头2展示.jpg"
+      ],
+      "editorialRole": "门店开场",
+      "decisionReason": "简洁门头完整呈现品牌在空间中的尺度。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "c7485b66f95b41c22f8fdf883e88d5f6bb3011f55fdc48b3863f28f3ccfff45e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/02-核心杯装.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/01-杯子样机-带杯贴.jpg"
+      ],
+      "editorialRole": "核心杯装",
+      "decisionReason": "杯贴和杯型共同构成最直接的品牌记忆。",
+      "width": 2800,
+      "height": 1907,
+      "sha256": "a297f828345cdf846a2f76838256cdd40f094236089c4c98149c1148afb91a7c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/03-纸袋包装.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/10-纸袋样机.jpg"
+      ],
+      "editorialRole": "纸袋包装",
+      "decisionReason": "纸袋样机补充包装系统的完成态。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "f04a5ac31aebf44e1ad2a54a3fef0586e73d1a79e23dd6dc213222709ab13317",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 4,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/04-品牌与包装总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-1.jpg"
+      ],
+      "editorialRole": "品牌与包装总览",
+      "decisionReason": "成熟提案页集中展示杯、包装与手提袋。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "c2cdd6d706af01e4881b88c81b1b36fb09da9057f206f48e2eba8075914ffdff",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/05-门店应用总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-3.jpg"
+      ],
+      "editorialRole": "门店应用总览",
+      "decisionReason": "将菜单、立牌和门头纳入同一应用系统。",
+      "width": 1421,
+      "height": 2800,
+      "sha256": "1309ed62b23a998c39fe15c552435dd8e0acd71e9a7ed6ebf0df4ed9063398aa",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/06-菜单应用.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/03-菜单.jpg"
+      ],
+      "editorialRole": "菜单应用",
+      "decisionReason": "菜单样机展示品牌版式在高信息密度触点中的表现。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "940684dbd615bce753a04ac7a7541637b790fca920dbf6caae052dd4755a3e3d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/07-线下海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/06-甲马海报.jpg"
+      ],
+      "editorialRole": "线下海报",
+      "decisionReason": "立牌海报连接品牌基础与传播场景。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "8b96c8748e1310cc76d21fd0a58edfa1a0ecece207dca689b0899c03badf7ab0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/08-线上门店.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/04-大众点评.jpg"
+      ],
+      "editorialRole": "线上门店",
+      "decisionReason": "平台页面完成品牌触点闭环。",
+      "width": 1798,
+      "height": 2800,
+      "sha256": "1cade7e364dcb1b5548ecc6d2bb956dd35b2f610b8f3c11e0f816535e0ca521b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 9,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/09-初春花茶系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报-_画板 1.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--02.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--03.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--04.jpg"
+      ],
+      "editorialRole": "初春花茶系列",
+      "decisionReason": "四张视觉共用同一摄影与书写体系，组合展示比逐张铺陈更完整。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "33df2d3c27a7d94e481ba3d6bfb37a70351f98375a8921c36d521e57084c60c0",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 10,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/10-清雅花材系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--05.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--06.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--07.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--08.jpg"
+      ],
+      "editorialRole": "清雅花材系列",
+      "decisionReason": "同一季节语汇下的四个产品变体合并为一个展示单元。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "eebe74a05935bd3ebd8044382089a5ff953a75ede0e71755aab73c66d541d619",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 11,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/11-暖色花茶系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--09.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--10.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--11.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--12.jpg"
+      ],
+      "editorialRole": "暖色花茶系列",
+      "decisionReason": "暖色组与手持场景形成传播系列的收束。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "ffc4192f32e517772bbe5429d370c77faefc1ae36fb800b3b8e17c705408491f",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/01-品牌主视觉.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG"
+      ],
+      "editorialRole": "品牌主视觉",
+      "decisionReason": "鸡蛋花与泰文字形形成明确的餐饮识别。",
+      "width": 3200,
+      "height": 2194,
+      "sha256": "c0422416473e9cd074c6eda4c03c7c2863076404fd00f68da06738a3b3a56b6c",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/02-平台门店.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG"
+      ],
+      "editorialRole": "平台门店",
+      "decisionReason": "两个手机界面展示线上门店的真实应用。",
+      "width": 1983,
+      "height": 1322,
+      "sha256": "c6fc2c0397c6b08daf387bba735877f94956db7f5599c8cd796dcc043e9f1711",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/03-线上视觉系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG"
+      ],
+      "editorialRole": "线上视觉系统",
+      "decisionReason": "集中说明平台头图、店招与菜品视觉的统一语言。",
+      "width": 2550,
+      "height": 1360,
+      "sha256": "f1d5c30de884894085bc055a6433c76ac19366220702550b86fca9e0efe716ab",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/04-图形语言.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG"
+      ],
+      "editorialRole": "图形语言",
+      "decisionReason": "植物、字形与徽章系统构成品牌的可扩展素材库。",
+      "width": 3200,
+      "height": 2385,
+      "sha256": "6399cc27d56e1a8ec9305aadabe488e82e8bd9e01d274a9436c055ed340884a6",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/05-招聘海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG"
+      ],
+      "editorialRole": "招聘海报",
+      "decisionReason": "纸张与胶带场景保留自然、手作的品牌气质。",
+      "width": 3200,
+      "height": 2134,
+      "sha256": "ddee7c69c1ebe1bd1928803140d4866708660c387648f4c57d4d745a3ac9c664",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/06-产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG"
+      ],
+      "editorialRole": "产品海报",
+      "decisionReason": "深绿色产品海报强化门店传播识别。",
+      "width": 3200,
+      "height": 2134,
+      "sha256": "c309c6252f5f49cfc2b706dd6192f24cd80d3e2ec790a8ffd5471526c0ef47b6",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/07-菜单内页.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG"
+      ],
+      "editorialRole": "菜单内页",
+      "decisionReason": "菜单样机展示高信息密度下的排版秩序。",
+      "width": 3200,
+      "height": 2136,
+      "sha256": "2ea7fb6fa8801486bf22b52399e489b5f14248bf6cef5e68761e0673ef681835",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/08-菜单封面.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG"
+      ],
+      "editorialRole": "菜单封面",
+      "decisionReason": "深绿与芥末黄的封面延续核心配色。",
+      "width": 3200,
+      "height": 2136,
+      "sha256": "39f2b5bf4c6fb22638df0c7fafbd6ce103beaae547fd388f14899e6081df5c81",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/09-鸡蛋花插画.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG"
+      ],
+      "editorialRole": "鸡蛋花插画",
+      "decisionReason": "植物插画是品牌识别的核心叙事素材。",
+      "width": 1992,
+      "height": 2434,
+      "sha256": "a065e1c513156954801adeeec3acb26d4cb2eab4356b9a4154e44ffaba6c166a",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/10-热带植物插画.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG"
+      ],
+      "editorialRole": "热带植物插画",
+      "decisionReason": "以不同植物补全泰北风味的视觉语汇。",
+      "width": 1992,
+      "height": 2434,
+      "sha256": "e1d138dc6bcf8108e382a2054879b0a72ad61fc219e70ee030a443b3e94f97ff",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "real-photo",
+      "finalAsset": "final-assets/wenningji/01-品牌主视觉.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/IMG_1609.JPG"
+      ],
+      "editorialRole": "品牌主视觉",
+      "decisionReason": "真实近景完整呈现核心标签、插画与产品名称。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "769b72810c3e8070dc73f6788c287f8e8fbdeb1e19809d943346b1209d4a8c59",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/02-开业产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/产品海报1.jpg"
+      ],
+      "editorialRole": "开业产品海报",
+      "decisionReason": "人物手持场景兼具产品信息与小尺寸辨识度。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "cc1ca49932e66cf6a06009bd34f764949bc972e2514d5bca083e71d7628c8da2",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/03-主打产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/海报2.jpg"
+      ],
+      "editorialRole": "主打产品海报",
+      "decisionReason": "户外灯箱场景强化核心产品的传播尺度。",
+      "width": 1920,
+      "height": 1213,
+      "sha256": "90683dc23f8f7a07c62f0c8563dad77c70ea297b7af6d9a748942bc40c034061",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/04-杯贴系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/5个杯贴.jpg"
+      ],
+      "editorialRole": "杯贴系列",
+      "decisionReason": "五款杯贴体现同一品牌系统中的产品变体。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "055b6d295e6fefcfe9528646f199be94f9a1e60089c2c45048e77b94344ae4e6",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/05-视觉元素系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/提案_画板 1.jpg"
+      ],
+      "editorialRole": "视觉元素系统",
+      "decisionReason": "插画、徽章与文字组合清楚说明品牌资产。",
+      "width": 3200,
+      "height": 2263,
+      "sha256": "cb682c936aedfd2d69fa5be4db4234ddb038a21521b9a36246dc9bdc5b7c6f9b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/06-应用版式系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/提案_画板 1 副本.jpg"
+      ],
+      "editorialRole": "应用版式系统",
+      "decisionReason": "集中展示线上横幅、标志和辅助图形。",
+      "width": 3200,
+      "height": 2263,
+      "sha256": "70bf6e6782cfbc6b3ec31352eb04118267408223052d897a522576632642d5ca",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "composite",
+      "finalAsset": "composites/wenningji/07-菜单系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/菜单展示1.jpg",
+        "/Users/chim/Downloads/文柠记/提案/菜单展示2.jpg",
+        "/Users/chim/Downloads/文柠记/提案/菜单展示3.jpg"
+      ],
+      "editorialRole": "菜单系统",
+      "decisionReason": "三页菜单属于一个连续应用，组合后保留阅读节奏并避免重复占页。",
+      "width": 2424,
+      "height": 1824,
+      "sha256": "c90f45e9f46b81e2a032adf629f9542b8bf2a312ce0838a33c29182be84e9e3c",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "composite",
+      "finalAsset": "composites/wenningji/08-线上门店与开业触点.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/大众点评.jpg",
+        "/Users/chim/Downloads/文柠记/提案/美团.jpg",
+        "/Users/chim/Downloads/文柠记/提案/开业邀请函.jpg"
+      ],
+      "editorialRole": "线上门店与开业触点",
+      "decisionReason": "平台与邀请函共享同一识别系统，作为一个线上传播单元呈现。",
+      "width": 2748,
+      "height": 700,
+      "sha256": "ed6a1d73dcfe67314cc809670a34637d0fe81469c7bc7d969f8ff1fe09e145c5",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/09-外带包装.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/打包贴纸.jpg"
+      ],
+      "editorialRole": "外带包装",
+      "decisionReason": "牛皮纸袋与封贴补全包装触点。",
+      "width": 3200,
+      "height": 2133,
+      "sha256": "a71b6087db51e643f66681f4465bd670f21982968935c422008dc76ec1253075",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "real-photo",
+      "finalAsset": "final-assets/wenningji/10-门店招聘物料.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/招聘海报.jpg"
+      ],
+      "editorialRole": "门店招聘物料",
+      "decisionReason": "真实门店环境为案例提供落地收束。",
+      "width": 3200,
+      "height": 2239,
+      "sha256": "44372905f3d09ea8df5b9cbbe05d33bea49f896ca1aa211242f0373179d031c0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/01-首轮产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_海报-1.jpg"
+      ],
+      "editorialRole": "首轮产品海报",
+      "decisionReason": "六款热可可与品牌肖像形成明确发布开场。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "29d2b4b92645e1182ae65e6bf85b9188795f27857b82a6fbff0d493126ef0995",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 2,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/02-新品预告.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241016-大胡子可可-热饮6款-预告海报.jpg"
+      ],
+      "editorialRole": "新品预告",
+      "decisionReason": "航海帽肖像与地图背景建立首轮叙事。",
+      "width": 2133,
+      "height": 3200,
+      "sha256": "3600ea1fecafd3b191581d459f30580fc24727ca18e20c6f1de6cb5963d91e0c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/03-六款产品总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-13.jpg"
+      ],
+      "editorialRole": "六款产品总览",
+      "decisionReason": "纵向画板完整呈现首轮产品阵容。",
+      "width": 1867,
+      "height": 2800,
+      "sha256": "1e2abc194298e727e151ad513a4d2e6acc6c7b6928d142bb8579cfc0a52ab3c4",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 4,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-winter/04-首轮产品肖像.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-07.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-08.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-09.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-10.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-11.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/01-241014-大胡子可可-热饮6款-改1-12.jpg"
+      ],
+      "editorialRole": "首轮产品肖像",
+      "decisionReason": "六款产品使用一致肖像结构，合并为完整 SKU 系列。",
+      "width": 2748,
+      "height": 1824,
+      "sha256": "0a34c1cae879354aa1df10b6290c2deb347e100c94157034d48c82aa91f9ea02",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "热可可启航",
+      "chapterDescription": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。",
+      "order": 5,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-winter/05-首轮平台头图.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg",
+        "/Users/chim/Downloads/大胡子可可/241014-大胡子可可-热饮6款/241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg"
+      ],
+      "editorialRole": "首轮平台头图",
+      "decisionReason": "五张连续平台头图属于同一传播单元。",
+      "width": 2748,
+      "height": 1424,
+      "sha256": "b6989cf96732191887dfd80b9e584b3029eeb1ac22d0794a413fb5bb104a8bd2",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/06-第二轮预告.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_预告海报.jpg"
+      ],
+      "editorialRole": "第二轮预告",
+      "decisionReason": "复古航海肖像明确区分第二次发布。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "9f5dfcad087c768a6cb41807aa64d46d8f22665a22625fe89cacef358ae522f3",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 7,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/07-第二轮产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款_产品海报.jpg"
+      ],
+      "editorialRole": "第二轮产品海报",
+      "decisionReason": "两款产品在同一复古地图体系中集中发布。",
+      "width": 2000,
+      "height": 3000,
+      "sha256": "fc947c9164dc62dc5b1093099230808c001d9330455eb7145136bfcb03619882",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 8,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/08-第二轮产品一.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-1.jpg"
+      ],
+      "editorialRole": "第二轮产品一",
+      "decisionReason": "保留单品肖像以说明杯身与风味变化。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "5d6522ef5ffb2187f9b01f7696a3b7ccb4eab580808765b09da88ef7823e248d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "可可航海系列",
+      "chapterDescription": "以复古地图与探险家肖像扩展第二轮热饮风味。",
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/09-第二轮产品二.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-winter/ai/02-241024-大胡子可可-热饮2款-2.jpg"
+      ],
+      "editorialRole": "第二轮产品二",
+      "decisionReason": "与前一画面组成连续双品展示。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "a5df6319f55f30a334f2079b516ffaf738db0bd91c3043dfef73e0b5a87e4e7f",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 10,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/10-阶段主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-04.jpg"
+      ],
+      "editorialRole": "阶段主视觉",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1001,
+      "height": 1000,
+      "sha256": "aca20d9abc291bbbb53d676c00ed51df3afc46f177232df29c54b0eb434dd8fd",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 11,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/11-棉花糖可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-01.jpg"
+      ],
+      "editorialRole": "棉花糖可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "acf36e9e860bc1d96377031032b13b06f3ba184ee40a9ae880d54ec7fbc6e1a8",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 12,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/12-桂花乌龙可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-02.jpg"
+      ],
+      "editorialRole": "桂花乌龙可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "4b2f6215246a74e4e562fbd3aa6bd24e7e728df1ebb99354f3db1cd8922ac256",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 13,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/13-玫瑰红茶可可.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-03.jpg"
+      ],
+      "editorialRole": "玫瑰红茶可可",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 1201,
+      "height": 901,
+      "sha256": "3734f0eb4fd30615d045c151e97066e9076422df7ba398adb480c12c6f83a7b5",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 14,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/14-茶香双品海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-05.jpg"
+      ],
+      "editorialRole": "茶香双品海报",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 2000,
+      "height": 3001,
+      "sha256": "9796ce5aced18bd6001e7713a7f50be72e7a21f45b06566677adf4e590d4469d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 · 冬季热饮新品系列",
+      "caseKey": "mustache-cocoa-winter",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "茶香与香蕉延展",
+      "chapterDescription": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。",
+      "order": 15,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-winter/15-香蕉棉花糖可可海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/cropped/mustache-cocoa-winter/241105/crop-06.jpg"
+      ],
+      "editorialRole": "香蕉棉花糖可可海报",
+      "decisionReason": "来自 241105 合并大图中明确画板边界的独立成品。",
+      "width": 2000,
+      "height": 3001,
+      "sha256": "20f698bb42de13f766b8b302d6e6f6e2a112f9662ab23c8efc076b377a0d39c1",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/01-圣诞角色主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-01.jpg"
+      ],
+      "editorialRole": "圣诞角色主视觉",
+      "decisionReason": "人物肖像与圣诞角色化处理形成联名核心记忆。",
+      "width": 2800,
+      "height": 2800,
+      "sha256": "94fc57b2351bb37ce43539f3f53b58299f9385d10b17168a0dcea2c1d1d8d2cf",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 2,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/02-圣诞标题画面.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-02.jpg"
+      ],
+      "editorialRole": "圣诞标题画面",
+      "decisionReason": "标题画面清楚建立第一波节日叙事。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "8b859f1ff7755996b750a956f0dc9b62fb8540d388228889e76d7badd409871a",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/03-联名产品横幅.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-08.jpg"
+      ],
+      "editorialRole": "联名产品横幅",
+      "decisionReason": "三款产品与联名角色同框，适合作为详情页 Hero。",
+      "width": 2800,
+      "height": 934,
+      "sha256": "b558cf1eeb64afe6728644577ccb684c3f1e182b01560dbe341bff898a6f1127",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 4,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-tatan/04-圣诞联名产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg"
+      ],
+      "editorialRole": "圣诞联名产品",
+      "decisionReason": "三款杯装在同一视觉模板中，组合为一个产品系统展示。",
+      "width": 2748,
+      "height": 900,
+      "sha256": "a557b9f94b485a4de0ca6606a506be6387352d63b342a9ad0498d0b84762169d",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 5,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/05-圣诞角色与产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-13.jpg"
+      ],
+      "editorialRole": "圣诞角色与产品",
+      "decisionReason": "角色和单品同框形成更亲近的传播画面。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "5d497ae1294d18150625d6346918d99ab6cbc8742d8b40633f9b0c6e51df248f",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "小胖当家 · 圣诞来袭",
+      "chapterDescription": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。",
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/06-圣诞竖版海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/01-241201-大胡子可可-tatan联名-圣诞-线上-28.jpg"
+      ],
+      "editorialRole": "圣诞竖版海报",
+      "decisionReason": "竖版海报整合人物、产品与活动标题。",
+      "width": 2100,
+      "height": 2800,
+      "sha256": "51a39b5c0a7ff2e71da3eb0ec448d41ca421eb2358884da3a7d9952f9f88bf5e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 7,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/07-新年角色主视觉.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-01.jpg"
+      ],
+      "editorialRole": "新年角色主视觉",
+      "decisionReason": "草莓角色造型开启第二阶段。",
+      "width": 2800,
+      "height": 2800,
+      "sha256": "6a11b8ae93ecad99fdef6b9af69ea033aa0b6f832ba68306675b98979cb38acc",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 8,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/08-新年标题画面.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-02.jpg"
+      ],
+      "editorialRole": "新年标题画面",
+      "decisionReason": "暖红色与标题建立新年阶段的独立语气。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "d4deffd4ee3c54b7646a7ff4c3de827f1119b64563ad030cd0f2fb67c8f7440e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/09-新年传播横幅.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-08.jpg"
+      ],
+      "editorialRole": "新年传播横幅",
+      "decisionReason": "角色与标题在横向平台触点中保持一致。",
+      "width": 2800,
+      "height": 934,
+      "sha256": "deda5edf48da95e578a114372fbfebe4812bbb8bd352ee3a80d7ac43b3c98453",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 10,
+      "type": "composite",
+      "finalAsset": "composites/mustache-cocoa-tatan/10-新年联名产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-05.jpg",
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-06.jpg"
+      ],
+      "editorialRole": "新年联名产品",
+      "decisionReason": "两款新品属于同一阶段的产品组合。",
+      "width": 2424,
+      "height": 1000,
+      "sha256": "75e7a0d0a058d66cff5fe6de7f57315ebd46e7b031d7acb22cb651112ff83259",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 11,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/11-新年角色与产品.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-13.jpg"
+      ],
+      "editorialRole": "新年角色与产品",
+      "decisionReason": "角色、草莓与杯装共同说明新年口味延展。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "09aa4cb081497d20ad069a62684cbf0673c074597694aa0761ce17c9e01ef0a0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "大胡子可可 × TATAN · 联名系列",
+      "caseKey": "mustache-cocoa-tatan",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "冬日约定 · 莓好圣诞",
+      "chapterDescription": "以草莓角色和暖红色系延展新年阶段的联名传播。",
+      "order": 12,
+      "type": "artwork",
+      "finalAsset": "final-assets/mustache-cocoa-tatan/12-新年竖版海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/mustache-cocoa-tatan/ai/04-241201-大胡子可可-tatan联名-新年-线上-28.jpg"
+      ],
+      "editorialRole": "新年竖版海报",
+      "decisionReason": "完整竖版物料收束第二阶段。",
+      "width": 2100,
+      "height": 2800,
+      "sha256": "ef40f284cb434f19c2f04bd99504b2f5d8b62c11082bd4c4f81334ba1d7fb28c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    }
+  ],
+  "skipped": [
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷.ai",
+      "reason": "含生产尺寸、刀线或印刷版面；线上画板已有等价干净视觉，因此不将生产画板用于作品集。"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-印刷后加.ai",
+      "reason": "含生产尺寸、刀线或印刷版面；线上画板已有等价干净视觉，因此不将生产画板用于作品集。"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷.ai",
+      "reason": "含生产尺寸、刀线或印刷版面；线上画板已有等价干净视觉，因此不将生产画板用于作品集。"
+    },
+    {
+      "source": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-印刷后加.ai",
+      "reason": "含生产尺寸、刀线或印刷版面；线上画板已有等价干净视觉，因此不将生产画板用于作品集。"
+    }
+  ]
+}

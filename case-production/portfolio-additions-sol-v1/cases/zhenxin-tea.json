@@ -1,0 +1,258 @@
+{
+  "case": "真心茶事 · 品牌视觉",
+  "siteName": "真心茶事 · 品牌视觉",
+  "caseKey": "zhenxin-tea",
+  "caseAction": "create",
+  "existingCaseId": null,
+  "id": "N022",
+  "categories": [
+    "drinks"
+  ],
+  "primaryIndustry": "中式茶饮",
+  "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。",
+  "coverOrder": 2,
+  "heroOrder": 1,
+  "chapterCount": 2,
+  "chapters": [
+    {
+      "title": "真心制茶",
+      "description": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。"
+    },
+    {
+      "title": "花与茶的四季叙事",
+      "description": "以花材、器物与产品组合发展连续的季节传播系列。"
+    }
+  ],
+  "finalImageCount": 11,
+  "items": [
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 1,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/01-门店开场.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/05-灯箱-门头2展示.jpg"
+      ],
+      "editorialRole": "门店开场",
+      "decisionReason": "简洁门头完整呈现品牌在空间中的尺度。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "c7485b66f95b41c22f8fdf883e88d5f6bb3011f55fdc48b3863f28f3ccfff45e",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/02-核心杯装.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/01-杯子样机-带杯贴.jpg"
+      ],
+      "editorialRole": "核心杯装",
+      "decisionReason": "杯贴和杯型共同构成最直接的品牌记忆。",
+      "width": 2800,
+      "height": 1907,
+      "sha256": "a297f828345cdf846a2f76838256cdd40f094236089c4c98149c1148afb91a7c",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/03-纸袋包装.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/10-纸袋样机.jpg"
+      ],
+      "editorialRole": "纸袋包装",
+      "decisionReason": "纸袋样机补充包装系统的完成态。",
+      "width": 2800,
+      "height": 1866,
+      "sha256": "f04a5ac31aebf44e1ad2a54a3fef0586e73d1a79e23dd6dc213222709ab13317",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 4,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/04-品牌与包装总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-1.jpg"
+      ],
+      "editorialRole": "品牌与包装总览",
+      "decisionReason": "成熟提案页集中展示杯、包装与手提袋。",
+      "width": 1980,
+      "height": 2800,
+      "sha256": "c2cdd6d706af01e4881b88c81b1b36fb09da9057f206f48e2eba8075914ffdff",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/05-门店应用总览.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered/zhenxin-tea/pdf/01-真心茶事-提案-3.jpg"
+      ],
+      "editorialRole": "门店应用总览",
+      "decisionReason": "将菜单、立牌和门头纳入同一应用系统。",
+      "width": 1421,
+      "height": 2800,
+      "sha256": "1309ed62b23a998c39fe15c552435dd8e0acd71e9a7ed6ebf0df4ed9063398aa",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/06-菜单应用.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/03-菜单.jpg"
+      ],
+      "editorialRole": "菜单应用",
+      "decisionReason": "菜单样机展示品牌版式在高信息密度触点中的表现。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "940684dbd615bce753a04ac7a7541637b790fca920dbf6caae052dd4755a3e3d",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/07-线下海报.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/06-甲马海报.jpg"
+      ],
+      "editorialRole": "线下海报",
+      "decisionReason": "立牌海报连接品牌基础与传播场景。",
+      "width": 2800,
+      "height": 2100,
+      "sha256": "8b96c8748e1310cc76d21fd0a58edfa1a0ecece207dca689b0899c03badf7ab0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "真心制茶",
+      "chapterDescription": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。",
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/zhenxin-tea/08-线上门店.jpg",
+      "sources": [
+        "/Users/chim/Codex开发项目/案例展示网站/case-production/portfolio-additions-sol-v1/rendered-photoshop/zhenxin-tea/psd/04-大众点评.jpg"
+      ],
+      "editorialRole": "线上门店",
+      "decisionReason": "平台页面完成品牌触点闭环。",
+      "width": 1798,
+      "height": 2800,
+      "sha256": "1cade7e364dcb1b5548ecc6d2bb956dd35b2f610b8f3c11e0f816535e0ca521b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 9,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/09-初春花茶系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报-_画板 1.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--02.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--03.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--04.jpg"
+      ],
+      "editorialRole": "初春花茶系列",
+      "decisionReason": "四张视觉共用同一摄影与书写体系，组合展示比逐张铺陈更完整。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "33df2d3c27a7d94e481ba3d6bfb37a70351f98375a8921c36d521e57084c60c0",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 10,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/10-清雅花材系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--05.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--06.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--07.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--08.jpg"
+      ],
+      "editorialRole": "清雅花材系列",
+      "decisionReason": "同一季节语汇下的四个产品变体合并为一个展示单元。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "eebe74a05935bd3ebd8044382089a5ff953a75ede0e71755aab73c66d541d619",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "真心茶事 · 品牌视觉",
+      "caseKey": "zhenxin-tea",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": "花与茶的四季叙事",
+      "chapterDescription": "以花材、器物与产品组合发展连续的季节传播系列。",
+      "order": 11,
+      "type": "composite",
+      "finalAsset": "composites/zhenxin-tea/11-暖色花茶系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--09.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--10.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--11.jpg",
+        "/Users/chim/Downloads/真心茶事/电视机海报12张/231117-真心茶事-电视机海报--12.jpg"
+      ],
+      "editorialRole": "暖色花茶系列",
+      "decisionReason": "暖色组与手持场景形成传播系列的收束。",
+      "width": 2024,
+      "height": 2824,
+      "sha256": "ffc4192f32e517772bbe5429d370c77faefc1ae36fb800b3b8e17c705408491f",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    }
+  ]
+}

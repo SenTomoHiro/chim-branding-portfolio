@@ -1,0 +1,224 @@
+{
+  "case": "文柠记 · 品牌视觉",
+  "siteName": "文柠记",
+  "caseKey": "wenningji",
+  "caseAction": "update",
+  "existingCaseId": "L012",
+  "id": "L012",
+  "categories": [
+    "drinks"
+  ],
+  "primaryIndustry": "柠檬茶",
+  "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。",
+  "coverOrder": 2,
+  "heroOrder": 1,
+  "chapterCount": 0,
+  "chapters": [],
+  "finalImageCount": 10,
+  "items": [
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "real-photo",
+      "finalAsset": "final-assets/wenningji/01-品牌主视觉.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/IMG_1609.JPG"
+      ],
+      "editorialRole": "品牌主视觉",
+      "decisionReason": "真实近景完整呈现核心标签、插画与产品名称。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "769b72810c3e8070dc73f6788c287f8e8fbdeb1e19809d943346b1209d4a8c59",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/02-开业产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/产品海报1.jpg"
+      ],
+      "editorialRole": "开业产品海报",
+      "decisionReason": "人物手持场景兼具产品信息与小尺寸辨识度。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "cc1ca49932e66cf6a06009bd34f764949bc972e2514d5bca083e71d7628c8da2",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/03-主打产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/海报2.jpg"
+      ],
+      "editorialRole": "主打产品海报",
+      "decisionReason": "户外灯箱场景强化核心产品的传播尺度。",
+      "width": 1920,
+      "height": 1213,
+      "sha256": "90683dc23f8f7a07c62f0c8563dad77c70ea297b7af6d9a748942bc40c034061",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/04-杯贴系列.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/5个杯贴.jpg"
+      ],
+      "editorialRole": "杯贴系列",
+      "decisionReason": "五款杯贴体现同一品牌系统中的产品变体。",
+      "width": 3200,
+      "height": 2400,
+      "sha256": "055b6d295e6fefcfe9528646f199be94f9a1e60089c2c45048e77b94344ae4e6",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/05-视觉元素系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/提案_画板 1.jpg"
+      ],
+      "editorialRole": "视觉元素系统",
+      "decisionReason": "插画、徽章与文字组合清楚说明品牌资产。",
+      "width": 3200,
+      "height": 2263,
+      "sha256": "cb682c936aedfd2d69fa5be4db4234ddb038a21521b9a36246dc9bdc5b7c6f9b",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "artwork",
+      "finalAsset": "final-assets/wenningji/06-应用版式系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/提案_画板 1 副本.jpg"
+      ],
+      "editorialRole": "应用版式系统",
+      "decisionReason": "集中展示线上横幅、标志和辅助图形。",
+      "width": 3200,
+      "height": 2263,
+      "sha256": "70bf6e6782cfbc6b3ec31352eb04118267408223052d897a522576632642d5ca",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "composite",
+      "finalAsset": "composites/wenningji/07-菜单系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/菜单展示1.jpg",
+        "/Users/chim/Downloads/文柠记/提案/菜单展示2.jpg",
+        "/Users/chim/Downloads/文柠记/提案/菜单展示3.jpg"
+      ],
+      "editorialRole": "菜单系统",
+      "decisionReason": "三页菜单属于一个连续应用，组合后保留阅读节奏并避免重复占页。",
+      "width": 2424,
+      "height": 1824,
+      "sha256": "c90f45e9f46b81e2a032adf629f9542b8bf2a312ce0838a33c29182be84e9e3c",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "composite",
+      "finalAsset": "composites/wenningji/08-线上门店与开业触点.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/大众点评.jpg",
+        "/Users/chim/Downloads/文柠记/提案/美团.jpg",
+        "/Users/chim/Downloads/文柠记/提案/开业邀请函.jpg"
+      ],
+      "editorialRole": "线上门店与开业触点",
+      "decisionReason": "平台与邀请函共享同一识别系统，作为一个线上传播单元呈现。",
+      "width": 2748,
+      "height": 700,
+      "sha256": "ed6a1d73dcfe67314cc809670a34637d0fe81469c7bc7d969f8ff1fe09e145c5",
+      "productionMethod": "deterministic editorial composite; no generated pixels"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "mockup",
+      "finalAsset": "final-assets/wenningji/09-外带包装.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/打包贴纸.jpg"
+      ],
+      "editorialRole": "外带包装",
+      "decisionReason": "牛皮纸袋与封贴补全包装触点。",
+      "width": 3200,
+      "height": 2133,
+      "sha256": "a71b6087db51e643f66681f4465bd670f21982968935c422008dc76ec1253075",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "文柠记 · 品牌视觉",
+      "caseKey": "wenningji",
+      "caseAction": "update",
+      "existingCaseId": "L012",
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "real-photo",
+      "finalAsset": "final-assets/wenningji/10-门店招聘物料.jpg",
+      "sources": [
+        "/Users/chim/Downloads/文柠记/提案/招聘海报.jpg"
+      ],
+      "editorialRole": "门店招聘物料",
+      "decisionReason": "真实门店环境为案例提供落地收束。",
+      "width": 3200,
+      "height": 2239,
+      "sha256": "44372905f3d09ea8df5b9cbbe05d33bea49f896ca1aa211242f0373179d031c0",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    }
+  ]
+}

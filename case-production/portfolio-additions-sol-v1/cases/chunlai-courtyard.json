@@ -1,0 +1,220 @@
+{
+  "case": "春莱小院 · 品牌视觉",
+  "siteName": "春莱小院 · 品牌视觉",
+  "caseKey": "chunlai-courtyard",
+  "caseAction": "create",
+  "existingCaseId": null,
+  "id": "N023",
+  "categories": [
+    "food"
+  ],
+  "primaryIndustry": "泰式餐饮",
+  "intro": "以热带植物插画、泰中双语字形与深绿、赭红色系构建泰北餐饮品牌，并延展菜单与平台视觉。",
+  "coverOrder": 4,
+  "heroOrder": 1,
+  "chapterCount": 0,
+  "chapters": [],
+  "finalImageCount": 10,
+  "items": [
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 1,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/01-品牌主视觉.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3136.JPG"
+      ],
+      "editorialRole": "品牌主视觉",
+      "decisionReason": "鸡蛋花与泰文字形形成明确的餐饮识别。",
+      "width": 3200,
+      "height": 2194,
+      "sha256": "c0422416473e9cd074c6eda4c03c7c2863076404fd00f68da06738a3b3a56b6c",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 2,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/02-平台门店.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3137.JPG"
+      ],
+      "editorialRole": "平台门店",
+      "decisionReason": "两个手机界面展示线上门店的真实应用。",
+      "width": 1983,
+      "height": 1322,
+      "sha256": "c6fc2c0397c6b08daf387bba735877f94956db7f5599c8cd796dcc043e9f1711",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 3,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/03-线上视觉系统.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3138.JPG"
+      ],
+      "editorialRole": "线上视觉系统",
+      "decisionReason": "集中说明平台头图、店招与菜品视觉的统一语言。",
+      "width": 2550,
+      "height": 1360,
+      "sha256": "f1d5c30de884894085bc055a6433c76ac19366220702550b86fca9e0efe716ab",
+      "productionMethod": "source-preserving deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 4,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/04-图形语言.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3139.JPG"
+      ],
+      "editorialRole": "图形语言",
+      "decisionReason": "植物、字形与徽章系统构成品牌的可扩展素材库。",
+      "width": 3200,
+      "height": 2385,
+      "sha256": "6399cc27d56e1a8ec9305aadabe488e82e8bd9e01d274a9436c055ed340884a6",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 5,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/05-招聘海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3140.JPG"
+      ],
+      "editorialRole": "招聘海报",
+      "decisionReason": "纸张与胶带场景保留自然、手作的品牌气质。",
+      "width": 3200,
+      "height": 2134,
+      "sha256": "ddee7c69c1ebe1bd1928803140d4866708660c387648f4c57d4d745a3ac9c664",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 6,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/06-产品海报.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3141.JPG"
+      ],
+      "editorialRole": "产品海报",
+      "decisionReason": "深绿色产品海报强化门店传播识别。",
+      "width": 3200,
+      "height": 2134,
+      "sha256": "c309c6252f5f49cfc2b706dd6192f24cd80d3e2ec790a8ffd5471526c0ef47b6",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 7,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/07-菜单内页.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3142.JPG"
+      ],
+      "editorialRole": "菜单内页",
+      "decisionReason": "菜单样机展示高信息密度下的排版秩序。",
+      "width": 3200,
+      "height": 2136,
+      "sha256": "2ea7fb6fa8801486bf22b52399e489b5f14248bf6cef5e68761e0673ef681835",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 8,
+      "type": "mockup",
+      "finalAsset": "final-assets/chunlai-courtyard/08-菜单封面.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3143.JPG"
+      ],
+      "editorialRole": "菜单封面",
+      "decisionReason": "深绿与芥末黄的封面延续核心配色。",
+      "width": 3200,
+      "height": 2136,
+      "sha256": "39f2b5bf4c6fb22638df0c7fafbd6ce103beaae547fd388f14899e6081df5c81",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 9,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/09-鸡蛋花插画.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3144.JPG"
+      ],
+      "editorialRole": "鸡蛋花插画",
+      "decisionReason": "植物插画是品牌识别的核心叙事素材。",
+      "width": 1992,
+      "height": 2434,
+      "sha256": "a065e1c513156954801adeeec3acb26d4cb2eab4356b9a4154e44ffaba6c166a",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    },
+    {
+      "case": "春莱小院 · 品牌视觉",
+      "caseKey": "chunlai-courtyard",
+      "caseAction": "create",
+      "existingCaseId": null,
+      "chapter": null,
+      "chapterDescription": null,
+      "order": 10,
+      "type": "artwork",
+      "finalAsset": "final-assets/chunlai-courtyard/10-热带植物插画.jpg",
+      "sources": [
+        "/Users/chim/Downloads/春莱小院/提案/IMG_3145.JPG"
+      ],
+      "editorialRole": "热带植物插画",
+      "decisionReason": "以不同植物补全泰北风味的视觉语汇。",
+      "width": 1992,
+      "height": 2434,
+      "sha256": "e1d138dc6bcf8108e382a2054879b0a72ad61fc219e70ee030a443b3e94f97ff",
+      "productionMethod": "source-preserving crop of Preview chrome and deterministic JPEG export"
+    }
+  ]
+}

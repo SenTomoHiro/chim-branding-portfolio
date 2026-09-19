@@ -22,8 +22,8 @@ describe("portfolio taxonomy", () => {
     expect(formatCaseMetadata({ business: "photography", categories: [], primaryIndustry: "茶饮" })).toBe("商业摄影 · 茶饮");
   });
 
-  it("keeps 35 published Branding and 17 published Photography cases", () => {
-    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(35);
+  it("keeps 40 published Branding and 17 published Photography cases", () => {
+    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(40);
     expect(getPublishedCases(content.cases, content, { business: "photography" })).toHaveLength(17);
   });
 
