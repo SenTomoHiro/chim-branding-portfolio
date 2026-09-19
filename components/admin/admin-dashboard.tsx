@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { formatCaseMetadata } from "@/lib/taxonomy";
 import { assetPath } from "@/lib/site-path";
 import { getBrandingCases, getPhotographyCases } from "@/lib/sort-cases";
@@ -22,13 +22,15 @@ function OrderSection({ title, description, type, cases, order, onOrder, onToggl
 }
 
 export function AdminDashboard({ initial, persistence = localPersistence }: { initial: ContentData; persistence?: AdminPersistence }) {
+  const pageRef = useRef<HTMLElement>(null); const titleRef = useRef<HTMLElement>(null);
   const [data, setData] = useState(initial);
   const [brandingOrder, setBrandingOrder] = useState(initial.defaultOrder);
   const [photoOrder, setPhotoOrder] = useState(initial.photographyCaseOrder);
   const brandingCases = getBrandingCases(data.cases);
   const photographyCases = getPhotographyCases(data.cases);
+  useEffect(() => { const page = pageRef.current; const title = titleRef.current; if (!page || !title) return; const update = () => page.style.setProperty("--admin-title-height", `${title.getBoundingClientRect().height}px`); update(); const observer = new ResizeObserver(update); observer.observe(title); return () => observer.disconnect(); }, []);
   async function toggle(item: PortfolioCase) { try { await persistence.saveCase({ ...item, published: !item.published }, true); setData({ ...data, cases: data.cases.map((entry) => entry.id === item.id ? { ...entry, published: !entry.published } : entry) }); } catch {} }
   async function remove(item: PortfolioCase) { if (!confirm(`确认删除“${item.name}”？媒体文件将保留。`)) return; try { await persistence.deleteCase(item); setData({ ...data, cases: data.cases.filter((entry) => entry.id !== item.id) }); setBrandingOrder(brandingOrder.filter((id) => id !== item.id)); setPhotoOrder(photoOrder.filter((id) => id !== item.id)); } catch {} }
   useEffect(() => { const context = (document as Document & { modelContext?: { registerTool: (tool: unknown, options: { signal: AbortSignal }) => void | Promise<void> } }).modelContext; if (!context?.registerTool) return; const lifecycle = new AbortController(); void Promise.resolve(context.registerTool({ name: "list_portfolio_cases", title: "列出案例", description: "读取后台中的案例名称、发布状态与分类。", inputSchema: { type: "object", properties: {}, additionalProperties: false }, annotations: { readOnlyHint: true, untrustedContentHint: false }, execute: () => ({ cases: data.cases.map(({ id, name, published, business, categories }) => ({ id, name, published, business, categories })) }) }, { signal: lifecycle.signal })).catch(() => {}); return () => lifecycle.abort(); }, [data.cases]);
-  return <main className="adminPage"><section className="adminTitle"><div><p>Content / Cases</p><h1>案例管理</h1></div><Link className="primaryButton" href="/admin/cases/new">新建案例</Link></section><OrderSection title="Branding 默认排序" description="Branding 首页及其分类筛选共用这一顺序。" type="branding" cases={brandingCases} order={brandingOrder} onOrder={setBrandingOrder} onToggle={toggle} onRemove={remove} persistence={persistence} /><OrderSection title="Photography 默认排序" description="商业摄影页面 /photo 的正式顺序。" type="photography" cases={photographyCases} order={photoOrder} onOrder={setPhotoOrder} onToggle={toggle} onRemove={remove} persistence={persistence} /></main>;
+  return <main className="adminPage" ref={pageRef}><section className="adminTitle" ref={titleRef}><div><p>Content / Cases</p><h1>案例管理</h1></div><Link className="primaryButton" href="/admin/cases/new">新建案例</Link></section><OrderSection title="Branding 默认排序" description="Branding 首页及其分类筛选共用这一顺序。" type="branding" cases={brandingCases} order={brandingOrder} onOrder={setBrandingOrder} onToggle={toggle} onRemove={remove} persistence={persistence} /><OrderSection title="Photography 默认排序" description="商业摄影页面 /photo 的正式顺序。" type="photography" cases={photographyCases} order={photoOrder} onOrder={setPhotoOrder} onToggle={toggle} onRemove={remove} persistence={persistence} /></main>;
 }

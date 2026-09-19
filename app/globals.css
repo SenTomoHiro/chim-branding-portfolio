@@ -79,9 +79,11 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .formError { color:#d9362b; font-size:.85rem; }
 .adminPage,.caseEditor { max-width:1320px; margin:auto; padding:clamp(32px,6vw,90px) clamp(16px,4vw,56px); }
 .adminTitle,.editorHeading,.sectionHeading { display:flex; justify-content:space-between; align-items:flex-end; gap:20px; }
-.adminTitle { position:sticky; top:0; z-index:4; padding:20px 0; background:#f2f2f2; border-bottom:1px solid #bbb; }
+.adminTitle { position:sticky; top:0; z-index:5; padding:20px 0; background:#f2f2f2; border-bottom:1px solid #bbb; }
 .editorHeading { position:sticky; top:0; z-index:4; padding:18px 0; background:#f2f2f2; border-bottom:1px solid #bbb; }
-.adminSection .sectionHeading { position:sticky; top:128px; z-index:3; padding:18px 0; background:#f2f2f2; }
+.adminSection .sectionHeading { position:sticky; top:var(--admin-title-height, 0px); z-index:4; box-sizing:border-box; padding:18px 0; background:#f2f2f2; border-bottom:1px solid #bbb; isolation:isolate; }
+.adminSection .sectionHeading>div:last-child { flex-wrap:wrap; justify-content:flex-end; }
+.adminSection .adminCaseList { position:relative; z-index:0; }
 .adminTitle h1,.editorHeading h1 { margin:8px 0 0; font-size:clamp(3rem,7vw,6.5rem); line-height:.85; letter-spacing:-.065em; }
 .adminSection,.formSection { margin-top:72px; }
 .sectionHeading { padding-bottom:18px; border-bottom:1px solid #bbb; }
@@ -176,7 +178,8 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .adminTitle,.editorHeading { align-items:flex-start; }
   .adminTitle,.editorHeading { position:sticky; top:0; padding:14px 0; }
   .adminTitle { flex-wrap:wrap; }
-  .adminSection .sectionHeading { top:106px; align-items:flex-start; flex-wrap:wrap; }
+  .adminSection .sectionHeading { top:var(--admin-title-height, 0px); align-items:flex-start; flex-wrap:wrap; }
+  .adminSection .sectionHeading>div:last-child { justify-content:flex-start; }
   .editorHeading { flex-wrap:wrap; }
   .adminTitle h1,.editorHeading h1 { font-size:3.2rem; }
   .adminCaseList article { grid-template-columns:20px 72px 1fr auto; gap:10px; padding:12px 0; }
