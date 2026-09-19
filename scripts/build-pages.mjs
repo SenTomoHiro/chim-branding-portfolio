@@ -26,6 +26,8 @@ try {
     cp(path.join(root, "tsconfig.json"), path.join(staging, "tsconfig.json")),
     symlink(path.join(root, "node_modules"), path.join(staging, "node_modules")),
   ]);
+  await cp(path.join(root, "components", "admin", "github-pages-admin.tsx"), path.join(staging, "components", "admin", "github-pages-admin.tsx"));
+  await cp(path.join(root, "pages-static", "admin"), path.join(staging, "app", "admin"), { recursive: true });
   await run(path.join(root, "node_modules", ".bin", "next"), ["build", "--webpack"], { cwd: staging, env: { ...process.env, BUILD_TARGET: "pages" } });
   await rm(path.join(root, "out"), { recursive: true, force: true });
   await mkdir(path.join(root, "out"), { recursive: true });
