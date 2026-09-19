@@ -9,4 +9,11 @@ describe("case name routes", () => {
     expect(casePath(item.name)).toBe("/work/%E5%A0%A1%E4%B9%8E%E4%B9%8E%20Manual%20Burger");
     expect(findPublishedCaseByName([item], encodeURIComponent(item.name))).toBe(item);
   });
+
+  it("uses a Pages-safe route segment without changing a title that contains a slash", () => {
+    const slashItem = { ...item, name: "春莱 · 品牌视觉长期维护 / Brand Visual Evolution" };
+    expect(casePath(slashItem.name)).toContain("%EF%BC%8F");
+    expect(casePath(slashItem.name)).not.toContain("%2F");
+    expect(findPublishedCaseByName([slashItem], encodeURIComponent("春莱 · 品牌视觉长期维护 ／ Brand Visual Evolution"))).toBe(slashItem);
+  });
 });

@@ -5,7 +5,7 @@ import { ViewTransition } from "react";
 import { notFound } from "next/navigation";
 import { RevealMedia } from "@/components/reveal-media";
 import { SiteHeader } from "@/components/site-header";
-import { casePath, findPublishedCaseByName } from "@/lib/case-route";
+import { casePath, caseRouteName, findPublishedCaseByName } from "@/lib/case-route";
 import { readContent } from "@/lib/content";
 import { getPublishedCases } from "@/lib/sort-cases";
 import { formatCaseMetadata } from "@/lib/taxonomy";
@@ -14,7 +14,7 @@ import { assetPath } from "@/lib/site-path";
 export async function generateStaticParams() {
   return (await readContent()).cases
     .filter((item) => item.published)
-    .map((item) => ({ name: item.name }));
+    .map((item) => ({ name: caseRouteName(item.name) }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ name: string }> }): Promise<Metadata> { const route = await params; const item = findPublishedCaseByName((await readContent()).cases, route.name); return item ? { title: item.name, description: item.intro } : {}; }

@@ -59,7 +59,7 @@ const sections = {
 };
 
 const sha256 = (buffer) => crypto.createHash("sha256").update(buffer).digest("hex");
-const routeFor = (name) => `/work/${encodeURIComponent(name)}`;
+const routeFor = (name) => `/work/${encodeURIComponent(name.replaceAll("/", "／"))}`;
 const stageCounters = new Map();
 const imports = [];
 sharp.cache({ memory: 256, files: 16, items: 64 });
