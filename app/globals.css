@@ -92,6 +92,10 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .adminThumb img,.mediaPreview img,.assetPreview img { object-fit:cover; }
 .adminCaseName { display:grid; gap:6px; }
 .adminCaseName span { color:#777; font-size:.8rem; }
+.githubPagesAdmin .adminCaseList article { grid-template-columns:minmax(0,1fr) max-content 72px 48px; gap:18px; }
+.githubPagesAdmin .adminCaseName { min-width:0; }
+.githubPagesAdmin .adminCaseName strong,.githubPagesAdmin .adminCaseName span { overflow-wrap:anywhere; }
+.githubPagesAdmin .adminCaseList article>a,.githubPagesAdmin .adminCaseList article>button:not(.status) { width:max-content; justify-self:end; }
 .status { border:0; background:#ddd; padding:7px 9px; cursor:pointer; }
 .status.published { background:#111; color:white; }
 .dangerText { color:#b72a21 !important; }
@@ -178,6 +182,10 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .status { grid-column:3; width:max-content; }
   .mobileReorder { display:flex; grid-column:4; grid-row:1; }
   .adminCaseList article>a,.adminCaseList article>.dangerText { grid-row:2; }
+  .githubPagesAdmin .adminCaseList article { grid-template-columns:minmax(0,1fr) max-content; gap:10px; }
+  .githubPagesAdmin .adminCaseList article .status { grid-column:1; grid-row:2; }
+  .githubPagesAdmin .adminCaseList article>a { grid-column:2; grid-row:1; }
+  .githubPagesAdmin .adminCaseList article>.dangerText { grid-column:2; grid-row:2; }
   .versionCard summary { grid-template-columns:1fr auto; }
   .versionCard summary code { display:none; }
   .versionFields,.formGrid,.mediaInputs { grid-template-columns:1fr; }

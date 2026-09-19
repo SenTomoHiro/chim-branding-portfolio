@@ -13,7 +13,8 @@
     "audit:pdf-inventory": "node case-audit-v3/tools/inventory_all_pdfs.mjs",
     "audit:segment-psd": "node case-audit-v3/tools/segment_flat_psds.mjs",
     "test": "vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:e2e:pages": "playwright test -c playwright.pages.config.ts"
   },
   "dependencies": {
     "next": "16.3.5",
