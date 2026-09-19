@@ -12,6 +12,8 @@ test("Pages admin keeps its list readable and navigates to generated editor rout
   await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/contents/data/content.json?ref=main", (route) => route.fulfill({ json: { content: Buffer.from(JSON.stringify(content)).toString("base64"), sha: "fixture-sha" } }));
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto(`${base}/admin/`);
+  await expect(page.locator('link[rel~="icon"]')).toHaveAttribute("href", `${base}/favicon.svg`);
+  expect((await page.request.get(`${base}/favicon.svg`)).status()).toBe(200);
   await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
   await page.getByRole("button", { name: "连接 GitHub" }).click();
   await expect(page.locator(".adminCaseList article")).toHaveCount(content.cases.length);
