@@ -54,12 +54,31 @@
 
 ## Git 与部署
 
-- Git commit：待首次正式提交后记录
-- Git push：待记录
-- GitHub Actions：待记录
-- GitHub Pages：待记录
-- 线上验证时间：待记录
+- 正式导入 commit：`b155016041b40d29d0092231004799899a264487`
+- Pages 安全路由修复 commit：`7e8b2c5e126f3e2de04d2926df345a5cb4893903`
+- favicon basePath 修复 commit：`b1c2a53df33789f76ad67dad4aa742ba48bed5ab`
+- Git push：成功，`main` 已同步至 `origin/main`
+- GitHub Actions：成功；最终代码部署 run `35452077377` 的 build 与 deploy job 均通过
+- GitHub Pages：成功
+- 线上验证时间：2026-09-19 23:34:11（Asia/Shanghai）
 - 正式 URL：<https://sentomohiro.github.io/chim-branding-portfolio/>
 - Admin URL：<https://sentomohiro.github.io/chim-branding-portfolio/admin/>
+
+## 正式站验证
+
+- 首页与 Work 列表：7 个春莱案例各出现 1 次
+- 整体 VI：通过；33 张，VI 01 → VI 02 → VI 03 → VI 04，VI 04 保持电子菜单、新店围挡在先
+- 古早咖啡：通过；10 张
+- 铁观音：通过；7 张
+- 小蓝鸭：通过；8 张
+- 桃花桂花艺人：通过；21 张，桃与乌龙 → 桃花艺人 → 桂花艺人
+- 内蒙古限定：通过；3 张
+- TATAN：通过；6 张
+- Desktop / Mobile：通过；无横向溢出，移动导航可见
+- 交互：通过；Sticky、关闭按钮可见与返回首页逻辑正常
+- Admin：通过；7 个春莱案例均可见，Brand Evolution 编辑器正常打开并读取 33 个正文媒体；未写入生产内容
+- 88 张正式媒体：全部返回成功
+- Console error：0
+- 404：0
 
 本报告不包含任何 token、PAT、credential 或环境秘密。
