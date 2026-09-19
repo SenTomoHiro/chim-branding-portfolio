@@ -18,7 +18,7 @@ function run(command, args, options) {
 try {
   await Promise.all([
     cp(path.join(root, "app"), path.join(staging, "app"), { recursive: true, filter: (source) => !source.includes(`${path.sep}admin${path.sep}`) && !source.includes(`${path.sep}api${path.sep}`) }),
-    cp(path.join(root, "components"), path.join(staging, "components"), { recursive: true, filter: (source) => !source.includes(`${path.sep}admin${path.sep}`) }),
+    cp(path.join(root, "components"), path.join(staging, "components"), { recursive: true }),
     cp(path.join(root, "data"), path.join(staging, "data"), { recursive: true }),
     cp(path.join(root, "lib"), path.join(staging, "lib"), { recursive: true }),
     cp(path.join(root, "public"), path.join(staging, "public"), { recursive: true }),
@@ -26,7 +26,6 @@ try {
     cp(path.join(root, "tsconfig.json"), path.join(staging, "tsconfig.json")),
     symlink(path.join(root, "node_modules"), path.join(staging, "node_modules")),
   ]);
-  await cp(path.join(root, "components", "admin", "github-pages-admin.tsx"), path.join(staging, "components", "admin", "github-pages-admin.tsx"));
   await cp(path.join(root, "pages-static", "admin"), path.join(staging, "app", "admin"), { recursive: true });
   await run(path.join(root, "node_modules", ".bin", "next"), ["build", "--webpack"], { cwd: staging, env: { ...process.env, BUILD_TARGET: "pages" } });
   await rm(path.join(root, "out"), { recursive: true, force: true });
