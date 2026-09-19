@@ -19,7 +19,7 @@ function MediaInput({ label, value, onChange, uploadFile, caseId }: { label: str
     if (body.type !== "image") { alert(`${label} 仅支持图片`); return; }
     onChange(body.src, body.width, body.height);
   }
-  return <div className="mediaInput"><label>{label}</label>{value && <div className="mediaPreview"><Image src={assetPath(value)} alt={`${label}预览`} fill sizes="240px" /></div>}<input value={value} onChange={(event) => onChange(event.target.value)} placeholder="/media/…" /><label className="uploadButton">{pending ? "处理中…" : "上传文件"}<input type="file" accept="image/*" disabled={pending} onChange={(event) => upload(event.target.files?.[0])} /></label></div>;
+  return <div className="mediaInput"><label>{label}</label>{value ? <><div className="mediaPreview"><Image src={assetPath(value)} alt={`${label}预览`} fill sizes="240px" /></div><p className="mediaPath" title={value}>{value}</p></> : <p className="mediaPath">尚未上传</p>}<label className="uploadButton">{pending ? "处理中…" : "上传文件"}<input type="file" accept="image/*" disabled={pending} onChange={(event) => upload(event.target.files?.[0])} /></label></div>;
 }
 
 export function CaseForm({ initial, persistence = localPersistence }: { initial?: PortfolioCase; persistence?: AdminPersistence }) {

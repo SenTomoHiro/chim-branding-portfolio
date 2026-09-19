@@ -126,6 +126,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .mediaInputs { display:grid; grid-template-columns:1fr 1fr; gap:28px; margin-top:30px; }
 .mediaInput { display:grid; gap:10px; }
 .mediaPreview { position:relative; aspect-ratio:16/10; background:#ddd; }
+.mediaPath { max-width:100%; margin:8px 0 0; color:#777; font-size:.78rem; line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .uploadButton { display:block; padding:12px; background:#eee; text-align:center; cursor:pointer; font-size:.85rem; }
 .uploadButton input,.primaryButton input { display:none; }
 .bodyAssetList article { display:grid; grid-template-columns:120px minmax(200px,1fr) 100px 32px 32px 48px; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid #ddd; }
