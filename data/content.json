@@ -5066,112 +5066,6 @@
       "primaryIndustry": "餐饮"
     },
     {
-      "id": "L010",
-      "name": "春莱 ChunLai·品牌视觉",
-      "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "cover": "/media/cases/L010/cover.webp",
-      "coverWidth": 1400,
-      "coverHeight": 1050,
-      "hero": "/media/cases/L010/hero.webp",
-      "bodyAssets": [
-        {
-          "id": "L010-body-1",
-          "type": "image",
-          "src": "/media/cases/L010/body-01.webp",
-          "layout": "full"
-        },
-        {
-          "id": "L010-body-2",
-          "type": "image",
-          "src": "/media/cases/L010/body-02.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L010-body-3",
-          "type": "image",
-          "src": "/media/cases/L010/body-03.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L010-body-4",
-          "type": "image",
-          "src": "/media/cases/L010/body-04.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L010-body-5",
-          "type": "image",
-          "src": "/media/cases/L010/body-05.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L010-body-6",
-          "type": "image",
-          "src": "/media/cases/L010/body-06.webp",
-          "layout": "full"
-        },
-        {
-          "id": "L010-body-7",
-          "type": "image",
-          "src": "/media/cases/L010/body-07.webp",
-          "layout": "full"
-        }
-      ],
-      "published": true,
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮"
-    },
-    {
-      "id": "L011",
-      "name": "春莱 ChunLai·品牌升级",
-      "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "cover": "/media/cases/L011/cover.webp",
-      "coverWidth": 1400,
-      "coverHeight": 1451,
-      "hero": "/media/cases/L011/hero.webp",
-      "bodyAssets": [
-        {
-          "id": "L011-body-1",
-          "type": "image",
-          "src": "/media/cases/L011/body-01.webp",
-          "layout": "full"
-        },
-        {
-          "id": "L011-body-2",
-          "type": "image",
-          "src": "/media/cases/L011/body-02.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L011-body-3",
-          "type": "image",
-          "src": "/media/cases/L011/body-03.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L011-body-4",
-          "type": "image",
-          "src": "/media/cases/L011/body-04.webp",
-          "layout": "half"
-        },
-        {
-          "id": "L011-body-5",
-          "type": "image",
-          "src": "/media/cases/L011/body-05.webp",
-          "layout": "half"
-        }
-      ],
-      "published": true,
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮"
-    },
-    {
       "id": "L012",
       "name": "文柠记",
       "intro": "柠檬茶品牌视觉与Brand Identity设计。",
@@ -9854,104 +9748,6 @@
       "primaryIndustry": "休闲食品"
     },
     {
-      "id": "L030",
-      "name": "春莱 ChunLai·茶饮摄影",
-      "intro": "春莱 ChunLai·茶饮摄影商业摄影与美术指导案例。",
-      "cover": "/media/cases/L030/photo-cover.webp",
-      "coverWidth": 1200,
-      "coverHeight": 1800,
-      "hero": "/media/cases/L030/photo-hero.webp",
-      "coverProvenance": {
-        "assetId": "L030-A001",
-        "sourceType": "ai",
-        "sourceAi": "旧案例/摄影作品集.ai",
-        "sourceArtboard": 21,
-        "sourceXref": 31814,
-        "extractionMethod": "illustrator_pdf_compatible_embedded_image",
-        "width": 7087,
-        "height": 10630,
-        "sha256": "aa6b7283d33c1d866fdb0db494cd3d0b07960e1e73e5725add5c44a94ae9812a",
-        "classification": "final_design",
-        "finalWorkVerified": true
-      },
-      "heroProvenance": {
-        "assetId": "L030-A002",
-        "sourceType": "ai",
-        "sourceAi": "旧案例/摄影作品集.ai",
-        "sourceArtboard": 21,
-        "sourceXref": 31816,
-        "extractionMethod": "illustrator_pdf_compatible_embedded_image",
-        "width": 7087,
-        "height": 10630,
-        "sha256": "4c965a0a834a11a1d6d4a743d508686dfd500853face2027378dd55ad119845d",
-        "classification": "final_design",
-        "finalWorkVerified": true
-      },
-      "bodyAssets": [
-        {
-          "id": "L030-A003",
-          "type": "image",
-          "src": "/media/cases/L030/photo-body-01.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "L030-A003",
-            "sourceType": "ai",
-            "sourceAi": "旧案例/摄影作品集.ai",
-            "sourceArtboard": 21,
-            "sourceXref": 31817,
-            "extractionMethod": "illustrator_pdf_compatible_embedded_image",
-            "width": 7087,
-            "height": 10630,
-            "sha256": "b56a911f39f19e26068a4cfbfab31698e3607005dc86ec048e0c1c67f754fe13",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L030-A004",
-          "type": "image",
-          "src": "/media/cases/L030/photo-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "L030-A004",
-            "sourceType": "ai",
-            "sourceAi": "旧案例/摄影作品集.ai",
-            "sourceArtboard": 21,
-            "sourceXref": 31818,
-            "extractionMethod": "illustrator_pdf_compatible_embedded_image",
-            "width": 7087,
-            "height": 10630,
-            "sha256": "6d2abadd8f4df80f295cc591b71085cf398c6a7c6e117415170b4176e93e739b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L030-A005",
-          "type": "image",
-          "src": "/media/cases/L030/photo-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "L030-A005",
-            "sourceType": "ai",
-            "sourceAi": "旧案例/摄影作品集.ai",
-            "sourceArtboard": 21,
-            "sourceXref": 31819,
-            "extractionMethod": "illustrator_pdf_compatible_embedded_image",
-            "width": 7087,
-            "height": 10630,
-            "sha256": "d7f7481279766ef05e5dac2db1520e570eacc0731935891fc7fe5a5e488f7812",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "business": "photography",
-      "categories": [],
-      "primaryIndustry": "茶饮"
-    },
-    {
       "id": "L026",
       "name": "李大妈把猪脚米线",
       "intro": "李大妈把猪脚米线商业摄影与美术指导案例。",
@@ -10225,6 +10021,691 @@
       "business": "photography",
       "categories": [],
       "primaryIndustry": "茶饮"
+    },
+    {
+      "id": "SL001",
+      "name": "春莱 · 品牌视觉长期维护 / Brand Visual Evolution",
+      "intro": "2022–2025，围绕春莱门店、包装与线上触点持续更新品牌视觉。从早期季节物料到 2023 秋冬 IP，再到 2025 品牌应用更新，呈现一套随经营场景逐步生长的视觉系统。",
+      "cover": "/media/springlai/brand-evolution/vi03-07.jpg",
+      "coverWidth": 2800,
+      "coverHeight": 2116,
+      "hero": "/media/springlai/brand-evolution/vi03-06.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL001-01",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-01.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "VI 01",
+            "title": "夏季视觉体系",
+            "description": "以热带花卉、浅绿与手绘图形建立早期门店识别。"
+          }
+        },
+        {
+          "id": "SL001-02",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-03",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-04",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-05",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-06",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-07",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-08",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi01-08.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-09",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-01.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "VI 02",
+            "title": "冬季视觉体系",
+            "description": "冬季菜单、平台与门店物料延续品牌语言，并扩展热饮场景。"
+          }
+        },
+        {
+          "id": "SL001-10",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-11",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-12",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-13",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-14",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-15",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi02-07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-16",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-01.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "VI 03",
+            "title": "2023 秋冬 IP 更新",
+            "description": "IP 角色进入包装、平台、菜单与空间应用，形成更完整的触点系统。"
+          }
+        },
+        {
+          "id": "SL001-17",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-18",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-19",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-20",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-21",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-22",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-23",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-08.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-24",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-09.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-25",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-10.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-26",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-11.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-27",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi03-12.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-28",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-01.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "VI 04",
+            "title": "2025 品牌升级",
+            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。"
+          }
+        },
+        {
+          "id": "SL001-29",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-30",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-31",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-32",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-33",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-06.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "茶饮"
+    },
+    {
+      "id": "SL002",
+      "name": "春莱 · 古早咖啡",
+      "intro": "2023，以旧报纸、印章与东南亚街头记忆构成古早咖啡系列。视觉从预告、上市海报延展到平台头图与产品菜单，保留朴素而鲜明的手作气质。",
+      "cover": "/media/springlai/vintage-coffee/02.jpg",
+      "coverWidth": 2133,
+      "coverHeight": 3200,
+      "hero": "/media/springlai/vintage-coffee/01.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL002-01",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/01.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-02",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-03",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-04",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-05",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-06",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-07",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-08",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/08.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-09",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/09.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL002-10",
+          "type": "image",
+          "src": "/media/springlai/vintage-coffee/10.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "咖啡"
+    },
+    {
+      "id": "SL003",
+      "name": "春莱 · 铁观音系列",
+      "intro": "2023，以深绿、兰花与器物静物塑造铁观音系列的东方气质。主视觉、预告、限定周边与线上平台保持同一套克制的视觉语言。",
+      "cover": "/media/springlai/tieguanyin/02.jpg",
+      "coverWidth": 2133,
+      "coverHeight": 3200,
+      "hero": "/media/springlai/tieguanyin/01.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL003-01",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/01.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-02",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-03",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-04",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-05",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-06",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL003-07",
+          "type": "image",
+          "src": "/media/springlai/tieguanyin/07.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
+    },
+    {
+      "id": "SL004",
+      "name": "春莱 × 小蓝鸭 · 联名系列",
+      "intro": "2023，围绕小蓝鸭角色与白玉龙眼产品建立轻松直接的联名视觉。角色、杯身插画、活动机制与平台传播共同组成完整的联名发布节奏。",
+      "cover": "/media/springlai/xiaolanya/02.jpg",
+      "coverWidth": 2133,
+      "coverHeight": 3200,
+      "hero": "/media/springlai/xiaolanya/01.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL004-01",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/01.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-02",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-03",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-04",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-05",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-06",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-07",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL004-08",
+          "type": "image",
+          "src": "/media/springlai/xiaolanya/08.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "茶饮联名"
+    },
+    {
+      "id": "SL005",
+      "name": "春莱 · 桃花桂花艺人系列",
+      "intro": "2023–2024，从桃与乌龙暖饮延伸至桃花、桂花艺人合作。粉桃与金棕两套色彩系统分别组织包装、线下海报、平台头图与艺人同款产品。",
+      "cover": "/media/springlai/peach-osmanthus/18.jpg",
+      "coverWidth": 1600,
+      "coverHeight": 1600,
+      "hero": "/media/springlai/peach-osmanthus/01.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL005-01",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/01.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "Chapter 01",
+            "title": "桃与乌龙",
+            "description": "以粉桃色、暖饮与产品静物开启季节系列。"
+          }
+        },
+        {
+          "id": "SL005-02",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-03",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-04",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-05",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/05.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "Chapter 02",
+            "title": "桃花艺人",
+            "description": "桃花包装、艺人海报与线上平台构成完整发布链路。"
+          }
+        },
+        {
+          "id": "SL005-06",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-07",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/07.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-08",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/08.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-09",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/09.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-10",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/10.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-11",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/11.jpg",
+          "layout": "full",
+          "section": {
+            "eyebrow": "Chapter 03",
+            "title": "桂花艺人",
+            "description": "桂花包装与杯套先行，随后延展至布景海报、艺人视觉与产品应用。"
+          }
+        },
+        {
+          "id": "SL005-12",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/12.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-13",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/13.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-14",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/14.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-15",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/15.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-16",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/16.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-17",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/17.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-18",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/18.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-19",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/19.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-20",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/20.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL005-21",
+          "type": "image",
+          "src": "/media/springlai/peach-osmanthus/21.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮"
+    },
+    {
+      "id": "SL006",
+      "name": "春莱 · 内蒙古限定",
+      "intro": "2024，为内蒙古区域限定热饮建立简洁的地域视觉。草原地貌、暖黄色与两款产品共同构成一组短而完整的门店传播单元。",
+      "cover": "/media/springlai/inner-mongolia/01.jpg",
+      "coverWidth": 2133,
+      "coverHeight": 3200,
+      "hero": "/media/springlai/inner-mongolia/02.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL006-01",
+          "type": "image",
+          "src": "/media/springlai/inner-mongolia/01.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL006-02",
+          "type": "image",
+          "src": "/media/springlai/inner-mongolia/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL006-03",
+          "type": "image",
+          "src": "/media/springlai/inner-mongolia/03.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "区域限定茶饮"
+    },
+    {
+      "id": "SL007",
+      "name": "春莱 × TATAN · 椰子系列",
+      "intro": "2024，以宝宝角色、椰子产品与蓝绿放射图形建立联名系列。完成态海报、平台门店系统与三款产品共同呈现轻快、清晰的商业应用。",
+      "cover": "/media/springlai/tatan-coconut/03.jpg",
+      "coverWidth": 3200,
+      "coverHeight": 1800,
+      "hero": "/media/springlai/tatan-coconut/03.jpg",
+      "bodyAssets": [
+        {
+          "id": "SL007-01",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/01.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL007-02",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/02.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL007-03",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/03.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL007-04",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/04.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL007-05",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/05.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL007-06",
+          "type": "image",
+          "src": "/media/springlai/tatan-coconut/06.jpg",
+          "layout": "full"
+        }
+      ],
+      "published": true,
+      "business": "branding",
+      "categories": [
+        "drinks",
+        "ip"
+      ],
+      "primaryIndustry": "茶饮联名"
     }
   ],
   "defaultOrder": [
@@ -10249,8 +10730,13 @@
     "N007",
     "N020",
     "L012",
-    "L010",
-    "L011",
+    "SL001",
+    "SL002",
+    "SL003",
+    "SL004",
+    "SL005",
+    "SL006",
+    "SL007",
     "L001",
     "L002",
     "L003",
@@ -10276,7 +10762,6 @@
     "L029",
     "L024",
     "L019",
-    "L030",
     "L026",
     "L014",
     "L016"

@@ -4,6 +4,14 @@ import { BUSINESSES, CASE_CATEGORIES } from "./taxonomy";
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
 const businessValues = new Set<string>(BUSINESSES.map((item) => item.value));
 const categoryValues = new Set<string>(CASE_CATEGORIES.map((item) => item.value));
+const mediaSection = (value: unknown) => {
+  if (!value || typeof value !== "object") return undefined;
+  const section = value as Record<string, unknown>;
+  const title = String(section.title || "").trim();
+  if (!title) return undefined;
+  const description = String(section.description || "").trim();
+  return { eyebrow: String(section.eyebrow || "").trim(), title, description: description || undefined };
+};
 const provenance = (value: unknown): AssetProvenance | undefined => {
   if (!value || typeof value !== "object") return undefined;
   const item = value as Record<string, unknown>;
@@ -41,7 +49,7 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   const categories = business === "photography" ? [] : submittedCategories;
   const bodyAssets = Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
     const media = item as Record<string, unknown>;
-    return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, provenance: provenance(media.provenance) };
+    return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, section: mediaSection(media.section), provenance: provenance(media.provenance) };
   }).filter((item) => item.src) : [];
   return {
     id: existing?.id || String(input.id || `C${Date.now()}`), name,

@@ -22,9 +22,9 @@ describe("portfolio taxonomy", () => {
     expect(formatCaseMetadata({ business: "photography", categories: [], primaryIndustry: "茶饮" })).toBe("商业摄影 · 茶饮");
   });
 
-  it("keeps 30 published Branding and 18 published Photography cases", () => {
-    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(30);
-    expect(getPublishedCases(content.cases, content, { business: "photography" })).toHaveLength(18);
+  it("keeps 35 published Branding and 17 published Photography cases", () => {
+    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(35);
+    expect(getPublishedCases(content.cases, content, { business: "photography" })).toHaveLength(17);
   });
 
   it("allows the same case to appear in multiple category filters", () => {

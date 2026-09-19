@@ -28,6 +28,11 @@ export type BodyAsset = {
   type: MediaType;
   src: string;
   layout: MediaLayout;
+  section?: {
+    eyebrow: string;
+    title: string;
+    description?: string;
+  };
   provenance?: AssetProvenance;
 };
 

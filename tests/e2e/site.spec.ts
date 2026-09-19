@@ -150,8 +150,8 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await page.goto("/admin");
   await page.getByLabel("管理员密码").fill("wrong"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.locator(".formError")).toContainText("密码错误");
   await page.getByLabel("管理员密码").fill("e2e-password"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-  await expect(page.locator('[data-order-type="branding"] .adminCaseList article')).toHaveCount(32);
-  await expect(page.locator('[data-order-type="photography"] .adminCaseList article')).toHaveCount(18);
+  await expect(page.locator('[data-order-type="branding"] .adminCaseList article')).toHaveCount(content.cases.filter((item) => item.business === "branding").length);
+  await expect(page.locator('[data-order-type="photography"] .adminCaseList article')).toHaveCount(content.cases.filter((item) => item.business === "photography").length);
   await expect(page.getByText("行业标签（逗号分隔）")).toHaveCount(0); await expect(page.getByText("设计标签（逗号分隔）")).toHaveCount(0); await expect(page.getByText("主要设计类型")).toHaveCount(0);
 
   const brandingSection = page.locator('[data-order-type="branding"]'); const firstName = await brandingSection.locator(".adminCaseName strong").first().textContent();
@@ -163,7 +163,7 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await expect(page.getByLabel("细分品类")).toBeVisible(); await expect(page.getByLabel("主要行业")).toHaveCount(0);
   await expect(page.getByText("案例列表封面", { exact: true })).toBeVisible(); await expect(page.getByText("案例详情页首图", { exact: true })).toBeVisible();
   await page.getByLabel("名称", { exact: true }).fill(brandingPublished[0].name); await page.getByLabel("餐饮").check(); await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".formError")).toHaveText("案例名称已存在，请使用唯一名称。");
+  await expect(page.locator(".saveMessage")).toHaveText("保存失败：案例名称已存在，请使用唯一名称。");
   await page.locator(".adminHeader .wordmark").click(); await page.getByRole("link", { name: "新建案例" }).click();
   await page.getByLabel("名称", { exact: true }).fill("分类验收草稿");
   await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check();
@@ -177,13 +177,15 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   const mediaInputs = page.locator('.mediaInput input[type="file"]'); await mediaInputs.first().setInputFiles("public/media/cases/N013/cover.webp"); await mediaInputs.nth(1).setInputFiles("public/media/cases/N013/hero.webp");
   await expect(page.locator(".mediaPreview")).toHaveCount(2);
   await page.getByRole("button", { name: "保存案例" }).click();
+  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
+  await page.getByRole("link", { name: "返回后台" }).click();
   let row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await expect(row).toContainText("商业摄影 · 咖啡");
   await page.reload(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await row.getByRole("link", { name: "编辑" }).click();
   await expect(page.getByLabel("商业摄影")).toBeChecked(); await expect(page.getByLabel("饮品")).toBeDisabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
   await page.getByLabel("品牌设计").check(); await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked();
   await page.locator(".adminHeader .wordmark").click(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" });
   await row.getByRole("button", { name: "草稿" }).click(); await expect(row.getByRole("button", { name: "已发布" })).toBeVisible();
-  await row.getByRole("link", { name: "编辑" }).click(); await page.getByLabel("名称", { exact: true }).fill("分类验收案例 改名"); await page.getByRole("button", { name: "保存案例" }).click();
+  await row.getByRole("link", { name: "编辑" }).click(); await page.getByLabel("名称", { exact: true }).fill("分类验收案例 改名"); await page.getByRole("button", { name: "保存案例" }).click(); await expect(page.locator(".saveMessage")).toHaveText("保存成功"); await page.getByRole("link", { name: "返回后台" }).click();
   row = page.locator(".adminCaseList article").filter({ hasText: "分类验收案例 改名" }); await expect(row).toBeVisible();
   expect((await page.goto(casePath("分类验收案例 改名")))?.status()).toBe(200); await expect(page.getByRole("heading", { name: "分类验收案例 改名" })).toBeVisible();
   expect((await page.goto(casePath("分类验收草稿")))?.status()).toBe(404);

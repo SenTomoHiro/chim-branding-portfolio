@@ -28,4 +28,9 @@ describe("case validation", () => {
     const duplicate = parseCase({ ...input, id: "B", business: "branding", categories: ["other"] });
     expect(() => assertUniqueName(data, duplicate)).toThrow("案例名称已存在，请使用唯一名称。");
   });
+
+  it("preserves optional editorial section headings on existing media", () => {
+    const item = parseCase({ ...input, business: "branding", categories: ["drinks"], bodyAssets: [{ id: "asset-1", type: "image", src: "/media/example.jpg", layout: "full", section: { eyebrow: "VI 04", title: "2025 品牌升级", description: "品牌应用更新。" } }] });
+    expect(item.bodyAssets[0].section).toEqual({ eyebrow: "VI 04", title: "2025 品牌升级", description: "品牌应用更新。" });
+  });
 });

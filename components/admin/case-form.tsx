@@ -49,7 +49,7 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
 
   const leave = (event: React.MouseEvent<HTMLAnchorElement>) => { if (dirty && !confirm("当前有未保存修改，确认离开吗？")) event.preventDefault(); };
 
-  const feedback = pending ? "保存中…" : dirty ? "有未保存修改" : status;
+  const feedback = pending ? "保存中…" : status.startsWith("保存失败") ? status : dirty ? "有未保存修改" : status;
   return <main className="caseEditor"><div className="editorHeading"><div><p>Cases / {isPersisted ? "Edit" : "New"}</p><h1>{isPersisted ? "编辑案例" : "新建案例"}</h1></div><div className="saveRow"><span className="saveMessage" role="status">{feedback}</span><Link href="/admin" onClick={leave}>返回后台</Link><button form="case-form" className="primaryButton" disabled={pending || !dirty}>{pending ? "保存中…" : "保存案例"}</button></div></div><form id="case-form" onSubmit={submit}>
     <section className="formSection"><h2>基本信息</h2><div className="formGrid">
       <label className="fullField">名称<input required value={item.name} onChange={(event) => set("name", event.target.value)} /></label>

@@ -6,9 +6,9 @@ import type { ContentData } from "../../lib/types";
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
 
 describe("Photography category", () => {
-  it("keeps all 18 ready cases outside Branding", () => {
+  it("keeps all 17 ready cases outside Branding after the retired ChunLai photography entry is migrated", () => {
     const photography = getPhotographyCases(content.cases);
-    expect(photography).toHaveLength(18);
+    expect(photography).toHaveLength(17);
     expect(photography.every((item) => item.published && item.cover && item.hero && item.bodyAssets.length > 0)).toBe(true);
     expect(getBrandingCases(content.cases).some((item) => item.business === "photography")).toBe(false);
   });
