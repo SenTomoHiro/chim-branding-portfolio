@@ -127,6 +127,57 @@ test("direct detail URLs close to their business fallback", async ({ page }) => 
   }
 });
 
+async function expectCaseReturnPosition(page: Page, route: string, caseId: string) {
+  await page.goto(route);
+  const card = page.locator(`[data-case-id="${caseId}"]`);
+  await card.scrollIntoViewIfNeeded();
+  await page.evaluate(() => window.scrollBy(0, -Math.min(120, innerHeight / 6)));
+  const before = await card.evaluate((element) => element.getBoundingClientRect().top);
+  await card.locator("a").click();
+  await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
+  await page.locator(".mediaFlow figure").last().scrollIntoViewIfNeeded();
+  await page.getByRole("button", { name: "返回案例列表" }).click();
+  await expect(page).toHaveURL(new RegExp(`${route === "/" ? "\\/$" : `${route.replace("/", "\\/")}$`}`));
+  await expect(card).toBeInViewport();
+  const after = await card.evaluate((element) => element.getBoundingClientRect().top);
+  expect(Math.abs(after - before)).toBeLessThanOrEqual(48);
+  await expectNoHorizontalOverflow(page);
+}
+
+test("desktop close restores the origin case position after a long Chapter detail", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await expectCaseReturnPosition(page, "/", "SL001");
+});
+
+test("category filter and case position survive detail close", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  const filtered = brandingPublished.find((item) => item.categories.includes("drinks") && content.defaultOrder.indexOf(item.id) > 3)!;
+  await expectCaseReturnPosition(page, "/drinks", filtered.id);
+  await expect(page.locator('.categoryNav a[href="/drinks"]')).toHaveClass(/active/);
+});
+
+test("mobile close restores the origin card without overflow", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expectCaseReturnPosition(page, "/", "SL005");
+});
+
+test("browser Back restores the source list and origin card", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 900 });
+  await page.goto("/food");
+  const target = page.locator(".caseCard").nth(7);
+  const caseId = await target.getAttribute("data-case-id");
+  await target.scrollIntoViewIfNeeded();
+  const before = await target.evaluate((element) => element.getBoundingClientRect().top);
+  await target.locator("a").click();
+  await expect(page.getByRole("button", { name: "返回案例列表" })).toBeVisible();
+  await page.goBack();
+  await expect(page).toHaveURL(/\/food$/);
+  const restored = page.locator(`[data-case-id="${caseId}"]`);
+  await expect(restored).toBeInViewport();
+  const after = await restored.evaluate((element) => element.getBoundingClientRect().top);
+  expect(Math.abs(after - before)).toBeLessThanOrEqual(48);
+});
+
 test("home and details share the SiteHeader structure and name URLs support Chinese with spaces", async ({ page }) => {
   const named = published.find((item) => /[\u3400-\u9fff]/u.test(item.name) && item.name.includes(" "))!;
   for (const route of ["/", casePath(named.name)]) {

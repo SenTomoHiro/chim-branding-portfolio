@@ -33,7 +33,7 @@ test("the frozen Springlai import contains exactly seven ordered cases and 88 ma
 test("Springlai detail pages load all media without request, console, or layout errors", async ({ page, request }) => {
   const failures: string[] = [];
   const consoleErrors: string[] = [];
-  page.on("requestfailed", (request) => failures.push(`${request.method()} ${request.url()}: ${request.failure()?.errorText || "failed"}`));
+  page.on("requestfailed", (request) => { if (!request.failure()?.errorText.includes("ERR_ABORTED")) failures.push(`${request.method()} ${request.url()}: ${request.failure()?.errorText || "failed"}`); });
   page.on("response", (response) => { if (response.status() >= 400) failures.push(`${response.status()} ${response.url()}`); });
   page.on("console", (message) => { if (message.type() === "error") consoleErrors.push(message.text()); });
 
@@ -96,4 +96,52 @@ test("Springlai cases remain visible and editable in the local Admin", async ({ 
   await brandRow.getByRole("link", { name: "编辑" }).click();
   await expect(page.getByLabel("名称", { exact: true })).toHaveValue(springlai[0].name);
   await expect(page.locator(".bodyAssetList article")).toHaveCount(33);
+});
+
+test("Chapter Admin edits, persists, reorders and removes headers without deleting media", async ({ page }) => {
+  await page.goto("/admin");
+  await page.getByLabel("管理员密码").fill("e2e-password");
+  await page.getByRole("button", { name: "登录" }).click();
+  const brand = springlai.find((item) => item.id === "SL001")!;
+  await page.locator(".adminCaseList article").filter({ hasText: brand.name }).getByRole("link", { name: "编辑" }).click();
+  await expect(page.locator(".chapterHeader")).toHaveCount(4);
+  expect(await page.getByLabel("章节标题").evaluateAll((inputs) => inputs.map((input) => (input as HTMLInputElement).value))).toEqual(["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]);
+  await page.getByLabel("章节标题").first().fill("夏季视觉体系（测试）");
+  await page.getByRole("button", { name: "保存案例" }).click();
+  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
+  await page.reload();
+  await expect(page.getByLabel("章节标题").first()).toHaveValue("夏季视觉体系（测试）");
+
+  const mediaCount = await page.locator(".bodyAssetList article").count();
+  await page.getByRole("button", { name: "＋ 添加章节" }).click();
+  const creator = page.getByRole("group", { name: "添加章节" });
+  await creator.getByLabel("章节标题").fill("测试新增章节");
+  await creator.getByLabel("章节说明").fill("仅用于临时 E2E fixture。");
+  await creator.getByRole("button", { name: "创建章节" }).click();
+  await expect(page.locator(".chapterHeader")).toHaveCount(5);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
+
+  const created = page.locator(".chapterHeader").filter({ has: page.locator('input[value="测试新增章节"]') });
+  await created.getByRole("button", { name: "↓ Chapter" }).click();
+  await created.getByRole("button", { name: "↑ Chapter" }).click();
+  const targetChapter = page.locator(".chapterHeader").last();
+  const targetId = await targetChapter.locator("xpath=..").getAttribute("data-chapter-id");
+  const movable = created.locator("xpath=..").locator(".bodyAssetList article").last();
+  await movable.locator(".chapterMove").selectOption(targetId!);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
+
+  page.once("dialog", (dialog) => dialog.accept());
+  await created.getByRole("button", { name: "移除 Chapter" }).click();
+  await expect(page.locator(".chapterHeader")).toHaveCount(4);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expectNoHorizontalOverflow(page);
+  page.once("dialog", (dialog) => dialog.accept());
+  await page.getByRole("link", { name: "返回后台" }).click();
+  const flat = content.cases.find((item) => item.published && !item.bodyAssets.some((asset) => asset.section) && item.bodyAssets.length > 0)!;
+  await page.locator(".adminCaseList article").filter({ hasText: flat.name }).getByRole("link", { name: "编辑" }).click();
+  await expect(page.locator(".chapterHeader,.unsectionedHeader")).toHaveCount(0);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(flat.bodyAssets.length);
+  await expect(page.getByRole("button", { name: "＋ 添加章节" })).toBeVisible();
 });

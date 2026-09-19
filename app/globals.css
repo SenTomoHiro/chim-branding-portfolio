@@ -79,7 +79,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .loginPage form>p:first-child,.adminTitle p,.editorHeading p { opacity:.5; text-transform:uppercase; letter-spacing:.08em; font-size:.75rem; }
 .loginPage h1 { font-size:3.5rem; margin:12px 0 56px; letter-spacing:-.06em; }
 .loginPage label,.formGrid label,.mediaInput>label:first-child,.versionFields label { display:grid; gap:9px; font-size:.8rem; }
-.loginPage input,.formGrid input,.formGrid textarea,.mediaInput>input,.versionFields input,.priorityAdd select,.bodyAssetList select { width:100%; border:1px solid #bbb; border-radius:0; padding:13px 14px; background:#fff; color:#111; font:inherit; }
+.loginPage input,.formGrid input,.formGrid textarea,.mediaInput>input,.versionFields input,.priorityAdd select,.bodyAssetList select,.chapterCreate input,.chapterCreate textarea,.chapterCreate select,.chapterHeader input,.chapterHeader textarea { width:100%; border:1px solid #bbb; border-radius:0; padding:13px 14px; background:#fff; color:#111; font:inherit; }
 .loginPage button,.primaryButton { display:inline-flex; justify-content:center; border:0; padding:13px 18px; background:#111; color:#fff; font:inherit; cursor:pointer; }
 .loginPage button { width:100%; margin-top:12px; background:#fff; color:#111; }
 .formError { color:#d9362b; font-size:.85rem; }
@@ -135,11 +135,30 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .mediaPath { max-width:100%; margin:8px 0 0; color:#777; font-size:.78rem; line-height:1.35; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .uploadButton { display:block; padding:12px; background:#eee; text-align:center; cursor:pointer; font-size:.85rem; }
 .uploadButton input,.primaryButton input { display:none; }
-.bodyAssetList article { display:grid; grid-template-columns:120px minmax(200px,1fr) 100px 32px 32px 48px; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid #ddd; }
+.secondaryButton { display:inline-flex; justify-content:center; border:1px solid #aaa; padding:12px 17px; background:#fff; color:#111; font:inherit; cursor:pointer; }
+.secondaryButton:disabled { cursor:not-allowed; opacity:.4; }
+.chapterCreate { display:grid; grid-template-columns:minmax(180px,1fr) minmax(180px,1fr) minmax(240px,1.5fr) auto; gap:16px; align-items:end; margin-top:24px; padding:20px; background:#f3f3f3; border:1px solid #ccc; }
+.chapterCreate label,.chapterHeader label { display:grid; gap:8px; color:#555; font-size:.75rem; }
+.chapterCreate>div { display:flex; align-items:center; gap:12px; }
+.chapterCreate>div>button:not(.primaryButton),.chapterActions button { border:0; background:none; color:inherit; font:inherit; cursor:pointer; }
+.chapterGroups.hasChapters { margin-top:32px; display:grid; gap:34px; }
+.chapterGroup.isChapter,.chapterGroup.isUnsectioned { border:1px solid #c8c8c8; }
+.chapterGroup>.bodyAssetList { padding:0 18px; }
+.chapterHeader { display:grid; grid-template-columns:120px minmax(180px,1fr) minmax(260px,1.7fr); gap:18px; padding:22px 18px; background:#ececec; border-bottom:1px solid #c8c8c8; }
+.chapterNumber { padding-top:28px; font-size:.78rem; font-weight:700; letter-spacing:.12em; }
+.chapterActions { grid-column:1/-1; display:flex; flex-wrap:wrap; align-items:center; gap:8px 16px; padding-top:2px; }
+.chapterActions .uploadButton { padding:9px 12px; background:#fff; border:1px solid #ccc; }
+.unsectionedHeader { display:flex; justify-content:space-between; align-items:end; gap:18px; padding:18px; background:#f7f7f7; border-bottom:1px solid #c8c8c8; }
+.unsectionedHeader p,.unsectionedHeader h3 { margin:0; }
+.unsectionedHeader p { margin-bottom:5px; color:#777; font-size:.68rem; letter-spacing:.12em; }
+.unsectionedHeader h3 { font-size:1.05rem; }
+.bodyAssetList article { display:grid; grid-template-columns:120px minmax(180px,1fr) 84px minmax(140px,190px) 32px 32px minmax(96px,auto) 48px; align-items:center; gap:10px; padding:12px 0; border-bottom:1px solid #ddd; }
 .assetPreview { position:relative; width:120px; height:80px; background:#ddd; overflow:hidden; }
 .assetPreview video { width:100%; height:100%; object-fit:cover; }
 .bodyAssetList article>div:nth-child(2) { min-width:0; display:grid; gap:7px; }
 .bodyAssetList article span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#777; font-size:.75rem; }
+.bodyAssetList article small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#777; font-size:.68rem; }
+.chapterFromMedia { min-width:0; font-size:.75rem !important; }
 @keyframes headerReveal { from { opacity:0; transform:translateY(-12px); } }
 @keyframes titleReveal { from { opacity:0; transform:translateY(105%); } }
 @keyframes softReveal { from { opacity:0; transform:translateY(12px); } }
@@ -188,6 +207,9 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .adminTitle { flex-wrap:wrap; }
   .adminSection .sectionHeading { top:var(--admin-title-height, 0px); align-items:flex-start; flex-wrap:wrap; }
   .adminSection .sectionHeading>div:last-child { justify-content:flex-start; }
+  .chapterEditor>.sectionHeading { display:block; }
+  .chapterEditor>.sectionHeading>div:last-child { display:grid; grid-template-columns:1fr; margin-top:18px; }
+  .chapterEditor>.sectionHeading .secondaryButton,.chapterEditor>.sectionHeading .primaryButton { width:100%; }
   .editorHeading { flex-wrap:wrap; }
   .adminTitle h1,.editorHeading h1 { font-size:3.2rem; }
   .adminCaseList article { grid-template-columns:20px 72px 1fr auto; gap:10px; padding:12px 0; }
@@ -197,11 +219,19 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .adminCaseList article>a,.adminCaseList article>.dangerText { grid-row:2; }
   .versionCard summary { grid-template-columns:1fr auto; }
   .versionCard summary code { display:none; }
-  .versionFields,.formGrid,.mediaInputs { grid-template-columns:1fr; }
+  .versionFields,.formGrid,.mediaInputs,.chapterCreate,.chapterHeader { grid-template-columns:1fr; }
   .fullField { grid-column:auto; }
   .bodyAssetList article { grid-template-columns:82px minmax(0,1fr); }
   .assetPreview { width:82px; height:62px; }
   .bodyAssetList article select { grid-column:1/-1; }
   .bodyAssetList article button { grid-row:auto; min-height:44px; }
+  .chapterHeader { gap:12px; padding:18px 14px; }
+  .chapterNumber { padding-top:0; }
+  .chapterActions { grid-column:auto; display:grid; grid-template-columns:1fr 1fr; }
+  .chapterActions .uploadButton,.chapterActions .dangerText { grid-column:1/-1; }
+  .chapterCreate { align-items:stretch; }
+  .chapterCreate>div { justify-content:flex-end; }
+  .unsectionedHeader { align-items:flex-start; flex-direction:column; }
+  .chapterGroup>.bodyAssetList { padding:0 12px; }
 }
 @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.siteHeader,.indexIntro h1 span,.titleChinese,.introEyebrow,.projectCount,.workHero,.workHero img,.workIntro h1,.workIntro>p,.workIntro div>p{animation:none}.caseCard,.revealMedia{opacity:1;transform:none;clip-path:none;transition:none}.caseImage img,.caseMeta h2,.caseMeta p,.detailClose{transition:none}html:active-view-transition .detailClose{opacity:1;pointer-events:auto}::view-transition-group(.case-morph){animation-duration:.01ms} }
