@@ -12,40 +12,26 @@ export type PdfImage = {
   chapter?: string;
 };
 
-export function getPdfImageCandidates(item: PortfolioCase): PdfImage[] {
-  const candidates: PdfImage[] = [];
-  const add = (candidate: PdfImage) => {
-    if (!candidate.src) return;
-    candidates.push(candidate);
-  };
-
-  add({ id: PDF_HERO_REF, src: item.hero, label: "Hero / 首图" });
-  add({ id: PDF_COVER_REF, src: item.cover, label: "案例列表封面" });
+export function resolvePortfolioPdfImages(item: PortfolioCase): PdfImage[] {
+  const images: PdfImage[] = [];
+  if (item.portfolioPdfHeroSelected && item.hero) images.push({ id: PDF_HERO_REF, src: item.hero, label: "Hero / 首图" });
+  if (item.portfolioPdfCoverSelected && item.cover) images.push({ id: PDF_COVER_REF, src: item.cover, label: "案例列表封面" });
   let chapter = "";
   item.bodyAssets.forEach((asset, index) => {
     if (asset.section) chapter = asset.section.title;
-    if (asset.type === "image") add({ id: asset.id, src: asset.src, label: `正文图片 ${index + 1}`, chapter: chapter || undefined });
+    if (asset.type === "image" && asset.portfolioPdfSelected) images.push({ id: asset.id, src: asset.src, label: `正文图片 ${index + 1}`, chapter: chapter || undefined });
   });
-  return candidates;
+  return images;
 }
 
-export function resolvePortfolioPdfImages(item: PortfolioCase): PdfImage[] {
-  const candidates = new Map(getPdfImageCandidates(item).map((image) => [image.id, image]));
-  return item.portfolioPdfImageIds.map((id) => {
-    const image = candidates.get(id);
-    if (!image) throw new Error(`案例“${caseFullTitle(item)}”的总作品集 PDF 精选图片引用不存在：${id}`);
-    return image;
-  });
-}
-
-export function createInitialPortfolioPdfSelection(item: PortfolioCase): string[] {
-  if (!item.published) return [];
+export function initializePortfolioPdfSelection(item: PortfolioCase): PortfolioCase {
+  if (!item.published) return item;
   const target = item.bodyAssets.length >= 15 || item.bodyAssets.filter((asset) => asset.section).length >= 3 ? 5 : 4;
-  const selected: string[] = [];
+  const selected = new Set<string>();
   const sources = new Set<string>();
   const add = (id: string, src: string) => {
-    if (!src || sources.has(src) || selected.length >= target) return;
-    selected.push(id);
+    if (!src || sources.has(src) || selected.size >= target) return;
+    selected.add(id);
     sources.add(src);
   };
 
@@ -59,7 +45,12 @@ export function createInitialPortfolioPdfSelection(item: PortfolioCase): string[
   for (const asset of chapterRepresentatives.values()) add(asset.id, asset.src);
   for (const asset of item.bodyAssets) if (asset.type === "image") add(asset.id, asset.src);
   add(PDF_COVER_REF, item.cover);
-  return selected;
+  return {
+    ...item,
+    portfolioPdfHeroSelected: selected.has(PDF_HERO_REF),
+    portfolioPdfCoverSelected: selected.has(PDF_COVER_REF),
+    bodyAssets: item.bodyAssets.map(({ portfolioPdfSelected: _selected, ...asset }) => ({ ...asset, ...(asset.type === "image" && selected.has(asset.id) ? { portfolioPdfSelected: true } : {}) })),
+  };
 }
 
 export function getPortfolioPdfCases(data: ContentData, business: Business, category?: CaseCategory): PortfolioCase[] {
@@ -69,8 +60,6 @@ export function getPortfolioPdfCases(data: ContentData, business: Business, cate
 export function assertPdfConfiguration(data: ContentData) {
   for (const item of data.cases) {
     if (!item.published || !item.includeInPortfolioPdf) continue;
-    if (!item.portfolioPdfImageIds.length) throw new Error(`案例“${caseFullTitle(item)}”已加入总作品集 PDF，但没有精选图片`);
-    if (new Set(item.portfolioPdfImageIds).size !== item.portfolioPdfImageIds.length) throw new Error(`案例“${caseFullTitle(item)}”的总作品集 PDF 精选图片存在重复引用`);
-    resolvePortfolioPdfImages(item);
+    if (!resolvePortfolioPdfImages(item).length) throw new Error(`案例“${caseFullTitle(item)}”已加入总作品集 PDF，但没有精选图片`);
   }
 }

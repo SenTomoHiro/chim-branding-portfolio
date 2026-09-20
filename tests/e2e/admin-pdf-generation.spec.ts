@@ -1,4 +1,4 @@
-import { expect, test, type Page } from "@playwright/test";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 
@@ -19,6 +19,13 @@ async function generateAndOpen(page: Page, buttonName: string) {
   await popup.close();
 }
 
+async function imageSources(locator: Locator) {
+  return locator.evaluateAll((images) => images.map((image) => {
+    const url = new URL((image as HTMLImageElement).currentSrc || (image as HTMLImageElement).src);
+    return url.searchParams.get("url") || url.pathname;
+  }));
+}
+
 test("local PDF management handles membership, filters, inline selection and every output type", async ({ page }) => {
   test.setTimeout(600_000);
   await page.goto("/admin");
@@ -32,36 +39,62 @@ test("local PDF management handles membership, filters, inline selection and eve
   await expect(page.getByRole("heading", { name: "PDF 案例集" })).toHaveCount(0);
   await expect(page.getByText("本地 PDF 生成")).toHaveCount(0);
   await expect(page.getByLabel("加入合集 PDF")).toBeVisible();
-  const imageChoice = page.locator(".bodyAssetList article").filter({ has: page.locator("img") }).first().getByRole("checkbox");
-  const wasSelected = await imageChoice.isChecked();
-  await imageChoice.setChecked(!wasSelected);
+  await expect(page.locator(".pdfInlineChoice b, .pdfInlineChoice button")).toHaveCount(0);
+  const bodyRows = page.locator(".bodyAssetList article");
+  const firstPath = (await bodyRows.nth(0).locator("> div:nth-child(2) span").textContent())!;
+  const secondPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span").textContent())!;
+  await expect(bodyRows.nth(0).getByRole("checkbox")).toBeChecked();
+  await expect(bodyRows.nth(1).getByRole("checkbox")).toBeChecked();
+  await bodyRows.nth(0).getByRole("button", { name: "↓", exact: true }).click();
   await expect(page.getByRole("button", { name: "生成案例 PDF" })).toBeDisabled();
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
   await page.reload();
-  if (wasSelected) await expect(imageChoice).not.toBeChecked(); else await expect(imageChoice).toBeChecked();
-  await imageChoice.setChecked(wasSelected);
-  await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  const movableSelection = page.locator(".bodyAssetList .pdfInlineChoice").filter({ has: page.locator("button[aria-label$='上移']:not(:disabled)") }).first();
-  const moveUp = movableSelection.getByRole("button", { name: /上移$/ });
-  const moveLabel = await moveUp.getAttribute("aria-label");
-  const beforePosition = Number(await movableSelection.locator("b").textContent());
-  await moveUp.click();
-  await expect(movableSelection.locator("b")).toHaveText(String(beforePosition - 1).padStart(2, "0"));
-  await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  await page.reload();
-  await expect(page.getByRole("button", { name: moveLabel! }).locator("xpath=..").locator("b")).toHaveText(String(beforePosition - 1).padStart(2, "0"));
+  await expect(bodyRows.nth(0).locator("> div:nth-child(2) span")).toHaveText(secondPath!);
+  await expect(bodyRows.nth(1).locator("> div:nth-child(2) span")).toHaveText(firstPath!);
+
+  await page.goto("/work/l002");
+  expect((await imageSources(page.locator(".mediaFlow figure img"))).slice(0, 2)).toEqual([secondPath, firstPath]);
+  await page.goto("/print/case/l002");
+  expect((await imageSources(page.locator(".pdfLongWaterfall img"))).slice(0, 2)).toEqual([secondPath, firstPath]);
+  await page.goto("/admin/cases/L002");
   await generateAndOpen(page, "生成案例 PDF");
 
-  await page.getByRole("link", { name: "PDF 生成" }).click();
+  for (const route of ["/print/portfolio/design", "/print/portfolio/design-food"]) {
+    await page.goto(route);
+    const portfolioCase = page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" });
+    const sources = await imageSources(portfolioCase.locator(".pdfPicture"));
+    expect(sources.slice(1, 3)).toEqual([secondPath, firstPath]);
+  }
+  await page.goto("/admin/pdf");
+  await generateAndOpen(page, "生成 Design Portfolio");
+  await generateAndOpen(page, "生成餐饮合集");
+
+  await page.goto("/admin/cases/L002");
+  const excludedPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span").textContent())!;
+  await bodyRows.nth(1).getByRole("checkbox").uncheck();
+  await page.getByRole("button", { name: "保存案例" }).click();
+  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
+  await page.goto("/work/l002");
+  expect(await imageSources(page.locator(".mediaFlow figure img"))).toContain(excludedPath);
+  await page.goto("/print/case/l002");
+  expect(await imageSources(page.locator(".pdfLongWaterfall img"))).toContain(excludedPath);
+  for (const route of ["/print/portfolio/design", "/print/portfolio/design-food"]) {
+    await page.goto(route);
+    const sources = await imageSources(page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" }).locator(".pdfPicture"));
+    expect(sources).not.toContain(excludedPath);
+    expect(sources[1]).toBe(secondPath);
+  }
+
+  await page.goto("/admin/pdf");
+  await generateAndOpen(page, "生成 Design Portfolio");
+  await generateAndOpen(page, "生成餐饮合集");
   await expect(page.getByRole("heading", { name: "PDF 生成" })).toBeVisible();
   const managed = page.locator(".pdfCaseManagement article").filter({ hasText: "华南行" }).first();
   const membership = managed.getByRole("checkbox");
   const initiallyIncluded = await membership.isChecked();
   await membership.setChecked(!initiallyIncluded);
-  await expect(page.getByRole("status")).toContainText(initiallyIncluded ? "已移出合集 PDF" : "已加入合集 PDF");
+  await expect(page.getByText(initiallyIncluded ? "华南行：已移出合集 PDF" : "华南行：已加入合集 PDF")).toBeVisible();
   if (initiallyIncluded) {
     await generateAndOpen(page, "生成餐饮合集");
     const categoryText = execFileSync("pdftotext", [path.join(process.cwd(), "output/pdf/portfolio-design-food.pdf"), "-"], { encoding: "utf8" });
@@ -71,7 +104,7 @@ test("local PDF management handles membership, filters, inline selection and eve
   const persistedMembership = page.locator(".pdfCaseManagement article").filter({ hasText: "华南行" }).first().getByRole("checkbox");
   if (initiallyIncluded) await expect(persistedMembership).not.toBeChecked(); else await expect(persistedMembership).toBeChecked();
   await page.locator(".pdfCaseManagement article").filter({ hasText: "华南行" }).first().getByRole("checkbox").setChecked(initiallyIncluded);
-  await expect(page.getByRole("status")).toContainText(initiallyIncluded ? "已加入合集 PDF" : "已移出合集 PDF");
+  await expect(page.getByText(initiallyIncluded ? "华南行：已加入合集 PDF" : "华南行：已移出合集 PDF")).toBeVisible();
   await page.getByLabel("业务").selectOption("branding");
   await page.getByLabel("设计分类").selectOption("drinks");
   expect(await page.locator(".pdfCaseManagement article").count()).toBeGreaterThan(0);
@@ -81,6 +114,5 @@ test("local PDF management handles membership, filters, inline selection and eve
   await expect(page.locator(".pdfCaseManagement article")).toHaveCount(1);
   await generateAndOpen(page, "生成案例 PDF");
   await page.getByLabel("搜索").fill("");
-  await generateAndOpen(page, "生成 Design Portfolio");
   await generateAndOpen(page, "生成 Photography Portfolio");
 });

@@ -28,14 +28,7 @@ function EditorialTitle({ item, className = "" }: { item: PortfolioCase; classNa
 }
 
 function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
-  const columns: PdfMediaInfo[][] = [[], []];
-  const heights = [0, 0];
-  images.forEach((image) => {
-    const column = heights[0] <= heights[1] ? 0 : 1;
-    columns[column].push(image);
-    heights[column] += 1 / image.ratio + .06;
-  });
-  return <div className="pdfLongWaterfall">{columns.map((column, index) => <div className="pdfLongWaterfallColumn" key={index}>{column.map((image) => <figure key={image.id}><Picture image={image} mode="contain" /></figure>)}</div>)}</div>;
+  return <div className="pdfLongWaterfall">{images.map((image) => <figure key={image.id}><Picture image={image} mode="contain" /></figure>)}</div>;
 }
 
 export async function CasePdfDocument({ item }: { item: PortfolioCase }) {

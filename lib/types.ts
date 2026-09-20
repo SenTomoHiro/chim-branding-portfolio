@@ -28,6 +28,7 @@ export type BodyAsset = {
   type: MediaType;
   src: string;
   layout: MediaLayout;
+  portfolioPdfSelected?: boolean;
   section?: {
     eyebrow: string;
     title: string;
@@ -53,8 +54,8 @@ export type PortfolioCase = {
   bodyAssets: BodyAsset[];
   published: boolean;
   includeInPortfolioPdf: boolean;
-  /** Ordered references to this case's hero, cover, or body image IDs. */
-  portfolioPdfImageIds: string[];
+  portfolioPdfHeroSelected: boolean;
+  portfolioPdfCoverSelected: boolean;
 };
 
 export type ContentData = {

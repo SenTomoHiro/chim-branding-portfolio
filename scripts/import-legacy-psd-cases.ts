@@ -2,7 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 import type { AssetProvenance, ContentData, PortfolioCase } from "../lib/types";
-import { createInitialPortfolioPdfSelection } from "../lib/pdf-portfolio";
+import { initializePortfolioPdfSelection } from "../lib/pdf-portfolio";
 import { INITIAL_CATEGORIES } from "./taxonomy-map";
 
 type SegmentAsset = {
@@ -66,7 +66,8 @@ async function main() {
       const asset = assetByFile.get(file);
       if (!asset) throw new Error(`Missing segmented asset ${file}`);
       const media = await optimize(path.join(root, file), path.join(mediaDirectory, `psd-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
-      bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, provenance: provenance(asset) });
+      const selected = Boolean(current?.bodyAssets.find((entry) => entry.id === asset.asset_id)?.portfolioPdfSelected);
+      bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, ...(selected ? { portfolioPdfSelected: true as const } : {}), provenance: provenance(asset) });
     }
     const next: PortfolioCase = {
       id: recovered.case_id,
@@ -80,10 +81,10 @@ async function main() {
       coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
       published: current?.published ?? recovered.published,
       includeInPortfolioPdf: current?.includeInPortfolioPdf ?? recovered.published,
-      portfolioPdfImageIds: current?.portfolioPdfImageIds ?? [],
+      portfolioPdfHeroSelected: current?.portfolioPdfHeroSelected ?? false,
+      portfolioPdfCoverSelected: current?.portfolioPdfCoverSelected ?? false,
     };
-    if (!current) next.portfolioPdfImageIds = createInitialPortfolioPdfSelection(next);
-    imported.push(next);
+    imported.push(current ? next : initializePortfolioPdfSelection(next));
   }
 
   const importedById = new Map(imported.map((item) => [item.id, item]));

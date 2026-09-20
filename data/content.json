@@ -25,7 +25,8 @@
             "sha256": "6b27eec40564416354b1c6ee7dd23a1179b736c32628ef0620268111fcf7637e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N001-V3-A02",
@@ -44,7 +45,8 @@
             "sha256": "223bd923ba3963c5b326695926c13c522747825a977e7babcc90ec9efb9fb750",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N001-V3-A03",
@@ -63,7 +65,8 @@
             "sha256": "8dbb8731026e3e421240b3ab0c3757b4bf4909a3f44b1294c5e159e21058abe2",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N001-V3-A04",
@@ -157,12 +160,8 @@
       ],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N001-V3-A01",
-        "N001-V3-A02",
-        "N001-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "W² Concept Cafe",
       "projectName": ""
     },
@@ -191,7 +190,8 @@
             "sha256": "3a6aa3be0d1bab1e8bb9103f4454a8734f38f4d209b2b5296fa3525394c13d06",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N002-V3-A02",
@@ -210,7 +210,8 @@
             "sha256": "855ff4f0e447293b4c858cc0223c6aad95922d1f60528e845df5bd23ded8465f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N002-V3-A04",
@@ -229,7 +230,8 @@
             "sha256": "242e097a4ad83654eb3f59a6ac09b546daf760a820d33ab472e9f886dcc53d93",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N002-V3-A05",
@@ -248,7 +250,8 @@
             "sha256": "bc007858791aa96ab6e2e3a278de6282fa8de5c4bcc7abbd052a2a7844833f8f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N002-V3-A06",
@@ -512,13 +515,8 @@
       ],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N002-V3-A01",
-        "N002-V3-A02",
-        "N002-V3-A04",
-        "N002-V3-A05"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "粤有福手作",
       "projectName": ""
     },
@@ -547,7 +545,8 @@
             "sha256": "109e1f95284dd7dc86318f40ecf40473f6fc25771b8022e7ac5aeffbfd6a4a9e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N003-V3-A02",
@@ -566,7 +565,8 @@
             "sha256": "f4253d52821983c2624ba517057f87dd1b83fad478fd1c7a902504623e955e94",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N003-V3-A03",
@@ -585,7 +585,8 @@
             "sha256": "9cac9fe92e95bdd4d3ebaa88ac74daddac335f89955a88587f2f9cc0733b3814",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N003-V3-A04",
@@ -792,12 +793,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N003-V3-A01",
-        "N003-V3-A02",
-        "N003-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "小满",
       "projectName": ""
     },
@@ -826,7 +823,8 @@
             "sha256": "d68a2baa6d595299960a716f88760da777ac56b12d616506edbfcf6654cb065d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N004-V3-A02",
@@ -845,7 +843,8 @@
             "sha256": "edb5583829036c3432ccbb556a7b38d8073d9d5ba5460656e345cf1a08db035a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N004-V3-A04",
@@ -864,7 +863,8 @@
             "sha256": "0456f39966c02b9d7ff47f02c63fed3f3119454288623a81ded6c0c21337ce47",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N004-V3-A05",
@@ -995,12 +995,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N004-V3-A01",
-        "N004-V3-A02",
-        "N004-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "三餐好乡邻",
       "projectName": ""
     },
@@ -1029,7 +1025,8 @@
             "sha256": "1c1aab5e59f454a56ae95551d70e0320bc56ac6208e9273155b8434233cdb8c0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N005-V3-A02",
@@ -1048,7 +1045,8 @@
             "sha256": "b62b274d429accbc8a1b4c5726ad62493b471b25c9537047a9315da1008e7d00",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N005-V3-A03",
@@ -1067,7 +1065,8 @@
             "sha256": "7c65794334b98f1c0f648a77782564c17c15522b580eef463fb3b37189e3b7cd",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N005-V3-A04",
@@ -1293,12 +1292,8 @@
       ],
       "primaryIndustry": "甜品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N005-V3-A01",
-        "N005-V3-A02",
-        "N005-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "水果老爸 Fruits Pops",
       "projectName": ""
     },
@@ -1327,7 +1322,8 @@
             "sha256": "f0b63195f63ae05fd41d2cfc59492b29820c329cc217ce9221ba1cf93e139280",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N006-V3-A02",
@@ -1346,7 +1342,8 @@
             "sha256": "6c6691c449f763c6790f036d8b55fd2541b41e5b38f76511656615c26b0e5d7c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N006-V3-A03",
@@ -1365,7 +1362,8 @@
             "sha256": "69001c959e056659dd03a2e4c69887b5008f9cb20b565357c9f6fb5b96127d0e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N006-V3-A04",
@@ -1384,7 +1382,8 @@
             "sha256": "45d8a11b76776c8b7d0c9acd21e825acd3f4a126044c5d4dc29dc068bb1fbf0d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N006-V3-A06",
@@ -1630,13 +1629,8 @@
       ],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N006-V3-A01",
-        "N006-V3-A02",
-        "N006-V3-A03",
-        "N006-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "Oi",
       "projectName": "Coffee"
     },
@@ -1665,7 +1659,8 @@
             "sha256": "3a78c17fe954f9bebf3774fe7ed9b5394f7f74f87db8a1effde848e184b41a21",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N007-V3-A02",
@@ -1684,7 +1679,8 @@
             "sha256": "5ea0e1cf7a41230ccd888a48ce41036ec85030c5869b69b9acc09f9693ac8f2f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N007-V3-A03",
@@ -1703,7 +1699,8 @@
             "sha256": "98342d9bc43e790bf4122f8a89d7734f2750d187510fa59f8ef029689f635b04",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N007-V3-A04",
@@ -1872,12 +1869,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N007-V3-A01",
-        "N007-V3-A02",
-        "N007-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "稻米香",
       "projectName": "湘菜小炒"
     },
@@ -1906,7 +1899,8 @@
             "sha256": "36271066bb6c657313bfa5ffea14460a381f3243ce4dad58bb054f0ffd7a30bb",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N008-V3-A02",
@@ -1925,7 +1919,8 @@
             "sha256": "d4ca627fdbf7a1429681d1cfbd9d1a3abd74ca1791162528766046829afd35f0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N008-V3-A03",
@@ -1944,7 +1939,8 @@
             "sha256": "c9b96ed6c3f6ce29f4bf5bbb06b520b283b2c47c334eebd3fdae1e7f389a3c88",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N008-V3-A04",
@@ -2113,12 +2109,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N008-V3-A01",
-        "N008-V3-A02",
-        "N008-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "果壳里 Shell Nook",
       "projectName": ""
     },
@@ -2147,7 +2139,8 @@
             "sha256": "cfd081cd4fed0406dd22ae2bd558abcb9532692cdccba140561857996aaeec94",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N009-V3-A02",
@@ -2166,7 +2159,8 @@
             "sha256": "93f22d27a40772474dece6a43ecdceb80b0946e2ff84e313f9a0391314cb0c28",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N009-V3-A03",
@@ -2185,7 +2179,8 @@
             "sha256": "7ecd28f2c89350511d5dd9c56fb47c6e889d78b7b912badd6442ec1fbf3bf578",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N009-V3-A04",
@@ -2411,12 +2406,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N009-V3-A01",
-        "N009-V3-A02",
-        "N009-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "饭点时光",
       "projectName": ""
     },
@@ -2445,7 +2436,8 @@
             "sha256": "c9301dd619e4a5935c3311fdc936af5c3985e614441d3ddfc0897bdf355385e7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N010-V3-A03",
@@ -2464,7 +2456,8 @@
             "sha256": "280c6f46230d38b0f464f271aeac5bb7c98fb78e2b403ed8c989eeef1e75d0d0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N010-V3-A04",
@@ -2483,7 +2476,8 @@
             "sha256": "4222b5e282a86c286d1bb86bee956447d90f46d94be5e9ae3386c5c9b29cc0d3",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -2519,12 +2513,8 @@
       ],
       "primaryIndustry": "轻食",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N010-V3-A01",
-        "N010-V3-A03",
-        "N010-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "禾之伴 RURU Bite",
       "projectName": ""
     },
@@ -2553,7 +2543,8 @@
             "sha256": "bffc13cea1fd7e16f099a5dad8f18ab4e2e4e334d9abb0507cd1063289cc2494",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N011-V3-A02",
@@ -2572,7 +2563,8 @@
             "sha256": "049c81ab726ed7732e7b2894f135c93dec3fc278c296104cae91ae65ad21956d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N011-V3-A03",
@@ -2591,7 +2583,8 @@
             "sha256": "5d6ea101f80e968b5c5bbaa3dc9a995005a48ddff9228f32672fbbdb4c6ffebc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N011-V3-A04",
@@ -2780,12 +2773,8 @@
       ],
       "primaryIndustry": "甜品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N011-V3-A01",
-        "N011-V3-A02",
-        "N011-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "豚豚冰屋 Tone",
       "projectName": ""
     },
@@ -2814,7 +2803,8 @@
             "sha256": "31c6ddd0ee04f5a7f339774df86fa4247fe8f642d6e059fd0efdb98d10a29ec4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N012-V3-A02",
@@ -2833,7 +2823,8 @@
             "sha256": "932a1fff19becfad00abacc6ec05a0f92080e3dd76c0919c7083a30af7749178",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N012-V3-A03",
@@ -2852,7 +2843,8 @@
             "sha256": "b6aaf4a0422ecf19e0fc08a0c8ce06e0b02ce5a7dedd42ff6e19deae2415f1f0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N012-V3-A04",
@@ -2871,7 +2863,8 @@
             "sha256": "8ebc2a28715ee04d668b4f7f34c58509032fd2a2372b11d6ac331d5f8cd60768",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N012-V3-A05",
@@ -3173,13 +3166,8 @@
       ],
       "primaryIndustry": "饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N012-V3-A01",
-        "N012-V3-A02",
-        "N012-V3-A03",
-        "N012-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "郑社长满分果汁",
       "projectName": ""
     },
@@ -3208,7 +3196,8 @@
             "sha256": "46288be5fd8dbcf0672b4e1c1a7846f2b0c41dec0fb554ee4520e013e042d1f0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N013-V3-A02",
@@ -3227,7 +3216,8 @@
             "sha256": "df9b9ce9e0f63f7f00a8d064042934e4bb08a508eef1eae5e4dad37d0d839544",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N013-V3-A03",
@@ -3246,7 +3236,8 @@
             "sha256": "f9dcad31c1149ae4568353b5099973720df082cd1f0de245b5aa55d5f1828426",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N013-V3-A04",
@@ -3473,12 +3464,8 @@
       ],
       "primaryIndustry": "汉堡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N013-V3-A01",
-        "N013-V3-A02",
-        "N013-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "堡乎乎 Manual Burger",
       "projectName": ""
     },
@@ -3507,7 +3494,8 @@
             "sha256": "036b58fd1313145f72d0045be6d76e606bf61a0c1a8a9df9a87d8f8d7b23a755",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N014-V3-A02",
@@ -3526,7 +3514,8 @@
             "sha256": "f8a3173526697ac00adc60ecc31e49312d14b575c908427f217cd85e97aeb0cc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N014-V3-A03",
@@ -3545,7 +3534,8 @@
             "sha256": "5b926db2bf772451608737fc6423211022a8d6aecfef07b1030ef229f1db709b",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N014-V3-A04",
@@ -3791,12 +3781,8 @@
       ],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N014-V3-A01",
-        "N014-V3-A02",
-        "N014-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "欢树 Halo Tree",
       "projectName": ""
     },
@@ -3825,7 +3811,8 @@
             "sha256": "83d1431ec18f52c1d04989087bba033844dfb258780044f1b21a02e516547a6f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N015-V3-A02",
@@ -3844,7 +3831,8 @@
             "sha256": "a67538b7bb0ce8c8494592e33fff98413ba673a0b8f3ba64cf89b9aef56b7c5f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N015-V3-A03",
@@ -3863,7 +3851,8 @@
             "sha256": "8449daacf13f20463dd6b36a9c302f6d2dda09e6ee9b1782e498b2b893f6ab7b",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N015-V3-A04",
@@ -4013,12 +4002,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N015-V3-A01",
-        "N015-V3-A02",
-        "N015-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "台滋味",
       "projectName": "台式厨房"
     },
@@ -4047,7 +4032,8 @@
             "sha256": "cf2b57a70c1eda0390317ffb4ab26807ac0737248616e69f0527ca2336a2a8f7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N016-V3-A02",
@@ -4066,7 +4052,8 @@
             "sha256": "e56717f5851e4949c3b8c3be6e75c9e65773ec56ee9615e1711739bd0ed5694f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N016-V3-A03",
@@ -4085,7 +4072,8 @@
             "sha256": "40b9517d84b55ea8abab950748dc3edd36c508f31ba4ed80a08011e0b6d88f83",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N016-V3-A04",
@@ -4104,7 +4092,8 @@
             "sha256": "cc7ccbbfb0f116503cb4719e66f8cf8e1e04c9353440f41006a2bbbf5d8b98e7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N016-V3-A05",
@@ -4349,13 +4338,8 @@
       ],
       "primaryIndustry": "酒吧",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N016-V3-A01",
-        "N016-V3-A02",
-        "N016-V3-A03",
-        "N016-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "荟 HUI",
       "projectName": "威士忌水烟吧"
     },
@@ -4384,7 +4368,8 @@
             "sha256": "c8670c74caa9dde249122812bfb616729da134a944f4c09e9735dd05cdc2a248",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N017-V3-A02",
@@ -4403,7 +4388,8 @@
             "sha256": "73bbc4c6bbf6f8fe0a719dbc96bd3e8451527d6e0a8d40fd1790c608331e105c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N017-V3-A03",
@@ -4422,7 +4408,8 @@
             "sha256": "672ac5cbb2b9ae44cf0e6d9081beb04d36fc3223dff7f61648c9373c8588ffa5",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N017-V3-A05",
@@ -4610,12 +4597,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N017-V3-A01",
-        "N017-V3-A02",
-        "N017-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "大利村",
       "projectName": "手工鲜汤粉"
     },
@@ -4644,7 +4627,8 @@
             "sha256": "1fd8040181d8fe7a3190ea6e12517d00bf53e126bcd82d7fafe99532a22b4aa0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N018-V3-A02",
@@ -4663,7 +4647,8 @@
             "sha256": "32c02a784001dd49664f5d2367fdb21001e9d34b54d4b460c7fa1995a1c59b1f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N018-V3-A03",
@@ -4682,7 +4667,8 @@
             "sha256": "b7e3694cfc93558283ab909e5b00d53a3947edf649675fc94b0c6dafa77ed35a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N018-V3-A04",
@@ -4908,12 +4894,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N018-V3-A01",
-        "N018-V3-A02",
-        "N018-V3-A03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "觅咔咔 Meekaka",
       "projectName": ""
     },
@@ -4942,7 +4924,8 @@
             "sha256": "851c4aec9bea820469f54f2d82054a27ff7a9fbc04899928f2062eed9eafd325",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N019-V3-A03",
@@ -4961,7 +4944,8 @@
             "sha256": "e0564310217fb8bf187e00f40c6a098b361f366951915e514688816ed3d2f153",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N019-V3-A04",
@@ -4980,7 +4964,8 @@
             "sha256": "e4d62f7180fbe3b05d756e035130d80586db0e4ecd4a70b024aa232946c093b0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N019-V3-A05",
@@ -5073,12 +5058,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N019-V3-A01",
-        "N019-V3-A03",
-        "N019-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "鮮燙町 Senmachi",
       "projectName": ""
     },
@@ -5107,7 +5088,8 @@
             "sha256": "6b7aaf6373a4a54951096b5a4f22e0b8d6df9341b1dc45c47efd160787e04c6f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N020-V3-A02",
@@ -5126,7 +5108,8 @@
             "sha256": "0459e6a2c216592e71fd335fa7031cf85b6899c3f8b6f58948f5324745098770",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N020-V3-A04",
@@ -5145,7 +5128,8 @@
             "sha256": "cb5b32d38483c30b249ca352c08b8ed9e317a1964a9e0d300d8a0cf127e95563",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N020-V3-A05",
@@ -5220,12 +5204,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N020-V3-A01",
-        "N020-V3-A02",
-        "N020-V3-A04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "巴适的钵 Awesome Bo",
       "projectName": ""
     },
@@ -5267,7 +5247,8 @@
             "sha256": "cc1ca49932e66cf6a06009bd34f764949bc972e2514d5bca083e71d7628c8da2",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L012-body-3",
@@ -5283,7 +5264,8 @@
             "sha256": "90683dc23f8f7a07c62f0c8563dad77c70ea297b7af6d9a748942bc40c034061",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L012-body-4",
@@ -5299,7 +5281,8 @@
             "sha256": "055b6d295e6fefcfe9528646f199be94f9a1e60089c2c45048e77b94344ae4e6",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L012-body-5",
@@ -5425,12 +5408,8 @@
       ],
       "primaryIndustry": "柠檬茶",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L012-body-2",
-        "L012-body-3",
-        "L012-body-4"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "文柠记",
       "projectName": ""
     },
@@ -5500,7 +5479,8 @@
             "sha256": "d93846d0cfd76b4d80ff62be3d19d8c5fc2c0ace731d7ef46ac3be718d97ddf9",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L001-PSD-002",
@@ -5524,7 +5504,8 @@
             "sha256": "813bbfaa8a8b38840cc723a1318fd26680c8ea093ed5d013be583e67abf48669",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L001-PSD-003",
@@ -5548,7 +5529,8 @@
             "sha256": "9de801bbf5738e2db742bc4bda258ea9b1d37cd59c89e47496fb23ec0b7e7dc2",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L001-PSD-004",
@@ -5572,7 +5554,8 @@
             "sha256": "0abc8cf11f334f446b825099cce82760e2a72e5266822af66ce6b1a1205eed3e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L001-PSD-005",
@@ -5846,13 +5829,8 @@
       ],
       "primaryIndustry": "活动策划 / 文创",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L001-PSD-001",
-        "L001-PSD-002",
-        "L001-PSD-003",
-        "L001-PSD-004"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "仙兔策划",
       "projectName": "太空兔 Space Bunnies"
     },
@@ -5922,7 +5900,8 @@
             "sha256": "f9ef7a8e3f571aeb44f9064c1e5a97fa6dd25bf9cb89d6310a2df534839e1fe0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L002-PSD-002",
@@ -5946,7 +5925,8 @@
             "sha256": "d3c0bff388d8e891fc4a0469827496f99bd7e98c8c1deefd34ba4539d05d216d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L002-PSD-003",
@@ -5970,7 +5950,8 @@
             "sha256": "08378744f5fb2ed84743f5f7e321d7f6c81b52b40d6bea3267c9a171f8032814",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L002-PSD-004",
@@ -5994,7 +5975,8 @@
             "sha256": "d7225e3f8cefd89e003be9903ce1352a24ee8c68adf77ea5833fa5f32d8e06f6",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L002-PSD-005",
@@ -6268,13 +6250,8 @@
       ],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L002-PSD-001",
-        "L002-PSD-002",
-        "L002-PSD-003",
-        "L002-PSD-004"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "华南行",
       "projectName": ""
     },
@@ -6344,7 +6321,8 @@
             "sha256": "e65c0d14d83f540255b36ffe2c2fe535fbbed8c9b34ba2484fa47cb446e74179",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L003-PSD-002",
@@ -6368,7 +6346,8 @@
             "sha256": "36fbe9e2b0b8e3011736f9f573557d0e3979bec6d7c5676a10b2a20d3b29180f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L003-PSD-003",
@@ -6392,7 +6371,8 @@
             "sha256": "96071f062fe44af5bb5894ecef82a6b78563e483404ecd462c78e91db0ff4161",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L003-PSD-004",
@@ -6498,12 +6478,8 @@
       ],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L003-PSD-001",
-        "L003-PSD-002",
-        "L003-PSD-003"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "咖啡肆拾 Coffee Forty",
       "projectName": ""
     },
@@ -6573,7 +6549,8 @@
             "sha256": "b96b935bc672c2655b714a1d31e2b65baea02cb97b3acb4b35602fe9167ea049",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L004-PSD-002",
@@ -6597,7 +6574,8 @@
             "sha256": "14290fd6d01dddc44c6d73ffae3be74ad34863ee74a4c0cd3cc53cae9199308f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L004-PSD-003",
@@ -6621,7 +6599,8 @@
             "sha256": "7006fb812fa23d49d598a0ddd833a7b6ce40d976c81c8af40bc01218646c7cc0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L004-PSD-004",
@@ -6727,12 +6706,8 @@
       ],
       "primaryIndustry": "美妆",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L004-PSD-001",
-        "L004-PSD-002",
-        "L004-PSD-003"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "MaxDona",
       "projectName": ""
     },
@@ -7076,7 +7051,8 @@
       ],
       "primaryIndustry": "多行业",
       "includeInPortfolioPdf": false,
-      "portfolioPdfImageIds": [],
+      "portfolioPdfHeroSelected": false,
+      "portfolioPdfCoverSelected": false,
       "brandName": "标志设计合集 I",
       "projectName": ""
     },
@@ -7396,7 +7372,8 @@
       ],
       "primaryIndustry": "多行业",
       "includeInPortfolioPdf": false,
-      "portfolioPdfImageIds": [],
+      "portfolioPdfHeroSelected": false,
+      "portfolioPdfCoverSelected": false,
       "brandName": "标志设计合集 II",
       "projectName": ""
     },
@@ -7466,7 +7443,8 @@
             "sha256": "2c334142eb385b2a8dce97f39ab84c76a4a3d20dff32b344620fb30928f2269d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L007-PSD-002",
@@ -7490,7 +7468,8 @@
             "sha256": "685e349a4452d8743ca48ad55b7c0de597fe66a546c5bd119c533316f61ee95b",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L007-PSD-003",
@@ -7514,7 +7493,8 @@
             "sha256": "1ae0675096d028ae722e288d0ee12341234077b5ba2b14cb6aafc4f770ff15e3",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L007-PSD-004",
@@ -7620,12 +7600,8 @@
       ],
       "primaryIndustry": "宠物食品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L007-PSD-001",
-        "L007-PSD-002",
-        "L007-PSD-003"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "迪迈猫粮",
       "projectName": ""
     },
@@ -7695,7 +7671,8 @@
             "sha256": "91d4b6bc233fa7f175889eba805dfe3dbd5529dd70d494c2357001ffd1e01772",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L008-PSD-002",
@@ -7719,7 +7696,8 @@
             "sha256": "05e77531e7af0f964138c117749e53194e9c4bb38860d5484ec045fbdf004006",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L008-PSD-003",
@@ -7743,7 +7721,8 @@
             "sha256": "458f9e8adb03b040d925041ae58a24de6354564fd2b37e16e98d2c404f8bb4d7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L008-PSD-004",
@@ -7777,12 +7756,8 @@
       ],
       "primaryIndustry": "食品 / 礼盒",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L008-PSD-001",
-        "L008-PSD-002",
-        "L008-PSD-003"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "胖福月饼",
       "projectName": ""
     },
@@ -7852,7 +7827,8 @@
             "sha256": "cae4646b8a321985ee5a78afe82bd2abe21ef59c76753078781fc79efa2e20fa",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L009-PSD-002",
@@ -7876,7 +7852,8 @@
             "sha256": "9f848e05c5286fcace26fdd153cfe28291e46ac5fcafd050e16f4129d4d7fbf2",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L009-PSD-003",
@@ -7900,7 +7877,8 @@
             "sha256": "10bf9785384e982a04b073f20414166b12109befc4d75c4180475d09d1bfe85d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -7910,12 +7888,8 @@
       ],
       "primaryIndustry": "美妆 / 护肤",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L009-PSD-001",
-        "L009-PSD-002",
-        "L009-PSD-003"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "hacinana",
       "projectName": ""
     },
@@ -7970,7 +7944,8 @@
             "sha256": "cedd3f65d0cb596a17d6de7ac25f235d8c54f0c44fded02516c6d2c771371b1c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L021-A004",
@@ -7989,7 +7964,8 @@
             "sha256": "6ca27633d76f7ee902efde97a226445c2b60438f30ef8f299039b337e246e288",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L021-A005",
@@ -8008,7 +7984,8 @@
             "sha256": "df38f2f46d72aab215c892ff5c3aa8bb1f7bccfa799423417fa2fe0099b7dd28",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L021-A006",
@@ -8111,12 +8088,8 @@
       "categories": [],
       "primaryIndustry": "家居香氛",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L021-A003",
-        "L021-A004",
-        "L021-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "ALASSIS",
       "projectName": "香薰蜡烛"
     },
@@ -8171,7 +8144,8 @@
             "sha256": "0f17bad42e8a831a1753ae47d6638969ffef9f3a041cbcdd9ff0139fbe185c97",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L023-A004",
@@ -8190,7 +8164,8 @@
             "sha256": "81f64445d5183dfbd2adadeb362a9686ce52d06012462db7499057e1f2a8b2f4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L023-A005",
@@ -8209,7 +8184,8 @@
             "sha256": "1df8fc52a34bd9aa298d5cf172a01593f8feae05df016c496b654780d304c9d5",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L023-A006",
@@ -8312,12 +8288,8 @@
       "categories": [],
       "primaryIndustry": "家居",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L023-A003",
-        "L023-A004",
-        "L023-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "迷物家居",
       "projectName": ""
     },
@@ -8372,7 +8344,8 @@
             "sha256": "4967b07e7df5197fd4e975e1bce8cad9f03fb217f8147b37615fdc749a8cce73",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L015-A004",
@@ -8391,7 +8364,8 @@
             "sha256": "7f0fbf1962122ed7e38f7c9fa595079587a3d2e17df0fee60f88cb08549c5677",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L015-A005",
@@ -8410,7 +8384,8 @@
             "sha256": "05d7e2f1dc568ef057476c7cba3d5977af15afc946e9ef7b5f9565b4769f3873",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L015-A006",
@@ -8475,12 +8450,8 @@
       "categories": [],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L015-A003",
-        "L015-A004",
-        "L015-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "后谷咖啡",
       "projectName": ""
     },
@@ -8535,7 +8506,8 @@
             "sha256": "7f1928eb29caade4ebd63ccf9eb3c4346002606f3bda9d9063c4faf8e9639336",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L018-A004",
@@ -8554,7 +8526,8 @@
             "sha256": "1c65b2c1d1dd8b0aa834bdab189af621e396d5f773a80e40484d38fa5974e14a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L018-A005",
@@ -8573,7 +8546,8 @@
             "sha256": "25a644a63a1956a10736b8c2917ef5e632f09bfc6aa86a896f3cf4e0c01246ef",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L018-A006",
@@ -8657,12 +8631,8 @@
       "categories": [],
       "primaryIndustry": "休闲食品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L018-A003",
-        "L018-A004",
-        "L018-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "PavoMea",
       "projectName": "饼干"
     },
@@ -8717,7 +8687,8 @@
             "sha256": "d28dafaba869a482cfa7c61d84527f30c00e6de25cd8fdf681f841e914d81f63",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L025-A004",
@@ -8736,7 +8707,8 @@
             "sha256": "36991fb58880faa11ff3fb02eba85f226482c47bb52c613a422692b34420a0ef",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L025-A005",
@@ -8755,7 +8727,8 @@
             "sha256": "63022117c8436eed678dc28f56aa967d4579b1ccce5359a929711f01ddfbf025",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L025-A006",
@@ -8858,12 +8831,8 @@
       "categories": [],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L025-A003",
-        "L025-A004",
-        "L025-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "紫庐",
       "projectName": "中西餐"
     },
@@ -8918,7 +8887,8 @@
             "sha256": "ff36ed0d30c4c5791d36dc65de86fb5801cb9f0aa05cc77955b61ee66606b42a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L017-A004",
@@ -8937,7 +8907,8 @@
             "sha256": "264477d692db4f896eba713dd94974a2c08eaf0e29b4edc17bc372d76f0d42b4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L017-A005",
@@ -8956,7 +8927,8 @@
             "sha256": "6931ec59272c7d8d9b02536f45b52260bb611aebca3e18cd45ec2152101d932c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L017-A006",
@@ -9021,12 +8993,8 @@
       "categories": [],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L017-A003",
-        "L017-A004",
-        "L017-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "七港九",
       "projectName": "茶饮系列"
     },
@@ -9081,7 +9049,8 @@
             "sha256": "fd09773ff921c630dd1f8a17a6a9aca5e43356b1c7ab90cbd248a21d566b9986",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L028-A004",
@@ -9100,7 +9069,8 @@
             "sha256": "555a77871185a2a40caecb464be419e545914ad9237f9bf2b6008dc50ce792ae",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L028-A005",
@@ -9119,7 +9089,8 @@
             "sha256": "86e5e0aad22561e0c3e3bdf7c60a17ef48a3414452b0b8962b75b3a824e22ae7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L028-A006",
@@ -9184,12 +9155,8 @@
       "categories": [],
       "primaryIndustry": "非遗工艺",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L028-A002",
-        "L028-A004",
-        "L028-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "乌铜走银",
       "projectName": "银器首饰"
     },
@@ -9244,7 +9211,8 @@
             "sha256": "763c467b45bb444fcf26ddab750bfb358785cc96450de811c6ccb0ffb798dc2c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L013-A004",
@@ -9263,7 +9231,8 @@
             "sha256": "8d3d8bb66ea0287e946025c1d165825a3548ba68ca65ade6971a8621a8abbddf",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L013-A005",
@@ -9282,7 +9251,8 @@
             "sha256": "55279cf3a1c8000852090b43d48384827c55b501683f6e7567c87ddea4181c1c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L013-A006",
@@ -9385,12 +9355,8 @@
       "categories": [],
       "primaryIndustry": "饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L013-A003",
-        "L013-A004",
-        "L013-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "骄慕",
       "projectName": "养生茶"
     },
@@ -9445,7 +9411,8 @@
             "sha256": "5eaae6a155c468cf5bf42d83efcff33625c5d84c37cb2d2922198c327f3cef2e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L022-A004",
@@ -9464,7 +9431,8 @@
             "sha256": "16a72daba6ea282269b2852d5c33eee004d143fbf792773e5d8bde7af6e04645",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L022-A005",
@@ -9483,7 +9451,8 @@
             "sha256": "7a53bca492b930ff11b9163a1da4ea7a023a3498bfae63a2978b8a37196a3551",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -9491,12 +9460,8 @@
       "categories": [],
       "primaryIndustry": "眼镜",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L022-A003",
-        "L022-A004",
-        "L022-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "mosanana",
       "projectName": "眼镜"
     },
@@ -9551,7 +9516,8 @@
             "sha256": "3bfabd62ea1b9ee89f9a5fcc6be93924eab0f67929584a508cc251c9f55d7aaf",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L020-A004",
@@ -9570,7 +9536,8 @@
             "sha256": "c727ffaf7c138c7b1e887fa211b561f029ca6280857ea7cabde59b0987e99bf7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L020-A005",
@@ -9589,7 +9556,8 @@
             "sha256": "6be1c976be30552c220dd55ce5c1a2831278cbd122ff0da9855cd144d7b7c0bc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L020-A006",
@@ -9616,12 +9584,8 @@
       "categories": [],
       "primaryIndustry": "休闲食品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L020-A003",
-        "L020-A004",
-        "L020-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "PavoMea",
       "projectName": "玛德琳蛋糕"
     },
@@ -9676,7 +9640,8 @@
             "sha256": "253d9d9a4d8d4d2e25ca537778aad9efc42b74eeab42e54c27e70c471aa30ee8",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L027-A004",
@@ -9695,7 +9660,8 @@
             "sha256": "f443bc2779b1706142e61a92bd910f26a8e2e0de7e92d7d1503af3745d43dcaf",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L027-A005",
@@ -9714,7 +9680,8 @@
             "sha256": "6dd956a0b962f34081ec30b09f7c0bd5b9e74ef00c72c06339e1777c6746850f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L027-A006",
@@ -9779,12 +9746,8 @@
       "categories": [],
       "primaryIndustry": "非遗工艺",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L027-A003",
-        "L027-A004",
-        "L027-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "乌铜走银",
       "projectName": "茶与工艺"
     },
@@ -9839,7 +9802,8 @@
             "sha256": "9dd9c9877c844a25786166b6615b68633fec060dc5c3a6cccb5ba4617df583b4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L029-A004",
@@ -9858,7 +9822,8 @@
             "sha256": "ded811e5be2aa391862a9466befa3aadad00787b436d4bfe9f908a7a52692de2",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L029-A005",
@@ -9877,7 +9842,8 @@
             "sha256": "39f40d0c0969f809e98d745c11290ec32c02b20ea595191babdffb1b47baeca6",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L029-A006",
@@ -9980,12 +9946,8 @@
       "categories": [],
       "primaryIndustry": "饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L029-A003",
-        "L029-A004",
-        "L029-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "陇上花牛苹果汁",
       "projectName": ""
     },
@@ -10040,7 +10002,8 @@
             "sha256": "b6dcfe3cbf37b69cf83f220516efdca22f66d06714e4497a0426f85f380fe5f0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L024-A004",
@@ -10059,7 +10022,8 @@
             "sha256": "b52c4fbf7d0828d4630217fe78f2ee513e18cdd365fb4a00d5c5ab4c5517bcb5",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L024-A005",
@@ -10078,7 +10042,8 @@
             "sha256": "1c413cdbd496642712af568a975d9d664e6c1bebc95f8dd7911821d6ba946f40",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L024-A006",
@@ -10124,12 +10089,8 @@
       "categories": [],
       "primaryIndustry": "饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L024-A003",
-        "L024-A004",
-        "L024-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "CT BEE",
       "projectName": "咖啡与奶茶"
     },
@@ -10184,7 +10145,8 @@
             "sha256": "f2e1df8f7f50a9ba736d48f0b0404ad97f045d4fe8ff86e6f787afd3bf1fe2b7",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L019-A004",
@@ -10203,7 +10165,8 @@
             "sha256": "6fcda312b5918982842e1742b4d2953a4790ca66f7e500320f260dd1a94bb6cc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L019-A005",
@@ -10222,7 +10185,8 @@
             "sha256": "c50f7ee7cae10c5f6a9ec395eab1a5655ba72bfccf408cd67bb06568cef41192",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -10230,12 +10194,8 @@
       "categories": [],
       "primaryIndustry": "休闲食品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L019-A002",
-        "L019-A004",
-        "L019-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "PavoMea",
       "projectName": "脆栗子"
     },
@@ -10290,7 +10250,8 @@
             "sha256": "6a9ac6f44f62125215fafef77a90a687b8aea67237a3ca4db807cba3cac453db",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L026-A004",
@@ -10309,7 +10270,8 @@
             "sha256": "2180f667e7e2aa36a83d8e508dbeea6dbd37c8f5c90d4a119df98fa5ab86e95f",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L026-A005",
@@ -10328,7 +10290,8 @@
             "sha256": "253b104c9cfaa8311aa538cd58b58f55b7de9be2f45168967d49b34614f175fa",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L026-A006",
@@ -10374,12 +10337,8 @@
       "categories": [],
       "primaryIndustry": "餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L026-A003",
-        "L026-A004",
-        "L026-A005"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "李大妈把猪脚米线",
       "projectName": ""
     },
@@ -10434,7 +10393,8 @@
             "sha256": "97585216c64e48369cf2703b7de01ccc60ad91059749ace16ba94cb82073be1d",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "L014-A004",
@@ -10453,7 +10413,8 @@
             "sha256": "c7f9c0639ba3c490c19cefdc15d6076bf72eadcbd0b1515c26d4bdc43710a719",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -10461,12 +10422,8 @@
       "categories": [],
       "primaryIndustry": "饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L014-A003",
-        "L014-A004",
-        "cover"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": true,
       "brandName": "骄慕",
       "projectName": "枸杞原浆"
     },
@@ -10521,7 +10478,8 @@
             "sha256": "15174fc6ec291a1a86798fff98e3c72d9a0f1956718df8b57de7898cf6b1d1fe",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -10529,11 +10487,8 @@
       "categories": [],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "L016-A002",
-        "cover"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": true,
       "brandName": "七港九",
       "projectName": "港九莓莓"
     },
@@ -10554,7 +10509,8 @@
             "eyebrow": "CHAPTER 01",
             "title": "夏季视觉体系",
             "description": "以热带花卉、浅绿与手绘图形建立早期门店识别。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-02",
@@ -10607,7 +10563,8 @@
             "eyebrow": "CHAPTER 02",
             "title": "冬季视觉体系",
             "description": "冬季菜单、平台与门店物料延续品牌语言，并扩展热饮场景。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-10",
@@ -10654,7 +10611,8 @@
             "eyebrow": "CHAPTER 03",
             "title": "2023 秋冬 IP 更新",
             "description": "IP 角色进入包装、平台、菜单与空间应用，形成更完整的触点系统。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-17",
@@ -10731,7 +10689,8 @@
             "eyebrow": "CHAPTER 04",
             "title": "2025 品牌升级",
             "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-29",
@@ -10772,13 +10731,8 @@
       ],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL001-01",
-        "SL001-09",
-        "SL001-16",
-        "SL001-28"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱",
       "projectName": "品牌视觉长期维护 / Brand Visual Evolution"
     },
@@ -10800,19 +10754,22 @@
           "id": "SL002-02",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-03",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-04",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-05",
@@ -10858,12 +10815,8 @@
       ],
       "primaryIndustry": "咖啡",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL002-02",
-        "SL002-03",
-        "SL002-04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱",
       "projectName": "古早咖啡"
     },
@@ -10885,19 +10838,22 @@
           "id": "SL003-02",
           "type": "image",
           "src": "/media/springlai/tieguanyin/02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL003-03",
           "type": "image",
           "src": "/media/springlai/tieguanyin/03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL003-04",
           "type": "image",
           "src": "/media/springlai/tieguanyin/04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL003-05",
@@ -10925,12 +10881,8 @@
       ],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL003-02",
-        "SL003-03",
-        "SL003-04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱",
       "projectName": "铁观音系列"
     },
@@ -10952,19 +10904,22 @@
           "id": "SL004-02",
           "type": "image",
           "src": "/media/springlai/xiaolanya/02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-03",
           "type": "image",
           "src": "/media/springlai/xiaolanya/03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-04",
           "type": "image",
           "src": "/media/springlai/xiaolanya/04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-05",
@@ -10999,12 +10954,8 @@
       ],
       "primaryIndustry": "茶饮联名",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL004-02",
-        "SL004-03",
-        "SL004-04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱 × 小蓝鸭",
       "projectName": "联名系列"
     },
@@ -11031,13 +10982,15 @@
           "id": "SL005-02",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-03",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-04",
@@ -11054,7 +11007,8 @@
             "eyebrow": "CHAPTER 02",
             "title": "桃花艺人",
             "description": "桃花包装、艺人海报与线上平台构成完整发布链路。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-06",
@@ -11095,7 +11049,8 @@
             "eyebrow": "CHAPTER 03",
             "title": "桂花艺人",
             "description": "桂花包装与杯套先行，随后延展至布景海报、艺人视觉与产品应用。"
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-12",
@@ -11165,13 +11120,8 @@
       ],
       "primaryIndustry": "茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL005-05",
-        "SL005-11",
-        "SL005-02",
-        "SL005-03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱",
       "projectName": "桃花桂花艺人系列"
     },
@@ -11187,7 +11137,8 @@
           "id": "SL006-01",
           "type": "image",
           "src": "/media/springlai/inner-mongolia/01.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL006-02",
@@ -11199,7 +11150,8 @@
           "id": "SL006-03",
           "type": "image",
           "src": "/media/springlai/inner-mongolia/03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
@@ -11209,11 +11161,8 @@
       ],
       "primaryIndustry": "区域限定茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL006-01",
-        "SL006-03"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱",
       "projectName": "内蒙古限定"
     },
@@ -11229,13 +11178,15 @@
           "id": "SL007-01",
           "type": "image",
           "src": "/media/springlai/tatan-coconut/01.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL007-02",
           "type": "image",
           "src": "/media/springlai/tatan-coconut/02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL007-03",
@@ -11247,7 +11198,8 @@
           "id": "SL007-04",
           "type": "image",
           "src": "/media/springlai/tatan-coconut/04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL007-05",
@@ -11270,12 +11222,8 @@
       ],
       "primaryIndustry": "茶饮联名",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "SL007-01",
-        "SL007-02",
-        "SL007-04"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱 × TATAN",
       "projectName": "椰子系列"
     },
@@ -11302,7 +11250,8 @@
             "sha256": "df2f35515863d4157363857a7cf8b18b6b5ec58212c9249d98a141d2fd9feedc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N021-body-2",
@@ -11319,7 +11268,8 @@
             "sha256": "c9ee5d91669fc94597a74c1987ac69c025cf30eecbb4a5d24259873bd887e979",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N021-body-3",
@@ -11336,7 +11286,8 @@
             "sha256": "4836cdef2f22ca63f4856e1985074aebf7ae359a54aa67fac3a5fcb80a8275c4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N021-body-4",
@@ -11511,12 +11462,8 @@
       ],
       "primaryIndustry": "抹茶饮品",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N021-body-1",
-        "N021-body-2",
-        "N021-body-3"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "大胡子抹茶",
       "projectName": "品牌视觉"
     },
@@ -11563,7 +11510,8 @@
             "sha256": "a297f828345cdf846a2f76838256cdd40f094236089c4c98149c1148afb91a7c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N022-body-3",
@@ -11579,7 +11527,8 @@
             "sha256": "f04a5ac31aebf44e1ad2a54a3fef0586e73d1a79e23dd6dc213222709ab13317",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N022-body-4",
@@ -11682,7 +11631,8 @@
             "sha256": "33df2d3c27a7d94e481ba3d6bfb37a70351f98375a8921c36d521e57084c60c0",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N022-body-10",
@@ -11744,12 +11694,8 @@
       ],
       "primaryIndustry": "中式茶饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N022-body-9",
-        "N022-body-2",
-        "N022-body-3"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "真心茶事",
       "projectName": "品牌视觉"
     },
@@ -11791,7 +11737,8 @@
             "sha256": "c6fc2c0397c6b08daf387bba735877f94956db7f5599c8cd796dcc043e9f1711",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N023-body-3",
@@ -11807,7 +11754,8 @@
             "sha256": "f1d5c30de884894085bc055a6433c76ac19366220702550b86fca9e0efe716ab",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N023-body-4",
@@ -11823,7 +11771,8 @@
             "sha256": "6399cc27d56e1a8ec9305aadabe488e82e8bd9e01d274a9436c055ed340884a6",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N023-body-5",
@@ -11949,12 +11898,8 @@
       ],
       "primaryIndustry": "泰式餐饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N023-body-2",
-        "N023-body-3",
-        "N023-body-4"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "春莱小院",
       "projectName": "品牌视觉"
     },
@@ -12001,7 +11946,8 @@
             "sha256": "3600ea1fecafd3b191581d459f30580fc24727ca18e20c6f1de6cb5963d91e0c",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N024-body-3",
@@ -12018,7 +11964,8 @@
             "sha256": "1e2abc194298e727e151ad513a4d2e6acc6c7b6928d142bb8579cfc0a52ab3c4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N024-body-4",
@@ -12071,7 +12018,8 @@
             "sha256": "9f5dfcad087c768a6cb41807aa64d46d8f22665a22625fe89cacef358ae522f3",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N024-body-7",
@@ -12142,7 +12090,8 @@
             "sha256": "aca20d9abc291bbbb53d676c00ed51df3afc46f177232df29c54b0eb434dd8fd",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N024-body-11",
@@ -12253,13 +12202,8 @@
       ],
       "primaryIndustry": "冬季热饮",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N024-body-6",
-        "N024-body-10",
-        "N024-body-2",
-        "N024-body-3"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "大胡子可可",
       "projectName": "冬季热饮新品系列"
     },
@@ -12291,7 +12235,8 @@
             "sha256": "94fc57b2351bb37ce43539f3f53b58299f9385d10b17168a0dcea2c1d1d8d2cf",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N025-body-2",
@@ -12308,7 +12253,8 @@
             "sha256": "8b859f1ff7755996b750a956f0dc9b62fb8540d388228889e76d7badd409871a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N025-body-3",
@@ -12397,7 +12343,8 @@
             "sha256": "6a11b8ae93ecad99fdef6b9af69ea033aa0b6f832ba68306675b98979cb38acc",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N025-body-8",
@@ -12514,12 +12461,8 @@
       ],
       "primaryIndustry": "茶饮联名",
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N025-body-1",
-        "N025-body-7",
-        "N025-body-2"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "大胡子可可 × TATAN",
       "projectName": "联名系列"
     },
@@ -12584,7 +12527,8 @@
             "sha256": "c289c6b39fec4d364b2902b4419a06ec0b419b517fbd877f1588c6b09f12f709",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N026-A04",
@@ -12608,7 +12552,8 @@
             "sha256": "22b5eeb0f675298e5c659a2fe07e429b3a3132f233589e64fe53e676ba16ef0b",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N026-A05",
@@ -12627,7 +12572,8 @@
             "sha256": "43e60e514f057bc8786789018404154f419c588f78bd5ab73ad55ce51aa0d5ec",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N026-A06",
@@ -12670,7 +12616,8 @@
             "sha256": "a9463132d31ac6b2b51c9d55dd55e958b023d0d4a8f8241ee508e606c54e285a",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N026-A08",
@@ -12694,13 +12641,8 @@
       ],
       "published": true,
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N026-A03",
-        "N026-A04",
-        "N026-A07",
-        "N026-A05"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "JUJUS",
       "projectName": ""
     },
@@ -12765,7 +12707,8 @@
             "sha256": "ca6d9d94fcdd9c16eee32c8a366ef4d6bba13d2329b4ce329afd983956486868",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N027-A04",
@@ -12789,7 +12732,8 @@
             "sha256": "302389eca38d9d53521c63e68ce69f626451830f56d4063f527f0a7b7a37c0ef",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N027-A05",
@@ -12813,7 +12757,8 @@
             "sha256": "c25e875546ec69872aa4c08cc2c9916b1c3036700df91b9124da74ea6582f168",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N027-A06",
@@ -12875,7 +12820,8 @@
             "sha256": "2e25da7e64db9d165ccf13d5c4dc89e25edfd0f543c927041d8bc7b3697b8027",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N027-A09",
@@ -12918,13 +12864,8 @@
       ],
       "published": true,
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N027-A03",
-        "N027-A04",
-        "N027-A05",
-        "N027-A08"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "瑞瀚心理",
       "projectName": ""
     },
@@ -12986,7 +12927,8 @@
             "sha256": "3cbe171fed7b0e1740b28259d88556d11d8db9fd598ea3882666e5f3b0fc4410",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N028-A04",
@@ -13009,7 +12951,8 @@
             "sha256": "ee6519a0e93efbe3a6f63552342b22bb87bb8867309b43a60bf123e90041915e",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N028-A05",
@@ -13050,7 +12993,8 @@
             "sha256": "c9a178617cb5d81548575854ca76b63dffdb5f8e1996f9fc79fae2a31fbb645b",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N028-A07",
@@ -13073,7 +13017,8 @@
             "sha256": "51bf07c6e49433828e340e8ac21e238f0960e43ac546a2da41d4800e99546070",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N028-A08",
@@ -13173,13 +13118,8 @@
       ],
       "published": true,
       "includeInPortfolioPdf": true,
-      "portfolioPdfImageIds": [
-        "hero",
-        "N028-A03",
-        "N028-A04",
-        "N028-A06",
-        "N028-A07"
-      ],
+      "portfolioPdfHeroSelected": true,
+      "portfolioPdfCoverSelected": false,
       "brandName": "阿泰珍奶",
       "projectName": ""
     }

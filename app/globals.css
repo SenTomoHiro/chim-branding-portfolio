@@ -189,9 +189,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfSourceReferences article>div:nth-child(2) span,.pdfUnavailable { color:#777; font-size:.72rem; }
 .pdfInlineChoice { display:flex; align-items:center; gap:5px; font-size:.72rem; }
 .pdfInlineChoice label { white-space:nowrap; }
-.pdfInlineChoice b { min-width:20px; color:#777; font-size:.68rem; }
-.pdfInlineChoice button { min-width:24px; padding:5px; border:1px solid #ccc; background:#fff; }
-.pdfInlineChoice button:disabled { opacity:.3; }
 .pdfAdmin .adminTitle { position:static; }
 .pdfLocalNotice { margin:28px 0 0; padding:14px 16px; background:#fff0cc; }
 .pdfAdminActions { display:flex; flex-wrap:wrap; gap:16px; margin-top:24px; }
@@ -309,7 +306,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfLongChapter>header h2 { margin:0; font-size:13mm; line-height:1.02; letter-spacing:-.04em; }
 .pdfLongChapter>header>p { margin:0; font-size:8.5pt; line-height:1.62; }
 .pdfLongWaterfall { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5mm; align-items:start; }
-.pdfLongWaterfallColumn { display:flex; flex-direction:column; gap:5mm; min-width:0; }
 .pdfLongWaterfall figure { width:100%; margin:0; background:transparent; }
 .pdfLongWaterfall .pdfPicture { width:100%; height:auto; object-fit:contain; }
 .pdfCaseContentFooter { min-height:0; margin:0 14mm; padding:6mm 0 9mm; background:transparent; color:#777; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }

@@ -1,27 +1,29 @@
 import { describe, expect, it } from "vitest";
-import { assertPdfConfiguration, createInitialPortfolioPdfSelection, getPortfolioPdfCases, resolvePortfolioPdfImages } from "../../lib/pdf-portfolio";
+import { assertPdfConfiguration, getPortfolioPdfCases, initializePortfolioPdfSelection, resolvePortfolioPdfImages } from "../../lib/pdf-portfolio";
 import type { ContentData, PortfolioCase } from "../../lib/types";
 
 const makeCase = (id: string, overrides: Partial<PortfolioCase> = {}): PortfolioCase => ({
   id, brandName: id, projectName: "", intro: "Intro", business: "branding", categories: ["other"], primaryIndustry: "",
   cover: `/media/${id}/cover.jpg`, coverWidth: 1400, coverHeight: 1050, hero: `/media/${id}/hero.jpg`,
   bodyAssets: [
-    { id: `${id}-a`, type: "image", src: `/media/${id}/a.jpg`, layout: "full", section: { eyebrow: "CHAPTER 01", title: "A" } },
-    { id: `${id}-b`, type: "image", src: `/media/${id}/b.jpg`, layout: "full" },
-    { id: `${id}-c`, type: "image", src: `/media/${id}/c.jpg`, layout: "full", section: { eyebrow: "CHAPTER 02", title: "B" } },
+    { id: `${id}-a`, type: "image", src: `/media/${id}/a.jpg`, layout: "full", portfolioPdfSelected: true, section: { eyebrow: "CHAPTER 01", title: "A" } },
+    { id: `${id}-b`, type: "image", src: `/media/${id}/b.jpg`, layout: "full", portfolioPdfSelected: false },
+    { id: `${id}-c`, type: "image", src: `/media/${id}/c.jpg`, layout: "full", portfolioPdfSelected: true, section: { eyebrow: "CHAPTER 02", title: "B" } },
   ],
-  published: true, includeInPortfolioPdf: true, portfolioPdfImageIds: ["hero", `${id}-a`, `${id}-c`],
+  published: true, includeInPortfolioPdf: true, portfolioPdfHeroSelected: true, portfolioPdfCoverSelected: false,
   ...overrides,
 });
 
 describe("portfolio PDF configuration", () => {
   it("initializes with hero and representatives from different chapters", () => {
-    expect(createInitialPortfolioPdfSelection(makeCase("A"))).toEqual(["hero", "A-a", "A-c", "A-b"]);
+    expect(resolvePortfolioPdfImages(initializePortfolioPdfSelection(makeCase("A"))).map((image) => image.id)).toEqual(["hero", "A-a", "A-b", "A-c"]);
   });
 
-  it("resolves selected images in the administrator-defined order", () => {
-    const item = makeCase("A", { portfolioPdfImageIds: ["A-c", "hero", "A-a"] });
-    expect(resolvePortfolioPdfImages(item).map((image) => image.id)).toEqual(["A-c", "hero", "A-a"]);
+  it("always resolves selected images in fixed hero, cover, and body-media order", () => {
+    const item = makeCase("A", { portfolioPdfCoverSelected: true });
+    expect(resolvePortfolioPdfImages(item).map((image) => image.id)).toEqual(["hero", "cover", "A-a", "A-c"]);
+    const reordered = { ...item, bodyAssets: [item.bodyAssets[2], item.bodyAssets[1], item.bodyAssets[0]] };
+    expect(resolvePortfolioPdfImages(reordered).map((image) => image.id)).toEqual(["hero", "cover", "A-c", "A-a"]);
   });
 
   it("splits design and photography portfolios using official business data and order", () => {
@@ -33,9 +35,9 @@ describe("portfolio PDF configuration", () => {
     expect(getPortfolioPdfCases(data, "photography").map((item) => item.id)).toEqual(["P"]);
   });
 
-  it("fails loudly for a missing selected image reference", () => {
-    const item = makeCase("A", { portfolioPdfImageIds: ["missing"] });
+  it("fails loudly when an included published case has no selected media", () => {
+    const item = makeCase("A", { portfolioPdfHeroSelected: false, bodyAssets: makeCase("A").bodyAssets.map((asset) => ({ ...asset, portfolioPdfSelected: false })) });
     const data: ContentData = { cases: [item], defaultOrder: ["A"], photographyCaseOrder: [] };
-    expect(() => assertPdfConfiguration(data)).toThrow(/引用不存在/);
+    expect(() => assertPdfConfiguration(data)).toThrow(/没有精选图片/);
   });
 });
