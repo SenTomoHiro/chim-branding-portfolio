@@ -9,8 +9,8 @@ export async function GET(request: Request, context: { params: Promise<{ target:
   if (process.env.NODE_ENV !== "development") return new NextResponse(null, { status: 404 });
   if (!await isAuthenticated()) return NextResponse.json({ error: "请先登录" }, { status: 401 });
   const { target } = await context.params;
-  if (!/^(?:design|photography|case:[A-Za-z0-9_-]+)$/.test(target)) return NextResponse.json({ error: "PDF 文件目标无效" }, { status: 400 });
-  const filename = target === "design" ? "portfolio-design.pdf" : target === "photography" ? "portfolio-photography.pdf" : path.join("cases", `${target.slice(5).toLowerCase()}.pdf`);
+  if (!/^(?:design|photography|category:(?:food|drinks|ip|other)|case:[A-Za-z0-9_-]+)$/.test(target)) return NextResponse.json({ error: "PDF 文件目标无效" }, { status: 400 });
+  const filename = target === "design" ? "portfolio-design.pdf" : target === "photography" ? "portfolio-photography.pdf" : target.startsWith("category:") ? `portfolio-design-${target.slice(9)}.pdf` : path.join("cases", `${target.slice(5).toLowerCase()}.pdf`);
   try {
     const bytes = await readFile(path.join(process.cwd(), "output", "pdf", filename));
     const download = new URL(request.url).searchParams.get("download") === "1";

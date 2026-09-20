@@ -4,8 +4,8 @@ import { pdfOrientation } from "@/lib/pdf-layout";
 import { caseFullTitle, caseTitleDensity } from "@/lib/case-title";
 import { resolvePortfolioPdfImages } from "@/lib/pdf-portfolio";
 import { assetPath } from "@/lib/site-path";
-import { formatCaseMetadata } from "@/lib/taxonomy";
-import type { Business, PortfolioCase } from "@/lib/types";
+import { categoryLabel, formatCaseMetadata } from "@/lib/taxonomy";
+import type { Business, CaseCategory, PortfolioCase } from "@/lib/types";
 
 function PdfFooter({ project, page, total }: { project: string; page: number; total: number }) {
   return <footer className="pdfFooter"><span>CHIM® / {project}</span><span>{String(page).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>;
@@ -66,9 +66,9 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
   </main>;
 }
 
-export async function PortfolioPdfDocument({ cases, kind }: { cases: PortfolioCase[]; kind: Business }) {
-  const portfolioLabel = kind === "photography" ? "Photography Portfolio" : "Design Portfolio";
-  const coverTitle = kind === "photography" ? <>Photography<br />Portfolio</> : <>Design<br />Portfolio</>;
+export async function PortfolioPdfDocument({ cases, kind, category }: { cases: PortfolioCase[]; kind: Business; category?: CaseCategory }) {
+  const portfolioLabel = kind === "photography" ? "Photography Portfolio" : category ? `Design / ${categoryLabel(category)} Portfolio` : "Design Portfolio";
+  const coverTitle = kind === "photography" ? <>Photography<br />Portfolio</> : category ? <>{categoryLabel(category)}<br />Portfolio</> : <>Design<br />Portfolio</>;
   const resolved = await Promise.all(cases.map(async (item) => ({ item, images: await Promise.all(resolvePortfolioPdfImages(item).map((image) => getPdfMediaInfo(image.id, image.src))) })));
   const directoryPageCount = Math.max(1, Math.ceil(cases.length / 20));
   const firstCasePage = 2 + directoryPageCount;

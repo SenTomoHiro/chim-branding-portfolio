@@ -25,10 +25,11 @@ describe("portfolio PDF configuration", () => {
   });
 
   it("splits design and photography portfolios using official business data and order", () => {
-    const a = makeCase("A"); const b = makeCase("B", { includeInPortfolioPdf: false });
+    const a = makeCase("A"); const b = makeCase("B", { includeInPortfolioPdf: false }); const food = makeCase("F", { categories: ["food"] });
     const photo = makeCase("P", { business: "photography", categories: [] });
-    const data: ContentData = { cases: [a, b, photo], defaultOrder: ["B", "A"], photographyCaseOrder: ["P"] };
-    expect(getPortfolioPdfCases(data, "branding").map((item) => item.id)).toEqual(["A"]);
+    const data: ContentData = { cases: [a, b, food, photo], defaultOrder: ["B", "F", "A"], photographyCaseOrder: ["P"] };
+    expect(getPortfolioPdfCases(data, "branding").map((item) => item.id)).toEqual(["F", "A"]);
+    expect(getPortfolioPdfCases(data, "branding", "food").map((item) => item.id)).toEqual(["F"]);
     expect(getPortfolioPdfCases(data, "photography").map((item) => item.id)).toEqual(["P"]);
   });
 

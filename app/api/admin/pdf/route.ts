@@ -21,9 +21,9 @@ export async function POST(request: Request) {
   if (!await isAuthenticated()) return NextResponse.json({ error: "请先登录" }, { status: 401 });
   try {
     const { target } = await request.json() as { target?: string };
-    if (!target || !/^(?:design|photography|case:[A-Za-z0-9_-]+)$/.test(target)) return NextResponse.json({ error: "PDF 生成目标无效" }, { status: 400 });
+    if (!target || !/^(?:design|photography|category:(?:food|drinks|ip|other)|case:[A-Za-z0-9_-]+)$/.test(target)) return NextResponse.json({ error: "PDF 生成目标无效" }, { status: 400 });
     await runGenerator(target, new URL(request.url).origin);
-    const filename = target === "design" ? "portfolio-design.pdf" : target === "photography" ? "portfolio-photography.pdf" : `${target.slice(5).toLowerCase()}.pdf`;
+    const filename = target === "design" ? "portfolio-design.pdf" : target === "photography" ? "portfolio-photography.pdf" : target.startsWith("category:") ? `portfolio-design-${target.slice(9)}.pdf` : `${target.slice(5).toLowerCase()}.pdf`;
     return NextResponse.json({ target, filename, url: `/api/admin/pdf/file/${encodeURIComponent(target)}` });
   } catch (error) {
     return NextResponse.json({ error: error instanceof Error ? error.message : "PDF 生成失败" }, { status: 500 });

@@ -167,14 +167,19 @@ async function render(route, filename) {
 try {
   if (target === "all" || target === "design") await render("/print/portfolio/design/", path.join(outputDirectory, "portfolio-design.pdf"));
   if (target === "all" || target === "photography") await render("/print/portfolio/photography/", path.join(outputDirectory, "portfolio-photography.pdf"));
+  if (target.startsWith("category:")) {
+    const category = target.slice(9);
+    if (!["food", "drinks", "ip", "other"].includes(category)) throw new Error(`不支持的设计分类：${category}`);
+    await render(`/print/portfolio/design-${category}/`, path.join(outputDirectory, `portfolio-design-${category}.pdf`));
+  }
   if (target === "all") {
     for (const item of publishedCases) await render(`/print/case/${item.id.toLowerCase()}/`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
   } else if (target.startsWith("case:")) {
     const id = target.slice(5).toLowerCase();
-    const item = publishedCases.find((candidate) => candidate.id.toLowerCase() === id);
-    if (!item) throw new Error(`找不到已发布案例：${id}`);
+    const item = content.cases.find((candidate) => candidate.id.toLowerCase() === id);
+    if (!item) throw new Error(`找不到案例：${id}`);
     await render(`/print/case/${id}/`, path.join(outputDirectory, "cases", `${id}.pdf`));
-  } else if (target !== "design" && target !== "photography") throw new Error(`不支持的 PDF 生成目标：${target}`);
+  } else if (target !== "design" && target !== "photography" && !target.startsWith("category:")) throw new Error(`不支持的 PDF 生成目标：${target}`);
 } finally {
   await browser.close();
   if (server) await new Promise((resolve) => server.close(resolve));
