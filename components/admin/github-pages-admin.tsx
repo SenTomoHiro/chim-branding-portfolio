@@ -14,15 +14,13 @@ import { assetPath } from "@/lib/site-path";
 
 const api = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const contentPath = "data/content.json";
-const workflow = "deploy-pages.yml";
 type RemoteFile = { content: string; sha: string };
-type WorkflowRun = { id: number; html_url: string; status: string; conclusion: string | null; display_title: string };
+type DeploymentMarker = { request_id?: string; target?: string };
 let session: { token: string; data?: ContentData; sha: string } = { token: "", sha: "" };
 
 const decode = (value: string) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g, "")), (character) => character.charCodeAt(0)))) as ContentData;
 const base64 = (bytes: Uint8Array) => { let result = ""; for (let index = 0; index < bytes.length; index += 0x8000) result += String.fromCharCode(...bytes.subarray(index, index + 0x8000)); return btoa(result); };
 const wait = (milliseconds: number) => new Promise((resolve) => setTimeout(resolve, milliseconds));
-const publicHeaders = { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
 const responseError = async (response: Response, fallback: string) => {
   const body = await response.json().catch(() => ({})) as { message?: string };
   return `${fallback}（HTTP ${response.status}${body.message ? `：${body.message}` : ""}）`;
@@ -74,21 +72,20 @@ export function GitHubPagesAdmin() {
 
   const generatePdf = useMemo<PdfGenerator>(() => async (target) => {
     const requestId = crypto.randomUUID();
-    const expectedRunName = `Admin PDF ${requestId} · ${target}`;
     const dispatch = await fetch(`${api}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ event_type: "admin_pdf_generate", client_payload: { request_id: requestId, target } }) });
     if (!dispatch.ok) throw new Error(await responseError(dispatch, "无法启动 PDF 生成"));
-    let run: WorkflowRun | undefined;
-    for (let attempt = 0; attempt < 30; attempt += 1) {
-      const response = await fetch(`${api}/actions/workflows/${workflow}/runs?branch=main&event=repository_dispatch&per_page=20`, { headers: publicHeaders });
-      if (!response.ok) throw new Error(await responseError(response, "无法读取 GitHub Actions 进度"));
-      const body = await response.json() as { workflow_runs: WorkflowRun[] };
-      run = body.workflow_runs.find((entry) => entry.display_title === expectedRunName);
-      if (run?.status === "completed") break;
-      if (attempt < 29) await wait(20000);
+    const markerUrl = assetPath(`/admin-build/${requestId}.json`);
+    for (let attempt = 0; attempt < 129; attempt += 1) {
+      const response = await fetch(`${markerUrl}?v=${Date.now()}-${attempt}`, { cache: "no-store" });
+      if (response.ok) {
+        const marker = await response.json().catch(() => ({})) as DeploymentMarker;
+        if (marker.request_id === requestId && marker.target === target) return pdfResult(target);
+      } else if (response.status !== 404) {
+        throw new Error(`无法确认 PDF 部署（HTTP ${response.status}）。`);
+      }
+      if (attempt < 128) await wait(7000);
     }
-    if (!run || run.status !== "completed") throw new Error("GitHub Actions 在 10 分钟内未完成。");
-    if (run.conclusion !== "success") throw new Error(`GitHub Actions 未成功：${run.conclusion || "unknown"}`);
-    return pdfResult(target);
+    throw new Error("PDF 生成或部署超时，请检查 GitHub Actions。");
   // Executor must use the current in-memory token.
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token]);

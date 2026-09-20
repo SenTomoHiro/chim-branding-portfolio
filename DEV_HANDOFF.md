@@ -13,7 +13,7 @@ GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正
 - PDF 精选、章节、Full / Half 都记录在同一媒体项上，网站与全部 PDF 共享顺序。
 - 本地与 GitHub Pages 后台共用 `AdminHeader`、`AdminDashboard`、`CaseForm` 和 `PdfAdmin`，只替换认证、持久化和 PDF 执行适配器。
 - Pages 后台只在页面内存保存 GitHub Token，直接通过 GitHub Contents API 写入 `main`；不得写入 localStorage、sessionStorage 或 cookie。
-- Pages PDF 操作通过 `repository_dispatch` 触发既有 `deploy-pages.yml`，由 `build:pages` 生成全部 PDF 并部署。Fine-grained PAT 最小权限仅为该仓库的 `Contents: Read and write`；公开 workflow run 的进度查询不发送 Token。
+- Pages PDF 操作通过 `repository_dispatch` 触发既有 `deploy-pages.yml`，由 `build:pages` 生成全部 PDF；工作流在构建成功后写入 `out/admin-build/<request_id>.json`，后台以该 Pages 部署标记确认 PDF 已上线，不查询 GitHub Actions API。Fine-grained PAT 最小权限仅为该仓库的 `Contents: Read and write`。
 
 ## Verification
 

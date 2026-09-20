@@ -34,6 +34,15 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /chim-branding-portfolio
           SITE_URL: https://sentomohiro.github.io/chim-branding-portfolio
+      - name: Create admin deployment marker
+        if: github.event_name == 'repository_dispatch'
+        env:
+          REQUEST_ID: ${{ github.event.client_payload.request_id }}
+          PDF_TARGET: ${{ github.event.client_payload.target }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          mkdir -p out/admin-build
+          node -e 'const fs = require("node:fs"); const id = process.env.REQUEST_ID; if (!/^[0-9a-f-]{36}$/i.test(id)) throw new Error("Invalid request_id"); fs.writeFileSync(`out/admin-build/${id}.json`, `${JSON.stringify({ request_id: id, target: process.env.PDF_TARGET, commit_sha: process.env.COMMIT_SHA })}\n`);'
       - uses: actions/upload-pages-artifact@v4
         with:
           path: out

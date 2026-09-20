@@ -107,44 +107,69 @@ test("Pages admin uploads multiple media sequentially and derives image roles", 
   await expect(page.locator('[data-media-role="hero"]')).toContainText("详情页首图");
 });
 
-test("Pages admin generates PDFs through a precisely correlated repository dispatch", async ({ page }) => {
-  let dispatchPayload: { event_type: string; client_payload: { request_id: string; target: string } } | undefined;
-  let workflowDispatchCalls = 0;
-  let runAuthorization: string | undefined;
+test("Pages admin confirms every PDF target through its exact deployment marker", async ({ page }) => {
+  const dispatches: Array<{ event_type: string; client_payload: { request_id: string; target: string } }> = [];
+  const markerAttempts = new Map<string, number>();
+  let actionsApiCalls = 0;
+  page.on("request", (request) => { if (new URL(request.url()).pathname.includes("/actions/")) actionsApiCalls += 1; });
   await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio", (route) => route.fulfill({ json: { id: 1 } }));
   await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/contents/data/content.json?ref=main", (route) => route.fulfill({ json: { content: Buffer.from(JSON.stringify(content)).toString("base64"), sha: "fixture-sha" } }));
   await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/dispatches", async (route) => {
-    dispatchPayload = route.request().postDataJSON() as typeof dispatchPayload;
+    dispatches.push(route.request().postDataJSON() as typeof dispatches[number]);
     await route.fulfill({ status: 204 });
   });
-  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/actions/workflows/deploy-pages.yml/dispatches", async (route) => {
-    workflowDispatchCalls += 1;
-    await route.fulfill({ status: 500 });
-  });
-  await page.route(/\/actions\/workflows\/deploy-pages\.yml\/runs\?/, async (route) => {
-    runAuthorization = route.request().headers().authorization;
-    const requestId = dispatchPayload?.client_payload.request_id;
-    await route.fulfill({ json: { workflow_runs: [
-      { id: 41, html_url: "https://github.com/example/run/41", status: "completed", conclusion: "failure", display_title: "Admin PDF another-request · design" },
-      { id: 42, html_url: "https://github.com/example/run/42", status: "completed", conclusion: "success", display_title: `Admin PDF ${requestId} · design` },
-    ] } });
+  await page.route(/\/chim-branding-portfolio\/admin-build\/[^/?]+\.json\?/, async (route) => {
+    const requestId = decodeURIComponent(new URL(route.request().url()).pathname.split("/").at(-1)!.replace(".json", ""));
+    const target = dispatches.find((entry) => entry.client_payload.request_id === requestId)?.client_payload.target;
+    const attempt = (markerAttempts.get(requestId) || 0) + 1;
+    markerAttempts.set(requestId, attempt);
+    if (target === "design" && attempt === 1) { await route.fulfill({ status: 404 }); return; }
+    if (target === "design" && attempt === 2) { await route.fulfill({ json: { request_id: "another-request", target } }); return; }
+    await route.fulfill({ json: { request_id: requestId, target } });
   });
 
+  await page.clock.install();
   await page.goto(`${base}/admin/pdf/`);
   await expect(page.locator(".fieldHint")).toContainText("权限只需 Contents: Read and write");
   await expect(page.locator(".fieldHint")).not.toContainText("Actions");
   await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
   await page.getByRole("button", { name: "连接 GitHub" }).click();
-  await page.getByRole("button", { name: "生成 Design Portfolio" }).click();
-  await expect(page.getByRole("status")).toHaveText("生成成功");
 
-  expect(dispatchPayload?.event_type).toBe("admin_pdf_generate");
-  expect(dispatchPayload?.client_payload.target).toBe("design");
-  expect(dispatchPayload?.client_payload.request_id).toMatch(/^[0-9a-f]{8}-[0-9a-f-]{27}$/i);
-  expect(workflowDispatchCalls).toBe(0);
-  expect(runAuthorization).toBeUndefined();
-  await expect(page.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf`);
-  await expect(page.getByRole("link", { name: "下载" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf?download=1`);
+  const designAction = page.locator(".pdfAdminActions .pdfGenerateAction").nth(0);
+  await designAction.getByRole("button").click();
+  await expect.poll(() => dispatches.length).toBe(1);
+  const designId = dispatches[0].client_payload.request_id;
+  await expect.poll(() => markerAttempts.get(designId)).toBe(1);
+  await expect(designAction.getByRole("status")).toHaveText("正在生成…");
+  await page.clock.fastForward(7000);
+  await expect.poll(() => markerAttempts.get(designId)).toBe(2);
+  await expect(designAction.getByRole("status")).toHaveText("正在生成…");
+  await page.clock.fastForward(7000);
+  await expect(designAction.getByRole("status")).toHaveText("生成成功");
+  await expect(designAction.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf`);
+  await expect(designAction.getByRole("link", { name: "下载" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf?download=1`);
+
+  const photographyAction = page.locator(".pdfAdminActions .pdfGenerateAction").nth(1);
+  await photographyAction.getByRole("button").click();
+  await expect(photographyAction.getByRole("status")).toHaveText("生成成功");
+  await expect(photographyAction.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/portfolio-photography.pdf`);
+
+  const categoryAction = page.locator(".pdfCategoryGrid article").filter({ hasText: "餐饮" }).locator(".pdfGenerateAction");
+  await categoryAction.getByRole("button").click();
+  await expect(categoryAction.getByRole("status")).toHaveText("生成成功");
+  await expect(categoryAction.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/portfolio-design-food.pdf`);
+
+  const caseItem = content.cases.find((item) => item.id === "N014")!;
+  const caseAction = page.locator(".pdfCaseManagement article").filter({ hasText: caseItem.brandName }).locator(".pdfGenerateAction");
+  await caseAction.getByRole("button").click();
+  await expect(caseAction.getByRole("status")).toHaveText("生成成功");
+  await expect(caseAction.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/cases/n014.pdf`);
+
+  expect(dispatches.map((entry) => entry.event_type)).toEqual(["admin_pdf_generate", "admin_pdf_generate", "admin_pdf_generate", "admin_pdf_generate"]);
+  expect(dispatches.map((entry) => entry.client_payload.target)).toEqual(["design", "photography", "category:food", "case:N014"]);
+  expect(dispatches.every((entry) => /^[0-9a-f]{8}-[0-9a-f-]{27}$/i.test(entry.client_payload.request_id))).toBe(true);
+  expect(new Set(dispatches.map((entry) => entry.client_payload.request_id)).size).toBe(4);
+  expect(actionsApiCalls).toBe(0);
 });
 
 test("Pages admin reports the real repository dispatch error", async ({ page }) => {
