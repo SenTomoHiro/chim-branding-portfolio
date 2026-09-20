@@ -34,7 +34,7 @@ describe("portfolio additions Sol v1", () => {
     expect(manifest.cases.map((item) => item.finalImageCount)).toEqual([12, 11, 10, 10, 15, 12]);
     expect(manifest.cases.map((item) => item.chapterCount)).toEqual([0, 2, 0, 0, 3, 2]);
     expect(content.cases.filter((item) => item.id === "L012")).toHaveLength(1);
-    expect(content.cases.find((item) => item.id === "L012")?.name).toBe("文柠记");
+    expect(content.cases.find((item) => item.id === "L012")?.brandName).toBe("文柠记");
     for (const id of targets) expect(content.cases.filter((item) => item.id === id), id).toHaveLength(1);
   });
 

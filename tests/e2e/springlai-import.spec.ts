@@ -1,6 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
+import { caseFullTitle } from "../../lib/case-title";
 import type { ContentData } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
@@ -18,12 +19,12 @@ async function expectNoHorizontalOverflow(page: Page) {
 }
 
 test("the frozen Springlai import contains exactly seven ordered cases and 88 mapped assets", async () => {
-  expect(springlai.map((item) => item.name)).toEqual(importMap.cases.map((item) => item.name));
+  expect(springlai.map((item) => caseFullTitle(item))).toEqual(importMap.cases.map((item) => item.name));
   expect(springlai.map((item) => item.bodyAssets.length)).toEqual([33, 10, 7, 8, 21, 3, 6]);
   expect(springlai.flatMap((item) => item.bodyAssets)).toHaveLength(88);
   expect(importMap.importedMediaCount).toBe(88);
   for (const item of springlai) {
-    const mapped = importMap.assets.filter((asset) => asset.case === item.name).sort((a, b) => a.order - b.order);
+    const mapped = importMap.assets.filter((asset) => asset.case === caseFullTitle(item)).sort((a, b) => a.order - b.order);
     expect(item.bodyAssets.map((asset) => asset.src)).toEqual(mapped.map((asset) => asset.websiteAsset));
   }
   expect(content.cases.filter((item) => item.id.startsWith("SL"))).toHaveLength(7);
@@ -40,9 +41,9 @@ test("Springlai detail pages load all media without request, console, or layout 
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
     await page.setViewportSize(viewport);
     for (const item of springlai) {
-      const response = await page.goto(casePath(item.name), { waitUntil: "networkidle" });
-      expect(response?.status(), item.name).toBe(200);
-      await expect(page.getByRole("heading", { name: item.name, exact: true })).toBeVisible();
+      const response = await page.goto(casePath(item.id), { waitUntil: "networkidle" });
+      expect(response?.status(), caseFullTitle(item)).toBe(200);
+      await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
       await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
       await page.locator(".nextCase").scrollIntoViewIfNeeded();
       await expectNoHorizontalOverflow(page);
@@ -70,7 +71,7 @@ test("Brand Evolution and peach chapters preserve the frozen editorial sequence"
   expect(peach.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
     "桃与乌龙", "桃花艺人", "桂花艺人",
   ]);
-  const vi04 = importMap.assets.filter((asset) => asset.case === brand.name && asset.order >= 28).sort((a, b) => a.order - b.order);
+  const vi04 = importMap.assets.filter((asset) => asset.case === caseFullTitle(brand) && asset.order >= 28).sort((a, b) => a.order - b.order);
   expect(vi04.map((asset) => asset.sourceFinalAsset)).toEqual([
     "final-assets/01-overall-vi/28-VI-04-·-25年品牌升级与2025春夏-品牌升级-电子菜单.jpg",
     "final-assets/01-overall-vi/29-VI-04-·-25年品牌升级与2025春夏-品牌升级-新店围挡.jpg",
@@ -81,7 +82,7 @@ test("Brand Evolution and peach chapters preserve the frozen editorial sequence"
   ]);
 
   for (const [item, headings] of [[brand, ["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]], [peach, ["桃与乌龙", "桃花艺人", "桂花艺人"]]] as const) {
-    await page.goto(casePath(item.name));
+    await page.goto(casePath(item.id));
     await expect(page.locator(".mediaSectionHeading h2")).toHaveText([...headings]);
     await expect(page.locator(".mediaSectionHeading p")).toHaveText(headings.map((_, index) => `CHAPTER ${String(index + 1).padStart(2, "0")}`));
   }
@@ -92,10 +93,11 @@ test("Springlai cases remain visible and editable in the local Admin", async ({ 
   await page.getByLabel("管理员密码").fill("e2e-password");
   await page.getByRole("button", { name: "登录" }).click();
   await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-  for (const item of springlai) await expect(page.locator(".adminCaseList article").filter({ hasText: item.name })).toHaveCount(1);
-  const brandRow = page.locator(".adminCaseList article").filter({ hasText: springlai[0].name });
+  for (const item of springlai) await expect(page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(item) })).toHaveCount(1);
+  const brandRow = page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(springlai[0]) });
   await brandRow.getByRole("link", { name: "编辑" }).click();
-  await expect(page.getByLabel("名称", { exact: true })).toHaveValue(springlai[0].name);
+  await expect(page.getByLabel("品牌名")).toHaveValue(springlai[0].brandName);
+  await expect(page.getByLabel("项目名（可选）")).toHaveValue(springlai[0].projectName);
   await expect(page.locator(".bodyAssetList article")).toHaveCount(33);
 });
 
@@ -104,7 +106,7 @@ test("Chapter Admin edits, persists, reorders and removes headers without deleti
   await page.getByLabel("管理员密码").fill("e2e-password");
   await page.getByRole("button", { name: "登录" }).click();
   const brand = springlai.find((item) => item.id === "SL001")!;
-  await page.locator(".adminCaseList article").filter({ hasText: brand.name }).getByRole("link", { name: "编辑" }).click();
+  await page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(brand) }).getByRole("link", { name: "编辑" }).click();
   await expect(page.locator(".chapterHeader")).toHaveCount(4);
   await expect(page.locator(".chapterNumber")).toHaveText(["CHAPTER 01", "CHAPTER 02", "CHAPTER 03", "CHAPTER 04"]);
   expect(await page.getByLabel("章节标题").evaluateAll((inputs) => inputs.map((input) => (input as HTMLInputElement).value))).toEqual(["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]);
@@ -142,7 +144,7 @@ test("Chapter Admin edits, persists, reorders and removes headers without deleti
   page.once("dialog", (dialog) => dialog.accept());
   await page.getByRole("link", { name: "返回后台" }).click();
   const flat = content.cases.find((item) => item.published && !item.bodyAssets.some((asset) => asset.section) && item.bodyAssets.length > 0)!;
-  await page.locator(".adminCaseList article").filter({ hasText: flat.name }).getByRole("link", { name: "编辑" }).click();
+  await page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(flat) }).getByRole("link", { name: "编辑" }).click();
   await expect(page.locator(".chapterHeader,.unsectionedHeader")).toHaveCount(0);
   await expect(page.locator(".bodyAssetList article")).toHaveCount(flat.bodyAssets.length);
   await expect(page.getByRole("button", { name: "＋ 添加章节" })).toBeVisible();

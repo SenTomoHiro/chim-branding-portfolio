@@ -42,8 +42,9 @@ const provenance = (value: unknown): AssetProvenance | undefined => {
 export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCase {
   if (!value || typeof value !== "object") throw new Error("案例数据无效");
   const input = value as Record<string, unknown>;
-  const name = String(input.name || "").trim();
-  if (!name) throw new Error("请输入案例名称");
+  const brandName = String(input.brandName || "").trim();
+  const projectName = String(input.projectName || "").trim();
+  if (!brandName) throw new Error("请输入品牌名");
   const business = String(input.business || "") as Business;
   if (!businessValues.has(business)) throw new Error("请选择所属业务");
   const submittedCategories = [...new Set(strings(input.categories))];
@@ -55,7 +56,7 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   }).filter((item) => item.src) : []);
   const portfolioPdfImageIds = [...new Set(strings(input.portfolioPdfImageIds))];
   const result: PortfolioCase = {
-    id: existing?.id || String(input.id || `C${Date.now()}`), name,
+    id: existing?.id || String(input.id || `C${Date.now()}`), brandName, projectName,
     intro: String(input.intro || "").trim(), business,
     categories: categories as CaseCategory[], primaryIndustry: String(input.primaryIndustry || "").trim(),
     cover: String(input.cover || ""),
@@ -75,6 +76,6 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   return result;
 }
 
-export function assertUniqueName(data: ContentData, item: PortfolioCase) {
-  if (data.cases.some((entry) => entry.name === item.name && entry.id !== item.id)) throw new Error("案例名称已存在，请使用唯一名称。");
+export function assertUniqueTitle(data: ContentData, item: PortfolioCase) {
+  if (data.cases.some((entry) => entry.brandName === item.brandName && entry.projectName === item.projectName && entry.id !== item.id)) throw new Error("品牌名与项目名组合已存在，请使用唯一标题。");
 }

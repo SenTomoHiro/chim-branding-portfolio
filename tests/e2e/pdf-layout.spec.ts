@@ -1,6 +1,5 @@
 import { expect, test } from "@playwright/test";
 import { readFileSync } from "node:fs";
-import { splitPdfTitle } from "../../lib/pdf-layout";
 import type { ContentData } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
@@ -15,11 +14,11 @@ test("single-case PDF keeps the hero clean and moves case copy into a separate s
     const hero = page.locator(".pdfLongHero");
     const heroImage = hero.locator(":scope > .pdfPicture");
     const info = page.locator("[data-single-case-info='true']");
-    const title = splitPdfTitle(item.name);
     await expect(hero.locator("h1, .pdfLongHeroOverlay, .pdfLongHeroCopy")).toHaveCount(0);
     await expect(hero.locator("[data-single-case-edge-meta='true']")).toContainText(`Project / ${id}`);
-    await expect(info.locator(".pdfTitlePrimary")).toHaveText(title.primary);
-    if (title.secondary) await expect(info.locator(".pdfTitleSecondary")).toHaveText(title.secondary);
+    await expect(info.locator(".pdfTitlePrimary")).toHaveText(item.brandName);
+    if (item.projectName) await expect(info.locator(".pdfTitleSecondary")).toHaveText(item.projectName);
+    else await expect(info.locator(".pdfTitleSecondary")).toHaveCount(0);
     await expect(info.locator(":scope > p")).toHaveText(item.intro);
 
     const layout = await heroImage.evaluate((image: HTMLImageElement) => {

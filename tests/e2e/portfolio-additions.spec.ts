@@ -1,6 +1,7 @@
 import { expect, test, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
+import { caseFullTitle } from "../../lib/case-title";
 import type { ContentData } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
@@ -22,8 +23,8 @@ test("all six completed cases render their selected media and Chapters on deskto
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }]) {
     await page.setViewportSize(viewport);
     for (const item of additions) {
-      expect((await page.goto(casePath(item.name), { waitUntil: "networkidle" }))?.status(), item.name).toBe(200);
-      await expect(page.getByRole("heading", { name: item.name, exact: true })).toBeVisible();
+      expect((await page.goto(casePath(item.id), { waitUntil: "networkidle" }))?.status(), caseFullTitle(item)).toBe(200);
+      await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
       await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
       await expect(page.locator(".mediaSectionHeading h2")).toHaveText(item.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title));
       await page.locator(".nextCase").scrollIntoViewIfNeeded();
@@ -41,10 +42,11 @@ test("Admin lists all six cases once and exposes their exact media and Chapter s
   await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
 
   for (const item of additions) {
-    const row = page.locator(".adminCaseList article").filter({ hasText: item.name });
-    await expect(row, item.name).toHaveCount(1);
+    const row = page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(item) });
+    await expect(row, caseFullTitle(item)).toHaveCount(1);
     await row.getByRole("link", { name: "编辑" }).click();
-    await expect(page.getByLabel("名称", { exact: true })).toHaveValue(item.name);
+    await expect(page.getByLabel("品牌名")).toHaveValue(item.brandName);
+    await expect(page.getByLabel("项目名（可选）")).toHaveValue(item.projectName);
     await expect(page.locator(".bodyAssetList article")).toHaveCount(item.bodyAssets.length);
     await expect(page.locator(".chapterHeader")).toHaveCount(item.bodyAssets.filter((asset) => asset.section).length);
     await page.getByRole("link", { name: "返回后台" }).click();

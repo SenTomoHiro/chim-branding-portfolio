@@ -2,7 +2,6 @@
   "cases": [
     {
       "id": "N001",
-      "name": "W² Concept Cafe",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N001/v3-cover.webp",
       "coverWidth": 1400,
@@ -163,11 +162,12 @@
         "N001-V3-A01",
         "N001-V3-A02",
         "N001-V3-A03"
-      ]
+      ],
+      "brandName": "W² Concept Cafe",
+      "projectName": ""
     },
     {
       "id": "N002",
-      "name": "粤有福手作",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N002/v3-cover.webp",
       "coverWidth": 1400,
@@ -518,11 +518,12 @@
         "N002-V3-A02",
         "N002-V3-A04",
         "N002-V3-A05"
-      ]
+      ],
+      "brandName": "粤有福手作",
+      "projectName": ""
     },
     {
       "id": "N003",
-      "name": "小满",
       "intro": "餐饮品牌视觉与Visual Identity设计。",
       "cover": "/media/cases/N003/v3-cover.webp",
       "coverWidth": 1400,
@@ -796,11 +797,12 @@
         "N003-V3-A01",
         "N003-V3-A02",
         "N003-V3-A03"
-      ]
+      ],
+      "brandName": "小满",
+      "projectName": ""
     },
     {
       "id": "N004",
-      "name": "三餐好乡邻",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N004/v3-cover.webp",
       "coverWidth": 1299,
@@ -998,11 +1000,12 @@
         "N004-V3-A01",
         "N004-V3-A02",
         "N004-V3-A04"
-      ]
+      ],
+      "brandName": "三餐好乡邻",
+      "projectName": ""
     },
     {
       "id": "N005",
-      "name": "水果老爸 Fruits Pops",
       "intro": "甜品品牌视觉与Packaging设计。",
       "cover": "/media/cases/N005/v3-cover.webp",
       "coverWidth": 1400,
@@ -1295,11 +1298,12 @@
         "N005-V3-A01",
         "N005-V3-A02",
         "N005-V3-A03"
-      ]
+      ],
+      "brandName": "水果老爸 Fruits Pops",
+      "projectName": ""
     },
     {
       "id": "N006",
-      "name": "Oi·Coffee",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N006/v3-cover.webp",
       "coverWidth": 1354,
@@ -1632,11 +1636,12 @@
         "N006-V3-A02",
         "N006-V3-A03",
         "N006-V3-A04"
-      ]
+      ],
+      "brandName": "Oi",
+      "projectName": "Coffee"
     },
     {
       "id": "N007",
-      "name": "稻米香·湘菜小炒",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N007/v3-cover.webp",
       "coverWidth": 1400,
@@ -1872,11 +1877,12 @@
         "N007-V3-A01",
         "N007-V3-A02",
         "N007-V3-A03"
-      ]
+      ],
+      "brandName": "稻米香",
+      "projectName": "湘菜小炒"
     },
     {
       "id": "N008",
-      "name": "果壳里 Shell Nook",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N008/v3-cover.webp",
       "coverWidth": 1400,
@@ -2112,11 +2118,12 @@
         "N008-V3-A01",
         "N008-V3-A02",
         "N008-V3-A03"
-      ]
+      ],
+      "brandName": "果壳里 Shell Nook",
+      "projectName": ""
     },
     {
       "id": "N009",
-      "name": "饭点时光",
       "intro": "餐饮品牌视觉与Art Direction设计。",
       "cover": "/media/cases/N009/v3-cover.webp",
       "coverWidth": 1400,
@@ -2409,11 +2416,12 @@
         "N009-V3-A01",
         "N009-V3-A02",
         "N009-V3-A03"
-      ]
+      ],
+      "brandName": "饭点时光",
+      "projectName": ""
     },
     {
       "id": "N010",
-      "name": "禾之伴 RURU Bite",
       "intro": "轻食品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N010/v3-cover.webp",
       "coverWidth": 1400,
@@ -2516,11 +2524,12 @@
         "N010-V3-A01",
         "N010-V3-A03",
         "N010-V3-A04"
-      ]
+      ],
+      "brandName": "禾之伴 RURU Bite",
+      "projectName": ""
     },
     {
       "id": "N011",
-      "name": "豚豚冰屋 Tone",
       "intro": "甜品品牌视觉与IP Design设计。",
       "cover": "/media/cases/N011/v3-cover.webp",
       "coverWidth": 1400,
@@ -2776,11 +2785,12 @@
         "N011-V3-A01",
         "N011-V3-A02",
         "N011-V3-A03"
-      ]
+      ],
+      "brandName": "豚豚冰屋 Tone",
+      "projectName": ""
     },
     {
       "id": "N012",
-      "name": "郑社长满分果汁",
       "intro": "饮品品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N012/v3-cover.webp",
       "coverWidth": 1400,
@@ -3169,11 +3179,12 @@
         "N012-V3-A02",
         "N012-V3-A03",
         "N012-V3-A04"
-      ]
+      ],
+      "brandName": "郑社长满分果汁",
+      "projectName": ""
     },
     {
       "id": "N013",
-      "name": "堡乎乎 Manual Burger",
       "intro": "餐饮品牌视觉与IP Design设计。",
       "cover": "/media/cases/N013/v3-cover.webp",
       "coverWidth": 930,
@@ -3467,11 +3478,12 @@
         "N013-V3-A01",
         "N013-V3-A02",
         "N013-V3-A03"
-      ]
+      ],
+      "brandName": "堡乎乎 Manual Burger",
+      "projectName": ""
     },
     {
       "id": "N014",
-      "name": "欢树 Halo Tree",
       "intro": "咖啡品牌视觉与Art Direction设计。",
       "cover": "/media/cases/N014/v3-cover.webp",
       "coverWidth": 1400,
@@ -3784,11 +3796,12 @@
         "N014-V3-A01",
         "N014-V3-A02",
         "N014-V3-A03"
-      ]
+      ],
+      "brandName": "欢树 Halo Tree",
+      "projectName": ""
     },
     {
       "id": "N015",
-      "name": "台滋味·台式厨房",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N015/v3-cover.webp",
       "coverWidth": 1400,
@@ -4005,11 +4018,12 @@
         "N015-V3-A01",
         "N015-V3-A02",
         "N015-V3-A03"
-      ]
+      ],
+      "brandName": "台滋味",
+      "projectName": "台式厨房"
     },
     {
       "id": "N016",
-      "name": "荟 HUI·威士忌水烟吧",
       "intro": "酒吧品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N016/v3-cover.webp",
       "coverWidth": 932,
@@ -4341,11 +4355,12 @@
         "N016-V3-A02",
         "N016-V3-A03",
         "N016-V3-A04"
-      ]
+      ],
+      "brandName": "荟 HUI",
+      "projectName": "威士忌水烟吧"
     },
     {
       "id": "N017",
-      "name": "大利村·手工鲜汤粉",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N017/v3-cover.webp",
       "coverWidth": 1400,
@@ -4600,11 +4615,12 @@
         "N017-V3-A01",
         "N017-V3-A02",
         "N017-V3-A03"
-      ]
+      ],
+      "brandName": "大利村",
+      "projectName": "手工鲜汤粉"
     },
     {
       "id": "N018",
-      "name": "觅咔咔 Meekaka",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N018/v3-cover.webp",
       "coverWidth": 1400,
@@ -4897,11 +4913,12 @@
         "N018-V3-A01",
         "N018-V3-A02",
         "N018-V3-A03"
-      ]
+      ],
+      "brandName": "觅咔咔 Meekaka",
+      "projectName": ""
     },
     {
       "id": "N019",
-      "name": "鮮燙町 Senmachi",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
       "cover": "/media/cases/N019/v3-cover.webp",
       "coverWidth": 1400,
@@ -5061,11 +5078,12 @@
         "N019-V3-A01",
         "N019-V3-A03",
         "N019-V3-A04"
-      ]
+      ],
+      "brandName": "鮮燙町 Senmachi",
+      "projectName": ""
     },
     {
       "id": "N020",
-      "name": "巴适的钵 Awesome Bo",
       "intro": "餐饮品牌视觉与IP Design设计。",
       "cover": "/media/cases/N020/v3-cover.webp",
       "coverWidth": 853,
@@ -5207,11 +5225,12 @@
         "N020-V3-A01",
         "N020-V3-A02",
         "N020-V3-A04"
-      ]
+      ],
+      "brandName": "巴适的钵 Awesome Bo",
+      "projectName": ""
     },
     {
       "id": "L012",
-      "name": "文柠记",
       "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。",
       "cover": "/media/wenningji/body-02.jpg",
       "coverWidth": 3200,
@@ -5411,11 +5430,12 @@
         "L012-body-2",
         "L012-body-3",
         "L012-body-4"
-      ]
+      ],
+      "brandName": "文柠记",
+      "projectName": ""
     },
     {
       "id": "L001",
-      "name": "仙兔策划·太空兔 Space Bunnies",
       "intro": "仙兔策划·太空兔 Space Bunnies的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L001/psd-cover.webp",
       "coverWidth": 1400,
@@ -5832,11 +5852,12 @@
         "L001-PSD-002",
         "L001-PSD-003",
         "L001-PSD-004"
-      ]
+      ],
+      "brandName": "仙兔策划",
+      "projectName": "太空兔 Space Bunnies"
     },
     {
       "id": "L002",
-      "name": "华南行",
       "intro": "华南行的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L002/psd-cover.webp",
       "coverWidth": 1400,
@@ -6253,11 +6274,12 @@
         "L002-PSD-002",
         "L002-PSD-003",
         "L002-PSD-004"
-      ]
+      ],
+      "brandName": "华南行",
+      "projectName": ""
     },
     {
       "id": "L003",
-      "name": "咖啡肆拾 Coffee Forty",
       "intro": "咖啡肆拾 Coffee Forty的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L003/psd-cover.webp",
       "coverWidth": 1400,
@@ -6481,11 +6503,12 @@
         "L003-PSD-001",
         "L003-PSD-002",
         "L003-PSD-003"
-      ]
+      ],
+      "brandName": "咖啡肆拾 Coffee Forty",
+      "projectName": ""
     },
     {
       "id": "L004",
-      "name": "MaxDona",
       "intro": "MaxDona的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L004/psd-cover.webp",
       "coverWidth": 1400,
@@ -6709,11 +6732,12 @@
         "L004-PSD-001",
         "L004-PSD-002",
         "L004-PSD-003"
-      ]
+      ],
+      "brandName": "MaxDona",
+      "projectName": ""
     },
     {
       "id": "L005",
-      "name": "标志设计合集 I",
       "intro": "标志设计合集 I的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L005/psd-cover.webp",
       "coverWidth": 1109,
@@ -7052,11 +7076,12 @@
       ],
       "primaryIndustry": "多行业",
       "includeInPortfolioPdf": false,
-      "portfolioPdfImageIds": []
+      "portfolioPdfImageIds": [],
+      "brandName": "标志设计合集 I",
+      "projectName": ""
     },
     {
       "id": "L006",
-      "name": "标志设计合集 II",
       "intro": "标志设计合集 II的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L006/psd-cover.webp",
       "coverWidth": 1109,
@@ -7371,11 +7396,12 @@
       ],
       "primaryIndustry": "多行业",
       "includeInPortfolioPdf": false,
-      "portfolioPdfImageIds": []
+      "portfolioPdfImageIds": [],
+      "brandName": "标志设计合集 II",
+      "projectName": ""
     },
     {
       "id": "L007",
-      "name": "迪迈猫粮",
       "intro": "迪迈猫粮的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L007/psd-cover.webp",
       "coverWidth": 1400,
@@ -7599,11 +7625,12 @@
         "L007-PSD-001",
         "L007-PSD-002",
         "L007-PSD-003"
-      ]
+      ],
+      "brandName": "迪迈猫粮",
+      "projectName": ""
     },
     {
       "id": "L008",
-      "name": "胖福月饼",
       "intro": "胖福月饼的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L008/psd-cover.webp",
       "coverWidth": 1400,
@@ -7755,11 +7782,12 @@
         "L008-PSD-001",
         "L008-PSD-002",
         "L008-PSD-003"
-      ]
+      ],
+      "brandName": "胖福月饼",
+      "projectName": ""
     },
     {
       "id": "L009",
-      "name": "hacinana",
       "intro": "hacinana的品牌视觉与平面设计案例。",
       "cover": "/media/cases/L009/psd-cover.webp",
       "coverWidth": 1400,
@@ -7887,11 +7915,12 @@
         "L009-PSD-001",
         "L009-PSD-002",
         "L009-PSD-003"
-      ]
+      ],
+      "brandName": "hacinana",
+      "projectName": ""
     },
     {
       "id": "L021",
-      "name": "ALASSIS·香薰蜡烛",
       "intro": "ALASSIS·香薰蜡烛商业摄影与美术指导案例。",
       "cover": "/media/cases/L021/photo-cover.webp",
       "coverWidth": 1201,
@@ -8087,11 +8116,12 @@
         "L021-A003",
         "L021-A004",
         "L021-A005"
-      ]
+      ],
+      "brandName": "ALASSIS",
+      "projectName": "香薰蜡烛"
     },
     {
       "id": "L023",
-      "name": "迷物家居",
       "intro": "迷物家居商业摄影与美术指导案例。",
       "cover": "/media/cases/L023/photo-cover.webp",
       "coverWidth": 1201,
@@ -8287,11 +8317,12 @@
         "L023-A003",
         "L023-A004",
         "L023-A005"
-      ]
+      ],
+      "brandName": "迷物家居",
+      "projectName": ""
     },
     {
       "id": "L015",
-      "name": "后谷咖啡",
       "intro": "后谷咖啡商业摄影与美术指导案例。",
       "cover": "/media/cases/L015/photo-cover.webp",
       "coverWidth": 1201,
@@ -8449,11 +8480,12 @@
         "L015-A003",
         "L015-A004",
         "L015-A005"
-      ]
+      ],
+      "brandName": "后谷咖啡",
+      "projectName": ""
     },
     {
       "id": "L018",
-      "name": "PavoMea·饼干",
       "intro": "PavoMea·饼干商业摄影与美术指导案例。",
       "cover": "/media/cases/L018/photo-cover.webp",
       "coverWidth": 1201,
@@ -8630,11 +8662,12 @@
         "L018-A003",
         "L018-A004",
         "L018-A005"
-      ]
+      ],
+      "brandName": "PavoMea",
+      "projectName": "饼干"
     },
     {
       "id": "L025",
-      "name": "紫庐·中西餐",
       "intro": "紫庐·中西餐商业摄影与美术指导案例。",
       "cover": "/media/cases/L025/photo-cover.webp",
       "coverWidth": 1201,
@@ -8830,11 +8863,12 @@
         "L025-A003",
         "L025-A004",
         "L025-A005"
-      ]
+      ],
+      "brandName": "紫庐",
+      "projectName": "中西餐"
     },
     {
       "id": "L017",
-      "name": "七港九·茶饮系列",
       "intro": "七港九·茶饮系列商业摄影与美术指导案例。",
       "cover": "/media/cases/L017/photo-cover.webp",
       "coverWidth": 1273,
@@ -8992,11 +9026,12 @@
         "L017-A003",
         "L017-A004",
         "L017-A005"
-      ]
+      ],
+      "brandName": "七港九",
+      "projectName": "茶饮系列"
     },
     {
       "id": "L028",
-      "name": "乌铜走银·银器首饰",
       "intro": "乌铜走银·银器首饰商业摄影与美术指导案例。",
       "cover": "/media/cases/L028/photo-cover.webp",
       "coverWidth": 1024,
@@ -9154,11 +9189,12 @@
         "L028-A002",
         "L028-A004",
         "L028-A005"
-      ]
+      ],
+      "brandName": "乌铜走银",
+      "projectName": "银器首饰"
     },
     {
       "id": "L013",
-      "name": "骄慕·养生茶",
       "intro": "骄慕·养生茶商业摄影与美术指导案例。",
       "cover": "/media/cases/L013/photo-cover.webp",
       "coverWidth": 724,
@@ -9354,11 +9390,12 @@
         "L013-A003",
         "L013-A004",
         "L013-A005"
-      ]
+      ],
+      "brandName": "骄慕",
+      "projectName": "养生茶"
     },
     {
       "id": "L022",
-      "name": "mosanana·眼镜",
       "intro": "mosanana·眼镜商业摄影与美术指导案例。",
       "cover": "/media/cases/L022/photo-cover.webp",
       "coverWidth": 1400,
@@ -9459,11 +9496,12 @@
         "L022-A003",
         "L022-A004",
         "L022-A005"
-      ]
+      ],
+      "brandName": "mosanana",
+      "projectName": "眼镜"
     },
     {
       "id": "L020",
-      "name": "PavoMea·玛德琳蛋糕",
       "intro": "PavoMea·玛德琳蛋糕商业摄影与美术指导案例。",
       "cover": "/media/cases/L020/photo-cover.webp",
       "coverWidth": 1201,
@@ -9583,11 +9621,12 @@
         "L020-A003",
         "L020-A004",
         "L020-A005"
-      ]
+      ],
+      "brandName": "PavoMea",
+      "projectName": "玛德琳蛋糕"
     },
     {
       "id": "L027",
-      "name": "乌铜走银·茶与工艺",
       "intro": "乌铜走银·茶与工艺商业摄影与美术指导案例。",
       "cover": "/media/cases/L027/photo-cover.webp",
       "coverWidth": 1201,
@@ -9745,11 +9784,12 @@
         "L027-A003",
         "L027-A004",
         "L027-A005"
-      ]
+      ],
+      "brandName": "乌铜走银",
+      "projectName": "茶与工艺"
     },
     {
       "id": "L029",
-      "name": "陇上花牛苹果汁",
       "intro": "陇上花牛苹果汁商业摄影与美术指导案例。",
       "cover": "/media/cases/L029/photo-cover.webp",
       "coverWidth": 1400,
@@ -9945,11 +9985,12 @@
         "L029-A003",
         "L029-A004",
         "L029-A005"
-      ]
+      ],
+      "brandName": "陇上花牛苹果汁",
+      "projectName": ""
     },
     {
       "id": "L024",
-      "name": "CT BEE·咖啡与奶茶",
       "intro": "CT BEE·咖啡与奶茶商业摄影与美术指导案例。",
       "cover": "/media/cases/L024/photo-cover.webp",
       "coverWidth": 1400,
@@ -10088,11 +10129,12 @@
         "L024-A003",
         "L024-A004",
         "L024-A005"
-      ]
+      ],
+      "brandName": "CT BEE",
+      "projectName": "咖啡与奶茶"
     },
     {
       "id": "L019",
-      "name": "PavoMea·脆栗子",
       "intro": "PavoMea·脆栗子商业摄影与美术指导案例。",
       "cover": "/media/cases/L019/photo-cover.webp",
       "coverWidth": 724,
@@ -10193,11 +10235,12 @@
         "L019-A002",
         "L019-A004",
         "L019-A005"
-      ]
+      ],
+      "brandName": "PavoMea",
+      "projectName": "脆栗子"
     },
     {
       "id": "L026",
-      "name": "李大妈把猪脚米线",
       "intro": "李大妈把猪脚米线商业摄影与美术指导案例。",
       "cover": "/media/cases/L026/photo-cover.webp",
       "coverWidth": 1400,
@@ -10336,11 +10379,12 @@
         "L026-A003",
         "L026-A004",
         "L026-A005"
-      ]
+      ],
+      "brandName": "李大妈把猪脚米线",
+      "projectName": ""
     },
     {
       "id": "L014",
-      "name": "骄慕·枸杞原浆",
       "intro": "骄慕·枸杞原浆商业摄影与美术指导案例。",
       "cover": "/media/cases/L014/photo-cover.webp",
       "coverWidth": 724,
@@ -10422,11 +10466,12 @@
         "L014-A003",
         "L014-A004",
         "cover"
-      ]
+      ],
+      "brandName": "骄慕",
+      "projectName": "枸杞原浆"
     },
     {
       "id": "L016",
-      "name": "七港九·港九莓莓",
       "intro": "七港九·港九莓莓商业摄影与美术指导案例。",
       "cover": "/media/cases/L016/photo-cover.webp",
       "coverWidth": 1201,
@@ -10488,11 +10533,12 @@
         "hero",
         "L016-A002",
         "cover"
-      ]
+      ],
+      "brandName": "七港九",
+      "projectName": "港九莓莓"
     },
     {
       "id": "SL001",
-      "name": "春莱 · 品牌视觉长期维护 / Brand Visual Evolution",
       "intro": "2022–2025，围绕春莱门店、包装与线上触点持续更新品牌视觉。从早期季节物料到 2023 秋冬 IP，再到 2025 品牌应用更新，呈现一套随经营场景逐步生长的视觉系统。",
       "cover": "/media/springlai/brand-evolution/vi03-07.jpg",
       "coverWidth": 2800,
@@ -10732,11 +10778,12 @@
         "SL001-09",
         "SL001-16",
         "SL001-28"
-      ]
+      ],
+      "brandName": "春莱",
+      "projectName": "品牌视觉长期维护 / Brand Visual Evolution"
     },
     {
       "id": "SL002",
-      "name": "春莱 · 古早咖啡",
       "intro": "2023，以旧报纸、印章与东南亚街头记忆构成古早咖啡系列。视觉从预告、上市海报延展到平台头图与产品菜单，保留朴素而鲜明的手作气质。",
       "cover": "/media/springlai/vintage-coffee/02.jpg",
       "coverWidth": 2133,
@@ -10816,11 +10863,12 @@
         "SL002-02",
         "SL002-03",
         "SL002-04"
-      ]
+      ],
+      "brandName": "春莱",
+      "projectName": "古早咖啡"
     },
     {
       "id": "SL003",
-      "name": "春莱 · 铁观音系列",
       "intro": "2023，以深绿、兰花与器物静物塑造铁观音系列的东方气质。主视觉、预告、限定周边与线上平台保持同一套克制的视觉语言。",
       "cover": "/media/springlai/tieguanyin/02.jpg",
       "coverWidth": 2133,
@@ -10882,11 +10930,12 @@
         "SL003-02",
         "SL003-03",
         "SL003-04"
-      ]
+      ],
+      "brandName": "春莱",
+      "projectName": "铁观音系列"
     },
     {
       "id": "SL004",
-      "name": "春莱 × 小蓝鸭 · 联名系列",
       "intro": "2023，围绕小蓝鸭角色与白玉龙眼产品建立轻松直接的联名视觉。角色、杯身插画、活动机制与平台传播共同组成完整的联名发布节奏。",
       "cover": "/media/springlai/xiaolanya/02.jpg",
       "coverWidth": 2133,
@@ -10955,11 +11004,12 @@
         "SL004-02",
         "SL004-03",
         "SL004-04"
-      ]
+      ],
+      "brandName": "春莱 × 小蓝鸭",
+      "projectName": "联名系列"
     },
     {
       "id": "SL005",
-      "name": "春莱 · 桃花桂花艺人系列",
       "intro": "2023–2024，从桃与乌龙暖饮延伸至桃花、桂花艺人合作。粉桃与金棕两套色彩系统分别组织包装、线下海报、平台头图与艺人同款产品。",
       "cover": "/media/springlai/peach-osmanthus/18.jpg",
       "coverWidth": 1600,
@@ -11121,11 +11171,12 @@
         "SL005-11",
         "SL005-02",
         "SL005-03"
-      ]
+      ],
+      "brandName": "春莱",
+      "projectName": "桃花桂花艺人系列"
     },
     {
       "id": "SL006",
-      "name": "春莱 · 内蒙古限定",
       "intro": "2024，为内蒙古区域限定热饮建立简洁的地域视觉。草原地貌、暖黄色与两款产品共同构成一组短而完整的门店传播单元。",
       "cover": "/media/springlai/inner-mongolia/01.jpg",
       "coverWidth": 2133,
@@ -11162,11 +11213,12 @@
         "hero",
         "SL006-01",
         "SL006-03"
-      ]
+      ],
+      "brandName": "春莱",
+      "projectName": "内蒙古限定"
     },
     {
       "id": "SL007",
-      "name": "春莱 × TATAN · 椰子系列",
       "intro": "2024，以宝宝角色、椰子产品与蓝绿放射图形建立联名系列。完成态海报、平台门店系统与三款产品共同呈现轻快、清晰的商业应用。",
       "cover": "/media/springlai/tatan-coconut/03.jpg",
       "coverWidth": 3200,
@@ -11223,11 +11275,12 @@
         "SL007-01",
         "SL007-02",
         "SL007-04"
-      ]
+      ],
+      "brandName": "春莱 × TATAN",
+      "projectName": "椰子系列"
     },
     {
       "id": "N021",
-      "name": "大胡子抹茶 · 品牌视觉",
       "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。",
       "cover": "/media/mustache-matcha/body-10.jpg",
       "coverWidth": 2222,
@@ -11463,11 +11516,12 @@
         "N021-body-1",
         "N021-body-2",
         "N021-body-3"
-      ]
+      ],
+      "brandName": "大胡子抹茶",
+      "projectName": "品牌视觉"
     },
     {
       "id": "N022",
-      "name": "真心茶事 · 品牌视觉",
       "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。",
       "cover": "/media/zhenxin-tea/body-02.jpg",
       "coverWidth": 2800,
@@ -11695,11 +11749,12 @@
         "N022-body-9",
         "N022-body-2",
         "N022-body-3"
-      ]
+      ],
+      "brandName": "真心茶事",
+      "projectName": "品牌视觉"
     },
     {
       "id": "N023",
-      "name": "春莱小院 · 品牌视觉",
       "intro": "以热带植物插画、泰中双语字形与深绿、赭红色系构建泰北餐饮品牌，并延展菜单与平台视觉。",
       "cover": "/media/chunlai-courtyard/body-04.jpg",
       "coverWidth": 3200,
@@ -11899,11 +11954,12 @@
         "N023-body-2",
         "N023-body-3",
         "N023-body-4"
-      ]
+      ],
+      "brandName": "春莱小院",
+      "projectName": "品牌视觉"
     },
     {
       "id": "N024",
-      "name": "大胡子可可 · 冬季热饮新品系列",
       "intro": "以大胡子人物肖像和高饱和色彩连续发布冬季热饮，并在茶香、香蕉与棉花糖风味中扩展产品叙事。",
       "cover": "/media/mustache-cocoa-winter/body-10.jpg",
       "coverWidth": 1001,
@@ -12203,11 +12259,12 @@
         "N024-body-10",
         "N024-body-2",
         "N024-body-3"
-      ]
+      ],
+      "brandName": "大胡子可可",
+      "projectName": "冬季热饮新品系列"
     },
     {
       "id": "N025",
-      "name": "大胡子可可 × TATAN · 联名系列",
       "intro": "以 TATAN 人物肖像转化为节日角色，在圣诞深绿与新年莓红两套视觉中连接产品、活动与平台传播。",
       "cover": "/media/mustache-cocoa-tatan/body-01.jpg",
       "coverWidth": 2800,
@@ -12462,11 +12519,12 @@
         "N025-body-1",
         "N025-body-7",
         "N025-body-2"
-      ]
+      ],
+      "brandName": "大胡子可可 × TATAN",
+      "projectName": "联名系列"
     },
     {
       "id": "N026",
-      "name": "JUJUS",
       "intro": "以蓝粉配色与波浪字标构建品牌视觉，延展至菜单、包装与工作服。",
       "business": "branding",
       "categories": [
@@ -12642,11 +12700,12 @@
         "N026-A04",
         "N026-A07",
         "N026-A05"
-      ]
+      ],
+      "brandName": "JUJUS",
+      "projectName": ""
     },
     {
       "id": "N027",
-      "name": "瑞瀚心理",
       "intro": "心理咨询品牌视觉更新，涵盖识别系统、数字平台、空间传播与品牌物料。",
       "business": "branding",
       "categories": [
@@ -12865,11 +12924,12 @@
         "N027-A04",
         "N027-A05",
         "N027-A08"
-      ]
+      ],
+      "brandName": "瑞瀚心理",
+      "projectName": ""
     },
     {
       "id": "N028",
-      "name": "阿泰珍奶",
       "intro": "围绕古法泰茶建立品牌视觉，并延展至门店招牌、手提袋、海报与线上视觉。",
       "business": "branding",
       "categories": [
@@ -13119,7 +13179,9 @@
         "N028-A04",
         "N028-A06",
         "N028-A07"
-      ]
+      ],
+      "brandName": "阿泰珍奶",
+      "projectName": ""
     }
   ],
   "defaultOrder": [

@@ -1,5 +1,6 @@
 import type { BodyAsset, Business, ContentData, PortfolioCase } from "./types";
 import { getPublishedCases } from "./sort-cases";
+import { caseFullTitle } from "./case-title";
 
 export const PDF_HERO_REF = "hero";
 export const PDF_COVER_REF = "cover";
@@ -32,7 +33,7 @@ export function resolvePortfolioPdfImages(item: PortfolioCase): PdfImage[] {
   const candidates = new Map(getPdfImageCandidates(item).map((image) => [image.id, image]));
   return item.portfolioPdfImageIds.map((id) => {
     const image = candidates.get(id);
-    if (!image) throw new Error(`案例“${item.name}”的总作品集 PDF 精选图片引用不存在：${id}`);
+    if (!image) throw new Error(`案例“${caseFullTitle(item)}”的总作品集 PDF 精选图片引用不存在：${id}`);
     return image;
   });
 }
@@ -68,8 +69,8 @@ export function getPortfolioPdfCases(data: ContentData, business: Business): Por
 export function assertPdfConfiguration(data: ContentData) {
   for (const item of data.cases) {
     if (!item.published || !item.includeInPortfolioPdf) continue;
-    if (!item.portfolioPdfImageIds.length) throw new Error(`案例“${item.name}”已加入总作品集 PDF，但没有精选图片`);
-    if (new Set(item.portfolioPdfImageIds).size !== item.portfolioPdfImageIds.length) throw new Error(`案例“${item.name}”的总作品集 PDF 精选图片存在重复引用`);
+    if (!item.portfolioPdfImageIds.length) throw new Error(`案例“${caseFullTitle(item)}”已加入总作品集 PDF，但没有精选图片`);
+    if (new Set(item.portfolioPdfImageIds).size !== item.portfolioPdfImageIds.length) throw new Error(`案例“${caseFullTitle(item)}”的总作品集 PDF 精选图片存在重复引用`);
     resolvePortfolioPdfImages(item);
   }
 }

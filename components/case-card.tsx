@@ -7,6 +7,8 @@ import { casePath } from "@/lib/case-route";
 import { saveCaseListEntry } from "@/lib/return-context";
 import { formatCaseMetadata } from "@/lib/taxonomy";
 import type { PortfolioCase } from "@/lib/types";
+import { caseFullTitle } from "@/lib/case-title";
+import { CaseTitle } from "./case-title";
 
 export function CaseCard({ item, index, style }: { item: PortfolioCase; index: number; style?: CSSProperties }) {
   const [hovered, setHovered] = useState(false);
@@ -20,13 +22,13 @@ export function CaseCard({ item, index, style }: { item: PortfolioCase; index: n
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [visible]);
-  const href = casePath(item.name);
+  const href = casePath(item.id);
   return <article ref={ref} className={`caseCard ${visible ? "isVisible" : ""}`} data-case-id={item.id} style={{ ...style, "--reveal-delay": `${(index % 3) * 70}ms` } as CSSProperties}>
     <Link href={href} onNavigate={() => saveCaseListEntry(item.id, href, ref.current)} onPointerEnter={(event) => { if (event.pointerType !== "mouse") return; setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
       <ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none">
-        <div className="caseImage"><Image className="primaryMedia" src={`${assetPath(item.cover)}?v=${item.coverWidth}x${item.coverHeight}`} alt={`${item.name} 案例封面`} width={item.coverWidth} height={item.coverHeight} sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw" priority={index < 3} />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={assetPath(secondary)} alt="" loading="lazy" decoding="async" />}</div>
+        <div className="caseImage"><Image className="primaryMedia" src={`${assetPath(item.cover)}?v=${item.coverWidth}x${item.coverHeight}`} alt={`${caseFullTitle(item)} 案例封面`} width={item.coverWidth} height={item.coverHeight} sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw" priority={index < 3} />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={assetPath(secondary)} alt="" loading="lazy" decoding="async" />}</div>
       </ViewTransition>
-      <div className="caseMeta"><h2>{item.name}</h2><p>{formatCaseMetadata(item)}</p></div>
+      <div className="caseMeta"><CaseTitle item={item} /><p>{formatCaseMetadata(item)}</p></div>
     </Link>
   </article>;
 }

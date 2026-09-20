@@ -10,6 +10,7 @@ type AuditAsset = { case_id:string; asset_id:string; file:string; width:number; 
 
 const order=["L021","L023","L015","L018","L025","L017","L028","L013","L022","L020","L027","L029","L024","L019","L030","L026","L014","L016"];
 const root=process.cwd();
+const importedTitle=(value:string)=>{const [brandName,...project]=value.split("·");return {brandName:brandName.trim(),projectName:project.join("·").trim()};};
 
 function provenance(asset:AuditAsset):AssetProvenance{
   if(asset.source_file!=="旧案例/摄影作品集.ai"||asset.source_type!=="illustrator_pdf_compatible_embedded_image")throw new Error(`Invalid photography source: ${asset.asset_id}`);
@@ -30,7 +31,8 @@ async function main(){
     const current=currentById.get(id);const coverAsset=assetByFile.get(audit.cover_asset);const heroAsset=assetByFile.get(audit.hero_asset);if(!coverAsset||!heroAsset||audit.body_assets.length<1)throw new Error(`${id} is missing cover, hero, or body assets`);
     const mediaDir=path.join(root,"public/media/cases",id);const cover=await optimize(path.join(root,coverAsset.file),path.join(mediaDir,"photo-cover.webp"),"cover");const hero=await optimize(path.join(root,heroAsset.file),path.join(mediaDir,"photo-hero.webp"),"content");const bodyAssets=[];
     for(const [index,file] of audit.body_assets.entries()){const asset=assetByFile.get(file);if(!asset)throw new Error(`Missing ${file}`);const media=await optimize(path.join(root,file),path.join(mediaDir,`photo-body-${String(index+1).padStart(2,"0")}.webp`),"content");bodyAssets.push({id:asset.asset_id,type:"image" as const,src:media.src,layout:index>0&&index<5?"half" as const:"full" as const,provenance:provenance(asset)});}
-    const next: PortfolioCase = {id,name:current?.name??audit.name,intro:current?.intro??`${audit.name}商业摄影与美术指导案例。`,business:"photography",categories:current?.categories??INITIAL_CATEGORIES[id],primaryIndustry:current?.primaryIndustry??audit.industry_primary,cover:cover.src,coverWidth:cover.width,coverHeight:cover.height,hero:hero.src,coverProvenance:provenance(coverAsset),heroProvenance:provenance(heroAsset),bodyAssets,published:true,includeInPortfolioPdf:current?.includeInPortfolioPdf??true,portfolioPdfImageIds:current?.portfolioPdfImageIds??[]};
+    const title=current?{brandName:current.brandName,projectName:current.projectName}:importedTitle(audit.name);
+    const next: PortfolioCase = {id,...title,intro:current?.intro??`${audit.name}商业摄影与美术指导案例。`,business:"photography",categories:current?.categories??INITIAL_CATEGORIES[id],primaryIndustry:current?.primaryIndustry??audit.industry_primary,cover:cover.src,coverWidth:cover.width,coverHeight:cover.height,hero:hero.src,coverProvenance:provenance(coverAsset),heroProvenance:provenance(heroAsset),bodyAssets,published:true,includeInPortfolioPdf:current?.includeInPortfolioPdf??true,portfolioPdfImageIds:current?.portfolioPdfImageIds??[]};
     if (!current) next.portfolioPdfImageIds = createInitialPortfolioPdfSelection(next);
     imported.push(next);
   }

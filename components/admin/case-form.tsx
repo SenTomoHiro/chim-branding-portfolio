@@ -21,8 +21,9 @@ import { getPdfImageCandidates } from "@/lib/pdf-portfolio";
 import type { BodyAsset, Business, CaseCategory, PortfolioCase } from "@/lib/types";
 import { parseCase } from "@/lib/validation";
 import { localPersistence, type AdminPersistence } from "./persistence";
+import { PdfGenerationPanel } from "./pdf-generation-panel";
 
-const empty: PortfolioCase = { id: `C${Date.now()}`, name: "", intro: "", business: "branding", categories: [], primaryIndustry: "", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: false, includeInPortfolioPdf: true, portfolioPdfImageIds: [] };
+const empty: PortfolioCase = { id: `C${Date.now()}`, brandName: "", projectName: "", intro: "", business: "branding", categories: [], primaryIndustry: "", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: false, includeInPortfolioPdf: true, portfolioPdfImageIds: [] };
 
 function MediaInput({ label, value, onChange, uploadFile, caseId }: { label: string; value: string; onChange: (value: string, width?: number, height?: number) => void; uploadFile: AdminPersistence["upload"]; caseId: string }) {
   const [pending, setPending] = useState(false);
@@ -58,7 +59,7 @@ function PortfolioPdfSelector({ item, onChange, onIncludeChange }: { item: Portf
   </section>;
 }
 
-export function CaseForm({ initial, persistence = localPersistence }: { initial?: PortfolioCase; persistence?: AdminPersistence }) {
+export function CaseForm({ initial, persistence = localPersistence, localPdfEnabled = false }: { initial?: PortfolioCase; persistence?: AdminPersistence; localPdfEnabled?: boolean }) {
   const [item, setItem] = useState(initial || empty);
   const [isPersisted, setIsPersisted] = useState(Boolean(initial));
   const [savedItem, setSavedItem] = useState(initial || empty);
@@ -108,7 +109,8 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
 
   return <main className="caseEditor"><div className="editorHeading"><div><p>Cases / {isPersisted ? "Edit" : "New"}</p><h1>{isPersisted ? "编辑案例" : "新建案例"}</h1></div><div className="saveRow"><span className="saveMessage" role="status">{feedback}</span><Link href="/admin" onClick={leave}>返回后台</Link><button form="case-form" className="primaryButton" disabled={pending || !dirty}>{pending ? "保存中…" : "保存案例"}</button></div></div><form id="case-form" onSubmit={submit}>
     <section className="formSection"><h2>基本信息</h2><div className="formGrid">
-      <label className="fullField">名称<input required value={item.name} onChange={(event) => set("name", event.target.value)} /></label>
+      <label>品牌名<input required value={item.brandName} onChange={(event) => set("brandName", event.target.value)} /></label>
+      <label>项目名（可选）<input value={item.projectName} onChange={(event) => set("projectName", event.target.value)} /></label>
       <label className="fullField">简介<textarea rows={3} value={item.intro} onChange={(event) => set("intro", event.target.value)} /></label>
       <fieldset className="taxonomyField"><legend>所属业务</legend><div className="optionRow">{BUSINESSES.map((business) => <label key={business.value}><input type="radio" name="business" value={business.value} checked={item.business === business.value} onChange={() => setBusiness(business.value)} />{business.zh}</label>)}</div></fieldset>
       <fieldset className="taxonomyField" disabled={item.business === "photography"}><legend>所属分类</legend><div className="optionRow">{CASE_CATEGORIES.map((category) => <label key={category.value}><input type="checkbox" checked={item.categories.includes(category.value)} onChange={() => toggleCategory(category.value)} />{category.zh}</label>)}</div>{item.business === "photography" && <p className="fieldHint">商业摄影无需选择所属分类</p>}</fieldset>
@@ -117,6 +119,7 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
     </div></section>
     <section className="formSection"><h2>案例图片</h2><div className="mediaInputs"><MediaInput label="案例列表封面" value={item.cover} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value, width, height) => setItem((current) => ({ ...current, cover: value, coverWidth: width || current.coverWidth, coverHeight: height || current.coverHeight }))} /><MediaInput label="案例详情页首图" value={item.hero} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value) => set("hero", value)} /></div></section>
     <PortfolioPdfSelector item={item} onChange={(portfolioPdfImageIds) => set("portfolioPdfImageIds", portfolioPdfImageIds)} onIncludeChange={(included) => set("includeInPortfolioPdf", included)} />
+    {localPdfEnabled && isPersisted && <PdfGenerationPanel actions={[{ target: `case:${item.id}`, label: "生成当前案例 PDF" }]} disabled={dirty || pending} hint={dirty ? "请先保存案例，再生成 PDF。" : undefined} />}
     <section className="formSection chapterEditor"><div className="sectionHeading"><div><h2>正文媒体</h2><p>章节编号随顺序自动更新；媒体可在章节内排序，也可移动到其他章节。</p></div><div><button type="button" className="secondaryButton" disabled={!item.bodyAssets.length} onClick={() => openChapterDraft()}>＋ 添加章节</button><label className="primaryButton">{hasChapters ? "上传未分章节媒体" : "上传媒体"}<input type="file" accept="image/*,video/mp4,video/webm" onChange={(event) => addBody(event.target.files?.[0])} /></label></div></div>
       {chapterDraft && <div className="chapterCreate" role="group" aria-label="添加章节"><label>从正文媒体开始<select value={chapterDraft.assetId} onChange={(event) => setChapterDraft({ ...chapterDraft, assetId: event.target.value })}>{item.bodyAssets.filter((asset) => !asset.section).map((asset) => <option key={asset.id} value={asset.id}>媒体 {item.bodyAssets.indexOf(asset) + 1} · {asset.src.split("/").pop()}</option>)}</select></label><label>章节标题<input value={chapterDraft.title} onChange={(event) => setChapterDraft({ ...chapterDraft, title: event.target.value })} /></label><label>章节说明<textarea rows={2} value={chapterDraft.description} onChange={(event) => setChapterDraft({ ...chapterDraft, description: event.target.value })} /></label><div><button type="button" className="primaryButton" disabled={!chapterDraft.assetId || !chapterDraft.title.trim()} onClick={createChapter}>创建章节</button><button type="button" onClick={() => setChapterDraft(null)}>取消</button></div></div>}
       <div className={`chapterGroups ${hasChapters ? "hasChapters" : ""}`}>{groups.map((group) => {

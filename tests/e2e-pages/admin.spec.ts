@@ -37,7 +37,8 @@ test("Pages admin keeps its list readable and navigates to generated editor rout
       await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
       await page.getByRole("button", { name: "连接 GitHub" }).click();
     }
-    await expect(page.getByLabel("名称", { exact: true })).toHaveValue(item.name);
+    await expect(page.getByLabel("品牌名")).toHaveValue(item.brandName);
+    await expect(page.getByLabel("项目名（可选）")).toHaveValue(item.projectName);
   }
   const mediaRich = content.cases.find((item) => item.id === "N016")!;
   await page.getByRole("link", { name: "返回后台" }).click();

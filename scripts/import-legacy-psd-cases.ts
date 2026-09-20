@@ -70,7 +70,8 @@ async function main() {
     }
     const next: PortfolioCase = {
       id: recovered.case_id,
-      name: current?.name ?? audit.name,
+      brandName: current?.brandName ?? audit.name.split("·")[0].trim(),
+      projectName: current?.projectName ?? audit.name.split("·").slice(1).join("·").trim(),
       intro: current?.intro ?? `${audit.name}的品牌视觉与平面设计案例。`,
       business: "branding",
       categories: current?.categories ?? INITIAL_CATEGORIES[recovered.case_id],

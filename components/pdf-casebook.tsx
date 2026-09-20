@@ -1,6 +1,7 @@
 import { groupBodyAssets } from "@/lib/chapters";
 import { getPdfMediaInfo, type PdfMediaInfo } from "@/lib/pdf-media";
-import { pdfOrientation, pdfTitleDensity, splitPdfTitle } from "@/lib/pdf-layout";
+import { pdfOrientation } from "@/lib/pdf-layout";
+import { caseFullTitle, caseTitleDensity } from "@/lib/case-title";
 import { resolvePortfolioPdfImages } from "@/lib/pdf-portfolio";
 import { assetPath } from "@/lib/site-path";
 import { formatCaseMetadata } from "@/lib/taxonomy";
@@ -22,9 +23,8 @@ function Picture({ image, mode = "cover" }: { image: PdfMediaInfo; mode?: "cover
   return <img src={assetPath(image.src)} alt="" className={`pdfPicture is-${mode}`} width={image.width} height={image.height} />;
 }
 
-function EditorialTitle({ title, className = "" }: { title: string; className?: string }) {
-  const { primary, secondary } = splitPdfTitle(title);
-  return <h1 className={`${className} ${pdfTitleDensity(title)}`}><span className="pdfTitlePrimary">{primary}</span>{secondary && <span className="pdfTitleSecondary">{secondary}</span>}</h1>;
+function EditorialTitle({ item, className = "" }: { item: PortfolioCase; className?: string }) {
+  return <h1 className={`${className} ${caseTitleDensity(item)}`} aria-label={caseFullTitle(item)}><span className="pdfTitlePrimary">{item.brandName}</span>{item.projectName && <span className="pdfTitleSecondary">{item.projectName}</span>}</h1>;
 }
 
 function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
@@ -52,7 +52,7 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
         <Picture image={hero} mode="contain" />
       </header>
       <section className="pdfLongCaseInfo" data-single-case-info="true">
-        <div><p>{formatCaseMetadata(item, true)}</p><EditorialTitle title={item.name} /></div>
+        <div><p>{formatCaseMetadata(item, true)}</p><EditorialTitle item={item} /></div>
         <p>{item.intro}</p>
       </section>
       <div className="pdfLongContent">
@@ -61,7 +61,7 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
           <WaterfallColumns images={group.images} />
         </section>)}
       </div>
-      <PdfCaseContentFooter project={item.name} trailing="Project casebook" />
+      <PdfCaseContentFooter project={caseFullTitle(item)} trailing="Project casebook" />
     </article>
   </main>;
 }
@@ -77,19 +77,18 @@ export async function PortfolioPdfDocument({ cases, kind }: { cases: PortfolioCa
   const directoryPages = Array.from({ length: directoryPageCount }, (_, index) => entries.slice(index * 20, (index + 1) * 20));
   return <main className="pdfDocument pdfPortfolioDocument" data-pdf-ready="true">
     <PdfPage className={`pdfPortfolioFrontPage pdfPortfolioCover portfolio-${kind}`} project={portfolioLabel} page={1} total={total}><div className="pdfPortfolioMark">CHIM®</div><div><p>{kind === "photography" ? "Commercial photography · Guangzhou" : "Independent design practice · Guangzhou"}</p><h1>{coverTitle}</h1></div><div className="pdfPortfolioYear">{portfolioLabel} / {new Date().getFullYear()}</div></PdfPage>
-    {directoryPages.map((pageEntries, directoryIndex) => <PdfPage className="pdfPortfolioFrontPage pdfDirectory" project={portfolioLabel} page={directoryIndex + 2} total={total} key={directoryIndex}><div className="pdfKicker">Index / {String(directoryIndex + 1).padStart(2, "0")}</div><h2>Contents</h2><ol start={directoryIndex * 20 + 1}>{pageEntries.map(({ item, startPage }) => <li key={item.id}><span>{item.name}</span><i /><b>{String(startPage).padStart(2, "0")}</b></li>)}</ol></PdfPage>)}
+    {directoryPages.map((pageEntries, directoryIndex) => <PdfPage className="pdfPortfolioFrontPage pdfDirectory" project={portfolioLabel} page={directoryIndex + 2} total={total} key={directoryIndex}><div className="pdfKicker">Index / {String(directoryIndex + 1).padStart(2, "0")}</div><h2>Contents</h2><ol start={directoryIndex * 20 + 1}>{pageEntries.map(({ item, startPage }) => <li key={item.id}><span>{caseFullTitle(item)}</span><i /><b>{String(startPage).padStart(2, "0")}</b></li>)}</ol></PdfPage>)}
     {entries.map(({ item, images, startPage }, caseIndex) => {
       const lead = images[0];
       const leadOrientation = pdfOrientation(lead.ratio);
-      const leadTitle = splitPdfTitle(item.name);
       return <section className="pdfPortfolioLongCase" data-portfolio-case-page={caseIndex} key={item.id}>
         <header className={`pdfPortfolioCaseLead pdfPortfolioLongLead hero-${leadOrientation}`}>
           <div className="pdfPortfolioCaseIndex" data-portfolio-case-index-label="true">{String(caseIndex + 1).padStart(2, "0")}</div>
-          <div className="pdfPortfolioCaseCopy"><p data-portfolio-case-meta="true">{formatCaseMetadata(item, true)}</p><h2 className={`${pdfTitleDensity(item.name)} ${/^[\x00-\x7F]+$/.test(leadTitle.primary) ? "isLatinTitle" : ""}`}><span>{leadTitle.primary}</span>{leadTitle.secondary && <small>{leadTitle.secondary}</small>}</h2><p>{item.intro}</p></div>
+          <div className="pdfPortfolioCaseCopy"><p data-portfolio-case-meta="true">{formatCaseMetadata(item, true)}</p><h2 aria-label={caseFullTitle(item)} className={`${caseTitleDensity(item)} ${/^[\x00-\x7F]+$/.test(item.brandName) ? "isLatinTitle" : ""}`}><span>{item.brandName}</span>{item.projectName && <small>{item.projectName}</small>}</h2><p>{item.intro}</p></div>
           <figure><Picture image={lead} mode="cover" /></figure>
         </header>
         {images.length > 1 && <div className="pdfPortfolioLongBody"><WaterfallColumns images={images.slice(1)} /></div>}
-        <PdfCaseContentFooter project={item.name} trailing={`${String(startPage).padStart(2, "0")} / ${String(total).padStart(2, "0")}`} />
+        <PdfCaseContentFooter project={caseFullTitle(item)} trailing={`${String(startPage).padStart(2, "0")} / ${String(total).padStart(2, "0")}`} />
       </section>;
     })}
   </main>;

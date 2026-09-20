@@ -59,7 +59,9 @@ const sections = {
 };
 
 const sha256 = (buffer) => crypto.createHash("sha256").update(buffer).digest("hex");
-const routeFor = (name) => `/work/${encodeURIComponent(name.replaceAll("/", "／"))}`;
+const titleFields = (value) => { const [brandName, ...project] = value.split("·"); return { brandName: brandName.trim(), projectName: project.join("·").trim() }; };
+const fullTitle = (item) => item.projectName ? `${item.brandName} · ${item.projectName}` : item.brandName;
+const routeFor = (id) => `/work/${id.toLowerCase()}`;
 const stageCounters = new Map();
 const imports = [];
 sharp.cache({ memory: 256, files: 16, items: 64 });
@@ -98,7 +100,7 @@ for (const item of manifest.items) {
   imports.push({
     case: config.name,
     caseKey: item.caseKey,
-    route: routeFor(config.name),
+    route: routeFor(config.id),
     order: item.order,
     chapter: item.chapter,
     subchapter: item.subchapter,
@@ -138,7 +140,7 @@ const websiteCases = cases.map((config) => {
   });
   return {
     id: config.id,
-    name: config.name,
+    ...titleFields(config.name),
     intro: config.intro,
     cover: cover.websiteAsset,
     coverWidth: cover.width,
@@ -155,7 +157,7 @@ const websiteCases = cases.map((config) => {
 });
 
 const content = JSON.parse(await fs.readFile(contentPath, "utf8"));
-const retired = content.cases.filter((item) => /春莱|ChunLai/i.test(`${item.name} ${item.intro || ""}`));
+const retired = content.cases.filter((item) => /春莱|ChunLai/i.test(`${fullTitle(item)} ${item.intro || ""}`));
 const retiredIds = new Set(retired.map((item) => item.id));
 const existingIds = new Set(content.cases.map((item) => item.id));
 for (const item of websiteCases) if (existingIds.has(item.id) && !retiredIds.has(item.id)) throw new Error(`Case ID already exists: ${item.id}`);
@@ -181,9 +183,9 @@ const importMap = {
   importedCaseCount: websiteCases.length,
   importedMediaCount: imports.length,
   totalBytes,
-  retiredCases: retired.map(({ id, name, business }) => ({ id, name, business })),
+  retiredCases: retired.map(({ id, brandName, projectName, business }) => ({ id, brandName, projectName, business })),
   schemaChange: "optional bodyAssets[].section metadata",
-  cases: websiteCases.map((item) => ({ id: item.id, name: item.name, route: routeFor(item.name), cover: item.cover, hero: item.hero, bodyAssetCount: item.bodyAssets.length })),
+  cases: websiteCases.map((item) => ({ id: item.id, brandName: item.brandName, projectName: item.projectName, route: routeFor(item.id), cover: item.cover, hero: item.hero, bodyAssetCount: item.bodyAssets.length })),
   assets: imports,
 };
 await fs.writeFile(path.join(productionRoot, "website-import-map.json"), `${JSON.stringify(importMap, null, 2)}\n`);
@@ -193,5 +195,5 @@ console.log(JSON.stringify({
   importedMedia: imports.length,
   totalBytes,
   retiredCases: importMap.retiredCases,
-  routes: importMap.cases.map(({ name, route }) => ({ name, route })),
+  routes: importMap.cases.map(({ brandName, projectName, route }) => ({ brandName, projectName, route })),
 }, null, 2));

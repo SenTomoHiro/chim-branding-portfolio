@@ -1,11 +1,10 @@
 import type { PortfolioCase } from "./types";
 
-export const caseRouteName = (name: string) => name.replaceAll("/", "／");
-export const casePath = (name: string) => `/work/${encodeURIComponent(caseRouteName(name))}`;
+export const casePath = (id: string) => `/work/${encodeURIComponent(id.toLowerCase())}`;
 
-export function findPublishedCaseByName(cases: PortfolioCase[], routeName: string) {
-  let name: string;
-  try { name = decodeURIComponent(routeName); }
+export function findPublishedCaseById(cases: PortfolioCase[], routeId: string) {
+  let id: string;
+  try { id = decodeURIComponent(routeId).toLowerCase(); }
   catch { return undefined; }
-  return cases.find((item) => caseRouteName(item.name) === name && item.published);
+  return cases.find((item) => item.id.toLowerCase() === id && item.published);
 }

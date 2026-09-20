@@ -3,7 +3,7 @@ import { assertPdfConfiguration, createInitialPortfolioPdfSelection, getPortfoli
 import type { ContentData, PortfolioCase } from "../../lib/types";
 
 const makeCase = (id: string, overrides: Partial<PortfolioCase> = {}): PortfolioCase => ({
-  id, name: id, intro: "Intro", business: "branding", categories: ["other"], primaryIndustry: "",
+  id, brandName: id, projectName: "", intro: "Intro", business: "branding", categories: ["other"], primaryIndustry: "",
   cover: `/media/${id}/cover.jpg`, coverWidth: 1400, coverHeight: 1050, hero: `/media/${id}/hero.jpg`,
   bodyAssets: [
     { id: `${id}-a`, type: "image", src: `/media/${id}/a.jpg`, layout: "full", section: { eyebrow: "CHAPTER 01", title: "A" } },

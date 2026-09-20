@@ -45,6 +45,9 @@ html:active-view-transition .floatingButton { opacity:0; transition:none; pointe
 .caseImage .secondaryMedia.isActive { opacity:1; transform:scale(1.025); }
 .caseMeta { height:52px; display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:start; gap:16px; padding-top:10px; }
 .caseMeta h2,.caseMeta p { min-width:0; margin:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:.88rem; font-weight:500; }
+.caseTitle { display:grid; gap:.18em; }
+.caseTitleBrand,.caseTitleProject { display:block; min-width:0; }
+.caseMeta .caseTitleProject { color:rgba(11,11,11,.58); font-size:.78em; font-weight:400; }
 .caseMeta p { color:rgba(11,11,11,.58); text-align:right; }
 .caseMeta h2,.caseMeta p { transition:transform var(--motion-fast) var(--motion-ease),color var(--motion-fast); }
 @media (hover:hover) and (pointer:fine) {
@@ -60,6 +63,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .workIntro p { margin:0; max-width:480px; line-height:1.7; }
 .workIntro div>p { margin-bottom:18px; font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; }
 .workIntro h1 { margin:0; font-size:clamp(3rem,8vw,8rem); line-height:1.1; letter-spacing:-.065em; animation:titleReveal var(--motion-slow) var(--motion-ease) 120ms both; }
+.workIntro .caseTitleProject { margin-top:.25em; font-size:.38em; line-height:1.15; letter-spacing:-.035em; font-weight:500; }
 .workIntro>p,.workIntro div>p { animation:softReveal var(--motion-medium) var(--motion-ease) 260ms both; }
 .workSummary { display:grid; gap:24px; justify-items:start; }
 .workSummary>p { margin:0; }
@@ -78,6 +82,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .revealMedia.isVisible { opacity:1; transform:none; clip-path:inset(0); }
 .nextCase { margin-top:clamp(60px,12vw,180px); min-height:50vh; padding:var(--pad); background:var(--ink); color:white; display:grid; grid-template-columns:1fr 3fr auto; align-items:center; }
 .nextCase strong { font-size:clamp(2.8rem,7vw,7rem); line-height:.9; letter-spacing:-.06em; }
+.nextCase .caseTitleProject { margin-top:.28em; font-size:.38em; line-height:1.1; font-weight:500; opacity:.7; }
 .nextCase span:last-child { font-size:2rem; }
 .adminRoot { min-height:100vh; background:#f2f2f2; }
 .adminHeader { height:68px; padding:0 clamp(16px,4vw,56px); display:flex; align-items:center; justify-content:space-between; background:#111; color:#fff; }
@@ -129,6 +134,9 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .priorityList li>div { display:flex; gap:8px; }
 .saveRow { padding:0 0 20px; }
 .formSection { background:white; padding:clamp(18px,3vw,36px); }
+.pdfGenerationActions,.pdfGenerationResult { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+.pdfGenerationResult a { border-bottom:1px solid currentColor; padding-bottom:3px; font-size:.85rem; }
+.pdfGeneration>.saveMessage,.pdfGeneration>.formError { display:block; margin-top:16px; }
 .formGrid { display:grid; grid-template-columns:1fr 1fr; gap:22px; margin-top:30px; }
 .fullField { grid-column:1/-1; }
 .formGrid textarea { resize:vertical; }

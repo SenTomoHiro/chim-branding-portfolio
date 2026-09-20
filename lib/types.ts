@@ -38,7 +38,8 @@ export type BodyAsset = {
 
 export type PortfolioCase = {
   id: string;
-  name: string;
+  brandName: string;
+  projectName: string;
   intro: string;
   business: Business;
   categories: CaseCategory[];

@@ -1,9 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { assertUniqueName, parseCase } from "../../lib/validation";
+import { assertUniqueTitle, parseCase } from "../../lib/validation";
 import type { ContentData } from "../../lib/types";
 
 const input = {
-  name: "规则测试",
+  brandName: "规则测试",
+  projectName: "项目 A",
   intro: "",
   primaryIndustry: "餐饮",
   cover: "",
@@ -21,12 +22,12 @@ describe("case validation", () => {
     expect(parseCase({ ...input, business: "photography", categories: ["food", "invalid"] }).categories).toEqual([]);
   });
 
-  it("accepts a unique name and rejects another case with the same name", () => {
+  it("accepts a unique title and rejects another case with the same title", () => {
     const existing = parseCase({ ...input, id: "A", business: "branding", categories: ["food"] });
     const data: ContentData = { cases: [existing], defaultOrder: ["A"], photographyCaseOrder: [] };
-    expect(() => assertUniqueName(data, existing)).not.toThrow();
+    expect(() => assertUniqueTitle(data, existing)).not.toThrow();
     const duplicate = parseCase({ ...input, id: "B", business: "branding", categories: ["other"] });
-    expect(() => assertUniqueName(data, duplicate)).toThrow("案例名称已存在，请使用唯一名称。");
+    expect(() => assertUniqueTitle(data, duplicate)).toThrow("品牌名与项目名组合已存在，请使用唯一标题。");
   });
 
   it("preserves optional editorial section headings on existing media", () => {

@@ -1,6 +1,7 @@
 import { expect, test, type Browser, type Page } from "@playwright/test";
 import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
+import { caseFullTitle } from "../../lib/case-title";
 import type { ContentData, PortfolioCase } from "../../lib/types";
 
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
@@ -15,14 +16,15 @@ test.setTimeout(180_000);
 
 async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: number; height: number }) {
   await page.setViewportSize(viewport);
-  await page.goto(casePath(item.name));
+  await page.goto(casePath(item.id));
   const metrics = await page.locator(".workIntro h1").evaluate((element) => {
     const style = getComputedStyle(element);
     const fontSize = Number.parseFloat(style.fontSize);
     const lineHeight = Number.parseFloat(style.lineHeight);
-    const node = element.firstChild;
     const tops: number[] = [];
-    if (node?.nodeType === Node.TEXT_NODE) {
+    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+    let node = walker.nextNode();
+    while (node) {
       for (let index = 0; index < (node.textContent?.length || 0); index += 1) {
         if (!node.textContent?.[index].trim()) continue;
         const range = document.createRange();
@@ -30,6 +32,7 @@ async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: 
         const top = range.getBoundingClientRect().top;
         if (!tops.some((value) => Math.abs(value - top) < 1)) tops.push(top);
       }
+      node = walker.nextNode();
     }
     tops.sort((left, right) => left - right);
     const box = element.getBoundingClientRect();
@@ -42,10 +45,10 @@ async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: 
       overflow: document.documentElement.scrollWidth > document.documentElement.clientWidth,
     };
   });
-  expect(metrics.clipped, `${item.name} at ${viewport.width}`).toBe(false);
-  expect(metrics.outsideViewport, `${item.name} at ${viewport.width}`).toBe(false);
-  expect(metrics.overflow, `${item.name} at ${viewport.width}`).toBe(false);
-  expect(metrics.minimumLineStep, `${item.name} at ${viewport.width}`).toBeGreaterThanOrEqual(metrics.fontSize * (viewport.width < 768 ? 0.95 : 0.84));
+  expect(metrics.clipped, `${caseFullTitle(item)} at ${viewport.width}`).toBe(false);
+  expect(metrics.outsideViewport, `${caseFullTitle(item)} at ${viewport.width}`).toBe(false);
+  expect(metrics.overflow, `${caseFullTitle(item)} at ${viewport.width}`).toBe(false);
+  expect(metrics.minimumLineStep, `${caseFullTitle(item)} at ${viewport.width}`).toBeGreaterThanOrEqual(metrics.fontSize * (viewport.width < 768 ? 0.95 : 0.84));
   if (item.id === longTitle.id && viewport.width < 768) expect(metrics.lines).toBeGreaterThanOrEqual(2);
 }
 
@@ -62,14 +65,14 @@ async function openFromDrinks(page: Page, item: PortfolioCase) {
   await page.evaluate(() => window.scrollBy(0, -Math.min(120, innerHeight / 6)));
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
   await card.locator("a").click();
-  await page.waitForURL(casePath(item.name));
+  await page.waitForURL(casePath(item.id));
   return anchorTop;
 }
 
 async function followNext(page: Page, item: PortfolioCase) {
   await page.locator(".nextCase").click();
-  await page.waitForURL(casePath(item.name));
-  await expect(page.getByRole("heading", { name: item.name, exact: true })).toBeVisible();
+  await page.waitForURL(casePath(item.id));
+  await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
 }
 
 async function closeToCase(page: Page, route: string, item: PortfolioCase, anchorTop: number) {
@@ -99,7 +102,7 @@ test("browser Back traverses Next Case history once and then restores the list",
   const anchorTop = await openFromDrinks(page, first);
   await followNext(page, second);
   await page.goBack();
-  await page.waitForURL(casePath(first.name));
+  await page.waitForURL(casePath(first.id));
   await page.goBack();
   await page.waitForURL(/\/drinks$/);
   const card = page.locator(`[data-case-id="${first.id}"]`);
@@ -119,7 +122,7 @@ test("mobile quick tap enters once, follows Next and closes to the current case"
   await card.scrollIntoViewIfNeeded();
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
   await card.locator("a").tap();
-  await page.waitForURL(casePath(first.name));
+  await page.waitForURL(casePath(first.id));
   await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(0);
   await followNext(page, second);
   await closeToCase(page, "/drinks", second, anchorTop);
@@ -137,7 +140,7 @@ test("mobile longer tap enters while a drag gesture stays on the list", async ({
   await session.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x, y }] });
   await page.waitForTimeout(360);
   await session.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
-  await page.waitForURL(casePath(first.name));
+  await page.waitForURL(casePath(first.id));
 
   await page.goto("/drinks");
   await link.scrollIntoViewIfNeeded();
@@ -159,5 +162,5 @@ test("desktop hover still previews Hero and one click enters detail", async ({ p
   await expect(card.locator(".secondaryMedia")).toHaveCount(1);
   await expect(card.locator(".secondaryMedia")).toHaveClass(/isActive/);
   await card.locator("a").click();
-  await page.waitForURL(casePath(first.name));
+  await page.waitForURL(casePath(first.id));
 });

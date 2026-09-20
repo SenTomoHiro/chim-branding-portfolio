@@ -14,6 +14,8 @@ const siteDirectory = path.resolve(argument("site-dir", "out"));
 const outputDirectory = path.resolve(argument("output-dir", path.join("output", "pdf")));
 const contentFile = path.resolve(argument("content", path.join("data", "content.json")));
 const basePath = argument("base-path", process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/$/, "");
+const externalOrigin = argument("origin").replace(/\/$/, "");
+const target = argument("target", "all");
 
 if ([path.parse(outputDirectory).root, process.cwd(), siteDirectory].includes(outputDirectory)) throw new Error(`拒绝使用过宽的 PDF 输出目录：${outputDirectory}`);
 
@@ -39,7 +41,7 @@ async function resolveRequest(urlPath) {
   return null;
 }
 
-const server = createServer(async (request, response) => {
+const serveStatic = async (request, response) => {
   try {
     const filename = await resolveRequest(request.url || "/");
     if (!filename) { response.writeHead(404); response.end("Not found"); return; }
@@ -55,14 +57,19 @@ const server = createServer(async (request, response) => {
   } catch (error) {
     response.writeHead(500); response.end(error instanceof Error ? error.message : "Server error");
   }
-});
+};
 
-await new Promise((resolve, reject) => { server.once("error", reject); server.listen(0, "127.0.0.1", resolve); });
-const address = server.address();
-if (!address || typeof address === "string") throw new Error("无法启动 PDF 静态预览服务");
-const origin = `http://127.0.0.1:${address.port}${basePath}`;
+let server;
+let origin = externalOrigin;
+if (!origin) {
+  server = createServer(serveStatic);
+  await new Promise((resolve, reject) => { server.once("error", reject); server.listen(0, "127.0.0.1", resolve); });
+  const address = server.address();
+  if (!address || typeof address === "string") throw new Error("无法启动 PDF 静态预览服务");
+  origin = `http://127.0.0.1:${address.port}${basePath}`;
+}
 
-await rm(outputDirectory, { recursive: true, force: true });
+if (target === "all") await rm(outputDirectory, { recursive: true, force: true });
 await mkdir(path.join(outputDirectory, "cases"), { recursive: true });
 let browser;
 try {
@@ -75,6 +82,20 @@ try {
 
 async function render(route, filename) {
   const page = await browser.newPage({ viewport: { width: 1120, height: 1584 }, deviceScaleFactor: 1 });
+  if (externalOrigin) await page.route("**/*", async (browserRoute) => {
+    const requestUrl = new URL(browserRoute.request().url());
+    if (requestUrl.origin !== new URL(origin).origin || !/\.(?:jpe?g|png|webp|avif|tiff?)$/i.test(requestUrl.pathname)) return browserRoute.continue();
+    let pathname = decodeURIComponent(requestUrl.pathname);
+    if (basePath && pathname.startsWith(basePath)) pathname = pathname.slice(basePath.length) || "/";
+    const filename = path.resolve(process.cwd(), "public", `.${pathname}`);
+    const publicRoot = path.resolve(process.cwd(), "public");
+    if (!filename.startsWith(`${publicRoot}${path.sep}`)) return browserRoute.continue();
+    try {
+      if (!optimizedImageCache.has(filename)) optimizedImageCache.set(filename, sharp(filename).rotate().resize({ width: 1800, height: 2400, fit: "inside", withoutEnlargement: true }).jpeg({ quality: 80, progressive: true, mozjpeg: true }).toBuffer());
+      const image = await optimizedImageCache.get(filename);
+      await browserRoute.fulfill({ status: 200, contentType: "image/jpeg", body: image, headers: { "cache-control": "public, max-age=31536000, immutable" } });
+    } catch { await browserRoute.continue(); }
+  });
   const browserErrors = [];
   page.on("pageerror", (error) => browserErrors.push(error.message));
   page.on("console", (message) => { if (message.type() === "error") browserErrors.push(message.text()); });
@@ -144,12 +165,19 @@ async function render(route, filename) {
 }
 
 try {
-  await render("/print/portfolio/design/", path.join(outputDirectory, "portfolio-design.pdf"));
-  await render("/print/portfolio/photography/", path.join(outputDirectory, "portfolio-photography.pdf"));
-  for (const item of publishedCases) await render(`/print/case/${item.id.toLowerCase()}/`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
+  if (target === "all" || target === "design") await render("/print/portfolio/design/", path.join(outputDirectory, "portfolio-design.pdf"));
+  if (target === "all" || target === "photography") await render("/print/portfolio/photography/", path.join(outputDirectory, "portfolio-photography.pdf"));
+  if (target === "all") {
+    for (const item of publishedCases) await render(`/print/case/${item.id.toLowerCase()}/`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
+  } else if (target.startsWith("case:")) {
+    const id = target.slice(5).toLowerCase();
+    const item = publishedCases.find((candidate) => candidate.id.toLowerCase() === id);
+    if (!item) throw new Error(`找不到已发布案例：${id}`);
+    await render(`/print/case/${id}/`, path.join(outputDirectory, "cases", `${id}.pdf`));
+  } else if (target !== "design" && target !== "photography") throw new Error(`不支持的 PDF 生成目标：${target}`);
 } finally {
   await browser.close();
-  await new Promise((resolve) => server.close(resolve));
+  if (server) await new Promise((resolve) => server.close(resolve));
 }
 
-console.log(`Generated ${publishedCases.length + 2} professional PDF casebooks.`);
+console.log(`Generated PDF target: ${target}.`);

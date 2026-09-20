@@ -22,7 +22,7 @@ describe("JUJUS, 瑞瀚心理 and 阿泰珍奶 portfolio cases", () => {
       expect(content.defaultOrder.includes(id), id).toBe(true);
     }
 
-    const existing = content.cases.find((entry) => entry.name === "春莱 · 桃花桂花艺人系列");
+    const existing = content.cases.find((entry) => entry.brandName === "春莱" && entry.projectName === "桃花桂花艺人系列");
     expect(existing?.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section?.eyebrow)).toEqual([
       "CHAPTER 01",
       "CHAPTER 02",

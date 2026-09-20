@@ -101,20 +101,3 @@ export function planPdfMediaPages<T extends RatioItem>(items: T[], options: PdfP
   }
   return pages;
 }
-
-export function splitPdfTitle(title: string) {
-  const spacedSeparator = title.match(/^(.+?)\s+[·/]\s+(.+)$/);
-  if (spacedSeparator) return { primary: spacedSeparator[1].trim(), secondary: spacedSeparator[2].trim() };
-  const compactSeparator = title.match(/^(.+?)[·×](.+)$/);
-  if (compactSeparator) return { primary: compactSeparator[1].trim(), secondary: compactSeparator[2].trim() };
-  const mixedLanguage = title.match(/^(.+?[\p{Script=Han}])\s+([A-Za-z0-9].+)$/u);
-  if (mixedLanguage) return { primary: mixedLanguage[1].trim(), secondary: mixedLanguage[2].trim() };
-  return { primary: title.trim(), secondary: "" };
-}
-
-export function pdfTitleDensity(title: string) {
-  const length = Array.from(title).length;
-  if (length > 28) return "isDense";
-  if (length > 17) return "isCompact";
-  return "";
-}

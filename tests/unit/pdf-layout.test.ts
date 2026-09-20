@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
-import { pdfTitleDensity, planPdfMediaPages, selectPdfLayout, splitPdfTitle } from "../../lib/pdf-layout";
+import { planPdfMediaPages, selectPdfLayout } from "../../lib/pdf-layout";
+import { caseFullTitle, caseTitleDensity } from "../../lib/case-title";
 
 const images = (...ratios: number[]) => ratios.map((ratio, index) => ({ id: index, ratio }));
 
@@ -27,10 +28,10 @@ describe("PDF editorial layout planning", () => {
     expect(selectPdfLayout(images(1, 1.1, .95, 1.05), 0)).toBe("grid-four");
   });
 
-  it("splits mixed-language titles into stable typographic levels", () => {
-    expect(splitPdfTitle("堡乎乎 Manual Burger")).toEqual({ primary: "堡乎乎", secondary: "Manual Burger" });
-    expect(splitPdfTitle("春莱 · 品牌视觉长期维护 / Brand Visual Evolution")).toEqual({ primary: "春莱", secondary: "品牌视觉长期维护 / Brand Visual Evolution" });
-    expect(splitPdfTitle("JUJUS")).toEqual({ primary: "JUJUS", secondary: "" });
-    expect(pdfTitleDensity("春莱 · 品牌视觉长期维护 / Brand Visual Evolution")).toBe("isDense");
+  it("formats explicit title fields without guessing separators", () => {
+    const title = { brandName: "春莱 × 小蓝鸭", projectName: "联名系列" };
+    expect(caseFullTitle(title)).toBe("春莱 × 小蓝鸭 · 联名系列");
+    expect(caseFullTitle({ brandName: "华南行", projectName: "" })).toBe("华南行");
+    expect(caseTitleDensity({ brandName: "春莱", projectName: "品牌视觉长期维护 / Brand Visual Evolution" })).toBe("isDense");
   });
 });
