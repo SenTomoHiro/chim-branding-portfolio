@@ -27,6 +27,22 @@ test("Pages basePath keeps filtered close return position and direct-detail fall
   expect(Math.abs(after - before)).toBeLessThanOrEqual(48);
   await expect(page.locator('.categoryNav a[href$="/drinks/"]')).toHaveClass(/active/);
 
+  const first = content.cases.find((item) => item.id === "N024")!;
+  const second = content.cases.find((item) => item.id === "N025")!;
+  await page.goto(`${base}/drinks/`);
+  const firstCard = page.locator(`[data-case-id="${first.id}"]`);
+  await firstCard.scrollIntoViewIfNeeded();
+  const nextAnchor = await firstCard.evaluate((element) => element.getBoundingClientRect().top);
+  await firstCard.locator("a").click();
+  await page.waitForURL(new RegExp(`${base}${casePath(first.name)}/?$`));
+  await page.locator(".nextCase").click();
+  await page.waitForURL(new RegExp(`${base}${casePath(second.name)}/?$`));
+  await page.getByRole("button", { name: "返回案例列表" }).click();
+  await page.waitForURL(new RegExp(`${base}/drinks/?$`));
+  const secondCard = page.locator(`[data-case-id="${second.id}"]`);
+  await expect(secondCard).toBeInViewport();
+  expect(Math.abs(await secondCard.evaluate((element) => element.getBoundingClientRect().top) - nextAnchor)).toBeLessThanOrEqual(48);
+
   await page.goto(`${base}${casePath(targetCase.name)}/`);
   await page.evaluate(() => { sessionStorage.removeItem("chim-case-list-entry"); sessionStorage.removeItem("chim-case-list-return"); });
   await page.getByRole("button", { name: "返回案例列表" }).click();

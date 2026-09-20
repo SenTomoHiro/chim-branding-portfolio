@@ -1,4 +1,5 @@
 import type { AssetProvenance, Business, CaseCategory, ContentData, PortfolioCase } from "./types";
+import { renumberChapters } from "./chapters";
 import { BUSINESSES, CASE_CATEGORIES } from "./taxonomy";
 
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
@@ -47,10 +48,10 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   const submittedCategories = [...new Set(strings(input.categories))];
   if (business === "branding" && (!submittedCategories.length || submittedCategories.some((item) => !categoryValues.has(item)))) throw new Error("品牌设计请至少选择一个有效分类");
   const categories = business === "photography" ? [] : submittedCategories;
-  const bodyAssets = Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
+  const bodyAssets = renumberChapters(Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
     const media = item as Record<string, unknown>;
     return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, section: mediaSection(media.section), provenance: provenance(media.provenance) };
-  }).filter((item) => item.src) : [];
+  }).filter((item) => item.src) : []);
   return {
     id: existing?.id || String(input.id || `C${Date.now()}`), name,
     intro: String(input.intro || "").trim(), business,

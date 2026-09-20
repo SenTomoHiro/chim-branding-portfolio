@@ -11,7 +11,7 @@ export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
     const current = normalizePortfolioPath(window.location.pathname);
     if (entry?.target === current && isCaseListRoute(entry.source)) {
       requestCaseListReturn(entry);
-      router.back();
+      window.history.go(-entry.detailDepth);
       return;
     }
     clearCaseListEntry();

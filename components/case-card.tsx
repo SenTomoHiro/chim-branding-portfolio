@@ -22,7 +22,7 @@ export function CaseCard({ item, index, style }: { item: PortfolioCase; index: n
   }, [visible]);
   const href = casePath(item.name);
   return <article ref={ref} className={`caseCard ${visible ? "isVisible" : ""}`} data-case-id={item.id} style={{ ...style, "--reveal-delay": `${(index % 3) * 70}ms` } as CSSProperties}>
-    <Link href={href} onClick={() => saveCaseListEntry(item.id, href, ref.current)} onPointerEnter={() => { setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
+    <Link href={href} onNavigate={() => saveCaseListEntry(item.id, href, ref.current)} onPointerEnter={(event) => { if (event.pointerType !== "mouse") return; setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
       <ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none">
         <div className="caseImage"><Image className="primaryMedia" src={`${assetPath(item.cover)}?v=${item.coverWidth}x${item.coverHeight}`} alt="" width={item.coverWidth} height={item.coverHeight} sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw" priority={index < 3} />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={assetPath(secondary)} alt="" loading="lazy" decoding="async" />}</div>
       </ViewTransition>

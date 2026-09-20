@@ -1,14 +1,19 @@
 "use client";
 
 import { useLayoutEffect } from "react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { clearCaseListReturn, normalizePortfolioPath, readPendingCaseListReturn } from "@/lib/return-context";
 
 export function CaseListRestoration() {
   const pathname = usePathname();
+  const router = useRouter();
   useLayoutEffect(() => {
     const entry = readPendingCaseListReturn();
-    if (!entry || entry.source !== normalizePortfolioPath(pathname)) return;
+    if (!entry) return;
+    if (entry.source !== normalizePortfolioPath(pathname)) {
+      router.replace(entry.source);
+      return;
+    }
     const card = document.querySelector<HTMLElement>(`[data-case-id="${CSS.escape(entry.caseId)}"]`);
     if (!card) { clearCaseListReturn(); return; }
     const previousRestoration = history.scrollRestoration;
@@ -27,6 +32,6 @@ export function CaseListRestoration() {
       });
     });
     return () => cancelAnimationFrame(first);
-  }, [pathname]);
+  }, [pathname, router]);
   return null;
 }

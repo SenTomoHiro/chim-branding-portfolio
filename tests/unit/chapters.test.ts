@@ -25,11 +25,11 @@ describe("chapter editing", () => {
     expect(assets[0].section?.description).toBe("新的说明");
   });
 
-  it("moves whole chapters, keeps their media together, and preserves VI numbering", () => {
+  it("moves whole chapters, keeps their media together, and normalizes legacy labels", () => {
     const assets = [asset("a", section("VI 01", "A")), asset("b"), asset("c", section("VI 02", "B")), asset("d")];
     const moved = moveChapter(assets, "c", -1);
     expect(moved.map((item) => item.id)).toEqual(["c", "d", "a", "b"]);
-    expect(moved.filter((item) => item.section).map((item) => item.section?.eyebrow)).toEqual(["VI 01", "VI 02"]);
+    expect(moved.filter((item) => item.section).map((item) => item.section?.eyebrow)).toEqual(["CHAPTER 01", "CHAPTER 02"]);
   });
 
   it("moves media across chapters and promotes a new first media without losing the source chapter", () => {

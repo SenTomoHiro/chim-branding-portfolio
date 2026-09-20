@@ -23,17 +23,12 @@ export function groupBodyAssets(assets: BodyAsset[]): ChapterGroup[] {
   return groups;
 }
 
-function sectionPrefix(assets: BodyAsset[]) {
-  return assets.find((asset) => asset.section)?.section?.eyebrow.trim().toUpperCase().startsWith("VI") ? "VI" : "CHAPTER";
-}
-
 export function renumberChapters(assets: BodyAsset[]): BodyAsset[] {
-  const prefix = sectionPrefix(assets);
   let number = 0;
   return assets.map((asset) => {
     if (!asset.section) return asset;
     number += 1;
-    return { ...asset, section: { ...asset.section, eyebrow: `${prefix} ${String(number).padStart(2, "0")}` } };
+    return { ...asset, section: { ...asset.section, eyebrow: `CHAPTER ${String(number).padStart(2, "0")}` } };
   });
 }
 

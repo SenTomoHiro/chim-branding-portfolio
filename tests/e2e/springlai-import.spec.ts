@@ -83,6 +83,7 @@ test("Brand Evolution and peach chapters preserve the frozen editorial sequence"
   for (const [item, headings] of [[brand, ["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]], [peach, ["桃与乌龙", "桃花艺人", "桂花艺人"]]] as const) {
     await page.goto(casePath(item.name));
     await expect(page.locator(".mediaSectionHeading h2")).toHaveText([...headings]);
+    await expect(page.locator(".mediaSectionHeading p")).toHaveText(headings.map((_, index) => `CHAPTER ${String(index + 1).padStart(2, "0")}`));
   }
 });
 
@@ -105,6 +106,7 @@ test("Chapter Admin edits, persists, reorders and removes headers without deleti
   const brand = springlai.find((item) => item.id === "SL001")!;
   await page.locator(".adminCaseList article").filter({ hasText: brand.name }).getByRole("link", { name: "编辑" }).click();
   await expect(page.locator(".chapterHeader")).toHaveCount(4);
+  await expect(page.locator(".chapterNumber")).toHaveText(["CHAPTER 01", "CHAPTER 02", "CHAPTER 03", "CHAPTER 04"]);
   expect(await page.getByLabel("章节标题").evaluateAll((inputs) => inputs.map((input) => (input as HTMLInputElement).value))).toEqual(["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]);
   await page.getByLabel("章节标题").first().fill("夏季视觉体系（测试）");
   await page.getByRole("button", { name: "保存案例" }).click();
