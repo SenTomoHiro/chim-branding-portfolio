@@ -59,7 +59,7 @@ test("all published case routes resolve with taxonomy metadata and reveal media"
     const taxonomy = item.business === "photography" ? "商业摄影" : item.categories.map((category) => ({ food: "餐饮", drinks: "饮品", ip: "IP", other: "其他" })[category]).join(" / ");
     await expect(page.locator(".workIntro div>p")).toHaveText(`${taxonomy} · ${item.primaryIndustry}`);
     await expect(page.locator(".workHero img")).toHaveJSProperty("complete", true);
-    await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
+    await expect(page.locator(".mediaFlow figure")).toHaveCount(item.media.length - 2);
     const order = item.business === "photography" ? content.photographyCaseOrder : content.defaultOrder;
     const sameBusiness = published.filter((entry) => entry.business === item.business);
     const ordered = order.map((id) => sameBusiness.find((entry) => entry.id === id)).filter(Boolean);
@@ -297,7 +297,7 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await page.getByRole("link", { name: "新建案例" }).click();
   await expect(page.getByLabel("Slug", { exact: true })).toHaveCount(0);
   await expect(page.getByLabel("细分品类")).toBeVisible(); await expect(page.getByLabel("主要行业")).toHaveCount(0);
-  await expect(page.getByText("案例列表封面", { exact: true })).toBeVisible(); await expect(page.getByText("案例详情页首图", { exact: true })).toBeVisible();
+  await expect(page.getByText("案例列表封面", { exact: true })).toHaveCount(0); await expect(page.getByText("案例详情页首图", { exact: true })).toHaveCount(0); await expect(page.getByText("批量上传媒体", { exact: true })).toBeVisible();
   await page.getByLabel("品牌名").fill(brandingPublished[0].brandName); await page.getByLabel("项目名（可选）").fill(brandingPublished[0].projectName); await page.getByLabel("餐饮").check(); await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存失败：品牌名与项目名组合已存在，请使用唯一标题。");
   await page.locator(".adminHeader .wordmark").click(); await page.getByRole("link", { name: "新建案例" }).click();
@@ -310,8 +310,9 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
   await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check(); await page.getByLabel("商业摄影").check();
   await page.getByLabel("细分品类").fill("咖啡");
-  const mediaInputs = page.locator('.mediaInput input[type="file"]'); await mediaInputs.first().setInputFiles("public/media/cases/N013/cover.webp"); await mediaInputs.nth(1).setInputFiles("public/media/cases/N013/hero.webp");
-  await expect(page.locator(".mediaPreview")).toHaveCount(2);
+  await page.locator('.bodyMediaActions input[type="file"]').setInputFiles(["public/media/cases/N013/cover.webp", "public/media/cases/N013/hero.webp"]);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(2);
+  await expect(page.getByText("封面", { exact: true })).toBeVisible(); await expect(page.getByText("详情页首图", { exact: true })).toBeVisible();
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
   await page.getByRole("link", { name: "返回后台" }).click();

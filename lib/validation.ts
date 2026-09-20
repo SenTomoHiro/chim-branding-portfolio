@@ -2,6 +2,7 @@ import type { AssetProvenance, Business, CaseCategory, ContentData, PortfolioCas
 import { renumberChapters } from "./chapters";
 import { BUSINESSES, CASE_CATEGORIES } from "./taxonomy";
 import { resolvePortfolioPdfImages } from "./pdf-portfolio";
+import { getRoleImages } from "./case-media";
 
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
 const businessValues = new Set<string>(BUSINESSES.map((item) => item.value));
@@ -50,26 +51,20 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
   const submittedCategories = [...new Set(strings(input.categories))];
   if (business === "branding" && (!submittedCategories.length || submittedCategories.some((item) => !categoryValues.has(item)))) throw new Error("品牌设计请至少选择一个有效分类");
   const categories = business === "photography" ? [] : submittedCategories;
-  const bodyAssets = renumberChapters(Array.isArray(input.bodyAssets) ? input.bodyAssets.filter((item) => item && typeof item === "object").map((item, index) => {
+  const media = renumberChapters(Array.isArray(input.media) ? input.media.filter((item) => item && typeof item === "object").map((item, index) => {
     const media = item as Record<string, unknown>;
     const type = media.type === "video" ? "video" as const : "image" as const;
-    return { id: String(media.id || `${Date.now()}-${index}`), type, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, ...(type === "image" && Boolean(media.portfolioPdfSelected) ? { portfolioPdfSelected: true } : {}), section: mediaSection(media.section), provenance: provenance(media.provenance) };
+    return { id: String(media.id || `${Date.now()}-${index}`), type, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, width: Number(media.width) > 0 ? Number(media.width) : undefined, height: Number(media.height) > 0 ? Number(media.height) : undefined, ...(type === "image" && Boolean(media.portfolioPdfSelected) ? { portfolioPdfSelected: true } : {}), section: mediaSection(media.section), provenance: provenance(media.provenance) };
   }).filter((item) => item.src) : []);
   const result: PortfolioCase = {
     id: existing?.id || String(input.id || `C${Date.now()}`), brandName, projectName,
     intro: String(input.intro || "").trim(), business,
     categories: categories as CaseCategory[], primaryIndustry: String(input.primaryIndustry || "").trim(),
-    cover: String(input.cover || ""),
-    coverWidth: Number(input.coverWidth) > 0 ? Number(input.coverWidth) : existing?.coverWidth || 1400,
-    coverHeight: Number(input.coverHeight) > 0 ? Number(input.coverHeight) : existing?.coverHeight || 1050,
-    hero: String(input.hero || ""),
-    coverProvenance: provenance(input.coverProvenance),
-    heroProvenance: provenance(input.heroProvenance),
-    bodyAssets, published: Boolean(input.published),
+    media, published: Boolean(input.published),
     includeInPortfolioPdf: Boolean(input.includeInPortfolioPdf),
-    portfolioPdfHeroSelected: Boolean(input.portfolioPdfHeroSelected) && Boolean(input.hero),
-    portfolioPdfCoverSelected: Boolean(input.portfolioPdfCoverSelected) && Boolean(input.cover),
   };
+  const roles = getRoleImages(result.media);
+  if (result.published && (!roles.cover || !roles.hero)) throw new Error("已发布案例至少需要 2 张图片（封面与详情页首图）");
   if (result.includeInPortfolioPdf && result.published && !resolvePortfolioPdfImages(result).length) throw new Error("加入总作品集 PDF 的已发布案例至少需要选择一张精选图片");
   return result;
 }

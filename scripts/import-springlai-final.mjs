@@ -125,7 +125,8 @@ const websiteCases = cases.map((config) => {
   const cover = assets.find((item) => item.cover);
   const hero = assets.find((item) => item.hero);
   if (!cover || !hero) throw new Error(`Missing cover or hero for ${config.key}`);
-  const bodyAssets = assets.map((item, index) => {
+  const orderedAssets = [cover, hero, ...assets.filter((item) => item !== cover && item !== hero)];
+  const media = orderedAssets.map((item, index) => {
     const sectionKey = config.key === "整体VI更新" ? item.chapter : config.key === "桃花桂花艺人" ? item.subchapter : undefined;
     const uniqueSectionKey = sectionKey ? `${config.key}:${sectionKey}` : undefined;
     const section = uniqueSectionKey && !sectionSeen.has(uniqueSectionKey) ? sections[sectionKey] : undefined;
@@ -135,6 +136,8 @@ const websiteCases = cases.map((config) => {
       type: "image",
       src: item.websiteAsset,
       layout: "full",
+      width: item.width,
+      height: item.height,
       ...(index < (assets.length >= 15 ? 4 : 3) ? { portfolioPdfSelected: true } : {}),
       ...(section ? { section } : {}),
     };
@@ -143,18 +146,12 @@ const websiteCases = cases.map((config) => {
     id: config.id,
     ...titleFields(config.name),
     intro: config.intro,
-    cover: cover.websiteAsset,
-    coverWidth: cover.width,
-    coverHeight: cover.height,
-    hero: hero.websiteAsset,
-    bodyAssets,
+    media,
     published: true,
     business: "branding",
     categories: config.categories,
     primaryIndustry: config.primaryIndustry,
     includeInPortfolioPdf: true,
-    portfolioPdfHeroSelected: true,
-    portfolioPdfCoverSelected: false,
   };
 });
 
@@ -186,8 +183,8 @@ const importMap = {
   importedMediaCount: imports.length,
   totalBytes,
   retiredCases: retired.map(({ id, brandName, projectName, business }) => ({ id, brandName, projectName, business })),
-  schemaChange: "optional bodyAssets[].section metadata",
-  cases: websiteCases.map((item) => ({ id: item.id, brandName: item.brandName, projectName: item.projectName, route: routeFor(item.id), cover: item.cover, hero: item.hero, bodyAssetCount: item.bodyAssets.length })),
+  schemaChange: "optional media[].section metadata",
+  cases: websiteCases.map((item) => ({ id: item.id, brandName: item.brandName, projectName: item.projectName, route: routeFor(item.id), cover: item.media[0]?.src, hero: item.media[1]?.src, mediaCount: item.media.length })),
   assets: imports,
 };
 await fs.writeFile(path.join(productionRoot, "website-import-map.json"), `${JSON.stringify(importMap, null, 2)}\n`);

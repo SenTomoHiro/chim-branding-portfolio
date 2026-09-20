@@ -36,8 +36,8 @@ test("single-case PDF keeps the hero clean and moves case copy into a separate s
     expect(layout.displayedRatio).toBeCloseTo(layout.naturalRatio, 2);
     expect(layout.separated).toBe(true);
 
-    const chapterCount = item.bodyAssets.filter((asset) => asset.section).length;
-    const imageCount = item.bodyAssets.filter((asset) => asset.type === "image").length;
+    const chapterCount = item.media.filter((asset, index) => index >= 2 && asset.section).length;
+    const imageCount = item.media.filter((asset) => asset.type === "image").length - 2;
     await expect(page.locator(".pdfLongChapter > header")).toHaveCount(chapterCount);
     await expect(page.locator(".pdfLongWaterfall figure")).toHaveCount(imageCount);
   }

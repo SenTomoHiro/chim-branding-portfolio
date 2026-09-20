@@ -23,11 +23,13 @@ export type AssetProvenance = {
   finalWorkVerified: true;
 };
 
-export type BodyAsset = {
+export type CaseMedia = {
   id: string;
   type: MediaType;
   src: string;
   layout: MediaLayout;
+  width?: number;
+  height?: number;
   portfolioPdfSelected?: boolean;
   section?: {
     eyebrow: string;
@@ -45,17 +47,9 @@ export type PortfolioCase = {
   business: Business;
   categories: CaseCategory[];
   primaryIndustry: string;
-  cover: string;
-  coverWidth: number;
-  coverHeight: number;
-  hero: string;
-  coverProvenance?: AssetProvenance;
-  heroProvenance?: AssetProvenance;
-  bodyAssets: BodyAsset[];
+  media: CaseMedia[];
   published: boolean;
   includeInPortfolioPdf: boolean;
-  portfolioPdfHeroSelected: boolean;
-  portfolioPdfCoverSelected: boolean;
 };
 
 export type ContentData = {

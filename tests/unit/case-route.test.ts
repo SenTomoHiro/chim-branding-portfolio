@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { casePath, findPublishedCaseById } from "../../lib/case-route";
 import type { PortfolioCase } from "../../lib/types";
 
-const item: PortfolioCase = { id: "A-01", brandName: "堡乎乎 Manual Burger", projectName: "", intro: "", business: "branding", categories: ["food"], primaryIndustry: "餐饮", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: true, includeInPortfolioPdf: true, portfolioPdfHeroSelected: false, portfolioPdfCoverSelected: false };
+const item: PortfolioCase = { id: "A-01", brandName: "堡乎乎 Manual Burger", projectName: "", intro: "", business: "branding", categories: ["food"], primaryIndustry: "餐饮", media: [], published: true, includeInPortfolioPdf: true };
 
 describe("case id routes", () => {
   it("uses the stable id without depending on title changes", () => {

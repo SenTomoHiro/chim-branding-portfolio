@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
-import type { AssetProvenance, ContentData, PortfolioCase } from "../lib/types";
+import type { AssetProvenance, CaseMedia, ContentData, PortfolioCase } from "../lib/types";
 import { initializePortfolioPdfSelection } from "../lib/pdf-portfolio";
 import { INITIAL_CATEGORIES } from "./taxonomy-map";
 
@@ -61,13 +61,16 @@ async function main() {
     const mediaDirectory = path.join(root, "public/media/cases", recovered.case_id);
     const cover = await optimize(path.join(root, coverAsset.file), path.join(mediaDirectory, "psd-cover.webp"), "cover");
     const hero = await optimize(path.join(root, heroAsset.file), path.join(mediaDirectory, "psd-hero.webp"), "content");
-    const bodyAssets = [];
+    const media: CaseMedia[] = [
+      { id: coverAsset.asset_id, type: "image" as const, src: cover.src, layout: "full" as const, width: cover.width, height: cover.height, provenance: provenance(coverAsset) },
+      { id: heroAsset.asset_id, type: "image" as const, src: hero.src, layout: "full" as const, width: hero.width, height: hero.height, provenance: provenance(heroAsset) },
+    ];
     for (const [index, file] of recovered.body_assets.entries()) {
       const asset = assetByFile.get(file);
       if (!asset) throw new Error(`Missing segmented asset ${file}`);
-      const media = await optimize(path.join(root, file), path.join(mediaDirectory, `psd-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
-      const selected = Boolean(current?.bodyAssets.find((entry) => entry.id === asset.asset_id)?.portfolioPdfSelected);
-      bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, ...(selected ? { portfolioPdfSelected: true as const } : {}), provenance: provenance(asset) });
+      const optimized = await optimize(path.join(root, file), path.join(mediaDirectory, `psd-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
+      const selected = Boolean(current?.media.find((entry) => entry.id === asset.asset_id)?.portfolioPdfSelected);
+      media.push({ id: asset.asset_id, type: "image" as const, src: optimized.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, width: optimized.width, height: optimized.height, ...(selected ? { portfolioPdfSelected: true as const } : {}), provenance: provenance(asset) });
     }
     const next: PortfolioCase = {
       id: recovered.case_id,
@@ -77,12 +80,9 @@ async function main() {
       business: "branding",
       categories: current?.categories ?? INITIAL_CATEGORIES[recovered.case_id],
       primaryIndustry: current?.primaryIndustry ?? audit.industry_primary,
-      cover: cover.src, coverWidth: cover.width, coverHeight: cover.height, hero: hero.src,
-      coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
+      media,
       published: current?.published ?? recovered.published,
       includeInPortfolioPdf: current?.includeInPortfolioPdf ?? recovered.published,
-      portfolioPdfHeroSelected: current?.portfolioPdfHeroSelected ?? false,
-      portfolioPdfCoverSelected: current?.portfolioPdfCoverSelected ?? false,
     };
     imported.push(current ? next : initializePortfolioPdfSelection(next));
   }

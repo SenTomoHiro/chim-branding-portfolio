@@ -9,7 +9,7 @@ describe("Photography category", () => {
   it("keeps all 17 ready cases outside Branding after the retired ChunLai photography entry is migrated", () => {
     const photography = getPhotographyCases(content.cases);
     expect(photography).toHaveLength(17);
-    expect(photography.every((item) => item.published && item.cover && item.hero && item.bodyAssets.length > 0)).toBe(true);
+    expect(photography.every((item) => item.published && item.media.filter((asset) => asset.type === "image").length >= 2)).toBe(true);
     expect(getBrandingCases(content.cases).some((item) => item.business === "photography")).toBe(false);
   });
 
@@ -17,7 +17,7 @@ describe("Photography category", () => {
     const ordered = sortPublishedCases(getPhotographyCases(content.cases), content.photographyCaseOrder);
     expect(ordered.map((item) => item.id)).toEqual(content.photographyCaseOrder);
     for (const item of ordered) {
-      const provenance = [item.coverProvenance, item.heroProvenance, ...item.bodyAssets.map((asset) => asset.provenance)];
+      const provenance = item.media.map((asset) => asset.provenance);
       expect(provenance.every((entry) => entry?.sourceType === "ai" && entry.sourceAi === "旧案例/摄影作品集.ai" && entry.finalWorkVerified)).toBe(true);
     }
   });

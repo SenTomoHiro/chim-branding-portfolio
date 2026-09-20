@@ -60,7 +60,7 @@ for (const caseInfo of manifest.cases) {
     const first = items.find((item) => item.chapter === chapter.title);
     if (first) chapterStarts.set(first.order, chapter);
   }
-  const bodyAssets = [];
+  const media = [];
   for (const item of items) {
     const extension = ".jpg";
     const filename = `body-${String(item.order).padStart(2, "0")}${extension}`;
@@ -68,7 +68,7 @@ for (const caseInfo of manifest.cases) {
     await fs.copyFile(path.join(root, item.finalAsset), target);
     const section = chapterStarts.get(item.order);
     const assetId = `${caseInfo.id}-body-${item.order}`;
-    bodyAssets.push({
+    media.push({
       id: assetId,
       type: "image",
       src: `/media/${folder}/${filename}`,
@@ -81,19 +81,18 @@ for (const caseInfo of manifest.cases) {
   const coverItem = items.find((item) => item.order === caseInfo.coverOrder);
   const heroItem = items.find((item) => item.order === caseInfo.heroOrder);
   if (!coverItem || !heroItem) throw new Error(`Missing cover or hero selection for ${caseInfo.case}`);
-  const coverAsset = bodyAssets[caseInfo.coverOrder - 1];
-  const heroAsset = bodyAssets[caseInfo.heroOrder - 1];
+  const coverAsset = media[caseInfo.coverOrder - 1];
+  const heroAsset = media[caseInfo.heroOrder - 1];
+  const orderedMedia = [
+    { ...coverAsset, width: coverItem.width, height: coverItem.height },
+    { ...heroAsset, width: heroItem.width, height: heroItem.height },
+    ...media.filter((asset) => asset.src !== coverAsset.src && asset.src !== heroAsset.src),
+  ];
   const siteCase = {
     id: caseInfo.id,
     name: caseInfo.siteName || caseInfo.case,
     intro: caseInfo.intro,
-    cover: coverAsset.src,
-    coverWidth: coverItem.width,
-    coverHeight: coverItem.height,
-    hero: heroAsset.src,
-    bodyAssets,
-    coverProvenance: coverAsset.provenance,
-    heroProvenance: heroAsset.provenance,
+    media: orderedMedia,
     published: true,
     business: "branding",
     categories: caseInfo.categories,

@@ -1,14 +1,14 @@
-import type { BodyAsset } from "./types";
+import type { CaseMedia } from "./types";
 
 export type ChapterGroup = {
   id: string;
-  section?: NonNullable<BodyAsset["section"]>;
-  assets: BodyAsset[];
+  section?: NonNullable<CaseMedia["section"]>;
+  assets: CaseMedia[];
 };
 
 export const UNSECTIONED_GROUP = "unsectioned";
 
-export function groupBodyAssets(assets: BodyAsset[]): ChapterGroup[] {
+export function groupBodyAssets(assets: CaseMedia[]): ChapterGroup[] {
   const groups: ChapterGroup[] = [];
   let current: ChapterGroup = { id: UNSECTIONED_GROUP, assets: [] };
   for (const asset of assets) {
@@ -23,7 +23,7 @@ export function groupBodyAssets(assets: BodyAsset[]): ChapterGroup[] {
   return groups;
 }
 
-export function renumberChapters(assets: BodyAsset[]): BodyAsset[] {
+export function renumberChapters(assets: CaseMedia[]): CaseMedia[] {
   let number = 0;
   return assets.map((asset) => {
     if (!asset.section) return asset;
@@ -32,14 +32,14 @@ export function renumberChapters(assets: BodyAsset[]): BodyAsset[] {
   });
 }
 
-export function addChapter(assets: BodyAsset[], assetId: string, title: string, description?: string) {
+export function addChapter(assets: CaseMedia[], assetId: string, title: string, description?: string) {
   const next = assets.map((asset) => asset.id === assetId
     ? { ...asset, section: { eyebrow: "CHAPTER 00", title: title.trim(), description: description?.trim() || undefined } }
     : asset);
   return renumberChapters(next);
 }
 
-export function updateChapter(assets: BodyAsset[], chapterId: string, patch: { title?: string; description?: string }) {
+export function updateChapter(assets: CaseMedia[], chapterId: string, patch: { title?: string; description?: string }) {
   return assets.map((asset) => asset.id === chapterId && asset.section ? {
     ...asset,
     section: {
@@ -50,11 +50,11 @@ export function updateChapter(assets: BodyAsset[], chapterId: string, patch: { t
   } : asset);
 }
 
-export function removeChapter(assets: BodyAsset[], chapterId: string) {
+export function removeChapter(assets: CaseMedia[], chapterId: string) {
   return renumberChapters(assets.map((asset) => asset.id === chapterId ? { ...asset, section: undefined } : asset));
 }
 
-export function moveChapter(assets: BodyAsset[], chapterId: string, direction: -1 | 1) {
+export function moveChapter(assets: CaseMedia[], chapterId: string, direction: -1 | 1) {
   const groups = groupBodyAssets(assets);
   const chapters = groups.filter((group) => group.section);
   const from = chapters.findIndex((group) => group.id === chapterId);
@@ -79,7 +79,7 @@ function flattenGroups(groups: ChapterGroup[]) {
   }));
 }
 
-export function moveAssetWithinGroup(assets: BodyAsset[], assetId: string, direction: -1 | 1) {
+export function moveAssetWithinGroup(assets: CaseMedia[], assetId: string, direction: -1 | 1) {
   const groups = groupBodyAssets(assets);
   const group = groups.find((entry) => entry.assets.some((asset) => asset.id === assetId));
   if (!group) return assets;
@@ -90,7 +90,7 @@ export function moveAssetWithinGroup(assets: BodyAsset[], assetId: string, direc
   return flattenGroups(groups);
 }
 
-export function moveAssetWithinGroupTo(assets: BodyAsset[], assetId: string, targetAssetId: string) {
+export function moveAssetWithinGroupTo(assets: CaseMedia[], assetId: string, targetAssetId: string) {
   const groups = groupBodyAssets(assets);
   const group = groups.find((entry) => entry.assets.some((asset) => asset.id === assetId));
   if (!group || !group.assets.some((asset) => asset.id === targetAssetId)) return assets;
@@ -101,7 +101,7 @@ export function moveAssetWithinGroupTo(assets: BodyAsset[], assetId: string, tar
   return flattenGroups(groups);
 }
 
-export function moveAssetToGroup(assets: BodyAsset[], assetId: string, targetGroupId: string) {
+export function moveAssetToGroup(assets: CaseMedia[], assetId: string, targetGroupId: string) {
   const groups = groupBodyAssets(assets);
   const source = groups.find((group) => group.assets.some((asset) => asset.id === assetId));
   let target = groups.find((group) => group.id === targetGroupId);
@@ -116,7 +116,7 @@ export function moveAssetToGroup(assets: BodyAsset[], assetId: string, targetGro
   return flattenGroups(groups.filter((group) => group.assets.length));
 }
 
-export function insertAssetInGroup(assets: BodyAsset[], asset: BodyAsset, groupId: string) {
+export function insertAssetInGroup(assets: CaseMedia[], asset: CaseMedia, groupId: string) {
   const groups = groupBodyAssets(assets);
   const target = groups.find((group) => group.id === groupId);
   if (!target) return groupId === UNSECTIONED_GROUP ? [asset, ...assets] : [...assets, asset];

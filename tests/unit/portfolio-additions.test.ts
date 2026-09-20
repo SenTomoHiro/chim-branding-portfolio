@@ -77,12 +77,12 @@ describe("portfolio additions Sol v1", () => {
 
   it("does not change the frozen Springlai body counts or chapter titles", () => {
     const springlai = content.cases.filter((item) => item.id.startsWith("SL"));
-    expect(springlai.map((item) => item.bodyAssets.length)).toEqual([33, 10, 7, 8, 21, 3, 6]);
-    expect(springlai.flatMap((item) => item.bodyAssets)).toHaveLength(88);
-    expect(springlai.find((item) => item.id === "SL001")?.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
+    expect(springlai.map((item) => item.media.length)).toEqual([33, 10, 7, 8, 21, 3, 6]);
+    expect(springlai.flatMap((item) => item.media)).toHaveLength(88);
+    expect(springlai.find((item) => item.id === "SL001")?.media.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
       "夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级",
     ]);
-    expect(springlai.find((item) => item.id === "SL005")?.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
+    expect(springlai.find((item) => item.id === "SL005")?.media.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
       "桃与乌龙", "桃花艺人", "桂花艺人",
     ]);
     expect(manifest.springlaiCorrection).toEqual({

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import { addChapter, groupBodyAssets, moveAssetToGroup, moveAssetWithinGroup, moveChapter, removeChapter, UNSECTIONED_GROUP, updateChapter } from "../../lib/chapters";
-import type { BodyAsset } from "../../lib/types";
+import type { CaseMedia } from "../../lib/types";
 
-const asset = (id: string, section?: BodyAsset["section"]): BodyAsset => ({ id, type: "image", src: `/media/${id}.jpg`, layout: "full", section });
-const section = (eyebrow: string, title: string): NonNullable<BodyAsset["section"]> => ({ eyebrow, title, description: `${title}说明` });
+const asset = (id: string, section?: CaseMedia["section"]): CaseMedia => ({ id, type: "image", src: `/media/${id}.jpg`, layout: "full", section });
+const section = (eyebrow: string, title: string): NonNullable<CaseMedia["section"]> => ({ eyebrow, title, description: `${title}说明` });
 
 describe("chapter editing", () => {
   it("groups the existing first-media section shape and keeps unsectioned media explicit", () => {

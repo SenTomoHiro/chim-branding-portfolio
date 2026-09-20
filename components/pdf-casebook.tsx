@@ -6,6 +6,7 @@ import { resolvePortfolioPdfImages } from "@/lib/pdf-portfolio";
 import { assetPath } from "@/lib/site-path";
 import { categoryLabel, formatCaseMetadata } from "@/lib/taxonomy";
 import type { Business, CaseCategory, PortfolioCase } from "@/lib/types";
+import { getCaseBodyMedia, getCaseHero } from "@/lib/case-media";
 
 function PdfFooter({ project, page, total }: { project: string; page: number; total: number }) {
   return <footer className="pdfFooter"><span>CHIM® / {project}</span><span>{String(page).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>;
@@ -32,8 +33,9 @@ function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
 }
 
 export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
-  const hero = await getPdfMediaInfo("hero", item.hero);
-  const groups = groupBodyAssets(item.bodyAssets);
+  const heroAsset = getCaseHero(item)!;
+  const hero = await getPdfMediaInfo(heroAsset.id, heroAsset.src);
+  const groups = groupBodyAssets(getCaseBodyMedia(item));
   const resolvedGroups = await Promise.all(groups.map(async (group) => ({
     ...group,
     images: await Promise.all(group.assets.filter((asset) => asset.type === "image").map((asset) => getPdfMediaInfo(asset.id, asset.src))),

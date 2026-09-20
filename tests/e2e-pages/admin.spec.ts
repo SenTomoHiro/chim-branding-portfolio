@@ -22,6 +22,11 @@ test("Pages admin keeps its list readable and navigates to generated editor rout
   expect((await page.request.get(`${base}/favicon.svg`)).status()).toBe(200);
   await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
   await page.getByRole("button", { name: "连接 GitHub" }).click();
+  await expect(page.getByRole("link", { name: /CHIM.*Admin/ })).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "后台导航" }).getByRole("link", { name: "案例管理" })).toBeVisible();
+  await expect(page.getByRole("navigation", { name: "后台导航" }).getByRole("link", { name: "PDF 生成" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "查看网站" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "退出" })).toBeVisible();
   await expect(page.locator(".adminCaseList article")).toHaveCount(content.cases.length);
   expect(await page.locator(".adminCaseList article").first().locator(".adminCaseName").evaluate((cell) => cell.getBoundingClientRect().width)).toBeGreaterThan(180);
   expect(await page.locator(".adminCaseList article").first().getByRole("link", { name: "编辑" }).evaluate((link) => link.getBoundingClientRect().width)).toBeLessThan(100);
@@ -45,9 +50,9 @@ test("Pages admin keeps its list readable and navigates to generated editor rout
   await page.locator(`a[href="${base}/admin/cases/${mediaRich.id}/"]`).click();
   await expect(page).toHaveURL(new RegExp(`${base}/admin/cases/${mediaRich.id}/?$`));
   if (await page.getByLabel("Fine-grained personal access token").isVisible()) { await page.getByLabel("Fine-grained personal access token").fill("fixture-token"); await page.getByRole("button", { name: "连接 GitHub" }).click(); }
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaRich.bodyAssets.length);
-  await expect(page.locator(".bodyAssetList img")).toHaveCount(mediaRich.bodyAssets.filter((asset) => asset.type === "image").length);
-  await expect(page.locator(".bodyAssetList select").first()).toHaveValue(mediaRich.bodyAssets[0].layout);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaRich.media.length);
+  await expect(page.locator(".bodyAssetList img")).toHaveCount(mediaRich.media.filter((asset) => asset.type === "image").length);
+  await expect(page.locator(".bodyAssetList select").first()).toHaveValue(mediaRich.media[0].layout);
   const chapterCase = content.cases.find((item) => item.id === "SL001")!;
   await page.getByRole("link", { name: "返回后台" }).click();
   await page.locator(`a[href="${base}/admin/cases/${chapterCase.id}/"]`).click();
@@ -57,11 +62,47 @@ test("Pages admin keeps its list readable and navigates to generated editor rout
   await page.getByLabel("章节标题").first().fill("Pages fixture chapter");
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  expect(savedContent?.cases.find((item) => item.id === chapterCase.id)?.bodyAssets[0].section?.title).toBe("Pages fixture chapter");
+  expect(savedContent?.cases.find((item) => item.id === chapterCase.id)?.media.find((asset) => asset.section)?.section?.title).toBe("Pages fixture chapter");
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth)).toBe(false);
   await page.getByRole("link", { name: "返回后台" }).click();
   expect(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth)).toBe(false);
   await expect(page.getByRole("link", { name: "新建案例" })).toBeVisible();
+  const removed = content.cases.at(-1)!;
+  page.once("dialog", (dialog) => dialog.accept());
+  await page.locator(".adminCaseList article").filter({ hasText: removed.brandName }).getByRole("button", { name: "删除" }).click();
+  await expect(page.locator(".adminCaseList article")).toHaveCount(content.cases.length - 1);
+  expect(savedContent?.cases.some((item) => item.id === removed.id)).toBe(false);
+  await page.getByRole("navigation", { name: "后台导航" }).getByRole("link", { name: "PDF 生成" }).click();
+  await expect(page).toHaveURL(`${base}/admin/pdf/`);
+  await expect(page.getByRole("heading", { name: "PDF 生成" })).toBeVisible();
+  await expect(page.getByRole("button", { name: "生成 Design Portfolio" })).toBeEnabled();
+  expect((await page.request.get(`${base}/admin/pdf/`)).status()).toBe(200);
+  await page.getByRole("button", { name: "退出" }).click();
+  await expect(page.getByLabel("Fine-grained personal access token")).toBeVisible();
+  await expect(page.getByLabel("Fine-grained personal access token")).toHaveValue("");
   expect(errors).toEqual([]);
+});
+
+test("Pages admin uploads multiple media sequentially and derives image roles", async ({ page }) => {
+  const uploads: string[] = [];
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio", (route) => route.fulfill({ json: { id: 1 } }));
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/contents/data/content.json?ref=main", (route) => route.fulfill({ json: { content: Buffer.from(JSON.stringify(content)).toString("base64"), sha: "fixture-sha" } }));
+  await page.route(/https:\/\/api\.github\.com\/repos\/SenTomoHiro\/chim-branding-portfolio\/contents\/public\/media\/cases\//, async (route) => {
+    const payload = route.request().postDataJSON() as { content: string };
+    uploads.push(Buffer.from(payload.content, "base64").toString("utf8"));
+    await route.fulfill({ json: { content: { sha: `upload-${uploads.length}` } } });
+  });
+  await page.route(`**${base}/media/cases/**`, (route) => route.fulfill({ contentType: "image/gif", body: Buffer.from("R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==", "base64") }));
+  await page.goto(`${base}/admin/cases/new/`);
+  await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
+  await page.getByRole("button", { name: "连接 GitHub" }).click();
+  await page.locator('.bodyMediaActions input[type="file"]').setInputFiles([
+    { name: "first.png", mimeType: "image/png", buffer: Buffer.from("first") },
+    { name: "second.png", mimeType: "image/png", buffer: Buffer.from("second") },
+  ]);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(2);
+  expect(uploads).toEqual(["first", "second"]);
+  await expect(page.locator('[data-media-role="cover"]')).toContainText("封面");
+  await expect(page.locator('[data-media-role="hero"]')).toContainText("详情页首图");
 });

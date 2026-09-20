@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
-import type { AssetProvenance, ContentData, PortfolioCase } from "../lib/types";
+import type { AssetProvenance, CaseMedia, ContentData, PortfolioCase } from "../lib/types";
 import { initializePortfolioPdfSelection } from "../lib/pdf-portfolio";
 import { INITIAL_CATEGORIES } from "./taxonomy-map";
 
@@ -29,10 +29,10 @@ async function main(){
   for(const id of order){
     const audit=caseById.get(id);if(!audit||!audit.website_assets_ready||audit.source_asset_status!=="READY_FROM_SOURCE")throw new Error(`${id} is not a ready photography case`);
     const current=currentById.get(id);const coverAsset=assetByFile.get(audit.cover_asset);const heroAsset=assetByFile.get(audit.hero_asset);if(!coverAsset||!heroAsset||audit.body_assets.length<1)throw new Error(`${id} is missing cover, hero, or body assets`);
-    const mediaDir=path.join(root,"public/media/cases",id);const cover=await optimize(path.join(root,coverAsset.file),path.join(mediaDir,"photo-cover.webp"),"cover");const hero=await optimize(path.join(root,heroAsset.file),path.join(mediaDir,"photo-hero.webp"),"content");const bodyAssets=[];
-    for(const [index,file] of audit.body_assets.entries()){const asset=assetByFile.get(file);if(!asset)throw new Error(`Missing ${file}`);const media=await optimize(path.join(root,file),path.join(mediaDir,`photo-body-${String(index+1).padStart(2,"0")}.webp`),"content");const selected=Boolean(current?.bodyAssets.find((entry)=>entry.id===asset.asset_id)?.portfolioPdfSelected);bodyAssets.push({id:asset.asset_id,type:"image" as const,src:media.src,layout:index>0&&index<5?"half" as const:"full" as const,...(selected?{portfolioPdfSelected:true as const}:{}),provenance:provenance(asset)});}
+    const mediaDir=path.join(root,"public/media/cases",id);const cover=await optimize(path.join(root,coverAsset.file),path.join(mediaDir,"photo-cover.webp"),"cover");const hero=await optimize(path.join(root,heroAsset.file),path.join(mediaDir,"photo-hero.webp"),"content");const media:CaseMedia[]=[{id:coverAsset.asset_id,type:"image" as const,src:cover.src,layout:"full" as const,width:cover.width,height:cover.height,provenance:provenance(coverAsset)},{id:heroAsset.asset_id,type:"image" as const,src:hero.src,layout:"full" as const,width:hero.width,height:hero.height,provenance:provenance(heroAsset)}];
+    for(const [index,file] of audit.body_assets.entries()){const asset=assetByFile.get(file);if(!asset)throw new Error(`Missing ${file}`);const optimized=await optimize(path.join(root,file),path.join(mediaDir,`photo-body-${String(index+1).padStart(2,"0")}.webp`),"content");const selected=Boolean(current?.media.find((entry)=>entry.id===asset.asset_id)?.portfolioPdfSelected);media.push({id:asset.asset_id,type:"image" as const,src:optimized.src,layout:index>0&&index<5?"half" as const:"full" as const,width:optimized.width,height:optimized.height,...(selected?{portfolioPdfSelected:true as const}:{}),provenance:provenance(asset)});}
     const title=current?{brandName:current.brandName,projectName:current.projectName}:importedTitle(audit.name);
-    const next: PortfolioCase = {id,...title,intro:current?.intro??`${audit.name}商业摄影与美术指导案例。`,business:"photography",categories:current?.categories??INITIAL_CATEGORIES[id],primaryIndustry:current?.primaryIndustry??audit.industry_primary,cover:cover.src,coverWidth:cover.width,coverHeight:cover.height,hero:hero.src,coverProvenance:provenance(coverAsset),heroProvenance:provenance(heroAsset),bodyAssets,published:true,includeInPortfolioPdf:current?.includeInPortfolioPdf??true,portfolioPdfHeroSelected:current?.portfolioPdfHeroSelected??false,portfolioPdfCoverSelected:current?.portfolioPdfCoverSelected??false};
+    const next: PortfolioCase = {id,...title,intro:current?.intro??`${audit.name}商业摄影与美术指导案例。`,business:"photography",categories:current?.categories??INITIAL_CATEGORIES[id],primaryIndustry:current?.primaryIndustry??audit.industry_primary,media,published:true,includeInPortfolioPdf:current?.includeInPortfolioPdf??true};
     imported.push(current ? next : initializePortfolioPdfSelection(next));
   }
   const importedById=new Map(imported.map((item)=>[item.id,item]));const cases=content.cases.map((item)=>importedById.get(item.id)??item);for(const item of imported)if(!cases.some((entry)=>entry.id===item.id))cases.push(item);

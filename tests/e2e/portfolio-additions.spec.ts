@@ -25,8 +25,8 @@ test("all six completed cases render their selected media and Chapters on deskto
     for (const item of additions) {
       expect((await page.goto(casePath(item.id), { waitUntil: "networkidle" }))?.status(), caseFullTitle(item)).toBe(200);
       await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
-      await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
-      await expect(page.locator(".mediaSectionHeading h2")).toHaveText(item.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title));
+      await expect(page.locator(".mediaFlow figure")).toHaveCount(item.media.length - 2);
+      await expect(page.locator(".mediaSectionHeading h2")).toHaveText(item.media.filter((asset) => asset.section).map((asset) => asset.section!.title));
       await page.locator(".nextCase").scrollIntoViewIfNeeded();
       await expectNoOverflow(page);
     }
@@ -47,8 +47,8 @@ test("Admin lists all six cases once and exposes their exact media and Chapter s
     await row.getByRole("link", { name: "编辑" }).click();
     await expect(page.getByLabel("品牌名")).toHaveValue(item.brandName);
     await expect(page.getByLabel("项目名（可选）")).toHaveValue(item.projectName);
-    await expect(page.locator(".bodyAssetList article")).toHaveCount(item.bodyAssets.length);
-    await expect(page.locator(".chapterHeader")).toHaveCount(item.bodyAssets.filter((asset) => asset.section).length);
+    await expect(page.locator(".bodyAssetList article")).toHaveCount(item.media.length);
+    await expect(page.locator(".chapterHeader")).toHaveCount(item.media.filter((asset) => asset.section).length);
     await page.getByRole("link", { name: "返回后台" }).click();
   }
 });

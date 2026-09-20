@@ -37,9 +37,9 @@ describe("single-layer PSD whitespace segmentation", () => {
       expect(recovered.body_assets.length).toBeGreaterThan(0);
       const websiteCase = content.cases.find((item) => item.id === recovered.case_id);
       expect(websiteCase, `${recovered.case_id} in admin data`).toBeTruthy();
-      expect(websiteCase!.coverProvenance?.sourcePsd).toMatch(/\.psd$/i);
-      expect(websiteCase!.heroProvenance?.extractionMethod).toBe("whitespace_segmentation");
-      expect(websiteCase!.bodyAssets.length).toBeGreaterThan(0);
+      expect(websiteCase!.media[0].provenance?.sourcePsd).toMatch(/\.psd$/i);
+      expect(websiteCase!.media[1].provenance?.extractionMethod).toBe("whitespace_segmentation");
+      expect(websiteCase!.media.length).toBeGreaterThan(0);
     }
   });
 });

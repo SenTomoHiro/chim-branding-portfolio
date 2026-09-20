@@ -19,3 +19,4 @@ case-audit-v2/*
 public/media/uploads/
 case-audit-v3/candidates/
 case-audit-v3/tmp/
+.tmp/source-audit-v4/

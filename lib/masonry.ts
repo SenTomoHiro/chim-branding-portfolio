@@ -1,4 +1,5 @@
 import type { PortfolioCase } from "./types";
+import { getCaseCover } from "./case-media";
 
 export type MasonryPlacement = { column: number; ratioBefore: number; countBefore: number };
 export type MasonryLayout = { placements: MasonryPlacement[]; columnTotals: { ratio: number; count: number }[] };
@@ -13,7 +14,10 @@ export function createMasonryLayout(items: PortfolioCase[], columns: number, ref
     const column = states.reduce((shortest, state, index) => state.height < states[shortest].height ? index : shortest, 0);
     const state = states[column];
     const placement = { column, ratioBefore: state.ratio, countBefore: state.count };
-    const ratio = item.coverWidth > 0 && item.coverHeight > 0 ? item.coverHeight / item.coverWidth : 0.75;
+    const cover = getCaseCover(item);
+    const width = cover?.width || cover?.provenance?.width || 1400;
+    const height = cover?.height || cover?.provenance?.height || 1050;
+    const ratio = width > 0 && height > 0 ? height / width : 0.75;
     state.ratio += ratio;
     state.count += 1;
     state.height = state.ratio * columnWidth + state.count * (CARD_TAIL + GAP) - GAP;

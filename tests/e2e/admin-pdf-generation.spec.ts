@@ -41,22 +41,22 @@ test("local PDF management handles membership, filters, inline selection and eve
   await expect(page.getByLabel("加入合集 PDF")).toBeVisible();
   await expect(page.locator(".pdfInlineChoice b, .pdfInlineChoice button")).toHaveCount(0);
   const bodyRows = page.locator(".bodyAssetList article");
-  const firstPath = (await bodyRows.nth(0).locator("> div:nth-child(2) span").textContent())!;
-  const secondPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span").textContent())!;
-  await expect(bodyRows.nth(0).getByRole("checkbox")).toBeChecked();
-  await expect(bodyRows.nth(1).getByRole("checkbox")).toBeChecked();
+  const firstPath = (await bodyRows.nth(0).locator("> div:nth-child(2) span[title]").textContent())!;
+  const secondPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span[title]").textContent())!;
+  await bodyRows.nth(0).getByRole("checkbox").check();
+  await bodyRows.nth(1).getByRole("checkbox").check();
   await bodyRows.nth(0).getByRole("button", { name: "↓", exact: true }).click();
   await expect(page.getByRole("button", { name: "生成案例 PDF" })).toBeDisabled();
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
   await page.reload();
-  await expect(bodyRows.nth(0).locator("> div:nth-child(2) span")).toHaveText(secondPath!);
-  await expect(bodyRows.nth(1).locator("> div:nth-child(2) span")).toHaveText(firstPath!);
+  await expect(bodyRows.nth(0).locator("> div:nth-child(2) span[title]")).toHaveText(secondPath!);
+  await expect(bodyRows.nth(1).locator("> div:nth-child(2) span[title]")).toHaveText(firstPath!);
 
   await page.goto("/work/l002");
-  expect((await imageSources(page.locator(".mediaFlow figure img"))).slice(0, 2)).toEqual([secondPath, firstPath]);
+  expect(await imageSources(page.locator(".workHero img"))).toEqual([firstPath]);
   await page.goto("/print/case/l002");
-  expect((await imageSources(page.locator(".pdfLongWaterfall img"))).slice(0, 2)).toEqual([secondPath, firstPath]);
+  expect(await imageSources(page.locator(".pdfLongHero > img"))).toEqual([firstPath]);
   await page.goto("/admin/cases/L002");
   await generateAndOpen(page, "生成案例 PDF");
 
@@ -64,26 +64,26 @@ test("local PDF management handles membership, filters, inline selection and eve
     await page.goto(route);
     const portfolioCase = page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" });
     const sources = await imageSources(portfolioCase.locator(".pdfPicture"));
-    expect(sources.slice(1, 3)).toEqual([secondPath, firstPath]);
+    expect(sources.slice(0, 2)).toEqual([secondPath, firstPath]);
   }
   await page.goto("/admin/pdf");
   await generateAndOpen(page, "生成 Design Portfolio");
   await generateAndOpen(page, "生成餐饮合集");
 
   await page.goto("/admin/cases/L002");
-  const excludedPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span").textContent())!;
+  const excludedPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span[title]").textContent())!;
   await bodyRows.nth(1).getByRole("checkbox").uncheck();
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
   await page.goto("/work/l002");
-  expect(await imageSources(page.locator(".mediaFlow figure img"))).toContain(excludedPath);
+  expect(await imageSources(page.locator(".workHero img"))).toContain(excludedPath);
   await page.goto("/print/case/l002");
-  expect(await imageSources(page.locator(".pdfLongWaterfall img"))).toContain(excludedPath);
+  expect(await imageSources(page.locator(".pdfLongHero > img"))).toContain(excludedPath);
   for (const route of ["/print/portfolio/design", "/print/portfolio/design-food"]) {
     await page.goto(route);
     const sources = await imageSources(page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" }).locator(".pdfPicture"));
     expect(sources).not.toContain(excludedPath);
-    expect(sources[1]).toBe(secondPath);
+    expect(sources[0]).toBe(secondPath);
   }
 
   await page.goto("/admin/pdf");

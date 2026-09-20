@@ -10,6 +10,7 @@
     "pdf:generate": "node scripts/generate-pdfs.mjs --site-dir out --output-dir output/pdf",
     "start": "next start",
     "typecheck": "tsc --noEmit",
+    "migrate:media": "node scripts/migrate-unified-media.mjs",
     "import:cases": "tsx scripts/import-cases.ts && tsx scripts/import-legacy-psd-cases.ts && tsx scripts/import-photography-cases.ts",
     "audit:pdf-inventory": "node case-audit-v3/tools/inventory_all_pdfs.mjs",
     "audit:segment-psd": "node case-audit-v3/tools/segment_flat_psds.mjs",

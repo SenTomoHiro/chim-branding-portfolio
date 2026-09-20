@@ -1,7 +1,7 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
-import type { AssetProvenance, ContentData } from "../lib/types";
+import type { AssetProvenance, CaseMedia, ContentData } from "../lib/types";
 
 type AuditCase = { case_id: string; cover_asset: string; hero_asset: string; body_assets: string[] };
 type AuditAsset = {
@@ -53,17 +53,19 @@ async function main() {
     if (!coverAsset || !heroAsset) throw new Error(`Missing V3 cover/hero provenance for ${current.id}`);
     const cover = await optimize(path.join(root, audit.cover_asset), path.join(mediaDirectory, "v3-cover.webp"), "cover");
     const hero = await optimize(path.join(root, audit.hero_asset), path.join(mediaDirectory, "v3-hero.webp"), "content");
-    const bodyAssets = [];
+    const media: CaseMedia[] = [
+      { id: coverAsset.asset_id, type: "image" as const, src: cover.src, layout: "full" as const, width: cover.width, height: cover.height, provenance: provenance(coverAsset) },
+      { id: heroAsset.asset_id, type: "image" as const, src: hero.src, layout: "full" as const, width: hero.width, height: hero.height, provenance: provenance(heroAsset) },
+    ];
     for (const [index, file] of audit.body_assets.entries()) {
       const asset = assetByFile.get(file);
       if (!asset) throw new Error(`Missing V3 body provenance: ${file}`);
-      const media = await optimize(path.join(root, file), path.join(mediaDirectory, `v3-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
-      bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, provenance: provenance(asset) });
+      const optimized = await optimize(path.join(root, file), path.join(mediaDirectory, `v3-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
+      media.push({ id: asset.asset_id, type: "image" as const, src: optimized.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, width: optimized.width, height: optimized.height, provenance: provenance(asset) });
     }
     cases.push({
       ...current,
-      cover: cover.src, coverWidth: cover.width, coverHeight: cover.height,
-      hero: hero.src, coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
+      media,
     });
   }
 

@@ -9,7 +9,7 @@ const input = {
   primaryIndustry: "餐饮",
   cover: "",
   hero: "",
-  bodyAssets: [],
+  media: [],
   published: false,
 };
 
@@ -31,7 +31,7 @@ describe("case validation", () => {
   });
 
   it("preserves optional editorial section headings on existing media", () => {
-    const item = parseCase({ ...input, business: "branding", categories: ["drinks"], bodyAssets: [{ id: "asset-1", type: "image", src: "/media/example.jpg", layout: "full", section: { eyebrow: "VI 04", title: "2025 品牌升级", description: "品牌应用更新。" } }] });
-    expect(item.bodyAssets[0].section).toEqual({ eyebrow: "CHAPTER 01", title: "2025 品牌升级", description: "品牌应用更新。" });
+    const item = parseCase({ ...input, business: "branding", categories: ["drinks"], media: [{ id: "asset-1", type: "image", src: "/media/example.jpg", layout: "full", section: { eyebrow: "VI 04", title: "2025 品牌升级", description: "品牌应用更新。" } }] });
+    expect(item.media[0].section).toEqual({ eyebrow: "CHAPTER 01", title: "2025 品牌升级", description: "品牌应用更新。" });
   });
 });

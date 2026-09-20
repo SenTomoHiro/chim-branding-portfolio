@@ -15,15 +15,15 @@ describe("JUJUS, 瑞瀚心理 and 阿泰珍奶 portfolio cases", () => {
     for (const id of ["N026", "N027", "N028"]) {
       const item = content.cases.find((entry) => entry.id === id);
       expect(item?.published, id).toBe(true);
-      expect(item?.bodyAssets.every((asset) => asset.provenance?.finalWorkVerified), id).toBe(true);
-      expect(item?.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section?.eyebrow), id).toEqual(
-        item?.bodyAssets.filter((asset) => asset.section).map((_, index) => `CHAPTER ${String(index + 1).padStart(2, "0")}`),
+      expect(item?.media.every((asset) => asset.provenance?.finalWorkVerified), id).toBe(true);
+      expect(item?.media.filter((asset) => asset.section).map((asset) => asset.section?.eyebrow), id).toEqual(
+        item?.media.filter((asset) => asset.section).map((_, index) => `CHAPTER ${String(index + 1).padStart(2, "0")}`),
       );
       expect(content.defaultOrder.includes(id), id).toBe(true);
     }
 
     const existing = content.cases.find((entry) => entry.brandName === "春莱" && entry.projectName === "桃花桂花艺人系列");
-    expect(existing?.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section?.eyebrow)).toEqual([
+    expect(existing?.media.filter((asset) => asset.section).map((asset) => asset.section?.eyebrow)).toEqual([
       "CHAPTER 01",
       "CHAPTER 02",
       "CHAPTER 03",

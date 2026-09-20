@@ -109,11 +109,16 @@ function body(caseId, roles) {
   });
 }
 
+function unifiedMedia(caseId, roles) {
+  const roleMedia = built[caseId].slice(0, 2).map((asset) => ({ id: asset.provenance.assetId, type: "image", src: asset.src, layout: "full", width: asset.width, height: asset.height, provenance: asset.provenance }));
+  const sources = new Set(roleMedia.map((asset) => asset.src));
+  return [...roleMedia, ...body(caseId, roles).filter((asset) => !sources.has(asset.src))];
+}
+
 const cases = [
   {
     id: "N026", name: "JUJUS", intro: "以蓝粉配色与波浪字标构建品牌视觉，延展至菜单、包装与工作服。", business: "branding", categories: ["drinks"], primaryIndustry: "饮品",
-    cover: built.N026[0].src, coverWidth: built.N026[0].width, coverHeight: built.N026[0].height, hero: built.N026[1].src, coverProvenance: built.N026[0].provenance, heroProvenance: built.N026[1].provenance,
-    bodyAssets: body("N026", [
+    media: unifiedMedia("N026", [
       ["brand-system", "full", section("品牌识别系统", "字标、字体、色彩与基础版式。")],
       ["menu-poster", "half", section("菜单与包装", "品牌视觉在菜单与外带包装中的应用。")],
       ["menu-foldout", "half"], ["paper-bag", "full"],
@@ -122,8 +127,7 @@ const cases = [
   },
   {
     id: "N027", name: "瑞瀚心理", intro: "心理咨询品牌视觉更新，涵盖识别系统、数字平台、空间传播与品牌物料。", business: "branding", categories: ["other"], primaryIndustry: "心理咨询",
-    cover: built.N027[0].src, coverWidth: built.N027[0].width, coverHeight: built.N027[0].height, hero: built.N027[1].src, coverProvenance: built.N027[0].provenance, heroProvenance: built.N027[1].provenance,
-    bodyAssets: body("N027", [
+    media: unifiedMedia("N027", [
       ["brand-system", "full", section("识别与色彩", "以蓝色识别、辅助色与水面意象建立品牌基调。")],
       ["digital-platform", "full", section("数字平台", "面向线上咨询入口的品牌界面呈现。")],
       ["reception", "half", section("空间与传播", "门店前台、服务海报与空间传播应用。")], ["service-posters", "half"], ["campaign-posters", "full"],
@@ -132,8 +136,7 @@ const cases = [
   },
   {
     id: "N028", name: "阿泰珍奶", intro: "围绕古法泰茶建立品牌视觉，并延展至门店招牌、手提袋、海报与线上视觉。", business: "branding", categories: ["drinks"], primaryIndustry: "泰式奶茶",
-    cover: built.N028[0].src, coverWidth: built.N028[0].width, coverHeight: built.N028[0].height, hero: built.N028[1].src, coverProvenance: built.N028[0].provenance, heroProvenance: built.N028[1].provenance,
-    bodyAssets: body("N028", [
+    media: unifiedMedia("N028", [
       ["initial-direction", "full", section("初期品牌方向", "从早期字标、图形与门店应用方向开始建立识别基础。")],
       ["storefront-primary", "full", section("门店与招牌", "以深红、木色与双语字标形成线下门店识别。")], ["storefront-secondary", "full"],
       ["bag-flat-design", "full", section("包装与手提袋", "手提袋正反面与不同容量规格的统一设计。")],
@@ -157,7 +160,7 @@ fs.mkdirSync(productionRoot, { recursive: true });
 fs.copyFileSync(path.join(repo, "tmp/illustrator/atai-v1/illustrator-export-report.json"), path.join(productionRoot, "illustrator-export-report.json"));
 const manifest = {
   generatedAt: new Date().toISOString(),
-  cases: cases.map((item) => ({ id: item.id, name: item.name, chapterCount: item.bodyAssets.filter((asset) => asset.section).length, bodyImageCount: item.bodyAssets.length, distinctDisplayImageCount: item.bodyAssets.length + 1, sourceFiles: item.id === "N026" ? [source.jujusPdf] : item.id === "N027" ? [source.ruihanPdf] : [source.initialAi, source.storefrontAi, source.bagAi, source.posterAi, source.onlineAi] })),
+  cases: cases.map((item) => ({ id: item.id, name: item.name, chapterCount: item.media.filter((asset) => asset.section).length, bodyImageCount: item.media.length, distinctDisplayImageCount: item.media.length + 1, sourceFiles: item.id === "N026" ? [source.jujusPdf] : item.id === "N027" ? [source.ruihanPdf] : [source.initialAi, source.storefrontAi, source.bagAi, source.posterAi, source.onlineAi] })),
   pdfExtraction: { JUJUS: { pages: 6, embeddedPrimaryImages: 8, selectedSourceObjects: 7 }, ruihan: { pages: 8, embeddedPrimaryImages: 24, selectedEmbeddedObjects: 8, selectedPageRenders: 1 } },
   atmosphereImagesRemoved: { total: 14, ruihan: 14, jujus: 0, types: ["海景", "室内静物", "人物肖像", "亲子生活方式", "户外人物摄影"] },
   mockupsKept: { total: 17, jujus: 6, ruihan: 8, atai: 3 },

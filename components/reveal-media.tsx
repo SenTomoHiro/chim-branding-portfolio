@@ -3,9 +3,9 @@
 import Image from "next/image";
 import { assetPath } from "@/lib/site-path";
 import { Fragment, useEffect, useRef, useState } from "react";
-import type { BodyAsset } from "@/lib/types";
+import type { CaseMedia } from "@/lib/types";
 
-export function RevealMedia({ media, caseName }: { media: BodyAsset; caseName: string }) {
+export function RevealMedia({ media, caseName }: { media: CaseMedia; caseName: string }) {
   const [visible, setVisible] = useState(false);
   const ref = useRef<HTMLElement>(null);
   useEffect(() => {

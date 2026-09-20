@@ -12,7 +12,7 @@ describe("V3 new-case asset provenance", () => {
   it("keeps every discovered formal new-case asset PDF-only and verified", () => {
     expect(newCases).toHaveLength(discoveredNewCaseIds.size);
     for (const item of newCases) {
-      const sources = [item.coverProvenance, item.heroProvenance, ...item.bodyAssets.map((asset) => asset.provenance)];
+      const sources = item.media.map((asset) => asset.provenance);
       expect(sources.every(Boolean), `${item.id} must retain provenance`).toBe(true);
       for (const source of sources) {
         expect(source!.sourcePdf).toMatch(/\.pdf$/i);
@@ -27,9 +27,7 @@ describe("V3 new-case asset provenance", () => {
 
   it("requires complete published media for every new case", () => {
     for (const item of newCases.filter((entry) => entry.published)) {
-      expect(item.cover, `${item.id} cover`).toBeTruthy();
-      expect(item.hero, `${item.id} hero`).toBeTruthy();
-      expect(item.bodyAssets.length, `${item.id} body assets`).toBeGreaterThanOrEqual(1);
+      expect(item.media.filter((asset) => asset.type === "image").length, `${item.id} images`).toBeGreaterThanOrEqual(2);
     }
   });
 });

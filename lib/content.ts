@@ -16,7 +16,7 @@ export async function readContent(): Promise<ContentData> {
     ...data,
     cases: data.cases.map((item) => ({
       ...item,
-      bodyAssets: renumberChapters(item.bodyAssets),
+      media: renumberChapters(item.media),
     })),
   };
 }

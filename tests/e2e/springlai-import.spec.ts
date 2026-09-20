@@ -20,12 +20,15 @@ async function expectNoHorizontalOverflow(page: Page) {
 
 test("the frozen Springlai import contains exactly seven ordered cases and 88 mapped assets", async () => {
   expect(springlai.map((item) => caseFullTitle(item))).toEqual(importMap.cases.map((item) => item.name));
-  expect(springlai.map((item) => item.bodyAssets.length)).toEqual([33, 10, 7, 8, 21, 3, 6]);
-  expect(springlai.flatMap((item) => item.bodyAssets)).toHaveLength(88);
+  expect(springlai.map((item) => item.media.length)).toEqual([33, 10, 7, 8, 21, 3, 6]);
+  expect(springlai.flatMap((item) => item.media)).toHaveLength(88);
   expect(importMap.importedMediaCount).toBe(88);
   for (const item of springlai) {
     const mapped = importMap.assets.filter((asset) => asset.case === caseFullTitle(item)).sort((a, b) => a.order - b.order);
-    expect(item.bodyAssets.map((asset) => asset.src)).toEqual(mapped.map((asset) => asset.websiteAsset));
+    const legacyOrder = mapped.map((asset) => asset.websiteAsset);
+    const roleSources = item.media.slice(0, 2).map((asset) => asset.src);
+    expect(roleSources.every((src) => legacyOrder.includes(src))).toBe(true);
+    expect(item.media.slice(2).map((asset) => asset.src)).toEqual(legacyOrder.filter((src) => !roleSources.includes(src)));
   }
   expect(content.cases.filter((item) => item.id.startsWith("SL"))).toHaveLength(7);
   expect(content.cases.some((item) => ["L010", "L011", "L030"].includes(item.id))).toBe(false);
@@ -44,7 +47,7 @@ test("Springlai detail pages load all media without request, console, or layout 
       const response = await page.goto(casePath(item.id), { waitUntil: "networkidle" });
       expect(response?.status(), caseFullTitle(item)).toBe(200);
       await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
-      await expect(page.locator(".mediaFlow figure")).toHaveCount(item.bodyAssets.length);
+      await expect(page.locator(".mediaFlow figure")).toHaveCount(item.media.length - 2);
       await page.locator(".nextCase").scrollIntoViewIfNeeded();
       await expectNoHorizontalOverflow(page);
       await expect(page.locator(".detailHeader")).toHaveCSS("position", "sticky");
@@ -65,10 +68,10 @@ test("Springlai detail pages load all media without request, console, or layout 
 test("Brand Evolution and peach chapters preserve the frozen editorial sequence", async ({ page }) => {
   const brand = springlai.find((item) => item.id === "SL001")!;
   const peach = springlai.find((item) => item.id === "SL005")!;
-  expect(brand.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
+  expect(brand.media.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
     "夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级",
   ]);
-  expect(peach.bodyAssets.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
+  expect(peach.media.filter((asset) => asset.section).map((asset) => asset.section!.title)).toEqual([
     "桃与乌龙", "桃花艺人", "桂花艺人",
   ]);
   const vi04 = importMap.assets.filter((asset) => asset.case === caseFullTitle(brand) && asset.order >= 28).sort((a, b) => a.order - b.order);
@@ -143,9 +146,9 @@ test("Chapter Admin edits, persists, reorders and removes headers without deleti
   await expectNoHorizontalOverflow(page);
   page.once("dialog", (dialog) => dialog.accept());
   await page.getByRole("link", { name: "返回后台" }).click();
-  const flat = content.cases.find((item) => item.published && !item.bodyAssets.some((asset) => asset.section) && item.bodyAssets.length > 0)!;
+  const flat = content.cases.find((item) => item.published && !item.media.some((asset) => asset.section) && item.media.length > 0)!;
   await page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(flat) }).getByRole("link", { name: "编辑" }).click();
   await expect(page.locator(".chapterHeader,.unsectionedHeader")).toHaveCount(0);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(flat.bodyAssets.length);
+  await expect(page.locator(".bodyAssetList article")).toHaveCount(flat.media.length);
   await expect(page.getByRole("button", { name: "＋ 添加章节" })).toBeVisible();
 });
