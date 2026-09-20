@@ -118,6 +118,60 @@ test("Branding and Photography details keep a sticky header and close to their s
   }
 });
 
+test("detail titles and floating controls remain usable across viewports", async ({ page }) => {
+  const longTitle = published.find((item) => item.id === "SL001")!;
+  const shortTitle = published.find((item) => item.name.length <= 6)!;
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 430, height: 932 }]) {
+    await page.setViewportSize(viewport);
+    await page.goto(casePath(longTitle.name));
+    const titleMetrics = await page.locator(".workIntro h1").evaluate((title) => {
+      const style = getComputedStyle(title);
+      const box = title.getBoundingClientRect();
+      const range = document.createRange(); range.selectNodeContents(title);
+      const lines = [...range.getClientRects()];
+      return { fontSize: Number.parseFloat(style.fontSize), lineHeight: Number.parseFloat(style.lineHeight), lineCount: lines.length, height: box.height };
+    });
+    expect(titleMetrics.lineHeight).toBeCloseTo(titleMetrics.fontSize, 1);
+    expect(titleMetrics.lineCount).toBeGreaterThan(1);
+    expect(titleMetrics.height).toBeGreaterThan(titleMetrics.lineHeight);
+
+    const backToTop = page.getByRole("button", { name: "返回顶部" });
+    await expect(backToTop).toBeVisible();
+    const controlLayout = await backToTop.evaluate((button) => {
+      const style = getComputedStyle(button); const box = button.getBoundingClientRect();
+      return { position: style.position, zIndex: style.zIndex, width: box.width, height: box.height, right: innerWidth - box.right, bottom: innerHeight - box.bottom };
+    });
+    expect(controlLayout).toMatchObject({ position: "fixed", zIndex: "30", width: 44, height: 44 });
+    expect(controlLayout.right).toBeGreaterThanOrEqual(16);
+    expect(controlLayout.bottom).toBeGreaterThanOrEqual(16);
+    await page.locator(".mediaFlow figure").last().scrollIntoViewIfNeeded();
+    await expect.poll(() => backToTop.evaluate((button) => {
+      const box = button.getBoundingClientRect();
+      return button.contains(document.elementFromPoint(box.left + box.width / 2, box.top + box.height / 2));
+    })).toBe(true);
+    const beforeUrl = page.url(); const historyLength = await page.evaluate(() => history.length);
+    await backToTop.click(); await backToTop.click(); await backToTop.click();
+    await expect.poll(() => page.evaluate(() => scrollY)).toBeLessThanOrEqual(1);
+    expect(page.url()).toBe(beforeUrl);
+    expect(await page.evaluate(() => history.length)).toBe(historyLength);
+    await expectNoHorizontalOverflow(page);
+  }
+
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(casePath(shortTitle.name));
+  const singleTitleMetrics = await page.locator(".workIntro h1").evaluate((title) => {
+    const style = getComputedStyle(title); const box = title.getBoundingClientRect();
+    return { fontSize: Number.parseFloat(style.fontSize), lineHeight: Number.parseFloat(style.lineHeight), height: box.height };
+  });
+  expect(singleTitleMetrics.lineHeight).toBeCloseTo(singleTitleMetrics.fontSize, 1);
+  expect(singleTitleMetrics.height).toBeCloseTo(singleTitleMetrics.lineHeight, 0);
+
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.locator(".mediaFlow figure").last().scrollIntoViewIfNeeded();
+  await page.getByRole("button", { name: "返回顶部" }).click();
+  await expect.poll(() => page.evaluate(() => scrollY)).toBeLessThanOrEqual(1);
+});
+
 test("direct detail URLs close to their business fallback", async ({ page }) => {
   for (const [item, route] of [[brandingPublished[0], "/"], [photographyPublished[0], "/photo"]] as const) {
     await page.goto(casePath(item.name));

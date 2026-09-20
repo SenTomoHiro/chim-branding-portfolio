@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { DetailBackToTopButton } from "./detail-back-to-top-button";
 import { DetailCloseButton } from "./detail-close-button";
 import { BUSINESSES, CASE_CATEGORIES } from "@/lib/taxonomy";
 import type { Business, CaseCategory } from "@/lib/types";
@@ -16,6 +17,6 @@ export function SiteHeader({ business = "branding", category, detail = false }: 
         </nav>}
       </div>
     </div>
-    {detail && <DetailCloseButton fallback={business === "photography" ? "/photo" : "/"} />}
+    {detail && <><DetailCloseButton fallback={business === "photography" ? "/photo" : "/"} /><DetailBackToTopButton /></>}
   </header>;
 }
