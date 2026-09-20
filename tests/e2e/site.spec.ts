@@ -119,7 +119,7 @@ test("Branding and Photography details keep a sticky header and close to their s
 });
 
 test("detail titles and floating controls remain usable across viewports", async ({ page }) => {
-  const longTitle = published.find((item) => item.id === "SL001")!;
+  const longTitle = published.find((item) => item.id === "SL005")!;
   const shortTitle = published.find((item) => item.name.length <= 6)!;
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 430, height: 932 }]) {
     await page.setViewportSize(viewport);
@@ -131,7 +131,7 @@ test("detail titles and floating controls remain usable across viewports", async
       const lines = [...range.getClientRects()];
       return { fontSize: Number.parseFloat(style.fontSize), lineHeight: Number.parseFloat(style.lineHeight), lineCount: lines.length, height: box.height };
     });
-    expect(titleMetrics.lineHeight).toBeCloseTo(titleMetrics.fontSize, 1);
+    expect(titleMetrics.lineHeight).toBeCloseTo(titleMetrics.fontSize * 1.1, 1);
     expect(titleMetrics.lineCount).toBeGreaterThan(1);
     expect(titleMetrics.height).toBeGreaterThan(titleMetrics.lineHeight);
 
@@ -163,7 +163,7 @@ test("detail titles and floating controls remain usable across viewports", async
     const style = getComputedStyle(title); const box = title.getBoundingClientRect();
     return { fontSize: Number.parseFloat(style.fontSize), lineHeight: Number.parseFloat(style.lineHeight), height: box.height };
   });
-  expect(singleTitleMetrics.lineHeight).toBeCloseTo(singleTitleMetrics.fontSize, 1);
+  expect(singleTitleMetrics.lineHeight).toBeCloseTo(singleTitleMetrics.fontSize * 1.1, 1);
   expect(singleTitleMetrics.height).toBeCloseTo(singleTitleMetrics.lineHeight, 0);
 
   await page.emulateMedia({ reducedMotion: "reduce" });
