@@ -4,17 +4,27 @@ import { pdfTitleDensity, planPdfMediaPages, selectPdfLayout, splitPdfTitle } fr
 const images = (...ratios: number[]) => ratios.map((ratio, index) => ({ id: index, ratio }));
 
 describe("PDF editorial layout planning", () => {
-  it("balances long image sequences without leaving a final orphan", () => {
-    expect(planPdfMediaPages(images(1, 1.1, .9, 1.2, 1.8)).map((page) => page.images.length)).toEqual([3, 2]);
-    expect(planPdfMediaPages(images(1, 1.1, .9, 1.2, 1.8, .7, 1.3)).map((page) => page.images.length)).toEqual([4, 3]);
-    expect(planPdfMediaPages(images(1, 1.1, .9, 1.2, 1.3, .95)).map((page) => page.images.length)).toEqual([6]);
+  it("never packs more than four compatible images on one page", () => {
+    const pages = planPdfMediaPages(images(1, 1.1, .9, 1.2, 1.05, .95));
+    expect(pages.map((page) => page.images.length)).toEqual([4, 2]);
+    expect(pages.every((page) => page.images.length <= 4)).toBe(true);
+  });
+
+  it("keeps chapter openings restrained and splits incompatible ratios", () => {
+    expect(planPdfMediaPages(images(1, 1.1, .9), { chapterStart: true }).map((page) => page.images.length)).toEqual([2, 1]);
+    expect(planPdfMediaPages(images(2.4, .62, 1.1)).map((page) => page.images.length)).toEqual([3]);
+    expect(planPdfMediaPages(images(.42, 1.6, .7)).map((page) => page.images.length)).toEqual([1, 1, 1]);
+    expect(planPdfMediaPages(images(5.2, 1.33, 1.92, 2.2, 1.07, 1.5, 1.41), { chapterStart: true }).map((page) => page.images.length)).toEqual([1, 2, 4]);
   });
 
   it("selects a finite set of hierarchy-aware templates", () => {
     expect(selectPdfLayout(images(.7, 1.7), 0)).toBe("asym-duo");
+    expect(selectPdfLayout(images(1.6, 1.8), 0)).toBe("stack-duo");
+    expect(selectPdfLayout(images(1.6, .9, 1.1), 0)).toBe("wide-trio");
+    expect(selectPdfLayout(images(2.2, 1.07, 1.5, 1.41), 0)).toBe("mixed-four");
     expect(selectPdfLayout(images(1, 1, 1), 0)).toBe("dominant-trio");
     expect(selectPdfLayout(images(1, 1, 1), 1)).toBe("dominant-trio-reverse");
-    expect(selectPdfLayout(images(.7, 1.7, 1, 1), 0)).toBe("asym-quad");
+    expect(selectPdfLayout(images(1, 1.1, .95, 1.05), 0)).toBe("grid-four");
   });
 
   it("splits mixed-language titles into stable typographic levels", () => {

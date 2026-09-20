@@ -320,28 +320,32 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfMediaComposition.layout-duo .pdfMediaFrame { aspect-ratio:auto !important; }
 .pdfMediaComposition.layout-duo .media-1 { margin-bottom:12mm; }
 .pdfMediaComposition.layout-duo .media-2 { margin-top:12mm; }
+.pdfMediaComposition.layout-duo .media-1 .pdfPicture { object-position:right bottom; }
+.pdfMediaComposition.layout-duo .media-2 .pdfPicture { object-position:left top; }
+.pdfMediaComposition.layout-stack-duo { grid-template-columns:1fr; grid-template-rows:1fr 1fr; gap:5mm; padding:3mm 4mm; }
+.pdfMediaComposition.layout-stack-duo .pdfMediaFrame { aspect-ratio:auto !important; }
+.pdfMediaComposition.layout-stack-duo .media-1 .pdfPicture { object-position:center bottom; }
+.pdfMediaComposition.layout-stack-duo .media-2 .pdfPicture { object-position:center top; }
 .pdfMediaComposition.layout-asym-duo { grid-template-columns:1.38fr .72fr; grid-template-rows:1fr; }
 .pdfMediaComposition.layout-asym-duo .pdfMediaFrame { aspect-ratio:auto !important; }
 .pdfMediaComposition.layout-asym-duo .media-1 { margin-bottom:7mm; }
 .pdfMediaComposition.layout-asym-duo .media-2 { margin:24mm 0 2mm; }
+.pdfMediaComposition.layout-asym-duo .media-1 .pdfPicture { object-position:right center; }
+.pdfMediaComposition.layout-asym-duo .media-2 .pdfPicture { object-position:left center; }
 .pdfMediaComposition.layout-dominant-trio,.pdfMediaComposition.layout-dominant-trio-reverse { grid-template-columns:1.35fr .65fr; grid-template-rows:1fr 1fr; }
 .pdfMediaComposition.layout-dominant-trio .pdfMediaFrame,.pdfMediaComposition.layout-dominant-trio-reverse .pdfMediaFrame { aspect-ratio:auto !important; }
 .pdfMediaComposition.layout-dominant-trio .media-1 { grid-row:1/-1; }
 .pdfMediaComposition.layout-dominant-trio-reverse { grid-template-columns:.65fr 1.35fr; }
 .pdfMediaComposition.layout-dominant-trio-reverse .media-1 { grid-column:2; grid-row:1/-1; }
 .pdfMediaComposition.layout-dominant-trio-reverse .media-2,.pdfMediaComposition.layout-dominant-trio-reverse .media-3 { grid-column:1; }
+.pdfMediaComposition.layout-wide-trio { grid-template-columns:1fr 1fr; grid-template-rows:1.18fr .82fr; }
+.pdfMediaComposition.layout-wide-trio .pdfMediaFrame { aspect-ratio:auto !important; }
+.pdfMediaComposition.layout-wide-trio .media-1 { grid-column:1/-1; }
+.pdfMediaComposition.layout-mixed-four { grid-template-columns:repeat(3,1fr); grid-template-rows:1.15fr .85fr; }
+.pdfMediaComposition.layout-mixed-four .pdfMediaFrame { aspect-ratio:auto !important; }
+.pdfMediaComposition.layout-mixed-four .media-1 { grid-column:1/-1; }
 .pdfMediaComposition.layout-grid-four { grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr; }
 .pdfMediaComposition.layout-grid-four .pdfMediaFrame { aspect-ratio:auto !important; }
-.pdfMediaComposition.layout-asym-quad { grid-template-columns:repeat(12,1fr); grid-template-rows:repeat(12,1fr); }
-.pdfMediaComposition.layout-asym-quad .pdfMediaFrame { aspect-ratio:auto !important; }
-.pdfMediaComposition.layout-asym-quad .media-1 { grid-column:1/8; grid-row:1/9; }
-.pdfMediaComposition.layout-asym-quad .media-2 { grid-column:8/13; grid-row:1/6; }
-.pdfMediaComposition.layout-asym-quad .media-3 { grid-column:8/13; grid-row:6/13; }
-.pdfMediaComposition.layout-asym-quad .media-4 { grid-column:1/8; grid-row:9/13; }
-.pdfMediaComposition.layout-contact-five { grid-template-columns:1fr 1fr; grid-template-rows:1.14fr 1fr 1fr; gap:2.5mm; padding:2mm 5mm; }
-.pdfMediaComposition.layout-contact-five .pdfMediaFrame,.pdfMediaComposition.layout-contact-six .pdfMediaFrame { aspect-ratio:auto !important; }
-.pdfMediaComposition.layout-contact-five .media-1 { grid-column:1/-1; }
-.pdfMediaComposition.layout-contact-six { grid-template-columns:1fr 1fr; grid-template-rows:repeat(3,1fr); gap:2.5mm; padding:2mm 5mm; }
 .pdfChapterHeader { height:43mm; display:grid; grid-template-columns:1.35fr 1fr; gap:12mm; align-items:end; border-bottom:1px solid rgba(0,0,0,.25); padding-bottom:6mm; }
 .pdfChapterHeader p { margin:0; font-size:8.5pt; line-height:1.62; }
 .pdfChapterHeader>div>p { margin-bottom:3mm; font-size:6.5pt; letter-spacing:.12em; text-transform:uppercase; opacity:.55; }
