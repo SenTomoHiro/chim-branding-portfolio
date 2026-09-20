@@ -1,9 +1,13 @@
 name: Deploy GitHub Pages
+run-name: ${{ github.event_name == 'repository_dispatch' && format('Admin PDF {0} · {1}', github.event.client_payload.request_id, github.event.client_payload.target) || format('Deploy {0}', github.ref_name) }}
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types:
+      - admin_pdf_generate
 
 permissions:
   contents: read

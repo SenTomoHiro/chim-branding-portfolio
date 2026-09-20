@@ -6,6 +6,22 @@ import type { ContentData } from "../../lib/types";
 const base = "/chim-branding-portfolio";
 const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
 
+test("public pages expose no PDF download links", async ({ page }) => {
+  const errors: string[] = [];
+  const badResponses: string[] = [];
+  page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); });
+  page.on("response", (response) => { if (response.status() >= 400) badResponses.push(`${response.status()} ${response.url()}`); });
+  for (const route of ["/", "/photo/", "/food/", "/drinks/", "/work/n016/"]) {
+    await page.goto(`${base}${route}`);
+    await expect(page.locator('a[href*="/pdf/"]')).toHaveCount(0);
+    await expect(page.getByText("PDF / Download PDF", { exact: false })).toHaveCount(0);
+    await expect(page.getByText("Design Portfolio PDF", { exact: false })).toHaveCount(0);
+    await expect(page.getByText("Photography Portfolio PDF", { exact: false })).toHaveCount(0);
+  }
+  expect(errors).toEqual([]);
+  expect(badResponses).toEqual([]);
+});
+
 test("Pages basePath keeps filtered close return position and direct-detail fallback", async ({ page }) => {
   const errors: string[] = [];
   const badResponses: string[] = [];

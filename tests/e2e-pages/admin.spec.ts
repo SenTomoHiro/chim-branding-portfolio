@@ -106,3 +106,56 @@ test("Pages admin uploads multiple media sequentially and derives image roles", 
   await expect(page.locator('[data-media-role="cover"]')).toContainText("封面");
   await expect(page.locator('[data-media-role="hero"]')).toContainText("详情页首图");
 });
+
+test("Pages admin generates PDFs through a precisely correlated repository dispatch", async ({ page }) => {
+  let dispatchPayload: { event_type: string; client_payload: { request_id: string; target: string } } | undefined;
+  let workflowDispatchCalls = 0;
+  let runAuthorization: string | undefined;
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio", (route) => route.fulfill({ json: { id: 1 } }));
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/contents/data/content.json?ref=main", (route) => route.fulfill({ json: { content: Buffer.from(JSON.stringify(content)).toString("base64"), sha: "fixture-sha" } }));
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/dispatches", async (route) => {
+    dispatchPayload = route.request().postDataJSON() as typeof dispatchPayload;
+    await route.fulfill({ status: 204 });
+  });
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/actions/workflows/deploy-pages.yml/dispatches", async (route) => {
+    workflowDispatchCalls += 1;
+    await route.fulfill({ status: 500 });
+  });
+  await page.route(/\/actions\/workflows\/deploy-pages\.yml\/runs\?/, async (route) => {
+    runAuthorization = route.request().headers().authorization;
+    const requestId = dispatchPayload?.client_payload.request_id;
+    await route.fulfill({ json: { workflow_runs: [
+      { id: 41, html_url: "https://github.com/example/run/41", status: "completed", conclusion: "failure", display_title: "Admin PDF another-request · design" },
+      { id: 42, html_url: "https://github.com/example/run/42", status: "completed", conclusion: "success", display_title: `Admin PDF ${requestId} · design` },
+    ] } });
+  });
+
+  await page.goto(`${base}/admin/pdf/`);
+  await expect(page.locator(".fieldHint")).toContainText("权限只需 Contents: Read and write");
+  await expect(page.locator(".fieldHint")).not.toContainText("Actions");
+  await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
+  await page.getByRole("button", { name: "连接 GitHub" }).click();
+  await page.getByRole("button", { name: "生成 Design Portfolio" }).click();
+  await expect(page.getByRole("status")).toHaveText("生成成功");
+
+  expect(dispatchPayload?.event_type).toBe("admin_pdf_generate");
+  expect(dispatchPayload?.client_payload.target).toBe("design");
+  expect(dispatchPayload?.client_payload.request_id).toMatch(/^[0-9a-f]{8}-[0-9a-f-]{27}$/i);
+  expect(workflowDispatchCalls).toBe(0);
+  expect(runAuthorization).toBeUndefined();
+  await expect(page.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf`);
+  await expect(page.getByRole("link", { name: "下载" })).toHaveAttribute("href", `${base}/pdf/portfolio-design.pdf?download=1`);
+});
+
+test("Pages admin reports the real repository dispatch error", async ({ page }) => {
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio", (route) => route.fulfill({ json: { id: 1 } }));
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/contents/data/content.json?ref=main", (route) => route.fulfill({ json: { content: Buffer.from(JSON.stringify(content)).toString("base64"), sha: "fixture-sha" } }));
+  await page.route("https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio/dispatches", (route) => route.fulfill({ status: 403, json: { message: "Resource not accessible by personal access token" } }));
+
+  await page.goto(`${base}/admin/pdf/`);
+  await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
+  await page.getByRole("button", { name: "连接 GitHub" }).click();
+  await page.getByRole("button", { name: "生成 Design Portfolio" }).click();
+  await expect(page.getByRole("status")).toContainText("HTTP 403：Resource not accessible by personal access token");
+  await expect(page.getByRole("status")).not.toContainText("Actions");
+});

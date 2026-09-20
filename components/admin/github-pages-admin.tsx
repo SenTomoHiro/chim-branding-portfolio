@@ -16,12 +16,17 @@ const api = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const contentPath = "data/content.json";
 const workflow = "deploy-pages.yml";
 type RemoteFile = { content: string; sha: string };
-type WorkflowRun = { id: number; html_url: string; status: string; conclusion: string | null; created_at: string };
+type WorkflowRun = { id: number; html_url: string; status: string; conclusion: string | null; display_title: string };
 let session: { token: string; data?: ContentData; sha: string } = { token: "", sha: "" };
 
 const decode = (value: string) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g, "")), (character) => character.charCodeAt(0)))) as ContentData;
 const base64 = (bytes: Uint8Array) => { let result = ""; for (let index = 0; index < bytes.length; index += 0x8000) result += String.fromCharCode(...bytes.subarray(index, index + 0x8000)); return btoa(result); };
 const wait = (milliseconds: number) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+const publicHeaders = { Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28" };
+const responseError = async (response: Response, fallback: string) => {
+  const body = await response.json().catch(() => ({})) as { message?: string };
+  return `${fallback}（HTTP ${response.status}${body.message ? `：${body.message}` : ""}）`;
+};
 const pdfResult = (target: string) => {
   if (target.startsWith("case:")) {
     const id = target.slice(5).toLowerCase();
@@ -68,19 +73,20 @@ export function GitHubPagesAdmin() {
   }), [data, sha, token]);
 
   const generatePdf = useMemo<PdfGenerator>(() => async (target) => {
-    const startedAt = Date.now();
-    const dispatch = await fetch(`${api}/actions/workflows/${workflow}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ ref: "main" }) });
-    if (!dispatch.ok) throw new Error("无法启动 GitHub Actions；请确认 Actions: Read and write 权限。");
+    const requestId = crypto.randomUUID();
+    const expectedRunName = `Admin PDF ${requestId} · ${target}`;
+    const dispatch = await fetch(`${api}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ event_type: "admin_pdf_generate", client_payload: { request_id: requestId, target } }) });
+    if (!dispatch.ok) throw new Error(await responseError(dispatch, "无法启动 PDF 生成"));
     let run: WorkflowRun | undefined;
-    for (let attempt = 0; attempt < 150; attempt += 1) {
-      await wait(6000);
-      const response = await fetch(`${api}/actions/workflows/${workflow}/runs?branch=main&event=workflow_dispatch&per_page=10`, { headers: headers() });
-      if (!response.ok) throw new Error("无法读取 GitHub Actions 进度。");
+    for (let attempt = 0; attempt < 30; attempt += 1) {
+      const response = await fetch(`${api}/actions/workflows/${workflow}/runs?branch=main&event=repository_dispatch&per_page=20`, { headers: publicHeaders });
+      if (!response.ok) throw new Error(await responseError(response, "无法读取 GitHub Actions 进度"));
       const body = await response.json() as { workflow_runs: WorkflowRun[] };
-      run = body.workflow_runs.find((entry) => Date.parse(entry.created_at) >= startedAt - 5000);
+      run = body.workflow_runs.find((entry) => entry.display_title === expectedRunName);
       if (run?.status === "completed") break;
+      if (attempt < 29) await wait(20000);
     }
-    if (!run || run.status !== "completed") throw new Error("GitHub Actions 在 15 分钟内未完成。");
+    if (!run || run.status !== "completed") throw new Error("GitHub Actions 在 10 分钟内未完成。");
     if (run.conclusion !== "success") throw new Error(`GitHub Actions 未成功：${run.conclusion || "unknown"}`);
     return pdfResult(target);
   // Executor must use the current in-memory token.
@@ -90,7 +96,7 @@ export function GitHubPagesAdmin() {
   async function connect() {
     setStatus("正在验证 Token 与仓库权限…");
     const access = await fetch(api, { headers: headers() });
-    if (!access.ok) { setStatus(access.status === 401 ? "Token 无效" : "无权访问此仓库；请检查 Contents 与 Actions 权限。"); return; }
+    if (!access.ok) { setStatus(access.status === 401 ? "Token 无效" : "无权访问此仓库；请检查 Contents 权限。"); return; }
     const response = await fetch(`${api}/contents/${contentPath}?ref=main`, { headers: headers() });
     if (!response.ok) { setStatus("无法读取正式内容文件。"); return; }
     const file = await response.json() as RemoteFile;
@@ -98,7 +104,7 @@ export function GitHubPagesAdmin() {
   }
   function logout() { session = { token: "", sha: "" }; setToken(""); setData(undefined); setSha(""); setStatus(""); }
 
-  if (!data) return <main className="loginPage"><form onSubmit={(event) => { event.preventDefault(); void connect(); }}><p>CHIM® / Admin</p><h1>案例管理</h1><label>Fine-grained personal access token<input type="password" value={token} onChange={(event) => setToken(event.target.value)} autoComplete="off" required /></label><p className="fieldHint">仅限此仓库；需要 Contents: Read and write 与 Actions: Read and write。Token 仅保存在当前页面内存中。</p><button disabled={!token}>{status.includes("正在") ? "连接中…" : "连接 GitHub"}</button>{status && <p className="formError">{status}</p>}</form></main>;
+  if (!data) return <main className="loginPage"><form onSubmit={(event) => { event.preventDefault(); void connect(); }}><p>CHIM® / Admin</p><h1>案例管理</h1><label>Fine-grained personal access token<input type="password" value={token} onChange={(event) => setToken(event.target.value)} autoComplete="off" required /></label><p className="fieldHint">仅限此仓库；权限只需 Contents: Read and write。Token 仅保存在当前页面内存中。</p><button disabled={!token}>{status.includes("正在") ? "连接中…" : "连接 GitHub"}</button>{status && <p className="formError">{status}</p>}</form></main>;
 
   let content: React.ReactNode;
   if (/\/admin\/pdf\/?$/.test(pathname)) content = <PdfAdmin initial={data} persistence={persistence} enabled generatePdf={generatePdf} />;

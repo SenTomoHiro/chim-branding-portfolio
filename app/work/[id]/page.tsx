@@ -10,7 +10,6 @@ import { SiteHeader } from "@/components/site-header";
 import { caseFullTitle } from "@/lib/case-title";
 import { findPublishedCaseById } from "@/lib/case-route";
 import { readContent } from "@/lib/content";
-import { casePdfPath } from "@/lib/pdf-path";
 import { assetPath } from "@/lib/site-path";
 import { getPublishedCases } from "@/lib/sort-cases";
 import { formatCaseMetadata } from "@/lib/taxonomy";
@@ -37,5 +36,5 @@ export default async function WorkPage({ params }: { params: Promise<{ id: strin
   const next = ordered[(index + 1) % ordered.length];
   const fullTitle = caseFullTitle(item);
   const hero = getCaseHero(item)!;
-  return <main className="workPage"><SiteHeader business={current.business} detail /><BackToTopButton /><ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none"><div className="workHero"><Image src={assetPath(hero.src)} alt={`${fullTitle} 项目主视觉`} fill priority sizes="100vw" /></div></ViewTransition><section className="workIntro"><div><p>{formatCaseMetadata(item)}</p><CaseTitle item={item} as="h1" /></div><section className="workSummary"><p>{item.intro}</p><a className="pdfDownload" href={casePdfPath(item.id)} download>PDF / Download PDF ↓</a></section></section><section className="mediaFlow">{getCaseBodyMedia(item).map((media) => <RevealMedia key={media.id} media={media} caseName={fullTitle} />)}</section><NextCaseLink current={item} next={next} /></main>;
+  return <main className="workPage"><SiteHeader business={current.business} detail /><BackToTopButton /><ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none"><div className="workHero"><Image src={assetPath(hero.src)} alt={`${fullTitle} 项目主视觉`} fill priority sizes="100vw" /></div></ViewTransition><section className="workIntro"><div><p>{formatCaseMetadata(item)}</p><CaseTitle item={item} as="h1" /></div><section className="workSummary"><p>{item.intro}</p></section></section><section className="mediaFlow">{getCaseBodyMedia(item).map((media) => <RevealMedia key={media.id} media={media} caseName={fullTitle} />)}</section><NextCaseLink current={item} next={next} /></main>;
 }

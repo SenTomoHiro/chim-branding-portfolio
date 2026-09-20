@@ -34,7 +34,6 @@ html:active-view-transition .floatingButton { opacity:0; transition:none; pointe
 .introEyebrow { animation:softReveal var(--motion-medium) var(--motion-ease) 180ms both; }
 .projectCount { animation:softReveal var(--motion-medium) var(--motion-ease) 380ms both; }
 .indexUtility { display:grid; justify-items:end; gap:10px; }
-.pdfDownload { width:max-content; border-bottom:1px solid currentColor; padding-bottom:3px; font-size:.72rem; line-height:1.2; letter-spacing:.06em; text-transform:uppercase; }
 .masonryViewport { padding:var(--pad); container-type:inline-size; }
 .masonryGrid { position:relative; height:var(--height-3); }
 .caseCard { position:absolute; top:var(--top-3); left:var(--left-3); width:calc(33.333cqw - 12px); opacity:0; transform:translateY(26px); clip-path:inset(0 0 8% 0); transition:opacity var(--motion-medium) var(--motion-ease) var(--reveal-delay,0ms),transform var(--motion-medium) var(--motion-ease) var(--reveal-delay,0ms),clip-path var(--motion-slow) var(--motion-ease) var(--reveal-delay,0ms); }
@@ -234,7 +233,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .projectCount { grid-column:2; grid-row:2; }
   .projectCount { text-align:right; }
   .indexUtility { grid-column:2; grid-row:2; }
-  .indexUtility .pdfDownload { display:none; }
   .masonryViewport { padding-top:18px; }
   .masonryGrid { height:var(--height-1); }
   .caseCard { top:var(--top-1); left:0; width:100cqw; }
