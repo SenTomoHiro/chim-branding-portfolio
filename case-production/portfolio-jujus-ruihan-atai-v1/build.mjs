@@ -96,12 +96,16 @@ for (const [caseId, entries] of Object.entries(selected)) {
   for (const [index, entry] of entries.entries()) built[caseId].push(await webAsset(caseId, entry, index));
 }
 
-const section = (title, description) => ({ eyebrow: "", title, description });
+const section = (title, description) => ({ title, description });
 function body(caseId, roles) {
+  let chapterNumber = 0;
   return roles.map(([role, layout, chapter]) => {
     const asset = built[caseId].find((item) => item.role === role);
     if (!asset) throw new Error(`Missing ${caseId} ${role}`);
-    return { id: asset.provenance.assetId, type: "image", src: asset.src, layout, ...(chapter ? { section: chapter } : {}), provenance: asset.provenance };
+    const numberedChapter = chapter
+      ? { ...chapter, eyebrow: `CHAPTER ${String(++chapterNumber).padStart(2, "0")}` }
+      : undefined;
+    return { id: asset.provenance.assetId, type: "image", src: asset.src, layout, ...(numberedChapter ? { section: numberedChapter } : {}), provenance: asset.provenance };
   });
 }
 

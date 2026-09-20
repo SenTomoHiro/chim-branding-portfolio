@@ -1,6 +1,7 @@
 import "server-only";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { renumberChapters } from "./chapters";
 import type { ContentData } from "./types";
 
 const defaultContentFile = path.join(process.cwd(), "data", "content.json");
@@ -11,7 +12,13 @@ export async function readContent(): Promise<ContentData> {
     ? await fs.readFile(/* turbopackIgnore: true */ process.env.CONTENT_FILE_PATH, "utf8")
     : await fs.readFile(defaultContentFile, "utf8");
   const data = JSON.parse(raw) as ContentData;
-  return data;
+  return {
+    ...data,
+    cases: data.cases.map((item) => ({
+      ...item,
+      bodyAssets: renumberChapters(item.bodyAssets),
+    })),
+  };
 }
 
 export async function writeContent(data: ContentData) {
