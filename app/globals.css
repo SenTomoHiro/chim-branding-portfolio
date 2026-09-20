@@ -305,7 +305,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfLongWaterfallColumn { display:flex; flex-direction:column; gap:5mm; min-width:0; }
 .pdfLongWaterfall figure { width:100%; margin:0; background:transparent; }
 .pdfLongWaterfall .pdfPicture { width:100%; height:auto; object-fit:contain; }
-.pdfLongFooter { display:flex; justify-content:space-between; align-items:center; margin:0 14mm; padding:6mm 0 9mm; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
+.pdfCaseContentFooter { min-height:0; margin:0 14mm; padding:6mm 0 9mm; background:transparent; color:#777; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
 
 /* A4 portfolio pages */
 .pdfDocument { min-height:100vh; background:#d7d7d5; color:#0b0b0b; }
@@ -404,11 +404,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfPortfolioCaseCopy h2.isDense { font-size:11mm; }
 .pdfPortfolioCaseCopy>p:last-child { margin:0; font-size:8.5pt; line-height:1.65; }
 .pdfPortfolioCaseLead>figure { position:absolute; left:70mm; right:0; top:0; bottom:13mm; margin:0; overflow:hidden; background:transparent; }
-.pdfPortfolioCaseLead.hero-wide .pdfPortfolioCaseCopy { top:14mm; right:10mm; bottom:auto; width:auto; height:67mm; display:grid; grid-template-columns:1.25fr 1fr; grid-template-rows:auto 1fr; gap:5mm 16mm; align-items:end; }
-.pdfPortfolioCaseLead.hero-wide .pdfPortfolioCaseCopy>p:first-child { grid-column:1/-1; margin:0; }
-.pdfPortfolioCaseLead.hero-wide .pdfPortfolioCaseCopy h2 { margin:0; }
-.pdfPortfolioCaseLead.hero-wide .pdfPortfolioCaseCopy>p:last-child { margin:0; }
-.pdfPortfolioCaseLead.hero-wide>figure { left:0; right:0; top:94mm; bottom:13mm; }
+.pdfPortfolioCaseLead.hero-wide>figure { left:70mm; right:0; top:0; bottom:13mm; }
 .pdfPortfolioCaseLead.hero-balanced>figure { left:75mm; }
 .pdfPortfolioImagePage .pdfMediaComposition { top:4mm; }
 .pdfPortfolioLongCase { position:relative; box-sizing:border-box; width:210mm; margin:0 auto 12mm; overflow:hidden; background:#f4f3ef; break-before:page; break-after:page; break-inside:avoid; box-shadow:0 3mm 14mm rgba(0,0,0,.14); }
@@ -418,7 +414,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfPortfolioLongLead>figure { bottom:0; }
 .pdfPortfolioLongLead.hero-wide>figure { bottom:0; }
 .pdfPortfolioLongBody { padding:14mm 10mm 18mm; border-top:1px solid rgba(0,0,0,.16); }
-.pdfPortfolioLongFooter { display:flex; justify-content:space-between; align-items:center; margin:0 10mm; padding:6mm 0 8mm; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
+.pdfPortfolioLongCase>.pdfCaseContentFooter { margin-right:10mm; margin-left:10mm; padding-bottom:8mm; }
 
 @media (max-width:767px) {
   .pdfCandidateGrid { grid-template-columns:repeat(2,minmax(0,1fr)); }

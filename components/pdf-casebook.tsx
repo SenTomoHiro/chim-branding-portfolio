@@ -10,6 +10,10 @@ function PdfFooter({ project, page, total }: { project: string; page: number; to
   return <footer className="pdfFooter"><span>CHIM® / {project}</span><span>{String(page).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>;
 }
 
+function PdfCaseContentFooter({ project, trailing }: { project: string; trailing: string }) {
+  return <footer className="pdfCaseContentFooter"><span>CHIM® / {project}</span><span>{trailing}</span></footer>;
+}
+
 function PdfPage({ children, className = "", project, page, total }: { children: React.ReactNode; className?: string; project: string; page: number; total: number }) {
   return <section className={`pdfPage ${className}`} data-pdf-page={page}>{children}<PdfFooter project={project} page={page} total={total} /></section>;
 }
@@ -59,7 +63,7 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
           <WaterfallColumns images={group.images} />
         </section>)}
       </div>
-      <footer className="pdfLongFooter"><span>CHIM® / {item.name}</span><span>Project casebook</span></footer>
+      <PdfCaseContentFooter project={item.name} trailing="Project casebook" />
     </article>
   </main>;
 }
@@ -82,12 +86,12 @@ export async function PortfolioPdfDocument({ cases, kind }: { cases: PortfolioCa
       const leadTitle = splitPdfTitle(item.name);
       return <section className="pdfPortfolioLongCase" data-portfolio-case-page={caseIndex} key={item.id}>
         <header className={`pdfPortfolioCaseLead pdfPortfolioLongLead hero-${leadOrientation}`}>
-          <div className="pdfPortfolioCaseIndex">{String(caseIndex + 1).padStart(2, "0")}</div>
-          <div className="pdfPortfolioCaseCopy"><p>{formatCaseMetadata(item, true)}</p><h2 className={`${pdfTitleDensity(item.name)} ${/^[\x00-\x7F]+$/.test(leadTitle.primary) ? "isLatinTitle" : ""}`}><span>{leadTitle.primary}</span>{leadTitle.secondary && <small>{leadTitle.secondary}</small>}</h2><p>{item.intro}</p></div>
+          <div className="pdfPortfolioCaseIndex" data-portfolio-case-index-label="true">{String(caseIndex + 1).padStart(2, "0")}</div>
+          <div className="pdfPortfolioCaseCopy"><p data-portfolio-case-meta="true">{formatCaseMetadata(item, true)}</p><h2 className={`${pdfTitleDensity(item.name)} ${/^[\x00-\x7F]+$/.test(leadTitle.primary) ? "isLatinTitle" : ""}`}><span>{leadTitle.primary}</span>{leadTitle.secondary && <small>{leadTitle.secondary}</small>}</h2><p>{item.intro}</p></div>
           <figure><Picture image={lead} mode="cover" /></figure>
         </header>
         {images.length > 1 && <div className="pdfPortfolioLongBody"><WaterfallColumns images={images.slice(1)} /></div>}
-        <footer className="pdfPortfolioLongFooter"><span>CHIM® / {item.name}</span><span>{String(startPage).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>
+        <PdfCaseContentFooter project={item.name} trailing={`${String(startPage).padStart(2, "0")} / ${String(total).padStart(2, "0")}`} />
       </section>;
     })}
   </main>;
