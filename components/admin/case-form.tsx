@@ -17,11 +17,12 @@ import {
 } from "@/lib/chapters";
 import { BUSINESSES, CASE_CATEGORIES } from "@/lib/taxonomy";
 import { assetPath } from "@/lib/site-path";
+import { getPdfImageCandidates } from "@/lib/pdf-portfolio";
 import type { BodyAsset, Business, CaseCategory, PortfolioCase } from "@/lib/types";
 import { parseCase } from "@/lib/validation";
 import { localPersistence, type AdminPersistence } from "./persistence";
 
-const empty: PortfolioCase = { id: `C${Date.now()}`, name: "", intro: "", business: "branding", categories: [], primaryIndustry: "", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: false };
+const empty: PortfolioCase = { id: `C${Date.now()}`, name: "", intro: "", business: "branding", categories: [], primaryIndustry: "", cover: "", coverWidth: 1400, coverHeight: 1050, hero: "", bodyAssets: [], published: false, includeInPortfolioPdf: true, portfolioPdfImageIds: [] };
 
 function MediaInput({ label, value, onChange, uploadFile, caseId }: { label: string; value: string; onChange: (value: string, width?: number, height?: number) => void; uploadFile: AdminPersistence["upload"]; caseId: string }) {
   const [pending, setPending] = useState(false);
@@ -33,6 +34,28 @@ function MediaInput({ label, value, onChange, uploadFile, caseId }: { label: str
     onChange(body.src, body.width, body.height);
   }
   return <div className="mediaInput"><label>{label}</label>{value ? <><div className="mediaPreview"><Image src={assetPath(value)} alt={`${label}预览`} fill sizes="240px" /></div><p className="mediaPath" title={value}>{value}</p></> : <p className="mediaPath">尚未上传</p>}<label className="uploadButton">{pending ? "处理中…" : "上传文件"}<input type="file" accept="image/*" disabled={pending} onChange={(event) => upload(event.target.files?.[0])} /></label></div>;
+}
+
+function PortfolioPdfSelector({ item, onChange, onIncludeChange }: { item: PortfolioCase; onChange: (ids: string[]) => void; onIncludeChange: (included: boolean) => void }) {
+  const candidates = getPdfImageCandidates(item);
+  const candidateById = new Map(candidates.map((candidate) => [candidate.id, candidate]));
+  const selected = item.portfolioPdfImageIds.map((id) => candidateById.get(id)).filter((candidate): candidate is NonNullable<typeof candidate> => Boolean(candidate));
+  const toggle = (id: string) => onChange(item.portfolioPdfImageIds.includes(id) ? item.portfolioPdfImageIds.filter((entry) => entry !== id) : [...item.portfolioPdfImageIds, id]);
+  const move = (id: string, offset: number) => {
+    const next = [...item.portfolioPdfImageIds];
+    const from = next.indexOf(id); const to = from + offset;
+    if (from < 0 || to < 0 || to >= next.length) return;
+    [next[from], next[to]] = [next[to], next[from]];
+    onChange(next);
+  };
+
+  return <section className="formSection pdfSettings"><div className="sectionHeading"><div><h2>PDF 案例集</h2><p>精选图片仅引用本案例已有图片，并按下方顺序进入总作品集。</p></div></div>
+    <label className="checkLabel pdfInclude"><input type="checkbox" checked={item.includeInPortfolioPdf} onChange={(event) => onIncludeChange(event.target.checked)} /> 加入总作品集 PDF</label>
+    <div className="pdfSelectionHeading"><div><strong>当前已选图片</strong><span>{selected.length} 张</span></div>{selected.length > 0 && <button type="button" className="dangerText" onClick={() => onChange([])}>取消全部选择</button>}</div>
+    {selected.length ? <div className="pdfSelectedList">{selected.map((image, index) => <article key={image.id}><div className="pdfSelectThumb"><Image src={assetPath(image.src)} alt="" fill sizes="120px" /></div><div><b>{String(index + 1).padStart(2, "0")}</b><strong>{image.label}</strong><span>{image.chapter || "案例主视觉"}</span></div><div><button type="button" disabled={index === 0} onClick={() => move(image.id, -1)}>↑</button><button type="button" disabled={index === selected.length - 1} onClick={() => move(image.id, 1)}>↓</button><button type="button" className="dangerText" onClick={() => toggle(image.id)}>移除</button></div></article>)}</div> : <p className="pdfEmpty">尚未选择总作品集图片。</p>}
+    <div className="pdfSelectionHeading"><div><strong>从案例正式图片中选择</strong><span>点击可多选或取消</span></div></div>
+    <div className="pdfCandidateGrid">{candidates.map((image) => { const active = item.portfolioPdfImageIds.includes(image.id); return <button type="button" className={active ? "isSelected" : ""} aria-pressed={active} key={image.id} onClick={() => toggle(image.id)}><span className="pdfCandidateImage"><Image src={assetPath(image.src)} alt="" fill sizes="180px" /></span><span><b>{active ? `已选 ${String(item.portfolioPdfImageIds.indexOf(image.id) + 1).padStart(2, "0")}` : "选择"}</b><strong>{image.label}</strong><small>{image.chapter || "案例主视觉"}</small></span></button>; })}</div>
+  </section>;
 }
 
 export function CaseForm({ initial, persistence = localPersistence }: { initial?: PortfolioCase; persistence?: AdminPersistence }) {
@@ -93,6 +116,7 @@ export function CaseForm({ initial, persistence = localPersistence }: { initial?
       <label className="checkLabel fullField"><input type="checkbox" checked={item.published} onChange={(event) => set("published", event.target.checked)} /> 发布到前台</label>
     </div></section>
     <section className="formSection"><h2>案例图片</h2><div className="mediaInputs"><MediaInput label="案例列表封面" value={item.cover} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value, width, height) => setItem((current) => ({ ...current, cover: value, coverWidth: width || current.coverWidth, coverHeight: height || current.coverHeight }))} /><MediaInput label="案例详情页首图" value={item.hero} caseId={item.id || `C${Date.now()}`} uploadFile={persistence.upload} onChange={(value) => set("hero", value)} /></div></section>
+    <PortfolioPdfSelector item={item} onChange={(portfolioPdfImageIds) => set("portfolioPdfImageIds", portfolioPdfImageIds)} onIncludeChange={(included) => set("includeInPortfolioPdf", included)} />
     <section className="formSection chapterEditor"><div className="sectionHeading"><div><h2>正文媒体</h2><p>章节编号随顺序自动更新；媒体可在章节内排序，也可移动到其他章节。</p></div><div><button type="button" className="secondaryButton" disabled={!item.bodyAssets.length} onClick={() => openChapterDraft()}>＋ 添加章节</button><label className="primaryButton">{hasChapters ? "上传未分章节媒体" : "上传媒体"}<input type="file" accept="image/*,video/mp4,video/webm" onChange={(event) => addBody(event.target.files?.[0])} /></label></div></div>
       {chapterDraft && <div className="chapterCreate" role="group" aria-label="添加章节"><label>从正文媒体开始<select value={chapterDraft.assetId} onChange={(event) => setChapterDraft({ ...chapterDraft, assetId: event.target.value })}>{item.bodyAssets.filter((asset) => !asset.section).map((asset) => <option key={asset.id} value={asset.id}>媒体 {item.bodyAssets.indexOf(asset) + 1} · {asset.src.split("/").pop()}</option>)}</select></label><label>章节标题<input value={chapterDraft.title} onChange={(event) => setChapterDraft({ ...chapterDraft, title: event.target.value })} /></label><label>章节说明<textarea rows={2} value={chapterDraft.description} onChange={(event) => setChapterDraft({ ...chapterDraft, description: event.target.value })} /></label><div><button type="button" className="primaryButton" disabled={!chapterDraft.assetId || !chapterDraft.title.trim()} onClick={createChapter}>创建章节</button><button type="button" onClick={() => setChapterDraft(null)}>取消</button></div></div>}
       <div className={`chapterGroups ${hasChapters ? "hasChapters" : ""}`}>{groups.map((group) => {

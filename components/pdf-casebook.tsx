@@ -1,0 +1,85 @@
+import { groupBodyAssets } from "@/lib/chapters";
+import { getPdfMediaInfo, type PdfMediaInfo } from "@/lib/pdf-media";
+import { pdfOrientation, pdfTitleDensity, planPdfMediaPages, selectPdfLayout, splitPdfTitle, type PdfLayoutName } from "@/lib/pdf-layout";
+import { resolvePortfolioPdfImages } from "@/lib/pdf-portfolio";
+import { assetPath } from "@/lib/site-path";
+import { formatCaseMetadata } from "@/lib/taxonomy";
+import type { PortfolioCase } from "@/lib/types";
+
+type MediaPage = { images: PdfMediaInfo[]; layout: PdfLayoutName; eyebrow?: string; title?: string; description?: string };
+
+function PdfFooter({ project, page, total }: { project: string; page: number; total: number }) {
+  return <footer className="pdfFooter"><span>CHIM® / {project}</span><span>{String(page).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>;
+}
+
+function PdfPage({ children, className = "", project, page, total }: { children: React.ReactNode; className?: string; project: string; page: number; total: number }) {
+  return <section className={`pdfPage ${className}`} data-pdf-page={page}>{children}<PdfFooter project={project} page={page} total={total} /></section>;
+}
+
+function Picture({ image, mode = "cover" }: { image: PdfMediaInfo; mode?: "cover" | "contain" }) {
+  return <img src={assetPath(image.src)} alt="" className={`pdfPicture is-${mode}`} width={image.width} height={image.height} />;
+}
+
+function MediaComposition({ spec }: { spec: MediaPage }) {
+  const contactSheet = spec.layout === "contact-five" || spec.layout === "contact-six";
+  return <div className={`pdfMediaComposition layout-${spec.layout}`}>{spec.images.map((image, index) => {
+    const orientation = pdfOrientation(image.ratio);
+    const preserveWholeArtwork = contactSheet || spec.layout === "feature" || image.ratio >= 1.72 || image.ratio <= .6;
+    return <figure className={`pdfMediaFrame media-${index + 1} is-${orientation}`} style={{ aspectRatio: `${image.width} / ${image.height}` }} key={image.id}><Picture image={image} mode={preserveWholeArtwork ? "contain" : "cover"} /></figure>;
+  })}</div>;
+}
+
+function EditorialTitle({ title, className = "" }: { title: string; className?: string }) {
+  const { primary, secondary } = splitPdfTitle(title);
+  return <h1 className={`${className} ${pdfTitleDensity(title)}`}><span className="pdfTitlePrimary">{primary}</span>{secondary && <span className="pdfTitleSecondary">{secondary}</span>}</h1>;
+}
+
+export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
+  const hero = await getPdfMediaInfo("hero", item.hero);
+  const groups = groupBodyAssets(item.bodyAssets);
+  const mediaPages: MediaPage[] = [];
+  for (const group of groups) {
+    const images = await Promise.all(group.assets.filter((asset) => asset.type === "image").map((asset) => getPdfMediaInfo(asset.id, asset.src)));
+    const planned = planPdfMediaPages(images);
+    planned.forEach((page, index) => mediaPages.push({ ...page, eyebrow: index === 0 ? group.section?.eyebrow : undefined, title: index === 0 ? group.section?.title : undefined, description: index === 0 ? group.section?.description : undefined }));
+  }
+  const total = 2 + mediaPages.length;
+  const coverOrientation = pdfOrientation(hero.ratio);
+  return <main className="pdfDocument" data-pdf-ready="true">
+    <PdfPage className={`pdfCaseCover hero-${coverOrientation}`} project={item.name} page={1} total={total}><Picture image={hero} /><div className="pdfCoverShade" /><div className="pdfCoverBrand">CHIM®<span>Design Casebook</span></div><div className="pdfCoverTitle"><p>{formatCaseMetadata(item, true)}</p><EditorialTitle title={item.name} /></div></PdfPage>
+    <PdfPage className="pdfCaseIntro" project={item.name} page={2} total={total}><div className="pdfKicker">Project / {item.id}</div><div className="pdfIntroGrid"><h2>{item.name}</h2><div><p className="pdfMeta">{formatCaseMetadata(item, true)}</p><p className="pdfLead">{item.intro}</p></div></div><div className="pdfRule" /></PdfPage>
+    {mediaPages.map((spec, index) => <PdfPage className={spec.title ? "pdfChapterPage" : "pdfMediaPage"} project={item.name} page={index + 3} total={total} key={`${index}-${spec.images.map((image) => image.id).join("-")}`}>{spec.title && <header className="pdfChapterHeader"><div><p>{spec.eyebrow}</p><h2>{spec.title}</h2></div>{spec.description && <p>{spec.description}</p>}</header>}<MediaComposition spec={spec} /></PdfPage>)}
+  </main>;
+}
+
+type PortfolioCasePages = { item: PortfolioCase; images: PdfMediaInfo[]; count: number; startPage: number };
+
+export async function PortfolioPdfDocument({ cases }: { cases: PortfolioCase[] }) {
+  const resolved = await Promise.all(cases.map(async (item) => ({ item, images: await Promise.all(resolvePortfolioPdfImages(item).map((image) => getPdfMediaInfo(image.id, image.src))) })));
+  const directoryPageCount = Math.max(1, Math.ceil(cases.length / 20));
+  let cursor = 2 + directoryPageCount;
+  const entries: PortfolioCasePages[] = resolved.map(({ item, images }) => {
+    const count = images.length > 1 ? 2 : 1;
+    const entry = { item, images, count, startPage: cursor };
+    cursor += count;
+    return entry;
+  });
+  const total = cursor - 1;
+  const directoryPages = Array.from({ length: directoryPageCount }, (_, index) => entries.slice(index * 20, (index + 1) * 20));
+  return <main className="pdfDocument" data-pdf-ready="true">
+    <PdfPage className="pdfPortfolioCover" project="Portfolio" page={1} total={total}><div className="pdfPortfolioMark">CHIM®</div><div><p>Independent design practice · Guangzhou</p><h1>Selected<br />Works</h1></div><div className="pdfPortfolioYear">Portfolio / {new Date().getFullYear()}</div></PdfPage>
+    {directoryPages.map((pageEntries, directoryIndex) => <PdfPage className="pdfDirectory" project="Portfolio" page={directoryIndex + 2} total={total} key={directoryIndex}><div className="pdfKicker">Index / {String(directoryIndex + 1).padStart(2, "0")}</div><h2>Contents</h2><ol start={directoryIndex * 20 + 1}>{pageEntries.map(({ item, startPage }) => <li key={item.id}><span>{item.name}</span><i /><b>{String(startPage).padStart(2, "0")}</b></li>)}</ol></PdfPage>)}
+    {entries.flatMap(({ item, images, count, startPage }, caseIndex) => {
+      const pages: React.ReactNode[] = [];
+      const lead = images[0];
+      const leadOrientation = pdfOrientation(lead.ratio);
+      const leadTitle = splitPdfTitle(item.name);
+      pages.push(<PdfPage className={`pdfPortfolioCaseLead hero-${leadOrientation}`} project={item.name} page={startPage} total={total} key={`${item.id}-lead`}><div className="pdfPortfolioCaseIndex">{String(caseIndex + 1).padStart(2, "0")}</div><div className="pdfPortfolioCaseCopy"><p>{formatCaseMetadata(item, true)}</p><h2 className={pdfTitleDensity(item.name)}><span>{leadTitle.primary}</span>{leadTitle.secondary && <small>{leadTitle.secondary}</small>}</h2><p>{item.intro}</p></div><figure><Picture image={lead} mode={leadOrientation === "wide" || lead.ratio < .62 ? "contain" : "cover"} /></figure></PdfPage>);
+      if (count > 1) {
+        const supporting = images.slice(1);
+        pages.push(<PdfPage className="pdfPortfolioImagePage" project={item.name} page={startPage + 1} total={total} key={`${item.id}-supporting`}><MediaComposition spec={{ images: supporting, layout: selectPdfLayout(supporting, caseIndex) }} /></PdfPage>);
+      }
+      return pages;
+    })}
+  </main>;
+}

@@ -1,6 +1,7 @@
 import type { AssetProvenance, Business, CaseCategory, ContentData, PortfolioCase } from "./types";
 import { renumberChapters } from "./chapters";
 import { BUSINESSES, CASE_CATEGORIES } from "./taxonomy";
+import { getPdfImageCandidates } from "./pdf-portfolio";
 
 const strings = (value: unknown) => Array.isArray(value) ? value.filter((item): item is string => typeof item === "string").map((item) => item.trim()).filter(Boolean) : [];
 const businessValues = new Set<string>(BUSINESSES.map((item) => item.value));
@@ -52,7 +53,8 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
     const media = item as Record<string, unknown>;
     return { id: String(media.id || `${Date.now()}-${index}`), type: media.type === "video" ? "video" as const : "image" as const, src: String(media.src || ""), layout: media.layout === "half" ? "half" as const : "full" as const, section: mediaSection(media.section), provenance: provenance(media.provenance) };
   }).filter((item) => item.src) : []);
-  return {
+  const portfolioPdfImageIds = [...new Set(strings(input.portfolioPdfImageIds))];
+  const result: PortfolioCase = {
     id: existing?.id || String(input.id || `C${Date.now()}`), name,
     intro: String(input.intro || "").trim(), business,
     categories: categories as CaseCategory[], primaryIndustry: String(input.primaryIndustry || "").trim(),
@@ -63,7 +65,14 @@ export function parseCase(value: unknown, existing?: PortfolioCase): PortfolioCa
     coverProvenance: provenance(input.coverProvenance),
     heroProvenance: provenance(input.heroProvenance),
     bodyAssets, published: Boolean(input.published),
+    includeInPortfolioPdf: Boolean(input.includeInPortfolioPdf),
+    portfolioPdfImageIds,
   };
+  const validPdfImageIds = new Set(getPdfImageCandidates(result).map((image) => image.id));
+  const invalidPdfImageIds = portfolioPdfImageIds.filter((id) => !validPdfImageIds.has(id));
+  if (invalidPdfImageIds.length) throw new Error(`总作品集 PDF 精选图片引用不存在：${invalidPdfImageIds.join("、")}`);
+  if (result.includeInPortfolioPdf && result.published && !portfolioPdfImageIds.length) throw new Error("加入总作品集 PDF 的已发布案例至少需要选择一张精选图片");
+  return result;
 }
 
 export function assertUniqueName(data: ContentData, item: PortfolioCase) {

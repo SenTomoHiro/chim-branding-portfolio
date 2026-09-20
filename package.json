@@ -7,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "build:pages": "node scripts/build-pages.mjs",
+    "pdf:generate": "node scripts/generate-pdfs.mjs --site-dir out --output-dir output/pdf",
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "import:cases": "tsx scripts/import-cases.ts && tsx scripts/import-legacy-psd-cases.ts && tsx scripts/import-photography-cases.ts",

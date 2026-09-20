@@ -28,6 +28,7 @@ try {
   ]);
   await cp(path.join(root, "pages-static", "admin"), path.join(staging, "app", "admin"), { recursive: true });
   await run(path.join(root, "node_modules", ".bin", "next"), ["build", "--webpack"], { cwd: staging, env: { ...process.env, BUILD_TARGET: "pages" } });
+  await run(process.execPath, [path.join(root, "scripts", "generate-pdfs.mjs"), "--site-dir", output, "--output-dir", path.join(output, "pdf"), "--content", path.join(staging, "data", "content.json"), "--base-path", process.env.NEXT_PUBLIC_BASE_PATH || ""], { cwd: root, env: process.env });
   await rm(path.join(root, "out"), { recursive: true, force: true });
   await mkdir(path.join(root, "out"), { recursive: true });
   await cp(output, path.join(root, "out"), { recursive: true });

@@ -5,7 +5,7 @@ import type { PortfolioCase } from "../../lib/types";
 const item = (id: string, width: number, height: number): PortfolioCase => ({
   id, name: id, intro: "", business: "branding", categories: ["other"], primaryIndustry: "",
   cover: "", coverWidth: width, coverHeight: height,
-  hero: "", bodyAssets: [], published: true,
+  hero: "", bodyAssets: [], published: true, includeInPortfolioPdf: true, portfolioPdfImageIds: [],
 });
 
 describe("createMasonryLayout", () => {

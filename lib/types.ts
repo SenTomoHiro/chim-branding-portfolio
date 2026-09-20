@@ -51,6 +51,9 @@ export type PortfolioCase = {
   heroProvenance?: AssetProvenance;
   bodyAssets: BodyAsset[];
   published: boolean;
+  includeInPortfolioPdf: boolean;
+  /** Ordered references to this case's hero, cover, or body image IDs. */
+  portfolioPdfImageIds: string[];
 };
 
 export type ContentData = {

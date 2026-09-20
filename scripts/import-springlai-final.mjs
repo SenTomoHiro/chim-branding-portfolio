@@ -123,6 +123,19 @@ const websiteCases = cases.map((config) => {
   const cover = assets.find((item) => item.cover);
   const hero = assets.find((item) => item.hero);
   if (!cover || !hero) throw new Error(`Missing cover or hero for ${config.key}`);
+  const bodyAssets = assets.map((item) => {
+    const sectionKey = config.key === "整体VI更新" ? item.chapter : config.key === "桃花桂花艺人" ? item.subchapter : undefined;
+    const uniqueSectionKey = sectionKey ? `${config.key}:${sectionKey}` : undefined;
+    const section = uniqueSectionKey && !sectionSeen.has(uniqueSectionKey) ? sections[sectionKey] : undefined;
+    if (uniqueSectionKey && section) sectionSeen.add(uniqueSectionKey);
+    return {
+      id: `${config.id}-${String(item.order).padStart(2, "0")}`,
+      type: "image",
+      src: item.websiteAsset,
+      layout: "full",
+      ...(section ? { section } : {}),
+    };
+  });
   return {
     id: config.id,
     name: config.name,
@@ -131,23 +144,13 @@ const websiteCases = cases.map((config) => {
     coverWidth: cover.width,
     coverHeight: cover.height,
     hero: hero.websiteAsset,
-    bodyAssets: assets.map((item) => {
-      const sectionKey = config.key === "整体VI更新" ? item.chapter : config.key === "桃花桂花艺人" ? item.subchapter : undefined;
-      const uniqueSectionKey = sectionKey ? `${config.key}:${sectionKey}` : undefined;
-      const section = uniqueSectionKey && !sectionSeen.has(uniqueSectionKey) ? sections[sectionKey] : undefined;
-      if (uniqueSectionKey && section) sectionSeen.add(uniqueSectionKey);
-      return {
-        id: `${config.id}-${String(item.order).padStart(2, "0")}`,
-        type: "image",
-        src: item.websiteAsset,
-        layout: "full",
-        ...(section ? { section } : {}),
-      };
-    }),
+    bodyAssets,
     published: true,
     business: "branding",
     categories: config.categories,
     primaryIndustry: config.primaryIndustry,
+    includeInPortfolioPdf: true,
+    portfolioPdfImageIds: ["hero", ...bodyAssets.slice(0, bodyAssets.length >= 15 ? 4 : 3).map((asset) => asset.id)],
   };
 });
 

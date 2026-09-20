@@ -2,6 +2,7 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 import type { AssetProvenance, ContentData, PortfolioCase } from "../lib/types";
+import { createInitialPortfolioPdfSelection } from "../lib/pdf-portfolio";
 import { INITIAL_CATEGORIES } from "./taxonomy-map";
 
 type SegmentAsset = {
@@ -67,7 +68,7 @@ async function main() {
       const media = await optimize(path.join(root, file), path.join(mediaDirectory, `psd-body-${String(index + 1).padStart(2, "0")}.webp`), "content");
       bodyAssets.push({ id: asset.asset_id, type: "image" as const, src: media.src, layout: index > 0 && index < 5 ? "half" as const : "full" as const, provenance: provenance(asset) });
     }
-    imported.push({
+    const next: PortfolioCase = {
       id: recovered.case_id,
       name: current?.name ?? audit.name,
       intro: current?.intro ?? `${audit.name}的品牌视觉与平面设计案例。`,
@@ -77,7 +78,11 @@ async function main() {
       cover: cover.src, coverWidth: cover.width, coverHeight: cover.height, hero: hero.src,
       coverProvenance: provenance(coverAsset), heroProvenance: provenance(heroAsset), bodyAssets,
       published: current?.published ?? recovered.published,
-    });
+      includeInPortfolioPdf: current?.includeInPortfolioPdf ?? recovered.published,
+      portfolioPdfImageIds: current?.portfolioPdfImageIds ?? [],
+    };
+    if (!current) next.portfolioPdfImageIds = createInitialPortfolioPdfSelection(next);
+    imported.push(next);
   }
 
   const importedById = new Map(imported.map((item) => [item.id, item]));

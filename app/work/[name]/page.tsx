@@ -11,6 +11,7 @@ import { readContent } from "@/lib/content";
 import { getPublishedCases } from "@/lib/sort-cases";
 import { formatCaseMetadata } from "@/lib/taxonomy";
 import { assetPath } from "@/lib/site-path";
+import { casePdfPath } from "@/lib/pdf-path";
 
 export async function generateStaticParams() {
   return (await readContent()).cases
@@ -21,5 +22,5 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ name: string }> }): Promise<Metadata> { const route = await params; const item = findPublishedCaseByName((await readContent()).cases, route.name); return item ? { title: item.name, description: item.intro } : {}; }
 export default async function WorkPage({ params }: { params: Promise<{ name: string }> }) {
   const route = await params; const data = await readContent(); const current = findPublishedCaseByName(data.cases, route.name); if (!current) notFound(); const ordered = getPublishedCases(data.cases, data, { business: current.business }); const index = ordered.findIndex((entry) => entry.id === current.id); const item = ordered[index]; const next = ordered[(index + 1) % ordered.length];
-  return <main className="workPage"><SiteHeader business={current.business} detail /><BackToTopButton /><ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none"><div className="workHero"><Image src={assetPath(item.hero)} alt={`${item.name} 项目主视觉`} fill priority sizes="100vw" /></div></ViewTransition><section className="workIntro"><div><p>{formatCaseMetadata(item)}</p><h1>{item.name}</h1></div><p>{item.intro}</p></section><section className="mediaFlow">{item.bodyAssets.map((media) => <RevealMedia key={media.id} media={media} caseName={item.name} />)}</section><NextCaseLink current={item} next={next} /></main>;
+  return <main className="workPage"><SiteHeader business={current.business} detail /><BackToTopButton /><ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none"><div className="workHero"><Image src={assetPath(item.hero)} alt={`${item.name} 项目主视觉`} fill priority sizes="100vw" /></div></ViewTransition><section className="workIntro"><div><p>{formatCaseMetadata(item)}</p><h1>{item.name}</h1></div><section className="workSummary"><p>{item.intro}</p><a className="pdfDownload" href={casePdfPath(item.id)} download>PDF / Download PDF ↓</a></section></section><section className="mediaFlow">{item.bodyAssets.map((media) => <RevealMedia key={media.id} media={media} caseName={item.name} />)}</section><NextCaseLink current={item} next={next} /></main>;
 }

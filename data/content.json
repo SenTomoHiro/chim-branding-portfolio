@@ -156,7 +156,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N001-V3-A01",
+        "N001-V3-A02",
+        "N001-V3-A03"
+      ]
     },
     {
       "id": "N002",
@@ -503,7 +510,15 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N002-V3-A01",
+        "N002-V3-A02",
+        "N002-V3-A04",
+        "N002-V3-A05"
+      ]
     },
     {
       "id": "N003",
@@ -774,7 +789,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N003-V3-A01",
+        "N003-V3-A02",
+        "N003-V3-A03"
+      ]
     },
     {
       "id": "N004",
@@ -969,7 +991,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N004-V3-A01",
+        "N004-V3-A02",
+        "N004-V3-A04"
+      ]
     },
     {
       "id": "N005",
@@ -1259,7 +1288,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "甜品"
+      "primaryIndustry": "甜品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N005-V3-A01",
+        "N005-V3-A02",
+        "N005-V3-A03"
+      ]
     },
     {
       "id": "N006",
@@ -1588,7 +1624,15 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N006-V3-A01",
+        "N006-V3-A02",
+        "N006-V3-A03",
+        "N006-V3-A04"
+      ]
     },
     {
       "id": "N007",
@@ -1821,7 +1865,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N007-V3-A01",
+        "N007-V3-A02",
+        "N007-V3-A03"
+      ]
     },
     {
       "id": "N008",
@@ -2054,7 +2105,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N008-V3-A01",
+        "N008-V3-A02",
+        "N008-V3-A03"
+      ]
     },
     {
       "id": "N009",
@@ -2344,7 +2402,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N009-V3-A01",
+        "N009-V3-A02",
+        "N009-V3-A03"
+      ]
     },
     {
       "id": "N010",
@@ -2444,7 +2509,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "轻食"
+      "primaryIndustry": "轻食",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N010-V3-A01",
+        "N010-V3-A03",
+        "N010-V3-A04"
+      ]
     },
     {
       "id": "N011",
@@ -2697,7 +2769,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "甜品"
+      "primaryIndustry": "甜品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N011-V3-A01",
+        "N011-V3-A02",
+        "N011-V3-A03"
+      ]
     },
     {
       "id": "N012",
@@ -3082,7 +3161,15 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "饮品"
+      "primaryIndustry": "饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N012-V3-A01",
+        "N012-V3-A02",
+        "N012-V3-A03",
+        "N012-V3-A04"
+      ]
     },
     {
       "id": "N013",
@@ -3373,7 +3460,14 @@
         "food",
         "ip"
       ],
-      "primaryIndustry": "汉堡"
+      "primaryIndustry": "汉堡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N013-V3-A01",
+        "N013-V3-A02",
+        "N013-V3-A03"
+      ]
     },
     {
       "id": "N014",
@@ -3683,7 +3777,14 @@
         "drinks",
         "other"
       ],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N014-V3-A01",
+        "N014-V3-A02",
+        "N014-V3-A03"
+      ]
     },
     {
       "id": "N015",
@@ -3897,7 +3998,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N015-V3-A01",
+        "N015-V3-A02",
+        "N015-V3-A03"
+      ]
     },
     {
       "id": "N016",
@@ -4225,7 +4333,15 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "酒吧"
+      "primaryIndustry": "酒吧",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N016-V3-A01",
+        "N016-V3-A02",
+        "N016-V3-A03",
+        "N016-V3-A04"
+      ]
     },
     {
       "id": "N017",
@@ -4477,7 +4593,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N017-V3-A01",
+        "N017-V3-A02",
+        "N017-V3-A03"
+      ]
     },
     {
       "id": "N018",
@@ -4767,7 +4890,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N018-V3-A01",
+        "N018-V3-A02",
+        "N018-V3-A03"
+      ]
     },
     {
       "id": "N019",
@@ -4924,7 +5054,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N019-V3-A01",
+        "N019-V3-A03",
+        "N019-V3-A04"
+      ]
     },
     {
       "id": "N020",
@@ -5063,7 +5200,14 @@
         "food",
         "ip"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N020-V3-A01",
+        "N020-V3-A02",
+        "N020-V3-A04"
+      ]
     },
     {
       "id": "L012",
@@ -5260,7 +5404,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "柠檬茶"
+      "primaryIndustry": "柠檬茶",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L012-body-2",
+        "L012-body-3",
+        "L012-body-4"
+      ]
     },
     {
       "id": "L001",
@@ -5673,7 +5824,15 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "活动策划 / 文创"
+      "primaryIndustry": "活动策划 / 文创",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L001-PSD-001",
+        "L001-PSD-002",
+        "L001-PSD-003",
+        "L001-PSD-004"
+      ]
     },
     {
       "id": "L002",
@@ -6086,7 +6245,15 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L002-PSD-001",
+        "L002-PSD-002",
+        "L002-PSD-003",
+        "L002-PSD-004"
+      ]
     },
     {
       "id": "L003",
@@ -6307,7 +6474,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L003-PSD-001",
+        "L003-PSD-002",
+        "L003-PSD-003"
+      ]
     },
     {
       "id": "L004",
@@ -6528,7 +6702,14 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "美妆"
+      "primaryIndustry": "美妆",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L004-PSD-001",
+        "L004-PSD-002",
+        "L004-PSD-003"
+      ]
     },
     {
       "id": "L005",
@@ -6869,7 +7050,9 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "多行业"
+      "primaryIndustry": "多行业",
+      "includeInPortfolioPdf": false,
+      "portfolioPdfImageIds": []
     },
     {
       "id": "L006",
@@ -7186,7 +7369,9 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "多行业"
+      "primaryIndustry": "多行业",
+      "includeInPortfolioPdf": false,
+      "portfolioPdfImageIds": []
     },
     {
       "id": "L007",
@@ -7407,7 +7592,14 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "宠物食品"
+      "primaryIndustry": "宠物食品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L007-PSD-001",
+        "L007-PSD-002",
+        "L007-PSD-003"
+      ]
     },
     {
       "id": "L008",
@@ -7556,7 +7748,14 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "食品 / 礼盒"
+      "primaryIndustry": "食品 / 礼盒",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L008-PSD-001",
+        "L008-PSD-002",
+        "L008-PSD-003"
+      ]
     },
     {
       "id": "L009",
@@ -7681,7 +7880,14 @@
       "categories": [
         "other"
       ],
-      "primaryIndustry": "美妆 / 护肤"
+      "primaryIndustry": "美妆 / 护肤",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L009-PSD-001",
+        "L009-PSD-002",
+        "L009-PSD-003"
+      ]
     },
     {
       "id": "L021",
@@ -7874,7 +8080,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "家居香氛"
+      "primaryIndustry": "家居香氛",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L021-A003",
+        "L021-A004",
+        "L021-A005"
+      ]
     },
     {
       "id": "L023",
@@ -8067,7 +8280,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "家居"
+      "primaryIndustry": "家居",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L023-A003",
+        "L023-A004",
+        "L023-A005"
+      ]
     },
     {
       "id": "L015",
@@ -8222,7 +8442,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L015-A003",
+        "L015-A004",
+        "L015-A005"
+      ]
     },
     {
       "id": "L018",
@@ -8396,7 +8623,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "休闲食品"
+      "primaryIndustry": "休闲食品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L018-A003",
+        "L018-A004",
+        "L018-A005"
+      ]
     },
     {
       "id": "L025",
@@ -8589,7 +8823,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L025-A003",
+        "L025-A004",
+        "L025-A005"
+      ]
     },
     {
       "id": "L017",
@@ -8744,7 +8985,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L017-A003",
+        "L017-A004",
+        "L017-A005"
+      ]
     },
     {
       "id": "L028",
@@ -8899,7 +9147,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "非遗工艺"
+      "primaryIndustry": "非遗工艺",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L028-A002",
+        "L028-A004",
+        "L028-A005"
+      ]
     },
     {
       "id": "L013",
@@ -9092,7 +9347,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "饮品"
+      "primaryIndustry": "饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L013-A003",
+        "L013-A004",
+        "L013-A005"
+      ]
     },
     {
       "id": "L022",
@@ -9190,7 +9452,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "眼镜"
+      "primaryIndustry": "眼镜",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L022-A003",
+        "L022-A004",
+        "L022-A005"
+      ]
     },
     {
       "id": "L020",
@@ -9307,7 +9576,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "休闲食品"
+      "primaryIndustry": "休闲食品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L020-A003",
+        "L020-A004",
+        "L020-A005"
+      ]
     },
     {
       "id": "L027",
@@ -9462,7 +9738,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "非遗工艺"
+      "primaryIndustry": "非遗工艺",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L027-A003",
+        "L027-A004",
+        "L027-A005"
+      ]
     },
     {
       "id": "L029",
@@ -9655,7 +9938,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "饮品"
+      "primaryIndustry": "饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L029-A003",
+        "L029-A004",
+        "L029-A005"
+      ]
     },
     {
       "id": "L024",
@@ -9791,7 +10081,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "饮品"
+      "primaryIndustry": "饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L024-A003",
+        "L024-A004",
+        "L024-A005"
+      ]
     },
     {
       "id": "L019",
@@ -9889,7 +10186,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "休闲食品"
+      "primaryIndustry": "休闲食品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L019-A002",
+        "L019-A004",
+        "L019-A005"
+      ]
     },
     {
       "id": "L026",
@@ -10025,7 +10329,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "餐饮"
+      "primaryIndustry": "餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L026-A003",
+        "L026-A004",
+        "L026-A005"
+      ]
     },
     {
       "id": "L014",
@@ -10104,7 +10415,14 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "饮品"
+      "primaryIndustry": "饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L014-A003",
+        "L014-A004",
+        "cover"
+      ]
     },
     {
       "id": "L016",
@@ -10164,7 +10482,13 @@
       "published": true,
       "business": "photography",
       "categories": [],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "L016-A002",
+        "cover"
+      ]
     },
     {
       "id": "SL001",
@@ -10400,7 +10724,15 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL001-01",
+        "SL001-09",
+        "SL001-16",
+        "SL001-28"
+      ]
     },
     {
       "id": "SL002",
@@ -10477,7 +10809,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "咖啡"
+      "primaryIndustry": "咖啡",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL002-02",
+        "SL002-03",
+        "SL002-04"
+      ]
     },
     {
       "id": "SL003",
@@ -10536,7 +10875,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL003-02",
+        "SL003-03",
+        "SL003-04"
+      ]
     },
     {
       "id": "SL004",
@@ -10602,7 +10948,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "茶饮联名"
+      "primaryIndustry": "茶饮联名",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL004-02",
+        "SL004-03",
+        "SL004-04"
+      ]
     },
     {
       "id": "SL005",
@@ -10760,7 +11113,15 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "茶饮"
+      "primaryIndustry": "茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL005-05",
+        "SL005-11",
+        "SL005-02",
+        "SL005-03"
+      ]
     },
     {
       "id": "SL006",
@@ -10795,7 +11156,13 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "区域限定茶饮"
+      "primaryIndustry": "区域限定茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL006-01",
+        "SL006-03"
+      ]
     },
     {
       "id": "SL007",
@@ -10849,7 +11216,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "茶饮联名"
+      "primaryIndustry": "茶饮联名",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "SL007-01",
+        "SL007-02",
+        "SL007-04"
+      ]
     },
     {
       "id": "N021",
@@ -11082,7 +11456,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "抹茶饮品"
+      "primaryIndustry": "抹茶饮品",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N021-body-1",
+        "N021-body-2",
+        "N021-body-3"
+      ]
     },
     {
       "id": "N022",
@@ -11307,7 +11688,14 @@
       "categories": [
         "drinks"
       ],
-      "primaryIndustry": "中式茶饮"
+      "primaryIndustry": "中式茶饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N022-body-9",
+        "N022-body-2",
+        "N022-body-3"
+      ]
     },
     {
       "id": "N023",
@@ -11504,7 +11892,14 @@
       "categories": [
         "food"
       ],
-      "primaryIndustry": "泰式餐饮"
+      "primaryIndustry": "泰式餐饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N023-body-2",
+        "N023-body-3",
+        "N023-body-4"
+      ]
     },
     {
       "id": "N024",
@@ -11800,7 +12195,15 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "冬季热饮"
+      "primaryIndustry": "冬季热饮",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N024-body-6",
+        "N024-body-10",
+        "N024-body-2",
+        "N024-body-3"
+      ]
     },
     {
       "id": "N025",
@@ -12052,7 +12455,14 @@
         "drinks",
         "ip"
       ],
-      "primaryIndustry": "茶饮联名"
+      "primaryIndustry": "茶饮联名",
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N025-body-1",
+        "N025-body-7",
+        "N025-body-2"
+      ]
     },
     {
       "id": "N026",
@@ -12224,7 +12634,15 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N026-A03",
+        "N026-A04",
+        "N026-A07",
+        "N026-A05"
+      ]
     },
     {
       "id": "N027",
@@ -12439,7 +12857,15 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N027-A03",
+        "N027-A04",
+        "N027-A05",
+        "N027-A08"
+      ]
     },
     {
       "id": "N028",
@@ -12685,7 +13111,15 @@
           }
         }
       ],
-      "published": true
+      "published": true,
+      "includeInPortfolioPdf": true,
+      "portfolioPdfImageIds": [
+        "hero",
+        "N028-A03",
+        "N028-A04",
+        "N028-A06",
+        "N028-A07"
+      ]
     }
   ],
   "defaultOrder": [
