@@ -411,6 +411,14 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfPortfolioCaseLead.hero-wide>figure { left:0; right:0; top:94mm; bottom:13mm; }
 .pdfPortfolioCaseLead.hero-balanced>figure { left:75mm; }
 .pdfPortfolioImagePage .pdfMediaComposition { top:4mm; }
+.pdfPortfolioLongCase { position:relative; box-sizing:border-box; width:210mm; margin:0 auto 12mm; overflow:hidden; background:#f4f3ef; break-before:page; break-after:page; break-inside:avoid; box-shadow:0 3mm 14mm rgba(0,0,0,.14); }
+.pdfPortfolioLongCase:last-child { break-after:auto; }
+.pdfPortfolioLongLead { position:relative; height:230mm; overflow:hidden; }
+.pdfPortfolioLongLead .pdfPortfolioCaseCopy h2.isLatinTitle { font-size:12mm; letter-spacing:-.055em; }
+.pdfPortfolioLongLead>figure { bottom:0; }
+.pdfPortfolioLongLead.hero-wide>figure { bottom:0; }
+.pdfPortfolioLongBody { padding:14mm 10mm 18mm; border-top:1px solid rgba(0,0,0,.16); }
+.pdfPortfolioLongFooter { display:flex; justify-content:space-between; align-items:center; margin:0 10mm; padding:6mm 0 8mm; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
 
 @media (max-width:767px) {
   .pdfCandidateGrid { grid-template-columns:repeat(2,minmax(0,1fr)); }
@@ -424,5 +432,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   html,body { margin:0 !important; padding:0 !important; background:#f4f3ef !important; }
   .pdfDocument { background:#f4f3ef; }
   .pdfLongDocument,.pdfLongCase { margin:0; box-shadow:none; }
+  .pdfPortfolioLongCase { margin:0; box-shadow:none; }
   .pdfPage { margin:0; box-shadow:none; }
 }

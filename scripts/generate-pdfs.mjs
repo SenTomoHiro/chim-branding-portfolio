@@ -91,6 +91,7 @@ async function render(route, filename) {
   });
   if (browserErrors.length) throw new Error(`PDF 页面运行错误 ${route}：${browserErrors.join(" | ")}`);
   const isLongCase = route.startsWith("/print/case/");
+  const isPortfolio = route.startsWith("/print/portfolio/");
   const longPageHeight = isLongCase ? await page.evaluate(() => {
     const documentRoot = document.querySelector("[data-pdf-ready='true']");
     if (!documentRoot) throw new Error("PDF 长页根节点不存在");
@@ -103,7 +104,24 @@ async function render(route, filename) {
     const longPageHeightMm = (longPageHeight * 25.4 / 96).toFixed(3);
     await page.addStyleTag({ content: `@page { size: 210mm ${longPageHeightMm}mm; margin: 0; }` });
   }
-  await page.pdf(isLongCase ? {
+  if (isPortfolio) {
+    const caseHeights = await page.evaluate(() => [...document.querySelectorAll("[data-portfolio-case-page]")].map((element) => ({
+      index: element.getAttribute("data-portfolio-case-page"),
+      height: Math.ceil(Math.max(element.scrollHeight, element.getBoundingClientRect().height) + 2),
+    })));
+    if (!caseHeights.length) throw new Error(`Portfolio 没有可生成的案例页：${route}`);
+    const rules = [
+      "@page portfolioFront { size: A4 portrait; margin: 0; }",
+      ".pdfPortfolioFrontPage { page: portfolioFront; }",
+      ...caseHeights.flatMap(({ index, height }) => {
+        const pageName = `portfolioCase${index}`;
+        const pageHeightMm = (height * 25.4 / 96).toFixed(3);
+        return [`@page ${pageName} { size: 210mm ${pageHeightMm}mm; margin: 0; }`, `[data-portfolio-case-page='${index}'] { page: ${pageName}; }`];
+      }),
+    ];
+    await page.addStyleTag({ content: rules.join("\n") });
+  }
+  await page.pdf(isLongCase || isPortfolio ? {
     path: filename,
     printBackground: true,
     preferCSSPageSize: true,
