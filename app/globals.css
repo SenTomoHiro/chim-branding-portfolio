@@ -277,8 +277,39 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfCandidateGrid strong { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:.78rem; }
 .pdfCandidateGrid small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#777; font-size:.68rem; }
 
-/* A4 casebook pages */
+/* Single-case continuous PDF */
+.pdfLongDocument { width:210mm; min-height:0; margin:0 auto; background:#d7d7d5; }
+.pdfLongCase { width:210mm; overflow:hidden; background:#f4f3ef; box-shadow:0 3mm 14mm rgba(0,0,0,.14); }
+.pdfLongHero { position:relative; display:grid; width:100%; background:#101010; color:#fff; }
+.pdfLongHero>.pdfPicture,.pdfLongHeroOverlay { grid-area:1/1; }
+.pdfLongHero>.pdfPicture { align-self:start; width:100%; height:auto; object-fit:contain; }
+.pdfLongHeroOverlay { position:relative; z-index:2; box-sizing:border-box; min-height:100%; display:flex; flex-direction:column; justify-content:space-between; gap:28mm; padding:10mm; background:linear-gradient(180deg,rgba(0,0,0,.16),transparent 38%,rgba(0,0,0,.68)); }
+.pdfLongBrand { display:flex; justify-content:space-between; align-items:center; font-size:7pt; line-height:1; letter-spacing:.11em; text-transform:uppercase; }
+.pdfLongBrand b { font-size:10pt; letter-spacing:.02em; }
+.pdfLongHeroCopy { display:grid; grid-template-columns:1.15fr 1fr; gap:14mm; align-items:end; padding:8mm; background:rgba(9,9,9,.76); backdrop-filter:blur(4px); }
+.pdfLongHeroCopy>div>p { margin:0 0 4mm; font-size:7pt; line-height:1.4; letter-spacing:.11em; text-transform:uppercase; }
+.pdfLongHeroCopy h1 { margin:0; font-weight:650; text-wrap:balance; }
+.pdfLongHeroCopy .pdfTitlePrimary { font-size:19mm; line-height:1; }
+.pdfLongHeroCopy .pdfTitleSecondary { max-width:92mm; margin-top:3mm; font-size:7mm; line-height:1.18; }
+.pdfLongHeroCopy h1.isCompact .pdfTitlePrimary { font-size:16mm; }
+.pdfLongHeroCopy h1.isDense .pdfTitlePrimary { font-size:13mm; }
+.pdfLongHeroCopy h1.isDense .pdfTitleSecondary { font-size:6mm; }
+.pdfLongHeroCopy>p { margin:0; font-size:9pt; line-height:1.72; text-align:justify; }
+.pdfLongContent { padding:18mm 14mm 24mm; }
+.pdfLongChapter+.pdfLongChapter { margin-top:22mm; padding-top:13mm; border-top:1px solid rgba(0,0,0,.2); }
+.pdfLongChapter>header { display:grid; grid-template-columns:1.25fr 1fr; gap:12mm; align-items:end; margin-bottom:10mm; }
+.pdfLongChapter>header>div>p { margin:0 0 3mm; font-size:6.5pt; letter-spacing:.12em; text-transform:uppercase; opacity:.55; }
+.pdfLongChapter>header h2 { margin:0; font-size:13mm; line-height:1.02; letter-spacing:-.04em; }
+.pdfLongChapter>header>p { margin:0; font-size:8.5pt; line-height:1.62; }
+.pdfLongWaterfall { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:5mm; align-items:start; }
+.pdfLongWaterfallColumn { display:flex; flex-direction:column; gap:5mm; min-width:0; }
+.pdfLongWaterfall figure { width:100%; margin:0; background:transparent; }
+.pdfLongWaterfall .pdfPicture { width:100%; height:auto; object-fit:contain; }
+.pdfLongFooter { display:flex; justify-content:space-between; align-items:center; margin:0 14mm; padding:6mm 0 9mm; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
+
+/* A4 portfolio pages */
 .pdfDocument { min-height:100vh; background:#d7d7d5; color:#0b0b0b; }
+.pdfDocument.pdfLongDocument { min-height:0; }
 .pdfPage { position:relative; box-sizing:border-box; width:210mm; height:297mm; margin:0 auto 12mm; overflow:hidden; padding:10mm 10mm 15mm; background:#f4f3ef; break-after:page; box-shadow:0 3mm 14mm rgba(0,0,0,.14); }
 .pdfPage:last-child { break-after:auto; }
 .pdfFooter { position:absolute; z-index:20; left:10mm; right:10mm; bottom:5mm; min-height:0; margin:0; padding:0; display:flex; justify-content:space-between; align-items:center; background:transparent; color:inherit; font-size:6.5pt; line-height:1; letter-spacing:.06em; text-transform:uppercase; }
@@ -354,6 +385,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfPortfolioMark { font-size:15pt; font-weight:650; }
 .pdfPortfolioCover>div:nth-child(2) p { margin:0 0 8mm; font-size:8pt; letter-spacing:.11em; text-transform:uppercase; }
 .pdfPortfolioCover h1 { margin:0; font-size:45mm; line-height:.73; letter-spacing:-.075em; font-weight:650; }
+.pdfPortfolioCover.portfolio-photography h1 { font-size:30mm; line-height:.82; letter-spacing:-.06em; }
 .pdfPortfolioYear { align-self:flex-end; margin-bottom:6mm; font-size:8pt; letter-spacing:.12em; text-transform:uppercase; }
 .pdfPortfolioCover .pdfFooter { color:#f4f3ef; }
 .pdfDirectory h2 { margin:25mm 0 16mm; font-size:26mm; line-height:.8; letter-spacing:-.065em; }
@@ -391,5 +423,6 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 @media print {
   html,body { margin:0 !important; padding:0 !important; background:#f4f3ef !important; }
   .pdfDocument { background:#f4f3ef; }
+  .pdfLongDocument,.pdfLongCase { margin:0; box-shadow:none; }
   .pdfPage { margin:0; box-shadow:none; }
 }

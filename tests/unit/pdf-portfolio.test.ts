@@ -24,11 +24,12 @@ describe("portfolio PDF configuration", () => {
     expect(resolvePortfolioPdfImages(item).map((image) => image.id)).toEqual(["A-c", "hero", "A-a"]);
   });
 
-  it("uses official branding order, then official photography order, and honors include", () => {
+  it("splits design and photography portfolios using official business data and order", () => {
     const a = makeCase("A"); const b = makeCase("B", { includeInPortfolioPdf: false });
     const photo = makeCase("P", { business: "photography", categories: [] });
     const data: ContentData = { cases: [a, b, photo], defaultOrder: ["B", "A"], photographyCaseOrder: ["P"] };
-    expect(getPortfolioPdfCases(data).map((item) => item.id)).toEqual(["A", "P"]);
+    expect(getPortfolioPdfCases(data, "branding").map((item) => item.id)).toEqual(["A"]);
+    expect(getPortfolioPdfCases(data, "photography").map((item) => item.id)).toEqual(["P"]);
   });
 
   it("fails loudly for a missing selected image reference", () => {

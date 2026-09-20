@@ -1,4 +1,4 @@
-import type { BodyAsset, ContentData, PortfolioCase } from "./types";
+import type { BodyAsset, Business, ContentData, PortfolioCase } from "./types";
 import { getPublishedCases } from "./sort-cases";
 
 export const PDF_HERO_REF = "hero";
@@ -61,11 +61,8 @@ export function createInitialPortfolioPdfSelection(item: PortfolioCase): string[
   return selected;
 }
 
-export function getPortfolioPdfCases(data: ContentData): PortfolioCase[] {
-  return [
-    ...getPublishedCases(data.cases, data, { business: "branding" }),
-    ...getPublishedCases(data.cases, data, { business: "photography" }),
-  ].filter((item) => item.includeInPortfolioPdf);
+export function getPortfolioPdfCases(data: ContentData, business: Business): PortfolioCase[] {
+  return getPublishedCases(data.cases, data, { business }).filter((item) => item.includeInPortfolioPdf);
 }
 
 export function assertPdfConfiguration(data: ContentData) {

@@ -90,7 +90,35 @@ async function render(route, filename) {
     if (!document.querySelector("[data-pdf-ready='true']")) throw new Error("PDF 页面未完成渲染");
   });
   if (browserErrors.length) throw new Error(`PDF 页面运行错误 ${route}：${browserErrors.join(" | ")}`);
-  await page.pdf({ path: filename, format: "A4", printBackground: true, preferCSSPageSize: true, displayHeaderFooter: false, tagged: true, outline: true });
+  const isLongCase = route.startsWith("/print/case/");
+  const longPageHeight = isLongCase ? await page.evaluate(() => {
+    const documentRoot = document.querySelector("[data-pdf-ready='true']");
+    if (!documentRoot) throw new Error("PDF 长页根节点不存在");
+    return Math.ceil(Math.max(
+      documentRoot.scrollHeight,
+      documentRoot.getBoundingClientRect().height,
+    ) + 2);
+  }) : 0;
+  if (isLongCase) {
+    const longPageHeightMm = (longPageHeight * 25.4 / 96).toFixed(3);
+    await page.addStyleTag({ content: `@page { size: 210mm ${longPageHeightMm}mm; margin: 0; }` });
+  }
+  await page.pdf(isLongCase ? {
+    path: filename,
+    printBackground: true,
+    preferCSSPageSize: true,
+    displayHeaderFooter: false,
+    tagged: true,
+    outline: true,
+  } : {
+    path: filename,
+    format: "A4",
+    printBackground: true,
+    preferCSSPageSize: true,
+    displayHeaderFooter: false,
+    tagged: true,
+    outline: true,
+  });
   await page.close();
   const info = await stat(filename);
   if (info.size < 10_000) throw new Error(`PDF 输出异常（文件过小）：${filename}`);
@@ -98,11 +126,12 @@ async function render(route, filename) {
 }
 
 try {
-  await render("/print/portfolio/", path.join(outputDirectory, "portfolio.pdf"));
+  await render("/print/portfolio/design/", path.join(outputDirectory, "portfolio-design.pdf"));
+  await render("/print/portfolio/photography/", path.join(outputDirectory, "portfolio-photography.pdf"));
   for (const item of publishedCases) await render(`/print/case/${item.id.toLowerCase()}/`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
 } finally {
   await browser.close();
   await new Promise((resolve) => server.close(resolve));
 }
 
-console.log(`Generated ${publishedCases.length + 1} professional PDF casebooks.`);
+console.log(`Generated ${publishedCases.length + 2} professional PDF casebooks.`);
