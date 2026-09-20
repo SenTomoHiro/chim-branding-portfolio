@@ -12053,6 +12053,639 @@
         "ip"
       ],
       "primaryIndustry": "茶饮联名"
+    },
+    {
+      "id": "N026",
+      "name": "JUJUS",
+      "intro": "以蓝粉配色与波浪字标构建品牌视觉，延展至菜单、包装与工作服。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品",
+      "cover": "/media/cases/N026/01-cover.webp",
+      "coverWidth": 1344,
+      "coverHeight": 1800,
+      "hero": "/media/cases/N026/02-hero.webp",
+      "coverProvenance": {
+        "assetId": "N026-A01",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 1,
+        "sourceObject": "xref:16;smask:16",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1344,
+        "height": 1800,
+        "sha256": "491206bab160ded1f91c29183eab4db4a304bafafffd13d92e798b6226842ad3",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "heroProvenance": {
+        "assetId": "N026-A02",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 2,
+        "sourceObject": "xref:20;smask:20",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1650,
+        "sha256": "ed4f4cb255748fb01d591ce2fe2bc5beb9beebadfa97142085389f28f927aefb",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "bodyAssets": [
+        {
+          "id": "N026-A03",
+          "type": "image",
+          "src": "/media/cases/N026/03-brand-system.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "品牌识别系统",
+            "description": "字标、字体、色彩与基础版式。"
+          },
+          "provenance": {
+            "assetId": "N026-A03",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 6,
+            "sourceObject": "xref:38;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2200,
+            "height": 1682,
+            "sha256": "c289c6b39fec4d364b2902b4419a06ec0b419b517fbd877f1588c6b09f12f709",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N026-A04",
+          "type": "image",
+          "src": "/media/cases/N026/04-menu-poster.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "菜单与包装",
+            "description": "品牌视觉在菜单与外带包装中的应用。"
+          },
+          "provenance": {
+            "assetId": "N026-A04",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 1,
+            "sourceObject": "xref:16;smask:16",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1941,
+            "height": 2600,
+            "sha256": "22b5eeb0f675298e5c659a2fe07e429b3a3132f233589e64fe53e676ba16ef0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N026-A05",
+          "type": "image",
+          "src": "/media/cases/N026/05-menu-foldout.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N026-A05",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 3,
+            "sourceObject": "xref:24;smask:24",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2200,
+            "height": 1446,
+            "sha256": "43e60e514f057bc8786789018404154f419c588f78bd5ab73ad55ce51aa0d5ec",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N026-A06",
+          "type": "image",
+          "src": "/media/cases/N026/06-paper-bag.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N026-A06",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 3,
+            "sourceObject": "xref:25;smask:25",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2200,
+            "height": 1466,
+            "sha256": "fcf10a2a36e15c58e4a263eba1f08accaa6af44472a6389dd7bfd7a126695110",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N026-A07",
+          "type": "image",
+          "src": "/media/cases/N026/07-apron.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "工作服与服务形象",
+            "description": "围裙与工作服延续统一的蓝粉视觉。"
+          },
+          "provenance": {
+            "assetId": "N026-A07",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 4,
+            "sourceObject": "xref:29;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2080,
+            "height": 2600,
+            "sha256": "a9463132d31ac6b2b51c9d55dd55e958b023d0d4a8f8241ee508e606c54e285a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N026-A08",
+          "type": "image",
+          "src": "/media/cases/N026/08-uniform.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N026-A08",
+            "sourceType": "pdf",
+            "sourcePdf": "240703-jujus第一批.pdf",
+            "sourcePage": 5,
+            "sourceObject": "xref:33;smask:33",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2200,
+            "height": 1446,
+            "sha256": "863be2ead6f6a99abb1bdba975ac34ff55e095ab7ef8fcf9ce868dfa863f5095",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N027",
+      "name": "瑞瀚心理",
+      "intro": "心理咨询品牌视觉更新，涵盖识别系统、数字平台、空间传播与品牌物料。",
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "心理咨询",
+      "cover": "/media/cases/N027/01-cover.webp",
+      "coverWidth": 1086,
+      "coverHeight": 1448,
+      "hero": "/media/cases/N027/02-hero.webp",
+      "coverProvenance": {
+        "assetId": "N027-A01",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 8,
+        "sourceObject": "xref:85;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "04e4794a751982194324ec707dbe87746b1eb1951481a81a7ae697718e701107",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "heroProvenance": {
+        "assetId": "N027-A02",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 5,
+        "sourceObject": "xref:47;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4b4f2a4e9e53ad4a55d1d25a4a01659104e2985a7abdded3dfc643e4317b9e08",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "bodyAssets": [
+        {
+          "id": "N027-A03",
+          "type": "image",
+          "src": "/media/cases/N027/03-brand-system.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "识别与色彩",
+            "description": "以蓝色识别、辅助色与水面意象建立品牌基调。"
+          },
+          "provenance": {
+            "assetId": "N027-A03",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 3,
+            "sourceObject": "page-render",
+            "extractionMethod": "pdf_page_render_for_design_system",
+            "width": 1238,
+            "height": 2200,
+            "sha256": "ca6d9d94fcdd9c16eee32c8a366ef4d6bba13d2329b4ce329afd983956486868",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A04",
+          "type": "image",
+          "src": "/media/cases/N027/04-digital-platform.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "数字平台",
+            "description": "面向线上咨询入口的品牌界面呈现。"
+          },
+          "provenance": {
+            "assetId": "N027-A04",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 4,
+            "sourceObject": "xref:43;smask:43",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2200,
+            "height": 1467,
+            "sha256": "302389eca38d9d53521c63e68ce69f626451830f56d4063f527f0a7b7a37c0ef",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A05",
+          "type": "image",
+          "src": "/media/cases/N027/05-reception.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "空间与传播",
+            "description": "门店前台、服务海报与空间传播应用。"
+          },
+          "provenance": {
+            "assetId": "N027-A05",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 5,
+            "sourceObject": "xref:48;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1254,
+            "height": 1254,
+            "sha256": "c25e875546ec69872aa4c08cc2c9916b1c3036700df91b9124da74ea6582f168",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A06",
+          "type": "image",
+          "src": "/media/cases/N027/06-service-posters.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N027-A06",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 6,
+            "sourceObject": "xref:52;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1086,
+            "height": 1448,
+            "sha256": "46ffbdc1adb0af86785fca426a050c388b476970bdf3ad4165bfe9844830249c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A07",
+          "type": "image",
+          "src": "/media/cases/N027/07-campaign-posters.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N027-A07",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 7,
+            "sourceObject": "xref:73;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1086,
+            "height": 1448,
+            "sha256": "7e7792350d9624f9876e075696348905370be3fbc560708243820540c3cb7f49",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A08",
+          "type": "image",
+          "src": "/media/cases/N027/08-door-sign.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "品牌物料",
+            "description": "门牌、手提袋、纸杯与印刷物料。"
+          },
+          "provenance": {
+            "assetId": "N027-A08",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 8,
+            "sourceObject": "xref:84;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1448,
+            "height": 1086,
+            "sha256": "2e25da7e64db9d165ccf13d5c4dc89e25edfd0f543c927041d8bc7b3697b8027",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A09",
+          "type": "image",
+          "src": "/media/cases/N027/09-brand-items.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N027-A09",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 8,
+            "sourceObject": "xref:85;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1086,
+            "height": 1448,
+            "sha256": "075e3227bfaff7645395baf6c11ee4b6576043e8789b4c9c491db01971d3feba",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N027-A10",
+          "type": "image",
+          "src": "/media/cases/N027/10-stationery.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N027-A10",
+            "sourceType": "pdf",
+            "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+            "sourcePage": 8,
+            "sourceObject": "xref:86;smask:0",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 1086,
+            "height": 1448,
+            "sha256": "e76ff2257a88f134ba64e26966c96b546fd64dfd5340f5f5854d3add1023b24e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "N028",
+      "name": "阿泰珍奶",
+      "intro": "围绕古法泰茶建立品牌视觉，并延展至门店招牌、手提袋、海报与线上视觉。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "泰式奶茶",
+      "cover": "/media/cases/N028/01-cover.webp",
+      "coverWidth": 1200,
+      "coverHeight": 1800,
+      "hero": "/media/cases/N028/02-hero.webp",
+      "coverProvenance": {
+        "assetId": "N028-A01",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 1200,
+        "height": 1800,
+        "sha256": "9a33a38c2b1c7502ac27e2598731b02e6458e130cb5cfd8a71002cb6d1827790",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "heroProvenance": {
+        "assetId": "N028-A02",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 10,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 1240,
+        "sha256": "6ff538cc6020f75ad10b08d406afab35a04373f85fc55006623dac5667d95b7e",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "bodyAssets": [
+        {
+          "id": "N028-A03",
+          "type": "image",
+          "src": "/media/cases/N028/03-initial-direction.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "初期品牌方向",
+            "description": "从早期字标、图形与门店应用方向开始建立识别基础。"
+          },
+          "provenance": {
+            "assetId": "N028-A03",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250501-阿泰珍奶-初步/250501-阿财珍奶-初步-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "illustrator_30_artboard_export_curated_crop",
+            "width": 1309,
+            "height": 1990,
+            "sha256": "3cbe171fed7b0e1740b28259d88556d11d8db9fd598ea3882666e5f3b0fc4410",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A04",
+          "type": "image",
+          "src": "/media/cases/N028/04-storefront-primary.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "门店与招牌",
+            "description": "以深红、木色与双语字标形成线下门店识别。"
+          },
+          "provenance": {
+            "assetId": "N028-A04",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 2200,
+            "height": 562,
+            "sha256": "ee6519a0e93efbe3a6f63552342b22bb87bb8867309b43a60bf123e90041915e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A05",
+          "type": "image",
+          "src": "/media/cases/N028/05-storefront-secondary.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N028-A05",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 2200,
+            "height": 562,
+            "sha256": "8bbac9a99b823fa230103ba9d77c8630a29eacdc9b72fab6479bc854e2b140d1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A06",
+          "type": "image",
+          "src": "/media/cases/N028/06-bag-flat-design.webp",
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "包装与手提袋",
+            "description": "手提袋正反面与不同容量规格的统一设计。"
+          },
+          "provenance": {
+            "assetId": "N028-A06",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250621-阿泰珍奶-手提袋重做/250621-阿泰珍奶-手提袋重做.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "illustrator_30_artboard_export_curated_crop",
+            "width": 2200,
+            "height": 605,
+            "sha256": "c9a178617cb5d81548575854ca76b63dffdb5f8e1996f9fc79fae2a31fbb645b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A07",
+          "type": "image",
+          "src": "/media/cases/N028/07-poster-primary.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "宣传海报",
+            "description": "以泰式街头茶摊与蓝黄红色彩构成主视觉。"
+          },
+          "provenance": {
+            "assetId": "N028-A07",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 1733,
+            "height": 2600,
+            "sha256": "51bf07c6e49433828e340e8ac21e238f0960e43ac546a2da41d4800e99546070",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A08",
+          "type": "image",
+          "src": "/media/cases/N028/08-poster-information.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N028-A08",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 1733,
+            "height": 2600,
+            "sha256": "4d468423e34f4cd480e4ec989079b6b3f44bc9b4dfb763ea5de2d257f07222d4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A09",
+          "type": "image",
+          "src": "/media/cases/N028/09-online-avatar.webp",
+          "layout": "half",
+          "section": {
+            "eyebrow": "",
+            "title": "线上视觉系统",
+            "description": "头像、主视觉、产品图与平台横幅形成连续的线上识别。"
+          },
+          "provenance": {
+            "assetId": "N028-A09",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 1600,
+            "height": 1600,
+            "sha256": "a02f463f7209bf3257f4e3161d647f8f0649035eeca9aaa0045e0fc5c5e33873",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A10",
+          "type": "image",
+          "src": "/media/cases/N028/10-online-key-visual.webp",
+          "layout": "half",
+          "provenance": {
+            "assetId": "N028-A10",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 2200,
+            "height": 1650,
+            "sha256": "f9e4d8b8127ca0c6a28d7391480015ef0b2a11ceebd67e2286261f45e901dd98",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A11",
+          "type": "image",
+          "src": "/media/cases/N028/11-online-product.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N028-A11",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 2200,
+            "height": 1650,
+            "sha256": "1d7373bfcf2922aa784a6c26453f1db0537dad4b42bc243fc9fdc13f781e0414",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N028-A12",
+          "type": "image",
+          "src": "/media/cases/N028/12-online-banner.webp",
+          "layout": "full",
+          "provenance": {
+            "assetId": "N028-A12",
+            "sourceType": "ai",
+            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+            "sourceArtboard": 11,
+            "extractionMethod": "illustrator_30_artboard_export",
+            "width": 2200,
+            "height": 564,
+            "sha256": "79479d68d8388f6cb3f5648e7d93649e2089cc38fe71e0fff38b6137d4d48898",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true
     }
   ],
   "defaultOrder": [
@@ -12097,7 +12730,10 @@
     "N022",
     "N023",
     "N024",
-    "N025"
+    "N025",
+    "N026",
+    "N027",
+    "N028"
   ],
   "photographyCaseOrder": [
     "L021",

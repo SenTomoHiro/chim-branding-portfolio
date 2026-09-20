@@ -10,7 +10,7 @@ const shortTitle = byId("N003");
 const mixedTitle = byId("N005");
 const first = byId("N024");
 const second = byId("N025");
-const third = byId("N013");
+const third = byId("N026");
 test.setTimeout(180_000);
 
 async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: number; height: number }) {
@@ -90,8 +90,8 @@ test("Next Case updates the close anchor for A to B and A to B to C", async ({ p
   anchorTop = await openFromDrinks(page, first);
   await followNext(page, second);
   await followNext(page, third);
-  await closeToCase(page, "/food", third, anchorTop);
-  await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(0);
+  await closeToCase(page, "/drinks", third, anchorTop);
+  await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(1);
 });
 
 test("browser Back traverses Next Case history once and then restores the list", async ({ page }) => {

@@ -18,5 +18,5 @@ export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
     router.replace(fallback);
   }
 
-  return <button className="detailFloatingButton detailClose" type="button" onClick={close} aria-label="返回案例列表"><span aria-hidden="true">×</span></button>;
+  return <button className="floatingButton detailClose" type="button" onClick={close} aria-label="返回案例列表"><span aria-hidden="true">×</span></button>;
 }

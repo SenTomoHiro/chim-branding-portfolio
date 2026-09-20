@@ -80,6 +80,35 @@ test("mobile, tablet and desktop layouts have no overflow and use responsive mas
   }
 });
 
+test("case lists keep the shared sticky header and Back To Top without changing filters or history", async ({ page }) => {
+  for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 430, height: 932 }]) {
+    await page.setViewportSize(viewport);
+    await page.goto("/drinks");
+    const beforeUrl = page.url();
+    const historyLength = await page.evaluate(() => history.length);
+    await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
+    const header = await page.locator(".siteHeader").evaluate((element) => ({ position: getComputedStyle(element).position, top: element.getBoundingClientRect().top, zIndex: getComputedStyle(element).zIndex }));
+    expect(header.position).toBe("sticky");
+    expect(Math.abs(header.top)).toBeLessThanOrEqual(1);
+    expect(header.zIndex).toBe("20");
+
+    const backToTop = page.getByRole("button", { name: "返回顶部" });
+    await expect(backToTop).toBeVisible();
+    const control = await backToTop.evaluate((button) => {
+      const chevron = button.querySelector<HTMLElement>(".chevronUp")!;
+      const style = getComputedStyle(button); const iconStyle = getComputedStyle(chevron); const box = button.getBoundingClientRect();
+      return { position: style.position, zIndex: style.zIndex, width: box.width, height: box.height, text: button.textContent, borderTop: iconStyle.borderTopWidth, borderLeft: iconStyle.borderLeftWidth };
+    });
+    expect(control).toMatchObject({ position: "fixed", zIndex: "30", width: 44, height: 44, text: "", borderTop: "1px", borderLeft: "1px" });
+    await backToTop.click(); await backToTop.click();
+    await expect.poll(() => page.evaluate(() => scrollY)).toBeLessThanOrEqual(1);
+    expect(page.url()).toBe(beforeUrl);
+    expect(await page.evaluate(() => history.length)).toBe(historyLength);
+    await expect(page.locator('.categoryNav a[href="/drinks"]')).toHaveClass(/active/);
+    await expectNoHorizontalOverflow(page);
+  }
+});
+
 async function expectStickyHeader(page: Page) {
   await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
   for (const progress of [0.25, 0.5, 0.9]) {
@@ -137,6 +166,7 @@ test("detail titles and floating controls remain usable across viewports", async
 
     const backToTop = page.getByRole("button", { name: "返回顶部" });
     await expect(backToTop).toBeVisible();
+    await expect(backToTop.locator(".chevronUp")).toHaveCount(1);
     const controlLayout = await backToTop.evaluate((button) => {
       const style = getComputedStyle(button); const box = button.getBoundingClientRect();
       return { position: style.position, zIndex: style.zIndex, width: box.width, height: box.height, right: innerWidth - box.right, bottom: innerHeight - box.bottom };

@@ -3,7 +3,7 @@
 html { scroll-behavior:smooth; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif; font-size:16px; }
 a { color:inherit; text-decoration:none; }
-.siteHeader { min-height:110px; padding:18px var(--pad); display:flex; align-items:center; justify-content:space-between; gap:36px; border-bottom:1px solid var(--line); position:relative; z-index:5; animation:headerReveal var(--motion-medium) var(--motion-ease) both; }
+.siteHeader { min-height:110px; padding:18px var(--pad); display:flex; align-items:center; justify-content:space-between; gap:36px; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:20; background:rgba(244,243,239,.98); backdrop-filter:blur(10px); animation:headerReveal var(--motion-medium) var(--motion-ease) both; }
 .wordmark { font-size:1.35rem; font-weight:800; letter-spacing:-.06em; }
 .wordmark span { font-size:.55rem; vertical-align:top; margin-left:2px; }
 .headerActions,.siteNavigation { min-width:0; display:grid; justify-items:end; }
@@ -16,15 +16,15 @@ a { color:inherit; text-decoration:none; }
 .categoryNav { padding-top:12px; border-top:1px solid var(--line); }
 .categoryNav a strong { font-size:.75rem !important; }
 .categoryNav a span { font-size:.5rem !important; }
-.detailHeader { position:sticky; top:0; z-index:20; background:rgba(244,243,239,.98); }
-.detailFloatingButton { z-index:30; width:44px; height:44px; display:grid; place-items:center; border:1px solid rgba(11,11,11,.12); background:rgba(244,243,239,.82); backdrop-filter:blur(8px); color:var(--ink); opacity:1; transition:opacity 200ms ease-out; cursor:pointer; }
+.floatingButton { z-index:30; width:44px; height:44px; display:grid; place-items:center; border:1px solid rgba(11,11,11,.12); background:rgba(244,243,239,.82); backdrop-filter:blur(8px); color:var(--ink); opacity:1; transition:opacity 200ms ease-out,background var(--motion-fast); cursor:pointer; }
+.floatingButton:hover { background:rgba(244,243,239,.96); }
 .detailClose { position:absolute; top:calc(100% + var(--detail-floating-inline-spacing) + 1px); right:var(--detail-floating-inline-spacing); }
-.detailBackToTop { position:fixed; right:var(--detail-floating-inline-spacing); bottom:var(--detail-floating-block-spacing); }
-html:active-view-transition .detailFloatingButton { opacity:0; transition:none; pointer-events:none; }
+.backToTop { position:fixed; right:var(--detail-floating-inline-spacing); bottom:var(--detail-floating-block-spacing); }
+html:active-view-transition .floatingButton { opacity:0; transition:none; pointer-events:none; }
 .detailClose span { font-size:2rem; line-height:1; font-weight:300; transform:translateY(-1px); }
 .detailClose:hover span { transform:translateY(-1px) rotate(90deg); transition:transform var(--motion-fast) var(--motion-ease); }
-.detailBackToTop span { font-size:1.6rem; line-height:1; font-weight:300; transform:translateY(1px); }
-.detailBackToTop:hover span { transform:translateY(-2px); transition:transform var(--motion-fast) var(--motion-ease); }
+.chevronUp { width:11px; height:11px; border-top:1.5px solid currentColor; border-left:1.5px solid currentColor; transform:translateY(3px) rotate(45deg); transition:transform var(--motion-fast) var(--motion-ease); }
+.backToTop:hover .chevronUp { transform:translateY(0) rotate(45deg); }
 .indexIntro { min-height:29vh; padding:clamp(28px,4.5vw,68px) var(--pad) 24px; display:grid; grid-template-columns:1fr 3fr auto; align-items:end; border-bottom:1px solid var(--line); }
 .indexIntro p,.projectCount { margin:0; font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; }
 .titleGroup { min-width:0; }
@@ -241,4 +241,4 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .unsectionedHeader { align-items:flex-start; flex-direction:column; }
   .chapterGroup>.bodyAssetList { padding:0 12px; }
 }
-@media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.siteHeader,.indexIntro h1 span,.titleChinese,.introEyebrow,.projectCount,.workHero,.workHero img,.workIntro h1,.workIntro>p,.workIntro div>p{animation:none}.caseCard,.revealMedia{opacity:1;transform:none;clip-path:none;transition:none}.caseImage img,.caseMeta h2,.caseMeta p,.detailFloatingButton{transition:none}html:active-view-transition .detailFloatingButton{opacity:1;pointer-events:auto}::view-transition-group(.case-morph){animation-duration:.01ms} }
+@media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.siteHeader,.indexIntro h1 span,.titleChinese,.introEyebrow,.projectCount,.workHero,.workHero img,.workIntro h1,.workIntro>p,.workIntro div>p{animation:none}.caseCard,.revealMedia{opacity:1;transform:none;clip-path:none;transition:none}.caseImage img,.caseMeta h2,.caseMeta p,.floatingButton,.chevronUp{transition:none}html:active-view-transition .floatingButton{opacity:1;pointer-events:auto}::view-transition-group(.case-morph){animation-duration:.01ms} }

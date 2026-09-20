@@ -1,0 +1,678 @@
+{
+  "generatedAt": "2026-09-20T06:09:36.114Z",
+  "cases": [
+    {
+      "id": "N026",
+      "name": "JUJUS",
+      "chapterCount": 3,
+      "bodyImageCount": 6,
+      "distinctDisplayImageCount": 7,
+      "sourceFiles": [
+        "/Users/chim/Downloads/jujus/240703-jujus第一批.pdf"
+      ]
+    },
+    {
+      "id": "N027",
+      "name": "瑞瀚心理",
+      "chapterCount": 4,
+      "bodyImageCount": 8,
+      "distinctDisplayImageCount": 9,
+      "sourceFiles": [
+        "/Users/chim/Desktop/平面设计/260823-瑞瀚心理咨询/2608-瑞瀚-方案预览.pdf"
+      ]
+    },
+    {
+      "id": "N028",
+      "name": "阿泰珍奶",
+      "chapterCount": 5,
+      "bodyImageCount": 10,
+      "distinctDisplayImageCount": 11,
+      "sourceFiles": [
+        "/Users/chim/Downloads/阿泰珍奶/250501-阿泰珍奶-初步/250501-阿财珍奶-初步-改1.ai",
+        "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+        "/Users/chim/Downloads/阿泰珍奶/250621-阿泰珍奶-手提袋重做/250621-阿泰珍奶-手提袋重做.ai",
+        "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+        "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai"
+      ]
+    }
+  ],
+  "pdfExtraction": {
+    "JUJUS": {
+      "pages": 6,
+      "embeddedPrimaryImages": 8,
+      "selectedSourceObjects": 7
+    },
+    "ruihan": {
+      "pages": 8,
+      "embeddedPrimaryImages": 24,
+      "selectedEmbeddedObjects": 8,
+      "selectedPageRenders": 1
+    }
+  },
+  "atmosphereImagesRemoved": {
+    "total": 14,
+    "ruihan": 14,
+    "jujus": 0,
+    "types": [
+      "海景",
+      "室内静物",
+      "人物肖像",
+      "亲子生活方式",
+      "户外人物摄影"
+    ]
+  },
+  "mockupsKept": {
+    "total": 17,
+    "jujus": 6,
+    "ruihan": 8,
+    "atai": 3
+  },
+  "illustrator": {
+    "application": "Adobe Illustrator",
+    "version": "30.0.0",
+    "sourceFilesOverwritten": 0,
+    "exportedArtboards": 49,
+    "missingLinkedAssets": 0,
+    "finalSelectedArtboardsOrCrops": 11
+  },
+  "ataiNamingDecision": "250501-阿财珍奶-初步-改1.ai 是阿泰珍奶的早期品牌方向，归入阿泰珍奶案例。",
+  "exclusions": [
+    "纯氛围背景摄影",
+    "重复嵌入与同图不同尺寸",
+    "占位文案版本",
+    "同视觉早期版本",
+    "红色内部标注区域",
+    "刀模、尺寸与印刷生产信息",
+    "空白或无展示价值画板"
+  ],
+  "assets": [
+    {
+      "role": "cover",
+      "src": "/media/cases/N026/01-cover.webp",
+      "width": 1344,
+      "height": 1800,
+      "provenance": {
+        "assetId": "N026-A01",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 1,
+        "sourceObject": "xref:16;smask:16",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1344,
+        "height": 1800,
+        "sha256": "491206bab160ded1f91c29183eab4db4a304bafafffd13d92e798b6226842ad3",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-000.png"
+    },
+    {
+      "role": "hero",
+      "src": "/media/cases/N026/02-hero.webp",
+      "width": 2200,
+      "height": 1650,
+      "provenance": {
+        "assetId": "N026-A02",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 2,
+        "sourceObject": "xref:20;smask:20",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1650,
+        "sha256": "ed4f4cb255748fb01d591ce2fe2bc5beb9beebadfa97142085389f28f927aefb",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-002.png"
+    },
+    {
+      "role": "brand-system",
+      "src": "/media/cases/N026/03-brand-system.webp",
+      "width": 2200,
+      "height": 1682,
+      "provenance": {
+        "assetId": "N026-A03",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 6,
+        "sourceObject": "xref:38;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1682,
+        "sha256": "c289c6b39fec4d364b2902b4419a06ec0b419b517fbd877f1588c6b09f12f709",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-013.png"
+    },
+    {
+      "role": "menu-poster",
+      "src": "/media/cases/N026/04-menu-poster.webp",
+      "width": 1941,
+      "height": 2600,
+      "provenance": {
+        "assetId": "N026-A04",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 1,
+        "sourceObject": "xref:16;smask:16",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1941,
+        "height": 2600,
+        "sha256": "22b5eeb0f675298e5c659a2fe07e429b3a3132f233589e64fe53e676ba16ef0b",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-000.png"
+    },
+    {
+      "role": "menu-foldout",
+      "src": "/media/cases/N026/05-menu-foldout.webp",
+      "width": 2200,
+      "height": 1446,
+      "provenance": {
+        "assetId": "N026-A05",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 3,
+        "sourceObject": "xref:24;smask:24",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1446,
+        "sha256": "43e60e514f057bc8786789018404154f419c588f78bd5ab73ad55ce51aa0d5ec",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-004.png"
+    },
+    {
+      "role": "paper-bag",
+      "src": "/media/cases/N026/06-paper-bag.webp",
+      "width": 2200,
+      "height": 1466,
+      "provenance": {
+        "assetId": "N026-A06",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 3,
+        "sourceObject": "xref:25;smask:25",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1466,
+        "sha256": "fcf10a2a36e15c58e4a263eba1f08accaa6af44472a6389dd7bfd7a126695110",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-006.png"
+    },
+    {
+      "role": "apron",
+      "src": "/media/cases/N026/07-apron.webp",
+      "width": 2080,
+      "height": 2600,
+      "provenance": {
+        "assetId": "N026-A07",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 4,
+        "sourceObject": "xref:29;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2080,
+        "height": 2600,
+        "sha256": "a9463132d31ac6b2b51c9d55dd55e958b023d0d4a8f8241ee508e606c54e285a",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-008.png"
+    },
+    {
+      "role": "uniform",
+      "src": "/media/cases/N026/08-uniform.webp",
+      "width": 2200,
+      "height": 1446,
+      "provenance": {
+        "assetId": "N026-A08",
+        "sourceType": "pdf",
+        "sourcePdf": "240703-jujus第一批.pdf",
+        "sourcePage": 5,
+        "sourceObject": "xref:33;smask:33",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1446,
+        "sha256": "863be2ead6f6a99abb1bdba975ac34ff55e095ab7ef8fcf9ce868dfa863f5095",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/jujus/img-009.png"
+    },
+    {
+      "role": "cover",
+      "src": "/media/cases/N027/01-cover.webp",
+      "width": 1086,
+      "height": 1448,
+      "provenance": {
+        "assetId": "N027-A01",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 8,
+        "sourceObject": "xref:85;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "04e4794a751982194324ec707dbe87746b1eb1951481a81a7ae697718e701107",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-026.png"
+    },
+    {
+      "role": "hero",
+      "src": "/media/cases/N027/02-hero.webp",
+      "width": 1254,
+      "height": 1254,
+      "provenance": {
+        "assetId": "N027-A02",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 5,
+        "sourceObject": "xref:47;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1254,
+        "height": 1254,
+        "sha256": "4b4f2a4e9e53ad4a55d1d25a4a01659104e2985a7abdded3dfc643e4317b9e08",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-017.png"
+    },
+    {
+      "role": "brand-system",
+      "src": "/media/cases/N027/03-brand-system.webp",
+      "width": 1238,
+      "height": 2200,
+      "provenance": {
+        "assetId": "N027-A03",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 3,
+        "sourceObject": "page-render",
+        "extractionMethod": "pdf_page_render_for_design_system",
+        "width": 1238,
+        "height": 2200,
+        "sha256": "ca6d9d94fcdd9c16eee32c8a366ef4d6bba13d2329b4ce329afd983956486868",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan-page3.jpg"
+    },
+    {
+      "role": "digital-platform",
+      "src": "/media/cases/N027/04-digital-platform.webp",
+      "width": 2200,
+      "height": 1467,
+      "provenance": {
+        "assetId": "N027-A04",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 4,
+        "sourceObject": "xref:43;smask:43",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 2200,
+        "height": 1467,
+        "sha256": "302389eca38d9d53521c63e68ce69f626451830f56d4063f527f0a7b7a37c0ef",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-015.png"
+    },
+    {
+      "role": "reception",
+      "src": "/media/cases/N027/05-reception.webp",
+      "width": 1254,
+      "height": 1254,
+      "provenance": {
+        "assetId": "N027-A05",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 5,
+        "sourceObject": "xref:48;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1254,
+        "height": 1254,
+        "sha256": "c25e875546ec69872aa4c08cc2c9916b1c3036700df91b9124da74ea6582f168",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-018.png"
+    },
+    {
+      "role": "service-posters",
+      "src": "/media/cases/N027/06-service-posters.webp",
+      "width": 1086,
+      "height": 1448,
+      "provenance": {
+        "assetId": "N027-A06",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 6,
+        "sourceObject": "xref:52;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "46ffbdc1adb0af86785fca426a050c388b476970bdf3ad4165bfe9844830249c",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-019.png"
+    },
+    {
+      "role": "campaign-posters",
+      "src": "/media/cases/N027/07-campaign-posters.webp",
+      "width": 1086,
+      "height": 1448,
+      "provenance": {
+        "assetId": "N027-A07",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 7,
+        "sourceObject": "xref:73;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "7e7792350d9624f9876e075696348905370be3fbc560708243820540c3cb7f49",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-020.png"
+    },
+    {
+      "role": "door-sign",
+      "src": "/media/cases/N027/08-door-sign.webp",
+      "width": 1448,
+      "height": 1086,
+      "provenance": {
+        "assetId": "N027-A08",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 8,
+        "sourceObject": "xref:84;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1448,
+        "height": 1086,
+        "sha256": "2e25da7e64db9d165ccf13d5c4dc89e25edfd0f543c927041d8bc7b3697b8027",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-025.png"
+    },
+    {
+      "role": "brand-items",
+      "src": "/media/cases/N027/09-brand-items.webp",
+      "width": 1086,
+      "height": 1448,
+      "provenance": {
+        "assetId": "N027-A09",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 8,
+        "sourceObject": "xref:85;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "075e3227bfaff7645395baf6c11ee4b6576043e8789b4c9c491db01971d3feba",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-026.png"
+    },
+    {
+      "role": "stationery",
+      "src": "/media/cases/N027/10-stationery.webp",
+      "width": 1086,
+      "height": 1448,
+      "provenance": {
+        "assetId": "N027-A10",
+        "sourceType": "pdf",
+        "sourcePdf": "2608-瑞瀚-方案预览.pdf",
+        "sourcePage": 8,
+        "sourceObject": "xref:86;smask:0",
+        "extractionMethod": "pdf_embedded_image_object",
+        "width": 1086,
+        "height": 1448,
+        "sha256": "e76ff2257a88f134ba64e26966c96b546fd64dfd5340f5f5854d3add1023b24e",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/pdfs/ruihan/img-027.png"
+    },
+    {
+      "role": "cover",
+      "src": "/media/cases/N028/01-cover.webp",
+      "width": 1200,
+      "height": 1800,
+      "provenance": {
+        "assetId": "N028-A01",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 1200,
+        "height": 1800,
+        "sha256": "9a33a38c2b1c7502ac27e2598731b02e6458e130cb5cfd8a71002cb6d1827790",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/poster-copy-20250627-folder/artboard-1.jpg"
+    },
+    {
+      "role": "hero",
+      "src": "/media/cases/N028/02-hero.webp",
+      "width": 2200,
+      "height": 1240,
+      "provenance": {
+        "assetId": "N028-A02",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 10,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 1240,
+        "sha256": "6ff538cc6020f75ad10b08d406afab35a04373f85fc55006623dac5667d95b7e",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/online-final-artboard-10.jpg"
+    },
+    {
+      "role": "initial-direction",
+      "src": "/media/cases/N028/03-initial-direction.webp",
+      "width": 1309,
+      "height": 1990,
+      "provenance": {
+        "assetId": "N028-A03",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250501-阿泰珍奶-初步/250501-阿财珍奶-初步-改1.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export_curated_crop",
+        "width": 1309,
+        "height": 1990,
+        "sha256": "3cbe171fed7b0e1740b28259d88556d11d8db9fd598ea3882666e5f3b0fc4410",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/initial-artboard-1.jpg"
+    },
+    {
+      "role": "storefront-primary",
+      "src": "/media/cases/N028/04-storefront-primary.webp",
+      "width": 2200,
+      "height": 562,
+      "provenance": {
+        "assetId": "N028-A04",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 562,
+        "sha256": "ee6519a0e93efbe3a6f63552342b22bb87bb8867309b43a60bf123e90041915e",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/storefront-20250508/artboard-1.jpg"
+    },
+    {
+      "role": "storefront-secondary",
+      "src": "/media/cases/N028/05-storefront-secondary.webp",
+      "width": 2200,
+      "height": 562,
+      "provenance": {
+        "assetId": "N028-A05",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+        "sourceArtboard": 2,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 562,
+        "sha256": "8bbac9a99b823fa230103ba9d77c8630a29eacdc9b72fab6479bc854e2b140d1",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/storefront-20250508/artboard-2.jpg"
+    },
+    {
+      "role": "bag-flat-design",
+      "src": "/media/cases/N028/06-bag-flat-design.webp",
+      "width": 2200,
+      "height": 605,
+      "provenance": {
+        "assetId": "N028-A06",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250621-阿泰珍奶-手提袋重做/250621-阿泰珍奶-手提袋重做.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export_curated_crop",
+        "width": 2200,
+        "height": 605,
+        "sha256": "c9a178617cb5d81548575854ca76b63dffdb5f8e1996f9fc79fae2a31fbb645b",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/bag-20250621/artboard-1.jpg"
+    },
+    {
+      "role": "poster-primary",
+      "src": "/media/cases/N028/07-poster-primary.webp",
+      "width": 1733,
+      "height": 2600,
+      "provenance": {
+        "assetId": "N028-A07",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 1733,
+        "height": 2600,
+        "sha256": "51bf07c6e49433828e340e8ac21e238f0960e43ac546a2da41d4800e99546070",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/poster-copy-20250627-folder/artboard-1.jpg"
+    },
+    {
+      "role": "poster-information",
+      "src": "/media/cases/N028/08-poster-information.webp",
+      "width": 1733,
+      "height": 2600,
+      "provenance": {
+        "assetId": "N028-A08",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250627-阿泰珍奶-海报-改1-改文案.ai",
+        "sourceArtboard": 2,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 1733,
+        "height": 2600,
+        "sha256": "4d468423e34f4cd480e4ec989079b6b3f44bc9b4dfb763ea5de2d257f07222d4",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/exports/poster-copy-20250627-folder/artboard-2.jpg"
+    },
+    {
+      "role": "online-avatar",
+      "src": "/media/cases/N028/09-online-avatar.webp",
+      "width": 1600,
+      "height": 1600,
+      "provenance": {
+        "assetId": "N028-A09",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 1,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 1600,
+        "height": 1600,
+        "sha256": "a02f463f7209bf3257f4e3161d647f8f0649035eeca9aaa0045e0fc5c5e33873",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/online-final-artboard-1.jpg"
+    },
+    {
+      "role": "online-key-visual",
+      "src": "/media/cases/N028/10-online-key-visual.webp",
+      "width": 2200,
+      "height": 1650,
+      "provenance": {
+        "assetId": "N028-A10",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 3,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 1650,
+        "sha256": "f9e4d8b8127ca0c6a28d7391480015ef0b2a11ceebd67e2286261f45e901dd98",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/online-final-artboard-3.jpg"
+    },
+    {
+      "role": "online-product",
+      "src": "/media/cases/N028/11-online-product.webp",
+      "width": 2200,
+      "height": 1650,
+      "provenance": {
+        "assetId": "N028-A11",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 4,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 1650,
+        "sha256": "1d7373bfcf2922aa784a6c26453f1db0537dad4b42bc243fc9fdc13f781e0414",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/online-final-artboard-4.jpg"
+    },
+    {
+      "role": "online-banner",
+      "src": "/media/cases/N028/12-online-banner.webp",
+      "width": 2200,
+      "height": 564,
+      "provenance": {
+        "assetId": "N028-A12",
+        "sourceType": "ai",
+        "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250630-阿泰珍奶-线上全套重做&海报/250630-阿泰珍奶-线上全套重做-改文案.ai",
+        "sourceArtboard": 11,
+        "extractionMethod": "illustrator_30_artboard_export",
+        "width": 2200,
+        "height": 564,
+        "sha256": "79479d68d8388f6cb3f5648e7d93649e2089cc38fe71e0fff38b6137d4d48898",
+        "classification": "final_design",
+        "finalWorkVerified": true
+      },
+      "source": "tmp/illustrator/atai-v1/selected-hq/online-final-artboard-11.jpg"
+    }
+  ]
+}
