@@ -48,15 +48,13 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
   return <main className="pdfDocument pdfLongDocument" data-pdf-ready="true">
     <article className="pdfLongCase">
       <header className="pdfLongHero">
+        <div className="pdfLongHeroMeta" data-single-case-edge-meta="true"><b>CHIM®</b><span>Project / {item.id}</span></div>
         <Picture image={hero} mode="contain" />
-        <div className="pdfLongHeroOverlay">
-          <div className="pdfLongBrand"><b>CHIM®</b><span>Project / {item.id}</span></div>
-          <div className="pdfLongHeroCopy">
-            <div><p>{formatCaseMetadata(item, true)}</p><EditorialTitle title={item.name} /></div>
-            <p>{item.intro}</p>
-          </div>
-        </div>
       </header>
+      <section className="pdfLongCaseInfo" data-single-case-info="true">
+        <div><p>{formatCaseMetadata(item, true)}</p><EditorialTitle title={item.name} /></div>
+        <p>{item.intro}</p>
+      </section>
       <div className="pdfLongContent">
         {resolvedGroups.map((group) => <section className={`pdfLongChapter ${group.section ? "" : "isUnsectioned"}`} key={group.id}>
           {group.section && <header><div><p>{group.section.eyebrow}</p><h2>{group.section.title}</h2></div>{group.section.description && <p>{group.section.description}</p>}</header>}

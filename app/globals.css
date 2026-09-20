@@ -280,21 +280,19 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 /* Single-case continuous PDF */
 .pdfLongDocument { width:210mm; min-height:0; margin:0 auto; background:#d7d7d5; }
 .pdfLongCase { width:210mm; overflow:hidden; background:#f4f3ef; box-shadow:0 3mm 14mm rgba(0,0,0,.14); }
-.pdfLongHero { position:relative; display:grid; width:100%; background:#101010; color:#fff; }
-.pdfLongHero>.pdfPicture,.pdfLongHeroOverlay { grid-area:1/1; }
-.pdfLongHero>.pdfPicture { align-self:start; width:100%; height:auto; object-fit:contain; }
-.pdfLongHeroOverlay { position:relative; z-index:2; box-sizing:border-box; min-height:100%; display:flex; flex-direction:column; justify-content:space-between; gap:28mm; padding:10mm; background:linear-gradient(180deg,rgba(0,0,0,.16),transparent 38%,rgba(0,0,0,.68)); }
-.pdfLongBrand { display:flex; justify-content:space-between; align-items:center; font-size:7pt; line-height:1; letter-spacing:.11em; text-transform:uppercase; }
-.pdfLongBrand b { font-size:10pt; letter-spacing:.02em; }
-.pdfLongHeroCopy { display:grid; grid-template-columns:1.15fr 1fr; gap:14mm; align-items:end; padding:8mm; background:rgba(9,9,9,.76); backdrop-filter:blur(4px); }
-.pdfLongHeroCopy>div>p { margin:0 0 4mm; font-size:7pt; line-height:1.4; letter-spacing:.11em; text-transform:uppercase; }
-.pdfLongHeroCopy h1 { margin:0; font-weight:650; text-wrap:balance; }
-.pdfLongHeroCopy .pdfTitlePrimary { font-size:19mm; line-height:1; }
-.pdfLongHeroCopy .pdfTitleSecondary { max-width:92mm; margin-top:3mm; font-size:7mm; line-height:1.18; }
-.pdfLongHeroCopy h1.isCompact .pdfTitlePrimary { font-size:16mm; }
-.pdfLongHeroCopy h1.isDense .pdfTitlePrimary { font-size:13mm; }
-.pdfLongHeroCopy h1.isDense .pdfTitleSecondary { font-size:6mm; }
-.pdfLongHeroCopy>p { margin:0; font-size:9pt; line-height:1.72; text-align:justify; }
+.pdfLongHero { width:100%; background:#f4f3ef; color:#0b0b0b; }
+.pdfLongHeroMeta { box-sizing:border-box; display:flex; justify-content:space-between; align-items:center; min-height:14mm; padding:0 14mm; font-size:6.5pt; line-height:1; letter-spacing:.11em; text-transform:uppercase; }
+.pdfLongHeroMeta b { font-size:9pt; letter-spacing:.02em; }
+.pdfLongHero>.pdfPicture { display:block; width:100%; height:auto; object-fit:contain; }
+.pdfLongCaseInfo { display:grid; grid-template-columns:1.15fr 1fr; gap:14mm; align-items:end; padding:16mm 14mm 18mm; border-bottom:1px solid rgba(0,0,0,.2); }
+.pdfLongCaseInfo>div>p { margin:0 0 4mm; font-size:7pt; line-height:1.4; letter-spacing:.11em; text-transform:uppercase; }
+.pdfLongCaseInfo h1 { margin:0; font-weight:650; text-wrap:balance; overflow-wrap:anywhere; }
+.pdfLongCaseInfo .pdfTitlePrimary { font-size:19mm; line-height:1.02; }
+.pdfLongCaseInfo .pdfTitleSecondary { max-width:92mm; margin-top:3mm; font-size:7mm; line-height:1.2; }
+.pdfLongCaseInfo h1.isCompact .pdfTitlePrimary { font-size:16mm; }
+.pdfLongCaseInfo h1.isDense .pdfTitlePrimary { font-size:13mm; }
+.pdfLongCaseInfo h1.isDense .pdfTitleSecondary { font-size:6mm; }
+.pdfLongCaseInfo>p { margin:0; font-size:9pt; line-height:1.72; text-align:justify; }
 .pdfLongContent { padding:18mm 14mm 24mm; }
 .pdfLongChapter+.pdfLongChapter { margin-top:22mm; padding-top:13mm; border-top:1px solid rgba(0,0,0,.2); }
 .pdfLongChapter>header { display:grid; grid-template-columns:1.25fr 1fr; gap:12mm; align-items:end; margin-bottom:10mm; }
