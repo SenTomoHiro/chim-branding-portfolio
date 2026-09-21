@@ -12,6 +12,7 @@ const remote = (value: unknown, sha = "fixture-sha") => ({ content: Buffer.from(
 
 async function mockConnection(page: Page, cache: PdfCacheManifest = emptyCache) {
   await page.route(repoApi, (route) => route.fulfill({ json: { id: 1 } }));
+  await page.route(new RegExp(`${repoApi}/git/ref/heads/main\\?v=`), (route) => route.fulfill({ json: { object: { sha: "main-revision" } } }));
   await page.route(`${repoApi}/contents/data/content.json?ref=main`, (route) => route.fulfill({ json: remote(content) }));
   await page.route(`${repoApi}/contents/data/pdf-cache.json?ref=main`, (route) => route.fulfill({ json: remote(cache, "cache-sha") }));
 }
@@ -77,18 +78,19 @@ test("Pages admin detects fresh and stale PDF cache entries before generation", 
   await expect(photography.getByRole("link", { name: "打开 PDF" })).toHaveCount(0);
 });
 
-test("Pages admin dispatches unique single targets and waits for matching Contents manifest without Actions API", async ({ page }) => {
+test("Pages admin correlates each dispatch to an immutable-revision manifest and updates the current UI", async ({ page }) => {
   const dispatches: Array<{ event_type: string; client_payload: { request_id: string; target: PdfTarget } }> = [];
   const attempts = new Map<PdfTarget, number>();
   let actionsCalls = 0;
   page.on("request", (request) => { if (new URL(request.url()).pathname.includes("/actions/")) actionsCalls += 1; });
   await mockConnection(page);
   await page.route(`${repoApi}/dispatches`, async (route) => { dispatches.push(route.request().postDataJSON() as typeof dispatches[number]); await route.fulfill({ status: 204 }); });
-  await page.route(new RegExp(`${repoApi}/contents/data/pdf-cache.json\\?ref=main&v=`), async (route) => {
+  await page.route(`${repoApi}/contents/data/pdf-cache.json?ref=main-revision`, async (route) => {
     const target = dispatches.at(-1)!.client_payload.target;
     const attempt = (attempts.get(target) || 0) + 1; attempts.set(target, attempt);
-    const hash = attempt === 1 ? "wrong-request-source" : pdfSourceHash(content, target);
-    await route.fulfill({ json: remote({ version: 1, targets: { [target]: { sourceHash: hash, filename: target.startsWith("case:") ? `${target.slice(5).toLowerCase()}.pdf` : target.startsWith("category:") ? `portfolio-design-${target.slice(9)}.pdf` : `portfolio-${target}.pdf`, generatedAt: `2026-09-21T00:00:0${attempt}.000Z` } } }) });
+    if (attempt === 1) return route.abort("connectionreset");
+    const requestId = attempt < 4 ? "older-request" : dispatches.at(-1)!.client_payload.request_id;
+    await route.fulfill({ json: remote({ version: 1, targets: { [target]: { sourceHash: attempt === 2 ? "old-source" : pdfSourceHash(content, target), requestId, filename: target.startsWith("case:") ? `${target.slice(5).toLowerCase()}.pdf` : target.startsWith("category:") ? `portfolio-design-${target.slice(9)}.pdf` : `portfolio-${target}.pdf`, generatedAt: "2026-09-21T00:00:00.000Z" } } }) });
   });
   await page.clock.install();
   await page.goto(`${base}/admin/pdf/`); await connect(page);
@@ -102,7 +104,7 @@ test("Pages admin dispatches unique single targets and waits for matching Conten
     await action.locator.getByRole("button").click();
     await expect.poll(() => attempts.get(action.target)).toBe(1);
     await expect(action.locator.getByRole("status")).toHaveText("正在生成…");
-    await page.clock.fastForward(7500);
+    for (let attempt = 2; attempt <= 4; attempt += 1) { await page.clock.fastForward(7500); await expect.poll(() => attempts.get(action.target)).toBe(attempt); }
     await expect(action.locator.getByRole("status")).toHaveText("生成成功");
     await expect(action.locator.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", action.href);
   }
@@ -110,6 +112,47 @@ test("Pages admin dispatches unique single targets and waits for matching Conten
   expect(dispatches.map((entry) => entry.client_payload.target)).toEqual(actions.map((entry) => entry.target));
   expect(new Set(dispatches.map((entry) => entry.client_payload.request_id)).size).toBe(actions.length);
   expect(actionsCalls).toBe(0);
+});
+
+test("N011 fresh cache is reused and both admin surfaces show links without a refresh", async ({ page }) => {
+  const target = "case:N011" as const;
+  const fresh: PdfCacheManifest = { version: 1, targets: { [target]: { sourceHash: pdfSourceHash(content, target), filename: "n011.pdf", generatedAt: "2026-09-21T09:27:49.436Z" } } };
+  await mockConnection(page, fresh);
+  await page.goto(`${base}/admin/cases/?id=N011`); await connect(page);
+  await expect(page.getByRole("button", { name: "重新生成", exact: true })).toBeVisible();
+  await expect(page.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${release}/n011.pdf`);
+  await page.goto(`${base}/admin/pdf/`);
+  const row = page.locator(".pdfCaseManagement article").filter({ has: page.getByRole("button", { name: "重新生成", exact: true }) }).filter({ hasText: content.cases.find((item) => item.id === "N011")!.brandName });
+  await expect(row.getByRole("link", { name: "下载" })).toBeVisible();
+});
+
+test("case ordering is handle-only, moves one id, isolates sections and persists existing fields", async ({ page }) => {
+  let saved: ContentData | undefined;
+  await mockConnection(page);
+  await page.route(`${repoApi}/contents/data/content.json`, async (route) => { saved = JSON.parse(Buffer.from((route.request().postDataJSON() as { content: string }).content, "base64").toString()) as ContentData; await route.fulfill({ json: { content: { sha: "saved-sha" } } }); });
+  await page.goto(`${base}/admin/`); await connect(page);
+  const branding = page.locator('[data-order-type="branding"]');
+  const photographyBefore = await page.locator('[data-order-type="photography"] article').evaluateAll((rows) => rows.map((row) => row.getAttribute("data-case-id")));
+  const rows = branding.locator("article");
+  const initial = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
+  expect(initial.length).toBeGreaterThan(4);
+  await expect(rows.first()).not.toHaveAttribute("draggable", "true");
+  await expect(rows.first().locator(".dragHandle")).toHaveAttribute("draggable", "true");
+  for (const selector of [".adminThumb", ".adminCaseName", ".status", "a", ".dangerText"]) await rows.nth(1).locator(selector).dragTo(rows.nth(3));
+  expect(await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")))).toEqual(initial);
+
+  await rows.nth(1).locator(".dragHandle").dragTo(rows.nth(3));
+  const expected = [initial[0], initial[2], initial[3], initial[1], ...initial.slice(4)];
+  const moved = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
+  expect(moved).toEqual(expected); expect(new Set(moved)).toEqual(new Set(initial)); expect(moved).toHaveLength(initial.length);
+  await rows.first().locator(".dragHandle").dragTo(rows.nth(2));
+  await rows.nth(2).locator(".dragHandle").dragTo(rows.first());
+  await rows.last().locator(".dragHandle").dragTo(rows.nth(2));
+  const finalOrder = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
+  await branding.getByRole("button", { name: "保存排序" }).click();
+  await expect.poll(() => saved?.defaultOrder).toEqual(finalOrder);
+  expect(saved?.photographyCaseOrder).toEqual(content.photographyCaseOrder);
+  expect(await page.locator('[data-order-type="photography"] article').evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")))).toEqual(photographyBefore);
 });
 
 test("Pages admin reports the repository dispatch error", async ({ page }) => {

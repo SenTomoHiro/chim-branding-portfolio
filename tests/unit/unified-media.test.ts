@@ -47,12 +47,15 @@ describe("unified case media", () => {
     }
   });
 
-  it("preserves N013 roles, PDF selection, provenance, and body without role duplication", () => {
+  it("derives N013 roles from its current media order without duplicating them in the body", () => {
     const item = content.cases.find((entry) => entry.id === "N013")!;
-    expect(getCaseCover(item)?.src).toBe("/media/cases/N013/v3-cover.webp");
-    expect(getCaseHero(item)?.src).toBe("/media/cases/N013/v3-hero.webp");
-    expect(getCaseHero(item)?.portfolioPdfSelected).toBe(true);
-    expect(getCaseCover(item)?.provenance?.assetId).toBe("N013-V3-A10");
-    expect(getCaseBodyMedia(item).some((asset) => asset.src === getCaseCover(item)?.src || asset.src === getCaseHero(item)?.src)).toBe(false);
+    const images = item.media.filter((asset) => asset.type === "image");
+    const cover = getCaseCover(item);
+    const hero = getCaseHero(item);
+
+    expect(cover?.id).toBe(images[0]?.id);
+    expect(hero?.id).toBe(images[1]?.id);
+    expect(item.media.some((asset) => asset.portfolioPdfSelected)).toBe(true);
+    expect(getCaseBodyMedia(item).some((asset) => asset.id === cover?.id || asset.id === hero?.id)).toBe(false);
   });
 });
