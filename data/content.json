@@ -3281,17 +3281,15 @@
     },
     {
       "id": "N013",
+      "brandName": "堡乎乎 Manual Burger",
+      "projectName": "",
       "intro": "餐饮品牌视觉与IP Design设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food",
         "ip"
       ],
       "primaryIndustry": "汉堡",
-      "includeInPortfolioPdf": true,
-      "brandName": "堡乎乎 Manual Burger",
-      "projectName": "",
       "media": [
         {
           "id": "N013-V3-A10",
@@ -3300,6 +3298,7 @@
           "layout": "full",
           "width": 930,
           "height": 1288,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N013-V3-A10",
             "sourceType": "pdf",
@@ -3315,276 +3314,68 @@
           }
         },
         {
-          "id": "N013-V3-A14",
+          "id": "upload-1789983937092-29face",
           "type": "image",
-          "src": "/media/cases/N013/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:193;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 842,
-            "height": 1083,
-            "sha256": "83947af8c8bc4c18f8409a35f4459c79412d4beac540e48d7e1a88374f895a5d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          "src": "/media/cases/N013/1789983925439-8aa4d184.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A01",
+          "id": "upload-1789983944248-b519af",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-01.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:247;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1865,
-            "height": 2793,
-            "sha256": "46288be5fd8dbcf0672b4e1c1a7846f2b0c41dec0fb554ee4520e013e042d1f0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          "src": "/media/cases/N013/1789983937092-875bb0fd.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A02",
+          "id": "upload-1789983949371-a10598",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N013-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:252;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1418,
-            "sha256": "df9b9ce9e0f63f7f00a8d064042934e4bb08a508eef1eae5e4dad37d0d839544",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          "src": "/media/cases/N013/1789983944248-ff34ba78.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A03",
+          "id": "upload-1789983953770-212242",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N013-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:256;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1891,
-            "height": 1261,
-            "sha256": "f9dcad31c1149ae4568353b5099973720df082cd1f0de245b5aa55d5f1828426",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          "src": "/media/cases/N013/1789983949371-256a0d46.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A04",
+          "id": "upload-1789983959301-410b54",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N013-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:255;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1777,
-            "height": 1309,
-            "sha256": "430f9e0a3fca7c668a4a4df60264ba475f2fa282711851bb3bd37ef0e1696fcc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983953770-2dd7e4e5.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A05",
+          "id": "upload-1789983964017-8f13da",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N013-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:198;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1778,
-            "height": 1186,
-            "sha256": "84ec5881d785986a8639031a8e42aa62ad84df74fe113de89d19004bac8456fb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983959302-1b0d660b.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A06",
+          "id": "upload-1789983976201-4aa7d7",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-06.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:141;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1775,
-            "height": 1184,
-            "sha256": "5979a0b5cb2c9060eec4362d456c97b06a0500b8763d6845b6008c0e1b319efe",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983964017-1721e037.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A07",
+          "id": "upload-1789983985212-2ecbdd",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:216;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1768,
-            "height": 1179,
-            "sha256": "ec2ed33a25af8809071f37c74d350122b7638093b90a49056daccce4a6a5decc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983976202-77e82b1e.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A08",
+          "id": "upload-1789983990332-4bd779",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:249;smask:250",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1334,
-            "height": 1000,
-            "sha256": "26b0c6984f565888c11ad867d18545ff0652c313755eff0c41bed2e55cfd0522",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983985213-0b062f32.jpg",
+          "layout": "full"
         },
         {
-          "id": "N013-V3-A09",
+          "id": "upload-1789983993813-f8726b",
           "type": "image",
-          "src": "/media/cases/N013/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 22,
-            "sourceObject": "xref:248;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 934,
-            "height": 1398,
-            "sha256": "388e2a6146eead0c948e88dcd7b4f75b723b10471e4348a2e40e0fbc17cd8504",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N013-V3-A10-2",
-          "type": "image",
-          "src": "/media/cases/N013/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:188;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 930,
-            "height": 1288,
-            "sha256": "ca24fa5244396dce8095019cba0c041bba3da1b221639217a7a6c49642953943",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N013-V3-A11",
-          "type": "image",
-          "src": "/media/cases/N013/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:254;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 936,
-            "height": 1203,
-            "sha256": "06d6cbf350caa6f61842ab8b21b0575f621f5b8d215280ef2761112a4988b6b7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N013-V3-A12",
-          "type": "image",
-          "src": "/media/cases/N013/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 22,
-            "sourceObject": "xref:136;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 843,
-            "height": 1083,
-            "sha256": "f0ec12d1dd7f2bebaece19a7884c2bfbc9a01c9b04a9196445cfad43e8f970ba",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N013-V3-A13",
-          "type": "image",
-          "src": "/media/cases/N013/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N013-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260602-堡乎乎/260602-堡乎乎.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:187;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 843,
-            "height": 1083,
-            "sha256": "f643f15f51b5f57e103df91faba166ebf8e2733316590508948d9397c5428811",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N013/1789983990334-8c67a0dc.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N014",
