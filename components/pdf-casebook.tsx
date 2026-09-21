@@ -1,12 +1,19 @@
 import { groupBodyAssets } from "@/lib/chapters";
-import { getPdfMediaInfo, type PdfMediaInfo } from "@/lib/pdf-media";
 import { pdfOrientation } from "@/lib/pdf-layout";
 import { caseFullTitle, caseTitleDensity } from "@/lib/case-title";
 import { resolvePortfolioPdfImages } from "@/lib/pdf-portfolio";
-import { assetPath } from "@/lib/site-path";
+import { contentMediaUrl } from "@/lib/runtime-content";
 import { categoryLabel, formatCaseMetadata } from "@/lib/taxonomy";
 import type { Business, CaseCategory, PortfolioCase } from "@/lib/types";
 import { getCaseBodyMedia, getCaseHero } from "@/lib/case-media";
+
+type PdfMediaInfo = { id: string; src: string; width: number; height: number; ratio: number };
+
+function mediaInfo(item: PortfolioCase["media"][number]): PdfMediaInfo {
+  const width = item.width || item.provenance?.width || 1600;
+  const height = item.height || item.provenance?.height || 1200;
+  return { id: item.id, src: item.src, width, height, ratio: width / height };
+}
 
 function PdfFooter({ project, page, total }: { project: string; page: number; total: number }) {
   return <footer className="pdfFooter"><span>CHIM® / {project}</span><span>{String(page).padStart(2, "0")} / {String(total).padStart(2, "0")}</span></footer>;
@@ -21,7 +28,7 @@ function PdfPage({ children, className = "", project, page, total }: { children:
 }
 
 function Picture({ image, mode = "cover" }: { image: PdfMediaInfo; mode?: "cover" | "contain" }) {
-  return <img src={assetPath(image.src)} alt="" className={`pdfPicture is-${mode}`} width={image.width} height={image.height} />;
+  return <img src={contentMediaUrl(image.src)} alt="" className={`pdfPicture is-${mode}`} width={image.width} height={image.height} />;
 }
 
 function EditorialTitle({ item, className = "" }: { item: PortfolioCase; className?: string }) {
@@ -32,14 +39,14 @@ function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
   return <div className="pdfLongWaterfall">{images.map((image) => <figure key={image.id}><Picture image={image} mode="contain" /></figure>)}</div>;
 }
 
-export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
+export function CasePdfDocument({ item }: { item: PortfolioCase }) {
   const heroAsset = getCaseHero(item)!;
-  const hero = await getPdfMediaInfo(heroAsset.id, heroAsset.src);
+  const hero = mediaInfo(heroAsset);
   const groups = groupBodyAssets(getCaseBodyMedia(item));
-  const resolvedGroups = await Promise.all(groups.map(async (group) => ({
+  const resolvedGroups = groups.map((group) => ({
     ...group,
-    images: await Promise.all(group.assets.filter((asset) => asset.type === "image").map((asset) => getPdfMediaInfo(asset.id, asset.src))),
-  })));
+    images: group.assets.filter((asset) => asset.type === "image").map(mediaInfo),
+  }));
   return <main className="pdfDocument pdfLongDocument" data-pdf-ready="true">
     <article className="pdfLongCase">
       <header className="pdfLongHero">
@@ -61,10 +68,10 @@ export async function CasePdfDocument({ item }: { item: PortfolioCase }) {
   </main>;
 }
 
-export async function PortfolioPdfDocument({ cases, kind, category }: { cases: PortfolioCase[]; kind: Business; category?: CaseCategory }) {
+export function PortfolioPdfDocument({ cases, kind, category }: { cases: PortfolioCase[]; kind: Business; category?: CaseCategory }) {
   const portfolioLabel = kind === "photography" ? "Photography Portfolio" : category ? `Design / ${categoryLabel(category)} Portfolio` : "Design Portfolio";
   const coverTitle = kind === "photography" ? <>Photography<br />Portfolio</> : category ? <>{categoryLabel(category)}<br />Portfolio</> : <>Design<br />Portfolio</>;
-  const resolved = await Promise.all(cases.map(async (item) => ({ item, images: await Promise.all(resolvePortfolioPdfImages(item).map((image) => getPdfMediaInfo(image.id, image.src))) })));
+  const resolved = cases.map((item) => ({ item, images: resolvePortfolioPdfImages(item).map((image) => mediaInfo(item.media.find((asset) => asset.id === image.id)!)) }));
   const directoryPageCount = Math.max(1, Math.ceil(cases.length / 20));
   const firstCasePage = 2 + directoryPageCount;
   const entries = resolved.map(({ item, images }, index) => ({ item, images, startPage: firstCasePage + index }));

@@ -13,6 +13,7 @@ const first = byId("N024");
 const second = byId("N025");
 const third = byId("N026");
 test.setTimeout(180_000);
+const waitForCase = (page: Page, id: string) => page.waitForURL((url) => url.pathname === "/work" && url.searchParams.get("id") === id);
 
 async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: number; height: number }) {
   await page.setViewportSize(viewport);
@@ -65,13 +66,13 @@ async function openFromDrinks(page: Page, item: PortfolioCase) {
   await page.evaluate(() => window.scrollBy(0, -Math.min(120, innerHeight / 6)));
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
   await card.locator("a").click();
-  await page.waitForURL(casePath(item.id));
+  await waitForCase(page, item.id);
   return anchorTop;
 }
 
 async function followNext(page: Page, item: PortfolioCase) {
   await page.locator(".nextCase").click();
-  await page.waitForURL(casePath(item.id));
+  await waitForCase(page, item.id);
   await expect(page.getByRole("heading", { name: caseFullTitle(item), exact: true })).toBeVisible();
 }
 
@@ -102,7 +103,7 @@ test("browser Back traverses Next Case history once and then restores the list",
   const anchorTop = await openFromDrinks(page, first);
   await followNext(page, second);
   await page.goBack();
-  await page.waitForURL(casePath(first.id));
+  await waitForCase(page, first.id);
   await page.goBack();
   await page.waitForURL(/\/drinks$/);
   const card = page.locator(`[data-case-id="${first.id}"]`);
@@ -122,7 +123,7 @@ test("mobile quick tap enters once, follows Next and closes to the current case"
   await card.scrollIntoViewIfNeeded();
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
   await card.locator("a").tap();
-  await page.waitForURL(casePath(first.id));
+  await waitForCase(page, first.id);
   await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(0);
   await followNext(page, second);
   await closeToCase(page, "/drinks", second, anchorTop);
@@ -140,7 +141,7 @@ test("mobile longer tap enters while a drag gesture stays on the list", async ({
   await session.send("Input.dispatchTouchEvent", { type: "touchStart", touchPoints: [{ x, y }] });
   await page.waitForTimeout(360);
   await session.send("Input.dispatchTouchEvent", { type: "touchEnd", touchPoints: [] });
-  await page.waitForURL(casePath(first.id));
+  await waitForCase(page, first.id);
 
   await page.goto("/drinks");
   await link.scrollIntoViewIfNeeded();
@@ -162,5 +163,5 @@ test("desktop hover still previews Hero and one click enters detail", async ({ p
   await expect(card.locator(".secondaryMedia")).toHaveCount(1);
   await expect(card.locator(".secondaryMedia")).toHaveClass(/isActive/);
   await card.locator("a").click();
-  await page.waitForURL(casePath(first.id));
+  await waitForCase(page, first.id);
 });

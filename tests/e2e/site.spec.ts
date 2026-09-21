@@ -64,7 +64,9 @@ test("all published case routes resolve with taxonomy metadata and reveal media"
     const sameBusiness = published.filter((entry) => entry.business === item.business);
     const ordered = order.map((id) => sameBusiness.find((entry) => entry.id === id)).filter(Boolean);
     const next = ordered[(ordered.findIndex((entry) => entry!.id === item.id) + 1) % ordered.length]!;
-    await expect(page.locator(".nextCase")).toHaveAttribute("href", casePath(next.id));
+    const nextHref = await page.locator(".nextCase").getAttribute("href");
+    expect(new URL(nextHref!, page.url()).pathname).toBe("/work");
+    expect(new URL(nextHref!, page.url()).searchParams.get("id")).toBe(next.id);
   }
 });
 
@@ -128,9 +130,10 @@ test("Branding and Photography details keep a sticky header and close to their s
   for (const [route, expectedBusiness] of [["/food", "branding"], ["/photo", "photography"]] as const) {
     await page.goto(route);
     const listHeaderHeight = await page.locator(".siteHeader").evaluate((header) => header.getBoundingClientRect().height);
-    const card = page.locator(".caseCard a").first(); const href = await card.getAttribute("href"); await card.click();
-    await page.waitForURL((url) => url.pathname === href);
-    expect(new URL(page.url()).pathname).toBe(href);
+    const card = page.locator(".caseCard a").first(); const href = await card.getAttribute("href"); const target = new URL(href!, page.url()); await card.click();
+    await page.waitForURL((url) => url.pathname === target.pathname && url.searchParams.get("id") === target.searchParams.get("id"));
+    expect(new URL(page.url()).pathname).toBe(target.pathname);
+    expect(new URL(page.url()).searchParams.get("id")).toBe(target.searchParams.get("id"));
     if (await page.evaluate(() => document.documentElement.matches(":active-view-transition"))) await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "0");
     const headerLayout = await page.locator(".siteHeader").evaluate((header) => {
       const navigation = header.querySelector(".siteNavigation")!.getBoundingClientRect();
@@ -271,14 +274,16 @@ test("home and details share the SiteHeader structure and stable id URLs", async
     await expectNoHorizontalOverflow(page);
   }
   await expect(page.getByRole("heading", { name: caseFullTitle(named) })).toBeVisible();
-  expect(new URL(page.url()).pathname).toBe(casePath(named.id));
+  expect(new URL(page.url()).pathname).toBe("/work");
+  expect(new URL(page.url()).searchParams.get("id")).toBe(named.id);
 });
 
-test("sitemap publishes stable id URLs and contains no retired slug URL", async ({ request }) => {
+test("sitemap publishes fixed runtime list routes without build-time case URLs", async ({ request }) => {
   const response = await request.get("/sitemap.xml"); const xml = await response.text();
   expect(response.ok()).toBe(true);
-  expect(xml).toContain(casePath(brandingPublished.find((item) => caseFullTitle(item).includes(" "))!.id).replaceAll("&", "&amp;"));
-  expect(xml).not.toContain("/work/n013-manual-burger");
+  expect(xml).toContain("/food");
+  expect(xml).toContain("/photo");
+  expect(xml).not.toContain("/work/");
 });
 
 test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
@@ -325,7 +330,7 @@ test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
   await row.getByRole("link", { name: "编辑" }).click(); await page.getByLabel("品牌名").fill("分类验收案例 改名"); await page.getByRole("button", { name: "保存案例" }).click(); await expect(page.locator(".saveMessage")).toHaveText("保存成功"); await page.getByRole("link", { name: "返回后台" }).click();
   row = page.locator(".adminCaseList article").filter({ hasText: "分类验收案例 改名" }); await expect(row).toBeVisible();
   const createdHref = (await row.getByRole("link", { name: "编辑" }).getAttribute("href"))!;
-  const createdId = decodeURIComponent(createdHref.split("/").filter(Boolean).at(-1)!);
+  const createdId = new URL(createdHref, page.url()).searchParams.get("id")!;
   expect((await page.goto(casePath(createdId)))?.status()).toBe(200); await expect(page.getByRole("heading", { name: "分类验收案例 改名" })).toBeVisible();
   await page.goto("/admin"); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收案例 改名" }); await row.getByRole("button", { name: "已发布" }).click(); await expect(row.getByRole("button", { name: "草稿" })).toBeVisible();
   page.once("dialog", (dialog) => dialog.accept()); await row.getByRole("button", { name: "删除" }).click(); await expect(row).toHaveCount(0);

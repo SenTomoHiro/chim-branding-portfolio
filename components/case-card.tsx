@@ -1,8 +1,7 @@
 "use client";
-import Image from "next/image";
-import { assetPath } from "@/lib/site-path";
+import { contentMediaUrl } from "@/lib/runtime-content";
 import Link from "next/link";
-import { ViewTransition, useEffect, useRef, useState, type CSSProperties } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { casePath } from "@/lib/case-route";
 import { saveCaseListEntry } from "@/lib/return-context";
 import { formatCaseMetadata } from "@/lib/taxonomy";
@@ -28,9 +27,7 @@ export function CaseCard({ item, index, style }: { item: PortfolioCase; index: n
   const href = casePath(item.id);
   return <article ref={ref} className={`caseCard ${visible ? "isVisible" : ""}`} data-case-id={item.id} style={{ ...style, "--reveal-delay": `${(index % 3) * 70}ms` } as CSSProperties}>
     <Link href={href} onNavigate={() => saveCaseListEntry(item.id, href, ref.current)} onPointerEnter={(event) => { if (event.pointerType !== "mouse") return; setSecondaryLoaded(true); setHovered(true); }} onPointerLeave={() => setHovered(false)}>
-      <ViewTransition name={`case-image-${item.id}`} share="case-morph" default="none">
-        <div className="caseImage"><Image className="primaryMedia" src={assetPath(cover.src)} alt={`${caseFullTitle(item)} 案例封面`} width={cover.width || cover.provenance?.width || 1400} height={cover.height || cover.provenance?.height || 1050} sizes="(max-width: 767px) 100vw, (max-width: 1199px) 50vw, 33vw" priority={index < 3} />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={assetPath(secondary)} alt="" loading="lazy" decoding="async" />}</div>
-      </ViewTransition>
+      <div className="caseImage"><img className="primaryMedia" src={contentMediaUrl(cover.src)} alt={`${caseFullTitle(item)} 案例封面`} width={cover.width || cover.provenance?.width || 1400} height={cover.height || cover.provenance?.height || 1050} loading={index < 3 ? "eager" : "lazy"} decoding="async" />{secondary && secondaryLoaded && <img className={`secondaryMedia ${hovered ? "isActive" : ""}`} src={contentMediaUrl(secondary)} alt="" loading="lazy" decoding="async" />}</div>
       <div className="caseMeta"><CaseTitle item={item} /><p>{formatCaseMetadata(item)}</p></div>
     </Link>
   </article>;

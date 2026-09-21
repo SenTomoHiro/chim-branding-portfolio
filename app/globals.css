@@ -57,7 +57,7 @@ html:active-view-transition .floatingButton { opacity:0; transition:none; pointe
 }
 footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:var(--ink); color:white; display:flex; justify-content:space-between; align-items:flex-end; font-size:.8rem; }
 .workHero { position:relative; height:min(82vh,960px); overflow:hidden; background:#ddd; animation:heroClip var(--motion-slow) var(--motion-ease) both; }
-.workHero img { object-fit:cover; animation:heroScale 1.15s var(--motion-ease) both; }
+.workHero img { width:100%; height:100%; object-fit:cover; animation:heroScale 1.15s var(--motion-ease) both; }
 .workIntro { padding:clamp(40px,8vw,120px) var(--pad); display:grid; grid-template-columns:2fr 1fr; gap:40px; align-items:end; }
 .workIntro p { margin:0; max-width:480px; line-height:1.7; }
 .workIntro div>p { margin-bottom:18px; font-size:.75rem; text-transform:uppercase; letter-spacing:.08em; }
@@ -116,7 +116,7 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .adminCaseList article { min-height:96px; display:grid; grid-template-columns:24px 96px minmax(180px,1fr) 88px 82px 48px; gap:18px; align-items:center; border-bottom:1px solid #ccc; }
 .dragHandle { cursor:grab; color:#777; }
 .adminThumb { position:relative; width:96px; height:68px; background:#ddd; }
-.adminThumb img,.mediaPreview img,.assetPreview img { object-fit:cover; }
+.adminThumb img,.mediaPreview img,.assetPreview img { width:100%; height:100%; object-fit:cover; }
 .adminCaseName { display:grid; gap:6px; }
 .adminCaseName span { color:#777; font-size:.8rem; }
 .status { border:0; background:#ddd; padding:7px 9px; cursor:pointer; }
@@ -281,6 +281,8 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto}.siteHeader,.indexIntro h1 span,.titleChinese,.introEyebrow,.projectCount,.workHero,.workHero img,.workIntro h1,.workIntro>p,.workIntro div>p{animation:none}.caseCard,.revealMedia{opacity:1;transform:none;clip-path:none;transition:none}.caseImage img,.caseMeta h2,.caseMeta p,.floatingButton,.chevronUp{transition:none}html:active-view-transition .floatingButton{opacity:1;pointer-events:auto}::view-transition-group(.case-morph){animation-duration:.01ms} }
 
 .pdfEmpty { margin:0; padding:28px; background:#f3f3f3; color:#777; text-align:center; }
+.runtimeState { min-height:70vh; display:grid; place-content:center; justify-items:center; gap:14px; padding:var(--pad); text-align:center; }
+.runtimeState button { border:1px solid var(--ink); padding:10px 18px; background:transparent; color:inherit; cursor:pointer; }
 
 /* Single-case continuous PDF */
 .pdfLongDocument { width:210mm; min-height:0; margin:0 auto; background:#d7d7d5; }

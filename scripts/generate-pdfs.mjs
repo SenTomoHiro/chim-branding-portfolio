@@ -84,10 +84,12 @@ async function render(route, filename) {
   const page = await browser.newPage({ viewport: { width: 1120, height: 1584 }, deviceScaleFactor: 1 });
   if (externalOrigin) await page.route("**/*", async (browserRoute) => {
     const requestUrl = new URL(browserRoute.request().url());
-    if (requestUrl.origin !== new URL(origin).origin || !/\.(?:jpe?g|png|webp|avif|tiff?)$/i.test(requestUrl.pathname)) return browserRoute.continue();
-    let pathname = decodeURIComponent(requestUrl.pathname);
-    if (basePath && pathname.startsWith(basePath)) pathname = pathname.slice(basePath.length) || "/";
-    const filename = path.resolve(process.cwd(), "public", `.${pathname}`);
+    if (requestUrl.pathname.endsWith("/data/content.json")) return browserRoute.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify(content), headers: { "cache-control": "no-store" } });
+    const marker = "/public/media/";
+    const markerIndex = requestUrl.pathname.indexOf(marker);
+    if (markerIndex < 0 || !/\.(?:jpe?g|png|webp|avif|tiff?)$/i.test(requestUrl.pathname)) return browserRoute.continue();
+    const relative = decodeURIComponent(requestUrl.pathname.slice(markerIndex + 1));
+    const filename = path.resolve(process.cwd(), relative);
     const publicRoot = path.resolve(process.cwd(), "public");
     if (!filename.startsWith(`${publicRoot}${path.sep}`)) return browserRoute.continue();
     try {
@@ -165,20 +167,20 @@ async function render(route, filename) {
 }
 
 try {
-  if (target === "all" || target === "design") await render("/print/portfolio/design/", path.join(outputDirectory, "portfolio-design.pdf"));
-  if (target === "all" || target === "photography") await render("/print/portfolio/photography/", path.join(outputDirectory, "portfolio-photography.pdf"));
+  if (target === "all" || target === "design") await render("/print/portfolio/?kind=design", path.join(outputDirectory, "portfolio-design.pdf"));
+  if (target === "all" || target === "photography") await render("/print/portfolio/?kind=photography", path.join(outputDirectory, "portfolio-photography.pdf"));
   if (target.startsWith("category:")) {
     const category = target.slice(9);
     if (!["food", "drinks", "ip", "other"].includes(category)) throw new Error(`不支持的设计分类：${category}`);
-    await render(`/print/portfolio/design-${category}/`, path.join(outputDirectory, `portfolio-design-${category}.pdf`));
+    await render(`/print/portfolio/?kind=design-${category}`, path.join(outputDirectory, `portfolio-design-${category}.pdf`));
   }
   if (target === "all") {
-    for (const item of publishedCases) await render(`/print/case/${item.id.toLowerCase()}/`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
+    for (const item of publishedCases) await render(`/print/case/?id=${encodeURIComponent(item.id)}`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
   } else if (target.startsWith("case:")) {
     const id = target.slice(5).toLowerCase();
     const item = content.cases.find((candidate) => candidate.id.toLowerCase() === id);
     if (!item) throw new Error(`找不到案例：${id}`);
-    await render(`/print/case/${id}/`, path.join(outputDirectory, "cases", `${id}.pdf`));
+    await render(`/print/case/?id=${encodeURIComponent(item.id)}`, path.join(outputDirectory, "cases", `${id}.pdf`));
   } else if (target !== "design" && target !== "photography" && !target.startsWith("category:")) throw new Error(`不支持的 PDF 生成目标：${target}`);
 } finally {
   await browser.close();

@@ -20,14 +20,19 @@ export type CaseListEntry = {
 type CaseListTrailItem = Pick<CaseListEntry, "source" | "target" | "caseId">;
 
 export function normalizePortfolioPath(pathname: string) {
-  let value = pathname.split(/[?#]/, 1)[0] || "/";
+  const [rawPath, rawQuery = ""] = pathname.split("?", 2);
+  let value = rawPath.split("#", 1)[0] || "/";
   if (basePath && (value === basePath || value.startsWith(`${basePath}/`))) value = value.slice(basePath.length) || "/";
   if (value.length > 1) value = value.replace(/\/+$/, "");
+  if (value === "/work" && rawQuery) {
+    const id = new URLSearchParams(rawQuery).get("id");
+    if (id) return `${value}?id=${encodeURIComponent(id)}`;
+  }
   return value || "/";
 }
 
 export function isCaseListRoute(pathname: string) {
-  return new Set(["/", "/food", "/drinks", "/ip", "/other", "/photo"]).has(normalizePortfolioPath(pathname));
+  return new Set(["/", "/food", "/drinks", "/ip", "/other", "/photo"]).has(normalizePortfolioPath(pathname).split("?", 1)[0]);
 }
 
 function parseEntry(raw: string | null): CaseListEntry | null {
@@ -54,7 +59,7 @@ function parseEntry(raw: string | null): CaseListEntry | null {
 export function saveCaseListEntry(caseId: string, target: string, card: HTMLElement | null) {
   if (!card) return;
   const entry: CaseListEntry = {
-    source: normalizePortfolioPath(window.location.pathname),
+    source: normalizePortfolioPath(`${window.location.pathname}${window.location.search}`),
     target: normalizePortfolioPath(target),
     caseId,
     scrollY: window.scrollY,
@@ -82,7 +87,7 @@ function writeCaseListEntry(entry: CaseListEntry) {
 
 export function advanceCaseListEntry(caseId: string, target: string, business: Business, categories: CaseCategory[]) {
   const entry = readCaseListEntry();
-  if (!entry || entry.target !== normalizePortfolioPath(window.location.pathname)) return;
+  if (!entry || entry.target !== normalizePortfolioPath(`${window.location.pathname}${window.location.search}`)) return;
   const step: CaseListTrailItem = {
     source: resolveCaseListSource(entry.source, business, categories),
     target: normalizePortfolioPath(target),

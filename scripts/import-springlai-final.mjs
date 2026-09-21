@@ -61,7 +61,7 @@ const sections = {
 const sha256 = (buffer) => crypto.createHash("sha256").update(buffer).digest("hex");
 const titleFields = (value) => { const [brandName, ...project] = value.split("·"); return { brandName: brandName.trim(), projectName: project.join("·").trim() }; };
 const fullTitle = (item) => item.projectName ? `${item.brandName} · ${item.projectName}` : item.brandName;
-const routeFor = (id) => `/work/${id.toLowerCase()}`;
+const routeFor = (id) => `/work/?id=${encodeURIComponent(id)}`;
 const stageCounters = new Map();
 const imports = [];
 sharp.cache({ memory: 256, files: 16, items: 64 });

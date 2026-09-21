@@ -6,6 +6,7 @@ import { spawn } from "node:child_process";
 const root = process.cwd();
 const staging = await mkdtemp(path.join(tmpdir(), "chim-pages-"));
 const output = path.join(staging, "out");
+const mediaRoot = path.join(root, "public", "media");
 
 function run(command, args, options) {
   return new Promise((resolve, reject) => {
@@ -19,16 +20,14 @@ try {
   await Promise.all([
     cp(path.join(root, "app"), path.join(staging, "app"), { recursive: true, filter: (source) => !source.includes(`${path.sep}admin${path.sep}`) && !source.includes(`${path.sep}api${path.sep}`) }),
     cp(path.join(root, "components"), path.join(staging, "components"), { recursive: true }),
-    cp(path.join(root, "data"), path.join(staging, "data"), { recursive: true }),
     cp(path.join(root, "lib"), path.join(staging, "lib"), { recursive: true }),
-    cp(path.join(root, "public"), path.join(staging, "public"), { recursive: true }),
+    cp(path.join(root, "public"), path.join(staging, "public"), { recursive: true, filter: (source) => source !== mediaRoot && !source.startsWith(`${mediaRoot}${path.sep}`) }),
     cp(path.join(root, "next.config.ts"), path.join(staging, "next.config.ts")),
     cp(path.join(root, "tsconfig.json"), path.join(staging, "tsconfig.json")),
     symlink(path.join(root, "node_modules"), path.join(staging, "node_modules")),
   ]);
   await cp(path.join(root, "pages-static", "admin"), path.join(staging, "app", "admin"), { recursive: true });
   await run(path.join(root, "node_modules", ".bin", "next"), ["build", "--webpack"], { cwd: staging, env: { ...process.env, BUILD_TARGET: "pages" } });
-  await run(process.execPath, [path.join(root, "scripts", "generate-pdfs.mjs"), "--site-dir", output, "--output-dir", path.join(output, "pdf"), "--content", path.join(staging, "data", "content.json"), "--base-path", process.env.NEXT_PUBLIC_BASE_PATH || ""], { cwd: root, env: process.env });
   await rm(path.join(root, "out"), { recursive: true, force: true });
   await mkdir(path.join(root, "out"), { recursive: true });
   await cp(output, path.join(root, "out"), { recursive: true });

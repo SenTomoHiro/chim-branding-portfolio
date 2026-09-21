@@ -20,9 +20,12 @@ async function generateAndOpen(page: Page, buttonName: string) {
 }
 
 async function imageSources(locator: Locator) {
+  await expect(locator.first()).toBeAttached();
   return locator.evaluateAll((images) => images.map((image) => {
     const url = new URL((image as HTMLImageElement).currentSrc || (image as HTMLImageElement).src);
-    return url.searchParams.get("url") || url.pathname;
+    const value = url.searchParams.get("url") || url.pathname;
+    const pathname = value.startsWith("http") ? new URL(value).pathname : value;
+    return pathname.replace(/^\/public(?=\/media\/)/, "");
   }));
 }
 
@@ -53,14 +56,14 @@ test("local PDF management handles membership, filters, inline selection and eve
   await expect(bodyRows.nth(0).locator("> div:nth-child(2) span[title]")).toHaveText(secondPath!);
   await expect(bodyRows.nth(1).locator("> div:nth-child(2) span[title]")).toHaveText(firstPath!);
 
-  await page.goto("/work/l002");
+  await page.goto("/work/?id=L002");
   expect(await imageSources(page.locator(".workHero img"))).toEqual([firstPath]);
-  await page.goto("/print/case/l002");
+  await page.goto("/print/case/?id=L002");
   expect(await imageSources(page.locator(".pdfLongHero > img"))).toEqual([firstPath]);
-  await page.goto("/admin/cases/L002");
+  await page.goto("/admin/cases/?id=L002");
   await generateAndOpen(page, "生成案例 PDF");
 
-  for (const route of ["/print/portfolio/design", "/print/portfolio/design-food"]) {
+  for (const route of ["/print/portfolio/?kind=design", "/print/portfolio/?kind=design-food"]) {
     await page.goto(route);
     const portfolioCase = page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" });
     const sources = await imageSources(portfolioCase.locator(".pdfPicture"));
@@ -70,16 +73,16 @@ test("local PDF management handles membership, filters, inline selection and eve
   await generateAndOpen(page, "生成 Design Portfolio");
   await generateAndOpen(page, "生成餐饮合集");
 
-  await page.goto("/admin/cases/L002");
+  await page.goto("/admin/cases/?id=L002");
   const excludedPath = (await bodyRows.nth(1).locator("> div:nth-child(2) span[title]").textContent())!;
   await bodyRows.nth(1).getByRole("checkbox").uncheck();
   await page.getByRole("button", { name: "保存案例" }).click();
   await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  await page.goto("/work/l002");
+  await page.goto("/work/?id=L002");
   expect(await imageSources(page.locator(".workHero img"))).toContain(excludedPath);
-  await page.goto("/print/case/l002");
+  await page.goto("/print/case/?id=L002");
   expect(await imageSources(page.locator(".pdfLongHero > img"))).toContain(excludedPath);
-  for (const route of ["/print/portfolio/design", "/print/portfolio/design-food"]) {
+  for (const route of ["/print/portfolio/?kind=design", "/print/portfolio/?kind=design-food"]) {
     await page.goto(route);
     const sources = await imageSources(page.locator(".pdfPortfolioLongCase").filter({ hasText: "华南行" }).locator(".pdfPicture"));
     expect(sources).not.toContain(excludedPath);

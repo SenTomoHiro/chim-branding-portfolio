@@ -7,6 +7,7 @@ describe("portfolio return context paths", () => {
     expect(normalizePortfolioPath("/photo/?ignored=1")).toBe("/photo");
     expect(isCaseListRoute("/ip/")).toBe(true);
     expect(isCaseListRoute("/work/example/")).toBe(false);
+    expect(normalizePortfolioPath("/work/?id=N013")).toBe("/work?id=N013");
   });
 
   it("keeps a compatible filter and chooses a visible list when the next case leaves it", () => {

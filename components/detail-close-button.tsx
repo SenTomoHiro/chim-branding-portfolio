@@ -8,7 +8,7 @@ export function DetailCloseButton({ fallback }: { fallback: "/" | "/photo" }) {
 
   function close() {
     const entry = readCaseListEntry();
-    const current = normalizePortfolioPath(window.location.pathname);
+    const current = normalizePortfolioPath(`${window.location.pathname}${window.location.search}`);
     if (entry?.target === current && isCaseListRoute(entry.source)) {
       requestCaseListReturn(entry);
       window.history.go(-entry.detailDepth);

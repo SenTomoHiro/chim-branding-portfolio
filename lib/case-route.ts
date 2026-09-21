@@ -1,6 +1,6 @@
 import type { PortfolioCase } from "./types";
 
-export const casePath = (id: string) => `/work/${encodeURIComponent(id.toLowerCase())}`;
+export const casePath = (id: string) => `/work/?id=${encodeURIComponent(id)}`;
 
 export function findPublishedCaseById(cases: PortfolioCase[], routeId: string) {
   let id: string;

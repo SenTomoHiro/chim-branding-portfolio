@@ -9,7 +9,7 @@ test.setTimeout(120_000);
 test("single-case PDF keeps the hero clean and moves case copy into a separate section", async ({ page }) => {
   for (const id of caseIds) {
     const item = content.cases.find((entry) => entry.id === id)!;
-    await page.goto(`/print/case/${id.toLowerCase()}/`);
+    await page.goto(`/print/case/?id=${id}`);
 
     const hero = page.locator(".pdfLongHero");
     const heroImage = hero.locator(":scope > .pdfPicture");

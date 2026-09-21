@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { CaseIndex } from "@/components/case-index";
-import { readContent } from "@/lib/content";
-import { getPublishedCases } from "@/lib/sort-cases";
+import { RuntimeCaseIndex } from "@/components/runtime-case-index";
 import { CATEGORY_ROUTES } from "@/lib/taxonomy";
 import type { CaseCategory } from "@/lib/types";
 
@@ -27,7 +25,6 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 export default async function CategoryPage({ params }: { params: Promise<{ category: string }> }) {
   const category = getCategory((await params).category);
   if (!category) notFound();
-  const content = await readContent();
   const page = pageContent[category];
-  return <CaseIndex category={category} title={page.title} subtitle={page.subtitle} cases={getPublishedCases(content.cases, content, { business: "branding", category })} />;
+  return <RuntimeCaseIndex category={category} title={page.title} subtitle={page.subtitle} />;
 }

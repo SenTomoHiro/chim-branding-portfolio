@@ -6,10 +6,10 @@ const item: PortfolioCase = { id: "A-01", brandName: "堡乎乎 Manual Burger", 
 
 describe("case id routes", () => {
   it("uses the stable id without depending on title changes", () => {
-    expect(casePath(item.id)).toBe("/work/a-01");
+    expect(casePath(item.id)).toBe("/work/?id=A-01");
     expect(findPublishedCaseById([item], "A-01")).toBe(item);
     const renamed = { ...item, brandName: "春莱", projectName: "品牌视觉长期维护 / Brand Visual Evolution" };
-    expect(casePath(renamed.id)).toBe("/work/a-01");
+    expect(casePath(renamed.id)).toBe("/work/?id=A-01");
     expect(findPublishedCaseById([renamed], "a-01")).toBe(renamed);
   });
 });
