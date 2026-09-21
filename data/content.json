@@ -3292,6 +3292,12 @@
       "primaryIndustry": "汉堡",
       "media": [
         {
+          "id": "upload-1789985545492-27db9b",
+          "type": "image",
+          "src": "/media/cases/N013/1789985539578-049f0e25.jpg",
+          "layout": "full"
+        },
+        {
           "id": "N013-V3-A10",
           "type": "image",
           "src": "/media/cases/N013/v3-cover.webp",
@@ -3312,12 +3318,6 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
-        },
-        {
-          "id": "upload-1789985545492-27db9b",
-          "type": "image",
-          "src": "/media/cases/N013/1789985539578-049f0e25.jpg",
-          "layout": "full"
         },
         {
           "id": "upload-1789993007969-3df183",
