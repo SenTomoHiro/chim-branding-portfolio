@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PDF_TARGET: ${{ github.event.client_payload.target }}
-      SITE_ORIGIN: https://sentomohiro.github.io/chim-branding-portfolio
+      SITE_ORIGIN: https://sentomohiro.github.io
       NEXT_PUBLIC_BASE_PATH: /chim-branding-portfolio
       NEXT_PUBLIC_CONTENT_ORIGIN: https://raw.githubusercontent.com/SenTomoHiro/chim-branding-portfolio/main
       GH_TOKEN: ${{ github.token }}
