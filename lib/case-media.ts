@@ -18,6 +18,14 @@ export function getCaseBodyMedia(item: PortfolioCase): CaseMedia[] {
   return item.media.filter((asset) => asset.id !== cover?.id && asset.id !== hero?.id);
 }
 
+export function replaceCaseBodyMedia(item: PortfolioCase, bodyMedia: CaseMedia[]): CaseMedia[] {
+  const { cover, hero } = getRoleImages(item.media);
+  const roleIds = new Set([cover?.id, hero?.id].filter((id): id is string => Boolean(id)));
+  const remaining = [...bodyMedia];
+  const merged = item.media.flatMap((asset) => roleIds.has(asset.id) ? [asset] : remaining.length ? [remaining.shift()!] : []);
+  return [...merged, ...remaining];
+}
+
 export function mediaRole(media: CaseMedia[], asset: CaseMedia): "cover" | "hero" | undefined {
   const roles = getRoleImages(media);
   return asset.id === roles.cover?.id ? "cover" : asset.id === roles.hero?.id ? "hero" : undefined;

@@ -175,14 +175,26 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .unsectionedHeader p,.unsectionedHeader h3 { margin:0; }
 .unsectionedHeader p { margin-bottom:5px; color:#777; font-size:.68rem; letter-spacing:.12em; }
 .unsectionedHeader h3 { font-size:1.05rem; }
-.bodyAssetList article { display:grid; grid-template-columns:120px minmax(160px,1fr) minmax(170px,auto) 84px minmax(140px,190px) 32px 32px minmax(96px,auto) 48px; align-items:center; gap:10px; padding:12px 0; border-bottom:1px solid #ddd; }
-.assetPreview { position:relative; width:120px; height:80px; background:#ddd; overflow:hidden; }
+.roleAssetList { margin-bottom:28px; border-top:1px solid #c8c8c8; }
+.bodyAssetList article { display:grid; grid-template-columns:120px minmax(150px,1fr) minmax(150px,auto) 84px minmax(130px,180px) 32px 32px 40px 40px; grid-template-areas:"preview details pdf layout chapter up down split delete"; align-items:center; gap:10px; padding:12px 0; border-bottom:1px solid #ddd; }
+.assetPreview { grid-area:preview; position:relative; width:120px; height:80px; background:#ddd; overflow:hidden; }
 .assetPreview video { width:100%; height:100%; object-fit:cover; }
-.bodyAssetList article>div:nth-child(2) { min-width:0; display:grid; gap:7px; }
+.mediaDetails { grid-area:details; min-width:0; display:grid; gap:7px; }
 .bodyAssetList article span { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#777; font-size:.75rem; }
 .bodyAssetList article .mediaRoleBadge { display:inline-block; margin-left:7px; padding:3px 6px; border-radius:999px; background:#111; color:#fff; font-size:.62rem; font-weight:600; line-height:1; vertical-align:middle; }
 .bodyAssetList article small { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; color:#777; font-size:.68rem; }
-.chapterFromMedia { min-width:0; font-size:.75rem !important; }
+.bodyAssetList .pdfInlineChoice,.bodyAssetList .pdfUnavailable { grid-area:pdf; }
+.mediaLayout { grid-area:layout; }
+.chapterMove { grid-area:chapter; }
+.mediaMoveUp { grid-area:up; }
+.mediaMoveDown { grid-area:down; }
+.chapterSplitButton { grid-area:split; }
+.mediaDeleteButton { grid-area:delete; }
+.adminIconButton { width:40px; height:40px; display:grid; place-items:center; padding:0; border:1px solid transparent !important; color:#555 !important; transition:color .16s ease,background .16s ease,border-color .16s ease; }
+.adminIconButton svg { width:19px; height:19px; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.adminIconButton:hover { border-color:#bbb !important; background:#f5f5f5 !important; color:#111 !important; }
+.adminIconButton.isDanger { color:#b72a21 !important; }
+.adminIconButton.isDanger:hover { border-color:#b72a21 !important; background:#fff0ee !important; color:#951c15 !important; }
 .bodyMediaActions { flex-wrap:wrap; justify-content:flex-end; }
 .pdfMembership { min-height:42px; padding:0 8px; white-space:nowrap; }
 .pdfSourceReferences { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:24px 0; padding:14px; background:#f3f3f3; }
@@ -268,10 +280,11 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
   .versionCard summary code { display:none; }
   .versionFields,.formGrid,.mediaInputs,.chapterCreate,.chapterHeader { grid-template-columns:1fr; }
   .fullField { grid-column:auto; }
-  .bodyAssetList article { grid-template-columns:82px minmax(0,1fr); }
+  .bodyAssetList article { grid-template-columns:82px minmax(0,1fr); grid-template-areas:"preview details" "pdf pdf" "layout layout" "chapter chapter" "up down" "split delete"; }
   .assetPreview { width:82px; height:62px; }
-  .bodyAssetList article select { grid-column:1/-1; }
+  .bodyAssetList article select { width:100%; }
   .bodyAssetList article button { grid-row:auto; min-height:44px; }
+  .bodyAssetList .adminIconButton { width:100%; min-width:44px; }
   .chapterHeader { gap:12px; padding:18px 14px; }
   .chapterNumber { padding-top:0; }
   .chapterActions { grid-column:auto; display:grid; grid-template-columns:1fr 1fr; }

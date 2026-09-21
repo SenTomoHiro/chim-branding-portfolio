@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { getCaseBodyMedia, getCaseCover, getCaseHero } from "../../lib/case-media";
+import { groupBodyAssets, UNSECTIONED_GROUP } from "../../lib/chapters";
 import { getBrandingCases, getPhotographyCases, sortPublishedCases } from "../../lib/sort-cases";
 import { fetchOfficialContent, fetchOfficialJson } from "../helpers/official-content";
 
@@ -43,6 +44,25 @@ describe("GitHub official portfolio data", () => {
     expect(hero?.id).toBe(images[1]?.id);
     expect(item.media.some((asset) => asset.portfolioPdfSelected)).toBe(true);
     expect(getCaseBodyMedia(item).some((asset) => asset.id === cover?.id || asset.id === hero?.id)).toBe(false);
+  });
+
+  it("keeps N005 role media outside the legal chapter-start candidates", () => {
+    const item = content.cases.find((entry) => entry.id === "N005")!;
+    const body = getCaseBodyMedia(item);
+    expect(body.length).toBeGreaterThanOrEqual(4);
+    expect(body).not.toContain(getCaseCover(item));
+    expect(body).not.toContain(getCaseHero(item));
+    expect(body.filter((asset) => !asset.section).length).toBeGreaterThan(0);
+  });
+
+  it("keeps N024 cover and hero outside chapters with no false unsectioned group", () => {
+    const item = content.cases.find((entry) => entry.id === "N024")!;
+    const body = getCaseBodyMedia(item);
+    const groups = groupBodyAssets(body);
+    expect(body).not.toContain(getCaseCover(item));
+    expect(body).not.toContain(getCaseHero(item));
+    expect(groups.find((group) => group.id === UNSECTIONED_GROUP)).toBeUndefined();
+    expect(groups.every((group) => Boolean(group.section))).toBe(true);
   });
 
   it("keeps imported V3 provenance complete and verified", () => {

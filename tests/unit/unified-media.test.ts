@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { getCaseBodyMedia, getCaseCover, getCaseHero, mediaRole } from "../../lib/case-media";
+import { getCaseBodyMedia, getCaseCover, getCaseHero, mediaRole, replaceCaseBodyMedia } from "../../lib/case-media";
 import { parseCase } from "../../lib/validation";
 import type { PortfolioCase } from "../../lib/types";
 
@@ -28,6 +28,18 @@ describe("unified case media", () => {
     expect(mediaRole([a, b, c], a)).toBe("cover");
     expect(mediaRole([c, a, b], c)).toBe("cover");
     expect(mediaRole([c, a, b], a)).toBe("hero");
+  });
+
+  it("reorders only body slots while preserving role media and hidden chapter metadata", () => {
+    const item = base([
+      { id: "a", type: "image", src: "/a.jpg", layout: "full", section: { eyebrow: "CHAPTER 99", title: "Hidden while cover" } },
+      { id: "b", type: "image", src: "/b.jpg", layout: "full" },
+      { id: "c", type: "image", src: "/c.jpg", layout: "full" },
+      { id: "d", type: "image", src: "/d.jpg", layout: "full" },
+    ]);
+    const next = replaceCaseBodyMedia(item, [item.media[3], item.media[2]]);
+    expect(next.map((asset) => asset.id)).toEqual(["a", "b", "d", "c"]);
+    expect(next[0].section?.title).toBe("Hidden while cover");
   });
 
   it("allows image-light drafts but rejects published cases without two images", () => {
