@@ -3283,7 +3283,7 @@
       "id": "N013",
       "brandName": "堡乎乎 Manual Burger",
       "projectName": "",
-      "intro": "餐饮品牌视觉与IP Design设计。",
+      "intro": "MANUAL BURGER，主打纯手工现煎爆汁牛肉汉堡的新锐休闲餐饮品牌。\n\n在万物预制、效率至上的快餐时代，我们不愿跟随流水线的标准化套路，坚信好吃的汉堡，永远离不开人工的温度与即时的滚烫。品牌秉持「拙手工，真食材，暖日常」的核心理念，舍弃便捷的冷冻半成品、拒绝二次复热加工，坚持从面包胚到牛肉饼全手工制作。\n\n以招牌热带凤梨牛肉堡为核心爆款，用无水手工面包胚、100%原切纯牛肉、手工锁汁工艺，还原食材本味。我们不止做一份汉堡，更想为奔波的年轻人，提供一口无套路、够实在、超治愈的烟火美味，让简单的干饭时刻，成为生活的小小松弛时刻。",
       "business": "branding",
       "categories": [
         "food",
@@ -3320,69 +3320,93 @@
           "layout": "full"
         },
         {
-          "id": "upload-1789984380931-3bed95",
+          "id": "upload-1789993007969-3df183",
           "type": "image",
-          "src": "/media/cases/N013/1789984371350-58d3a9cb.jpg",
+          "src": "/media/cases/N013/1789993005512-7834b560.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984451156-1a8873",
+          "id": "upload-1789993005511-b32e07",
           "type": "image",
-          "src": "/media/cases/N013/1789984437231-e5974973.jpg",
+          "src": "/media/cases/N013/1789993000657-ecce63bf.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984519178-96e92f",
+          "id": "upload-1789992895839-fb64ee",
           "type": "image",
-          "src": "/media/cases/N013/1789984510125-2b3995fa.jpg",
+          "src": "/media/cases/N013/1789992887236-6ec983ab.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984471763-0c0852",
+          "id": "upload-1789992877572-010e1c",
           "type": "image",
-          "src": "/media/cases/N013/1789984459821-6b9e406f.jpg",
+          "src": "/media/cases/N013/1789992873769-202cdd72.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984510125-d23b97",
+          "id": "upload-1789992887236-f9b08c",
           "type": "image",
-          "src": "/media/cases/N013/1789984499010-89fb6a3f.jpg",
+          "src": "/media/cases/N013/1789992883462-3463908d.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984529520-c49d31",
+          "id": "upload-1789992901149-4ff0e5",
           "type": "image",
-          "src": "/media/cases/N013/1789984519179-3c21a9d0.jpg",
+          "src": "/media/cases/N013/1789992895839-5047779d.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984534405-0a14a0",
+          "id": "upload-1789992929574-6f4111",
           "type": "image",
-          "src": "/media/cases/N013/1789984529520-d7f2d3d1.jpg",
+          "src": "/media/cases/N013/1789992919702-3ae9ad59.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984541126-f11987",
+          "id": "upload-1789992938540-d29e73",
           "type": "image",
-          "src": "/media/cases/N013/1789984534406-06b77689.jpg",
+          "src": "/media/cases/N013/1789992932505-563c39f9.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984548564-7b49dc",
+          "id": "upload-1789992844537-d25edf",
           "type": "image",
-          "src": "/media/cases/N013/1789984541127-e1386512.jpg",
+          "src": "/media/cases/N013/1789992837806-c94e86da.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984560955-1190fc",
+          "id": "upload-1789992867833-2cf175",
           "type": "image",
-          "src": "/media/cases/N013/1789984548565-49dfb4a4.jpg",
+          "src": "/media/cases/N013/1789992862967-8bf3b41f.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1789984573861-babfbf",
+          "id": "upload-1789992906795-0d7ff6",
           "type": "image",
-          "src": "/media/cases/N013/1789984560956-6fba3105.jpg",
+          "src": "/media/cases/N013/1789992901149-50c30fe3.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1789992932504-88efb6",
+          "type": "image",
+          "src": "/media/cases/N013/1789992929574-970fd02d.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1789992883462-e9ad1c",
+          "type": "image",
+          "src": "/media/cases/N013/1789992877573-56a84fa3.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1789992910895-21c84f",
+          "type": "image",
+          "src": "/media/cases/N013/1789992906795-b637aff2.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1789992862967-d50c46",
+          "type": "image",
+          "src": "/media/cases/N013/1789992857237-f0aacf9a.jpg",
           "layout": "full"
         },
         {
