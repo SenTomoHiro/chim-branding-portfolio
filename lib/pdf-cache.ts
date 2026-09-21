@@ -2,7 +2,7 @@ import { getPortfolioPdfCases, resolvePortfolioPdfImages } from "./pdf-portfolio
 import type { ContentData, PortfolioCase } from "./types";
 
 export type PdfTarget = `case:${string}` | "design" | "photography" | `category:${"food" | "drinks" | "ip" | "other"}`;
-export type PdfCacheEntry = { sourceHash: string; filename: string; generatedAt: string };
+export type PdfCacheEntry = { sourceHash: string; filename: string; generatedAt: string; requestId?: string };
 export type PdfCacheManifest = { version: 1; targets: Record<string, PdfCacheEntry> };
 
 export const EMPTY_PDF_CACHE: PdfCacheManifest = { version: 1, targets: {} };

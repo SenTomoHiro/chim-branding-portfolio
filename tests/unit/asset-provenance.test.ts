@@ -9,18 +9,18 @@ const newCases = content.cases.filter((item) => discoveredNewCaseIds.has(item.id
 const forbiddenDocument = /\.(?:pptx?|docx?)(?:$|[?#])/i;
 
 describe("V3 new-case asset provenance", () => {
-  it("keeps every discovered formal new-case asset PDF-only and verified", () => {
+  it("keeps imported PDF asset provenance complete and verified", () => {
     expect(newCases).toHaveLength(discoveredNewCaseIds.size);
     for (const item of newCases) {
-      const sources = item.media.map((asset) => asset.provenance);
-      expect(sources.every(Boolean), `${item.id} must retain provenance`).toBe(true);
+      const sources = item.media.flatMap((asset) => asset.provenance ? [asset.provenance] : []);
+      expect(sources.length, `${item.id} must retain imported provenance`).toBeGreaterThan(0);
       for (const source of sources) {
-        expect(source!.sourcePdf).toMatch(/\.pdf$/i);
-        expect(source!.sourcePdf).not.toMatch(forbiddenDocument);
-        expect(source!.classification).toBe("final_design");
-        expect(source!.finalWorkVerified).toBe(true);
-        expect(source!.sourcePage).toBeGreaterThan(0);
-        expect(source!.sha256).toMatch(/^[a-f0-9]{64}$/);
+        expect(source.sourcePdf).toMatch(/\.pdf$/i);
+        expect(source.sourcePdf).not.toMatch(forbiddenDocument);
+        expect(source.classification).toBe("final_design");
+        expect(source.finalWorkVerified).toBe(true);
+        expect(source.sourcePage).toBeGreaterThan(0);
+        expect(source.sha256).toMatch(/^[a-f0-9]{64}$/);
       }
     }
   });

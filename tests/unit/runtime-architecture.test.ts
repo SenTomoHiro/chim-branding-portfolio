@@ -26,6 +26,7 @@ describe("runtime content architecture", () => {
     const workflow = read(".github/workflows/generate-pdf.yml");
     expect(workflow).toContain("admin_pdf_generate");
     expect(workflow).toContain("--target \"$PDF_TARGET\"");
+    expect(workflow).toContain("--request-id \"$PDF_REQUEST_ID\"");
     expect(workflow).not.toContain("build:pages");
     expect(workflow).toContain("gh release upload pdf-cache");
   });

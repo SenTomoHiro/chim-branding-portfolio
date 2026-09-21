@@ -2,9 +2,9 @@
 
 ## Canonical source
 
-GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正式源。禁止把任何电脑上的目录当作正式代码、案例数据或媒体源；本地目录和 Codex 工作区都只是可随时丢弃的临时环境。
+GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正式源。日常开发只允许使用 Codex Cloud 临时环境；用户 Mac 不保留项目工作副本，也不允许 Codex Desktop 在用户 Mac clone、创建 worktree、build 或 test。Cloud checkout 只是可随时丢弃的临时工作区，任务完成后不得向 Mac 同步工程文件。
 
-以后维护统一从 GitHub 的全新环境开始：clone / Codex 云端临时工作区 → 修改与完整测试 → commit / push `main` → GitHub Actions → GitHub Pages。部署不得依赖某台电脑上的未提交文件、缓存或本地构建产物。
+以后维护统一从 GitHub `main` 的全新 Codex Cloud 临时 checkout 开始：修改与完整测试 → commit / push `main` → GitHub Actions → GitHub Pages。部署不得依赖某台电脑上的未提交文件、缓存或本地构建产物。
 
 ## Three-layer architecture
 
@@ -38,4 +38,4 @@ npm run build:pages
 npm run test:e2e:pages
 ```
 
-发布后还要确认 GitHub Actions Pages workflow 成功、线上 commit 对应 `main`，并从另一个全新 clone 完成 `npm ci`、typecheck、tests 与 `build:pages`。
+发布后还要确认 GitHub Actions Pages workflow 成功、线上 commit 对应 `main`，并从另一个全新 Codex Cloud 临时 checkout 完成 `npm ci`、typecheck、tests 与 `build:pages`。

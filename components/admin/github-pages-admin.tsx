@@ -17,6 +17,7 @@ const api = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const contentPath = "data/content.json";
 const cachePath = "data/pdf-cache.json";
 type RemoteFile = { content: string; sha: string };
+type RemoteRef = { object: { sha: string } };
 let session: { token: string; data?: ContentData; cache: PdfCacheManifest; sha: string } = { token: "", cache: EMPTY_PDF_CACHE, sha: "" };
 
 const decode = <T,>(value: string) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g, "")), (character) => character.charCodeAt(0)))) as T;
@@ -67,20 +68,27 @@ export function GitHubPagesAdmin() {
 
   const generatePdf = useMemo<PdfGenerator>(() => async (target: PdfTarget, sourceHash: string) => {
     const requestId = crypto.randomUUID();
-    const previousGeneratedAt = cache.targets[target]?.generatedAt;
     const dispatch = await fetch(`${api}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ event_type: "admin_pdf_generate", client_payload: { request_id: requestId, target } }) });
     if (!dispatch.ok) throw new Error(await responseError(dispatch, "无法启动 PDF 生成"));
     for (let attempt = 0; attempt < 81; attempt += 1) {
-      const response = await fetch(`${api}/contents/${cachePath}?ref=main&v=${Date.now()}-${attempt}`, { headers: headers(), cache: "no-store" });
-      if (response.ok) {
-        const file = await response.json() as RemoteFile;
-        const next = decode<PdfCacheManifest>(file.content);
-        const entry = next.targets[target];
-        if (entry?.sourceHash === sourceHash && entry.generatedAt !== previousGeneratedAt) {
-          session = { ...session, cache: next }; setCache(next);
-          return { target, filename: pdfFilename(target), url: pdfUrl(target) };
+      try {
+        // Resolve main first, then read the manifest at that immutable revision. Polling
+        // Contents with ref=main can continue serving a cached, pre-workflow revision.
+        const refResponse = await fetch(`${api}/git/ref/heads/main?v=${Date.now()}-${attempt}`, { headers: headers(), cache: "no-store" });
+        if (refResponse.ok) {
+          const revision = ((await refResponse.json()) as RemoteRef).object.sha;
+          const response = await fetch(`${api}/contents/${cachePath}?ref=${encodeURIComponent(revision)}`, { headers: headers(), cache: "no-store" });
+          if (response.ok) {
+            const file = await response.json() as RemoteFile;
+            const next = decode<PdfCacheManifest>(file.content);
+            const entry = next.targets[target];
+            if (entry?.requestId === requestId && entry.sourceHash === sourceHash) {
+              session = { ...session, cache: next }; setCache(next);
+              return { target, filename: entry.filename, url: pdfUrl(target) };
+            }
+          }
         }
-      } else if (response.status !== 404) throw new Error(await responseError(response, "无法确认 PDF 缓存"));
+      } catch { /* A transient network failure must not turn a successful workflow into a UI failure. */ }
       if (attempt < 80) await wait(7500);
     }
     throw new Error("PDF 生成超时，请检查 GitHub Actions。");

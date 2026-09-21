@@ -18,6 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PDF_TARGET: ${{ github.event.client_payload.target }}
+      PDF_REQUEST_ID: ${{ github.event.client_payload.request_id }}
       SITE_ORIGIN: https://sentomohiro.github.io
       NEXT_PUBLIC_BASE_PATH: /chim-branding-portfolio
       NEXT_PUBLIC_CONTENT_ORIGIN: https://raw.githubusercontent.com/SenTomoHiro/chim-branding-portfolio/main
@@ -57,7 +58,7 @@ jobs:
       - name: Update cache manifest
         run: |
           git pull --rebase origin main
-          npx tsx scripts/update-pdf-cache.ts --target "$PDF_TARGET" --content "$RUNNER_TEMP/pdf-source-content.json"
+          npx tsx scripts/update-pdf-cache.ts --target "$PDF_TARGET" --request-id "$PDF_REQUEST_ID" --content "$RUNNER_TEMP/pdf-source-content.json"
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/pdf-cache.json
