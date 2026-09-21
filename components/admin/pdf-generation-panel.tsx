@@ -7,7 +7,7 @@ import type { PdfCacheEntry, PdfTarget } from "@/lib/pdf-cache";
 type Result = { target: string; url: string; filename: string };
 export type PdfGenerator = (target: PdfTarget, sourceHash: string) => Promise<Result>;
 
-export function PdfGenerateAction({ target, label, sourceHash, cacheEntry, disabled = false, hint, tone = "primary", generatePdf }: { target: PdfTarget; label: string; sourceHash: string; cacheEntry?: PdfCacheEntry; disabled?: boolean; hint?: string; tone?: "primary" | "secondary"; generatePdf?: PdfGenerator }) {
+export function PdfGenerateAction({ target, label, sourceHash, cacheEntry, disabled = false, hint, tone = "primary", generatePdf }: { target: PdfTarget; label: string; sourceHash: string; cacheEntry?: PdfCacheEntry; disabled?: boolean; hint?: string; tone?: "primary" | "secondary"; generatePdf: PdfGenerator }) {
   const [pending, setPending] = useState(false);
   const [message, setMessage] = useState("");
   const [result, setResult] = useState<Result | null>(null);
@@ -18,14 +18,7 @@ export function PdfGenerateAction({ target, label, sourceHash, cacheEntry, disab
   async function generate() {
     setPending(true); setMessage("正在生成…"); setResult(null);
     try {
-      let body: Result;
-      if (generatePdf) body = await generatePdf(target, sourceHash);
-      else {
-        const response = await fetch("/api/admin/pdf", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ target }) });
-        const result = await response.json().catch(() => ({})) as Partial<Result> & { error?: string };
-        if (!response.ok || !result.url || !result.filename) throw new Error(result.error || "PDF 生成失败");
-        body = { target, url: result.url, filename: result.filename };
-      }
+      const body = await generatePdf(target, sourceHash);
       setResult(body);
       setMessage("生成成功");
     } catch (error) { setMessage(`生成失败：${error instanceof Error ? error.message : "请重试"}`); }

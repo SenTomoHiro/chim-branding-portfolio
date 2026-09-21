@@ -1,10 +1,8 @@
-import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { getCaseBodyMedia, getCaseCover, getCaseHero, getRoleImages, mediaRole } from "../../lib/case-media";
+import { getCaseBodyMedia, getCaseCover, getCaseHero, mediaRole } from "../../lib/case-media";
 import { parseCase } from "../../lib/validation";
-import type { ContentData, PortfolioCase } from "../../lib/types";
+import type { PortfolioCase } from "../../lib/types";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
 const base = (media: PortfolioCase["media"], published = false): PortfolioCase => ({
   id: "T001", brandName: "Test", projectName: "", intro: "", business: "branding",
   categories: ["other"], primaryIndustry: "", media, published, includeInPortfolioPdf: false,
@@ -38,24 +36,4 @@ describe("unified case media", () => {
     expect(() => parseCase(base(one, true))).toThrow(/2 张图片/);
   });
 
-  it("migrated content has one unique sequence and no legacy role fields", () => {
-    for (const item of content.cases) {
-      expect("cover" in item || "hero" in item || "bodyAssets" in item).toBe(false);
-      expect(new Set(item.media.map((asset) => asset.src)).size).toBe(item.media.length);
-      expect(new Set(item.media.map((asset) => asset.id)).size).toBe(item.media.length);
-      if (item.published) expect(getRoleImages(item.media).hero).toBeTruthy();
-    }
-  });
-
-  it("derives N013 roles from its current media order without duplicating them in the body", () => {
-    const item = content.cases.find((entry) => entry.id === "N013")!;
-    const images = item.media.filter((asset) => asset.type === "image");
-    const cover = getCaseCover(item);
-    const hero = getCaseHero(item);
-
-    expect(cover?.id).toBe(images[0]?.id);
-    expect(hero?.id).toBe(images[1]?.id);
-    expect(item.media.some((asset) => asset.portfolioPdfSelected)).toBe(true);
-    expect(getCaseBodyMedia(item).some((asset) => asset.id === cover?.id || asset.id === hero?.id)).toBe(false);
-  });
 });

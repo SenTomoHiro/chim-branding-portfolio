@@ -1,12 +1,12 @@
-import { expect, test, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
+import { expect, test, type Locator, type Page } from "@playwright/test";
 import { pdfSourceHash, type PdfCacheManifest, type PdfTarget } from "../../lib/pdf-cache";
 import type { ContentData } from "../../lib/types";
+import { fetchOfficialContent } from "../helpers/official-content";
 
 const base = "/chim-branding-portfolio";
 const repoApi = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const release = "https://github.com/SenTomoHiro/chim-branding-portfolio/releases/download/pdf-cache";
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const content = await fetchOfficialContent();
 const emptyCache: PdfCacheManifest = { version: 1, targets: {} };
 const remote = (value: unknown, sha = "fixture-sha") => ({ content: Buffer.from(JSON.stringify(value)).toString("base64"), sha });
 
@@ -20,6 +20,17 @@ async function mockConnection(page: Page, cache: PdfCacheManifest = emptyCache) 
 async function connect(page: Page) {
   await page.getByLabel("Fine-grained personal access token").fill("fixture-token");
   await page.getByRole("button", { name: "连接 GitHub" }).click();
+}
+
+async function startDeterministicDrag(page: Page, source: Locator, target: Locator) {
+  const dataTransfer = await page.evaluateHandle(() => new DataTransfer());
+  await source.dispatchEvent("dragstart", { dataTransfer });
+  await target.dispatchEvent("dragenter", { dataTransfer });
+  return async () => {
+    await target.dispatchEvent("drop", { dataTransfer });
+    await source.dispatchEvent("dragend", { dataTransfer });
+    await dataTransfer.dispose();
+  };
 }
 
 test("Pages admin keeps Contents-only auth and uses one generic case editor", async ({ page }) => {
@@ -36,7 +47,7 @@ test("Pages admin keeps Contents-only auth and uses one generic case editor", as
   const item = content.cases.find((entry) => entry.id === "N014")!;
   await page.locator(".adminCaseList article").filter({ hasText: item.brandName }).getByRole("link", { name: "编辑" }).click();
   await expect(page.getByLabel("品牌名")).toHaveValue(item.brandName);
-  expect(new URL(page.url()).pathname).toBe(`${base}/admin/cases/`);
+  expect(new URL(page.url()).pathname.replace(/\/$/, "")).toBe(`${base}/admin/cases`);
   expect(new URL(page.url()).searchParams.get("id")).toBe(item.id);
 });
 
@@ -121,7 +132,7 @@ test("N011 fresh cache is reused and both admin surfaces show links without a re
   await page.goto(`${base}/admin/cases/?id=N011`); await connect(page);
   await expect(page.getByRole("button", { name: "重新生成", exact: true })).toBeVisible();
   await expect(page.getByRole("link", { name: "打开 PDF" })).toHaveAttribute("href", `${release}/n011.pdf`);
-  await page.goto(`${base}/admin/pdf/`);
+  await page.getByRole("link", { name: "PDF 生成" }).click();
   const row = page.locator(".pdfCaseManagement article").filter({ has: page.getByRole("button", { name: "重新生成", exact: true }) }).filter({ hasText: content.cases.find((item) => item.id === "N011")!.brandName });
   await expect(row.getByRole("link", { name: "下载" })).toBeVisible();
 });
@@ -132,8 +143,9 @@ test("case ordering is handle-only, moves one id, isolates sections and persists
   await page.route(`${repoApi}/contents/data/content.json`, async (route) => { saved = JSON.parse(Buffer.from((route.request().postDataJSON() as { content: string }).content, "base64").toString()) as ContentData; await route.fulfill({ json: { content: { sha: "saved-sha" } } }); });
   await page.goto(`${base}/admin/`); await connect(page);
   const branding = page.locator('[data-order-type="branding"]');
-  const photographyBefore = await page.locator('[data-order-type="photography"] article').evaluateAll((rows) => rows.map((row) => row.getAttribute("data-case-id")));
   const rows = branding.locator("article");
+  await expect(rows.first()).toBeVisible();
+  const photographyBefore = await page.locator('[data-order-type="photography"] article').evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")));
   const initial = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
   expect(initial.length).toBeGreaterThan(4);
   await expect(rows.first()).not.toHaveAttribute("draggable", "true");
@@ -141,13 +153,14 @@ test("case ordering is handle-only, moves one id, isolates sections and persists
   for (const selector of [".adminThumb", ".adminCaseName", ".status", "a", ".dangerText"]) await rows.nth(1).locator(selector).dragTo(rows.nth(3));
   expect(await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")))).toEqual(initial);
 
-  await rows.nth(1).locator(".dragHandle").dragTo(rows.nth(3));
+  const activeId = initial[1];
+  const targetId = initial[3];
+  const finishDrag = await startDeterministicDrag(page, branding.locator(`[data-case-id="${activeId}"] .dragHandle`), branding.locator(`[data-case-id="${targetId}"]`));
   const expected = [initial[0], initial[2], initial[3], initial[1], ...initial.slice(4)];
+  await expect.poll(() => rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!))).toEqual(expected);
+  await finishDrag();
   const moved = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
   expect(moved).toEqual(expected); expect(new Set(moved)).toEqual(new Set(initial)); expect(moved).toHaveLength(initial.length);
-  await rows.first().locator(".dragHandle").dragTo(rows.nth(2));
-  await rows.nth(2).locator(".dragHandle").dragTo(rows.first());
-  await rows.last().locator(".dragHandle").dragTo(rows.nth(2));
   const finalOrder = await rows.evaluateAll((nodes) => nodes.map((node) => node.getAttribute("data-case-id")!));
   await branding.getByRole("button", { name: "保存排序" }).click();
   await expect.poll(() => saved?.defaultOrder).toEqual(finalOrder);

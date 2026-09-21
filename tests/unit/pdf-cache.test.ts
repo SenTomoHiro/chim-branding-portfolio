@@ -1,9 +1,16 @@
-import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { pdfFilename, pdfSourceHash, stableSha256 } from "../../lib/pdf-cache";
-import type { ContentData } from "../../lib/types";
+import { PDF_RENDER_VERSION, pdfFilename, pdfSourceHash, pdfSourceValue, stableSha256 } from "../../lib/pdf-cache";
+import type { ContentData, PortfolioCase } from "../../lib/types";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const item = (id: string, business: PortfolioCase["business"] = "branding"): PortfolioCase => ({
+  id, brandName: id === "N013" ? "堡乎乎" : id, projectName: "", intro: "餐饮品牌设计", business,
+  categories: business === "branding" ? ["food"] : [], primaryIndustry: "餐饮", published: true, includeInPortfolioPdf: true,
+  media: [
+    { id: `${id}-cover`, type: "image", src: `/media/${id}/cover.webp`, layout: "full" },
+    { id: `${id}-hero`, type: "image", src: `/media/${id}/hero.webp`, layout: "full", portfolioPdfSelected: true },
+  ],
+});
+const content: ContentData = { cases: [item("N013"), item("P001", "photography")], defaultOrder: ["N013"], photographyCaseOrder: ["P001"] };
 
 describe("PDF source cache", () => {
   it("uses the standard SHA-256 algorithm in browser-compatible code", () => {
@@ -42,5 +49,19 @@ describe("PDF source cache", () => {
     expect(pdfFilename("design")).toBe("portfolio-design.pdf");
     expect(pdfFilename("photography")).toBe("portfolio-photography.pdf");
     expect(pdfFilename("category:food")).toBe("portfolio-design-food.pdf");
+  });
+
+  it("includes the explicit render version in every source hash", () => {
+    expect(PDF_RENDER_VERSION).toBe(2);
+    expect(pdfSourceValue(content, "case:N013")).toMatchObject({ renderVersion: 2 });
+    expect(pdfSourceValue(content, "design")).toMatchObject({ renderVersion: 2 });
+  });
+
+  it("includes formal provenance dimensions used by masonry", () => {
+    const withDimensions = structuredClone(content);
+    withDimensions.cases[0].media[0].provenance = { width: 1600, height: 900 } as PortfolioCase["media"][number]["provenance"];
+    const original = pdfSourceHash(withDimensions, "case:N013");
+    withDimensions.cases[0].media[0].provenance!.height = 1200;
+    expect(pdfSourceHash(withDimensions, "case:N013")).not.toBe(original);
   });
 });

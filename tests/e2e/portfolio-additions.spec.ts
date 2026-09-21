@@ -1,10 +1,9 @@
 import { expect, test, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
 import { caseFullTitle } from "../../lib/case-title";
-import type { ContentData } from "../../lib/types";
+import { fetchOfficialContent } from "../helpers/official-content";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const content = await fetchOfficialContent();
 const ids = ["N021", "N022", "N023", "L012", "N024", "N025"];
 const additions = ids.map((id) => content.cases.find((item) => item.id === id)!);
 test.setTimeout(180_000);
@@ -33,24 +32,6 @@ test("all six completed cases render their selected media and Chapters on deskto
   }
   expect(requestErrors).toEqual([]);
   expect(consoleErrors).toEqual([]);
-});
-
-test("Admin lists all six cases once and exposes their exact media and Chapter structures", async ({ page }) => {
-  await page.goto("/admin");
-  await page.getByLabel("管理员密码").fill("e2e-password");
-  await page.getByRole("button", { name: "登录" }).click();
-  await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-
-  for (const item of additions) {
-    const row = page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(item) });
-    await expect(row, caseFullTitle(item)).toHaveCount(1);
-    await row.getByRole("link", { name: "编辑" }).click();
-    await expect(page.getByLabel("品牌名")).toHaveValue(item.brandName);
-    await expect(page.getByLabel("项目名（可选）")).toHaveValue(item.projectName);
-    await expect(page.locator(".bodyAssetList article")).toHaveCount(item.media.length);
-    await expect(page.locator(".chapterHeader")).toHaveCount(item.media.filter((asset) => asset.section).length);
-    await page.getByRole("link", { name: "返回后台" }).click();
-  }
 });
 
 async function expectReturn(page: Page, viewport: { width: number; height: number }, caseId: string) {

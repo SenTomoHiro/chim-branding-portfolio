@@ -6,12 +6,16 @@ import { contentMediaUrl } from "@/lib/runtime-content";
 import { categoryLabel, formatCaseMetadata } from "@/lib/taxonomy";
 import type { Business, CaseCategory, PortfolioCase } from "@/lib/types";
 import { getCaseBodyMedia, getCaseHero } from "@/lib/case-media";
+import { layoutPdfMasonry, PDF_CONTENT_WIDTH_MM } from "@/lib/pdf-masonry";
 
 type PdfMediaInfo = { id: string; src: string; width: number; height: number; ratio: number };
+export type PdfMediaDimensions = ReadonlyMap<string, { width: number; height: number }>;
 
-function mediaInfo(item: PortfolioCase["media"][number]): PdfMediaInfo {
-  const width = item.width || item.provenance?.width || 1600;
-  const height = item.height || item.provenance?.height || 1200;
+function mediaInfo(item: PortfolioCase["media"][number], dimensions?: PdfMediaDimensions): PdfMediaInfo {
+  const resolved = dimensions?.get(item.src);
+  const width = item.width || item.provenance?.width || resolved?.width;
+  const height = item.height || item.provenance?.height || resolved?.height;
+  if (!width || !height) throw new Error(`PDF 图片缺少真实尺寸：${item.id}`);
   return { id: item.id, src: item.src, width, height, ratio: width / height };
 }
 
@@ -36,16 +40,30 @@ function EditorialTitle({ item, className = "" }: { item: PortfolioCase; classNa
 }
 
 function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
-  return <div className="pdfLongWaterfall">{images.map((image) => <figure key={image.id}><Picture image={image} mode="contain" /></figure>)}</div>;
+  const layout = layoutPdfMasonry(images);
+  const placements = new Map(layout.placements.map((placement) => [placement.id, placement]));
+  return <div
+    className="pdfLongWaterfall"
+    data-pdf-waterfall="true"
+    style={{ width: `${PDF_CONTENT_WIDTH_MM}mm`, height: `${layout.height}mm` }}
+  >{images.map((image) => {
+    const placement = placements.get(image.id)!;
+    return <figure
+      key={image.id}
+      data-media-id={image.id}
+      data-masonry-column={placement.column}
+      style={{ left: `${placement.left}mm`, top: `${placement.top}mm`, width: `${placement.width}mm`, height: `${placement.height}mm` }}
+    ><Picture image={image} mode="contain" /></figure>;
+  })}</div>;
 }
 
-export function CasePdfDocument({ item }: { item: PortfolioCase }) {
+export function CasePdfDocument({ item, dimensions }: { item: PortfolioCase; dimensions?: PdfMediaDimensions }) {
   const heroAsset = getCaseHero(item)!;
-  const hero = mediaInfo(heroAsset);
+  const hero = mediaInfo(heroAsset, dimensions);
   const groups = groupBodyAssets(getCaseBodyMedia(item));
   const resolvedGroups = groups.map((group) => ({
     ...group,
-    images: group.assets.filter((asset) => asset.type === "image").map(mediaInfo),
+    images: group.assets.filter((asset) => asset.type === "image").map((asset) => mediaInfo(asset, dimensions)),
   }));
   return <main className="pdfDocument pdfLongDocument" data-pdf-ready="true">
     <article className="pdfLongCase">
@@ -68,10 +86,10 @@ export function CasePdfDocument({ item }: { item: PortfolioCase }) {
   </main>;
 }
 
-export function PortfolioPdfDocument({ cases, kind, category }: { cases: PortfolioCase[]; kind: Business; category?: CaseCategory }) {
+export function PortfolioPdfDocument({ cases, kind, category, dimensions }: { cases: PortfolioCase[]; kind: Business; category?: CaseCategory; dimensions?: PdfMediaDimensions }) {
   const portfolioLabel = kind === "photography" ? "Photography Portfolio" : category ? `Design / ${categoryLabel(category)} Portfolio` : "Design Portfolio";
   const coverTitle = kind === "photography" ? <>Photography<br />Portfolio</> : category ? <>{categoryLabel(category)}<br />Portfolio</> : <>Design<br />Portfolio</>;
-  const resolved = cases.map((item) => ({ item, images: resolvePortfolioPdfImages(item).map((image) => mediaInfo(item.media.find((asset) => asset.id === image.id)!)) }));
+  const resolved = cases.map((item) => ({ item, images: resolvePortfolioPdfImages(item).map((image) => mediaInfo(item.media.find((asset) => asset.id === image.id)!, dimensions)) }));
   const directoryPageCount = Math.max(1, Math.ceil(cases.length / 20));
   const firstCasePage = 2 + directoryPageCount;
   const entries = resolved.map(({ item, images }, index) => ({ item, images, startPage: firstCasePage + index }));

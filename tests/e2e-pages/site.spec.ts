@@ -1,10 +1,9 @@
 import { expect, test } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
-import type { ContentData } from "../../lib/types";
+import { fetchOfficialContent } from "../helpers/official-content";
 
 const base = "/chim-branding-portfolio";
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const content = await fetchOfficialContent();
 
 test("public pages expose no PDF download links", async ({ page }) => {
   const errors: string[] = [];

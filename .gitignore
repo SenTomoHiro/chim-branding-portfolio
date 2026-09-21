@@ -1,9 +1,12 @@
 node_modules/
+next-env.d.ts
 .next/
 out/
 coverage/
 test-results/
 playwright-report/
+output/
+*.pdf
 .env*
 !.env.example
 .sites-runtime/

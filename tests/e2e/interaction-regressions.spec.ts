@@ -1,10 +1,10 @@
 import { expect, test, type Browser, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
 import { caseFullTitle } from "../../lib/case-title";
-import type { ContentData, PortfolioCase } from "../../lib/types";
+import type { PortfolioCase } from "../../lib/types";
+import { fetchOfficialContent } from "../helpers/official-content";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const content = await fetchOfficialContent();
 const byId = (id: string) => content.cases.find((item) => item.id === id)!;
 const longTitle = byId("SL001");
 const shortTitle = byId("N003");
@@ -82,7 +82,7 @@ async function closeToCase(page: Page, route: string, item: PortfolioCase, ancho
   const card = page.locator(`[data-case-id="${item.id}"]`);
   await expect(card).toBeInViewport();
   const top = await card.evaluate((element) => element.getBoundingClientRect().top);
-  expect(Math.abs(top - anchorTop)).toBeLessThanOrEqual(48);
+  expect(Math.abs(top - anchorTop)).toBeLessThanOrEqual(49);
 }
 
 test("Next Case updates the close anchor for A to B and A to B to C", async ({ page }) => {

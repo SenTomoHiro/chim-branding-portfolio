@@ -12,14 +12,23 @@ function argument(name, fallback = "") {
 
 const siteDirectory = path.resolve(argument("site-dir", "out"));
 const outputDirectory = path.resolve(argument("output-dir", path.join("output", "pdf")));
-const contentFile = path.resolve(argument("content", path.join("data", "content.json")));
+const contentFileArgument = argument("content");
 const basePath = argument("base-path", process.env.NEXT_PUBLIC_BASE_PATH || "").replace(/\/$/, "");
 const externalOrigin = argument("origin").replace(/\/$/, "");
 const target = argument("target", "all");
+const officialContentOrigin = "https://raw.githubusercontent.com/SenTomoHiro/chim-branding-portfolio/main";
 
 if ([path.parse(outputDirectory).root, process.cwd(), siteDirectory].includes(outputDirectory)) throw new Error(`拒绝使用过宽的 PDF 输出目录：${outputDirectory}`);
 
-const content = JSON.parse(await readFile(contentFile, "utf8"));
+async function loadContent() {
+  if (contentFileArgument) return JSON.parse(await readFile(path.resolve(contentFileArgument), "utf8"));
+  const contentOrigin = (process.env.NEXT_PUBLIC_CONTENT_ORIGIN || officialContentOrigin).replace(/\/$/, "");
+  const response = await fetch(`${contentOrigin}/data/content.json`, { cache: "no-store" });
+  if (!response.ok) throw new Error(`正式 PDF 内容加载失败（HTTP ${response.status}）`);
+  return response.json();
+}
+
+const content = await loadContent();
 const publishedCases = content.cases.filter((item) => item.published);
 const optimizedImageCache = new Map();
 
@@ -82,7 +91,7 @@ try {
 
 async function render(route, filename) {
   const page = await browser.newPage({ viewport: { width: 1120, height: 1584 }, deviceScaleFactor: 1 });
-  if (externalOrigin) await page.route("**/*", async (browserRoute) => {
+  await page.route("**/*", async (browserRoute) => {
     const requestUrl = new URL(browserRoute.request().url());
     if (requestUrl.pathname.endsWith("/data/content.json")) return browserRoute.fulfill({ status: 200, contentType: "application/json", body: JSON.stringify(content), headers: { "cache-control": "no-store" } });
     const marker = "/public/media/";
@@ -96,7 +105,11 @@ async function render(route, filename) {
       if (!optimizedImageCache.has(filename)) optimizedImageCache.set(filename, sharp(filename).rotate().resize({ width: 1800, height: 2400, fit: "inside", withoutEnlargement: true }).jpeg({ quality: 80, progressive: true, mozjpeg: true }).toBuffer());
       const image = await optimizedImageCache.get(filename);
       await browserRoute.fulfill({ status: 200, contentType: "image/jpeg", body: image, headers: { "cache-control": "public, max-age=31536000, immutable" } });
-    } catch { await browserRoute.continue(); }
+    } catch {
+      const remote = await browserRoute.fetch({ url: `${officialContentOrigin}/${relative}` });
+      if (remote.ok()) await browserRoute.fulfill({ response: remote });
+      else await browserRoute.continue();
+    }
   });
   const browserErrors = [];
   page.on("pageerror", (error) => browserErrors.push(error.message));
@@ -106,11 +119,14 @@ async function render(route, filename) {
   await page.emulateMedia({ media: "print" });
   await page.evaluate(async () => {
     await document.fonts.ready;
+    const cjkSample = "中文品牌设计餐饮案例";
+    await document.fonts.load("16px 'Noto Sans SC Variable'", cjkSample);
+    if (!document.fonts.check("16px 'Noto Sans SC Variable'", cjkSample)) throw new Error("Noto Sans SC CJK 字体未加载");
     const images = [...document.images];
     await Promise.all(images.map((image) => image.complete ? Promise.resolve() : new Promise((resolve, reject) => { image.addEventListener("load", resolve, { once: true }); image.addEventListener("error", reject, { once: true }); })));
     const broken = images.filter((image) => !image.naturalWidth).map((image) => image.currentSrc || image.src);
     if (broken.length) throw new Error(`图片加载失败：${broken.join("、")}`);
-    if (!document.querySelector("[data-pdf-ready='true']")) throw new Error("PDF 页面未完成渲染");
+    if (!document.querySelector("[data-pdf-ready='true']")) throw new Error(`PDF 页面未完成渲染：${document.body.innerText.slice(0, 240)}`);
   });
   if (browserErrors.length) throw new Error(`PDF 页面运行错误 ${route}：${browserErrors.join(" | ")}`);
   const isLongCase = route.startsWith("/print/case/");

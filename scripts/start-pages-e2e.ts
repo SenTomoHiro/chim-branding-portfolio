@@ -15,15 +15,13 @@ async function build() {
 
 await build();
 const out = path.join(root, "out");
+const officialContentResponse = await fetch("https://raw.githubusercontent.com/SenTomoHiro/chim-branding-portfolio/main/data/content.json", { cache: "no-store" });
+if (!officialContentResponse.ok) throw new Error(`Official content fetch failed: ${officialContentResponse.status}`);
+const officialContent = await officialContentResponse.text();
 const server = createServer(async (request, response) => {
   const url = new URL(request.url || "/", "http://localhost");
-  if (url.pathname === "/__content-origin/data/content.json") { response.setHeader("Content-Type", "application/json"); createReadStream(path.join(root, "data", "content.json")).pipe(response); return; }
-  if (url.pathname.startsWith("/__content-origin/public/media/")) {
-    const mediaPath = url.pathname.slice("/__content-origin/public/".length);
-    const mediaFile = path.resolve(root, "public", mediaPath);
-    const publicRoot = path.resolve(root, "public");
-    if (mediaFile.startsWith(`${publicRoot}${path.sep}`) && await fs.stat(mediaFile).then(() => true).catch(() => false)) { createReadStream(mediaFile).pipe(response); return; }
-  }
+  if (url.pathname === "/__content-origin/data/content.json") { response.setHeader("Content-Type", "application/json"); response.end(officialContent); return; }
+  if (url.pathname.startsWith("/__content-origin/public/media/")) { response.writeHead(302, { location: `https://raw.githubusercontent.com/SenTomoHiro/chim-branding-portfolio/main${url.pathname.slice("/__content-origin".length)}` }); response.end(); return; }
   const pathname = decodeURIComponent(url.pathname).replace(new RegExp(`^${basePath}`), "") || "/";
   const candidate = path.join(out, path.extname(pathname) ? pathname : `${pathname.endsWith("/") ? pathname : `${pathname}/`}index.html`);
   const file = path.resolve(candidate);

@@ -1,15 +1,14 @@
 import { expect, test, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
 import { caseFullTitle } from "../../lib/case-title";
-import type { ContentData } from "../../lib/types";
+import { fetchOfficialContent, fetchOfficialJson } from "../helpers/official-content";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
-const importMap = JSON.parse(readFileSync(new URL("../../case-production/springlai-sol-v1.1/website-import-map.json", import.meta.url), "utf8")) as {
+const content = await fetchOfficialContent();
+const importMap = await fetchOfficialJson<{
   importedMediaCount: number;
   cases: { id: string; name: string; bodyAssetCount: number }[];
   assets: { case: string; order: number; websiteAsset: string; sourceFinalAsset: string }[];
-};
+}>("case-production/springlai-sol-v1.1/website-import-map.json");
 const springlai = content.cases.filter((item) => item.id.startsWith("SL"));
 
 test.setTimeout(180_000);
@@ -89,66 +88,4 @@ test("Brand Evolution and peach chapters preserve the frozen editorial sequence"
     await expect(page.locator(".mediaSectionHeading h2")).toHaveText([...headings]);
     await expect(page.locator(".mediaSectionHeading p")).toHaveText(headings.map((_, index) => `CHAPTER ${String(index + 1).padStart(2, "0")}`));
   }
-});
-
-test("Springlai cases remain visible and editable in the local Admin", async ({ page }) => {
-  await page.goto("/admin");
-  await page.getByLabel("管理员密码").fill("e2e-password");
-  await page.getByRole("button", { name: "登录" }).click();
-  await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-  for (const item of springlai) await expect(page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(item) })).toHaveCount(1);
-  const brandRow = page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(springlai[0]) });
-  await brandRow.getByRole("link", { name: "编辑" }).click();
-  await expect(page.getByLabel("品牌名")).toHaveValue(springlai[0].brandName);
-  await expect(page.getByLabel("项目名（可选）")).toHaveValue(springlai[0].projectName);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(33);
-});
-
-test("Chapter Admin edits, persists, reorders and removes headers without deleting media", async ({ page }) => {
-  await page.goto("/admin");
-  await page.getByLabel("管理员密码").fill("e2e-password");
-  await page.getByRole("button", { name: "登录" }).click();
-  const brand = springlai.find((item) => item.id === "SL001")!;
-  await page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(brand) }).getByRole("link", { name: "编辑" }).click();
-  await expect(page.locator(".chapterHeader")).toHaveCount(4);
-  await expect(page.locator(".chapterNumber")).toHaveText(["CHAPTER 01", "CHAPTER 02", "CHAPTER 03", "CHAPTER 04"]);
-  expect(await page.getByLabel("章节标题").evaluateAll((inputs) => inputs.map((input) => (input as HTMLInputElement).value))).toEqual(["夏季视觉体系", "冬季视觉体系", "2023 秋冬 IP 更新", "2025 品牌升级"]);
-  await page.getByLabel("章节标题").first().fill("夏季视觉体系（测试）");
-  await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  await page.reload();
-  await expect(page.getByLabel("章节标题").first()).toHaveValue("夏季视觉体系（测试）");
-
-  const mediaCount = await page.locator(".bodyAssetList article").count();
-  await page.getByRole("button", { name: "＋ 添加章节" }).click();
-  const creator = page.getByRole("group", { name: "添加章节" });
-  await creator.getByLabel("章节标题").fill("测试新增章节");
-  await creator.getByLabel("章节说明").fill("仅用于临时 E2E fixture。");
-  await creator.getByRole("button", { name: "创建章节" }).click();
-  await expect(page.locator(".chapterHeader")).toHaveCount(5);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
-
-  const created = page.locator(".chapterHeader").filter({ has: page.locator('input[value="测试新增章节"]') });
-  await created.getByRole("button", { name: "↓ Chapter" }).click();
-  await created.getByRole("button", { name: "↑ Chapter" }).click();
-  const targetChapter = page.locator(".chapterHeader").last();
-  const targetId = await targetChapter.locator("xpath=..").getAttribute("data-chapter-id");
-  const movable = created.locator("xpath=..").locator(".bodyAssetList article").last();
-  await movable.locator(".chapterMove").selectOption(targetId!);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
-
-  page.once("dialog", (dialog) => dialog.accept());
-  await created.getByRole("button", { name: "移除 Chapter" }).click();
-  await expect(page.locator(".chapterHeader")).toHaveCount(4);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(mediaCount);
-
-  await page.setViewportSize({ width: 390, height: 844 });
-  await expectNoHorizontalOverflow(page);
-  page.once("dialog", (dialog) => dialog.accept());
-  await page.getByRole("link", { name: "返回后台" }).click();
-  const flat = content.cases.find((item) => item.published && !item.media.some((asset) => asset.section) && item.media.length > 0)!;
-  await page.locator(".adminCaseList article").filter({ hasText: caseFullTitle(flat) }).getByRole("link", { name: "编辑" }).click();
-  await expect(page.locator(".chapterHeader,.unsectionedHeader")).toHaveCount(0);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(flat.media.length);
-  await expect(page.getByRole("button", { name: "＋ 添加章节" })).toBeVisible();
 });

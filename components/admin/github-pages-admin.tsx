@@ -9,7 +9,7 @@ import { PdfAdmin } from "./pdf-admin";
 import type { PdfGenerator } from "./pdf-generation-panel";
 import type { AdminPersistence, UploadedMedia } from "./persistence";
 import { caseFullTitle } from "@/lib/case-title";
-import { EMPTY_PDF_CACHE, pdfFilename, type PdfCacheManifest, type PdfTarget } from "@/lib/pdf-cache";
+import { EMPTY_PDF_CACHE, type PdfCacheManifest, type PdfTarget } from "@/lib/pdf-cache";
 import { pdfUrl } from "@/lib/pdf-path";
 import type { ContentData } from "@/lib/types";
 
@@ -18,20 +18,23 @@ const contentPath = "data/content.json";
 const cachePath = "data/pdf-cache.json";
 type RemoteFile = { content: string; sha: string };
 type RemoteRef = { object: { sha: string } };
-let session: { token: string; data?: ContentData; cache: PdfCacheManifest; sha: string } = { token: "", cache: EMPTY_PDF_CACHE, sha: "" };
+type AdminSession = { token: string; data?: ContentData; cache: PdfCacheManifest; sha: string };
+let moduleSession: AdminSession = { token: "", cache: EMPTY_PDF_CACHE, sha: "" };
+const session = () => typeof window === "undefined" ? moduleSession : ((window as typeof window & { __chimAdminSession?: AdminSession }).__chimAdminSession ||= moduleSession);
+const setSession = (next: AdminSession) => { moduleSession = next; if (typeof window !== "undefined") (window as typeof window & { __chimAdminSession?: AdminSession }).__chimAdminSession = next; };
 
 const decode = <T,>(value: string) => JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\n/g, "")), (character) => character.charCodeAt(0)))) as T;
 const base64 = (bytes: Uint8Array) => { let result = ""; for (let index = 0; index < bytes.length; index += 0x8000) result += String.fromCharCode(...bytes.subarray(index, index + 0x8000)); return btoa(result); };
 const wait = (milliseconds: number) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 const responseError = async (response: Response, fallback: string) => { const body = await response.json().catch(() => ({})) as { message?: string }; return `${fallback}（HTTP ${response.status}${body.message ? `：${body.message}` : ""}）`; };
 
-export function GitHubPagesAdmin() {
+export function GitHubAdmin() {
   const pathname = usePathname();
   const search = useSearchParams();
-  const [token, setToken] = useState(() => session.token);
-  const [data, setData] = useState<ContentData | undefined>(() => session.data);
-  const [cache, setCache] = useState<PdfCacheManifest>(() => session.cache);
-  const [sha, setSha] = useState(() => session.sha);
+  const [token, setToken] = useState(() => session().token);
+  const [data, setData] = useState<ContentData | undefined>(() => session().data);
+  const [cache, setCache] = useState<PdfCacheManifest>(() => session().cache);
+  const [sha, setSha] = useState(() => session().sha);
   const [status, setStatus] = useState("");
   const isCaseEditor = /\/admin\/cases\/?$/.test(pathname);
   const id = isCaseEditor ? search.get("id") || undefined : undefined;
@@ -43,7 +46,7 @@ export function GitHubPagesAdmin() {
     if (response.status === 409 || response.status === 422) throw new Error("内容已发生变化，未覆盖。请重新连接后再保存。");
     if (!response.ok) throw new Error("提交失败：请确认 Token 仍有 Contents 写入权限。");
     const result = await response.json() as { content: { sha: string } };
-    session = { token, data: next, cache, sha: result.content.sha }; setData(next); setSha(result.content.sha);
+    setSession({ token, data: next, cache, sha: result.content.sha }); setData(next); setSha(result.content.sha);
   }
 
   async function upload(file: File, caseId: string): Promise<UploadedMedia> {
@@ -83,7 +86,7 @@ export function GitHubPagesAdmin() {
             const next = decode<PdfCacheManifest>(file.content);
             const entry = next.targets[target];
             if (entry?.requestId === requestId && entry.sourceHash === sourceHash) {
-              session = { ...session, cache: next }; setCache(next);
+              setSession({ ...session(), cache: next }); setCache(next);
               return { target, filename: entry.filename, url: pdfUrl(target) };
             }
           }
@@ -107,16 +110,16 @@ export function GitHubPagesAdmin() {
     const file = await contentResponse.json() as RemoteFile;
     const nextData = decode<ContentData>(file.content);
     const nextCache = cacheResponse.ok ? decode<PdfCacheManifest>(((await cacheResponse.json()) as RemoteFile).content) : EMPTY_PDF_CACHE;
-    session = { token, data: nextData, cache: nextCache, sha: file.sha };
+    setSession({ token, data: nextData, cache: nextCache, sha: file.sha });
     setData(nextData); setCache(nextCache); setSha(file.sha); setStatus("");
   }
-  function logout() { session = { token: "", cache: EMPTY_PDF_CACHE, sha: "" }; setToken(""); setData(undefined); setCache(EMPTY_PDF_CACHE); setSha(""); setStatus(""); }
+  function logout() { setSession({ token: "", cache: EMPTY_PDF_CACHE, sha: "" }); setToken(""); setData(undefined); setCache(EMPTY_PDF_CACHE); setSha(""); setStatus(""); }
 
   if (!data) return <main className="loginPage"><form onSubmit={(event) => { event.preventDefault(); void connect(); }}><p>CHIM® / Admin</p><h1>案例管理</h1><label>Fine-grained personal access token<input type="password" value={token} onChange={(event) => setToken(event.target.value)} autoComplete="off" required /></label><p className="fieldHint">仅限此仓库；权限只需 Contents: Read and write。Token 仅保存在当前页面内存中。</p><button disabled={!token}>{status.includes("正在") ? "连接中…" : "连接 GitHub"}</button>{status && <p className="formError">{status}</p>}</form></main>;
 
   let content: React.ReactNode;
-  if (/\/admin\/pdf\/?$/.test(pathname)) content = <PdfAdmin initial={data} cache={cache} persistence={persistence} enabled generatePdf={generatePdf} />;
-  else if (isCaseEditor) { const item = id ? data.cases.find((entry) => entry.id === id) : undefined; content = <CaseForm initial={isNew ? undefined : item} persistence={persistence} generatePdf={generatePdf} pdfCacheEntry={id ? cache.targets[`case:${id}`] : undefined} />; }
+  if (/\/admin\/pdf\/?$/.test(pathname)) content = <PdfAdmin initial={data} cache={cache} persistence={persistence} generatePdf={generatePdf} />;
+  else if (isCaseEditor) { const item = id ? data.cases.find((entry) => entry.id === id) : undefined; content = <CaseForm key={id || "new"} initial={isNew ? undefined : item} persistence={persistence} generatePdf={generatePdf} pdfCacheEntry={id ? cache.targets[`case:${id}`] : undefined} />; }
   else content = <AdminDashboard initial={data} persistence={persistence} />;
   return <><AdminHeader onLogout={logout} />{content}</>;
 }

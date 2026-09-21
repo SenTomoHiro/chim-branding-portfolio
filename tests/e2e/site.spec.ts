@@ -1,10 +1,10 @@
 import { expect, test, type Page } from "@playwright/test";
-import { readFileSync } from "node:fs";
 import { casePath } from "../../lib/case-route";
 import { caseFullTitle } from "../../lib/case-title";
-import type { CaseCategory, ContentData } from "../../lib/types";
+import type { CaseCategory } from "../../lib/types";
+import { fetchOfficialContent } from "../helpers/official-content";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const content = await fetchOfficialContent();
 const published = content.cases.filter((item) => item.published);
 const brandingPublished = published.filter((item) => item.business === "branding");
 const photographyPublished = published.filter((item) => item.business === "photography");
@@ -13,6 +13,15 @@ test.setTimeout(180_000);
 
 async function expectNoHorizontalOverflow(page: Page) {
   expect(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth)).toBe(false);
+}
+
+async function waitForHeaderAnimations(page: Page) {
+  await page.locator(".siteHeader").evaluate(async (element) => {
+    await Promise.race([
+      Promise.all(element.getAnimations().map((animation) => animation.finished.catch(() => undefined))),
+      new Promise((resolve) => setTimeout(resolve, 1500)),
+    ]);
+  });
 }
 
 test("business and category routes use real filtering while preserving default order", async ({ page }) => {
@@ -38,15 +47,15 @@ test("business and category routes use real filtering while preserving default o
 test("shared masonry keeps equal columns, natural ratios and scroll reveals", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto("/");
-  await page.waitForTimeout(700);
-  const boxes = await page.locator(".caseCard").evaluateAll((cards) => cards.map((card) => { const box = card.getBoundingClientRect(); const image = card.querySelector("img")!.getBoundingClientRect(); return { left: box.left, top: box.top, bottom: box.bottom, width: box.width, imageRatio: image.height / image.width }; }));
+  const cards = page.locator(".caseCard");
+  await expect(cards).toHaveCount(brandingPublished.length);
+  const boxes = await cards.evaluateAll((elements) => elements.map((card) => { const box = card.getBoundingClientRect(); const image = card.querySelector("img")!.getBoundingClientRect(); return { left: box.left, top: box.top, bottom: box.bottom, width: box.width, imageRatio: image.height / image.width }; }));
   expect(new Set(boxes.map((box) => Math.round(box.width))).size).toBe(1);
   expect(new Set(boxes.slice(0, 3).map((box) => Math.round(box.left))).size).toBe(3);
   expect(new Set(boxes.slice(0, 8).map((box) => box.imageRatio.toFixed(2))).size).toBeGreaterThan(3);
   const gridBottomGap = await page.locator(".masonryGrid").evaluate((grid) => { const cards = [...grid.querySelectorAll<HTMLElement>(".caseCard")].map((card) => card.offsetTop + card.offsetHeight); return (grid as HTMLElement).offsetHeight - Math.max(...cards); });
   expect(Math.abs(gridBottomGap)).toBeLessThanOrEqual(1);
   for (const left of [...new Set(boxes.map((box) => Math.round(box.left)))]) { const column = boxes.filter((box) => Math.round(box.left) === left).sort((a, b) => a.top - b.top); for (let index = 1; index < column.length; index += 1) expect(column[index].top - column[index - 1].bottom).toBeGreaterThanOrEqual(17); }
-  const cards = page.locator(".caseCard");
   for (let index = 0; index < 6; index += 1) { await cards.nth(index).hover(); await expect(cards.nth(index).locator(".secondaryMedia")).toHaveCount(1); }
   await cards.nth(8).scrollIntoViewIfNeeded(); await expect(cards.nth(8)).toHaveClass(/isVisible/);
 });
@@ -77,8 +86,10 @@ test("mobile, tablet and desktop layouts have no overflow and use responsive mas
     for (const route of ["/", "/food", "/drinks", "/ip", "/other", "/photo", casePath(brandingPublished[0].id), casePath(photographyPublished[0].id), "/admin"]) {
       await page.goto(route); await expectNoHorizontalOverflow(page);
     }
-    await page.goto("/"); await page.waitForTimeout(650);
-    const columnCount = await page.locator(".caseCard").evaluateAll((cards) => new Set(cards.slice(0, 8).map((card) => Math.round(card.getBoundingClientRect().left))).size);
+    await page.goto("/");
+    const cards = page.locator(".caseCard");
+    await expect(cards).toHaveCount(brandingPublished.length);
+    const columnCount = await cards.evaluateAll((elements) => new Set(elements.slice(0, 8).map((card) => Math.round(card.getBoundingClientRect().left))).size);
     expect(columnCount).toBe(viewport.width < 768 ? 1 : viewport.width < 1200 ? 2 : 3);
   }
 });
@@ -87,6 +98,8 @@ test("case lists keep the shared sticky header and Back To Top without changing 
   for (const viewport of [{ width: 1440, height: 900 }, { width: 390, height: 844 }, { width: 430, height: 932 }]) {
     await page.setViewportSize(viewport);
     await page.goto("/drinks");
+    await expect(page.locator(".caseCard").first()).toBeVisible();
+    await waitForHeaderAnimations(page);
     const beforeUrl = page.url();
     const historyLength = await page.evaluate(() => history.length);
     await page.evaluate(() => window.scrollTo(0, document.documentElement.scrollHeight));
@@ -126,12 +139,19 @@ async function expectStickyHeader(page: Page) {
 }
 
 test("Branding and Photography details keep a sticky header and close to their source lists", async ({ page }) => {
+  test.setTimeout(60_000);
   await page.setViewportSize({ width: 390, height: 844 });
-  for (const [route, expectedBusiness] of [["/food", "branding"], ["/photo", "photography"]] as const) {
-    await page.goto(route);
+  for (const [route, expectedBusiness, indexTitle] of [["/food", "branding", "Food Branding"], ["/photo", "photography", "Photography Works"]] as const) {
+    await page.goto(route, { waitUntil: "networkidle" });
+    await expect(page.getByRole("heading", { name: indexTitle })).toBeVisible({ timeout: 15_000 });
+    const expectedFirstId = expectedBusiness === "photography" ? content.photographyCaseOrder[0] : content.defaultOrder.find((id) => content.cases.find((item) => item.id === id)?.categories.includes("food"))!;
+    await expect(page.locator(".caseCard").first()).toHaveAttribute("data-case-id", expectedFirstId, { timeout: 15_000 });
+    await waitForHeaderAnimations(page);
     const listHeaderHeight = await page.locator(".siteHeader").evaluate((header) => header.getBoundingClientRect().height);
     const card = page.locator(".caseCard a").first(); const href = await card.getAttribute("href"); const target = new URL(href!, page.url()); await card.click();
     await page.waitForURL((url) => url.pathname === target.pathname && url.searchParams.get("id") === target.searchParams.get("id"));
+    await expect(page.locator(".detailHeader")).toBeVisible();
+    await waitForHeaderAnimations(page);
     expect(new URL(page.url()).pathname).toBe(target.pathname);
     expect(new URL(page.url()).searchParams.get("id")).toBe(target.searchParams.get("id"));
     if (await page.evaluate(() => document.documentElement.matches(":active-view-transition"))) await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "0");
@@ -148,6 +168,8 @@ test("Branding and Photography details keep a sticky header and close to their s
     if (expectedBusiness === "photography") expect(metadata).toMatch(/^商业摄影 · /); else expect(metadata).not.toMatch(/^ · /);
     await page.getByRole("button", { name: "返回案例列表" }).click();
     await expect(page).toHaveURL(new RegExp(`${route.replace("/", "\\/")}$`));
+    await expect(page.getByRole("heading", { name: indexTitle })).toBeVisible({ timeout: 15_000 });
+    await waitForHeaderAnimations(page);
   }
 });
 
@@ -284,54 +306,4 @@ test("sitemap publishes fixed runtime list routes without build-time case URLs",
   expect(xml).toContain("/food");
   expect(xml).toContain("/photo");
   expect(xml).not.toContain("/work/");
-});
-
-test("admin taxonomy mutations are usable and reversible", async ({ page }) => {
-  await page.setViewportSize({ width: 390, height: 844 });
-  await page.goto("/admin");
-  await page.getByLabel("管理员密码").fill("wrong"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.locator(".formError")).toContainText("密码错误");
-  await page.getByLabel("管理员密码").fill("e2e-password"); await page.getByRole("button", { name: "登录" }).click(); await expect(page.getByRole("heading", { name: "案例管理" })).toBeVisible();
-  await expect(page.locator('[data-order-type="branding"] .adminCaseList article')).toHaveCount(content.cases.filter((item) => item.business === "branding").length);
-  await expect(page.locator('[data-order-type="photography"] .adminCaseList article')).toHaveCount(content.cases.filter((item) => item.business === "photography").length);
-  await expect(page.getByText("行业标签（逗号分隔）")).toHaveCount(0); await expect(page.getByText("设计标签（逗号分隔）")).toHaveCount(0); await expect(page.getByText("主要设计类型")).toHaveCount(0);
-
-  const brandingSection = page.locator('[data-order-type="branding"]'); const firstName = await brandingSection.locator(".adminCaseName strong").first().textContent();
-  await brandingSection.locator(".adminCaseList article").nth(1).dragTo(brandingSection.locator(".adminCaseList article").first()); await brandingSection.getByRole("button", { name: "保存排序" }).click(); await expect(brandingSection.locator(".saveMessage")).toContainText("已保存");
-  await brandingSection.locator(".adminCaseList article").nth(1).dragTo(brandingSection.locator(".adminCaseList article").first()); await brandingSection.getByRole("button", { name: "保存排序" }).click(); await expect(brandingSection.locator(".adminCaseName strong").first()).toHaveText(firstName || "");
-
-  await page.getByRole("link", { name: "新建案例" }).click();
-  await expect(page.getByLabel("Slug", { exact: true })).toHaveCount(0);
-  await expect(page.getByLabel("细分品类")).toBeVisible(); await expect(page.getByLabel("主要行业")).toHaveCount(0);
-  await expect(page.getByText("案例列表封面", { exact: true })).toHaveCount(0); await expect(page.getByText("案例详情页首图", { exact: true })).toHaveCount(0); await expect(page.getByText("批量上传媒体", { exact: true })).toBeVisible();
-  await page.getByLabel("品牌名").fill(brandingPublished[0].brandName); await page.getByLabel("项目名（可选）").fill(brandingPublished[0].projectName); await page.getByLabel("餐饮").check(); await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".saveMessage")).toHaveText("保存失败：品牌名与项目名组合已存在，请使用唯一标题。");
-  await page.locator(".adminHeader .wordmark").click(); await page.getByRole("link", { name: "新建案例" }).click();
-  await page.getByLabel("品牌名").fill("分类验收草稿");
-  await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check();
-  await page.getByLabel("商业摄影").check();
-  await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
-  await expect(page.getByLabel("饮品")).toBeDisabled(); await expect(page.getByText("商业摄影无需选择所属分类")).toBeVisible();
-  await page.getByLabel("品牌设计").check();
-  await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
-  await page.getByLabel("饮品").check(); await page.getByLabel("IP", { exact: true }).check(); await page.getByLabel("商业摄影").check();
-  await page.getByLabel("细分品类").fill("咖啡");
-  await page.locator('.bodyMediaActions input[type="file"]').setInputFiles(["public/media/cases/N013/cover.webp", "public/media/cases/N013/hero.webp"]);
-  await expect(page.locator(".bodyAssetList article")).toHaveCount(2);
-  await expect(page.getByText("封面", { exact: true })).toBeVisible(); await expect(page.getByText("详情页首图", { exact: true })).toBeVisible();
-  await page.getByRole("button", { name: "保存案例" }).click();
-  await expect(page.locator(".saveMessage")).toHaveText("保存成功");
-  await page.getByRole("link", { name: "返回后台" }).click();
-  let row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await expect(row).toContainText("商业摄影 · 咖啡");
-  await page.reload(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" }); await row.getByRole("link", { name: "编辑" }).click();
-  await expect(page.getByLabel("商业摄影")).toBeChecked(); await expect(page.getByLabel("饮品")).toBeDisabled(); await expect(page.getByLabel("饮品")).not.toBeChecked(); await expect(page.getByLabel("IP", { exact: true })).not.toBeChecked();
-  await page.getByLabel("品牌设计").check(); await expect(page.getByLabel("饮品")).toBeEnabled(); await expect(page.getByLabel("饮品")).not.toBeChecked();
-  await page.locator(".adminHeader .wordmark").click(); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收草稿" });
-  await row.getByRole("button", { name: "草稿" }).click(); await expect(row.getByRole("button", { name: "已发布" })).toBeVisible();
-  await row.getByRole("link", { name: "编辑" }).click(); await page.getByLabel("品牌名").fill("分类验收案例 改名"); await page.getByRole("button", { name: "保存案例" }).click(); await expect(page.locator(".saveMessage")).toHaveText("保存成功"); await page.getByRole("link", { name: "返回后台" }).click();
-  row = page.locator(".adminCaseList article").filter({ hasText: "分类验收案例 改名" }); await expect(row).toBeVisible();
-  const createdHref = (await row.getByRole("link", { name: "编辑" }).getAttribute("href"))!;
-  const createdId = new URL(createdHref, page.url()).searchParams.get("id")!;
-  expect((await page.goto(casePath(createdId)))?.status()).toBe(200); await expect(page.getByRole("heading", { name: "分类验收案例 改名" })).toBeVisible();
-  await page.goto("/admin"); row = page.locator(".adminCaseList article").filter({ hasText: "分类验收案例 改名" }); await row.getByRole("button", { name: "已发布" }).click(); await expect(row.getByRole("button", { name: "草稿" })).toBeVisible();
-  page.once("dialog", (dialog) => dialog.accept()); await row.getByRole("button", { name: "删除" }).click(); await expect(row).toHaveCount(0);
 });

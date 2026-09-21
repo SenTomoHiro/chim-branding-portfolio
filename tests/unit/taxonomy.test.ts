@@ -1,10 +1,10 @@
-import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { getPublishedCases } from "../../lib/sort-cases";
 import { formatCaseMetadata } from "../../lib/taxonomy";
-import type { ContentData } from "../../lib/types";
+import type { ContentData, PortfolioCase } from "../../lib/types";
 
-const content = JSON.parse(readFileSync(new URL("../../data/content.json", import.meta.url), "utf8")) as ContentData;
+const item = (id: string, business: PortfolioCase["business"], categories: PortfolioCase["categories"]): PortfolioCase => ({ id, brandName: id, projectName: "", intro: "", business, categories, primaryIndustry: "", media: [], published: true, includeInPortfolioPdf: false });
+const content: ContentData = { cases: [item("A", "branding", ["food", "ip"]), item("B", "photography", [])], defaultOrder: ["A"], photographyCaseOrder: ["B"] };
 
 describe("portfolio taxonomy", () => {
   it("requires Branding categories and keeps Photography categories empty", () => {
@@ -22,15 +22,15 @@ describe("portfolio taxonomy", () => {
     expect(formatCaseMetadata({ business: "photography", categories: [], primaryIndustry: "茶饮" })).toBe("商业摄影 · 茶饮");
   });
 
-  it("keeps 43 published Branding and 17 published Photography cases", () => {
-    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(43);
-    expect(getPublishedCases(content.cases, content, { business: "photography" })).toHaveLength(17);
+  it("separates published Branding and Photography cases", () => {
+    expect(getPublishedCases(content.cases, content, { business: "branding" })).toHaveLength(1);
+    expect(getPublishedCases(content.cases, content, { business: "photography" })).toHaveLength(1);
   });
 
   it("allows the same case to appear in multiple category filters", () => {
     const food = getPublishedCases(content.cases, content, { business: "branding", category: "food" });
     const ip = getPublishedCases(content.cases, content, { business: "branding", category: "ip" });
-    expect(food.some((item) => item.id === "N013")).toBe(true);
-    expect(ip.some((item) => item.id === "N013")).toBe(true);
+    expect(food.some((item) => item.id === "A")).toBe(true);
+    expect(ip.some((item) => item.id === "A")).toBe(true);
   });
 });

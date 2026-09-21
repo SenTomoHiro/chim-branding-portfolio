@@ -1,4 +1,5 @@
 import type { CaseMedia } from "./types";
+import { moveIdByOffset, moveIdOver } from "./reorder";
 
 export type ChapterGroup = {
   id: string;
@@ -65,13 +66,6 @@ export function moveChapter(assets: CaseMedia[], chapterId: string, direction: -
   return renumberChapters([...unsectioned, ...chapters.flatMap((group) => group.assets)]);
 }
 
-function moveWithin<T>(items: T[], from: number, to: number) {
-  const next = [...items];
-  const [item] = next.splice(from, 1);
-  next.splice(to, 0, item);
-  return next;
-}
-
 function flattenGroups(groups: ChapterGroup[]) {
   return renumberChapters(groups.flatMap((group) => {
     if (!group.section || !group.assets.length) return group.assets.map((asset) => ({ ...asset, section: undefined }));
@@ -83,10 +77,9 @@ export function moveAssetWithinGroup(assets: CaseMedia[], assetId: string, direc
   const groups = groupBodyAssets(assets);
   const group = groups.find((entry) => entry.assets.some((asset) => asset.id === assetId));
   if (!group) return assets;
-  const from = group.assets.findIndex((asset) => asset.id === assetId);
-  const to = from + direction;
-  if (to < 0 || to >= group.assets.length) return assets;
-  group.assets = moveWithin(group.assets, from, to);
+  const current = group.assets.findIndex((asset) => asset.id === assetId);
+  if (current < 0 || current + direction < 0 || current + direction >= group.assets.length) return assets;
+  group.assets = moveIdByOffset(group.assets, assetId, direction);
   return flattenGroups(groups);
 }
 
@@ -94,10 +87,7 @@ export function moveAssetWithinGroupTo(assets: CaseMedia[], assetId: string, tar
   const groups = groupBodyAssets(assets);
   const group = groups.find((entry) => entry.assets.some((asset) => asset.id === assetId));
   if (!group || !group.assets.some((asset) => asset.id === targetAssetId)) return assets;
-  const from = group.assets.findIndex((asset) => asset.id === assetId);
-  const to = group.assets.findIndex((asset) => asset.id === targetAssetId);
-  if (from === to) return assets;
-  group.assets = moveWithin(group.assets, from, to);
+  group.assets = moveIdOver(group.assets, assetId, targetAssetId);
   return flattenGroups(groups);
 }
 

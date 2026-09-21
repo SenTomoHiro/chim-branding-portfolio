@@ -6,6 +6,7 @@ export type PdfCacheEntry = { sourceHash: string; filename: string; generatedAt:
 export type PdfCacheManifest = { version: 1; targets: Record<string, PdfCacheEntry> };
 
 export const EMPTY_PDF_CACHE: PdfCacheManifest = { version: 1, targets: {} };
+export const PDF_RENDER_VERSION = 2;
 
 function canonical(value: unknown): string {
   if (value === null || typeof value !== "object") return JSON.stringify(value);
@@ -57,7 +58,16 @@ function portfolioCaseSource(item: PortfolioCase) {
   return {
     id: item.id, brandName: item.brandName, projectName: item.projectName, intro: item.intro,
     business: item.business, categories: item.categories, primaryIndustry: item.primaryIndustry,
-    media: item.media.filter((media) => selected.has(media.id)).map(({ provenance: _provenance, ...media }) => media),
+    media: item.media.filter((media) => selected.has(media.id)).map(pdfMediaSource),
+  };
+}
+
+function pdfMediaSource(media: PortfolioCase["media"][number]) {
+  const { provenance: _provenance, ...source } = media;
+  return {
+    ...source,
+    width: media.width || media.provenance?.width,
+    height: media.height || media.provenance?.height,
   };
 }
 
@@ -65,7 +75,10 @@ function caseSource(item: PortfolioCase) {
   return {
     id: item.id, brandName: item.brandName, projectName: item.projectName, intro: item.intro,
     business: item.business, categories: item.categories, primaryIndustry: item.primaryIndustry,
-    media: item.media.map(({ provenance: _provenance, portfolioPdfSelected: _selected, ...media }) => media),
+    media: item.media.map((media) => {
+      const { portfolioPdfSelected: _selected, ...source } = pdfMediaSource(media);
+      return source;
+    }),
   };
 }
 
@@ -74,11 +87,11 @@ export function pdfSourceValue(content: ContentData, target: PdfTarget) {
     const id = target.slice(5).toLowerCase();
     const item = content.cases.find((entry) => entry.id.toLowerCase() === id);
     if (!item) throw new Error(`找不到案例：${target.slice(5)}`);
-    return { target, item: caseSource(item) };
+    return { renderVersion: PDF_RENDER_VERSION, target, item: caseSource(item) };
   }
   const category = target.startsWith("category:") ? target.slice(9) as "food" | "drinks" | "ip" | "other" : undefined;
   const business = target === "photography" ? "photography" : "branding";
-  return { target, cases: getPortfolioPdfCases(content, business, category).map(portfolioCaseSource) };
+  return { renderVersion: PDF_RENDER_VERSION, target, cases: getPortfolioPdfCases(content, business, category).map(portfolioCaseSource) };
 }
 
 export function pdfSourceHash(content: ContentData, target: PdfTarget) {

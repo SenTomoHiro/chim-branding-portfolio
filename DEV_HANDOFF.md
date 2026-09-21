@@ -2,9 +2,9 @@
 
 ## Canonical source
 
-GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正式源。日常开发只允许使用 Codex Cloud 临时环境；用户 Mac 不保留项目工作副本，也不允许 Codex Desktop 在用户 Mac clone、创建 worktree、build 或 test。Cloud checkout 只是可随时丢弃的临时工作区，任务完成后不得向 Mac 同步工程文件。
+GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正式源。正式案例数据、排序、媒体、PDF cache 和生成 PDF 都只存在 GitHub；本地只保留程序代码。
 
-以后维护统一从 GitHub `main` 的全新 Codex Cloud 临时 checkout 开始：修改与完整测试 → commit / push `main` → GitHub Actions → GitHub Pages。部署不得依赖某台电脑上的未提交文件、缓存或本地构建产物。
+允许使用 Codex Desktop 本地开发，但必须使用 `--filter=blob:none` partial clone + sparse checkout 的 code-only workspace。从一个干净的官方仓库执行 `npm run setup:local-code-only -- /absolute/destination` 可创建这个工作副本；它不 checkout `data/**`、`public/media/**`、`case-production/**` 或生成 PDF。不得用同步脚本把正式业务数据镜像到项目目录。
 
 ## Three-layer architecture
 
@@ -16,9 +16,15 @@ GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正
 
 - 每个案例只有一个 `media` 顺序。前两张图片分别派生为列表封面与详情 Hero；视频不占用这两个角色；其余媒体进入详情正文。
 - PDF 精选、章节、Full / Half 都记录在同一媒体项上，网站与对应 PDF 共享顺序。
-- 本地与 GitHub Pages 后台共用 `AdminHeader`、`AdminDashboard`、`CaseForm` 和 `PdfAdmin`，只替换认证、持久化和 PDF 执行适配器。
-- Pages 后台只在页面内存保存 GitHub Token，通过 GitHub Contents API 写入 `main` 并读取 `data/pdf-cache.json`；不得写入 localStorage、sessionStorage 或 cookie，也不得轮询 GitHub Actions API。
+- 本地与 GitHub Pages 后台使用同一个 `GitHubAdmin`、`AdminDashboard`、`CaseForm` 和 `PdfAdmin`；不存在本地 persistence 或本地业务 API。
+- 后台只在当前页面内存保存 GitHub Token，通过 GitHub Contents API 写入 `main` 并读取 `data/pdf-cache.json`；不得写入 `.env`、localStorage、sessionStorage、cookie 或仓库文件，也不得轮询 GitHub Actions API。
 - Fine-grained PAT 最小权限仍只有该仓库的 `Contents: Read and write`。PDF workflow 内部使用 `GITHUB_TOKEN` 更新 Release 与 manifest。
+
+## PDF render version
+
+`lib/pdf-cache.ts` 中的 `PDF_RENDER_VERSION` 是 PDF 模板缓存版本。任何会改变 PDF 输出的字体、版式、PDF component、Print CSS 或渲染规则变更都必须 bump 这个数字。不要用 Git commit SHA，否则无关代码会使所有 PDF 过期。
+
+Case 与 Portfolio PDF 共用 `layoutPdfMasonry` 的确定性双列布局：DOM 保持正式媒体顺序，每张图按真实宽高比进入当前较短列，章节边界会重置布局。历史媒体缺少尺寸元数据时，Print 页会在标记 ready 前读取远程图片的 intrinsic size，不允许回退到假定尺寸。
 
 ## Provider boundary
 
@@ -32,10 +38,13 @@ GitHub 只是当前 provider，不是业务结构的一部分。业务组件只�
 npm ci
 npm run typecheck
 npm test
+npm run test:official
 npm run test:e2e
 npm run build
 npm run build:pages
 npm run test:e2e:pages
 ```
 
-发布后还要确认 GitHub Actions Pages workflow 成功、线上 commit 对应 `main`，并从另一个全新 Codex Cloud 临时 checkout 完成 `npm ci`、typecheck、tests 与 `build:pages`。
+发布后还要确认 GitHub Actions Pages workflow 成功、线上 commit 对应 `main`，并从另一个全新 clone 完成 `npm ci`、typecheck、tests 与 `build:pages`。
+
+本地推送代码前先 `git fetch origin main` 并安全同步远程内容提交；禁止 force push 或 `reset --hard`。sparse workspace 只能明确 `git add` 代码路径，commit 前必须检查 `git diff --cached --name-status`，决不能提交 `data/**` 或 `public/media/**` 的删除。
