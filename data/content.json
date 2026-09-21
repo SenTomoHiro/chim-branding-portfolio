@@ -2610,17 +2610,15 @@
     },
     {
       "id": "N011",
+      "brandName": "豚豚冰屋 Tone",
+      "projectName": "",
       "intro": "甜品品牌视觉与IP Design设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "甜品",
-      "includeInPortfolioPdf": true,
-      "brandName": "豚豚冰屋 Tone",
-      "projectName": "",
       "media": [
         {
           "id": "N011-V3-A04",
@@ -2648,6 +2646,7 @@
           "type": "image",
           "src": "/media/cases/N011/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N011-V3-A05",
             "sourceType": "pdf",
@@ -2660,34 +2659,14 @@
             "sha256": "42daa2f04151ebeba94d61cb20ff82ef9f3224f475fddaa38e6e04d742362406",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "N011-V3-A01",
-          "type": "image",
-          "src": "/media/cases/N011/v3-body-01.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:198;smask:199",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2124,
-            "height": 1417,
-            "sha256": "bffc13cea1fd7e16f099a5dad8f18ab4e2e4e334d9abb0507cd1063289cc2494",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N011-V3-A02",
           "type": "image",
           "src": "/media/cases/N011/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N011-V3-A02",
             "sourceType": "pdf",
@@ -2700,14 +2679,34 @@
             "sha256": "049c81ab726ed7732e7b2894f135c93dec3fc278c296104cae91ae65ad21956d",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
+        },
+        {
+          "id": "N011-V3-A01",
+          "type": "image",
+          "src": "/media/cases/N011/v3-body-01.webp",
+          "layout": "full",
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "N011-V3-A01",
+            "sourceType": "pdf",
+            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
+            "sourcePage": 26,
+            "sourceObject": "xref:198;smask:199",
+            "extractionMethod": "pdf_embedded_image_object",
+            "width": 2124,
+            "height": 1417,
+            "sha256": "bffc13cea1fd7e16f099a5dad8f18ab4e2e4e334d9abb0507cd1063289cc2494",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "N011-V3-A03",
           "type": "image",
           "src": "/media/cases/N011/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N011-V3-A03",
             "sourceType": "pdf",
@@ -2720,8 +2719,7 @@
             "sha256": "5d6ea101f80e968b5c5bbaa3dc9a995005a48ddff9228f32672fbbdb4c6ffebc",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N011-V3-A04-2",
@@ -2875,7 +2873,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N012",
