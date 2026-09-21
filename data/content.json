@@ -12039,17 +12039,15 @@
     },
     {
       "id": "N024",
+      "brandName": "大胡子可可",
+      "projectName": "冬季热饮新品系列",
       "intro": "以大胡子人物肖像和高饱和色彩连续发布冬季热饮，并在茶香、香蕉与棉花糖风味中扩展产品叙事。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "冬季热饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "大胡子可可",
-      "projectName": "冬季热饮新品系列",
       "media": [
         {
           "id": "N024-body-10",
@@ -12058,6 +12056,7 @@
           "layout": "full",
           "width": 1001,
           "height": 1000,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-10",
             "sourceObject": "crop-04.jpg",
@@ -12067,14 +12066,14 @@
             "sha256": "aca20d9abc291bbbb53d676c00ed51df3afc46f177232df29c54b0eb434dd8fd",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N024-body-1",
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-1",
             "sourceObject": "241014-大胡子可可-热饮6款-改1_海报-1.jpg",
@@ -12084,14 +12083,19 @@
             "sha256": "29d2b4b92645e1182ae65e6bf85b9188795f27857b82a6fbff0d493126ef0995",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N024-body-2",
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-02.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "热可可启航",
+            "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。"
+          },
           "provenance": {
             "assetId": "N024-body-2",
             "sourceObject": "241016-大胡子可可-热饮6款-预告海报.jpg",
@@ -12101,12 +12105,6 @@
             "sha256": "3600ea1fecafd3b191581d459f30580fc24727ca18e20c6f1de6cb5963d91e0c",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "CHAPTER 03",
-            "title": "茶香与香蕉延展",
-            "description": "在既有冬季体系中加入茶香可可与香蕉棉花糖新品。"
           }
         },
         {
@@ -12114,6 +12112,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-03.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-3",
             "sourceType": "ai",
@@ -12124,12 +12123,6 @@
             "sha256": "1e2abc194298e727e151ad513a4d2e6acc6c7b6928d142bb8579cfc0a52ab3c4",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "热可可启航",
-            "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。"
           }
         },
         {
@@ -12169,6 +12162,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-06.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "可可航海系列",
@@ -12183,8 +12177,7 @@
             "sha256": "9f5dfcad087c768a6cb41807aa64d46d8f22665a22625fe89cacef358ae522f3",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N024-body-7",
@@ -12203,92 +12196,11 @@
           }
         },
         {
-          "id": "N024-body-8",
-          "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-08.jpg",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N024-body-8",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "5d6522ef5ffb2187f9b01f7696a3b7ccb4eab580808765b09da88ef7823e248d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N024-body-9",
-          "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-09.jpg",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N024-body-9",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241024-大胡子可可-热饮2款/241024-大胡子可可-热饮2款.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "a5df6319f55f30a334f2079b516ffaf738db0bd91c3043dfef73e0b5a87e4e7f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N024-body-11",
-          "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-11.jpg",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N024-body-11",
-            "sourceObject": "crop-01.jpg",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 1201,
-            "height": 901,
-            "sha256": "acf36e9e860bc1d96377031032b13b06f3ba184ee40a9ae880d54ec7fbc6e1a8",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N024-body-12",
-          "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-12.jpg",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N024-body-12",
-            "sourceObject": "crop-02.jpg",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 1201,
-            "height": 901,
-            "sha256": "4b2f6215246a74e4e562fbd3aa6bd24e7e728df1ebb99354f3db1cd8922ac256",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N024-body-13",
-          "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-13.jpg",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N024-body-13",
-            "sourceObject": "crop-03.jpg",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 1201,
-            "height": 901,
-            "sha256": "3734f0eb4fd30615d045c151e97066e9076422df7ba398adb480c12c6f83a7b5",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "N024-body-14",
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-14.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-14",
             "sourceObject": "crop-05.jpg",
@@ -12316,7 +12228,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N025",
