@@ -4,7 +4,7 @@ import { spawnSync } from "node:child_process";
 
 const expectedRepository = /(?:github\.com[/:])SenTomoHiro\/chim-branding-portfolio(?:\.git)?$/;
 const patterns = [
-  "/*", "!/*/", "/.github/", "/app/", "/components/", "/lib/", "/pages-static/", "/public/", "!/public/media/", "/scripts/", "/tests/",
+  "/*", "!/*/", "/.github/", "/app/", "/components/", "/lib/", "/pages-static/", "/public/", "!/public/media/cases/", "/scripts/", "/tests/",
 ];
 
 function git(args, options = {}) {
@@ -36,7 +36,7 @@ git(["sparse-checkout", "init", "--no-cone"], { cwd: destination });
 git(["sparse-checkout", "set", "--no-cone", "--stdin"], { cwd: destination, input: `${patterns.join("\n")}\n` });
 git(["checkout", "main"], { cwd: destination });
 
-for (const relative of ["data", "public/media", "output"]) {
+for (const relative of ["data", "public/media/cases", "output"]) {
   if (existsSync(path.join(destination, relative))) throw new Error(`code-only clone 仍包含禁止路径：${relative}`);
 }
 if (git(["config", "--get", "remote.origin.promisor"], { cwd: destination }) !== "true") throw new Error("partial clone promisor 配置缺失。");
