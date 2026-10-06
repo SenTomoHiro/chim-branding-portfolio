@@ -3494,29 +3494,16 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "upload-1791262036427-35a5d1",
-          "type": "image",
-          "src": "/media/cases/N017/1791262031084-add446c6.jpg",
-          "layout": "full"
-        },
-        {
           "id": "upload-1791262069004-ef27c3",
           "type": "image",
           "src": "/media/cases/N017/1791262056456-53813246.jpg",
           "layout": "full"
         },
         {
-          "id": "upload-1791262047563-6ba38b",
+          "id": "upload-1791262036427-35a5d1",
           "type": "image",
-          "src": "/media/cases/N017/1791262042910-5a90f7fe.jpg",
+          "src": "/media/cases/N017/1791262031084-add446c6.jpg",
           "layout": "full"
-        },
-        {
-          "id": "upload-1791262085552-79ad68",
-          "type": "image",
-          "src": "/media/cases/N017/1791262082841-3524e869.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791262073984-41d38f",
@@ -3526,10 +3513,23 @@
           "portfolioPdfSelected": true
         },
         {
+          "id": "upload-1791262047563-6ba38b",
+          "type": "image",
+          "src": "/media/cases/N017/1791262042910-5a90f7fe.jpg",
+          "layout": "full"
+        },
+        {
           "id": "upload-1791262088625-141d52",
           "type": "image",
           "src": "/media/cases/N017/1791262085552-805f4471.jpg",
           "layout": "full"
+        },
+        {
+          "id": "upload-1791262085552-79ad68",
+          "type": "image",
+          "src": "/media/cases/N017/1791262082841-3524e869.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791262092619-a03b1b",
@@ -3544,15 +3544,15 @@
           "layout": "full"
         },
         {
-          "id": "upload-1791262107675-7fabca",
-          "type": "image",
-          "src": "/media/cases/N017/1791262104087-3ede0113.jpg",
-          "layout": "full"
-        },
-        {
           "id": "upload-1791262111168-aa7d10",
           "type": "image",
           "src": "/media/cases/N017/1791262107675-ff879669.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262107675-7fabca",
+          "type": "image",
+          "src": "/media/cases/N017/1791262104087-3ede0113.jpg",
           "layout": "full"
         },
         {
