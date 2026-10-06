@@ -2708,405 +2708,126 @@
     },
     {
       "id": "N012",
-      "intro": "饮品品牌视觉与Brand Identity设计。",
-      "published": true,
+      "brandName": "郑社长满分果汁",
+      "projectName": "",
+      "intro": "郑社长满分果汁，是主打韩式现代时尚的鲜榨果汁新锐品牌。品牌立足韩式鲜果轻养文化，深耕现榨果汁细分领域，拒绝浓缩还原、拒绝香精糖浆、拒绝预制久放。\n\n品牌以「每一杯，都是满分鲜果体验」为核心初心，依托韩式经典鲜榨工艺，甄选优质特色鲜果，通过科学黄金酸甜比调配，还原水果本身的纯粹风味。既传承韩式饮品自然、轻养的内核，又贴合当代年轻人健康、爱美、追求新鲜感、偏爱氛围感的生活需求，用大胆独特的设计、纯粹鲜活的口感，重新定义新式韩式鲜榨果汁。",
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "饮品",
-      "includeInPortfolioPdf": true,
-      "brandName": "郑社长满分果汁",
-      "projectName": "",
       "media": [
         {
-          "id": "N012-V3-A17",
+          "id": "upload-1791260847255-554310",
           "type": "image",
-          "src": "/media/cases/N012/v3-cover.webp",
+          "src": "/media/cases/N012/1791260837750-730e32ef.jpg",
           "layout": "full",
-          "width": 1400,
-          "height": 1050,
-          "provenance": {
-            "assetId": "N012-V3-A17",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:161;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1444,
-            "height": 1083,
-            "sha256": "86fdc27c5b41a36e718041ffc0fdb9146fd910b0085bd11727bdadb7289b137a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A11",
-          "type": "image",
-          "src": "/media/cases/N012/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 38,
-            "sourceObject": "xref:232;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "a37562bf3e29f070dd3e0f9ae05212563d1d2452a75642f967b18c0ac96b0e00",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A01",
+          "id": "upload-1791260837749-f130f3",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-01.webp",
+          "src": "/media/cases/N012/1791260828612-f9c9e1aa.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:291;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1774,
-            "height": 1419,
-            "sha256": "31c6ddd0ee04f5a7f339774df86fa4247fe8f642d6e059fd0efdb98d10a29ec4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A02",
+          "id": "upload-1791260828612-f31ef2",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N012-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:294;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1329,
-            "sha256": "932a1fff19becfad00abacc6ec05a0f92080e3dd76c0919c7083a30af7749178",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N012/1791260823388-7e807260.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791260855499-9af6d5",
+          "type": "image",
+          "src": "/media/cases/N012/1791260847255-e2e2dbe2.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791260859601-03edc6",
+          "type": "image",
+          "src": "/media/cases/N012/1791260855500-0f7018d6.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A03",
+          "id": "upload-1791260873669-12789a",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N012-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 37,
-            "sourceObject": "xref:227;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1329,
-            "sha256": "b6aaf4a0422ecf19e0fc08a0c8ce06e0b02ce5a7dedd42ff6e19deae2415f1f0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N012/1791260859602-d9eebf89.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A04",
+          "id": "upload-1791260876399-368f0a",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N012-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:203;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1304,
-            "sha256": "8ebc2a28715ee04d668b4f7f34c58509032fd2a2372b11d6ac331d5f8cd60768",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N012/1791260873669-1e419ef8.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791260879121-6c077d",
+          "type": "image",
+          "src": "/media/cases/N012/1791260876399-3a8e309d.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A05",
+          "id": "upload-1791260881864-618586",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N012-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:287;smask:288",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1672,
-            "height": 1348,
-            "sha256": "fcd3b43c8ee0939c26151b25ab360476c4b3322fe148bcfa79187dbdde6f4cb2",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260879122-2bf7a494.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A06",
+          "id": "upload-1791260887444-fcfddf",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-06.webp",
+          "src": "/media/cases/N012/1791260884374-ce34e736.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:292;smask:293",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1672,
-            "height": 1348,
-            "sha256": "56178b6643c5357810e78d7401d66c89d47ac49dc961fdcdb9fe00044650e23d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N012-V3-A07",
+          "id": "upload-1791260884374-9c01d0",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 15,
-            "sourceObject": "xref:78;smask:77",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1442,
-            "height": 1535,
-            "sha256": "781f69064239b939e3dc5d9459ab689a6b5e5624b297f153387f99a965596c0a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260881865-53f1909d.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A08",
+          "id": "upload-1791260890054-c99d6c",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:188;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1793,
-            "height": 1195,
-            "sha256": "f347c6e5e3fbdc2a3713521e3d19422b53baaac8b82cccf36ca27f2dc5396884",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260887445-045b0c8d.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A09",
+          "id": "upload-1791260892437-898166",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:183;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1773,
-            "height": 1183,
-            "sha256": "c51c06e325610d73f1365b0c5dd6e3ba3314e1cfc753cee1fbf6007f54d0eb34",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260890055-4ae80a77.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A10",
+          "id": "upload-1791260928233-9a8e53",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:198;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "eb66835bfd24a4bc0c7614da721c257b9cdb8a5710e92a55f38dff23536e34bd",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260921596-91ed4d8f.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A12",
+          "id": "upload-1791260933469-11cee7",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:283;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1750,
-            "height": 1083,
-            "sha256": "8bc1646e51d7cb4e8fbf6a6826aba86e1e67cb86c67b75990648d08d98ba41d4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260928234-349e4285.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A13",
+          "id": "upload-1791260938464-6d5860",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 35,
-            "sourceObject": "xref:289;smask:290",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1603,
-            "height": 1069,
-            "sha256": "26ed9ce1a7bcf08efe1fd016cc6512bbb70b8523fc4cd844894677006f3a934f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260933470-4698e9ca.jpg",
+          "layout": "full"
         },
         {
-          "id": "N012-V3-A14",
+          "id": "upload-1791260921596-6df04c",
           "type": "image",
-          "src": "/media/cases/N012/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:174;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1369,
-            "height": 1149,
-            "sha256": "e48d4c6782bc7a1fe2d3977f884aadef627a0e1d31bac967ff6504d9fe4244bd",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A15",
-          "type": "image",
-          "src": "/media/cases/N012/v3-body-14.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A15",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:214;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1316,
-            "height": 1195,
-            "sha256": "8b4fca064234d6c8d5f1e6dbc1e298aa1567390fea2909514e12bfa80b11ced4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A16",
-          "type": "image",
-          "src": "/media/cases/N012/v3-body-15.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A16",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:193;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1445,
-            "height": 1084,
-            "sha256": "949ec08d903aa5fd89b5a5183d86fd577fd764fd9861834da9b9bd86434bf22a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A17-2",
-          "type": "image",
-          "src": "/media/cases/N012/v3-body-16.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A17",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:161;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1444,
-            "height": 1083,
-            "sha256": "86fdc27c5b41a36e718041ffc0fdb9146fd910b0085bd11727bdadb7289b137a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A18",
-          "type": "image",
-          "src": "/media/cases/N012/v3-body-17.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A18",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:208;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 887,
-            "height": 1328,
-            "sha256": "081ff035958936a8dc6d3d2972d0572b0986a0abe831b4d3d27879950ec08e11",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N012-V3-A19",
-          "type": "image",
-          "src": "/media/cases/N012/v3-body-18.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N012-V3-A19",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260526-郑社长满分果汁/260526-郑社长满分果汁.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:209;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 887,
-            "height": 1328,
-            "sha256": "e2869f3bee1b71a6b4eb014daa926d0ce8131661b5faf66de12c4bf8b29a7644",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N012/1791260892438-1a9a1a26.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N013",
