@@ -3415,329 +3415,143 @@
     },
     {
       "id": "N014",
-      "intro": "咖啡品牌视觉与Art Direction设计。",
-      "published": true,
+      "brandName": "欢树 Halo Tree",
+      "projectName": "",
+      "intro": "都市生活步履匆匆，我们总在忙碌中丢失慢下来的底气。\n欢树以「树」为载体，以「院落」为形态，跳出网红快餐式消费的内卷赛道。\n不做浮夸的网红门店，不追潮流热度，\n只为在繁华城市里，造一处藏着草木气息的治愈空间。\n让奔波的人，有一处可以落脚、放空、自愈的专属角落。",
       "business": "branding",
       "categories": [
         "drinks",
         "other"
       ],
       "primaryIndustry": "咖啡",
-      "includeInPortfolioPdf": true,
-      "brandName": "欢树 Halo Tree",
-      "projectName": "",
       "media": [
         {
-          "id": "N014-V3-A01",
+          "id": "upload-1791256741704-99c990",
           "type": "image",
-          "src": "/media/cases/N014/v3-cover.webp",
+          "src": "/media/cases/N014/1791256731951-6d7b3083.jpg",
           "layout": "full",
-          "width": 1400,
-          "height": 977,
-          "provenance": {
-            "assetId": "N014-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 25,
-            "sourceObject": "xref:172;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1244,
-            "sha256": "036b58fd1313145f72d0045be6d76e606bf61a0c1a8a9df9a87d8f8d7b23a755",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N014-V3-A09",
-          "type": "image",
-          "src": "/media/cases/N014/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:199;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1623,
-            "height": 1082,
-            "sha256": "38098997e8151a9f3fce6f39e76bf75f39700d2cfe4b0899c5f38ee86506c8cc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N014-V3-A01-2",
+          "id": "upload-1791256731951-f6b69e",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-01.webp",
+          "src": "/media/cases/N014/1791256715520-9408f07b.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256715519-c42a12",
+          "type": "image",
+          "src": "/media/cases/N014/1791256702249-cba36e53.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256702249-e38ed9",
+          "type": "image",
+          "src": "/media/cases/N014/1791256672478-d3889112.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 25,
-            "sourceObject": "xref:172;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1244,
-            "sha256": "036b58fd1313145f72d0045be6d76e606bf61a0c1a8a9df9a87d8f8d7b23a755",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N014-V3-A02",
+          "id": "upload-1791256744979-4a7b2b",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N014-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:246;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1211,
-            "sha256": "f8a3173526697ac00adc60ecc31e49312d14b575c908427f217cd85e97aeb0cc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N014/1791256741704-3a1a51de.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256857080-712c4b",
+          "type": "image",
+          "src": "/media/cases/N014/1791256843270-4a377fa5.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256750501-4b7dca",
+          "type": "image",
+          "src": "/media/cases/N014/1791256747615-1c097dc3.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256839962-941568",
+          "type": "image",
+          "src": "/media/cases/N014/1791256833506-57601243.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256747615-e15d3b",
+          "type": "image",
+          "src": "/media/cases/N014/1791256744979-18e45547.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256754290-a203f3",
+          "type": "image",
+          "src": "/media/cases/N014/1791256750502-ff051343.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256768303-610e1d",
+          "type": "image",
+          "src": "/media/cases/N014/1791256757648-67a0cda1.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256799955-bfd331",
+          "type": "image",
+          "src": "/media/cases/N014/1791256789820-327e7e82.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N014-V3-A03",
+          "id": "upload-1791256811949-8b0bd8",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N014-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:209;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1861,
-            "height": 1083,
-            "sha256": "5b926db2bf772451608737fc6423211022a8d6aecfef07b1030ef229f1db709b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N014/1791256799956-79ac430b.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N014-V3-A04",
+          "id": "upload-1791256814494-e4a9c9",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N014-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:193;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1114,
-            "sha256": "5be0017051637bcd61ea4a8de5523b7b29f9fdfde71d482b9140d4cb1aca7efe",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256811950-0fb0bab6.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A05",
+          "id": "upload-1791256833505-e59ba1",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N014-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:204;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1114,
-            "sha256": "9322e938c9f8029265d3a2bc48e9ee04862cd96baed9658c81c23b571b42d7dc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256819107-0abe7df4.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A06",
+          "id": "upload-1791256843269-0a48b3",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-06.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:247;smask:248",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1592,
-            "height": 1225,
-            "sha256": "e2faebe4546c25d90eaa5ff367591b2f03cdade18b030ea7ae5f66b4015137a0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256839963-35c00ddf.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A07",
+          "id": "upload-1791256819106-11518b",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:150;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1689,
-            "height": 1075,
-            "sha256": "d041eb7b122667eef8f3c5d54b4aa00041c3ae5434b354b2765bc5cba4c18fae",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256814494-a4b2144a.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A08",
+          "id": "upload-1791256868804-3b811b",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:167;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1624,
-            "height": 1083,
-            "sha256": "bfb67311f30dc83a8c80e0199c480475df85ae6e54ae3251282bdcb2028ca60f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256857082-4acc3c0f.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A10",
+          "id": "upload-1791256878356-2970c2",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:162;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1428,
-            "height": 1101,
-            "sha256": "c764e411a953392f176fdafb41647ea112b49fee948720de456388f8664ffebb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256868804-3a534ab3.jpg",
+          "layout": "full"
         },
         {
-          "id": "N014-V3-A11",
+          "id": "upload-1791256786950-41df61",
           "type": "image",
-          "src": "/media/cases/N014/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:184;smask:183",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1425,
-            "height": 1069,
-            "sha256": "19bfd97f131bf2a38d1369adf8c1b16d561de9677723a1d2cd90cfaad4469ce1",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N014-V3-A12",
-          "type": "image",
-          "src": "/media/cases/N014/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:239;smask:240",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1424,
-            "height": 1068,
-            "sha256": "ef2df904213d9ef84b57f8dd8c9313d72e94467192f3b611248349c3e291ffc6",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N014-V3-A13",
-          "type": "image",
-          "src": "/media/cases/N014/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:178;smask:177",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1424,
-            "height": 1068,
-            "sha256": "4f06ec75d0c822a2edf7e8568a5ae79d342fa6733223e1b6ef9b630530aa5b6b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N014-V3-A14",
-          "type": "image",
-          "src": "/media/cases/N014/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:244;smask:245",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1357,
-            "height": 905,
-            "sha256": "e1837fa31e3e8749a14f0f4dc59481e4da01d0afc8c12e473b3e0fd03ca9e979",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N014-V3-A15",
-          "type": "image",
-          "src": "/media/cases/N014/v3-body-14.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N014-V3-A15",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260623-欢树/260623-欢树.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:198;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 874,
-            "height": 1123,
-            "sha256": "df43c9cb25c468cc142f513bec44b51b17d51eb1006b0a6046f803300c2590e7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N014/1791256768303-7e10323b.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N015",
