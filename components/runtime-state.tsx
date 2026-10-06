@@ -5,5 +5,5 @@ export function RuntimeLoading({ label = "正在加载案例…" }: { label?: st
 }
 
 export function RuntimeError({ message, retry }: { message: string; retry: () => void }) {
-  return <main className="runtimeState"><p>{message}</p><button type="button" onClick={retry}>重试</button></main>;
+  return <main className="runtimeState" data-pdf-error="true"><p>{message}</p><button type="button" onClick={retry}>重试</button></main>;
 }

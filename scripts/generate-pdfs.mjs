@@ -29,8 +29,49 @@ async function loadContent() {
 }
 
 const content = await loadContent();
-const publishedCases = content.cases.filter((item) => item.published);
 const optimizedImageCache = new Map();
+
+function targetCases(data, requestedTarget) {
+  if (requestedTarget === "all") return data.cases.filter((item) => item.published).map((item) => ({ item, media: item.media.filter((asset) => asset.type === "image") }));
+  if (requestedTarget.startsWith("case:")) {
+    const id = requestedTarget.slice(5).toLowerCase();
+    const item = data.cases.find((candidate) => candidate.id.toLowerCase() === id);
+    if (!item) throw new Error(`找不到案例：${id}`);
+    return [{ item, media: item.media.filter((asset) => asset.type === "image") }];
+  }
+  const category = requestedTarget.startsWith("category:") ? requestedTarget.slice(9) : undefined;
+  const business = requestedTarget === "photography" ? "photography" : "branding";
+  if (!(["design", "photography"].includes(requestedTarget) || category)) throw new Error(`不支持的 PDF 生成目标：${requestedTarget}`);
+  return data.cases
+    .filter((item) => item.published && item.includeInPortfolioPdf && item.business === business && (!category || item.categories.includes(category)))
+    .map((item) => ({ item, media: item.media.filter((asset) => asset.type === "image" && asset.portfolioPdfSelected) }));
+}
+
+async function enrichPdfMediaDimensions(data, requestedTarget) {
+  const needed = targetCases(data, requestedTarget);
+  let count = 0;
+  for (const { item, media } of needed) {
+    for (const asset of media) {
+      if ((asset.width || asset.provenance?.width) && (asset.height || asset.provenance?.height)) continue;
+      const fail = (reason) => new Error(`PDF 图片尺寸预检失败：case id=${item.id} media id=${asset.id} src=${asset.src}${reason ? `（${reason}）` : ""}`);
+      if (!asset.src.startsWith("/media/")) throw fail("只支持从本地 /media 文件读取尺寸");
+      const filename = path.resolve(process.cwd(), "public", `.${asset.src}`);
+      const mediaRoot = path.resolve(process.cwd(), "public", "media");
+      if (!filename.startsWith(`${mediaRoot}${path.sep}`)) throw fail("媒体路径不合法");
+      let metadata;
+      try { metadata = await sharp(filename).metadata(); }
+      catch (error) { throw fail(error instanceof Error ? error.message : "无法读取本地图片"); }
+      if (!metadata.width || !metadata.height) throw fail("图片真实尺寸无效");
+      asset.width = metadata.width;
+      asset.height = metadata.height;
+      count += 1;
+    }
+  }
+  process.stdout.write(`PDF 图片尺寸预检 ${requestedTarget}: 补齐 ${count} 张。\n`);
+  return count;
+}
+
+await enrichPdfMediaDimensions(content, target);
 
 function contentType(filename) {
   const extension = path.extname(filename).toLowerCase();
@@ -114,9 +155,20 @@ async function render(route, filename) {
   const browserErrors = [];
   page.on("pageerror", (error) => browserErrors.push(error.message));
   page.on("console", (message) => { if (message.type() === "error") browserErrors.push(message.text()); });
-  const response = await page.goto(`${origin}${route}`, { waitUntil: "networkidle", timeout: 120_000 });
+  const response = await page.goto(`${origin}${route}`, { waitUntil: "domcontentloaded", timeout: 120_000 });
   if (!response?.ok()) throw new Error(`PDF 页面加载失败 ${route}：HTTP ${response?.status() || "unknown"}`);
   await page.emulateMedia({ media: "print" });
+  try {
+    await page.waitForFunction(() => Boolean(document.querySelector("[data-pdf-ready='true'], [data-pdf-error='true']")), undefined, { timeout: 120_000 });
+  } catch (error) {
+    const state = await page.evaluate(() => ({
+      text: document.body.innerText.slice(0, 1000),
+      readingDimensions: document.body.innerText.includes("正在读取图片真实尺寸"),
+    }));
+    throw new Error(`PDF 页面等待终态超时：route=${route} target=${target} readingDimensions=${state.readingDimensions} text=${JSON.stringify(state.text)}`, { cause: error });
+  }
+  const pageError = await page.evaluate(() => document.querySelector("[data-pdf-error='true']")?.textContent || "");
+  if (pageError) throw new Error(`PDF 页面渲染失败 ${route}：${pageError.trim()}`);
   await page.evaluate(async () => {
     await document.fonts.ready;
     const cjkSample = "中文品牌设计餐饮案例";
@@ -191,7 +243,7 @@ try {
     await render(`/print/portfolio/?kind=design-${category}`, path.join(outputDirectory, `portfolio-design-${category}.pdf`));
   }
   if (target === "all") {
-    for (const item of publishedCases) await render(`/print/case/?id=${encodeURIComponent(item.id)}`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
+    for (const item of content.cases.filter((candidate) => candidate.published)) await render(`/print/case/?id=${encodeURIComponent(item.id)}`, path.join(outputDirectory, "cases", `${item.id.toLowerCase()}.pdf`));
   } else if (target.startsWith("case:")) {
     const id = target.slice(5).toLowerCase();
     const item = content.cases.find((candidate) => candidate.id.toLowerCase() === id);

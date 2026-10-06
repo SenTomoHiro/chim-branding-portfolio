@@ -1,29 +1,49 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { pdfUrl } from "@/lib/pdf-path";
 import type { PdfCacheEntry, PdfTarget } from "@/lib/pdf-cache";
+import { clearPdfPending, getPdfPending, isPdfPendingExpired, type PdfPendingRequest } from "@/lib/pdf-pending";
 
 type Result = { target: string; url: string; filename: string };
-export type PdfGenerator = (target: PdfTarget, sourceHash: string) => Promise<Result>;
+export type PdfGenerator = (target: PdfTarget, sourceHash: string, pending?: PdfPendingRequest, onPending?: (pending: PdfPendingRequest) => void) => Promise<Result>;
 
 export function PdfGenerateAction({ target, label, sourceHash, cacheEntry, disabled = false, hint, tone = "primary", generatePdf }: { target: PdfTarget; label: string; sourceHash: string; cacheEntry?: PdfCacheEntry; disabled?: boolean; hint?: string; tone?: "primary" | "secondary"; generatePdf: PdfGenerator }) {
-  const [pending, setPending] = useState(false);
+  const [pending, setPending] = useState<PdfPendingRequest | undefined>(() => getPdfPending(target));
   const [message, setMessage] = useState("");
   const [result, setResult] = useState<Result | null>(null);
+  const polling = useRef("");
+  const starting = useRef(false);
   const fresh = cacheEntry?.sourceHash === sourceHash;
   const visibleResult = result || (fresh ? { target, url: pdfUrl(target), filename: cacheEntry.filename } : null);
   const buttonLabel = pending ? "生成中…" : cacheEntry ? fresh ? "重新生成" : "重新生成 PDF" : label;
 
-  async function generate() {
-    setPending(true); setMessage("正在生成…"); setResult(null);
+  async function generate(restored?: PdfPendingRequest) {
+    if (!restored && starting.current) return;
+    starting.current = true;
+    const active = restored || pending;
+    if (active && isPdfPendingExpired(active)) { clearPdfPending(target); setPending(undefined); setMessage("生成失败：PDF 生成请求已超时，请重新生成。"); starting.current = false; return; }
+    setMessage("正在生成…"); setResult(null);
     try {
-      const body = await generatePdf(target, sourceHash);
+      const body = await generatePdf(target, sourceHash, active, setPending);
       setResult(body);
       setMessage("生成成功");
-    } catch (error) { setMessage(`生成失败：${error instanceof Error ? error.message : "请重试"}`); }
-    finally { setPending(false); }
+      setPending(undefined);
+    } catch (error) { setMessage(`生成失败：${error instanceof Error ? error.message : "请重试"}`); setPending(undefined); }
+    finally { starting.current = false; }
   }
 
-  return <div className="pdfGenerateAction">{cacheEntry && !fresh && !pending && <span className="pdfStale" role="status">PDF 已过期</span>}<button type="button" className={tone === "primary" ? "primaryButton" : "secondaryButton"} disabled={disabled || pending} onClick={() => void generate()}>{buttonLabel}</button>{hint && <span className="fieldHint">{hint}</span>}{message && <span className={message.startsWith("生成失败") ? "formError" : "saveMessage"} role="status">{message}</span>}{visibleResult && <span className="pdfGenerationResult"><a href={visibleResult.url} target="_blank" rel="noreferrer">打开 PDF</a><a href={visibleResult.url} download={visibleResult.filename}>下载</a></span>}</div>;
+  useEffect(() => {
+    const stored = getPdfPending(target);
+    if (!stored) return;
+    if (isPdfPendingExpired(stored)) { clearPdfPending(target); setPending(undefined); setMessage("生成失败：PDF 生成请求已超时，请重新生成。"); return; }
+    setPending(stored);
+    if (polling.current === stored.requestId) return;
+    polling.current = stored.requestId;
+    void generate(stored);
+  // Only run when the target changes; restored work must retain its original source hash.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [target]);
+
+  return <div className="pdfGenerateAction">{cacheEntry && !fresh && !pending && <span className="pdfStale" role="status">PDF 已过期</span>}<button type="button" className={tone === "primary" ? "primaryButton" : "secondaryButton"} disabled={disabled || Boolean(pending)} onClick={() => void generate()}>{buttonLabel}</button>{hint && <span className="fieldHint">{hint}</span>}{message && <span className={message.startsWith("生成失败") ? "formError" : "saveMessage"} role="status">{message}</span>}{visibleResult && <span className="pdfGenerationResult"><a href={visibleResult.url} target="_blank" rel="noreferrer">打开 PDF</a><a href={visibleResult.url} download={visibleResult.filename}>下载</a></span>}</div>;
 }

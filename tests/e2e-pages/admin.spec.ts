@@ -181,3 +181,49 @@ test("Pages admin reports the repository dispatch error", async ({ page }) => {
   await page.getByRole("button", { name: "生成 Design Portfolio" }).click();
   await expect(page.getByRole("status")).toContainText("HTTP 403：Resource not accessible by personal access token");
 });
+
+test("PDF generation resumes a persisted request after refresh without a second dispatch", async ({ page }) => {
+  const target = "design" as const;
+  let requestId = "";
+  let complete = false;
+  let dispatchCount = 0;
+  await mockConnection(page);
+  await page.route(`${repoApi}/dispatches`, async (route) => {
+    dispatchCount += 1;
+    requestId = (route.request().postDataJSON() as { client_payload: { request_id: string } }).client_payload.request_id;
+    await route.fulfill({ status: 204 });
+  });
+  await page.route(`${repoApi}/contents/data/pdf-cache.json?ref=main-revision`, async (route) => {
+    const cache: PdfCacheManifest = complete ? { version: 1, targets: { [target]: { requestId, sourceHash: pdfSourceHash(content, target), filename: "portfolio-design.pdf", generatedAt: "2026-10-06T00:00:00.000Z" } } } : emptyCache;
+    await route.fulfill({ json: remote(cache) });
+  });
+  await page.clock.install();
+  await page.goto(`${base}/admin/pdf/`); await connect(page);
+  const action = page.locator(".pdfAdminActions .pdfGenerateAction").nth(0);
+  await action.getByRole("button").click();
+  await expect.poll(() => dispatchCount).toBe(1);
+  await expect(action.getByRole("status")).toHaveText("正在生成…");
+  await page.reload(); await connect(page);
+  await expect(action.getByRole("status")).toHaveText("正在生成…");
+  expect(dispatchCount).toBe(1);
+  complete = true;
+  await page.clock.fastForward(7500);
+  await expect(action.getByRole("status")).toHaveText("生成成功");
+  await expect(action.getByRole("link", { name: "打开 PDF" })).toBeVisible();
+  await expect.poll(() => page.evaluate(() => localStorage.getItem("chim.pdf.pending.v1"))).toBe("{}");
+});
+
+test("PDF generation prevents duplicate dispatch and unlocks an expired pending request", async ({ page }) => {
+  const target = "design" as const;
+  let dispatchCount = 0;
+  await page.addInitScript(() => localStorage.setItem("chim.pdf.pending.v1", JSON.stringify({ design: { target: "design", requestId: "expired", sourceHash: "old", startedAt: Date.now() - 10 * 60 * 1000 } })));
+  await mockConnection(page);
+  await page.route(`${repoApi}/dispatches`, async (route) => { dispatchCount += 1; await route.fulfill({ status: 204 }); });
+  await page.goto(`${base}/admin/pdf/`); await connect(page);
+  const action = page.locator(".pdfAdminActions .pdfGenerateAction").nth(0);
+  await expect(action.getByRole("status")).toContainText("已超时");
+  await expect(action.getByRole("button")).toBeEnabled();
+  expect(dispatchCount).toBe(0);
+  await action.getByRole("button").dblclick();
+  await expect.poll(() => dispatchCount).toBe(1);
+});

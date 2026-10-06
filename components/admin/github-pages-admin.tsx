@@ -11,6 +11,7 @@ import type { AdminPersistence, UploadedMedia } from "./persistence";
 import { caseFullTitle } from "@/lib/case-title";
 import { EMPTY_PDF_CACHE, type PdfCacheManifest, type PdfTarget } from "@/lib/pdf-cache";
 import { pdfUrl } from "@/lib/pdf-path";
+import { clearPdfPending, getPdfPending, isPdfPendingExpired, PDF_PENDING_TIMEOUT_MS, savePdfPending, type PdfPendingRequest } from "@/lib/pdf-pending";
 import type { ContentData } from "@/lib/types";
 
 const api = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
@@ -69,11 +70,19 @@ export function GitHubAdmin() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }), [data, sha, token, cache]);
 
-  const generatePdf = useMemo<PdfGenerator>(() => async (target: PdfTarget, sourceHash: string) => {
-    const requestId = crypto.randomUUID();
-    const dispatch = await fetch(`${api}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ event_type: "admin_pdf_generate", client_payload: { request_id: requestId, target } }) });
-    if (!dispatch.ok) throw new Error(await responseError(dispatch, "无法启动 PDF 生成"));
-    for (let attempt = 0; attempt < 81; attempt += 1) {
+  const generatePdf = useMemo<PdfGenerator>(() => async (target: PdfTarget, sourceHash: string, restored, onPending) => {
+    let pending = restored || getPdfPending(target);
+    if (pending && isPdfPendingExpired(pending)) { clearPdfPending(target); throw new Error("PDF 生成请求已超时，请重新生成。"); }
+    if (!pending) {
+      const requestId = crypto.randomUUID();
+      const dispatch = await fetch(`${api}/dispatches`, { method: "POST", headers: { ...headers(), "Content-Type": "application/json" }, body: JSON.stringify({ event_type: "admin_pdf_generate", client_payload: { request_id: requestId, target } }) });
+      if (!dispatch.ok) throw new Error(await responseError(dispatch, "无法启动 PDF 生成"));
+      pending = { target, requestId, sourceHash, startedAt: Date.now() };
+      savePdfPending(pending);
+      onPending?.(pending);
+    }
+    const remaining = () => pending.startedAt + PDF_PENDING_TIMEOUT_MS - Date.now();
+    for (let attempt = 0; remaining() >= 0; attempt += 1) {
       try {
         // Resolve main first, then read the manifest at that immutable revision. Polling
         // Contents with ref=main can continue serving a cached, pre-workflow revision.
@@ -85,15 +94,17 @@ export function GitHubAdmin() {
             const file = await response.json() as RemoteFile;
             const next = decode<PdfCacheManifest>(file.content);
             const entry = next.targets[target];
-            if (entry?.requestId === requestId && entry.sourceHash === sourceHash) {
+            if (entry?.requestId === pending.requestId && entry.sourceHash === pending.sourceHash) {
               setSession({ ...session(), cache: next }); setCache(next);
+              clearPdfPending(target);
               return { target, filename: entry.filename, url: pdfUrl(target) };
             }
           }
         }
       } catch { /* A transient network failure must not turn a successful workflow into a UI failure. */ }
-      if (attempt < 80) await wait(7500);
+      if (remaining() > 0) await wait(Math.min(7500, remaining()));
     }
+    clearPdfPending(target);
     throw new Error("PDF 生成超时，请检查 GitHub Actions。");
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [token, cache]);
