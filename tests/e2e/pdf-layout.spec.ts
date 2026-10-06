@@ -118,11 +118,15 @@ test("N024 resets deterministic waterfall geometry at every chapter", async ({ p
 });
 
 test("portfolio PDF reuses the true waterfall implementation", async ({ page }) => {
-  await page.goto("/print/portfolio/?kind=design-food", { waitUntil: "networkidle" });
+  await page.goto("/print/portfolio/?kind=design-food", { waitUntil: "domcontentloaded" });
   await expect(page.locator("[data-pdf-ready='true']")).toBeVisible();
   const waterfalls = page.locator(".pdfPortfolioLongBody [data-pdf-waterfall='true']");
   await expect(waterfalls.first()).toBeVisible();
   expect(await waterfalls.count()).toBeGreaterThan(0);
+  // Layout readiness plus the inspected chapter's real pixels is deterministic;
+  // global network idle also waits for unrelated offscreen portfolio downloads.
+  await expect.poll(() => waterfalls.first().locator("img").evaluateAll((images: HTMLImageElement[]) =>
+    images.length > 0 && images.every(image => image.complete && image.naturalWidth > 0))).toBe(true);
   await expect(page.locator(".pdfPortfolioLongBody .pdfLongWaterfall").first()).toHaveCSS("position", "relative");
   await expect(page.locator(".pdfPortfolioLongBody .pdfLongWaterfall figure").first()).toHaveCSS("position", "absolute");
 });

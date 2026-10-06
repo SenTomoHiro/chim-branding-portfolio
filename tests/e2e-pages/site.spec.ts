@@ -32,7 +32,7 @@ test("Pages basePath keeps filtered close return position and direct-detail fall
   const target = page.locator(`[data-case-id="${targetCase.id}"]`);
   await target.scrollIntoViewIfNeeded();
   const before = await target.evaluate((element) => element.getBoundingClientRect().top);
-  await target.locator("a").click();
+  await target.locator(".previewCover img").click();
   await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
   await page.locator(".mediaFlow figure").last().scrollIntoViewIfNeeded();
   await page.getByRole("button", { name: "返回案例列表" }).click();
@@ -40,7 +40,7 @@ test("Pages basePath keeps filtered close return position and direct-detail fall
   await expect(target).toBeInViewport();
   const after = await target.evaluate((element) => element.getBoundingClientRect().top);
   expect(Math.abs(after - before)).toBeLessThanOrEqual(48);
-  await expect(page.locator('.categoryNav a[href$="/drinks/"]')).toHaveClass(/active/);
+  await expect(page.locator(".categoryPill")).toContainText("饮品");
 
   const first = content.cases.find((item) => item.id === "N024")!;
   const second = content.cases.find((item) => item.id === "N025")!;
@@ -48,13 +48,13 @@ test("Pages basePath keeps filtered close return position and direct-detail fall
   const firstCard = page.locator(`[data-case-id="${first.id}"]`);
   await firstCard.scrollIntoViewIfNeeded();
   const nextAnchor = await firstCard.evaluate((element) => element.getBoundingClientRect().top);
-  await firstCard.locator("a").click();
+  await firstCard.locator(".previewCover img").click();
   await page.waitForURL((url) => url.pathname.replace(/\/$/, "") === `${base}/work` && url.searchParams.get("id") === first.id);
   await page.locator(".nextCase").click();
   await page.waitForURL((url) => url.pathname.replace(/\/$/, "") === `${base}/work` && url.searchParams.get("id") === second.id);
   await page.getByRole("button", { name: "返回案例列表" }).click();
   await page.waitForURL(new RegExp(`${base}/drinks/?$`));
-  const secondCard = page.locator(`[data-case-id="${second.id}"]`);
+  const secondCard = page.locator(`[data-case-id="${first.id}"]`);
   await expect(secondCard).toBeInViewport();
   expect(Math.abs(await secondCard.evaluate((element) => element.getBoundingClientRect().top) - nextAnchor)).toBeLessThanOrEqual(48);
 
@@ -76,7 +76,7 @@ test("runtime content retries after a fetch failure", async ({ page }) => {
   await page.goto(`${base}/food/`);
   await expect(page.getByText("内容加载失败（HTTP 503）")).toBeVisible();
   await page.getByRole("button", { name: "重试" }).click();
-  await expect(page.locator(".caseCard").first()).toBeVisible();
+  await expect(page.locator(".casePreview").first()).toBeVisible();
   expect(attempts).toBe(2);
 });
 
@@ -88,7 +88,7 @@ test("a new case and its media appear through the generic route without rebuildi
   await page.route("**/__content-origin/data/content.json*", (route) => route.fulfill({ json: fixture }));
   await page.goto(`${base}/work/?id=NEW-RUNTIME`);
   await expect(page.getByRole("heading", { name: "Runtime Fixture · No Build" })).toBeVisible();
-  const sourceUrl = await page.locator(".workHero img").getAttribute("src");
+  const sourceUrl = await page.locator(".detailHero img").getAttribute("src");
   expect(sourceUrl).toContain("/__content-origin/public/media/");
   expect(sourceUrl).not.toContain(`${base}/media/`);
 });

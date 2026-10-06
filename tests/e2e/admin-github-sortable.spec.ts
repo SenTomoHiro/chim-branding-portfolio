@@ -1,6 +1,12 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
 import type { ContentData, PortfolioCase } from "../../lib/types";
 
+// All mutation requests must be handled by an explicit fixture; never reach GitHub.
+test.beforeEach(async ({ page }) => {
+  await page.route("https://api.github.com/**", route =>
+    ["GET", "HEAD"].includes(route.request().method()) ? route.fallback() : route.abort("blockedbyclient"));
+});
+
 const api = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const media = (id: string, section?: PortfolioCase["media"][number]["section"]) => ({
   id, type: "image" as const, src: "/favicon.svg", layout: id.endsWith("4") ? "half" as const : "full" as const,
@@ -48,6 +54,7 @@ async function startBrowserDrag(page: Page, handle: Locator, target: Locator) {
 const ids = (rows: Locator) => rows.evaluateAll((elements) => elements.map((element) => element.getAttribute("data-sortable-id")));
 
 test("local GitHub admin uses a full-row preview and live stable-id case sorting", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1800 });
   await page.addInitScript(() => {
     const original = DataTransfer.prototype.setDragImage;
     DataTransfer.prototype.setDragImage = function (element, x, y) {

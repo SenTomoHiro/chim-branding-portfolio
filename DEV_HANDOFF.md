@@ -48,3 +48,7 @@ npm run test:e2e:pages
 发布后还要确认 GitHub Actions Pages workflow 成功、线上 commit 对应 `main`，并从另一个全新 clone 完成 `npm ci`、typecheck、tests 与 `build:pages`。
 
 本地推送代码前先 `git fetch origin main` 并安全同步远程内容提交；禁止 force push 或 `reset --hard`。sparse workspace 只能明确 `git add` 代码路径，commit 前必须检查 `git diff --cached --name-status`，决不能提交 `data/**` 或 `public/media/**` 的删除。
+
+## Editorial Feed repair handoff (2026-10-06)
+
+本地功能恢复与真实验证记录见 `STATUS_REPORT.md`。后续视觉/动效修改必须保留公共回顶、最初列表入口与 Back/Forward 语义、按章节配对的 Full/Half、正式 runtime 内容及后台/Print/PDF 边界。CHIM 字标与沉浸转场仍待 Claude 收尾；本轮没有 push 或部署。

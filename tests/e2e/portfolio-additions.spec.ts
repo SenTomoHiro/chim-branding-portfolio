@@ -39,14 +39,14 @@ async function expectReturn(page: Page, viewport: { width: number; height: numbe
   await page.goto("/drinks");
   const card = page.locator(`[data-case-id="${caseId}"]`);
   await card.scrollIntoViewIfNeeded();
-  await page.evaluate(() => window.scrollBy(0, -Math.min(120, innerHeight / 6)));
+  await page.evaluate(() => window.scrollBy({top:-Math.min(120, innerHeight / 6),behavior:"instant"}));
   const before = await card.evaluate((element) => element.getBoundingClientRect().top);
-  await card.locator("a").click();
+  await card.locator(".previewCover img").click();
   await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
   await page.locator(".mediaFlow figure").last().scrollIntoViewIfNeeded();
   await page.getByRole("button", { name: "返回案例列表" }).click();
   await expect(page).toHaveURL(/\/drinks$/);
-  await expect(page.locator('.categoryNav a[href="/drinks"]')).toHaveClass(/active/);
+  await expect(page.locator(".categoryPill")).toContainText("饮品");
   await expect(card).toBeInViewport();
   const after = await card.evaluate((element) => element.getBoundingClientRect().top);
   expect(Math.abs(after - before)).toBeLessThanOrEqual(48);

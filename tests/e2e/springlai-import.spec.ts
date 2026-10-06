@@ -49,7 +49,7 @@ test("Springlai detail pages load all media without request, console, or layout 
       await expect(page.locator(".mediaFlow figure")).toHaveCount(item.media.length - 2);
       await page.locator(".nextCase").scrollIntoViewIfNeeded();
       await expectNoHorizontalOverflow(page);
-      await expect(page.locator(".detailHeader")).toHaveCSS("position", "sticky");
+      await expect(page.locator(".detailClose")).toHaveCSS("position", "fixed");
       await expect(page.getByRole("button", { name: "返回案例列表" })).toHaveCSS("opacity", "1");
     }
   }

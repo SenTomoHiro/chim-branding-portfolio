@@ -1,6 +1,7 @@
 import type { Business, CaseCategory } from "./types";
 
 const ENTRY_KEY = "chim-case-list-entry";
+const NEXT_KEY = "chim-case-detail-pending";
 const RETURN_KEY = "chim-case-list-return";
 const MAX_AGE = 12 * 60 * 60 * 1000;
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
@@ -71,6 +72,8 @@ export function saveCaseListEntry(caseId: string, target: string, card: HTMLElem
   };
   entry.trail = [{ source: entry.source, target: entry.target, caseId: entry.caseId }];
   sessionStorage.setItem(ENTRY_KEY, JSON.stringify(entry));
+  sessionStorage.setItem(NEXT_KEY, JSON.stringify(entry));
+  history.replaceState({ ...history.state, chimListEntry: entry }, "");
 }
 
 export function resolveCaseListSource(source: string, business: Business, categories: CaseCategory[]) {
@@ -85,43 +88,32 @@ function writeCaseListEntry(entry: CaseListEntry) {
   sessionStorage.setItem(ENTRY_KEY, JSON.stringify(entry));
 }
 
-export function advanceCaseListEntry(caseId: string, target: string, business: Business, categories: CaseCategory[]) {
+export function advanceCaseListEntry(caseId: string, target: string, _business: Business, _categories: CaseCategory[]) {
   const entry = readCaseListEntry();
   if (!entry || entry.target !== normalizePortfolioPath(`${window.location.pathname}${window.location.search}`)) return;
-  const step: CaseListTrailItem = {
-    source: resolveCaseListSource(entry.source, business, categories),
-    target: normalizePortfolioPath(target),
-    caseId,
-  };
-  const currentIndex = Math.min(entry.detailDepth - 1, entry.trail.length - 1);
-  const trail = [...entry.trail.slice(0, currentIndex + 1), step];
-  writeCaseListEntry({ ...entry, ...step, detailDepth: trail.length, trail, savedAt: Date.now() });
+  const step = { source: entry.source, target: normalizePortfolioPath(target), caseId };
+  const trail = [...entry.trail.slice(0, entry.detailDepth), step];
+  const next = { ...entry, target: step.target, detailDepth: trail.length, trail };
+  writeCaseListEntry(next);
+  sessionStorage.setItem(NEXT_KEY, JSON.stringify(next));
 }
 
-export function syncCaseListEntry(caseId: string, target: string, business: Business, categories: CaseCategory[]) {
-  const entry = readCaseListEntry();
+export function syncCaseListEntry(_caseId: string, target: string, _business: Business, _categories: CaseCategory[]) {
   const normalizedTarget = normalizePortfolioPath(target);
-  if (!entry) return;
-  if (entry.target === normalizedTarget) {
-    const source = resolveCaseListSource(entry.source, business, categories);
-    if (entry.caseId === caseId && entry.source === source) return;
-    const trail = entry.trail.map((step, index) => index === entry.detailDepth - 1
-      ? { ...step, source, target: normalizedTarget, caseId }
-      : step);
-    writeCaseListEntry({ ...entry, source, target: normalizedTarget, caseId, trail, savedAt: Date.now() });
-    return;
+  const stored = parseEntry(JSON.stringify(history.state?.chimDetailEntry || null));
+  const pending = parseEntry(sessionStorage.getItem(NEXT_KEY));
+  sessionStorage.removeItem(NEXT_KEY);
+  const entry = stored?.target === normalizedTarget ? stored : pending?.target === normalizedTarget ? pending : null;
+  if (entry) {
+    writeCaseListEntry(entry);
+    history.replaceState({ ...history.state, chimDetailEntry: entry }, "");
+  } else {
+    clearCaseListEntry();
   }
-  const currentIndex = entry.detailDepth - 1;
-  const matches = entry.trail.map((step, index) => step.target === normalizedTarget ? index : -1).filter((index) => index >= 0);
-  const index = matches.sort((left, right) => Math.abs(left - currentIndex) - Math.abs(right - currentIndex))[0];
-  if (index === undefined) return;
-  const step = { ...entry.trail[index], source: resolveCaseListSource(entry.trail[index].source, business, categories), caseId };
-  const trail = entry.trail.map((item, trailIndex) => trailIndex === index ? step : item);
-  writeCaseListEntry({ ...entry, ...step, trail, detailDepth: index + 1, savedAt: Date.now() });
 }
 
 export function readCaseListEntry() {
-  return parseEntry(sessionStorage.getItem(ENTRY_KEY));
+  return parseEntry(JSON.stringify(history.state?.chimDetailEntry || null)) || parseEntry(sessionStorage.getItem(ENTRY_KEY));
 }
 
 export function requestCaseListReturn(entry: CaseListEntry) {
@@ -130,15 +122,17 @@ export function requestCaseListReturn(entry: CaseListEntry) {
 }
 
 export function readPendingCaseListReturn() {
-  return parseEntry(sessionStorage.getItem(RETURN_KEY)) || readCaseListEntry();
+  return parseEntry(sessionStorage.getItem(RETURN_KEY)) || parseEntry(JSON.stringify(history.state?.chimListEntry || null));
 }
 
 export function clearCaseListReturn() {
   sessionStorage.removeItem(ENTRY_KEY);
   sessionStorage.removeItem(RETURN_KEY);
+  sessionStorage.removeItem(NEXT_KEY);
 }
 
 export function clearCaseListEntry() {
   sessionStorage.removeItem(ENTRY_KEY);
   sessionStorage.removeItem(RETURN_KEY);
+  sessionStorage.removeItem(NEXT_KEY);
 }

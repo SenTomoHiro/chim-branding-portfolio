@@ -3,6 +3,12 @@ import { pdfSourceHash, type PdfCacheManifest, type PdfTarget } from "../../lib/
 import type { ContentData } from "../../lib/types";
 import { fetchOfficialContent } from "../helpers/official-content";
 
+// All mutation requests must be handled by an explicit fixture; never reach GitHub.
+test.beforeEach(async ({ page }) => {
+  await page.route("https://api.github.com/**", route =>
+    ["GET", "HEAD"].includes(route.request().method()) ? route.fallback() : route.abort("blockedbyclient"));
+});
+
 const base = "/chim-branding-portfolio";
 const repoApi = "https://api.github.com/repos/SenTomoHiro/chim-branding-portfolio";
 const release = "https://github.com/SenTomoHiro/chim-branding-portfolio/releases/download/pdf-cache";

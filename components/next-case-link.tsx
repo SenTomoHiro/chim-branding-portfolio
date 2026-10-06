@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { cancelCoverTransition } from "@/lib/cover-transition";
 import { useLayoutEffect } from "react";
 import { casePath } from "@/lib/case-route";
 import { advanceCaseListEntry, syncCaseListEntry } from "@/lib/return-context";
@@ -13,5 +14,5 @@ export function NextCaseLink({ current, next }: { current: CaseTarget; next: Cas
   const currentPath = casePath(current.id);
   const nextPath = casePath(next.id);
   useLayoutEffect(() => syncCaseListEntry(current.id, currentPath, current.business, current.categories), [current]);
-  return <Link className="nextCase" href={nextPath} onNavigate={() => advanceCaseListEntry(next.id, nextPath, next.business, next.categories)}><span>Next case</span><CaseTitle item={next} as="strong" /><span>↗</span></Link>;
+  return <Link className="nextCase" href={nextPath} onNavigate={() => { cancelCoverTransition(); advanceCaseListEntry(next.id, nextPath, next.business, next.categories); }}><span>Next case</span><CaseTitle item={next} as="strong" /><p>{next.business === "photography" ? "Photography" : next.categories.map(c => c.toUpperCase()).join(" / ")}</p><span>→</span></Link>;
 }

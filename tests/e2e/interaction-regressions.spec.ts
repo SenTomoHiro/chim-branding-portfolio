@@ -18,7 +18,7 @@ const waitForCase = (page: Page, id: string) => page.waitForURL((url) => url.pat
 async function titleMetrics(page: Page, item: PortfolioCase, viewport: { width: number; height: number }) {
   await page.setViewportSize(viewport);
   await page.goto(casePath(item.id));
-  const metrics = await page.locator(".workIntro h1").evaluate((element) => {
+  const metrics = await page.locator(".detailIntro h1").evaluate((element) => {
     const style = getComputedStyle(element);
     const fontSize = Number.parseFloat(style.fontSize);
     const lineHeight = Number.parseFloat(style.lineHeight);
@@ -63,9 +63,15 @@ async function openFromDrinks(page: Page, item: PortfolioCase) {
   await page.goto("/drinks");
   const card = page.locator(`[data-case-id="${item.id}"]`);
   await card.scrollIntoViewIfNeeded();
-  await page.evaluate(() => window.scrollBy(0, -Math.min(120, innerHeight / 6)));
+  await page.evaluate(() => window.scrollBy({top:-Math.min(120, innerHeight / 6),behavior:"instant"}));
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
-  await card.locator("a").click();
+  // Click the visible cover as a person would. Locator.click() scrolls the whole
+  // larger desktop image into view first, invalidating the pre-click anchor.
+  const cover = (await card.locator(".previewCover img").boundingBox())!;
+  const height = await page.evaluate(() => innerHeight);
+  const visibleTop = Math.max(0,cover.y), visibleBottom = Math.min(height,cover.y + cover.height);
+  expect(visibleBottom).toBeGreaterThan(visibleTop);
+  await page.mouse.click(cover.x + cover.width / 2,(visibleTop + visibleBottom) / 2);
   await waitForCase(page, item.id);
   return anchorTop;
 }
@@ -85,16 +91,16 @@ async function closeToCase(page: Page, route: string, item: PortfolioCase, ancho
   expect(Math.abs(top - anchorTop)).toBeLessThanOrEqual(49);
 }
 
-test("Next Case updates the close anchor for A to B and A to B to C", async ({ page }) => {
+test("Next Case preserves the first entry for A to B and A to B to C", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   let anchorTop = await openFromDrinks(page, first);
   await followNext(page, second);
-  await closeToCase(page, "/drinks", second, anchorTop);
+  await closeToCase(page, "/drinks", first, anchorTop);
 
   anchorTop = await openFromDrinks(page, first);
   await followNext(page, second);
   await followNext(page, third);
-  await closeToCase(page, "/drinks", third, anchorTop);
+  await closeToCase(page, "/drinks", first, anchorTop);
   await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(1);
 });
 
@@ -116,17 +122,17 @@ async function mobilePage(browser: Browser) {
   return { context, page: await context.newPage() };
 }
 
-test("mobile quick tap enters once, follows Next and closes to the current case", async ({ browser }) => {
+test("mobile quick tap enters once, follows Next and closes to the first entry", async ({ browser }) => {
   const { context, page } = await mobilePage(browser);
   await page.goto("/drinks");
   const card = page.locator(`[data-case-id="${first.id}"]`);
   await card.scrollIntoViewIfNeeded();
   const anchorTop = await card.evaluate((element) => element.getBoundingClientRect().top);
-  await card.locator("a").tap();
+  await card.locator(".previewCover img").tap();
   await waitForCase(page, first.id);
   await expect(page.locator(`[data-case-id="${first.id}"]`)).toHaveCount(0);
   await followNext(page, second);
-  await closeToCase(page, "/drinks", second, anchorTop);
+  await closeToCase(page, "/drinks", first, anchorTop);
   await context.close();
 });
 
@@ -154,14 +160,14 @@ test("mobile longer tap enters while a drag gesture stays on the list", async ({
   await context.close();
 });
 
-test("desktop hover still previews Hero and one click enters detail", async ({ page }) => {
+test("desktop feed cover and title remain clickable", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 900 });
   await page.goto("/drinks");
   const card = page.locator(`[data-case-id="${first.id}"]`);
   await card.scrollIntoViewIfNeeded();
   await card.hover();
-  await expect(card.locator(".secondaryMedia")).toHaveCount(1);
-  await expect(card.locator(".secondaryMedia")).toHaveClass(/isActive/);
-  await card.locator("a").click();
+  await expect(card.locator(".previewCover img")).toBeVisible();
+  await expect(card.locator(".previewTitle")).toBeVisible();
+  await card.locator(".previewCover img").click();
   await waitForCase(page, first.id);
 });
