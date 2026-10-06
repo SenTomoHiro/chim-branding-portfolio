@@ -2274,15 +2274,15 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "upload-1791256731951-f6b69e",
-          "type": "image",
-          "src": "/media/cases/N014/1791256715520-9408f07b.jpg",
-          "layout": "full"
-        },
-        {
           "id": "upload-1791256715519-c42a12",
           "type": "image",
           "src": "/media/cases/N014/1791256702249-cba36e53.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791256731951-f6b69e",
+          "type": "image",
+          "src": "/media/cases/N014/1791256715520-9408f07b.jpg",
           "layout": "full"
         },
         {
