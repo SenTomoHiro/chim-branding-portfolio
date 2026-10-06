@@ -2738,17 +2738,17 @@
           "layout": "full"
         },
         {
-          "id": "upload-1791260855499-9af6d5",
-          "type": "image",
-          "src": "/media/cases/N012/1791260847255-e2e2dbe2.jpg",
-          "layout": "full"
-        },
-        {
           "id": "upload-1791260859601-03edc6",
           "type": "image",
           "src": "/media/cases/N012/1791260855500-0f7018d6.jpg",
           "layout": "full",
           "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791260855499-9af6d5",
+          "type": "image",
+          "src": "/media/cases/N012/1791260847255-e2e2dbe2.jpg",
+          "layout": "full"
         },
         {
           "id": "upload-1791260873669-12789a",
@@ -2764,13 +2764,6 @@
           "layout": "full"
         },
         {
-          "id": "upload-1791260879121-6c077d",
-          "type": "image",
-          "src": "/media/cases/N012/1791260876399-3a8e309d.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
           "id": "upload-1791260881864-618586",
           "type": "image",
           "src": "/media/cases/N012/1791260879122-2bf7a494.jpg",
@@ -2780,6 +2773,13 @@
           "id": "upload-1791260887444-fcfddf",
           "type": "image",
           "src": "/media/cases/N012/1791260884374-ce34e736.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791260879121-6c077d",
+          "type": "image",
+          "src": "/media/cases/N012/1791260876399-3a8e309d.jpg",
           "layout": "full",
           "portfolioPdfSelected": true
         },
