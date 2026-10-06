@@ -1173,349 +1173,136 @@
     },
     {
       "id": "N006",
+      "brandName": "Oi",
+      "projectName": "Coffee",
       "intro": "咖啡品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "咖啡",
-      "includeInPortfolioPdf": true,
-      "brandName": "Oi",
-      "projectName": "Coffee",
       "media": [
         {
-          "id": "N006-V3-A13",
+          "id": "upload-1791278307472-cf8699",
           "type": "image",
-          "src": "/media/cases/N006/v3-cover.webp",
+          "src": "/media/cases/N006/1791278303561-7894539f.jpg",
           "layout": "full",
-          "width": 1354,
-          "height": 1083,
-          "provenance": {
-            "assetId": "N006-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:164;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1354,
-            "height": 1083,
-            "sha256": "210f43bb50cc1aefc5aa5aac2fb7b3e57859a0797741d3b3d3f10882db8f6559",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N006-V3-A05",
-          "type": "image",
-          "src": "/media/cases/N006/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 40,
-            "sourceObject": "xref:219;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1767,
-            "height": 1178,
-            "sha256": "156c928e4f6ea9fc5b15f1c51a7619369f696a236664480cfdbd9d304951b8fc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A01",
+          "id": "upload-1791278190455-74bd12",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-01.webp",
+          "src": "/media/cases/N006/1791278181937-2562b0e6.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791278200893-939e4a",
+          "type": "image",
+          "src": "/media/cases/N006/1791278190456-93ee725f.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 39,
-            "sourceObject": "xref:214;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1779,
-            "height": 1335,
-            "sha256": "f0b63195f63ae05fd41d2cfc59492b29820c329cc217ce9221ba1cf93e139280",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A02",
+          "id": "upload-1791278207804-607ad1",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N006-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:174;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1773,
-            "height": 1330,
-            "sha256": "6c6691c449f763c6790f036d8b55fd2541b41e5b38f76511656615c26b0e5d7c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N006/1791278200894-6afdc952.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A03",
+          "id": "upload-1791278216450-b620c0",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N006-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 35,
-            "sourceObject": "xref:195;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1188,
-            "sha256": "69001c959e056659dd03a2e4c69887b5008f9cb20b565357c9f6fb5b96127d0e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N006/1791278207804-6a51e6d9.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A04",
+          "id": "upload-1791278248183-7db384",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N006-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:169;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1181,
-            "sha256": "45d8a11b76776c8b7d0c9acd21e825acd3f4a126044c5d4dc29dc068bb1fbf0d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N006/1791278239327-162c9404.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791278239327-0c4500",
+          "type": "image",
+          "src": "/media/cases/N006/1791278216451-0a2b640c.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A06",
+          "id": "upload-1791278254504-d2832f",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N006-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:200;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1139,
-            "sha256": "5ea54df8d69817daef5fbee6d6ef9edbc8ecbc8cda9e0ff15ef0e33d6fb73c81",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278248183-61fdd54b.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A07",
+          "id": "upload-1791278287455-05b35f",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-06.webp",
+          "src": "/media/cases/N006/1791278282848-d549b5b4.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:185;smask:184",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1134,
-            "sha256": "491144c8a761b52599d5d5ab022ce8904ea70acaaf0deaf7d3ece79e79c01527",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A08",
+          "id": "upload-1791278264145-0e1d6c",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:190;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1114,
-            "sha256": "24255da728d5bcfafd09adefdc27b45221228f8e474a89ef0d557247545a6c4c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278254505-151dd721.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A09",
+          "id": "upload-1791278270227-3a7526",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 37,
-            "sourceObject": "xref:262;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1621,
-            "height": 1081,
-            "sha256": "7d265255a90667f98bdf05bf1a59eb8ad12f3ab394c00a7b166d351c6fb61ebb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278264146-68c17a54.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A10",
+          "id": "upload-1791278282848-633757",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-09.webp",
+          "src": "/media/cases/N006/1791278275268-985f5c71.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 38,
-            "sourceObject": "xref:261;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1553,
-            "height": 1013,
-            "sha256": "9e1428b10b997be8230b973fa9d4bce1a803ceadf1c41edf0609c59a91da589c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A11",
+          "id": "upload-1791278275267-1a0920",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:179;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1433,
-            "height": 1080,
-            "sha256": "17c890ef1ba66f621880d58ba0fe93e8e600d5a3cc588c2241f0e32f12c86aa5",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278270228-71b3b6b5.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A12",
+          "id": "upload-1791278299360-6c9696",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:152;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1354,
-            "height": 1083,
-            "sha256": "3b62754de72847e833badea70534628c1debd4807cd3f09ccd3b63ef16710515",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278296199-6a88af33.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A13-2",
+          "id": "upload-1791278292029-7bf02a",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:164;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1354,
-            "height": 1083,
-            "sha256": "210f43bb50cc1aefc5aa5aac2fb7b3e57859a0797741d3b3d3f10882db8f6559",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278287456-19dd72d2.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A14",
+          "id": "upload-1791278296199-b0f967",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:157;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1300,
-            "height": 1083,
-            "sha256": "5693d99d18b0d5278c52f92b47a6ed0782f809d6bc349ab98fb44f02a4d8142c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N006/1791278292030-cebececd.jpg",
+          "layout": "full"
         },
         {
-          "id": "N006-V3-A15",
+          "id": "upload-1791278303560-02812f",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-14.webp",
+          "src": "/media/cases/N006/1791278299361-c64880af.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A15",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:258;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1157,
-            "height": 1083,
-            "sha256": "6a0954d5f39ef21f8fde133e5c2b21a6237b1921605177cebed71cd022440d8f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N006-V3-A16",
+          "id": "upload-1791278310733-6bf3dc",
           "type": "image",
-          "src": "/media/cases/N006/v3-body-15.webp",
+          "src": "/media/cases/N006/1791278307473-c6762aef.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N006-V3-A16",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260325-Oi·Coffee/260325-Oi·Coffee.pdf",
-            "sourcePage": 37,
-            "sourceObject": "xref:205;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1083,
-            "height": 1083,
-            "sha256": "6e73522cd74545f50f8be81b614690d431a47538eab812babf5055c9a002fe18",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N007",
