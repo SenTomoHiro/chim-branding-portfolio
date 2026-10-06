@@ -2017,309 +2017,121 @@
     },
     {
       "id": "N009",
-      "intro": "餐饮品牌视觉与Art Direction设计。",
-      "published": true,
+      "brandName": "饭点时光",
+      "projectName": "",
+      "intro": "循时 · 守拙 · 近人\n\n· 循时： 食材跟着季节来，不逆势而为。春天的笋、夏天的瓜、秋天的蟹、冬天的萝卜，到了时候自然上桌。\n· 守拙： 不追求花哨的分子料理，也不用半成品糊弄。该切丝的切丝，该慢炖的慢炖。笨功夫里出真味。\n· 近人： 环境是暖的，服务是轻的。不需要你正襟危坐，也不用你费心社交。你来，就好。",
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "饭点时光",
-      "projectName": "",
       "media": [
         {
-          "id": "N009-V3-A13",
+          "id": "upload-1791277174516-d890aa",
           "type": "image",
-          "src": "/media/cases/N009/v3-cover.webp",
+          "src": "/media/cases/N009/1791277165202-bf2c1cb0.jpg",
           "layout": "full",
-          "width": 1400,
-          "height": 807,
-          "provenance": {
-            "assetId": "N009-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:210;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1652,
-            "height": 952,
-            "sha256": "42cef0f9698528e35a97f0dee84f1851f5097f71e521907bd19573159687de3f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N009-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N009/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 39,
-            "sourceObject": "xref:223;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1774,
-            "height": 1183,
-            "sha256": "fb694e968402595c471c90e0a4dea486195e14cdb59441d77006a1447e69e5e7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A01",
+          "id": "upload-1791277165202-86468f",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-01.webp",
+          "src": "/media/cases/N009/1791277155156-a1c9cda7.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791277180278-a674e2",
+          "type": "image",
+          "src": "/media/cases/N009/1791277174517-8b444f60.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791277203065-f684f5",
+          "type": "image",
+          "src": "/media/cases/N009/1791277199029-f3160d85.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 37,
-            "sourceObject": "xref:266;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2508,
-            "height": 1881,
-            "sha256": "cfd081cd4fed0406dd22ae2bd558abcb9532692cdccba140561857996aaeec94",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A02",
+          "id": "upload-1791277274076-a37b2d",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N009-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 38,
-            "sourceObject": "xref:265;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2116,
-            "height": 1587,
-            "sha256": "93f22d27a40772474dece6a43ecdceb80b0946e2ff84e313f9a0391314cb0c28",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N009/1791277267219-375038a1.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A03",
+          "id": "upload-1791277199029-8cb37c",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N009-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:190;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1473,
-            "sha256": "7ecd28f2c89350511d5dd9c56fb47c6e889d78b7b912badd6442ec1fbf3bf578",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N009/1791277194011-0223d5f4.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791277194008-67cf4b",
+          "type": "image",
+          "src": "/media/cases/N009/1791277189352-d2ece2ba.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A04",
+          "id": "upload-1791277267218-04cefc",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N009-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:200;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1766,
-            "height": 1413,
-            "sha256": "3af0f2b618f61721c8faca3f26af2b9c598c9285d507a9d71fb6a2e6beaccafa",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N009/1791277263286-384dd718.jpg",
+          "layout": "full"
         },
         {
-          "id": "N009-V3-A05",
+          "id": "upload-1791277189351-aac243",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N009-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:263;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1894,
-            "height": 1263,
-            "sha256": "0f5887693e4d8edeb6b9ae713f2ec0e177439e507d06419e46d3c1fdb27309f0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N009/1791277180279-7b57d750.jpg",
+          "layout": "full"
         },
         {
-          "id": "N009-V3-A06",
+          "id": "upload-1791277209359-0a285c",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-06.webp",
+          "src": "/media/cases/N009/1791277203066-08c67d0a.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791277215919-c03765",
+          "type": "image",
+          "src": "/media/cases/N009/1791277209359-ed3bb824.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791277285812-7bb5d7",
+          "type": "image",
+          "src": "/media/cases/N009/1791277274076-c34d7057.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 35,
-            "sourceObject": "xref:205;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1337,
-            "sha256": "444cb8b35989f8a8b44a91131fc937d5d3ff6565f45d9b01ed23afce65bc41f3",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A08",
+          "id": "upload-1791277263285-a3137e",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-07.webp",
+          "src": "/media/cases/N009/1791277259504-6a923c83.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:195;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1774,
-            "height": 1118,
-            "sha256": "472af255d01079ffdc47d4409f218b54b69c71f105cc9707c9d94d04a1db0427",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A09",
+          "id": "upload-1791277234071-0e7876",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:181;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1114,
-            "sha256": "3421d17826b1d5397ac50871b9d9782e632282b509368166ad7ec77833cd3305",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N009/1791277215919-9d445fc7.jpg",
+          "layout": "full"
         },
         {
-          "id": "N009-V3-A10",
+          "id": "upload-1791277251043-dcf904",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-09.webp",
+          "src": "/media/cases/N009/1791277234071-9ab01e11.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:171;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1113,
-            "sha256": "f267be3a2b79360700679ef930c73fbd8c79c2ba08f352578505482046b3c8a0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N009-V3-A11",
+          "id": "upload-1791277259500-21f873",
           "type": "image",
-          "src": "/media/cases/N009/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:176;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1625,
-            "height": 1083,
-            "sha256": "87a7b5f1c3097413d81fefb0f14ef5e6b179405c9e01c0ae89d221e6f8ff3c87",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N009-V3-A12",
-          "type": "image",
-          "src": "/media/cases/N009/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:166;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1491,
-            "height": 1118,
-            "sha256": "dab4df25fe44dcf323ddb1166133aadbd7096db60626f34a7afc4f0e2e3a75e8",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N009-V3-A13-2",
-          "type": "image",
-          "src": "/media/cases/N009/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:210;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1652,
-            "height": 952,
-            "sha256": "42cef0f9698528e35a97f0dee84f1851f5097f71e521907bd19573159687de3f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N009-V3-A14",
-          "type": "image",
-          "src": "/media/cases/N009/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N009-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260420-饭点时光/260420-饭点时光.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:260;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1157,
-            "height": 772,
-            "sha256": "c80135988ad130a2e00ee6df95a7fad8358ce534c202e96a32459b54eb64ca0e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N009/1791277251044-a8f8beb2.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N010",
