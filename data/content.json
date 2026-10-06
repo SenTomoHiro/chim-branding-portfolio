@@ -3785,348 +3785,113 @@
     },
     {
       "id": "N016",
-      "intro": "酒吧品牌视觉与Brand Identity设计。",
-      "published": true,
+      "brandName": "荟 HUI",
+      "projectName": "威士忌水烟吧",
+      "intro": "城市奔涌不息，世人终日奔赴烟火与前路，难得一隅从容。\n「荟HUI」取荟萃雅致之意，藏轻奢于静谧，弃浮华于市井。\n不逐喧嚣流量，不做浮夸网红，以温润质感、极简审美、醇厚佳酿，构筑一方都市自留地。\n\n一盏微光，一杯醇饮，一段闲时。\n在这里，不必迎合、不必匆忙，所有喧嚣归于平静，所有情绪得以安放。\n以静为奢，以闲为贵，这是属于成年人的松弛浪漫。",
       "business": "branding",
       "categories": [
         "other"
       ],
       "primaryIndustry": "酒吧",
-      "includeInPortfolioPdf": true,
-      "brandName": "荟 HUI",
-      "projectName": "威士忌水烟吧",
       "media": [
         {
-          "id": "N016-V3-A09",
+          "id": "upload-1791257961269-28fb39",
           "type": "image",
-          "src": "/media/cases/N016/v3-cover.webp",
-          "layout": "full",
-          "width": 932,
-          "height": 1198,
-          "provenance": {
-            "assetId": "N016-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:122;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 932,
-            "height": 1198,
-            "sha256": "50288688ca786b0dc6ec5f12ee0a490b666e98bfc422c43b058d443dc7906ce4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N016/1791257950329-8ed651ab.jpg",
+          "layout": "full"
         },
         {
-          "id": "N016-V3-A13",
+          "id": "upload-1791257973130-5b6ffa",
           "type": "image",
-          "src": "/media/cases/N016/v3-hero.webp",
+          "src": "/media/cases/N016/1791257961270-66a72717.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258053086-890b64",
+          "type": "image",
+          "src": "/media/cases/N016/1791258050111-a27a57f6.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:140;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 843,
-            "height": 1083,
-            "sha256": "e4f0abc794eae5c598b41390136f111098a41237cd1747d65ec1b2ded32d6f6e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N016-V3-A01",
+          "id": "upload-1791257981936-1471ec",
           "type": "image",
-          "src": "/media/cases/N016/v3-body-01.webp",
+          "src": "/media/cases/N016/1791257973131-2f101b76.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791257999687-1f7daf",
+          "type": "image",
+          "src": "/media/cases/N016/1791257994307-14d2f194.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 19,
-            "sourceObject": "xref:116;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1777,
-            "height": 1185,
-            "sha256": "cf2b57a70c1eda0390317ffb4ab26807ac0737248616e69f0527ca2336a2a8f7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N016-V3-A02",
+          "id": "upload-1791257989221-8598b0",
           "type": "image",
-          "src": "/media/cases/N016/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N016-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 18,
-            "sourceObject": "xref:111;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1769,
-            "height": 1180,
-            "sha256": "e56717f5851e4949c3b8c3be6e75c9e65773ec56ee9615e1711739bd0ed5694f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N016/1791257981936-fef78538.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791257994307-6c036c",
+          "type": "image",
+          "src": "/media/cases/N016/1791257989221-312c275a.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N016-V3-A03",
+          "id": "upload-1791258020809-f8e930",
           "type": "image",
-          "src": "/media/cases/N016/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N016-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 15,
-            "sourceObject": "xref:183;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1160,
-            "height": 1738,
-            "sha256": "40b9517d84b55ea8abab950748dc3edd36c508f31ba4ed80a08011e0b6d88f83",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N016/1791257999688-6ef992e2.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258043646-2a7404",
+          "type": "image",
+          "src": "/media/cases/N016/1791258041149-3d677072.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258025964-13e5c5",
+          "type": "image",
+          "src": "/media/cases/N016/1791258020810-7a68bb63.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258029344-2dff13",
+          "type": "image",
+          "src": "/media/cases/N016/1791258025965-39b6e508.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258041149-6e80b8",
+          "type": "image",
+          "src": "/media/cases/N016/1791258038514-3d371b8a.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258033914-80cf48",
+          "type": "image",
+          "src": "/media/cases/N016/1791258029344-9f0c7520.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N016-V3-A04",
+          "id": "upload-1791258046632-fe9910",
           "type": "image",
-          "src": "/media/cases/N016/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N016-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:127;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1548,
-            "height": 1161,
-            "sha256": "cc7ccbbfb0f116503cb4719e66f8cf8e1e04c9353440f41006a2bbbf5d8b98e7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N016/1791258043647-8d4a4348.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791258050110-ea6d9f",
+          "type": "image",
+          "src": "/media/cases/N016/1791258046632-718cdc7d.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
-        },
-        {
-          "id": "N016-V3-A05",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N016-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:128;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1632,
-            "height": 1084,
-            "sha256": "7e8e4e2b0d042fd3452610844bb4a35fe4ec9f0040575796c92187a351acfbb4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A06",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-06.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 16,
-            "sourceObject": "xref:101;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1625,
-            "height": 1083,
-            "sha256": "f671f31a8a8d811087de662333dce68b7d11f63a81b7322fc967e92d59f85ea4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 17,
-            "sourceObject": "xref:106;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1625,
-            "height": 1083,
-            "sha256": "78383a3e2f704a70caaf3abd9c3b1da978dca128904d6a6f09a1602a87598cc9",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A08",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:147;smask:146",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1235,
-            "height": 926,
-            "sha256": "55f35a9e3588f4cf56114828c89acfcc1ff605d1e11e99deba8faeee4ed084ca",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A09-2",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:122;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 932,
-            "height": 1198,
-            "sha256": "50288688ca786b0dc6ec5f12ee0a490b666e98bfc422c43b058d443dc7906ce4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A10",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:139;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 930,
-            "height": 1196,
-            "sha256": "c004f64b048f0e501b11e4827127385d2cc9e60c1f570a899a7d88db902f8492",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A11",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:149;smask:148",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1211,
-            "height": 909,
-            "sha256": "36dbe4d910cec50b96be6d327c23cc0419f439f06808c3b27d09f579a2d3ea19",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A12",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:121;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 843,
-            "height": 1083,
-            "sha256": "c2966305fa12135ba542acb9d8fb45c42d2620ca5a6df1fad70d828234fa6d05",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A14",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:145;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 722,
-            "height": 1083,
-            "sha256": "08c6508b2eecd46aa10cf999978fdd3a6fe50fcb3f576cb274c8afc85ac4d833",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A15",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-14.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A15",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 22,
-            "sourceObject": "xref:134;smask:133",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1000,
-            "height": 667,
-            "sha256": "9b1eed381dba4b08d96f4e232fa5353c162bd19a1c8cc2cca2ab7380f6fa8c68",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N016-V3-A16",
-          "type": "image",
-          "src": "/media/cases/N016/v3-body-15.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N016-V3-A16",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260707-荟HUI·威士忌水烟吧/260707-荟HUI·威士忌水烟吧.pdf",
-            "sourcePage": 15,
-            "sourceObject": "xref:96;smask:95",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 519,
-            "height": 922,
-            "sha256": "fc34af1b944a394fd7dc910e76fb5eb9b5dd612fb5ccae62213768cdd9a6b724",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N017",
