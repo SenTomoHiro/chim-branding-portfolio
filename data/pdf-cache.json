@@ -29,6 +29,12 @@
       "filename": "portfolio-design.pdf",
       "generatedAt": "2026-09-21T14:06:31.139Z",
       "requestId": "c97c6467-ac68-4b4a-ae87-32180e97d418"
+    },
+    "case:L019": {
+      "sourceHash": "d3ccfacffc2e05f721aae2ec6212956af3b0175b70eebe0ed8715a1882465577",
+      "filename": "l019.pdf",
+      "generatedAt": "2026-10-06T08:38:37.447Z",
+      "requestId": "6c2ed0a0-228a-4077-91bf-83d515a44627"
     }
   }
 }
