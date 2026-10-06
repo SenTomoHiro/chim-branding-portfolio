@@ -2441,7 +2441,7 @@
       "id": "N011",
       "brandName": "豚豚冰屋 Tone",
       "projectName": "",
-      "intro": "甜品品牌视觉与IP Design设计。",
+      "intro": "豚豚冰屋用纯粹的手工工艺、绵软的味蕾体验、清爽的视觉氛围，为每一位消费者，带来不腻、不燥、不刻意的日常小美好。",
       "business": "branding",
       "categories": [
         "drinks",
@@ -2450,257 +2450,112 @@
       "primaryIndustry": "甜品",
       "media": [
         {
-          "id": "N011-V3-A04",
+          "id": "upload-1791274893136-b763f9",
           "type": "image",
-          "src": "/media/cases/N011/v3-cover.webp",
+          "src": "/media/cases/N011/1791274889365-cc6c6074.jpg",
           "layout": "full",
-          "width": 1400,
-          "height": 934,
-          "provenance": {
-            "assetId": "N011-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:173;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "a6d0e4ffecfba0f951185ccfcad401eca756430e7d0bd62dfbc5cd41f85301ec",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N011-V3-A05",
+          "id": "upload-1791274807881-042862",
           "type": "image",
-          "src": "/media/cases/N011/v3-hero.webp",
+          "src": "/media/cases/N011/1791274804673-49c729aa.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274804672-563059",
+          "type": "image",
+          "src": "/media/cases/N011/1791274801253-98ddebff.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274817916-508393",
+          "type": "image",
+          "src": "/media/cases/N011/1791274815109-127930db.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274815109-f8d2a0",
+          "type": "image",
+          "src": "/media/cases/N011/1791274807881-85ebdfc8.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274821359-92a7a3",
+          "type": "image",
+          "src": "/media/cases/N011/1791274817917-01873d6e.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274801252-ac93ed",
+          "type": "image",
+          "src": "/media/cases/N011/1791274796841-d4a79f56.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N011-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:166;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1181,
-            "sha256": "42daa2f04151ebeba94d61cb20ff82ef9f3224f475fddaa38e6e04d742362406",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N011-V3-A02",
+          "id": "upload-1791274841085-52ef22",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-02.webp",
-          "layout": "half",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N011-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:135;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1870,
-            "height": 1402,
-            "sha256": "049c81ab726ed7732e7b2894f135c93dec3fc278c296104cae91ae65ad21956d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N011-V3-A01",
-          "type": "image",
-          "src": "/media/cases/N011/v3-body-01.webp",
+          "src": "/media/cases/N011/1791274831853-aa41f617.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N011-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:198;smask:199",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2124,
-            "height": 1417,
-            "sha256": "bffc13cea1fd7e16f099a5dad8f18ab4e2e4e334d9abb0507cd1063289cc2494",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N011-V3-A03",
+          "id": "upload-1791274831853-a4b997",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-03.webp",
-          "layout": "half",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N011-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:200;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1786,
-            "height": 1429,
-            "sha256": "5d6ea101f80e968b5c5bbaa3dc9a995005a48ddff9228f32672fbbdb4c6ffebc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N011-V3-A04-2",
-          "type": "image",
-          "src": "/media/cases/N011/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N011-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:173;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "a6d0e4ffecfba0f951185ccfcad401eca756430e7d0bd62dfbc5cd41f85301ec",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N011-V3-A06",
-          "type": "image",
-          "src": "/media/cases/N011/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N011-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:153;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1861,
-            "height": 1084,
-            "sha256": "d25bdec1bd3a8184ad1cc06ad7c36f39b456bb02c5a96c99dad80b2539eba98f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N011-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N011/v3-body-06.webp",
+          "src": "/media/cases/N011/1791274821360-ba8f9814.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:142;smask:141",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1687,
-            "height": 1125,
-            "sha256": "0c5ef09e382a3c4b5f74dccde184b97fa875c00065115033d7954452a5f28ed3",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N011-V3-A08",
+          "id": "upload-1791274856290-0fe78f",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:126;smask:125",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1622,
-            "height": 1082,
-            "sha256": "74c97c5921197e46b134fa770a901bf524b457f61c6223581b92ad2984091d8b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N011/1791274849323-631e55ca.jpg",
+          "layout": "full"
         },
         {
-          "id": "N011-V3-A09",
+          "id": "upload-1791274849323-d93bdf",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:195;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1444,
-            "height": 1083,
-            "sha256": "ce5b841bb2775f59b959ee6e198f6d6497d114333891762d94fd8130b7286bad",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N011/1791274841086-c53cddf9.jpg",
+          "layout": "full"
         },
         {
-          "id": "N011-V3-A10",
+          "id": "upload-1791274869671-eafd1e",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:158;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 886,
-            "height": 1327,
-            "sha256": "1bcb6da13eb20897b0fe48013c68b8fd47103e6ae4da099cd92e89e7a8505471",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N011/1791274864891-e75e484f.jpg",
+          "layout": "full"
         },
         {
-          "id": "N011-V3-A11",
+          "id": "upload-1791274864891-874796",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:159;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 886,
-            "height": 1327,
-            "sha256": "8dee6e8a5b13627cbe820be4ef38acecfc65ad807ab13ff10c176cebec17a7a6",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N011/1791274856291-abbe1932.jpg",
+          "layout": "full"
         },
         {
-          "id": "N011-V3-A12",
+          "id": "upload-1791274873759-0e2d46",
           "type": "image",
-          "src": "/media/cases/N011/v3-body-11.webp",
+          "src": "/media/cases/N011/1791274869672-4115acd9.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791274877839-ac0e0b",
+          "type": "image",
+          "src": "/media/cases/N011/1791274873760-d56518a1.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N011-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260520-豚豚冰屋Tone/260520-豚豚冰屋Tone.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:140;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1213,
-            "height": 893,
-            "sha256": "b46bb3b296dad0df5866bd347727ed373f972f6b04b5171cbeeb34f2221464ff",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791274883630-7aa463",
+          "type": "image",
+          "src": "/media/cases/N011/1791274877840-d12ff823.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791274889363-ea5331",
+          "type": "image",
+          "src": "/media/cases/N011/1791274883631-b1d6dd73.jpg",
+          "layout": "full"
         }
       ],
       "published": true,
