@@ -1038,309 +1038,138 @@
     },
     {
       "id": "N005",
-      "intro": "甜品品牌视觉与Packaging设计。",
-      "published": true,
+      "brandName": "水果老爸 Fruits Pops",
+      "projectName": "",
+      "intro": "呼应“多巴胺色彩美学”，通过高饱和、强对比的明亮色彩，瞬间激发快乐、活力与童真的情绪，吸引眼球并制造社交传播点。",
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "甜品",
-      "includeInPortfolioPdf": true,
-      "brandName": "水果老爸 Fruits Pops",
-      "projectName": "",
       "media": [
         {
-          "id": "N005-V3-A03",
+          "id": "upload-1791259483333-53881b",
           "type": "image",
-          "src": "/media/cases/N005/v3-cover.webp",
+          "src": "/media/cases/N005/1791259480141-f68331c9.jpg",
           "layout": "full",
-          "width": 1400,
-          "height": 1027,
-          "provenance": {
-            "assetId": "N005-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:109;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1299,
-            "sha256": "7c65794334b98f1c0f648a77782564c17c15522b580eef463fb3b37189e3b7cd",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N005-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N005/v3-hero.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:188;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "1a2ceb8f0c1f453428cf99ba1a34eeb81fcf387e904cd4b00081f7c650eb8332",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A01",
+          "id": "upload-1791259486682-27df4d",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-01.webp",
+          "src": "/media/cases/N005/1791259483333-20b9d0eb.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:145;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1810,
-            "height": 1408,
-            "sha256": "1c1aab5e59f454a56ae95551d70e0320bc56ac6208e9273155b8434233cdb8c0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A02",
+          "id": "upload-1791259480141-faaa2c",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N005-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 22,
-            "sourceObject": "xref:120;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1785,
-            "height": 1309,
-            "sha256": "b62b274d429accbc8a1b4c5726ad62493b471b25c9537047a9315da1008e7d00",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N005/1791259469832-5674b22c.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259490367-b35154",
+          "type": "image",
+          "src": "/media/cases/N005/1791259486682-ce766b4c.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259499481-ba1fa0",
+          "type": "image",
+          "src": "/media/cases/N005/1791259490367-66edd0cf.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259503585-b3dc81",
+          "type": "image",
+          "src": "/media/cases/N005/1791259499482-10337c42.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259506856-ea4209",
+          "type": "image",
+          "src": "/media/cases/N005/1791259503586-10fea358.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259514228-e787d8",
+          "type": "image",
+          "src": "/media/cases/N005/1791259506856-c28c115c.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259520575-a39763",
+          "type": "image",
+          "src": "/media/cases/N005/1791259514228-bdc4b7a2.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A03-2",
+          "id": "upload-1791259538268-a6ac30",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N005-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:109;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1299,
-            "sha256": "7c65794334b98f1c0f648a77782564c17c15522b580eef463fb3b37189e3b7cd",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N005/1791259520576-7a82b6bf.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A04",
+          "id": "upload-1791259560390-79b3f2",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N005-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:125;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1299,
-            "sha256": "9da655fa96359443991bd2a1ef708ec01afa56d4d3ed97f7709054f6a5d97791",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N005-V3-A05",
-          "type": "image",
-          "src": "/media/cases/N005/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N005-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:150;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1782,
-            "height": 1220,
-            "sha256": "33f6a6d1aa5c6becd389d0368bca60f1d541138aa3e2ccf08169dc0fe447730b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N005-V3-A06",
-          "type": "image",
-          "src": "/media/cases/N005/v3-body-06.webp",
+          "src": "/media/cases/N005/1791259556518-fe8c311c.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:187;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1775,
-            "height": 1184,
-            "sha256": "8f89c482d7a7a1012c4d76f223ad62e0bad5744a0c61cbefb97cc7265be50f02",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A08",
+          "id": "upload-1791259543186-d9d8c0",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:140;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1771,
-            "height": 1181,
-            "sha256": "231519d817b9cdc7a3bce189e85edc430816447f29ed9fa124cd29b2f5eb35bb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259538268-bc0c0eba.jpg",
+          "layout": "full"
         },
         {
-          "id": "N005-V3-A09",
+          "id": "upload-1791259567163-88fe8d",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:185;smask:186",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1536,
-            "height": 1024,
-            "sha256": "60e71327bdba1805ebf6f251581c75d79d91ef0971c5e0103ea3b890748b27fe",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259563944-c8af4ca7.jpg",
+          "layout": "full"
         },
         {
-          "id": "N005-V3-A10",
+          "id": "upload-1791259556518-c07286",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 2,
-            "sourceObject": "xref:10;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1407,
-            "height": 1032,
-            "sha256": "3da23fbd76a8e5ae6301b737d88a237eb0b2bc4415d5e9482801da2942a9c1ce",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259543186-2d2dd2c5.jpg",
+          "layout": "full"
         },
         {
-          "id": "N005-V3-A11",
+          "id": "upload-1791259563943-1b92e4",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-10.webp",
+          "src": "/media/cases/N005/1791259560390-76917947.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:114;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 886,
-            "height": 1139,
-            "sha256": "18f54cba645fe4f240f8f9716f75f2263d217539ea0a8cb40310d4620ae7c802",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N005-V3-A12",
+          "id": "upload-1791259570419-d0ad71",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:115;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 886,
-            "height": 1139,
-            "sha256": "b6f30d00591d36e81edb6cf231e96b41f64ebe3a99a76691266bfe8071f505e7",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259567163-271ce968.jpg",
+          "layout": "full"
         },
         {
-          "id": "N005-V3-A13",
+          "id": "upload-1791259582788-1e2c25",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:131;smask:130",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 839,
-            "height": 1093,
-            "sha256": "b1f5eb5da57d0f684b3b30f767835a33f7441063178a96d2699ba40ee0376cc2",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259570419-92475e5b.jpg",
+          "layout": "full"
         },
         {
-          "id": "N005-V3-A14",
+          "id": "upload-1791259597485-df7d55",
           "type": "image",
-          "src": "/media/cases/N005/v3-body-13.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N005-V3-A14",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251229-水果老爸/251229-水果老爸.pdf",
-            "sourcePage": 19,
-            "sourceObject": "xref:104;smask:103",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 709,
-            "height": 925,
-            "sha256": "69da9a38b8c0c648de5d1fc36287ba520129fb9aa79936935e8c49a1704a12ff",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N005/1791259582789-4a1a117c.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791259606383-3c33f5",
+          "type": "image",
+          "src": "/media/cases/N005/1791259597485-19352e37.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N006",
