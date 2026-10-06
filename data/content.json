@@ -2,177 +2,112 @@
   "cases": [
     {
       "id": "N001",
-      "intro": "咖啡品牌视觉与Brand Identity设计。",
-      "published": true,
+      "brandName": "W² Concept Cafe",
+      "projectName": "",
+      "intro": "W2致力干成为真正的邻里咖啡馆社区中的温馨“第三空间”让顾温暖舒适的在这里找到归属感。温暖舒适的环境和友善的员工营出悠闲自在的氛围，顾客可以在美食和咖啡的陪伴下放松身心、彼此交流。店内陈列的收藏玩偶等俏皮装饰为咖啡馆增添了亲切有趣的气息，使这里成为繁忙生活中的有趣、友好且令人满足的避风港。总之，我们品牌的核心在于舒适感、社区情怀，以及邻里间共享美好餐食的简单快乐。",
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "咖啡",
-      "includeInPortfolioPdf": true,
-      "brandName": "W² Concept Cafe",
-      "projectName": "",
       "media": [
         {
-          "id": "N001-V3-A06",
+          "id": "upload-1791281376491-445b5e",
           "type": "image",
-          "src": "/media/cases/N001/v3-cover.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 888,
-          "provenance": {
-            "assetId": "N001-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:179;smask:178",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1776,
-            "height": 1127,
-            "sha256": "ac6db643be442aef2bb1c6e4a44092786c05f8fc26983a961ef1b43b0cbb6b58",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N001/1791281370830-f5546337.jpg",
+          "layout": "full"
         },
         {
-          "id": "N001-V3-A05",
+          "id": "upload-1791281380248-ea546a",
           "type": "image",
-          "src": "/media/cases/N001/v3-hero.webp",
+          "src": "/media/cases/N001/1791281376492-0d89d021.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791281388640-c72ea3",
+          "type": "image",
+          "src": "/media/cases/N001/1791281380249-0e9e4f16.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791281392823-b35a66",
+          "type": "image",
+          "src": "/media/cases/N001/1791281388641-93b9e0a1.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N001-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 31,
-            "sourceObject": "xref:173;smask:172",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1181,
-            "sha256": "cf66a053c32890e1a8d525a9686af1f0772a95fb9e4a40470487628c40fa0fdc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N001-V3-A01",
+          "id": "upload-1791281396625-619f62",
           "type": "image",
-          "src": "/media/cases/N001/v3-body-01.webp",
+          "src": "/media/cases/N001/1791281392825-7a230449.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N001-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:162;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1418,
-            "sha256": "6b27eec40564416354b1c6ee7dd23a1179b736c32628ef0620268111fcf7637e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N001-V3-A02",
+          "id": "upload-1791281399796-ac7e0f",
           "type": "image",
-          "src": "/media/cases/N001/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N001-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:167;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1418,
-            "sha256": "223bd923ba3963c5b326695926c13c522747825a977e7babcc90ec9efb9fb750",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          "src": "/media/cases/N001/1791281396626-b799fdaf.jpg",
+          "layout": "full"
         },
         {
-          "id": "N001-V3-A03",
+          "id": "upload-1791281405039-709265",
           "type": "image",
-          "src": "/media/cases/N001/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N001-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:185;smask:184",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "8dbb8731026e3e421240b3ab0c3757b4bf4909a3f44b1294c5e159e21058abe2",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "N001-V3-A04",
-          "type": "image",
-          "src": "/media/cases/N001/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N001-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:207;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1181,
-            "sha256": "2bade07a96ca98634095471bad40222f2d5b6dfbb4a27c741a942c98aa78553e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N001-V3-A06-2",
-          "type": "image",
-          "src": "/media/cases/N001/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N001-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:179;smask:178",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1776,
-            "height": 1127,
-            "sha256": "ac6db643be442aef2bb1c6e4a44092786c05f8fc26983a961ef1b43b0cbb6b58",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N001-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N001/v3-body-06.webp",
+          "src": "/media/cases/N001/1791281399797-cb4b4362.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N001-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/250820-W² Concept Cafe/250820-W² Concept Cafe.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:157;smask:156",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1716,
-            "height": 1144,
-            "sha256": "d1aa1c89b994356f549d21cd9b63c1846f12b6d0206681b1dd967f74372360cb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281422878-1fc9b9",
+          "type": "image",
+          "src": "/media/cases/N001/1791281416102-ebf79e47.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281416101-22fc8f",
+          "type": "image",
+          "src": "/media/cases/N001/1791281409518-632684ef.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281409517-c4553e",
+          "type": "image",
+          "src": "/media/cases/N001/1791281405040-1396cba6.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281425981-ab135f",
+          "type": "image",
+          "src": "/media/cases/N001/1791281422879-9322c181.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281430190-a535ff",
+          "type": "image",
+          "src": "/media/cases/N001/1791281425981-c56b1653.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281440233-942d7a",
+          "type": "image",
+          "src": "/media/cases/N001/1791281430190-b9ea5642.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "upload-1791281445016-7c670e",
+          "type": "image",
+          "src": "/media/cases/N001/1791281440233-ccdefb82.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N002",
