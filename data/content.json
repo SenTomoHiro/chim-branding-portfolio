@@ -2016,13 +2016,6 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "upload-1791260837749-f130f3",
-          "type": "image",
-          "src": "/media/cases/N012/1791260828612-f9c9e1aa.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
           "id": "upload-1791260828612-f31ef2",
           "type": "image",
           "src": "/media/cases/N012/1791260823388-7e807260.jpg",
@@ -2053,6 +2046,13 @@
           "type": "image",
           "src": "/media/cases/N012/1791260873669-1e419ef8.jpg",
           "layout": "full"
+        },
+        {
+          "id": "upload-1791260837749-f130f3",
+          "type": "image",
+          "src": "/media/cases/N012/1791260828612-f9c9e1aa.jpg",
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791260881864-618586",
