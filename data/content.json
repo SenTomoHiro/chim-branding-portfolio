@@ -3445,271 +3445,125 @@
     },
     {
       "id": "N017",
-      "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "published": true,
+      "brandName": "大利村",
+      "projectName": "手工鲜汤粉",
+      "intro": "大利村·手工鲜汤粉，根植于广东惠州横沥汤粉的百年传承。横沥汤粉起源于清末东江畔横沥码头，因商贸繁荣而生，以“猪骨+大地鱼+虾皮”每日现熬的汤底为核心灵魂。2004年获评“惠州十大名小吃”，2025年列入惠城区非物质文化遗产名录。\n\n大利村以“汤是魂、鲜为本”为品牌信念，坚守古法熬汤与手工制粉工艺，同时以年轻化、现代化的品牌表达，让百年老味道走进20-40岁都市人群的日常餐桌。",
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "大利村",
-      "projectName": "手工鲜汤粉",
       "media": [
         {
-          "id": "N017-V3-A01",
+          "id": "upload-1791261998128-1041ec",
           "type": "image",
-          "src": "/media/cases/N017/v3-cover.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 1050,
-          "provenance": {
-            "assetId": "N017-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:267;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1767,
-            "height": 1325,
-            "sha256": "c8670c74caa9dde249122812bfb616729da134a944f4c09e9735dd05cdc2a248",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791261989762-589e5753.jpg",
+          "layout": "full"
         },
         {
-          "id": "N017-V3-A04",
+          "id": "upload-1791262082841-dd26cd",
           "type": "image",
-          "src": "/media/cases/N017/v3-hero.webp",
+          "src": "/media/cases/N017/1791262073985-abc81f27.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:313;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1768,
-            "height": 1179,
-            "sha256": "7c276dca5c4939203921bc30625cc30cfa0ea4cfa656abc0ac6ba026d4e900e5",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N017-V3-A01-2",
+          "id": "upload-1791262015624-1b52c9",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-01.webp",
+          "src": "/media/cases/N017/1791261998128-134f8022.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262031083-32304b",
+          "type": "image",
+          "src": "/media/cases/N017/1791262015625-4c3112f7.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 23,
-            "sourceObject": "xref:267;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1767,
-            "height": 1325,
-            "sha256": "c8670c74caa9dde249122812bfb616729da134a944f4c09e9735dd05cdc2a248",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N017-V3-A02",
+          "id": "upload-1791262042910-e72895",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N017-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 24,
-            "sourceObject": "xref:280;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1920,
-            "height": 1213,
-            "sha256": "73bbc4c6bbf6f8fe0a719dbc96bd3e8451527d6e0a8d40fd1790c608331e105c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N017/1791262036428-fe21de1e.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262056455-2c3e11",
+          "type": "image",
+          "src": "/media/cases/N017/1791262047564-ce49adde.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N017-V3-A03",
+          "id": "upload-1791262036427-35a5d1",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N017-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:347;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1768,
-            "height": 1302,
-            "sha256": "672ac5cbb2b9ae44cf0e6d9081beb04d36fc3223dff7f61648c9373c8588ffa5",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N017/1791262031084-add446c6.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262069004-ef27c3",
+          "type": "image",
+          "src": "/media/cases/N017/1791262056456-53813246.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262047563-6ba38b",
+          "type": "image",
+          "src": "/media/cases/N017/1791262042910-5a90f7fe.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262085552-79ad68",
+          "type": "image",
+          "src": "/media/cases/N017/1791262082841-3524e869.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N017-V3-A05",
+          "id": "upload-1791262073984-41d38f",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N017-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 21,
-            "sourceObject": "xref:237;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1114,
-            "sha256": "60b09be7fbb30e0958f147072166797f535e0559a273917d35c657e9691d0615",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N017-V3-A06",
-          "type": "image",
-          "src": "/media/cases/N017/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N017-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 25,
-            "sourceObject": "xref:293;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1750,
-            "height": 1083,
-            "sha256": "f1cedab6b7743a514e25962abc932a84cdbc6ef4186421160e5480584a76de2d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N017-V3-A07",
-          "type": "image",
-          "src": "/media/cases/N017/v3-body-06.webp",
+          "src": "/media/cases/N017/1791262069005-4ffd8267.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 20,
-            "sourceObject": "xref:232;smask:231",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1539,
-            "height": 1184,
-            "sha256": "f608992ba6d755c02e8736517bfd6f657c84a9c0ea18f696a1f42f8d65f4eac6",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N017-V3-A08",
+          "id": "upload-1791262088625-141d52",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-07.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 19,
-            "sourceObject": "xref:226;smask:225",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1608,
-            "height": 1072,
-            "sha256": "fc3fb2500cf8400d268ce86d29b191cf4604f97f8d11844ccd24d1317c3a9dd0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791262085552-805f4471.jpg",
+          "layout": "full"
         },
         {
-          "id": "N017-V3-A09",
+          "id": "upload-1791262092619-a03b1b",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:345;smask:346",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1444,
-            "height": 1083,
-            "sha256": "35ac1c9a6d784f5eea3e2d7171bd8dcd03f0061cd4464c4292f4e18331aa6931",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791262088626-68f949dc.jpg",
+          "layout": "full"
         },
         {
-          "id": "N017-V3-A10",
+          "id": "upload-1791262104086-844c97",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 25,
-            "sourceObject": "xref:343;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1416,
-            "height": 1083,
-            "sha256": "69cdc20d4d82fed593b782d49b420af432acbf42d0f0275da369d5af2a951a3b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791262092619-ad6c0f64.jpg",
+          "layout": "full"
         },
         {
-          "id": "N017-V3-A11",
+          "id": "upload-1791262107675-7fabca",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-10.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 22,
-            "sourceObject": "xref:254;smask:253",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1334,
-            "height": 1000,
-            "sha256": "20af4c12a1d525c4188efeef2c9b19826d583791b33cd5d1e63f9244f4b95836",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791262104087-3ede0113.jpg",
+          "layout": "full"
         },
         {
-          "id": "N017-V3-A12",
+          "id": "upload-1791262111168-aa7d10",
           "type": "image",
-          "src": "/media/cases/N017/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N017-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/260717-大利村/260717-大利村.pdf",
-            "sourcePage": 18,
-            "sourceObject": "xref:218;smask:217",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1359,
-            "height": 906,
-            "sha256": "416226180dd68082327608702b8e0d6be166992675e4e3435949f0341c68f632",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N017/1791262107675-ff879669.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791262115766-8ac1c6",
+          "type": "image",
+          "src": "/media/cases/N017/1791262111168-c9e36441.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N018",
