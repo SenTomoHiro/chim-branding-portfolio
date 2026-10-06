@@ -540,290 +540,127 @@
     },
     {
       "id": "N003",
-      "intro": "餐饮品牌视觉与Visual Identity设计。",
-      "published": true,
+      "brandName": "小满",
+      "projectName": "",
+      "intro": "“小满”是二十四节气中的智慧，意指万物将熟未熟、充满希望的状态。我们以此为题，将云贵川的山野风物与创意烹调融合，为都市人提供一处饮食的栖息地。不止于饱足，更追求一份恰到好处的慰藉与欢喜。",
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "小满",
-      "projectName": "",
       "media": [
         {
-          "id": "N003-V3-A01",
+          "id": "upload-1791279648348-22ae4e",
           "type": "image",
-          "src": "/media/cases/N003/v3-cover.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 788,
-          "provenance": {
-            "assetId": "N003-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 35,
-            "sourceObject": "xref:275;smask:276",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2560,
-            "height": 1440,
-            "sha256": "109e1f95284dd7dc86318f40ecf40473f6fc25771b8022e7ac5aeffbfd6a4a9e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279626475-f9de73e4.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A06",
+          "id": "upload-1791279656554-046c3c",
           "type": "image",
-          "src": "/media/cases/N003/v3-hero.webp",
+          "src": "/media/cases/N003/1791279648348-74716f6f.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791279673982-2cf57a",
+          "type": "image",
+          "src": "/media/cases/N003/1791279656555-e0e2d69a.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A06",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:279;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1182,
-            "sha256": "a8a00544be6d5647973a906f6cf95bf45839c2075b21f971d3edb6f8b58eb6a3",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A01-2",
+          "id": "upload-1791279686775-4e2bdf",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-01.webp",
+          "src": "/media/cases/N003/1791279673982-432fec44.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A01",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 35,
-            "sourceObject": "xref:275;smask:276",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 2560,
-            "height": 1440,
-            "sha256": "109e1f95284dd7dc86318f40ecf40473f6fc25771b8022e7ac5aeffbfd6a4a9e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A02",
+          "id": "upload-1791279701990-37ab2d",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-02.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N003-V3-A02",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 32,
-            "sourceObject": "xref:277;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1418,
-            "sha256": "f4253d52821983c2624ba517057f87dd1b83fad478fd1c7a902504623e955e94",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N003/1791279686776-d7007099.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A03",
+          "id": "upload-1791279706982-1eb9c4",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-03.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N003-V3-A03",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 34,
-            "sourceObject": "xref:208;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1927,
-            "height": 1285,
-            "sha256": "9cac9fe92e95bdd4d3ebaa88ac74daddac335f89955a88587f2f9cc0733b3814",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
+          "src": "/media/cases/N003/1791279701990-32c2038b.jpg",
+          "layout": "full",
           "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A04",
+          "id": "upload-1791279717379-37de6b",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-04.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N003-V3-A04",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 29,
-            "sourceObject": "xref:186;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1237,
-            "sha256": "f63c820f5e66dff7c8b1931ad707f9f2d8b2a01e3c3e1275a526ac5428da5358",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279706982-c7e3039b.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A05",
+          "id": "upload-1791279740777-fe637d",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-05.webp",
-          "layout": "half",
-          "provenance": {
-            "assetId": "N003-V3-A05",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 36,
-            "sourceObject": "xref:280;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1780,
-            "height": 1187,
-            "sha256": "9dc4a74c32783db2954a7a05888783a410248f9c9f792a33b469052cfbe9d5ad",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279717379-859dbbcf.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A07",
+          "id": "upload-1791279752095-5d0c62",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-06.webp",
+          "src": "/media/cases/N003/1791279740778-818010e9.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A07",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 28,
-            "sourceObject": "xref:181;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1772,
-            "height": 1117,
-            "sha256": "2012e9f8d55c60503804650c6dc5e3475679ab9a51dd580fc5942e0b4edf87db",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A08",
+          "id": "upload-1791279756961-6645e7",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-07.webp",
+          "src": "/media/cases/N003/1791279752097-f7ff9242.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A08",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:271;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1690,
-            "height": 1127,
-            "sha256": "4c7e6737f36703d427237c1166b0b0500361eef7d3ff80424746e8a0980e7bde",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A09",
+          "id": "upload-1791279766448-979e90",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-08.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A09",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 27,
-            "sourceObject": "xref:176;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1690,
-            "height": 1127,
-            "sha256": "0037d226115f0412f01479367cef05e6c029ed8a50d58bed377065b2f53f703c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279756962-8c7888b1.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A10",
+          "id": "upload-1791279778521-e14cce",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-09.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A10",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:272;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1623,
-            "height": 1082,
-            "sha256": "84b80932ad6f6005e55c5eb330880bccadb75f89b59f0dd95d5cc1147d7690e0",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279766449-25181d04.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A11",
+          "id": "upload-1791279790654-6db416",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-10.webp",
+          "src": "/media/cases/N003/1791279778522-2befb952.jpg",
           "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A11",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 30,
-            "sourceObject": "xref:191;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1622,
-            "height": 1082,
-            "sha256": "afce9772488520aae2a7bdd899ef4964f34b7f1177298d680dfaaef16fba51d9",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N003-V3-A12",
+          "id": "upload-1791279800584-9cfb5f",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-11.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A12",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 33,
-            "sourceObject": "xref:278;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1536,
-            "height": 1024,
-            "sha256": "2df8490326c7c53fa3a62d9d36162b047d87407a35966984ac3da0def2c93dd8",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279790655-71f9a756.jpg",
+          "layout": "full"
         },
         {
-          "id": "N003-V3-A13",
+          "id": "upload-1791279805640-c19bd3",
           "type": "image",
-          "src": "/media/cases/N003/v3-body-12.webp",
-          "layout": "full",
-          "provenance": {
-            "assetId": "N003-V3-A13",
-            "sourceType": "pdf",
-            "sourcePdf": "新案例/251211-小满/251211-小满.pdf",
-            "sourcePage": 26,
-            "sourceObject": "xref:171;smask:0",
-            "extractionMethod": "pdf_embedded_image_object",
-            "width": 1300,
-            "height": 975,
-            "sha256": "4821925e9240ce1d4caeae14b443c6bd6040fdb0f5cb10f1991d4a9ad3fe0d14",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "src": "/media/cases/N003/1791279800585-0dcecdf8.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791279811084-1e58e2",
+          "type": "image",
+          "src": "/media/cases/N003/1791279805640-bb9a9ce5.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "upload-1791279817040-33c20b",
+          "type": "image",
+          "src": "/media/cases/N003/1791279811085-f4ffb8d1.jpg",
+          "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N004",
