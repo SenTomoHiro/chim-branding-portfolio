@@ -35,6 +35,12 @@
       "filename": "l019.pdf",
       "generatedAt": "2026-10-06T08:40:55.340Z",
       "requestId": "ad4ea96a-ca29-4db3-b499-d1e98359e454"
+    },
+    "category:drinks": {
+      "sourceHash": "00b025c6f33d0fce31eb89c240c8ae7427aab70b0f5f6a0343c59577ee64afe9",
+      "filename": "portfolio-design-drinks.pdf",
+      "generatedAt": "2026-10-06T09:26:18.084Z",
+      "requestId": "2722eb30-4b7f-45d6-abea-d626d74b05fa"
     }
   }
 }
