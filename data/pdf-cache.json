@@ -59,6 +59,12 @@
       "filename": "portfolio-design-ip.pdf",
       "generatedAt": "2026-10-07T06:19:57.214Z",
       "requestId": "1a46dc26-8d78-4df4-97bc-6575bd4edf16"
+    },
+    "category:other": {
+      "sourceHash": "beecd2544d7d61d0b036bff62c62c75e1f1afbb784c1aa97a50e5d86bbd70425",
+      "filename": "portfolio-design-other.pdf",
+      "generatedAt": "2026-10-07T06:21:01.636Z",
+      "requestId": "7ccf6bb0-2e91-4992-bbbf-4666cc79552b"
     }
   }
 }
