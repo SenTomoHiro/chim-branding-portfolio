@@ -47,6 +47,12 @@
       "filename": "portfolio-photography.pdf",
       "generatedAt": "2026-10-07T06:15:50.691Z",
       "requestId": "14706390-fbda-45c0-bafa-1c96928488cc"
+    },
+    "category:food": {
+      "sourceHash": "0d7d41859f6814eacf8f13b0dcb04651393fa317439526eb96d925ccd120eed8",
+      "filename": "portfolio-design-food.pdf",
+      "generatedAt": "2026-10-07T06:18:45.562Z",
+      "requestId": "4220f351-02cd-4753-9a34-452cd61c6b88"
     }
   }
 }
