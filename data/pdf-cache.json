@@ -53,6 +53,12 @@
       "filename": "portfolio-design-food.pdf",
       "generatedAt": "2026-10-07T06:18:45.562Z",
       "requestId": "4220f351-02cd-4753-9a34-452cd61c6b88"
+    },
+    "category:ip": {
+      "sourceHash": "9149cdec44856faf1b7139b739b564372d1669a963969a57778e531015fe435a",
+      "filename": "portfolio-design-ip.pdf",
+      "generatedAt": "2026-10-07T06:19:57.214Z",
+      "requestId": "1a46dc26-8d78-4df4-97bc-6575bd4edf16"
     }
   }
 }
