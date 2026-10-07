@@ -1,4 +1,5 @@
 import { getPortfolioPdfCases, resolvePortfolioPdfImages } from "./pdf-portfolio";
+import { groupBodyAssets } from "./chapters";
 import type { ContentData, PortfolioCase } from "./types";
 
 export type PdfTarget = `case:${string}` | "design" | "photography" | `category:${"food" | "drinks" | "ip" | "other"}`;
@@ -6,7 +7,7 @@ export type PdfCacheEntry = { sourceHash: string; filename: string; generatedAt:
 export type PdfCacheManifest = { version: 1; targets: Record<string, PdfCacheEntry> };
 
 export const EMPTY_PDF_CACHE: PdfCacheManifest = { version: 1, targets: {} };
-export const PDF_RENDER_VERSION = 2;
+export const PDF_RENDER_VERSION = 3;
 
 function canonical(value: unknown): string {
   if (value === null || typeof value !== "object") return JSON.stringify(value);
@@ -54,11 +55,16 @@ export function stableSha256(message: string) {
 }
 
 function portfolioCaseSource(item: PortfolioCase) {
-  const selected = new Set(resolvePortfolioPdfImages(item).map((image) => image.id));
+  const images = resolvePortfolioPdfImages(item);
+  const selected = new Set(images.map((image) => image.id));
+  const body = new Set(images.slice(1).map((image) => image.id));
   return {
     id: item.id, brandName: item.brandName, projectName: item.projectName, intro: item.intro,
     business: item.business, categories: item.categories, primaryIndustry: item.primaryIndustry,
     media: item.media.filter((media) => selected.has(media.id)).map(pdfMediaSource),
+    // Unselected chapter starters can still partition selected body images.
+    // Hash the rendered grouping, not unrelated unselected media content.
+    groups: groupBodyAssets(item.media).map(group => group.assets.filter(media => body.has(media.id)).map(media => media.id)).filter(group => group.length),
   };
 }
 

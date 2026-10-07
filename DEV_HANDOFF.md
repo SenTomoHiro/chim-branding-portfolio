@@ -24,7 +24,7 @@ GitHub `SenTomoHiro/chim-branding-portfolio` 的 `main` 分支是项目唯一正
 
 `lib/pdf-cache.ts` 中的 `PDF_RENDER_VERSION` 是 PDF 模板缓存版本。任何会改变 PDF 输出的字体、版式、PDF component、Print CSS 或渲染规则变更都必须 bump 这个数字。不要用 Git commit SHA，否则无关代码会使所有 PDF 过期。
 
-Case 与 Portfolio PDF 共用 `layoutPdfMasonry` 的确定性双列布局：DOM 保持正式媒体顺序，每张图按真实宽高比进入当前较短列，章节边界会重置布局。历史媒体缺少尺寸元数据时，Print 页会在标记 ready 前读取远程图片的 intrinsic size，不允许回退到假定尺寸。
+Case 与 Portfolio PDF 共用 `lib/pdf-editorial.ts` 的确定性 Full / Pair / Masonry planner（验收基线 Iteration 4.1），并保留 `layoutPdfMasonry` 基础。单图独占 composition 时使用 182mm 完整正文宽度；高度保护只能在同章内合并，不跨 Chapter、不改媒体顺序。Portfolio source hash 包含精选正文的实际 Chapter 分组，包括未精选图片上的分界。Node generator 在排版前从 checkout 本地图片补齐本次内存内容的缺失尺寸；Print 保留 intrinsic size 检查，generator 显式等待 ready/error 终态，不以 network idle 证明排版完成。
 
 ## Provider boundary
 

@@ -6,9 +6,10 @@ import { contentMediaUrl } from "@/lib/runtime-content";
 import { categoryLabel, formatCaseMetadata } from "@/lib/taxonomy";
 import type { Business, CaseCategory, PortfolioCase } from "@/lib/types";
 import { getCaseBodyMedia, getCaseHero } from "@/lib/case-media";
-import { layoutPdfMasonry, PDF_CONTENT_WIDTH_MM } from "@/lib/pdf-masonry";
+import { PDF_CONTENT_WIDTH_MM } from "@/lib/pdf-masonry";
+import { planPdfEditorial, planPdfEditorialGroups, type EditorialComposition } from "@/lib/pdf-editorial";
 
-type PdfMediaInfo = { id: string; src: string; width: number; height: number; ratio: number };
+type PdfMediaInfo = { id: string; src: string; width: number; height: number; ratio: number; layout: "full" | "half" };
 export type PdfMediaDimensions = ReadonlyMap<string, { width: number; height: number }>;
 
 function mediaInfo(item: PortfolioCase["media"][number], dimensions?: PdfMediaDimensions): PdfMediaInfo {
@@ -16,7 +17,7 @@ function mediaInfo(item: PortfolioCase["media"][number], dimensions?: PdfMediaDi
   const width = item.width || item.provenance?.width || resolved?.width;
   const height = item.height || item.provenance?.height || resolved?.height;
   if (!width || !height) throw new Error(`PDF 图片缺少真实尺寸：${item.id}`);
-  return { id: item.id, src: item.src, width, height, ratio: width / height };
+  return { id: item.id, src: item.src, width, height, ratio: width / height, layout: item.layout };
 }
 
 function PdfFooter({ project, page, total }: { project: string; page: number; total: number }) {
@@ -39,21 +40,23 @@ function EditorialTitle({ item, className = "" }: { item: PortfolioCase; classNa
   return <h1 className={`${className} ${caseTitleDensity(item)}`} aria-label={caseFullTitle(item)}><span className="pdfTitlePrimary">{item.brandName}</span>{item.projectName && <span className="pdfTitleSecondary">{item.projectName}</span>}</h1>;
 }
 
-function WaterfallColumns({ images }: { images: PdfMediaInfo[] }) {
-  const layout = layoutPdfMasonry(images);
-  const placements = new Map(layout.placements.map((placement) => [placement.id, placement]));
-  return <div
-    className="pdfLongWaterfall"
-    data-pdf-waterfall="true"
-    style={{ width: `${PDF_CONTENT_WIDTH_MM}mm`, height: `${layout.height}mm` }}
-  >{images.map((image) => {
-    const placement = placements.get(image.id)!;
-    return <figure
-      key={image.id}
-      data-media-id={image.id}
-      data-masonry-column={placement.column}
-      style={{ left: `${placement.left}mm`, top: `${placement.top}mm`, width: `${placement.width}mm`, height: `${placement.height}mm` }}
-    ><Picture image={image} mode="contain" /></figure>;
+function EditorialMedia({ images, chapter = false, portfolio = false, compositions = planPdfEditorial(images, { chapter, portfolio }) }: { images: PdfMediaInfo[]; chapter?: boolean; portfolio?: boolean; compositions?: EditorialComposition[] }) {
+  return <div className="pdfEditorialMedia">{compositions.map((composition) => {
+    const placements = new Map(composition.placements.map((placement) => [placement.id, placement]));
+    const selected = new Set(composition.images.map(image => image.id));
+    return <div key={composition.images[0].id}
+      className={`pdfLongWaterfall pdfEditorialComposition is-${composition.kind}`}
+      data-pdf-waterfall="true" data-pdf-composition={composition.kind} data-pdf-reason={composition.reason}
+      style={{ width: `${PDF_CONTENT_WIDTH_MM}mm`, height: `${composition.height}mm` }}
+    >{images.filter(image => selected.has(image.id)).map((image) => {
+      const placement = placements.get(image.id)!;
+      return <figure
+        key={image.id}
+        data-media-id={image.id}
+        data-masonry-column={placement.column}
+        style={{ left: `${placement.left}mm`, top: `${placement.top}mm`, width: `${placement.width}mm`, height: `${placement.height}mm` }}
+      ><Picture image={image} mode="contain" /></figure>;
+    })}</div>;
   })}</div>;
 }
 
@@ -78,7 +81,7 @@ export function CasePdfDocument({ item, dimensions }: { item: PortfolioCase; dim
       <div className="pdfLongContent">
         {resolvedGroups.map((group) => <section className={`pdfLongChapter ${group.section ? "" : "isUnsectioned"}`} key={group.id}>
           {group.section && <header><div><p>{group.section.eyebrow}</p><h2>{group.section.title}</h2></div>{group.section.description && <p>{group.section.description}</p>}</header>}
-          <WaterfallColumns images={group.images} />
+          <EditorialMedia images={group.images} chapter={Boolean(group.section)} />
         </section>)}
       </div>
       <PdfCaseContentFooter project={caseFullTitle(item)} trailing="Project casebook" />
@@ -101,13 +104,19 @@ export function PortfolioPdfDocument({ cases, kind, category, dimensions }: { ca
     {entries.map(({ item, images, startPage }, caseIndex) => {
       const lead = images[0];
       const leadOrientation = pdfOrientation(lead.ratio);
-      return <section className="pdfPortfolioLongCase" data-portfolio-case-page={caseIndex} key={item.id}>
-        <header className={`pdfPortfolioCaseLead pdfPortfolioLongLead hero-${leadOrientation}`}>
+      const groups = groupBodyAssets(item.media).map(group => ({ ...group, images: images.slice(1).filter(image => group.assets.some(asset => asset.id === image.id)) })).filter(group => group.images.length);
+      const editorial = planPdfEditorialGroups(groups.map(group => ({ images: group.images, chapter: Boolean(group.section) })), { portfolio: true });
+      return <section className="pdfPortfolioLongCase pdfPortfolioEditorialCase" data-portfolio-case-page={caseIndex} data-portfolio-case-id={item.id}
+        data-pdf-height-guard={editorial.assessment.guarded} data-pdf-initial-body-height={editorial.assessment.initialHeight.toFixed(2)} data-pdf-reference-body-height={editorial.assessment.masonryHeight.toFixed(2)} key={item.id}>
+        <header className={`pdfPortfolioCaseLead pdfPortfolioLongLead pdfPortfolioEditorialLead hero-${leadOrientation}`}>
           <div className="pdfPortfolioCaseIndex" data-portfolio-case-index-label="true">{String(caseIndex + 1).padStart(2, "0")}</div>
           <div className="pdfPortfolioCaseCopy"><p data-portfolio-case-meta="true">{formatCaseMetadata(item, true)}</p><h2 aria-label={caseFullTitle(item)} className={`${caseTitleDensity(item)} ${/^[\x00-\x7F]+$/.test(item.brandName) ? "isLatinTitle" : ""}`}><span>{item.brandName}</span>{item.projectName && <small>{item.projectName}</small>}</h2><p>{item.intro}</p></div>
-          <figure><Picture image={lead} mode="cover" /></figure>
+          <figure data-media-id={lead.id} style={{ height: `${Math.min(165, 210 / lead.ratio)}mm` }}><Picture image={lead} mode="cover" /></figure>
         </header>
-        {images.length > 1 && <div className="pdfPortfolioLongBody"><WaterfallColumns images={images.slice(1)} /></div>}
+        {images.length > 1 && <div className="pdfPortfolioLongBody">{groups.map((group, i) =>
+          <div className="pdfPortfolioEditorialGroup" data-pdf-chapter-group={group.id} style={i ? { marginTop: `${editorial.gapMm}mm` } : undefined} key={group.id}>
+            <EditorialMedia images={group.images} portfolio compositions={editorial.plans[i]} />
+          </div>)}</div>}
         <PdfCaseContentFooter project={caseFullTitle(item)} trailing={`${String(startPage).padStart(2, "0")} / ${String(total).padStart(2, "0")}`} />
       </section>;
     })}

@@ -52,9 +52,9 @@ describe("PDF source cache", () => {
   });
 
   it("includes the explicit render version in every source hash", () => {
-    expect(PDF_RENDER_VERSION).toBe(2);
-    expect(pdfSourceValue(content, "case:N013")).toMatchObject({ renderVersion: 2 });
-    expect(pdfSourceValue(content, "design")).toMatchObject({ renderVersion: 2 });
+    expect(PDF_RENDER_VERSION).toBe(3);
+    expect(pdfSourceValue(content, "case:N013")).toMatchObject({ renderVersion: 3 });
+    expect(pdfSourceValue(content, "design")).toMatchObject({ renderVersion: 3 });
   });
 
   it("includes formal provenance dimensions used by masonry", () => {
@@ -63,5 +63,19 @@ describe("PDF source cache", () => {
     const original = pdfSourceHash(withDimensions, "case:N013");
     withDimensions.cases[0].media[0].provenance!.height = 1200;
     expect(pdfSourceHash(withDimensions, "case:N013")).not.toBe(original);
+  });
+  it("invalidates selected body grouping when an unselected media starts a chapter", () => {
+    const data = structuredClone(content);
+    data.cases[0].media.push(
+      { id: "body-a", type: "image", src: "/media/a.png", layout: "half", portfolioPdfSelected: true },
+      { id: "boundary", type: "image", src: "/media/b.png", layout: "half" },
+      { id: "body-c", type: "image", src: "/media/c.png", layout: "half", portfolioPdfSelected: true },
+    );
+    const original = pdfSourceHash(data, "design");
+    data.cases[0].media.find(media => media.id === "boundary")!.src = "/media/unused.png";
+    expect(pdfSourceHash(data, "design")).toBe(original);
+    data.cases[0].media.find(media => media.id === "boundary")!.section = { eyebrow: "CHAPTER 01", title: "New chapter" };
+    expect(pdfSourceHash(data, "design")).not.toBe(original);
+    expect(pdfSourceValue(data, "design")).toMatchObject({ cases: [{ groups: [["body-a"], ["body-c"]] }] });
   });
 });

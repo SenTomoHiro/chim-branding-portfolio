@@ -566,6 +566,9 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfLongWaterfall { position:relative; margin-right:auto; margin-left:auto; }
 .pdfLongWaterfall figure { position:absolute; margin:0; background:transparent; overflow:hidden; }
 .pdfLongWaterfall .pdfPicture { width:100%; height:100%; object-fit:contain; }
+.pdfEditorialComposition+.pdfEditorialComposition { margin-top:5mm; }
+.pdfEditorialComposition.is-full+.pdfEditorialComposition,
+.pdfEditorialComposition+.pdfEditorialComposition.is-full { margin-top:8mm; }
 .pdfCaseContentFooter { min-height:0; margin:0 14mm; padding:6mm 0 9mm; background:transparent; color:#777; display:flex; justify-content:space-between; align-items:center; border-top:1px solid rgba(0,0,0,.22); font-size:6.5pt; line-height:1; letter-spacing:.08em; text-transform:uppercase; }
 
 /* A4 portfolio pages */
@@ -676,6 +679,19 @@ footer { min-height:180px; margin-top:40px; padding:32px var(--pad); background:
 .pdfPortfolioLongLead.hero-wide>figure { bottom:0; }
 .pdfPortfolioLongBody { padding:14mm 10mm 18mm; border-top:1px solid rgba(0,0,0,.16); }
 .pdfPortfolioLongCase>.pdfCaseContentFooter { margin-right:10mm; margin-left:10mm; padding-bottom:8mm; }
+.pdfPortfolioEditorialLead { height:auto; display:flex; flex-direction:column; }
+.pdfPortfolioEditorialLead>figure,
+.pdfPortfolioEditorialLead.hero-wide>figure,
+.pdfPortfolioEditorialLead.hero-balanced>figure { position:relative; inset:auto; width:100%; order:-1; }
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy { position:relative; inset:auto; width:auto; display:grid; grid-template-columns:1.15fr 1fr; gap:4mm 10mm; padding:10mm 14mm 12mm; }
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy>p:first-child { grid-column:1/-1; margin:0; }
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy h2,
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy h2.isLatinTitle { margin:0; font-size:12mm; line-height:1.04; }
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy h2 small { margin-top:2mm; font-size:5mm; }
+.pdfPortfolioEditorialLead .pdfPortfolioCaseCopy>p:last-child { align-self:end; font-size:8pt; line-height:1.55; }
+.pdfPortfolioEditorialCase .pdfPortfolioCaseIndex { top:5mm; left:14mm; color:#fff; text-shadow:0 1px 3px #000; }
+.pdfPortfolioEditorialCase .pdfPortfolioLongBody { padding:10mm 14mm 14mm; }
+.pdfPortfolioEditorialGroup+.pdfPortfolioEditorialGroup { margin-top:8mm; }
 
 @media (max-width:767px) {
   .adminHeader nav { margin-left:12px; }
