@@ -1,0 +1,407 @@
+/*
+  方向 A · 编辑索引：仅作用于公开站点的三个根
+  .feed（首页列表）/ .masthead（字标页眉）/ .detailRoot（详情页 main）。
+  浮动导航、Print 与后台样式保持；转场文字副本复用索引文字样式。
+  本文件不声明 transform / opacity / animation / transition / clip-path，也不重定义 --motion-*。
+  全局类名（.previewCover、.previewInfo、.casePreview、.detailPage、.detailIntro……）与 DOM 结构全部保留；
+  与全局同名规则冲突的少数位置，用父级作用域前缀提高特异性，不依赖样式表加载顺序。
+*/
+
+.feed,
+.masthead,
+.detailRoot {
+  --ed-rule: rgba(11, 11, 11, 0.1);
+  --ed-rule-strong: rgba(11, 11, 11, 0.16);
+  --ed-secondary: rgba(11, 11, 11, 0.62);
+  --ed-index-size: 11px;
+  --ed-meta-size: 12px;
+  --ed-tracking-wide: 0.14em;
+  --ed-tracking-meta: 0.06em;
+}
+
+/* ── 页眉：字标 + Selected work，不新增任何入口 ── */
+.masthead .mark {
+  font-size: clamp(1.5rem, 1.15rem + 0.9vw, 1.9rem);
+  line-height: 1;
+  letter-spacing: -0.055em;
+  font-weight: 800;
+}
+
+.masthead .mark sup {
+  margin: 2px 0 0 3px;
+  font-size: clamp(8px, 0.3em, 10px);
+  letter-spacing: 0;
+  vertical-align: top;
+}
+
+.masthead .label {
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ed-secondary);
+}
+
+/* ── 索引：一行一个案例，移动顺排 / 桌面双列 ── */
+.feed .caseRow {
+  padding: clamp(36px, 9vw, 56px) 0;
+  border-top: 1px solid var(--ed-rule);
+}
+
+.feed .caseRow:first-child {
+  padding-top: clamp(18px, 4vw, 28px);
+  border-top: 1px solid var(--ed-rule);
+}
+
+.feed .caseLink {
+  display: block;
+  color: inherit;
+}
+
+/* 统一外框：同一列宽、左边缘齐平；框内完整显示原图，不裁切、不拉伸 */
+.feed .coverFrame {
+  position: relative;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.feed .coverFrame .coverImg {
+  width: 100%;
+  height: auto;
+  max-height: 68svh;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0;
+}
+
+/* 双分支：`.feed .info` 命中列表里的真实节点；`.info.info` 命中 beginCoverTransition
+   克隆到 document.body 的 .coverTransitionCopy —— 克隆脱离了 .feed 祖先，重复类名
+   既保证脱离祖先时仍能命中，又保证根选择器有两个类的特异性，后代规则有三个类的特异性。
+   局部变量必须在这个根上重复声明，否则克隆上会退回到未定义值。 */
+.feed .info,
+.info.info {
+  --ed-rule: rgba(11, 11, 11, 0.1);
+  --ed-rule-strong: rgba(11, 11, 11, 0.16);
+  --ed-secondary: rgba(11, 11, 11, 0.62);
+  --ed-index-size: 11px;
+  --ed-meta-size: 12px;
+  --ed-tracking-wide: 0.14em;
+  --ed-tracking-meta: 0.06em;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  column-gap: 14px;
+  row-gap: 10px;
+  align-items: start;
+}
+
+/* 上外边距只给真实节点：克隆是 position:fixed + 内联 top，margin-top 会整体下移错位。 */
+.feed .info {
+  margin-top: clamp(16px, 2.4vw, 24px);
+}
+
+.feed .info .number,
+.info.info .number {
+  grid-column: 1;
+  margin: 0;
+  padding-top: 0.5em;
+  font-size: var(--ed-index-size);
+  line-height: 1;
+  letter-spacing: 0.09em;
+  color: var(--ed-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.feed .info .title,
+.info.info .title {
+  grid-column: 2;
+  margin: 0;
+  font-size: clamp(1.6rem, 1.1rem + 3.2vw, 2.6rem);
+  line-height: 1.16;
+  letter-spacing: normal;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.feed .title .project,
+.info.info .project {
+  display: block;
+  margin-top: 0.4em;
+  font-size: 0.48em;
+  line-height: 1.45;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: var(--ed-secondary);
+}
+
+.feed .info .meta,
+.info.info .meta {
+  grid-column: 2;
+  margin: 0;
+  font-size: var(--ed-meta-size);
+  line-height: 1.55;
+  letter-spacing: var(--ed-tracking-meta);
+  text-transform: none;
+  color: var(--ed-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 列表简介保留现有三行预览，正文不做字数硬截断 */
+.feed .info .intro,
+.info.info .intro {
+  grid-column: 2;
+  margin: 0;
+  max-width: 46ch;
+  font-size: 0.94rem;
+  line-height: 1.9;
+  color: var(--ed-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .feed .info,
+  .info.info {
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 22px;
+  }
+
+  .feed .info .title,
+  .info.info .title {
+    font-size: clamp(1.8rem, 1rem + 2.4vw, 2.9rem);
+  }
+
+  .feed .info .intro,
+  .info.info .intro {
+    max-width: 52ch;
+  }
+}
+
+@media (min-width: 1024px) {
+  .feed .caseRow {
+    padding: clamp(48px, 5.4vw, 76px) 0;
+  }
+
+  .feed .caseLink {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+    gap: clamp(32px, 5vw, 72px);
+    align-items: end;
+  }
+
+  .feed .coverFrame .coverImg {
+    max-height: 76svh;
+  }
+
+  .feed .info,
+  .info.info {
+    grid-template-columns: minmax(0, 1fr);
+    column-gap: 0;
+    row-gap: 0;
+    padding-bottom: 2px;
+    align-content: end;
+  }
+
+  .feed .info {
+    margin-top: 0;
+  }
+
+  .feed .info .number,
+  .feed .info .title,
+  .feed .info .meta,
+  .feed .info .intro,
+  .info.info .number,
+  .info.info .title,
+  .info.info .meta,
+  .info.info .intro {
+    grid-column: 1;
+  }
+
+  .feed .info .number,
+  .info.info .number {
+    margin-bottom: clamp(14px, 1.6vw, 20px);
+    padding-top: 0;
+  }
+
+  .feed .info .title,
+  .info.info .title {
+    font-size: clamp(1.9rem, 2.9vw, 3.2rem);
+    line-height: 1.12;
+  }
+
+  .feed .info .meta,
+  .info.info .meta {
+    margin-top: clamp(16px, 1.8vw, 24px);
+  }
+
+  .feed .info .intro,
+  .info.info .intro {
+    margin-top: clamp(10px, 1.2vw, 16px);
+    max-width: 42ch;
+  }
+}
+
+/* ── 详情：沉浸开场沿用原实现，阅读区给出编辑秩序 ── */
+.detailRoot :global(.detailIntro) {
+  padding: clamp(32px, 4.6vw, 72px) var(--pad) clamp(32px, 4vw, 64px);
+  border-bottom: 1px solid var(--ed-rule);
+}
+
+.detailRoot :global(.detailIntro .caseNumber) {
+  margin: 0 0 clamp(14px, 2vw, 24px);
+  font-size: var(--ed-index-size);
+  line-height: 1;
+  letter-spacing: var(--ed-tracking-wide);
+  color: var(--ed-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.detailRoot :global(.detailIntro h1) {
+  margin: 0;
+  font-size: clamp(2rem, 1.2rem + 4.4vw, 4.25rem);
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.detailRoot :global(.detailIntro h1 .caseTitleBrand) {
+  display: block;
+}
+
+.detailRoot :global(.detailIntro h1 .caseTitleProject) {
+  display: block;
+  margin-top: 0.34em;
+  font-size: 0.44em;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: var(--ed-secondary);
+}
+
+.detailRoot :global(.detailSummary) {
+  margin-top: clamp(22px, 3vw, 34px);
+}
+
+.detailRoot :global(.detailMeta) {
+  margin: 0 0 clamp(14px, 1.6vw, 20px);
+  font-size: var(--ed-meta-size);
+  letter-spacing: var(--ed-tracking-meta);
+  color: var(--ed-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+.detailRoot :global(.detailIntroText) {
+  margin: 0;
+  max-width: 54ch;
+  font-size: 0.97rem;
+  line-height: 1.95;
+  color: var(--ink);
+}
+
+.detailRoot :global(.detailHeroFull) {
+  margin: clamp(24px, 6vw, 40px) 0;
+}
+
+.detailRoot :global(.mediaSectionHeading) {
+  padding: clamp(32px, 5vw, 56px) var(--pad) clamp(16px, 2.4vw, 24px);
+  border-top: 1px solid var(--ed-rule);
+}
+
+.detailRoot :global(.mediaSectionHeading:first-child) {
+  border-top: 0;
+  padding-top: clamp(24px, 3vw, 36px);
+}
+
+.detailRoot :global(.mediaSectionHeading p) {
+  margin: 0 0 clamp(10px, 1.4vw, 14px);
+  font-size: var(--ed-meta-size);
+  letter-spacing: 0.1em;
+  color: var(--ed-secondary);
+}
+
+.detailRoot :global(.mediaSectionHeading h2) {
+  margin: 0;
+  font-size: clamp(1.45rem, 1rem + 2.2vw, 2.3rem);
+  line-height: 1.22;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+
+.detailRoot :global(.mediaSectionHeading span) {
+  display: block;
+  margin-top: clamp(10px, 1.6vw, 16px);
+  max-width: 52ch;
+  font-size: 0.9rem;
+  line-height: 1.85;
+  color: var(--ed-secondary);
+}
+
+.detailRoot :global(.nextCase) {
+  margin-top: clamp(40px, 6vw, 80px);
+  padding: clamp(28px, 4vw, 48px) var(--pad) calc(80px + var(--safe-bottom));
+  border-top: 1px solid var(--ed-rule-strong);
+  gap: clamp(12px, 2vw, 20px);
+}
+
+.detailRoot :global(.nextCase > span:first-child) {
+  font-size: var(--ed-index-size);
+  letter-spacing: var(--ed-tracking-wide);
+  color: var(--ed-secondary);
+}
+
+.detailRoot :global(.nextCase strong) {
+  font-size: clamp(1.55rem, 1rem + 2.6vw, 2.6rem);
+  line-height: 1.18;
+  letter-spacing: normal;
+}
+
+.detailRoot :global(.nextCase .caseTitleProject) {
+  margin-top: 0.45em;
+  font-size: 0.46em;
+  line-height: 1.45;
+  letter-spacing: 0.005em;
+  color: var(--ed-secondary);
+}
+
+.detailRoot :global(.nextCase > p) {
+  font-size: var(--ed-meta-size);
+  letter-spacing: var(--ed-tracking-meta);
+  color: var(--ed-secondary);
+}
+
+@media (min-width: 768px) {
+  .detailRoot :global(.detailHeroFull) {
+    margin: clamp(32px, 4vw, 48px) var(--pad-wide);
+  }
+
+  /* 媒体流在 768 以上自带页面内边距，标题不再叠加缩进 */
+  .detailRoot :global(.mediaSectionHeading) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .detailRoot :global(.nextCase) {
+    padding: clamp(32px, 4vw, 48px) var(--pad-wide) calc(72px + var(--safe-bottom));
+  }
+}
+
+@media (min-width: 1024px) {
+  .detailRoot :global(.detailIntro) {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: clamp(40px, 5vw, 80px);
+    align-items: start;
+    padding: clamp(48px, 5vw, 80px) var(--pad-wide) clamp(48px, 5vw, 72px);
+  }
+
+  .detailRoot :global(.detailSummary) {
+    margin-top: 0.2em;
+  }
+
+  .detailRoot :global(.mediaSectionHeading) {
+    padding-top: clamp(40px, 4.4vw, 60px);
+  }
+}

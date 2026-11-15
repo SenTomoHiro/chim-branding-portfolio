@@ -15,6 +15,7 @@ import { getPublishedCases } from "@/lib/sort-cases";
 import { formatCaseMetadata } from "@/lib/taxonomy";
 import { FloatingControls } from "./floating-controls";
 import { completeCoverTransition } from "@/lib/cover-transition";
+import styles from "./editorial.module.css";
 
 export function RuntimeWorkPage() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -54,7 +55,7 @@ export function RuntimeWorkPage() {
   const paired = pairedHalfIds(bodyMedia);
 
   return (
-    <main className="detailPage">
+    <main className={`detailPage ${styles.detailRoot}`}>
       <DetailCloseButton fallback={item.business === "photography" ? "/photo" : "/"} />
       <FloatingControls key={item.id} business={item.business} category={item.business === "branding" ? item.categories[0] : undefined} />
 

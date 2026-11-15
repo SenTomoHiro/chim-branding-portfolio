@@ -1,5 +1,13 @@
 import Link from "next/link";
+import styles from "./editorial.module.css";
 
 export function BrandMark() {
-  return <header className="feedMasthead"><Link href="/" className="brandMark" aria-label="CHIM 首页">CHIM<sup>®</sup></Link><span>Selected work</span></header>;
+  return (
+    <header className={`feedMasthead ${styles.masthead}`}>
+      <Link href="/" className={`brandMark ${styles.mark}`} aria-label="CHIM 首页">
+        CHIM<sup>®</sup>
+      </Link>
+      <span className={styles.label}>Selected work</span>
+    </header>
+  );
 }

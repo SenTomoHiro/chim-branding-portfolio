@@ -2,6 +2,32 @@ import { expect, test } from "@playwright/test";
 
 test.setTimeout(120000);
 
+test("cover transition keeps editorial text styles after cloning outside the feed", async ({ page }) => {
+  for (const width of [390, 820, 1440]) {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/");
+    await page.locator(".previewCover img").first().evaluate((image: HTMLImageElement) => image.decode());
+    const metrics = await page.locator(".previewInfo").first().evaluate((original) => {
+      const rect = original.getBoundingClientRect();
+      const clone = original.cloneNode(true) as HTMLElement;
+      clone.classList.add("coverTransitionCopy");
+      Object.assign(clone.style, { left: `${rect.left}px`, top: `${rect.top}px`, width: `${rect.width}px` });
+      document.body.append(clone);
+      const measure = (root: Element) => {
+        const box = root.getBoundingClientRect();
+        return [root, ...root.querySelectorAll(".caseNumber,.previewTitle,.caseTitleProject,.previewMeta,.previewIntro")].map(element => {
+          const style = getComputedStyle(element), bounds = element.getBoundingClientRect();
+          return { font: style.font, color: style.color, letterSpacing: style.letterSpacing,
+            x: bounds.left - box.left, y: bounds.top - box.top, width: bounds.width, height: bounds.height };
+        });
+      };
+      try { return { original: measure(original), clone: measure(clone), cloneTop: clone.getBoundingClientRect().top, originalTop: rect.top }; }
+      finally { clone.remove(); }
+    });
+    expect(metrics.clone, `text clone at ${width}`).toEqual(metrics.original);
+    expect(Math.abs(metrics.cloneTop - metrics.originalTop)).toBeLessThan(1);
+  }
+});
 
 for (const width of [390, 430, 820, 1440]) {
   test(`floating slots and compact category menu at ${width}`, async ({ page }) => {

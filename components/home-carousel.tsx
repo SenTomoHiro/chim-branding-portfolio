@@ -9,10 +9,11 @@ import { saveCaseListEntry } from "@/lib/return-context";
 import type { PortfolioCase } from "@/lib/types";
 import { caseFullTitle } from "@/lib/case-title";
 import { getCaseCover } from "@/lib/case-media";
+import styles from "./editorial.module.css";
 
 export function HomeFeed({ cases }: { cases: PortfolioCase[] }) {
   return (
-    <div className="homeFeed">
+    <div className={`homeFeed ${styles.feed}`}>
       {cases.map((item, index) => (
         <CasePreview key={item.id} item={item} index={index} />
       ))}
@@ -47,10 +48,11 @@ function CasePreview({ item, index }: { item: PortfolioCase; index: number }) {
   };
 
   return (
-    <article ref={ref} className="casePreview" data-case-id={item.id}>
-      <Link href={href} onNavigate={handleClick}>
-        <div className={`previewCover ${aspectClass}`}>
+    <article ref={ref} className={`casePreview ${styles.caseRow}`} data-case-id={item.id}>
+      <Link href={href} className={styles.caseLink} onNavigate={handleClick}>
+        <div className={`previewCover ${aspectClass} ${styles.coverFrame}`}>
           <img
+            className={styles.coverImg}
             src={contentMediaUrl(cover.src)}
             alt={`${caseFullTitle(item)} 封面`}
             style={{ aspectRatio: `${width} / ${height}` }}
@@ -60,17 +62,17 @@ function CasePreview({ item, index }: { item: PortfolioCase; index: number }) {
             decoding="async"
           />
         </div>
-        <div className="previewInfo">
-          <span className="caseNumber">{caseNumber}</span>
-          <h2 className="previewTitle">
+        <div className={`previewInfo ${styles.info}`}>
+          <span className={`caseNumber ${styles.number}`}>{caseNumber}</span>
+          <h2 className={`previewTitle ${styles.title}`}>
             {item.brandName}
-            {item.projectName && <span className="caseTitleProject">{item.projectName}</span>}
+            {item.projectName && <span className={`caseTitleProject ${styles.project}`}>{item.projectName}</span>}
           </h2>
-          <p className="previewMeta">
+          <p className={`previewMeta ${styles.meta}`}>
             {item.business === "branding" ? "品牌设计" : "商业摄影"}
             {item.primaryIndustry && ` / ${item.primaryIndustry}`}
           </p>
-          {item.intro && <p className="previewIntro">{item.intro}</p>}
+          {item.intro && <p className={`previewIntro ${styles.intro}`}>{item.intro}</p>}
         </div>
       </Link>
     </article>
