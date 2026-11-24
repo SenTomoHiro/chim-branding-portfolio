@@ -2416,16 +2416,14 @@
     },
     {
       "id": "N015",
+      "brandName": "台滋味",
+      "projectName": "台式厨房",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "台滋味",
-      "projectName": "台式厨房",
       "media": [
         {
           "id": "N015-V3-A06",
@@ -2453,6 +2451,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A07",
             "sourceType": "pdf",
@@ -2465,14 +2464,14 @@
             "sha256": "dd3cfd1b6ed42a876c090e4fcafcdeec8db27d06199dcf8cdfe50d182f96e373",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N015-V3-A01",
           "type": "image",
           "src": "/media/cases/N015/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A01",
             "sourceType": "pdf",
@@ -2485,14 +2484,14 @@
             "sha256": "83d1431ec18f52c1d04989087bba033844dfb258780044f1b21a02e516547a6f",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N015-V3-A02",
           "type": "image",
           "src": "/media/cases/N015/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A02",
             "sourceType": "pdf",
@@ -2505,14 +2504,14 @@
             "sha256": "a67538b7bb0ce8c8494592e33fff98413ba673a0b8f3ba64cf89b9aef56b7c5f",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N015-V3-A03",
           "type": "image",
           "src": "/media/cases/N015/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A03",
             "sourceType": "pdf",
@@ -2525,14 +2524,14 @@
             "sha256": "8449daacf13f20463dd6b36a9c302f6d2dda09e6ee9b1782e498b2b893f6ab7b",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N015-V3-A04",
           "type": "image",
           "src": "/media/cases/N015/v3-body-04.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A04",
             "sourceType": "pdf",
@@ -2552,6 +2551,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-body-05.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A05",
             "sourceType": "pdf",
@@ -2571,6 +2571,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-body-06.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A06",
             "sourceType": "pdf",
@@ -2590,6 +2591,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-body-07.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A08",
             "sourceType": "pdf",
@@ -2609,6 +2611,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-body-08.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A09",
             "sourceType": "pdf",
@@ -2628,6 +2631,7 @@
           "type": "image",
           "src": "/media/cases/N015/v3-body-09.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N015-V3-A10",
             "sourceType": "pdf",
@@ -2642,7 +2646,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N016",
