@@ -9289,16 +9289,14 @@
     },
     {
       "id": "SL002",
+      "brandName": "春莱",
+      "projectName": "古早咖啡",
       "intro": "2023，以旧报纸、印章与东南亚街头记忆构成古早咖啡系列。视觉从预告、上市海报延展到平台头图与产品菜单，保留朴素而鲜明的手作气质。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "咖啡",
-      "includeInPortfolioPdf": true,
-      "brandName": "春莱",
-      "projectName": "古早咖啡",
       "media": [
         {
           "id": "SL002-cover",
@@ -9334,39 +9332,47 @@
           "id": "SL002-05",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/05.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-06",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/06.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-07",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/07.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-08",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/08.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-09",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/09.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL002-10",
           "type": "image",
           "src": "/media/springlai/vintage-coffee/10.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "SL003",
