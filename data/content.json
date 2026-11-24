@@ -9442,17 +9442,15 @@
     },
     {
       "id": "SL004",
+      "brandName": "春莱 × 小蓝鸭",
+      "projectName": "联名系列",
       "intro": "2023，围绕小蓝鸭角色与白玉龙眼产品建立轻松直接的联名视觉。角色、杯身插画、活动机制与平台传播共同组成完整的联名发布节奏。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "茶饮联名",
-      "includeInPortfolioPdf": true,
-      "brandName": "春莱 × 小蓝鸭",
-      "projectName": "联名系列",
       "media": [
         {
           "id": "SL004-cover",
@@ -9488,27 +9486,33 @@
           "id": "SL004-05",
           "type": "image",
           "src": "/media/springlai/xiaolanya/05.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-06",
           "type": "image",
           "src": "/media/springlai/xiaolanya/06.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-07",
           "type": "image",
           "src": "/media/springlai/xiaolanya/07.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL004-08",
           "type": "image",
           "src": "/media/springlai/xiaolanya/08.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "SL005",
