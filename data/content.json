@@ -9784,17 +9784,15 @@
     },
     {
       "id": "N021",
+      "brandName": "大胡子抹茶",
+      "projectName": "品牌视觉",
       "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "抹茶饮品",
-      "includeInPortfolioPdf": true,
-      "brandName": "大胡子抹茶",
-      "projectName": "品牌视觉",
       "media": [
         {
           "id": "N021-body-10",
@@ -9819,6 +9817,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-09.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-9",
             "sourceObject": "09-门头发光字.jpg",
@@ -9828,14 +9827,14 @@
             "sha256": "73699d7f68d72ee44d95e6bad8762999ca2de1dbf83978bb0fd68457a4e8097b",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N021-body-1",
           "type": "image",
           "src": "/media/mustache-matcha/body-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-1",
             "sourceType": "pdf",
@@ -9846,14 +9845,14 @@
             "sha256": "df2f35515863d4157363857a7cf8b18b6b5ec58212c9249d98a141d2fd9feedc",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N021-body-2",
           "type": "image",
           "src": "/media/mustache-matcha/body-02.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-2",
             "sourceType": "pdf",
@@ -9864,14 +9863,14 @@
             "sha256": "c9ee5d91669fc94597a74c1987ac69c025cf30eecbb4a5d24259873bd887e979",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N021-body-3",
           "type": "image",
           "src": "/media/mustache-matcha/body-03.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-3",
             "sourceType": "pdf",
@@ -9882,14 +9881,14 @@
             "sha256": "4836cdef2f22ca63f4856e1985074aebf7ae359a54aa67fac3a5fcb80a8275c4",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N021-body-4",
           "type": "image",
           "src": "/media/mustache-matcha/body-04.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-4",
             "sourceObject": "03-菜单-MacBook.jpg",
@@ -9906,6 +9905,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-05.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-5",
             "sourceObject": "04-菜单.jpg",
@@ -9922,6 +9922,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-06.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-6",
             "sourceObject": "05-点评.jpg",
@@ -9938,6 +9939,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-07.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-7",
             "sourceObject": "08-美团.jpg",
@@ -9970,6 +9972,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-11.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-11",
             "sourceObject": "11-室内立体字.jpg",
@@ -9986,6 +9989,7 @@
           "type": "image",
           "src": "/media/mustache-matcha/body-12.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N021-body-12",
             "sourceObject": "12-招牌产品海报.jpg",
@@ -9997,7 +10001,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N022",
