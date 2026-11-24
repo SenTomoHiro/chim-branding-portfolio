@@ -3542,16 +3542,14 @@
     },
     {
       "id": "L012",
+      "brandName": "文柠记",
+      "projectName": "",
       "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "柠檬茶",
-      "includeInPortfolioPdf": true,
-      "brandName": "文柠记",
-      "projectName": "",
       "media": [
         {
           "id": "L012-body-2",
@@ -3560,6 +3558,7 @@
           "layout": "full",
           "width": 3200,
           "height": 2400,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-2",
             "sourceObject": "产品海报1.jpg",
@@ -3569,14 +3568,14 @@
             "sha256": "cc1ca49932e66cf6a06009bd34f764949bc972e2514d5bca083e71d7628c8da2",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "L012-body-1",
           "type": "image",
           "src": "/media/wenningji/body-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-1",
             "sourceObject": "IMG_1609.JPG",
@@ -3586,14 +3585,14 @@
             "sha256": "769b72810c3e8070dc73f6788c287f8e8fbdeb1e19809d943346b1209d4a8c59",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "L012-body-3",
           "type": "image",
           "src": "/media/wenningji/body-03.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-3",
             "sourceObject": "海报2.jpg",
@@ -3603,14 +3602,14 @@
             "sha256": "90683dc23f8f7a07c62f0c8563dad77c70ea297b7af6d9a748942bc40c034061",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "L012-body-4",
           "type": "image",
           "src": "/media/wenningji/body-04.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-4",
             "sourceObject": "5个杯贴.jpg",
@@ -3620,14 +3619,14 @@
             "sha256": "055b6d295e6fefcfe9528646f199be94f9a1e60089c2c45048e77b94344ae4e6",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "L012-body-5",
           "type": "image",
           "src": "/media/wenningji/body-05.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-5",
             "sourceObject": "提案_画板 1.jpg",
@@ -3644,6 +3643,7 @@
           "type": "image",
           "src": "/media/wenningji/body-06.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-6",
             "sourceObject": "提案_画板 1 副本.jpg",
@@ -3660,6 +3660,7 @@
           "type": "image",
           "src": "/media/wenningji/body-07.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-7",
             "sourceObject": "菜单展示1.jpg + 菜单展示2.jpg + 菜单展示3.jpg",
@@ -3676,6 +3677,7 @@
           "type": "image",
           "src": "/media/wenningji/body-08.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-8",
             "sourceObject": "大众点评.jpg + 美团.jpg + 开业邀请函.jpg",
@@ -3692,6 +3694,7 @@
           "type": "image",
           "src": "/media/wenningji/body-09.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-9",
             "sourceObject": "打包贴纸.jpg",
@@ -3708,6 +3711,7 @@
           "type": "image",
           "src": "/media/wenningji/body-10.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "L012-body-10",
             "sourceObject": "招聘海报.jpg",
@@ -3719,7 +3723,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "L001",
