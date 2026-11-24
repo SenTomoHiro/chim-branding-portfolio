@@ -999,7 +999,8 @@
           "id": "upload-1791278248183-7db384",
           "type": "image",
           "src": "/media/cases/N006/1791278239327-162c9404.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278239327-0c4500",
@@ -1012,7 +1013,8 @@
           "id": "upload-1791278254504-d2832f",
           "type": "image",
           "src": "/media/cases/N006/1791278248183-61fdd54b.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278287455-05b35f",
@@ -1025,13 +1027,15 @@
           "id": "upload-1791278264145-0e1d6c",
           "type": "image",
           "src": "/media/cases/N006/1791278254505-151dd721.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278270227-3a7526",
           "type": "image",
           "src": "/media/cases/N006/1791278264146-68c17a54.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278282848-633757",
@@ -1050,19 +1054,22 @@
           "id": "upload-1791278299360-6c9696",
           "type": "image",
           "src": "/media/cases/N006/1791278296199-6a88af33.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278292029-7bf02a",
           "type": "image",
           "src": "/media/cases/N006/1791278287456-19dd72d2.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278296199-b0f967",
           "type": "image",
           "src": "/media/cases/N006/1791278292030-cebececd.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791278303560-02812f",
