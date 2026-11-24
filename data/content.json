@@ -3385,17 +3385,15 @@
     },
     {
       "id": "N020",
+      "brandName": "巴适的钵 Awesome Bo",
+      "projectName": "",
       "intro": "餐饮品牌视觉与 IP 设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food",
         "ip"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "巴适的钵 Awesome Bo",
-      "projectName": "",
       "media": [
         {
           "id": "N020-V3-A05",
@@ -3423,6 +3421,7 @@
           "type": "image",
           "src": "/media/cases/N020/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A03",
             "sourceType": "pdf",
@@ -3435,14 +3434,14 @@
             "sha256": "dd1f48da0b1f2ae91c0b53107c4cb385ed750935cab77b5b73fed36bfe74749a",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N020-V3-A01",
           "type": "image",
           "src": "/media/cases/N020/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A01",
             "sourceType": "pdf",
@@ -3455,14 +3454,14 @@
             "sha256": "6b7aaf6373a4a54951096b5a4f22e0b8d6df9341b1dc45c47efd160787e04c6f",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N020-V3-A02",
           "type": "image",
           "src": "/media/cases/N020/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A02",
             "sourceType": "pdf",
@@ -3475,14 +3474,14 @@
             "sha256": "0459e6a2c216592e71fd335fa7031cf85b6899c3f8b6f58948f5324745098770",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N020-V3-A04",
           "type": "image",
           "src": "/media/cases/N020/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A04",
             "sourceType": "pdf",
@@ -3495,14 +3494,14 @@
             "sha256": "cb5b32d38483c30b249ca352c08b8ed9e317a1964a9e0d300d8a0cf127e95563",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N020-V3-A05-2",
           "type": "image",
           "src": "/media/cases/N020/v3-body-04.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A05",
             "sourceType": "pdf",
@@ -3522,6 +3521,7 @@
           "type": "image",
           "src": "/media/cases/N020/v3-body-05.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N020-V3-A06",
             "sourceType": "pdf",
@@ -3536,7 +3536,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "L012",
