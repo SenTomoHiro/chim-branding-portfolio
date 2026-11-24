@@ -11265,16 +11265,14 @@
     },
     {
       "id": "N028",
+      "brandName": "阿泰珍奶",
+      "projectName": "",
       "intro": "围绕古法泰茶建立品牌视觉，并延展至门店招牌、手提袋、海报与线上视觉。",
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "泰式奶茶",
-      "published": true,
-      "includeInPortfolioPdf": true,
-      "brandName": "阿泰珍奶",
-      "projectName": "",
       "media": [
         {
           "id": "N028-A01",
@@ -11301,6 +11299,7 @@
           "type": "image",
           "src": "/media/cases/N028/02-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N028-A02",
             "sourceType": "ai",
@@ -11312,14 +11311,14 @@
             "sha256": "6ff538cc6020f75ad10b08d406afab35a04373f85fc55006623dac5667d95b7e",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N028-A03",
           "type": "image",
           "src": "/media/cases/N028/03-initial-direction.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "初期品牌方向",
@@ -11336,14 +11335,14 @@
             "sha256": "3cbe171fed7b0e1740b28259d88556d11d8db9fd598ea3882666e5f3b0fc4410",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N028-A04",
           "type": "image",
           "src": "/media/cases/N028/04-storefront-primary.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "门店与招牌",
@@ -11360,8 +11359,7 @@
             "sha256": "ee6519a0e93efbe3a6f63552342b22bb87bb8867309b43a60bf123e90041915e",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N028-A05",
@@ -11386,6 +11384,7 @@
           "type": "image",
           "src": "/media/cases/N028/06-bag-flat-design.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "包装与手提袋",
@@ -11402,14 +11401,14 @@
             "sha256": "c9a178617cb5d81548575854ca76b63dffdb5f8e1996f9fc79fae2a31fbb645b",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N028-A07",
           "type": "image",
           "src": "/media/cases/N028/07-poster-primary.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "宣传海报",
@@ -11426,8 +11425,7 @@
             "sha256": "51bf07c6e49433828e340e8ac21e238f0960e43ac546a2da41d4800e99546070",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N028-A08",
@@ -11452,6 +11450,7 @@
           "type": "image",
           "src": "/media/cases/N028/09-online-avatar.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 05",
             "title": "线上视觉系统",
@@ -11475,6 +11474,7 @@
           "type": "image",
           "src": "/media/cases/N028/10-online-key-visual.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N028-A10",
             "sourceType": "ai",
@@ -11493,6 +11493,7 @@
           "type": "image",
           "src": "/media/cases/N028/11-online-product.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N028-A11",
             "sourceType": "ai",
@@ -11511,6 +11512,7 @@
           "type": "image",
           "src": "/media/cases/N028/12-online-banner.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N028-A12",
             "sourceType": "ai",
@@ -11524,7 +11526,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     }
   ],
   "defaultOrder": [
