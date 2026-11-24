@@ -113,16 +113,14 @@
     },
     {
       "id": "N002",
+      "brandName": "粤有福手作",
+      "projectName": "",
       "intro": "茶饮品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "茶饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "粤有福手作",
-      "projectName": "",
       "media": [
         {
           "id": "N002-V3-A07",
@@ -150,6 +148,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A03",
             "sourceType": "pdf",
@@ -162,14 +161,14 @@
             "sha256": "f982c82aa4a23b8fc6c39db35c89381482db24236001190a146d466b5b4be578",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N002-V3-A01",
           "type": "image",
           "src": "/media/cases/N002/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A01",
             "sourceType": "pdf",
@@ -182,14 +181,14 @@
             "sha256": "3a6aa3be0d1bab1e8bb9103f4454a8734f38f4d209b2b5296fa3525394c13d06",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N002-V3-A02",
           "type": "image",
           "src": "/media/cases/N002/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A02",
             "sourceType": "pdf",
@@ -202,14 +201,14 @@
             "sha256": "855ff4f0e447293b4c858cc0223c6aad95922d1f60528e845df5bd23ded8465f",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N002-V3-A04",
           "type": "image",
           "src": "/media/cases/N002/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A04",
             "sourceType": "pdf",
@@ -222,14 +221,14 @@
             "sha256": "242e097a4ad83654eb3f59a6ac09b546daf760a820d33ab472e9f886dcc53d93",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N002-V3-A05",
           "type": "image",
           "src": "/media/cases/N002/v3-body-04.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A05",
             "sourceType": "pdf",
@@ -242,14 +241,14 @@
             "sha256": "bc007858791aa96ab6e2e3a278de6282fa8de5c4bcc7abbd052a2a7844833f8f",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N002-V3-A06",
           "type": "image",
           "src": "/media/cases/N002/v3-body-05.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A06",
             "sourceType": "pdf",
@@ -269,6 +268,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-06.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A07",
             "sourceType": "pdf",
@@ -288,6 +288,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-07.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A08",
             "sourceType": "pdf",
@@ -307,6 +308,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-08.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A09",
             "sourceType": "pdf",
@@ -326,6 +328,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-09.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A10",
             "sourceType": "pdf",
@@ -345,6 +348,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-10.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A11",
             "sourceType": "pdf",
@@ -364,6 +368,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-11.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A12",
             "sourceType": "pdf",
@@ -383,6 +388,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-12.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A13",
             "sourceType": "pdf",
@@ -402,6 +408,7 @@
           "type": "image",
           "src": "/media/cases/N002/v3-body-13.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N002-V3-A14",
             "sourceType": "pdf",
@@ -473,7 +480,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N003",
