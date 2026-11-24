@@ -10602,17 +10602,15 @@
     },
     {
       "id": "N025",
+      "brandName": "大胡子可可 × TATAN",
+      "projectName": "联名系列",
       "intro": "将 TATAN 人物肖像转化为节日角色，在圣诞深绿与新年莓红两套视觉中连接产品、活动与平台传播。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "茶饮联名",
-      "includeInPortfolioPdf": true,
-      "brandName": "大胡子可可 × TATAN",
-      "projectName": "联名系列",
       "media": [
         {
           "id": "N025-body-1",
@@ -10621,6 +10619,7 @@
           "layout": "full",
           "width": 2800,
           "height": 2800,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-1",
             "sourceType": "ai",
@@ -10631,14 +10630,14 @@
             "sha256": "94fc57b2351bb37ce43539f3f53b58299f9385d10b17168a0dcea2c1d1d8d2cf",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N025-body-3",
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-03.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-3",
             "sourceType": "ai",
@@ -10649,14 +10648,19 @@
             "sha256": "b558cf1eeb64afe6728644577ccb684c3f1e182b01560dbe341bff898a6f1127",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N025-body-2",
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-02.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "小胖当家 · 圣诞来袭",
+            "description": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。"
+          },
           "provenance": {
             "assetId": "N025-body-2",
             "sourceType": "ai",
@@ -10667,12 +10671,6 @@
             "sha256": "8b859f1ff7755996b750a956f0dc9b62fb8540d388228889e76d7badd409871a",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "小胖当家 · 圣诞来袭",
-            "description": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。"
           }
         },
         {
@@ -10730,6 +10728,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-07.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "冬日约定 · 莓好圣诞",
@@ -10745,14 +10744,14 @@
             "sha256": "6a11b8ae93ecad99fdef6b9af69ea033aa0b6f832ba68306675b98979cb38acc",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N025-body-8",
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-08.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-8",
             "sourceType": "ai",
@@ -10770,6 +10769,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-09.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-9",
             "sourceType": "ai",
@@ -10787,6 +10787,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-10.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-10",
             "sourceObject": "04-241201-大胡子可可-tatan联名-新年-线上-05.jpg + 04-241201-大胡子可可-tatan联名-新年-线上-06.jpg",
@@ -10803,6 +10804,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-11.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-11",
             "sourceType": "ai",
@@ -10820,6 +10822,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-tatan/body-12.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N025-body-12",
             "sourceType": "ai",
@@ -10832,7 +10835,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N026",
