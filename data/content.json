@@ -827,7 +827,7 @@
         }
       ],
       "published": true,
-      "includeInPortfolioPdf": true
+      "includeInPortfolioPdf": false
     },
     {
       "id": "N005",
