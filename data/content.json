@@ -607,16 +607,14 @@
     },
     {
       "id": "N004",
+      "brandName": "三餐好乡邻",
+      "projectName": "",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "三餐好乡邻",
-      "projectName": "",
       "media": [
         {
           "id": "N004-V3-A09",
@@ -644,6 +642,7 @@
           "type": "image",
           "src": "/media/cases/N004/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A03",
             "sourceType": "pdf",
@@ -656,14 +655,14 @@
             "sha256": "4054a025ff60fb70dfcee1d36672dc76326888661bb81c3d7030d40222a6e5e4",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N004-V3-A01",
           "type": "image",
           "src": "/media/cases/N004/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A01",
             "sourceType": "pdf",
@@ -676,14 +675,14 @@
             "sha256": "d68a2baa6d595299960a716f88760da777ac56b12d616506edbfcf6654cb065d",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N004-V3-A02",
           "type": "image",
           "src": "/media/cases/N004/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A02",
             "sourceType": "pdf",
@@ -696,14 +695,14 @@
             "sha256": "edb5583829036c3432ccbb556a7b38d8073d9d5ba5460656e345cf1a08db035a",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N004-V3-A04",
           "type": "image",
           "src": "/media/cases/N004/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A04",
             "sourceType": "pdf",
@@ -716,8 +715,7 @@
             "sha256": "0456f39966c02b9d7ff47f02c63fed3f3119454288623a81ded6c0c21337ce47",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N004-V3-A05",
@@ -743,6 +741,7 @@
           "type": "image",
           "src": "/media/cases/N004/v3-body-05.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A06",
             "sourceType": "pdf",
@@ -762,6 +761,7 @@
           "type": "image",
           "src": "/media/cases/N004/v3-body-06.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A07",
             "sourceType": "pdf",
@@ -781,6 +781,7 @@
           "type": "image",
           "src": "/media/cases/N004/v3-body-07.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A08",
             "sourceType": "pdf",
@@ -800,6 +801,7 @@
           "type": "image",
           "src": "/media/cases/N004/v3-body-08.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N004-V3-A09",
             "sourceType": "pdf",
@@ -814,7 +816,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N005",
