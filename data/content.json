@@ -2231,7 +2231,8 @@
           "id": "upload-1791256731951-f6b69e",
           "type": "image",
           "src": "/media/cases/N014/1791256715520-9408f07b.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256702249-e38ed9",
@@ -2244,31 +2245,36 @@
           "id": "upload-1791256744979-4a7b2b",
           "type": "image",
           "src": "/media/cases/N014/1791256741704-3a1a51de.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256857080-712c4b",
           "type": "image",
           "src": "/media/cases/N014/1791256843270-4a377fa5.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256750501-4b7dca",
           "type": "image",
           "src": "/media/cases/N014/1791256747615-1c097dc3.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256839962-941568",
           "type": "image",
           "src": "/media/cases/N014/1791256833506-57601243.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256747615-e15d3b",
           "type": "image",
           "src": "/media/cases/N014/1791256744979-18e45547.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256754290-a203f3",
@@ -2280,7 +2286,8 @@
           "id": "upload-1791256768303-610e1d",
           "type": "image",
           "src": "/media/cases/N014/1791256757648-67a0cda1.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256799955-bfd331",
@@ -2312,7 +2319,8 @@
           "id": "upload-1791256843269-0a48b3",
           "type": "image",
           "src": "/media/cases/N014/1791256839963-35c00ddf.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791256819106-11518b",
