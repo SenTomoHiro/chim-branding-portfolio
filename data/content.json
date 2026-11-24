@@ -1741,16 +1741,14 @@
     },
     {
       "id": "N010",
+      "brandName": "禾之伴 RURU Bite",
+      "projectName": "",
       "intro": "轻食品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "轻食",
-      "includeInPortfolioPdf": true,
-      "brandName": "禾之伴 RURU Bite",
-      "projectName": "",
       "media": [
         {
           "id": "N010-V3-A04",
@@ -1759,6 +1757,7 @@
           "layout": "full",
           "width": 1400,
           "height": 880,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N010-V3-A04",
             "sourceType": "pdf",
@@ -1778,6 +1777,7 @@
           "type": "image",
           "src": "/media/cases/N010/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N010-V3-A02",
             "sourceType": "pdf",
@@ -1790,14 +1790,14 @@
             "sha256": "6bd339c2c2276e68051a8619577741312690f563bc83022d65cd94eea8202fdf",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N010-V3-A01",
           "type": "image",
           "src": "/media/cases/N010/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N010-V3-A01",
             "sourceType": "pdf",
@@ -1810,14 +1810,14 @@
             "sha256": "c9301dd619e4a5935c3311fdc936af5c3985e614441d3ddfc0897bdf355385e7",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N010-V3-A03",
           "type": "image",
           "src": "/media/cases/N010/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N010-V3-A03",
             "sourceType": "pdf",
@@ -1830,14 +1830,14 @@
             "sha256": "280c6f46230d38b0f464f271aeac5bb7c98fb78e2b403ed8c989eeef1e75d0d0",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N010-V3-A04-2",
           "type": "image",
           "src": "/media/cases/N010/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N010-V3-A04",
             "sourceType": "pdf",
@@ -1850,10 +1850,11 @@
             "sha256": "4222b5e282a86c286d1bb86bee956447d90f46d94be5e9ae3386c5c9b29cc0d3",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N011",
