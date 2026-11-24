@@ -6293,7 +6293,7 @@
       "business": "photography",
       "categories": [],
       "primaryIndustry": "家居香氛",
-      "includeInPortfolioPdf": true,
+      "includeInPortfolioPdf": false,
       "brandName": "ALASSIS",
       "projectName": "香薰蜡烛",
       "media": [
