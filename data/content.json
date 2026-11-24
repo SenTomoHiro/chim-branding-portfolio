@@ -3538,7 +3538,7 @@
         }
       ],
       "published": true,
-      "includeInPortfolioPdf": true
+      "includeInPortfolioPdf": false
     },
     {
       "id": "L012",
