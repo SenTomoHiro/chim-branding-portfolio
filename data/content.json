@@ -10007,16 +10007,14 @@
     },
     {
       "id": "N022",
+      "brandName": "真心茶事",
+      "projectName": "品牌视觉",
       "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "中式茶饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "真心茶事",
-      "projectName": "品牌视觉",
       "media": [
         {
           "id": "N022-body-2",
@@ -10025,6 +10023,7 @@
           "layout": "full",
           "width": 2800,
           "height": 1907,
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N022-body-2",
             "sourceObject": "01-杯子样机-带杯贴.jpg",
@@ -10034,14 +10033,14 @@
             "sha256": "a297f828345cdf846a2f76838256cdd40f094236089c4c98149c1148afb91a7c",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N022-body-1",
           "type": "image",
           "src": "/media/zhenxin-tea/body-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N022-body-1",
             "sourceObject": "05-灯箱-门头2展示.jpg",
@@ -10051,14 +10050,19 @@
             "sha256": "c7485b66f95b41c22f8fdf883e88d5f6bb3011f55fdc48b3863f28f3ccfff45e",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N022-body-3",
           "type": "image",
           "src": "/media/zhenxin-tea/body-03.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "真心制茶",
+            "description": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。"
+          },
           "provenance": {
             "assetId": "N022-body-3",
             "sourceObject": "10-纸袋样机.jpg",
@@ -10068,12 +10072,6 @@
             "sha256": "f04a5ac31aebf44e1ad2a54a3fef0586e73d1a79e23dd6dc213222709ab13317",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "真心制茶",
-            "description": "从杯贴、纸袋到门店与线上界面建立克制、温润的品牌基础。"
           }
         },
         {
@@ -10163,6 +10161,7 @@
           "type": "image",
           "src": "/media/zhenxin-tea/body-09.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "花与茶的四季叙事",
@@ -10177,14 +10176,14 @@
             "sha256": "33df2d3c27a7d94e481ba3d6bfb37a70351f98375a8921c36d521e57084c60c0",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N022-body-10",
           "type": "image",
           "src": "/media/zhenxin-tea/body-10.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N022-body-10",
             "sourceObject": "231117-真心茶事-电视机海报--05.jpg + 231117-真心茶事-电视机海报--06.jpg + 231117-真心茶事-电视机海报--07.jpg + 231117-真心茶事-电视机海报--08.jpg",
@@ -10201,6 +10200,7 @@
           "type": "image",
           "src": "/media/zhenxin-tea/body-11.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N022-body-11",
             "sourceObject": "231117-真心茶事-电视机海报--09.jpg + 231117-真心茶事-电视机海报--10.jpg + 231117-真心茶事-电视机海报--11.jpg + 231117-真心茶事-电视机海报--12.jpg",
@@ -10212,7 +10212,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N023",
