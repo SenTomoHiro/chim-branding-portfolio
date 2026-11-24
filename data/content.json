@@ -9376,16 +9376,14 @@
     },
     {
       "id": "SL003",
+      "brandName": "春莱",
+      "projectName": "铁观音系列",
       "intro": "2023，以深绿、兰花与器物静物塑造铁观音系列的东方气质。主视觉、预告、限定周边与线上平台保持同一套克制的视觉语言。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "茶饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "春莱",
-      "projectName": "铁观音系列",
       "media": [
         {
           "id": "SL003-cover",
@@ -9421,21 +9419,26 @@
           "id": "SL003-05",
           "type": "image",
           "src": "/media/springlai/tieguanyin/05.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL003-06",
           "type": "image",
           "src": "/media/springlai/tieguanyin/06.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL003-07",
           "type": "image",
           "src": "/media/springlai/tieguanyin/07.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "SL004",
