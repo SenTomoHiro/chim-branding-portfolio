@@ -9042,17 +9042,15 @@
     },
     {
       "id": "SL001",
+      "brandName": "春莱",
+      "projectName": "品牌视觉长期维护 / Brand Visual Evolution",
       "intro": "2022–2025，围绕春莱门店、包装与线上触点持续更新品牌视觉。从早期季节物料到 2023 秋冬 IP，再到 2025 品牌应用更新，呈现一套随经营场景逐步生长的视觉系统。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks",
         "ip"
       ],
       "primaryIndustry": "茶饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "春莱",
-      "projectName": "品牌视觉长期维护 / Brand Visual Evolution",
       "media": [
         {
           "id": "SL001-cover",
@@ -9074,12 +9072,12 @@
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi01-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "夏季视觉体系",
             "description": "以热带花卉、浅绿与手绘图形建立早期门店识别。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL001-02",
@@ -9128,60 +9126,66 @@
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "冬季视觉体系",
             "description": "冬季菜单、平台与门店物料延续品牌语言，并扩展热饮场景。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL001-10",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-02.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-11",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-03.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-12",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-13",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-05.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-14",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-06.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-15",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-07.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL001-16",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi03-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "2023 秋冬 IP 更新",
             "description": "IP 角色进入包装、平台、菜单与空间应用，形成更完整的触点系统。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL001-17",
@@ -9242,12 +9246,12 @@
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi04-01.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "2025 品牌升级",
             "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL001-29",
@@ -9279,7 +9283,9 @@
           "src": "/media/springlai/brand-evolution/vi04-06.jpg",
           "layout": "full"
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "SL002",
