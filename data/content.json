@@ -11031,16 +11031,14 @@
     },
     {
       "id": "N027",
+      "brandName": "瑞瀚心理",
+      "projectName": "",
       "intro": "心理咨询品牌视觉更新，涵盖识别系统、数字平台、空间传播与品牌物料。",
       "business": "branding",
       "categories": [
         "other"
       ],
       "primaryIndustry": "心理咨询",
-      "published": true,
-      "includeInPortfolioPdf": true,
-      "brandName": "瑞瀚心理",
-      "projectName": "",
       "media": [
         {
           "id": "N027-A01",
@@ -11068,6 +11066,7 @@
           "type": "image",
           "src": "/media/cases/N027/02-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N027-A02",
             "sourceType": "pdf",
@@ -11080,14 +11079,14 @@
             "sha256": "4b4f2a4e9e53ad4a55d1d25a4a01659104e2985a7abdded3dfc643e4317b9e08",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N027-A03",
           "type": "image",
           "src": "/media/cases/N027/03-brand-system.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "识别与色彩",
@@ -11105,14 +11104,14 @@
             "sha256": "ca6d9d94fcdd9c16eee32c8a366ef4d6bba13d2329b4ce329afd983956486868",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N027-A04",
           "type": "image",
           "src": "/media/cases/N027/04-digital-platform.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "数字平台",
@@ -11130,14 +11129,14 @@
             "sha256": "302389eca38d9d53521c63e68ce69f626451830f56d4063f527f0a7b7a37c0ef",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N027-A05",
           "type": "image",
           "src": "/media/cases/N027/05-reception.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "空间与传播",
@@ -11155,8 +11154,7 @@
             "sha256": "c25e875546ec69872aa4c08cc2c9916b1c3036700df91b9124da74ea6582f168",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N027-A06",
@@ -11201,6 +11199,7 @@
           "type": "image",
           "src": "/media/cases/N027/08-door-sign.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "品牌物料",
@@ -11218,14 +11217,14 @@
             "sha256": "2e25da7e64db9d165ccf13d5c4dc89e25edfd0f543c927041d8bc7b3697b8027",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N027-A09",
           "type": "image",
           "src": "/media/cases/N027/09-brand-items.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N027-A09",
             "sourceType": "pdf",
@@ -11245,6 +11244,7 @@
           "type": "image",
           "src": "/media/cases/N027/10-stationery.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N027-A10",
             "sourceType": "pdf",
@@ -11259,7 +11259,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N028",
