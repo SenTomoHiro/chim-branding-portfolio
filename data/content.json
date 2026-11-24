@@ -9516,16 +9516,14 @@
     },
     {
       "id": "SL005",
+      "brandName": "春莱",
+      "projectName": "桃花桂花艺人系列",
       "intro": "2023–2024，从桃与乌龙暖饮延伸至桃花、桂花艺人合作。粉桃与金棕两套色彩系统分别组织包装、线下海报、平台头图与艺人同款产品。",
-      "published": true,
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "茶饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "春莱",
-      "projectName": "桃花桂花艺人系列",
       "media": [
         {
           "id": "SL005-cover",
@@ -9572,12 +9570,12 @@
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/05.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "桃花艺人",
             "description": "桃花包装、艺人海报与线上平台构成完整发布链路。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL005-06",
@@ -9614,68 +9612,79 @@
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/11.jpg",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "桂花艺人",
             "description": "桂花包装与杯套先行，随后延展至布景海报、艺人视觉与产品应用。"
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "SL005-12",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/12.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-13",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/13.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-14",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/14.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-15",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/15.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-16",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/16.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-17",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/17.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-19",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/19.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-20",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/20.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-21",
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/21.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "SL006",
