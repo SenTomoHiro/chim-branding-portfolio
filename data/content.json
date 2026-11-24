@@ -28,7 +28,8 @@
           "id": "upload-1791281388640-c72ea3",
           "type": "image",
           "src": "/media/cases/N001/1791281380249-0e9e4f16.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         },
         {
           "id": "upload-1791281392823-b35a66",
@@ -103,7 +104,8 @@
           "id": "upload-1791281445016-7c670e",
           "type": "image",
           "src": "/media/cases/N001/1791281440233-ccdefb82.jpg",
-          "layout": "full"
+          "layout": "full",
+          "portfolioPdfSelected": true
         }
       ],
       "published": true,
