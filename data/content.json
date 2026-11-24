@@ -10841,16 +10841,14 @@
     },
     {
       "id": "N026",
+      "brandName": "JUJUS",
+      "projectName": "",
       "intro": "以蓝粉配色与波浪字标构建品牌视觉，延展至菜单、包装与工作服。",
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "饮品",
-      "published": true,
-      "includeInPortfolioPdf": true,
-      "brandName": "JUJUS",
-      "projectName": "",
       "media": [
         {
           "id": "N026-A01",
@@ -10878,6 +10876,7 @@
           "type": "image",
           "src": "/media/cases/N026/02-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N026-A02",
             "sourceType": "pdf",
@@ -10890,14 +10889,14 @@
             "sha256": "ed4f4cb255748fb01d591ce2fe2bc5beb9beebadfa97142085389f28f927aefb",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N026-A03",
           "type": "image",
           "src": "/media/cases/N026/03-brand-system.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "品牌识别系统",
@@ -10915,14 +10914,14 @@
             "sha256": "c289c6b39fec4d364b2902b4419a06ec0b419b517fbd877f1588c6b09f12f709",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N026-A04",
           "type": "image",
           "src": "/media/cases/N026/04-menu-poster.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "菜单与包装",
@@ -10940,14 +10939,14 @@
             "sha256": "22b5eeb0f675298e5c659a2fe07e429b3a3132f233589e64fe53e676ba16ef0b",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N026-A05",
           "type": "image",
           "src": "/media/cases/N026/05-menu-foldout.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N026-A05",
             "sourceType": "pdf",
@@ -10960,8 +10959,7 @@
             "sha256": "43e60e514f057bc8786789018404154f419c588f78bd5ab73ad55ce51aa0d5ec",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N026-A06",
@@ -10987,6 +10985,7 @@
           "type": "image",
           "src": "/media/cases/N026/07-apron.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "工作服与服务形象",
@@ -11004,14 +11003,14 @@
             "sha256": "a9463132d31ac6b2b51c9d55dd55e958b023d0d4a8f8241ee508e606c54e285a",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N026-A08",
           "type": "image",
           "src": "/media/cases/N026/08-uniform.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N026-A08",
             "sourceType": "pdf",
@@ -11026,7 +11025,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N027",
