@@ -10550,6 +10550,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-07.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-7",
             "sourceObject": "241024-大胡子可可-热饮2款_产品海报.jpg",
@@ -10583,6 +10584,7 @@
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-15.jpg",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N024-body-15",
             "sourceObject": "crop-06.jpg",
