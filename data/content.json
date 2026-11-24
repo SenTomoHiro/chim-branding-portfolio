@@ -3179,16 +3179,14 @@
     },
     {
       "id": "N019",
+      "brandName": "鮮燙町 Senmachi",
+      "projectName": "",
       "intro": "餐饮品牌视觉与Brand Identity设计。",
-      "published": true,
       "business": "branding",
       "categories": [
         "food"
       ],
       "primaryIndustry": "餐饮",
-      "includeInPortfolioPdf": true,
-      "brandName": "鮮燙町 Senmachi",
-      "projectName": "",
       "media": [
         {
           "id": "N019-V3-A04",
@@ -3216,6 +3214,7 @@
           "type": "image",
           "src": "/media/cases/N019/v3-hero.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A02",
             "sourceType": "pdf",
@@ -3228,14 +3227,14 @@
             "sha256": "294dd33e51617ee430953bef7c436648e32c7aa4bb43eba6fdcaa4378ce02c3a",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N019-V3-A01",
           "type": "image",
           "src": "/media/cases/N019/v3-body-01.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A01",
             "sourceType": "pdf",
@@ -3248,14 +3247,14 @@
             "sha256": "851c4aec9bea820469f54f2d82054a27ff7a9fbc04899928f2062eed9eafd325",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N019-V3-A03",
           "type": "image",
           "src": "/media/cases/N019/v3-body-02.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A03",
             "sourceType": "pdf",
@@ -3268,14 +3267,14 @@
             "sha256": "e0564310217fb8bf187e00f40c6a098b361f366951915e514688816ed3d2f153",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N019-V3-A04-2",
           "type": "image",
           "src": "/media/cases/N019/v3-body-03.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A04",
             "sourceType": "pdf",
@@ -3288,14 +3287,14 @@
             "sha256": "e4d62f7180fbe3b05d756e035130d80586db0e4ecd4a70b024aa232946c093b0",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true
+          }
         },
         {
           "id": "N019-V3-A05",
           "type": "image",
           "src": "/media/cases/N019/v3-body-04.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A05",
             "sourceType": "pdf",
@@ -3315,6 +3314,7 @@
           "type": "image",
           "src": "/media/cases/N019/v3-body-05.webp",
           "layout": "half",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A06",
             "sourceType": "pdf",
@@ -3334,6 +3334,7 @@
           "type": "image",
           "src": "/media/cases/N019/v3-body-06.webp",
           "layout": "full",
+          "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "N019-V3-A07",
             "sourceType": "pdf",
@@ -3348,7 +3349,9 @@
             "finalWorkVerified": true
           }
         }
-      ]
+      ],
+      "published": true,
+      "includeInPortfolioPdf": true
     },
     {
       "id": "N020",
