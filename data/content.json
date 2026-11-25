@@ -9076,7 +9076,7 @@
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "夏季视觉体系",
-            "description": "以热带花卉、浅绿与手绘图形建立早期门店识别。"
+            "description": "以热带花卉、浅绿与手绘图形建立早期门店识别。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -9086,16 +9086,80 @@
           "layout": "full"
         },
         {
-          "id": "SL001-03",
+          "id": "SL001-S-store",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi01-03.jpg",
-          "layout": "full"
+          "src": "/media/springlai/brand-evolution/SL001-S-store.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-S-store",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-S-store.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "472ddb24d330370258d9b22e22eb4e674e3032915381d151db1cfc7a21316f18",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
-          "id": "SL001-04",
+          "id": "SL001-S-dp-0",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi01-04.jpg",
-          "layout": "full"
+          "src": "/media/springlai/brand-evolution/SL001-S-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-S-dp-0",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-S-dp-0.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "3647fe4d96daf66c9b2182b407ee9f3a9e6ad7226cc81f7bf5555226ddd2a846",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-S-dp-960",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-S-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-S-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-S-dp-960.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "32121bb0c78ab7e995504c062ae41e58edb1d33ec584c107bd1ea36f24e6f0b7",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-S-dp-1285",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-S-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-S-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-S-dp-1285.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "c9c4a03c238960a0254f496ecf837b9574fb0d1f4c0a8d8c0db06227c81b1aea",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL001-05",
@@ -9130,7 +9194,7 @@
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "冬季视觉体系",
-            "description": "冬季菜单、平台与门店物料延续品牌语言，并扩展热饮场景。"
+            "description": "冬季菜单、平台与门店物料延续品牌语言，并扩展热饮场景。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -9141,18 +9205,327 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL001-11",
+          "id": "SL001-W-dp-0",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi02-03.jpg",
+          "src": "/media/springlai/brand-evolution/SL001-W-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
           "layout": "full",
-          "portfolioPdfSelected": true
+          "provenance": {
+            "assetId": "SL001-W-dp-0",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-dp-0.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "56f8912ff9711d5b25795919a7e2798919dbcf6a40c97817b87a03cc779aa05d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
-          "id": "SL001-12",
+          "id": "SL001-W-dp-960",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi02-04.jpg",
+          "src": "/media/springlai/brand-evolution/SL001-W-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
           "layout": "full",
-          "portfolioPdfSelected": true
+          "provenance": {
+            "assetId": "SL001-W-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-dp-960.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "ea7136b46de4fe253753b7255361732269536363805921882f6dafea9c8e0da2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-W-dp-1285",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-W-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-W-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-dp-1285.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "6eba428ef0a2265197ad41d3068691ec3665502b941a33360505e69fdca025e8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-W-single",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-W-single.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-W-single",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-single.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "fd8adec091c8221767bf8b086347bad55d41f128d68cc2ed241751aa78f10c52",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-W-store",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-W-store.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-W-store",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-store.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "d12186fabcb340f88e51904e81b5ce6a89d78b100cb00f38bba98544f6ec8f1a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-W-warm",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-W-warm.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-W-warm",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-W-warm.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "429e9798d3404ba19438d93b58acde00035be0770500158b18ab61e2a45f47b2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-01",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-01.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-01",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-01.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "96a10d71fdbce4c42e9a20d0a5d90f3e43b84ba034a2ea37c0e252b4a8ee50ee",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-07",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-07.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-07",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-07.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "48fbbc90c4d6b71fc6543ba21f82d5570fe31a6f81a4d01ec3eed0e2c7396b5d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-13",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-13.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-13",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-13.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "5889fb388ef97e4ca4e871941873d604d87e081fb3c2b78e8aad9c1b617b163a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-19",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-19.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-19",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-19.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "9e531d399bd3a8f1032579a224fd8b8e0af35b8590f88f835f1ef374af9d8dd4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-25",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-25.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-25",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-25.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "d6ed328b73112032828330f259a1b415d93cbdc73e585109b6298de84334e6f1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-31",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-31.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-31",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-31.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "7a26aff3d959de0cfc68e95035615665ad03119a1441db958f03469f37dd2985",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-37",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-37.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-37",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-37.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "827e36cd1fd3c0ede6d08831e0e87054b3e1f72e8d34be329dbaf790df03869d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-43",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-43.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-43",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-43.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "78e0ae46f2126f0cb22a9cbf111ae618a5e57ed92b2bb468fea8230c743d5a6f",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-49",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-49.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-49",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-49.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "65e7f1038e608f24857e5c9a91a71ded2a8ff81058f886ec4e2868c6bbcbc699",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-55",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-55.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-55",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-55.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "64842efb3571280cb95ffeee99191e3e41ac61a746a586052013b27d659569df",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-winter-menu-61",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-winter-menu-61.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-winter-menu-61",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-winter-menu-61.psd",
+            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "d45b78c36cab1928bf293ede97bb1146637eb8680a457478694d191e5ef51427",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL001-13",
@@ -9184,7 +9557,7 @@
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "2023 秋冬 IP 更新",
-            "description": "IP 角色进入包装、平台、菜单与空间应用，形成更完整的触点系统。"
+            "description": "IP 角色进入包装、平台、菜单与空间应用，形成更完整的触点系统。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -9218,10 +9591,80 @@
           "layout": "full"
         },
         {
-          "id": "SL001-24",
+          "id": "SL001-23-avatar",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi03-09.jpg",
-          "layout": "full"
+          "src": "/media/springlai/brand-evolution/SL001-23-avatar.webp",
+          "width": 1165,
+          "height": 2120,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-23-avatar",
+            "sourceType": "psd",
+            "sourcePsd": "美团-头像界面.psd",
+            "extractionMethod": "作者同案分层 PSD 原有机框",
+            "width": 1165,
+            "height": 2120,
+            "sha256": "1e6a24397680892010d099bf182f96c6e8d76755ec882b3df2f4a73cd1c5de88",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-23-large",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-23-large.webp",
+          "width": 1165,
+          "height": 2120,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-23-large",
+            "sourceType": "psd",
+            "sourcePsd": "美团大尺寸横幅.psd",
+            "extractionMethod": "作者同案分层 PSD 原有机框",
+            "width": 1165,
+            "height": 2120,
+            "sha256": "2b779988693d32f9ad37d0b11ef78cd2a95199ff5ce81ff64b18d6b3e780ca09",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-23-regular",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-23-regular.webp",
+          "width": 1165,
+          "height": 2120,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-23-regular",
+            "sourceType": "psd",
+            "sourcePsd": "美团常规横幅.psd",
+            "extractionMethod": "作者同案分层 PSD 原有机框",
+            "width": 1165,
+            "height": 2120,
+            "sha256": "13d44d3cfd4fff46cae615a4991517759765d0c2b88625e7ce4ed96cea7bed73",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-23-dp",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-23-dp.webp",
+          "width": 1516,
+          "height": 2120,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-23-dp",
+            "sourceType": "psd",
+            "sourcePsd": "大众点评.psd",
+            "extractionMethod": "作者同案分层 PSD 原有机框",
+            "width": 1516,
+            "height": 2120,
+            "sha256": "5cc411d1846f048c54e46cb4080a91f4bfae359c564a124b912561bcd79da118",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL001-25",
@@ -9250,14 +9693,426 @@
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "2025 品牌升级",
-            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。"
+            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。 部分商户资料、价格及销量为样机展示示意。 山茶花的三个展示位置依据原画面和尺寸推定。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
           }
         },
         {
-          "id": "SL001-29",
+          "id": "SL001-VI-lottery-home",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi04-02.jpg",
-          "layout": "full"
+          "src": "/media/springlai/brand-evolution/SL001-VI-lottery-home.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-lottery-home",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-lottery-home.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "4654501a4fce299804d6f8778cdf44c64ffa75c5b20346948316603cbf2f0eef",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-popup",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-popup.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-popup",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-popup.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "c51bacc1693da19a1a1dd1af1f35d585447f5f0e6ded6d340fa98d8699055c0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-profile",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-profile.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-profile",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-profile.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "f810df95d2ed84ce4faf3eaa60003935cd3b4777a398c76c2ee6116eb40d1f39",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-wheel-VI28",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-wheel-VI28.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-wheel-VI28",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-wheel-VI28.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "3f948a46cc99a80d970d732f97de89ece7c428bd65825553c19f8f158515e3cc",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-wheel-VI29",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-wheel-VI29.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-wheel-VI29",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-wheel-VI29.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "ad22cf52f9071f684a96fceac12317fad8a4493976ffbe272b0ab58c825e3606",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-share",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-share.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-share",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-share.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "574081cee488ea4cbd83a70e783598918bc52fddefbdcbe44189c274235d6282",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-dp-0",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-dp-0",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-dp-0.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "7064f0a6e6bf308b8b3cbe8df55ccaa027b698878359471377693566bd7958df",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-dp-960",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-dp-960.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "9b25656735f7c5b9cacf8e20e9e284f7bb99d7b0e2f2f7912f523957a10bba33",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-dp-1285",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-dp-1285.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "c686dcb67a07695dfb6a24e61531e4dbee4fb7605b6af81368a733a5b62db606",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-floor",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-floor.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-floor",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-floor.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "562c44552919058715f0bca1dca7c3d8fb16cba4495a7f6b7f246bf12c4331d1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-mt-small",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-mt-small.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-mt-small",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-mt-small.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "5e045c8238269c4b0fa0af4671bf45e16b32ac8660f1b9a815df13803e0b2abc",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-mt-shelf",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-mt-shelf.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-mt-shelf",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-mt-shelf.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "531f90f9fa0af00363f3c8e02a1bf49119601d9f6eead807a2bdde971c605436",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-ele",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-ele.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-ele",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-ele.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "9853b243a359bb2695b0529e02e99d0f516b5b2ab7670073dc4c68d345152575",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-VI-home",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-VI-home.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-VI-home",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-VI-home.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "0ab6eb515ecf4fd357101378aee2f9b351a1c05eab354743a66227aad83fc236",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-CM-small",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-CM-small.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-CM-small",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-CM-small.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "85e8f1889c35fc7ad4d7dcb5e811bfcc90b2bf695ff7a99044edcd71170706dd",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-CM-large",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-CM-large.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-CM-large",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-CM-large.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "0f7b609aa50b29a2f93e9754f813eb7f526837885fbf2641527c39ad69374293",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-CM-ele",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-CM-ele.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-CM-ele",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-CM-ele.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "75839d27142ca017827faa9961f664719b5e946ff037a925e2b67646ab98d2c5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-KM01",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-KM01.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-KM01",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-KM01.psd",
+            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "c326c54bf59b28dc9971ddb15c07070e503055b629e718787d5dcec5ce13ce1a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-KM02",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-KM02.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-KM02",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-KM02.psd",
+            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "206dda13012dfe0763bfff8080ddfd05e056c8c804f2fec1895973c82e8a949e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-KM03",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-KM03.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-KM03",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-KM03.psd",
+            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "9914f34d9d78013d7237d515d0e3253547b91e1bc98c1f221ddc4e98c7a744bc",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-KM04",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-KM04.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-KM04",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-KM04.psd",
+            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "07f463c8b517b9d4d99968947ef39f8bf4a00698925db2c1fc4a0e86f691a70b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-KM05",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-KM05.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-KM05",
+            "sourceType": "psd",
+            "sourcePsd": "SL001-KM05.psd",
+            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "8bf53d9df975fc7051b653c33cc4f14b6f3c5e295a5158bd50a99eb09d82d05d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL001-30",
@@ -9266,10 +10121,270 @@
           "layout": "full"
         },
         {
-          "id": "SL001-31",
+          "id": "SL001-GU-home",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi04-04.jpg",
-          "layout": "full"
+          "src": "/media/cases/N041/02.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1684,
+          "provenance": {
+            "assetId": "SL001-GU-home",
+            "sourceType": "psd",
+            "sourcePsd": "GU-手机.psd",
+            "extractionMethod": "Illustrator artboards 14, 16–21 from 250321-春莱-芭乐新品-线上全套-改4.ai rendered with mini-home and placed inside the editable numbered PSD 02.",
+            "width": 1920,
+            "height": 1684,
+            "sha256": "98c567b6e38d0e770f9d1d0a5bd1845895564ecdf7fe532b70aeb5457639f8d3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-dp-0",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-dp-0",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-0.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "fd17e78d871bced8a926c53f1b3c64e26872e504b229215446f7b07500187864",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-dp-960",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-960.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b22f209e3d6a028bc5f5eb2d105c106401220e9b85793df4871aaabedc3d4c25",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-dp-1285",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-1285.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "dd4610b15e927297e687ead4a0cf141beefe1a640a3782a66d09fdad6e7320d9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-floor",
+          "type": "image",
+          "src": "/media/cases/N041/N041-floor.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-floor",
+            "sourceType": "psd",
+            "sourcePsd": "N041-floor.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b4ef9e878f01b69788c4a59f38932ab65c08d6166db66b891fe75782758ea5da",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-mt-small",
+          "type": "image",
+          "src": "/media/cases/N041/N041-mt-small.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-mt-small",
+            "sourceType": "psd",
+            "sourcePsd": "N041-mt-small.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "5cb33ee946011cb2faa5f3bc198b7186287ee0e9dd1ed235f9fc4330b8a34561",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-mt-shelf",
+          "type": "image",
+          "src": "/media/cases/N041/N041-mt-shelf.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-mt-shelf",
+            "sourceType": "psd",
+            "sourcePsd": "N041-mt-shelf.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "6e03d152bd723f9dd53abb9f3ef740243e71ac4107cb7622646fd5a3da91243b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-ele",
+          "type": "image",
+          "src": "/media/cases/N041/N041-ele.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-ele",
+            "sourceType": "psd",
+            "sourcePsd": "N041-ele.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b912cc9d06b5881011689c3d575225490cff403cce050deb7f412ecb341b1dd6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-lottery-home",
+          "type": "image",
+          "src": "/media/cases/N041/N041-lottery-home.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-lottery-home",
+            "sourceType": "psd",
+            "sourcePsd": "N041-lottery-home.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "4ff6166f2b31f4f8ce0e18dc5abd24130e0559f8105fccc272f8fb2fb29e079b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-popup",
+          "type": "image",
+          "src": "/media/cases/N041/N041-popup.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-popup",
+            "sourceType": "psd",
+            "sourcePsd": "N041-popup.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "a66bd9d85838897c91567faba900ef5b50455ea932a659befd924ee84ba65d52",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-profile",
+          "type": "image",
+          "src": "/media/cases/N041/N041-profile.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-profile",
+            "sourceType": "psd",
+            "sourcePsd": "N041-profile.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "2f90980f6d46bc6b48dd2930c2a407e8fd13f2d4fcf9aeffc1f432547f947e4a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-wheel-GU28",
+          "type": "image",
+          "src": "/media/cases/N041/N041-wheel-GU28.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-wheel-GU28",
+            "sourceType": "psd",
+            "sourcePsd": "N041-wheel-GU28.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "988275e43192e24813164be1e620093852bb9cc713d93dd878265888e87ef821",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-wheel-GU29",
+          "type": "image",
+          "src": "/media/cases/N041/N041-wheel-GU29.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-wheel-GU29",
+            "sourceType": "psd",
+            "sourcePsd": "N041-wheel-GU29.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "319b2072e468316144f2c9c02c42204d5ca1209c91da83c82f6933a44e6a4ff4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-GU-share",
+          "type": "image",
+          "src": "/media/cases/N041/N041-share.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "SL001-GU-share",
+            "sourceType": "psd",
+            "sourcePsd": "N041-share.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "040ae93385ef3240453953ccd422a10be896529c4f85d198d54143543e67aa29",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL001-33",
@@ -13245,7 +14360,8 @@
           },
           "section": {
             "eyebrow": "线上应用",
-            "title": "芭乐季 · 点单小程序首页"
+            "title": "芭乐季 · 点单小程序首页",
+            "description": "部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -13264,6 +14380,253 @@
             "width": 1400,
             "height": 2100,
             "sha256": "a6ee8426e1502e4d8bab018ab2271032b4ad67ab9d6262074cda217f1a0e4949",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-dp-0",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-dp-0",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-0.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "fd17e78d871bced8a926c53f1b3c64e26872e504b229215446f7b07500187864",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-dp-960",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-960.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b22f209e3d6a028bc5f5eb2d105c106401220e9b85793df4871aaabedc3d4c25",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-dp-1285",
+          "type": "image",
+          "src": "/media/cases/N041/N041-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "N041-dp-1285.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "dd4610b15e927297e687ead4a0cf141beefe1a640a3782a66d09fdad6e7320d9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-floor",
+          "type": "image",
+          "src": "/media/cases/N041/N041-floor.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-floor",
+            "sourceType": "psd",
+            "sourcePsd": "N041-floor.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b4ef9e878f01b69788c4a59f38932ab65c08d6166db66b891fe75782758ea5da",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-mt-small",
+          "type": "image",
+          "src": "/media/cases/N041/N041-mt-small.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-mt-small",
+            "sourceType": "psd",
+            "sourcePsd": "N041-mt-small.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "5cb33ee946011cb2faa5f3bc198b7186287ee0e9dd1ed235f9fc4330b8a34561",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-mt-shelf",
+          "type": "image",
+          "src": "/media/cases/N041/N041-mt-shelf.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-mt-shelf",
+            "sourceType": "psd",
+            "sourcePsd": "N041-mt-shelf.psd",
+            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "6e03d152bd723f9dd53abb9f3ef740243e71ac4107cb7622646fd5a3da91243b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-ele",
+          "type": "image",
+          "src": "/media/cases/N041/N041-ele.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-ele",
+            "sourceType": "psd",
+            "sourcePsd": "N041-ele.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "b912cc9d06b5881011689c3d575225490cff403cce050deb7f412ecb341b1dd6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-lottery-home",
+          "type": "image",
+          "src": "/media/cases/N041/N041-lottery-home.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-lottery-home",
+            "sourceType": "psd",
+            "sourcePsd": "N041-lottery-home.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "4ff6166f2b31f4f8ce0e18dc5abd24130e0559f8105fccc272f8fb2fb29e079b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-popup",
+          "type": "image",
+          "src": "/media/cases/N041/N041-popup.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-popup",
+            "sourceType": "psd",
+            "sourcePsd": "N041-popup.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "a66bd9d85838897c91567faba900ef5b50455ea932a659befd924ee84ba65d52",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-profile",
+          "type": "image",
+          "src": "/media/cases/N041/N041-profile.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-profile",
+            "sourceType": "psd",
+            "sourcePsd": "N041-profile.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "2f90980f6d46bc6b48dd2930c2a407e8fd13f2d4fcf9aeffc1f432547f947e4a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-wheel-GU28",
+          "type": "image",
+          "src": "/media/cases/N041/N041-wheel-GU28.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-wheel-GU28",
+            "sourceType": "psd",
+            "sourcePsd": "N041-wheel-GU28.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "988275e43192e24813164be1e620093852bb9cc713d93dd878265888e87ef821",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-wheel-GU29",
+          "type": "image",
+          "src": "/media/cases/N041/N041-wheel-GU29.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-wheel-GU29",
+            "sourceType": "psd",
+            "sourcePsd": "N041-wheel-GU29.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "319b2072e468316144f2c9c02c42204d5ca1209c91da83c82f6933a44e6a4ff4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-share",
+          "type": "image",
+          "src": "/media/cases/N041/N041-share.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N041-share",
+            "sourceType": "psd",
+            "sourcePsd": "N041-share.psd",
+            "extractionMethod": "同案组件重构",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "040ae93385ef3240453953ccd422a10be896529c4f85d198d54143543e67aa29",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -13599,18 +14962,18 @@
         {
           "id": "N043-A03",
           "type": "image",
-          "src": "/media/cases/N043/03.webp",
+          "src": "/media/cases/N043/N043-dp-0.webp",
+          "width": 1350,
+          "height": 2045,
           "layout": "full",
-          "width": 1920,
-          "height": 1684,
           "provenance": {
             "assetId": "N043-A03",
             "sourceType": "psd",
-            "sourcePsd": "YB-手机.psd",
-            "extractionMethod": "Illustrator artboards 2–6 in 250624-春莱-杨梅-头像及大众点评-改1.ai rendered as five ordered merchant header images with dianping-detail/strip. Photoshop single-device template 07.",
-            "width": 1920,
-            "height": 1684,
-            "sha256": "3944b2bffb6238e0549c9d82b51ded5783e1754669f8b9bef6fbc5cd31ba343d",
+            "sourcePsd": "N043-dp-0.psd",
+            "extractionMethod": "同案已审正文，等宽同机位滑动",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "6da7079483829858bae9158b312656479d4111369df450622ae6047cdee18c67",
             "classification": "final_design",
             "finalWorkVerified": true
           },
@@ -13618,6 +14981,63 @@
             "eyebrow": "线上应用",
             "title": "杨梅季 · 大众点评商户详情",
             "description": "部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N043-dp-960",
+          "type": "image",
+          "src": "/media/cases/N043/N043-dp-960.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N043-dp-960",
+            "sourceType": "psd",
+            "sourcePsd": "N043-dp-960.psd",
+            "extractionMethod": "同案已审正文，等宽同机位滑动",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "7eca8b40b1e6c80f24d54a42a026f42c9208af5a618cdecda9e57365df986ed6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N043-dp-1285",
+          "type": "image",
+          "src": "/media/cases/N043/N043-dp-1285.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N043-dp-1285",
+            "sourceType": "psd",
+            "sourcePsd": "N043-dp-1285.psd",
+            "extractionMethod": "同案已审正文，等宽同机位滑动",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "cbb742a5a372e30139097cc21a5402375275493c282a5d4fa96142d86b218056",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N043-avatar",
+          "type": "image",
+          "src": "/media/cases/N043/N043-avatar.webp",
+          "width": 1350,
+          "height": 2045,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N043-avatar",
+            "sourceType": "psd",
+            "sourcePsd": "N043-avatar.psd",
+            "extractionMethod": "全平台头像的门店身份应用示意",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "7b923b39154a0335795d258d3f7fd5f7da6ee4a4048514f1a105c118fc8397ad",
+            "classification": "final_design",
+            "finalWorkVerified": true
           }
         }
       ],
