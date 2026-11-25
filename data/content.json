@@ -12099,6 +12099,294 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N035",
+      "brandName": "春暹 SIAM SPA",
+      "projectName": "泰式水疗品牌视觉设计",
+      "intro": "花形方框、竖排文字和浅米色贯穿品牌标志、项目卡与服务选单。价目表以细线插画区分项目，大众点评相册按同案画板重构。",
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "泰式水疗",
+      "media": [
+        {
+          "id": "N035-A01",
+          "type": "image",
+          "src": "/media/cases/N035/01.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1996,
+          "provenance": {
+            "assetId": "N035-A01",
+            "sourceType": "ai",
+            "sourceAi": "春暹-点评团购.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1996,
+            "sha256": "a86a35b5618a1a68205933338abcd7b104b728a65618d6414bae49c33131db24",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N035-A02",
+          "type": "image",
+          "src": "/media/cases/N035/02.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1125,
+          "provenance": {
+            "assetId": "N035-A02",
+            "sourceType": "ai",
+            "sourceAi": "春暹-点评团购.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1125,
+            "sha256": "6e921f3f9e60f4761fb6e105996732c53bffad76aa05b80dd8afed84622b9baa",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N035-A03",
+          "type": "image",
+          "src": "/media/cases/N035/03.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1125,
+          "provenance": {
+            "assetId": "N035-A03",
+            "sourceType": "ai",
+            "sourceAi": "春暹-点评团购.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1125,
+            "sha256": "83b86140690b365c1c855d6f69f015aebf506e0d7c0cbdadd35b5be5b489692d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N035-A04",
+          "type": "image",
+          "src": "/media/cases/N035/04.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1125,
+          "provenance": {
+            "assetId": "N035-A04",
+            "sourceType": "ai",
+            "sourceAi": "春暹-点评团购.ai",
+            "sourceArtboard": 8,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1125,
+            "sha256": "11a958aa8529a6c185356d4a17faefe7001fb5421d470bb3b913af1abf8d95a6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "Chapter 01",
+            "title": "服务项目",
+            "description": "项目档案中的历史设计稿。"
+          }
+        },
+        {
+          "id": "N035-A05",
+          "type": "image",
+          "src": "/media/cases/N035/05.webp",
+          "layout": "full",
+          "width": 1415,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N035-A05",
+            "sourceType": "ai",
+            "sourceAi": "春暹-菜单-改4.ai",
+            "sourceArtboard": 5,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1415,
+            "height": 2000,
+            "sha256": "e5513e14673f4325b1afc346703f5ede9d0c4ab278d7799d8cab156e2ab51378",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N035-A06",
+          "type": "image",
+          "layout": "full",
+          "src": "/media/cases/N035/06.webp",
+          "width": 1920,
+          "height": 1440,
+          "section": {
+            "eyebrow": "Chapter 02",
+            "title": "平台界面",
+            "description": "依据本案平台画板重构的展示界面。"
+          },
+          "provenance": {
+            "assetId": "N035-A06",
+            "sourceType": "psd",
+            "sourcePsd": "春暹-点评.psd",
+            "extractionMethod": "Photoshop embedded screen replacement from AI artboards, web export",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "da31b34cf4b9a7df472d5c4cc841063f76baff79972b53943932598d93a6868b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N036",
+      "brandName": "陈老板手作",
+      "projectName": "茶饮品牌视觉与开业物料设计",
+      "intro": "「手作好茶」四个大字叠着黄色陈字印，呼应招牌与菜单的黄棕配色。开业立牌将两杯红色冰饮放大，美团点菜页根据同案饮品画板重构。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "手作茶饮",
+      "media": [
+        {
+          "id": "N036-A01",
+          "type": "image",
+          "src": "/media/cases/N036/01.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N036-A01",
+            "sourceType": "ai",
+            "sourceAi": "240815-陈老板手作奶茶-初步-改2.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 2000,
+            "sha256": "26abc47f0d2eca878b8c6a706d98ef7fb517dee6c6339f80c660822224949458",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-A02",
+          "type": "image",
+          "src": "/media/cases/N036/02.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1500,
+          "provenance": {
+            "assetId": "N036-A02",
+            "sourceType": "ai",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1500,
+            "sha256": "74816def95682f0022939acd8b02f61cec5ddb2f523c151239b7a26e6a485a22",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-A03",
+          "type": "image",
+          "src": "/media/cases/N036/03.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 637,
+          "provenance": {
+            "assetId": "N036-A03",
+            "sourceType": "ai",
+            "sourceAi": "240820-陈老板手作-冰淇淋纸及牌匾.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 637,
+            "sha256": "405a13a16e632bb24c97ddd7638eefda584808f2c67cac8e439712525eaacc0d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-A04",
+          "type": "image",
+          "src": "/media/cases/N036/04.webp",
+          "layout": "full",
+          "width": 1000,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N036-A04",
+            "sourceType": "ai",
+            "sourceAi": "240901-陈老板-异形KT.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1000,
+            "height": 2000,
+            "sha256": "ce6505bdbc7411d3522e22333e8ece08ee16eedf83f1e3c4ef4949f2872fbc1d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "Chapter 01",
+            "title": "开业物料",
+            "description": "项目档案中的历史设计稿。"
+          }
+        },
+        {
+          "id": "N036-A05",
+          "type": "image",
+          "src": "/media/cases/N036/05.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1415,
+          "provenance": {
+            "assetId": "N036-A05",
+            "sourceType": "ai",
+            "sourceAi": "240902-陈老板-菜单-改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1415,
+            "sha256": "79de036c86f5a0ac2ed34af07b34c317d91a605c5a229e47523f0a1a60415be9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-A06",
+          "type": "image",
+          "layout": "full",
+          "src": "/media/cases/N036/06.webp",
+          "width": 1920,
+          "height": 1440,
+          "section": {
+            "eyebrow": "Chapter 02",
+            "title": "平台界面",
+            "description": "依据本案平台画板重构的展示界面。"
+          },
+          "provenance": {
+            "assetId": "N036-A06",
+            "sourceType": "psd",
+            "sourcePsd": "陈老板手作-美团.psd",
+            "extractionMethod": "Photoshop embedded screen replacement from AI artboards, web export",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "eb2a5d1b889964c559f0b2a41897b775201f6b934fdfdf11a0f4b45a38dc4035",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12152,7 +12440,9 @@
     "N031",
     "N032",
     "N033",
-    "N034"
+    "N034",
+    "N035",
+    "N036"
   ],
   "photographyCaseOrder": [
     "L021",
