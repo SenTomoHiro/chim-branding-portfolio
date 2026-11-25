@@ -9626,23 +9626,152 @@
         {
           "id": "SL004-06",
           "type": "image",
-          "src": "/media/springlai/xiaolanya/06.jpg",
+          "src": "/media/cases/SL004/phone-1-45a5651101.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-06",
+            "sourceType": "psd",
+            "sourcePsd": "冷饮点评五图.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "45a5651101611076a1f2adf2b9ad4fbf89b96259999e529e102246fe7e214430",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "冷饮 · 大众点评",
+            "description": "同组五张商户通头图按原顺序横向滑动。部分商户资料、价格及销量为样机展示示意。"
+          }
         },
         {
           "id": "SL004-07",
           "type": "image",
-          "src": "/media/springlai/xiaolanya/07.jpg",
+          "src": "/media/cases/SL004/phone-2-14574c4205.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-07",
+            "sourceType": "psd",
+            "sourcePsd": "冷饮美团横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "14574c420596401f1084650de188e2bee63ad190b7430f71c05b50b8d1039c6e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "冷饮 · 美团外卖",
+            "description": "历史店招写有“15颗”，同组横幅写有“10颗”，此处按原稿呈现。平台评分、评价、价格、销量及配送均为样机展示示意。"
+          }
         },
         {
           "id": "SL004-08",
           "type": "image",
-          "src": "/media/springlai/xiaolanya/08.jpg",
+          "src": "/media/cases/SL004/phone-3-a4e0c4bc18.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-08",
+            "sourceType": "psd",
+            "sourcePsd": "热饮点评五图.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "a4e0c4bc18959a3a6f30b0fadd32552c587ffa9a69d013e93685c46bd81f83cf",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "热饮 · 大众点评",
+            "description": "同组五张商户通头图按原顺序横向滑动。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "SL004-phone-4",
+          "type": "image",
+          "src": "/media/cases/SL004/phone-4-f0210af2ca.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-phone-4",
+            "sourceType": "psd",
+            "sourcePsd": "热饮美团横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "f0210af2ca0091971658029be14e47649b0ae89e8690cddbffb2c5f1be4e2105",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "热饮 · 美团外卖",
+            "description": "历史店招写有“15颗”，同组横幅写有“10颗”，此处按原稿呈现。平台评分、评价、价格、销量及配送均为样机展示示意。"
+          }
+        },
+        {
+          "id": "SL004-phone-5",
+          "type": "image",
+          "src": "/media/cases/SL004/phone-5-958a537925.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-phone-5",
+            "sourceType": "psd",
+            "sourcePsd": "冷热同版点评五图.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "958a537925ce5c3878a48df767527c834d3254b245f4738ebcf7e6ba2d884bd5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "冷热同版 · 大众点评",
+            "description": "同组五张商户通头图按原顺序横向滑动。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "SL004-phone-6",
+          "type": "image",
+          "src": "/media/cases/SL004/phone-6-e4432c5d5d.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL004-phone-6",
+            "sourceType": "psd",
+            "sourcePsd": "冷热同版美团横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "e4432c5d5d6163b943ed3c9078ba655b7e1e8f4a0cadf2398500638edc2ba921",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "冷热同版 · 美团外卖",
+            "description": "历史店招写有“15颗”，同组横幅写有“10颗”，此处按原稿呈现。平台评分、评价、价格、销量及配送均为样机展示示意。"
+          }
         }
       ],
       "published": true,
