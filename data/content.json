@@ -12707,6 +12707,84 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N041",
+      "brandName": "春莱",
+      "projectName": "香芭乐与甜草莓 · 海报与点单小程序",
+      "intro": "蓝底网点海报把芭乐、草莓和饮品并排拼贴，一张展示三杯，另一张放大单杯。点单小程序换用浅粉和果绿，三个芭乐造型的角色排在社群、拼单等入口上方。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N041-A01",
+          "type": "image",
+          "src": "/media/cases/N041/01.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N041-A01",
+            "sourceType": "pdf",
+            "sourcePdf": "250328-春莱-芭乐新品海报.pdf",
+            "sourcePage": 1,
+            "extractionMethod": "Render complete original artboard at its native aspect ratio",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "3c859963f556d38a2bdc2cc7b65954be6a5c873571d7802bf02f7458bc0f4598",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N041-A02",
+          "type": "image",
+          "src": "/media/cases/N041/02.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1684,
+          "provenance": {
+            "assetId": "N041-A02",
+            "sourceType": "psd",
+            "sourcePsd": "GU-手机.psd",
+            "extractionMethod": "Illustrator artboards 14, 16–21 from 250321-春莱-芭乐新品-线上全套-改4.ai rendered with mini-home and placed inside the editable numbered PSD 02.",
+            "width": 1920,
+            "height": 1684,
+            "sha256": "98c567b6e38d0e770f9d1d0a5bd1845895564ecdf7fe532b70aeb5457639f8d3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "芭乐季 · 点单小程序首页"
+          }
+        },
+        {
+          "id": "N041-A03",
+          "type": "image",
+          "src": "/media/cases/N041/03.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N041-A03",
+            "sourceType": "pdf",
+            "sourcePdf": "250328-春莱-芭乐新品海报.pdf",
+            "sourcePage": 2,
+            "extractionMethod": "Render complete original artboard at its native aspect ratio",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "a6ee8426e1502e4d8bab018ab2271032b4ad67ab9d6262074cda217f1a0e4949",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12766,7 +12844,8 @@
     "N037",
     "N038",
     "N039",
-    "N046"
+    "N046",
+    "N041"
   ],
   "photographyCaseOrder": [
     "L021",
