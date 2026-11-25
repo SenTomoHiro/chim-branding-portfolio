@@ -11869,6 +11869,236 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N033",
+      "brandName": "亚洲锡兰红茶公司",
+      "projectName": "字标与茶饮包装提案",
+      "intro": "一笔回环的 A 字与中英文字标组合，构成整套包装的识别符号。酒红色包装以金色线条划分版面，并搭配重复纹样，浅色手提袋则以树木、花卉等植物插画围绕红底徽标展开。酒红与浅色两组配色也延伸至成对的纸杯设计。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "红茶",
+      "media": [
+        {
+          "id": "N033-A01",
+          "type": "image",
+          "src": "/media/cases/N033/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1050,
+          "provenance": {
+            "assetId": "N033-A01",
+            "sourceType": "ai",
+            "sourceAi": "亚洲锡兰红茶-logo.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1050,
+            "sha256": "c85ecd87910b674b0d06af5de391c5527414896d37a83108ae499fc0178a550b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N033-A02",
+          "type": "image",
+          "src": "/media/cases/N033/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N033-A02",
+            "sourceType": "ai",
+            "sourceAi": "250207-亚洲锡兰红茶-方案1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "bd61bc341742573dc8cbcef7fdc744122270a16183a34bcee4ca297f1dce41b0",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N033-A03",
+          "type": "image",
+          "src": "/media/cases/N033/03.webp",
+          "layout": "full",
+          "width": 1500,
+          "height": 900,
+          "provenance": {
+            "assetId": "N033-A03",
+            "sourceType": "ai",
+            "sourceAi": "250207-亚洲锡兰红茶-方案1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1500,
+            "height": 900,
+            "sha256": "57b9bc53f59ababc58ea604b9a7d1f2c42d5baabad5110a05eff544fbcb8368b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N033-A04",
+          "type": "image",
+          "src": "/media/cases/N033/04.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 960,
+          "provenance": {
+            "assetId": "N033-A04",
+            "sourceType": "ai",
+            "sourceAi": "250207-亚洲锡兰红茶-方案1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1400,
+            "height": 960,
+            "sha256": "37165fc71c5a889a5834a4d4ec6e491bbb4fbe646b50c597aa8d8ef9e3ef054f",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N033-A05",
+          "type": "image",
+          "src": "/media/cases/N033/05.webp",
+          "layout": "full",
+          "width": 1184,
+          "height": 1584,
+          "provenance": {
+            "assetId": "N033-A05",
+            "sourceType": "ai",
+            "sourceAi": "250207-亚洲锡兰红茶-方案1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1184,
+            "height": 1584,
+            "sha256": "848279ca9cc2481c90a6e7fb6d2134295273e4a4a41d4393170cb8f574594b1c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N034",
+      "brandName": "大胡子雪糕",
+      "projectName": "字标与包装图案",
+      "intro": "海边小屋、椰树、落日与海浪以几笔彩线勾勒，组成轻松的海滨主题插画。另一组图案将椰树、遮阳伞和太阳等元素铺陈成满版纹样，重复排列的 ice iton 字标则采用红、黄等品牌色，呼应主标识的层叠效果。",
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "冰淇淋",
+      "media": [
+        {
+          "id": "N034-A01",
+          "type": "image",
+          "src": "/media/cases/N034/01.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N034-A01",
+            "sourceType": "ai",
+            "sourceAi": "241122-大胡子雪糕-油纸.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 2000,
+            "sha256": "51c1099232c06b9380b76fe1605eb15b0d56d32c7ec1055b5d03c0e9b29c22b1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N034-A02",
+          "type": "image",
+          "src": "/media/cases/N034/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N034-A02",
+            "sourceType": "ai",
+            "sourceAi": "241030-大胡子雪糕-发光字-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "c27cd3320fb2dea074bf25516a5b52a0e07092ef5a822f1bee9fd58df7da025e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N034-A03",
+          "type": "image",
+          "src": "/media/cases/N034/03.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N034-A03",
+            "sourceType": "ai",
+            "sourceAi": "241122-大胡子雪糕-油纸.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 2000,
+            "sha256": "1fc142897b5e8a27a028d64ba5120b39d62b3fa53738cfbacc99cfd0d7fa6652",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N034-A04",
+          "type": "image",
+          "src": "/media/cases/N034/04.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1995,
+          "provenance": {
+            "assetId": "N034-A04",
+            "sourceType": "ai",
+            "sourceAi": "241105-大胡子雪糕-冰淇淋杯 纸巾.ai",
+            "sourceArtboard": 5,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1995,
+            "sha256": "dd82d69753e1cb7d6d16dae56e4d2a9e30bc73678cf123101b62f7f90ad08a73",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N034-A05",
+          "type": "image",
+          "src": "/media/cases/N034/05.webp",
+          "layout": "full",
+          "width": 1763,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N034-A05",
+            "sourceType": "ai",
+            "sourceAi": "大胡子雪糕-logo-改3.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1763,
+            "height": 2000,
+            "sha256": "2e0d9f13fdce6f059af212ddc6dc82a68abf847c27658759dbf4467b4f3e8b19",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -11920,7 +12150,9 @@
     "N029",
     "N030",
     "N031",
-    "N032"
+    "N032",
+    "N033",
+    "N034"
   ],
   "photographyCaseOrder": [
     "L021",
