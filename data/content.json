@@ -10594,7 +10594,7 @@
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "热可可启航",
-            "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。"
+            "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。 招牌热可可另附同款同价的两版商品图，区别在人物和杯标。 部分商户资料、价格及销量为样机展示示意。"
           },
           "provenance": {
             "assetId": "N024-body-2",
@@ -10626,35 +10626,83 @@
           }
         },
         {
-          "id": "N024-body-4",
+          "id": "N024-phone-01A",
           "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-04.jpg",
+          "src": "/media/cases/N024/phone-01a-c067e99af7.webp",
           "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N024-body-4",
-            "sourceObject": "01-241014-大胡子可可-热饮6款-改1-07.jpg + 01-241014-大胡子可可-热饮6款-改1-08.jpg + 01-241014-大胡子可可-热饮6款-改1-09.jpg + 01-241014-大胡子可可-热饮6款-改1-10.jpg + 01-241014-大胡子可可-热饮6款-改1-11.jpg + 01-241014-大胡子可可-热饮6款-改1-12.jpg",
-            "extractionMethod": "deterministic editorial composite; no generated pixels",
-            "width": 2748,
-            "height": 1824,
-            "sha256": "0a34c1cae879354aa1df10b6290c2deb347e100c94157034d48c82aa91f9ea02",
+            "assetId": "N024-phone-01A",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/01A-美团首轮六款.psd",
+            "sourceObject": "01—06号商品据 body-04 六格，杯身与 body-01 海报逐一核名",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "c067e99af7aee886802a68c100339e5144f6bba76f8249b1af2d8609fbea7846",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N024-body-5",
+          "id": "N024-phone-01B",
           "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-05.jpg",
+          "src": "/media/cases/N024/phone-01b-98ca8a6caf.webp",
           "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N024-body-5",
-            "sourceObject": "241014-大胡子可可-热饮6款-改1_大众点评头图-1.jpg + 241014-大胡子可可-热饮6款-改1_大众点评头图-2.jpg + 241014-大胡子可可-热饮6款-改1_大众点评头图-3.jpg + 241014-大胡子可可-热饮6款-改1_大众点评头图-4.jpg + 241014-大胡子可可-热饮6款-改1_大众点评头图-5.jpg",
-            "extractionMethod": "deterministic editorial composite; no generated pixels",
-            "width": 2748,
-            "height": 1424,
-            "sha256": "b6989cf96732191887dfd80b9e584b3029eeb1ac22d0794a413fb5bb104a8bd2",
+            "assetId": "N024-phone-01B",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/01B-美团招牌商品变体.psd",
+            "sourceObject": "241014 原板1、14、15，商品导出7/8，与板10同款",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "98ca8a6cafbcd1a4a0c30ca400b356c79d963a1c11324f913270f15fa9e166ea",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          }
+        },
+        {
+          "id": "N024-phone-02",
+          "type": "image",
+          "src": "/media/cases/N024/phone-02-12cf7e1bfc.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N024-phone-02",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/02-点评头图起始.psd",
+            "sourceObject": "body-05 点评头图1至5的起始滑位",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "12cf7e1bfcd68a5482d5f8293dc78e23d2da8ffdac11c08198d41d0f65d6d3b1",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          }
+        },
+        {
+          "id": "N024-phone-03",
+          "type": "image",
+          "src": "/media/cases/N024/phone-03-81ab1ebe15.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N024-phone-03",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/03-点评头图后段.psd",
+            "sourceObject": "body-05 点评头图1至5的中、末滑位",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "81ab1ebe153987314e40e691ff50fc05728f108094eae42192fd7a5c571ba483",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
@@ -10666,7 +10714,7 @@
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "可可航海系列",
-            "description": "以复古地图与探险家肖像扩展第二轮热饮风味。"
+            "description": "以复古地图与探险家肖像扩展第二轮热饮风味。 部分商户资料、价格及销量为样机展示示意。"
           },
           "provenance": {
             "assetId": "N024-body-6",
@@ -10694,6 +10742,26 @@
             "sha256": "fc947c9164dc62dc5b1093099230808c001d9330455eb7145136bfcb03619882",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N024-phone-04",
+          "type": "image",
+          "src": "/media/cases/N024/phone-04-42787b7c4f.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N024-phone-04",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/04-美团航海两款.psd",
+            "sourceObject": "241024 同案归档 body-08、09 商品图，body-07 海报原字",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "42787b7c4fff2877323e1fa99ce13feff979227d4643b064664cdde36157e4af",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
@@ -10785,188 +10853,318 @@
           }
         },
         {
-          "id": "N025-body-2",
+          "id": "N025-phone-X01",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-02.jpg",
-          "layout": "half",
+          "src": "/media/cases/N025/phone-x01-9994080466.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-X01",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X01-点评详情.psd",
+            "sourceObject": "X 1、2–6、7、13/14",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "9994080466fecf732986e80813a16afa5e626df5d395d65525c45feafe029ad4",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
           "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "小胖当家 · 圣诞来袭",
-            "description": "以圣诞帽、深绿菱格与联名杯装建立第一波节日视觉。"
-          },
-          "provenance": {
-            "assetId": "N025-body-2",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "8b859f1ff7755996b750a956f0dc9b62fb8540d388228889e76d7badd409871a",
-            "classification": "final_design",
-            "finalWorkVerified": true
+            "description": "第一期联名在点评、美团与点餐小程序的应用。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
-          "id": "N025-body-4",
+          "id": "N025-phone-X02",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-04.jpg",
+          "src": "/media/cases/N025/phone-x02-c3dd8cae8b.webp",
           "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-4",
-            "sourceObject": "01-241201-大胡子可可-tatan联名-圣诞-线上-04.jpg + 01-241201-大胡子可可-tatan联名-圣诞-线上-05.jpg + 01-241201-大胡子可可-tatan联名-圣诞-线上-06.jpg",
-            "extractionMethod": "deterministic editorial composite; no generated pixels",
-            "width": 2748,
-            "height": 900,
-            "sha256": "a557b9f94b485a4de0ca6606a506be6387352d63b342a9ad0498d0b84762169d",
+            "assetId": "N025-phone-X02",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X02-美团店铺.psd",
+            "sourceObject": "X 1、8–10、13–16；Y15空白",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "c3dd8cae8b8188f4147914ad3523749a20ea6b24b411822d83e393e98ab3fcac",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N025-body-5",
+          "id": "N025-phone-X05",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-05.jpg",
-          "layout": "half",
+          "src": "/media/cases/N025/phone-x05-7dbf82ed39.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-5",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "5d497ae1294d18150625d6346918d99ab6cbc8742d8b40633f9b0c6e51df248f",
+            "assetId": "N025-phone-X05",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X05-小程序首页.psd",
+            "sourceObject": "X 17、19–24",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "7dbf82ed396013d721854bb40d47bb81a3ca6f937e9329544bb298a0c9c7d7a3",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N025-body-6",
+          "id": "N025-phone-X06",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-06.jpg",
-          "layout": "half",
+          "src": "/media/cases/N025/phone-x06-65ea15da9e.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-6",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2100,
-            "height": 2800,
-            "sha256": "51a39b5c0a7ff2e71da3eb0ec448d41ca421eb2358884da3a7d9952f9f88bf5e",
+            "assetId": "N025-phone-X06",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X06-小程序点餐.psd",
+            "sourceObject": "X 13–15、23；Y15空白，菜品跨渠道复用",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "65ea15da9e5da6b1cb71cb917774343d601fab43ca474b20fb07eb2747127da2",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N025-body-7",
+          "id": "N025-phone-X07",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-07.jpg",
-          "layout": "half",
-          "portfolioPdfSelected": true,
+          "src": "/media/cases/N025/phone-x07-d060121f92.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-X07",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X07-小程序活动入口.psd",
+            "sourceObject": "X 18–23、25",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "d060121f926af19eed3971e5e0cd07f6adfef1b428641c4ca9b955e3ce6a5cce",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
           "section": {
             "eyebrow": "CHAPTER 02",
-            "title": "冬日约定 · 莓好圣诞",
-            "description": "以草莓角色和暖红色系延展新年阶段的联名传播。"
+            "title": "小胖当家 · 圣诞来袭 · 活动视觉设计稿",
+            "description": "本页仅展示历史活动视觉稿，本站未开设活动，无法在此参与。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N025-phone-X08",
+          "type": "image",
+          "src": "/media/cases/N025/phone-x08-64264f8f8e.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-X08",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X08-小程序弹窗.psd",
+            "sourceObject": "X 17、19–24、28",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "64264f8f8ed35aac61db42c1a6fb4ead5855f160d107eac589e1a8169eaa0f8f",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           },
-          "provenance": {
-            "assetId": "N025-body-7",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2800,
-            "sha256": "6a11b8ae93ecad99fdef6b9af69ea033aa0b6f832ba68306675b98979cb38acc",
-            "classification": "final_design",
-            "finalWorkVerified": true
+          "section": {
+            "eyebrow": "CHAPTER 03",
+            "title": "小胖当家 · 圣诞来袭 · 弹窗与个人中心",
+            "description": "原画弹窗与会员个人中心分别展示。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
-          "id": "N025-body-8",
+          "id": "N025-phone-X09",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-08.jpg",
-          "layout": "half",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N025-body-8",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "d4deffd4ee3c54b7646a7ff4c3de827f1119b64563ad030cd0f2fb67c8f7440e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N025-body-9",
-          "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-09.jpg",
+          "src": "/media/cases/N025/phone-x09-71ccb0b93b.webp",
           "layout": "full",
-          "portfolioPdfSelected": true,
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-9",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 934,
-            "sha256": "deda5edf48da95e578a114372fbfebe4812bbb8bd352ee3a80d7ac43b3c98453",
+            "assetId": "N025-phone-X09",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/X09-小程序会员.psd",
+            "sourceObject": "X 1、23、26",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "71ccb0b93bed8f6cbd0431952e4a9086581be918b78b303bbde5f9955b81e6c0",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N025-body-10",
+          "id": "N025-phone-Y01",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-10.jpg",
+          "src": "/media/cases/N025/phone-y01-be63e36d03.webp",
           "layout": "full",
-          "portfolioPdfSelected": true,
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-10",
-            "sourceObject": "04-241201-大胡子可可-tatan联名-新年-线上-05.jpg + 04-241201-大胡子可可-tatan联名-新年-线上-06.jpg",
-            "extractionMethod": "deterministic editorial composite; no generated pixels",
-            "width": 2424,
-            "height": 1000,
-            "sha256": "75e7a0d0a058d66cff5fe6de7f57315ebd46e7b031d7acb22cb651112ff83259",
+            "assetId": "N025-phone-Y01",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y01-点评详情.psd",
+            "sourceObject": "Y 1、2–6、7、13/14",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "be63e36d03d7cf541cfe308d362849ed6a3cf62044eb9a38a0e1abda5c6edd14",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "CHAPTER 04",
+            "title": "冬日约定 · 莓好圣诞",
+            "description": "第二期联名在点评、美团与点餐小程序的应用。 部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
-          "id": "N025-body-11",
+          "id": "N025-phone-Y02",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-11.jpg",
-          "layout": "half",
-          "portfolioPdfSelected": true,
+          "src": "/media/cases/N025/phone-y02-2e21dbd5de.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-11",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2100,
-            "sha256": "09aa4cb081497d20ad069a62684cbf0673c074597694aa0761ce17c9e01ef0a0",
+            "assetId": "N025-phone-Y02",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y02-美团店铺.psd",
+            "sourceObject": "Y 1、8–10、13–16；Y15空白",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "2e21dbd5de4a19c71e02c6c1aafc1bafc2cecd95398207a9a0dd288cbaefd80b",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "N025-phone-Y05",
+          "type": "image",
+          "src": "/media/cases/N025/phone-y05-1e2d2e2ccf.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-Y05",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y05-小程序首页.psd",
+            "sourceObject": "Y 17、19–24",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "1e2d2e2ccfa61ee041c9748213fdf9dffb5dedf7a8587228a52986fe72c3e934",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         },
         {
-          "id": "N025-body-12",
+          "id": "N025-phone-Y06",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-12.jpg",
-          "layout": "half",
-          "portfolioPdfSelected": true,
+          "src": "/media/cases/N025/phone-y06-4e63f4861e.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N025-body-12",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-新年-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2100,
-            "height": 2800,
-            "sha256": "ef40f284cb434f19c2f04bd99504b2f5d8b62c11082bd4c4f81334ba1d7fb28c",
+            "assetId": "N025-phone-Y06",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y06-小程序点餐.psd",
+            "sourceObject": "Y 13–15、23；Y15空白，菜品跨渠道复用",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "4e63f4861e35238420a50a22e37a32eb7559cfe08c0e32c50c1f8520569a97fe",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "portfolioPdfSelected": true
+        },
+        {
+          "id": "N025-phone-Y07",
+          "type": "image",
+          "src": "/media/cases/N025/phone-y07-db5ad161d4.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-Y07",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y07-小程序活动入口.psd",
+            "sourceObject": "Y 18–23、25",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "db5ad161d4ad9039861148bb609430b9d4b9441fb2a53a2667595b7decb83cd0",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 05",
+            "title": "冬日约定 · 莓好圣诞 · 活动视觉设计稿",
+            "description": "本页仅展示历史活动视觉稿，本站未开设活动，无法在此参与。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N025-phone-Y08",
+          "type": "image",
+          "src": "/media/cases/N025/phone-y08-f181b49355.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-Y08",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y08-小程序弹窗.psd",
+            "sourceObject": "Y 17、19–24、28",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "f181b493552fdbf98a5107597847c572b1106e35fb35c7dc8d1604716368ca32",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "CHAPTER 06",
+            "title": "冬日约定 · 莓好圣诞 · 弹窗与个人中心",
+            "description": "原画弹窗与会员个人中心分别展示。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N025-phone-Y09",
+          "type": "image",
+          "src": "/media/cases/N025/phone-y09-552c26252b.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N025-phone-Y09",
+            "sourceType": "psd",
+            "sourcePsd": "N025/成品/Y09-小程序会员.psd",
+            "sourceObject": "Y 1、23、26",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "552c26252bbd63ba33cd2bc665bccfbe0ad3c66d7ef1ba4d95438fd42d15052a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         }
       ],
@@ -12994,6 +13192,76 @@
             "title": "大众点评商户详情",
             "description": "五张商户通头图依次展示人物、活动标题、联名署名与两款饮品。部分商户资料、价格及销量为样机展示示意。"
           }
+        },
+        {
+          "id": "N045-phone-01",
+          "type": "image",
+          "src": "/media/cases/N045/phone-01-e125de9ca8.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N045-phone-01",
+            "sourceType": "psd",
+            "sourcePsd": "N045/成品/01-美团联名横幅.psd",
+            "sourceObject": "TM 1、7/9、8、11/12",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "e125de9ca8e31d5a26210b4f0dec646106e342f8c9c52a17f80445aa60b8383c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 02",
+            "title": "美团联名横幅",
+            "description": "两幅芒DAY横幅分别叠放在同案店招上，同时展示两款联名饮品。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N045-phone-02",
+          "type": "image",
+          "src": "/media/cases/N045/phone-02-615151265d.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N045-phone-02",
+            "sourceType": "psd",
+            "sourcePsd": "N045/成品/02-小程序首页轮播.psd",
+            "sourceObject": "TM 14/15、16、17–22、23/24",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "615151265d8ae4ba7d7a8d78819cdfcf547f379137438422cbc00f81a53fd81a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 03",
+            "title": "芒DAY点餐小程序",
+            "description": "首页轮播、会员区与业务入口沿用原画，两款芒果饮品在点餐页独立展示。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N045-phone-03",
+          "type": "image",
+          "src": "/media/cases/N045/phone-03-b6fe857d24.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N045-phone-03",
+            "sourceType": "psd",
+            "sourcePsd": "N045/成品/03-小程序点餐.psd",
+            "sourceObject": "TM 11/12、16；菜品按原品名复用",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "b6fe857d2460997e32adbebac002c47338019e613fe038b21dbe2e9fc99174b6",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          }
         }
       ],
       "published": true,
@@ -13072,6 +13340,51 @@
             "eyebrow": "CHAPTER 01",
             "title": "美团外卖橱窗",
             "description": "三张商品卡沿用历史提案的美团菜品画板，左上角的“春莱 ChunLai”与“阿莱妈妈”均为原稿标识。店铺及商品信息按提案复现，部分价格、销量和配送数据为样机展示示意。"
+          }
+        },
+        {
+          "id": "N040-phone-01",
+          "type": "image",
+          "src": "/media/cases/N040/phone-01-a8e45e916b.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N040-phone-01",
+            "sourceType": "psd",
+            "sourcePsd": "N040/成品/01-美团大招三组.psd",
+            "sourceObject": "AI 13+11、19+17、24+22；7–10 菜品",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "a8e45e916b58853379fa909419f63883f219d75b1c1245565f1ea7c703951f2c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 02",
+            "title": "美团外卖店铺",
+            "description": "同组三款小吃的大图招牌与小图招牌，分别配原活动横幅。 部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N040-phone-02",
+          "type": "image",
+          "src": "/media/cases/N040/phone-02-3f84888b90.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N040-phone-02",
+            "sourceType": "psd",
+            "sourcePsd": "N040/成品/02-美团小招三组.psd",
+            "sourceObject": "AI 12+11、18+17、23+22；7–10 菜品",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "3f84888b907cdceed379b02d4f6edff34bf6dc22ace22a7a4755eda761f7e223",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
           }
         }
       ],
