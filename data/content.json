@@ -13121,6 +13121,69 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N048",
+      "brandName": "春莱",
+      "projectName": "江浙沪限定抹茶",
+      "intro": "2024 年江浙沪限定抹茶的历史设计稿。青绿色的山水和塔影衬出杯身，两幅原稿分别展示同一画面在横幅与竖版海报中的构图。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N048-A01",
+          "type": "image",
+          "src": "/media/cases/N048/01.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1125,
+          "provenance": {
+            "assetId": "N048-A01",
+            "sourceType": "ai",
+            "sourceAi": "240415-江浙沪限定抹茶.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 2000,
+            "height": 1125,
+            "sha256": "54d728ab22dc4712b6bf48e405e6f46b6683176374e24c3cb3ce2a079b5c8997",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "横版主视觉",
+            "description": "2024 年限定主题设计稿。"
+          }
+        },
+        {
+          "id": "N048-A02",
+          "type": "image",
+          "src": "/media/cases/N048/02.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N048-A02",
+            "sourceType": "ai",
+            "sourceAi": "240415-江浙沪限定抹茶.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "41d1007ab41a4278661dc305be6b9af87b3da7f1f89a8a230b8c3cbb429e02f9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "竖版海报",
+            "description": "水墨山水与塔影沿杯身上下展开。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -13185,7 +13248,8 @@
     "N045",
     "N040",
     "N043",
-    "N047"
+    "N047",
+    "N048"
   ],
   "photographyCaseOrder": [
     "L021",
