@@ -11529,6 +11529,346 @@
       ],
       "published": true,
       "includeInPortfolioPdf": true
+    },
+    {
+      "id": "N029",
+      "brandName": "BKK 泰茶",
+      "projectName": "茶饮包装设计提案",
+      "intro": "金色 BKK 字标呈现出两种包装搭配。深蓝礼盒以细带和左上方的圆形封签点缀，字标居于画面中央；白色手提袋则以大象与植物组成插画。另有深蓝底纹样，将字标及相关插画分别置于椭圆图章中重复排列。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "泰式茶饮",
+      "media": [
+        {
+          "id": "N029-A01",
+          "type": "image",
+          "src": "/media/cases/N029/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N029-A01",
+            "sourceType": "ai",
+            "sourceAi": "241216-BKK-初步2-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "49369882439171d145bc97b4c45bf948f62ae46450d3ab72ea96460340ae3ea1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N029-A02",
+          "type": "image",
+          "src": "/media/cases/N029/02.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N029-A02",
+            "sourceType": "ai",
+            "sourceAi": "241216-BKK-初步2-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1000,
+            "sha256": "6323a4ed19df4da02b28ef53d2961439f7e5e253315e56f21288c1e27ff7261d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N029-A03",
+          "type": "image",
+          "src": "/media/cases/N029/03.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1050,
+          "provenance": {
+            "assetId": "N029-A03",
+            "sourceType": "ai",
+            "sourceAi": "241216-BKK-初步2-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1050,
+            "sha256": "75ef1566ec537299bbc3ac567c9684af4dec1c1673306ce71649ba82b0314563",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N029-A04",
+          "type": "image",
+          "src": "/media/cases/N029/04.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1027,
+          "provenance": {
+            "assetId": "N029-A04",
+            "sourceType": "ai",
+            "sourceAi": "241216-BKK-初步2-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1027,
+            "sha256": "c0aa37a611f412faac04048d7eaafb67add20b0906b823fa8d9ad70710b0fbfa",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N030",
+      "brandName": "ITONJUICE",
+      "projectName": "东南亚奶昔门头与水果图案",
+      "intro": "门头以不规则的英文大字为主体，「东南亚奶昔」置于字标下方。水果图案沿用浅蓝与亮黄，以香蕉、浆果状图形及切开的水果围绕字标铺陈。木纹底招牌展示了同一套字形的另一种用法。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "奶昔",
+      "media": [
+        {
+          "id": "N030-A01",
+          "type": "image",
+          "src": "/media/cases/N030/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 960,
+          "provenance": {
+            "assetId": "N030-A01",
+            "sourceType": "ai",
+            "sourceAi": "240716-ITONJUICE-门头-1400x450mm-改色.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 960,
+            "sha256": "0f546fe2a72f8bcc1ebf1e48acff3b1096078420f4dcd301840a6aff12f98012",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N030-A02",
+          "type": "image",
+          "src": "/media/cases/N030/02.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1116,
+          "provenance": {
+            "assetId": "N030-A02",
+            "sourceType": "ai",
+            "sourceAi": "241209-itonjuice-纸杯-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 1116,
+            "sha256": "f1e24ff823f835a49e75a7b74b5af401b74a9b5efddb463e18eef690b5ea7647",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N030-A03",
+          "type": "image",
+          "src": "/media/cases/N030/03.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 643,
+          "provenance": {
+            "assetId": "N030-A03",
+            "sourceType": "ai",
+            "sourceAi": "240716-ITONJUICE-门头-1400x450mm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 643,
+            "sha256": "7325ddbffffbbe976a8d7fbef13d8241846d8582c67bc091c291868ec848cc04",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N030-A04",
+          "type": "image",
+          "src": "/media/cases/N030/04.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 643,
+          "provenance": {
+            "assetId": "N030-A04",
+            "sourceType": "ai",
+            "sourceAi": "240716-ITONJUICE-门头-1400x450mm-改色.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 2000,
+            "height": 643,
+            "sha256": "6a127a2eb012e3e5480b0221fea2aff0db03e7ad42396fe4aa4f4a5cec37ef6d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N031",
+      "brandName": "永珍咖啡",
+      "projectName": "中泰双语菜单",
+      "intro": "泰文手写标题置于菜单上方，四组中文品类沿左侧依次排开。每款饮品的泰文、中文和价格按列对齐，奶油色与灰绿色两套配色保留相同的阅读顺序。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "咖啡",
+      "media": [
+        {
+          "id": "N031-A01",
+          "type": "image",
+          "src": "/media/cases/N031/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 960,
+          "provenance": {
+            "assetId": "N031-A01",
+            "sourceType": "ai",
+            "sourceAi": "2303-永珍菜单修改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 960,
+            "sha256": "43d07790d5e016c14010314bc48cb94d876d66e774d76d6ef2d70d9cdf29e852",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N031-A02",
+          "type": "image",
+          "src": "/media/cases/N031/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1050,
+          "provenance": {
+            "assetId": "N031-A02",
+            "sourceType": "ai",
+            "sourceAi": "2303-永珍菜单修改2.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1050,
+            "sha256": "c22fd32222ac34f0a62366e74fbe06a2abd0282f34932607df620d30b5c8035c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N031-A03",
+          "type": "image",
+          "src": "/media/cases/N031/03.webp",
+          "layout": "full",
+          "width": 1415,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N031-A03",
+            "sourceType": "ai",
+            "sourceAi": "2303-永珍菜单修改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1415,
+            "height": 2000,
+            "sha256": "818d8c372ebe89d508e814f3b6d3a3e25ae7e4b3a9d0a88c617845c8e1d3b83d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N032",
+      "brandName": "糯泰",
+      "projectName": "品牌标志与团子形象",
+      "intro": "两枚表情不同的团子靠在同一片绿叶上，下面是细线手写的 NuoTai。另一组标志把微笑藏进绿色方框，再与中英文字标组合。四款小插画用团子的颜色区分形象。",
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "餐饮",
+      "media": [
+        {
+          "id": "N032-A01",
+          "type": "image",
+          "src": "/media/cases/N032/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1050,
+          "provenance": {
+            "assetId": "N032-A01",
+            "sourceType": "ai",
+            "sourceAi": "糯泰LOGO.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1050,
+            "sha256": "b8fc3cbc7e305893a35b12d79e197d07524bd94932cf59ec19143a693892b093",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N032-A02",
+          "type": "image",
+          "src": "/media/cases/N032/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N032-A02",
+            "sourceType": "ai",
+            "sourceAi": "糯泰LOGO.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "a0bd3cb22c6040f908834b335630af0aef65d9eceeb98bff3c067bdf3641178b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N032-A03",
+          "type": "image",
+          "src": "/media/cases/N032/03.webp",
+          "layout": "full",
+          "width": 1516,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N032-A03",
+            "sourceType": "ai",
+            "sourceAi": "糯泰LOGO.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1516,
+            "height": 2000,
+            "sha256": "0145fabd22ec0be1d806ff8ec6ced36413d41c6e7fea2641440ed09be1ed5eb8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -11576,7 +11916,11 @@
     "N025",
     "N026",
     "N027",
-    "N028"
+    "N028",
+    "N029",
+    "N030",
+    "N031",
+    "N032"
   ],
   "photographyCaseOrder": [
     "L021",
