@@ -12785,6 +12785,85 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N045",
+      "brandName": "春莱 × TATAN",
+      "projectName": "「芒DAY」芒果联名系列",
+      "intro": "封面用 TATAN 戴墨镜喝椰子的插画为「芒DAY」联名造势。桌面画板换上“芒着想你哦”的招呼语。两款芒果饮品的实物与品名见点评页的原版商品画板。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N045-A01",
+          "type": "image",
+          "src": "/media/cases/N045/01-f88027f248.webp",
+          "layout": "full",
+          "width": 1601,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N045-A01",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "240304-TATAN芒果-线下1-改3.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Complete compatible Illustrator artboard, converted to sRGB WebP",
+            "width": 1601,
+            "height": 2400,
+            "sha256": "f88027f248fc40866b209d8f91b61a567cde91cf0899172aa4a9f8c29f2e1e17"
+          }
+        },
+        {
+          "id": "N045-A02",
+          "type": "image",
+          "src": "/media/cases/N045/02-797b369176.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N045-A02",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "240304-TATAN芒果-线下1-改3.ai",
+            "sourceArtboard": 9,
+            "extractionMethod": "Complete compatible Illustrator artboard, converted to sRGB WebP",
+            "width": 2400,
+            "height": 2400,
+            "sha256": "797b369176054239d1fa68c038f5e33ef92bc8f2999a4ff05bb9711e1d1f5be2"
+          }
+        },
+        {
+          "id": "N045-A03",
+          "type": "image",
+          "src": "/media/cases/N045/03-94ed1409f5.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N045-A03",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "psd",
+            "sourcePsd": "样机.psd",
+            "extractionMethod": "Same-case Illustrator artboards, approved manifest renderer and editable Photoshop phone mockup",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "94ed1409f5847c3ff378e5913796262a747e43effb7d6309ff56a52fa7692bdb"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "大众点评商户详情",
+            "description": "五张商户通头图依次展示人物、活动标题、联名署名与两款饮品。部分商户资料、价格及销量为样机展示示意。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12845,7 +12924,8 @@
     "N038",
     "N039",
     "N046",
-    "N041"
+    "N041",
+    "N045"
   ],
   "photographyCaseOrder": [
     "L021",
