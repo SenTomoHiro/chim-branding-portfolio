@@ -13184,6 +13184,85 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N051",
+      "brandName": "大胡子可可",
+      "projectName": "夏日香瓜瓜",
+      "intro": "2025 年「夏日香瓜瓜」系列以瓜皮帽和绿色胡子装扮人物。浅绿色贯穿新品预告、三杯饮品的合照和单杯特写。画面中的优惠文字为当年海报内容。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N051-A01",
+          "type": "image",
+          "src": "/media/cases/N051/01.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N051-A01",
+            "sourceType": "ai",
+            "sourceAi": "250604-大胡子-夏日香瓜瓜-海报.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "55e0481606a661efbdeafe3d9b202d9bca72bf6ed163d8b456169e52c438c7f9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N051-A02",
+          "type": "image",
+          "src": "/media/cases/N051/02.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N051-A02",
+            "sourceType": "ai",
+            "sourceAi": "250604-大胡子-夏日香瓜瓜-海报.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "e3e1670498303df662f6d3236c7e418c5ecf9e2652636531eba88fd5a33b5d92",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N051-A03",
+          "type": "image",
+          "src": "/media/cases/N051/03.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N051-A03",
+            "sourceType": "ai",
+            "sourceAi": "250604-大胡子-夏日香瓜瓜-海报.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "3c1f294d170ce1721b4790069fcbf778ad2c288038086fce90c403f4dc14dc07",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "单杯促销海报",
+            "description": "2025 年历史宣传稿，画面中的买一送一为当期活动信息。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -13249,7 +13328,8 @@
     "N040",
     "N043",
     "N047",
-    "N048"
+    "N048",
+    "N051"
   ],
   "photographyCaseOrder": [
     "L021",
