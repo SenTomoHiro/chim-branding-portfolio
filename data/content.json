@@ -15179,6 +15179,116 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N047-carousel",
+          "type": "image",
+          "layout": "full",
+          "width": 2200,
+          "height": 2195,
+          "src": "/media/cases/N047/N047-carousel.webp",
+          "provenance": {
+            "assetId": "N047-carousel",
+            "sourceType": "psd",
+            "sourcePsd": "N047-carousel.psd",
+            "sourceAi": "240503-老挝咖啡-美团小程序-.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 2200,
+            "height": 2195,
+            "sha256": "dd1490937a3ce8016d73f94947d7e72afe3df5ab6b8ac415c56dfa5e4a30e419",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "老挝冰咖啡 · 美团点餐小程序",
+            "description": "按2024年5月两期原稿复原小程序页面。图中奖项和活动信息为当期设计内容。"
+          }
+        },
+        {
+          "id": "N047-ordinary",
+          "type": "image",
+          "layout": "full",
+          "width": 1350,
+          "height": 2299,
+          "src": "/media/cases/N047/N047-ordinary.webp",
+          "provenance": {
+            "assetId": "N047-ordinary",
+            "sourceType": "psd",
+            "sourcePsd": "N047-ordinary.psd",
+            "sourceAi": "240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 18,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 1350,
+            "height": 2299,
+            "sha256": "a4a0fe5062190a6fe454751eae2203852e42b891565b8b8e5612a3bb77ca8b25",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-member",
+          "type": "image",
+          "layout": "full",
+          "width": 1350,
+          "height": 2299,
+          "src": "/media/cases/N047/N047-member.webp",
+          "provenance": {
+            "assetId": "N047-member",
+            "sourceType": "psd",
+            "sourcePsd": "N047-member.psd",
+            "sourceAi": "240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 27,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 1350,
+            "height": 2299,
+            "sha256": "882075815402e37915983e48689d7e0230ebb5b0b04357cef423c74ab0c32102",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-popup-single",
+          "type": "image",
+          "layout": "full",
+          "width": 1350,
+          "height": 2299,
+          "src": "/media/cases/N047/N047-popup-single.webp",
+          "provenance": {
+            "assetId": "N047-popup-single",
+            "sourceType": "psd",
+            "sourcePsd": "N047-popup-single.psd",
+            "sourceAi": "240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 29,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 1350,
+            "height": 2299,
+            "sha256": "02c2c6c37bbe491ba53ebcfdd661c81596ea72b7a114dd4c5d5bb3937a7861b2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-wheel-pair",
+          "type": "image",
+          "layout": "full",
+          "width": 2200,
+          "height": 2195,
+          "src": "/media/cases/N047/N047-wheel-pair.webp",
+          "provenance": {
+            "assetId": "N047-wheel-pair",
+            "sourceType": "psd",
+            "sourcePsd": "N047-wheel-pair.psd",
+            "sourceAi": "240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 30,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 2200,
+            "height": 2195,
+            "sha256": "b1ad177c9293fae7871fc5746cbd2fe35cb24995ed4fcfd31ca24e73c4aeb41d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
