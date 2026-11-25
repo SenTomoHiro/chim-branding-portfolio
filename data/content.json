@@ -12864,6 +12864,85 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N040",
+      "brandName": "阿莱妈妈 Alai Mamma",
+      "projectName": "泰式小吃海报与美团橱窗",
+      "intro": "这组历史提案收录阿莱妈妈的三语标志、蛋卷海报与美团橱窗。蛋卷海报用透明盒装呈现不同口味，美团橱窗则把三款小吃排成一列。",
+      "business": "branding",
+      "categories": [
+        "food"
+      ],
+      "primaryIndustry": "泰式小吃",
+      "media": [
+        {
+          "id": "N040-A01",
+          "type": "image",
+          "src": "/media/cases/N040/01-0b4c77ac0f.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 950,
+          "provenance": {
+            "assetId": "N040-A01",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "阿莱妈妈logo定稿.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Retained approved three-script logo from archived N040-A01, original WebP bytes",
+            "width": 1600,
+            "height": 950,
+            "sha256": "0b4c77ac0fb3e0f92da60f634c592b46153038795da9047bebdc40eff74938f4"
+          }
+        },
+        {
+          "id": "N040-A02",
+          "type": "image",
+          "src": "/media/cases/N040/02-10fc410712.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N040-A02",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "240524-阿莱妈妈-产品3个.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Complete compatible Illustrator artboard, converted to sRGB WebP",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "10fc410712f120b251ea274b51a3a56ceba6daf820c25c565d1a49f9bee94058"
+          }
+        },
+        {
+          "id": "N040-A03",
+          "type": "image",
+          "src": "/media/cases/N040/03-63c89582ed.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N040-A03",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "psd",
+            "sourcePsd": "样机.psd",
+            "extractionMethod": "Same-case Illustrator artboards, approved manifest renderer and editable Photoshop phone mockup",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "63c89582edb114112398adcf87c198ede481b232b6f6ec22eb0de7f143a35b1a"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "美团外卖橱窗",
+            "description": "三张商品卡沿用历史提案的美团菜品画板，左上角的“春莱 ChunLai”与“阿莱妈妈”均为原稿标识。店铺及商品信息按提案复现，部分价格、销量和配送数据为样机展示示意。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12925,7 +13004,8 @@
     "N039",
     "N046",
     "N041",
-    "N045"
+    "N045",
+    "N040"
   ],
   "photographyCaseOrder": [
     "L021",
