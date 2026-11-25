@@ -9483,23 +9483,92 @@
         {
           "id": "SL003-05",
           "type": "image",
-          "src": "/media/springlai/tieguanyin/05.jpg",
+          "src": "/media/cases/SL003/phone-1-242c04c3fe.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 2341,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL003-05",
+            "sourceType": "psd",
+            "sourcePsd": "铁观音点评滑动1.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 2341,
+            "sha256": "242c04c3feacfc9c060d3be2398e264d1d7f2b7bf264efd8be9e1bea1f41a7fd",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "大众点评 · 铁观音五幅头图",
+            "description": "五幅头图依次横向滑动，展示兰香抹茶椰椰与兰香豆乳香茶。部分商户资料、价格及销量为样机展示示意。"
+          }
         },
         {
           "id": "SL003-06",
           "type": "image",
-          "src": "/media/springlai/tieguanyin/06.jpg",
+          "src": "/media/cases/SL003/phone-2-57811f91ab.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 2341,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL003-06",
+            "sourceType": "psd",
+            "sourcePsd": "铁观音点评滑动2.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 2341,
+            "sha256": "57811f91ab10b432dc305f6956b0c749027c688157919a821b507aed6438551e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL003-07",
           "type": "image",
-          "src": "/media/springlai/tieguanyin/07.jpg",
+          "src": "/media/cases/SL003/phone-3-c6347987f4.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 2341,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL003-07",
+            "sourceType": "psd",
+            "sourcePsd": "铁观音点评滑动3.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 2341,
+            "sha256": "c6347987f445992d5574b4a2a7bdd0442f61ae2f448ad575da8a993749cc13b2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL003-phone-4",
+          "type": "image",
+          "src": "/media/cases/SL003/phone-4-b73598ecc1.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL003-phone-4",
+            "sourceType": "psd",
+            "sourcePsd": "铁观音美团横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "b73598ecc19b648d31269988e8541e80417c092354aad22021b344d86a239ad3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "美团外卖 · 铁观音系列",
+            "description": "门店头像沿用春莱的“老挝冰咖啡、泰式奶茶”字样。同一店招分别搭配两款横幅。部分经营信息为样机展示示意。"
+          }
         }
       ],
       "published": true,
