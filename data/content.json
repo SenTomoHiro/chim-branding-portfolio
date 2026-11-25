@@ -12387,6 +12387,271 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N037",
+      "brandName": "清迈咖啡",
+      "projectName": "门头与外带包装提案",
+      "intro": "深绿色衬出奶油色泰文字标，下方配有中文店名、小花和 ITON’CAFE 字样。小花在外带物料上单独出现，纸袋则用浅粉色字标覆盖牛皮色底。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "咖啡",
+      "media": [
+        {
+          "id": "N037-A01",
+          "type": "image",
+          "src": "/media/cases/N037/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N037-A01",
+            "sourceType": "ai",
+            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "2ed871ca4aa0cad9ae001827ee29c9d9508cc71f443c11fc7cb2c719c17d651f",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N037-A02",
+          "type": "image",
+          "src": "/media/cases/N037/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 960,
+          "provenance": {
+            "assetId": "N037-A02",
+            "sourceType": "ai",
+            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 960,
+            "sha256": "589fda9abc4b12a69745dadc13ff2d1068fbafeb02ded51225a0f6ae619746df",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N037-A03",
+          "type": "image",
+          "src": "/media/cases/N037/03.webp",
+          "layout": "full",
+          "width": 1500,
+          "height": 950,
+          "provenance": {
+            "assetId": "N037-A03",
+            "sourceType": "ai",
+            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1500,
+            "height": 950,
+            "sha256": "82111f4b5ce57aa2d66970b1bc03e51497696f2b123449b1049d9d5dc4b87410",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N037-A04",
+          "type": "image",
+          "src": "/media/cases/N037/04.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 900,
+          "provenance": {
+            "assetId": "N037-A04",
+            "sourceType": "ai",
+            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1400,
+            "height": 900,
+            "sha256": "b168f66088855d7e9c6fac51f423bd7f6b9583b3efea4d09e3b02a962e9ce39e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N038",
+      "brandName": "PONHUŌ",
+      "projectName": "香薰品牌字标提案",
+      "intro": "三种方向分别从细衬线、椭圆边框和粗字重出发。字标与棕色、天蓝或橄榄色组合，为同一个名字试出从轻盈到厚重的三种语气。",
+      "business": "branding",
+      "categories": [
+        "other"
+      ],
+      "primaryIndustry": "香薰",
+      "media": [
+        {
+          "id": "N038-A01",
+          "type": "image",
+          "src": "/media/cases/N038/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N038-A01",
+            "sourceType": "ai",
+            "sourceAi": "240624-PONHUO-logo.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "7ef0dfbdb4879ad34134cfcf445872bf6e200b84af64ddaa26460acc30fd1f3b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N038-A02",
+          "type": "image",
+          "src": "/media/cases/N038/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N038-A02",
+            "sourceType": "ai",
+            "sourceAi": "240624-PONHUO-logo.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "93b945e9151307932008d11444286ed038acc07501759179b1df537e7e63c2c4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N038-A03",
+          "type": "image",
+          "src": "/media/cases/N038/03.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N038-A03",
+            "sourceType": "ai",
+            "sourceAi": "240624-PONHUO-logo.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1000,
+            "sha256": "f097c1a8278200eed7b51be1a6b7ef1204026c44987c2fa8e0feac09fa8ef527",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N038-A04",
+          "type": "image",
+          "src": "/media/cases/N038/04.webp",
+          "layout": "full",
+          "width": 1500,
+          "height": 950,
+          "provenance": {
+            "assetId": "N038-A04",
+            "sourceType": "ai",
+            "sourceAi": "240624-PONHUO-logo.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1500,
+            "height": 950,
+            "sha256": "e5c54f70f50bdd505a70417cc9b1d21042d1b95f069d53e26ad11cc141cb0754",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N039",
+      "brandName": "阿嬷珍奶 THAI AHMA",
+      "projectName": "字标与茶饮包装提案",
+      "intro": "人物头像嵌在中文店名中间，泰文与英文分别排在上下两行。手提袋放大了人物插画，杯身则保留小幅竖排字标，与横排标志形成不同的阅读节奏。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "珍珠奶茶",
+      "media": [
+        {
+          "id": "N039-A01",
+          "type": "image",
+          "src": "/media/cases/N039/01.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 950,
+          "provenance": {
+            "assetId": "N039-A01",
+            "sourceType": "ai",
+            "sourceAi": "250222-阿嬷珍奶-全套重做.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 950,
+            "sha256": "b034cceb9cec302299e8a20946f2e82816e4e8f3663669d486cff1d6c4f10031",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N039-A02",
+          "type": "image",
+          "src": "/media/cases/N039/02.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 1050,
+          "provenance": {
+            "assetId": "N039-A02",
+            "sourceType": "ai",
+            "sourceAi": "250222-阿嬷珍奶-全套重做.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1600,
+            "height": 1050,
+            "sha256": "b9892764086829883fabba5743b50db83f6cc35dc95c7144518604566b46ee9e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N039-A03",
+          "type": "image",
+          "src": "/media/cases/N039/03.webp",
+          "layout": "full",
+          "width": 1500,
+          "height": 1000,
+          "provenance": {
+            "assetId": "N039-A03",
+            "sourceType": "ai",
+            "sourceAi": "250222-阿嬷珍奶-全套重做.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
+            "width": 1500,
+            "height": 1000,
+            "sha256": "05f03bdc086537b25cd9048a43d6244dbf0b06eebc4fd55b0514df3586a49536",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12442,7 +12707,10 @@
     "N033",
     "N034",
     "N035",
-    "N036"
+    "N036",
+    "N037",
+    "N038",
+    "N039"
   ],
   "photographyCaseOrder": [
     "L021",
