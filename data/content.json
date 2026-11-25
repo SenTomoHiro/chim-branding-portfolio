@@ -13022,6 +13022,105 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N047",
+      "brandName": "春莱",
+      "projectName": "老挝冰咖啡夏日海报",
+      "intro": "2024 年春夏的老挝冰咖啡活动设计稿。产品海报呈现三杯冰咖啡，三幅旅行海报分别以建筑与热气球城景为主体。图中活动时间、奖项和标识保留原稿当时的排版。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N047-A01",
+          "type": "image",
+          "src": "/media/cases/N047/01.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N047-A01",
+            "sourceType": "ai",
+            "sourceAi": "240503-老挝咖啡-海报.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "fb895e529bd0c657f286b17c87e45095f4aa9e8e4ae5d66768fe8d5e92652e53",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2024 年春夏活动设计",
+            "description": "本组为 2024 年历史活动设计稿。图中的日期、奖项与活动资料均为原设计内容。"
+          }
+        },
+        {
+          "id": "N047-A02",
+          "type": "image",
+          "src": "/media/cases/N047/02.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N047-A02",
+            "sourceType": "ai",
+            "sourceAi": "240503-老挝咖啡-海报.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "0a5add6b79fe7cdea15bcaabdb9f973b25d08133ba65e387ef06875f1066d126",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-A03",
+          "type": "image",
+          "src": "/media/cases/N047/03.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N047-A03",
+            "sourceType": "ai",
+            "sourceAi": "240503-老挝咖啡-海报.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "5f1aafde0ee3dc74e6eadae3ededa02d2b50ed125611111ea248c6ab879dcdd7",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-A04",
+          "type": "image",
+          "src": "/media/cases/N047/04.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N047-A04",
+            "sourceType": "ai",
+            "sourceAi": "240503-老挝咖啡-海报.ai",
+            "sourceArtboard": 7,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "d7e495df813626159486faf760c79bbc01e226887a7a6b2e6c7ad5745b53f9af",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -13085,7 +13184,8 @@
     "N041",
     "N045",
     "N040",
-    "N043"
+    "N043",
+    "N047"
   ],
   "photographyCaseOrder": [
     "L021",
