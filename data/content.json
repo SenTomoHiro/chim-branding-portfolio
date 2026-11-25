@@ -11096,9 +11096,50 @@
         {
           "id": "SL006-03",
           "type": "image",
-          "src": "/media/springlai/inner-mongolia/03.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1350,
+          "height": 2045,
+          "src": "/media/springlai/inner-mongolia/SL006-product-1.webp",
+          "provenance": {
+            "assetId": "SL006-03",
+            "sourceType": "psd",
+            "sourcePsd": "SL006-product-1.psd",
+            "sourceAi": "231230-内蒙古-线上.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "9235c504b7ca390beed4807ed500f6c8c09c9879d588a83ba1bd945f550cf204",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "portfolioPdfSelected": true,
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "内蒙古限定 · 美团商品详情",
+            "description": "两款商品按同案美团画板还原，界面为作品集陈列示意。"
+          }
+        },
+        {
+          "id": "SL006-product-2",
+          "type": "image",
+          "layout": "full",
+          "width": 1350,
+          "height": 2045,
+          "src": "/media/springlai/inner-mongolia/SL006-product-2.webp",
+          "provenance": {
+            "assetId": "SL006-product-2",
+            "sourceType": "psd",
+            "sourcePsd": "SL006-product-2.psd",
+            "sourceAi": "231230-内蒙古-线上.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "14682a8ee63ef2720c371c3b52cefcaaee19522c39b8e92f33aa77661cbb787d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ]
     },
