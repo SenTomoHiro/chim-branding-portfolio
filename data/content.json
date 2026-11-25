@@ -9272,16 +9272,81 @@
           "layout": "full"
         },
         {
+          "id": "SL001-33",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-06.jpg",
+          "layout": "full"
+        },
+        {
+          "id": "SL001-34",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/songkran-01-baa453de37.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "SL001-34",
+            "sourceType": "ai",
+            "sourceAi": "250412-春莱-泼水节-2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Full Illustrator PDF-compatible artboard rendered with Poppler, downsampled in sRGB to 1600 × 2400 and encoded as WebP.",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "baa453de373e308d3d75cf305c897665861603cb20d816c78310643c5f14eb22",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 05",
+            "title": "泼水节主题营销视觉",
+            "description": "这组海报记录了春莱 2025 年泼水节的活动设计。蓝黄配色和网点纹理贯穿四幅画面，从水枪与水花的主视觉，到 Phutawan 香氛与饮品海报，最后以泼水祝语收尾。饮品海报所列价格为 2025 年活动当期记录。"
+          }
+        },
+        {
           "id": "SL001-32",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi04-05.jpg",
           "layout": "full"
         },
         {
-          "id": "SL001-33",
+          "id": "SL001-35",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/vi04-06.jpg",
-          "layout": "full"
+          "src": "/media/springlai/brand-evolution/songkran-03-88a7c0c32d.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "SL001-35",
+            "sourceType": "ai",
+            "sourceAi": "250412-春莱-泼水节-2.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "Full Illustrator PDF-compatible artboard rendered with Poppler, downsampled in sRGB to 1600 × 2400 and encoded as WebP.",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "88a7c0c32dff5f802cacdadc21442a3bfb810603fec87bb9ab2ce65e7beb0577",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-36",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/songkran-04-d90c12228f.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "SL001-36",
+            "sourceType": "ai",
+            "sourceAi": "250412-春莱-泼水节-2.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "Full Illustrator PDF-compatible artboard rendered with Poppler, downsampled in sRGB to 1600 × 2400 and encoded as WebP.",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "d90c12228f8b94f9bef05cf12ec16dddc5b4c19492a1cde4514cd465117a1ffb",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
