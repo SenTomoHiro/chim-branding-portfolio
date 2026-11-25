@@ -12943,6 +12943,85 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N043",
+      "brandName": "春莱",
+      "projectName": "杨梅熟了 · 新品海报与大众点评头图",
+      "intro": "蓝底黄字的海报把三杯杨梅饮品聚在一起，另一张放大了带青柠的冰沙。大众点评的五张粉底头图以杨梅造型的角色开场，再逐杯展示四款饮品。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N043-A01",
+          "type": "image",
+          "src": "/media/cases/N043/01.webp",
+          "layout": "full",
+          "width": 1401,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N043-A01",
+            "sourceType": "ai",
+            "sourceAi": "250624-春莱-杨梅-海报-改3.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Render complete original artboard at its native aspect ratio",
+            "width": 1401,
+            "height": 2100,
+            "sha256": "1ecd9eed0562374c638c2a557a41e3a7c22b7266dc0eb783d6fef3ddc8433ab8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N043-A02",
+          "type": "image",
+          "src": "/media/cases/N043/02.webp",
+          "layout": "full",
+          "width": 1401,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N043-A02",
+            "sourceType": "ai",
+            "sourceAi": "250624-春莱-杨梅-海报-改3.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Render complete original artboard at its native aspect ratio",
+            "width": 1401,
+            "height": 2100,
+            "sha256": "09c0811d2a37d78794842b7853e4f75965ee65c82c3dc82627c603240bd8276d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N043-A03",
+          "type": "image",
+          "src": "/media/cases/N043/03.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1684,
+          "provenance": {
+            "assetId": "N043-A03",
+            "sourceType": "psd",
+            "sourcePsd": "YB-手机.psd",
+            "extractionMethod": "Illustrator artboards 2–6 in 250624-春莱-杨梅-头像及大众点评-改1.ai rendered as five ordered merchant header images with dianping-detail/strip. Photoshop single-device template 07.",
+            "width": 1920,
+            "height": 1684,
+            "sha256": "3944b2bffb6238e0549c9d82b51ded5783e1754669f8b9bef6fbc5cd31ba343d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "杨梅季 · 大众点评商户详情",
+            "description": "部分商户资料、价格及销量为样机展示示意。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -13005,7 +13084,8 @@
     "N046",
     "N041",
     "N045",
-    "N040"
+    "N040",
+    "N043"
   ],
   "photographyCaseOrder": [
     "L021",
