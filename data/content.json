@@ -12652,6 +12652,61 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N046",
+      "brandName": "春莱",
+      "projectName": "高原滇红系列海报",
+      "intro": "高原滇红系列以暖棕色花纹杯形成统一视觉。竖版海报将三杯饮品排在主标题下，店内电视横屏把三杯组合移到左侧，右侧留给标题与说明。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N046-A01",
+          "type": "image",
+          "src": "/media/cases/N046/01.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N046-A01",
+            "sourceType": "ai",
+            "sourceAi": "241122-春莱-高原滇红系列.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "5b278ac4139402c490cf2bd5c30918399211ea8801bb8057dec1944a003c58f7",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N046-A03",
+          "type": "image",
+          "src": "/media/cases/N046/03.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1125,
+          "provenance": {
+            "assetId": "N046-A03",
+            "sourceType": "ai",
+            "sourceAi": "241122-春莱-高原滇红系列.ai",
+            "sourceArtboard": 8,
+            "extractionMethod": "Render complete PDF-compatible Illustrator artboard at source aspect ratio",
+            "width": 2000,
+            "height": 1125,
+            "sha256": "1f05f911cc6dcc1e8bcd123528bb9a8476ede2cc47b5ce114b3ca36ed178b005",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -12710,7 +12765,8 @@
     "N036",
     "N037",
     "N038",
-    "N039"
+    "N039",
+    "N046"
   ],
   "photographyCaseOrder": [
     "L021",
