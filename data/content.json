@@ -19429,13 +19429,53 @@
       "id": "N075",
       "brandName": "春莱",
       "projectName": "2022 电解质系列",
-      "intro": "隐藏款海报以青瓜、青椰和袋装饮品呈现「青瓜小椰汁」，保留限时销售字样。",
+      "intro": "预告海报以剖开的青椰、水花和轮廓字呈现电解质系列。新品海报以水果插画搭配三款袋装椰子水，保留中文品名及泰文。隐藏款海报以青瓜、青椰和袋装饮品呈现「青瓜小椰汁」，保留限时销售字样。",
       "business": "branding",
       "categories": [
         "drinks"
       ],
       "primaryIndustry": "茶饮",
       "media": [
+        {
+          "id": "N075-teaser",
+          "type": "image",
+          "src": "/media/cases/N075/teaser-e0ae2a24df.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N075-teaser",
+            "sourceType": "ai",
+            "sourceAi": "202212-电解质系列-预告海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "在 Illustrator 恢复同案原字体，按原始画板导出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "e0ae2a24df0bfd3557d3ed5524cfc4c335b5ac7ce6fa845e8b2e660854b7d008",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N075-new",
+          "type": "image",
+          "src": "/media/cases/N075/new-f463787b64.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N075-new",
+            "sourceType": "ai",
+            "sourceAi": "202212-电解质系列-新品海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "在 Illustrator 恢复同案原字体，按原始画板导出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "f463787b649f7863ae9d5f061647e3982b5edfc2897f8f1738c79000da21eca5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
         {
           "id": "N075-hidden",
           "type": "image",
