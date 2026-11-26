@@ -18588,7 +18588,8 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "title": "圣诞草莓双杯海报"
+            "title": "圣诞草莓双杯海报",
+            "eyebrow": ""
           }
         },
         {
@@ -18611,7 +18612,8 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "title": "新品预告海报"
+            "title": "新品预告海报",
+            "eyebrow": ""
           }
         },
         {
@@ -18634,7 +18636,8 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "title": "充值活动海报"
+            "title": "充值活动海报",
+            "eyebrow": ""
           }
         }
       ],
@@ -18672,7 +18675,8 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "title": "夏日香茶预告海报"
+            "title": "夏日香茶预告海报",
+            "eyebrow": ""
           }
         }
       ],
@@ -18699,16 +18703,17 @@
           "height": 2100,
           "provenance": {
             "assetId": "N083-product",
-            "sourceType": "image",
             "width": 1400,
             "height": 2100,
             "sha256": "db526dd490751bda28fe68bfae97f5724a97a8ac79e222464dd0fe701764c725",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "从百度网盘 202407 定稿目录原产品海报 JPG 转出。"
+            "extractionMethod": "从百度网盘 202407 定稿目录原产品海报 JPG 转出。",
+            "sourceObject": "240704-爱玉系列海报_产品海报.jpg"
           },
           "section": {
-            "title": "爱玉系列产品海报"
+            "title": "爱玉系列产品海报",
+            "eyebrow": ""
           }
         }
       ],
