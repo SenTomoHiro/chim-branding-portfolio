@@ -10567,9 +10567,23 @@
         {
           "id": "SL004-03",
           "type": "image",
-          "src": "/media/springlai/xiaolanya/03.jpg",
+          "src": "/media/cases/SL004/merchandise-poster-92e288bbf7.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "portfolioPdfSelected": true,
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "SL004-03",
+            "sourceType": "ai",
+            "sourceAi": "231123-龙眼联名-线下-改2.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "从同案 Illustrator 原板「周边海报-60x90cm」导出，与 12.10 版交付 JPG 对照。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "92e288bbf735acebcf68209efdb4de95a3d1cc1fc5d0cd6ddff65a3d0e57a909",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL004-06",
