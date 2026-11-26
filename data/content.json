@@ -18538,55 +18538,55 @@
         {
           "id": "N082-meituan-banners",
           "type": "image",
-          "src": "/media/cases/N082/meituan-banners-0d16dae440.webp",
+          "src": "/media/cases/N082/meituan-store-07-60d60d1de3.webp",
           "layout": "full",
-          "width": 2000,
-          "height": 1749,
+          "width": 1440,
+          "height": 2338,
           "provenance": {
             "assetId": "N082-meituan-banners",
             "sourceType": "psd",
-            "sourceAi": "240514-薄荷-改1.ai",
-            "sourceArtboard": 4,
-            "extractionMethod": "同案 Illustrator 原画板置入 03 号实体机框。",
-            "width": 2000,
-            "height": 1749,
-            "sha256": "0d16dae4405e8597ed59b507ea79eac2a59f49bfa9bb75dca28f02f7c067acdf",
+            "sourceAi": "240524-薄荷袋装-线上补全-改1.ai",
+            "sourceArtboard": 9,
+            "width": 1440,
+            "height": 2338,
+            "sha256": "60d60d1de3b9bf3e9aa88e51e40251fbf4d183b8d5e347452819d642478f6b62",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "sourcePsd": "N082-meituan-banners.psd",
-            "sourceObject": "原画板 4、10"
+            "sourcePsd": "N082-美团店铺-框07.psd",
+            "sourceObject": "9 号大店招、7 号店内横幅和 1 号头像，商品用 240514-薄荷-改1.ai 画板 6、7。",
+            "extractionMethod": "原生画板按对应平台页面复排，补齐 UI 后在分层 PSD 中换屏。"
           },
           "section": {
             "eyebrow": "CHAPTER 01",
-            "title": "美团外卖 · 店内横幅",
-            "description": "美团店内两款横幅分别展示夏日凉爽计划与端午香片买赠。"
+            "title": "美团外卖 · 店铺首页",
+            "description": "大店招下缘叠放同案横幅，点菜区自然露出泰式薄荷奶绿与老挝可可薄荷奶。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
-          "id": "N082-eleme-banners",
+          "id": "N082-dianping-detail",
           "type": "image",
-          "src": "/media/cases/N082/eleme-banners-b9c4214b1b.webp",
+          "src": "/media/cases/N082/dianping-swipes-04-656fdf1393.webp",
           "layout": "full",
-          "width": 2000,
-          "height": 1749,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
-            "assetId": "N082-eleme-banners",
+            "assetId": "N082-dianping-detail",
             "sourceType": "psd",
-            "sourceAi": "240514-薄荷-改1.ai",
-            "sourceArtboard": 5,
-            "extractionMethod": "同案 Illustrator 原画板置入 03 号实体机框。",
-            "width": 2000,
-            "height": 1749,
-            "sha256": "b9c4214b1bad5dbc77de0facc8db851246801ee1842ef140eec8d6029681deaf",
+            "sourceAi": "240524-薄荷袋装-线上补全-改1.ai",
+            "sourceArtboard": 2,
+            "width": 2400,
+            "height": 1402,
+            "sha256": "656fdf13937c7f0fe5d558d59c8e592f31d443943f2bec6dd47087229ddaf836",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "sourcePsd": "N082-eleme-banners.psd",
-            "sourceObject": "原画板 5、11"
+            "sourcePsd": "N082-点评五图-框04.psd",
+            "sourceObject": "2–6 号大众点评头图，商品用 240514-薄荷-改1.ai 画板 6、7。",
+            "extractionMethod": "原生画板按对应平台页面复排，补齐 UI 后在分层 PSD 中换屏。"
           },
           "section": {
             "eyebrow": "CHAPTER 02",
-            "title": "饿了么 · 活动横幅",
-            "description": "同一活动横幅按饿了么更宽的原版比例重新构图。"
+            "title": "大众点评 · 商户详情",
+            "description": "五张薄荷袋装头图分别出现在三个横滑位置，优惠区展示薄荷袋装双杯套餐。商户资料、评分、价格及销量为样机展示示意。"
           }
         }
       ],
