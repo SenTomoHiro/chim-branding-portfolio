@@ -15611,6 +15611,148 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N036-dianping-sep-1",
+          "type": "image",
+          "src": "/media/cases/N036/dianping-sep-1-fc4872fec2.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-dianping-sep-1",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 26,
+            "sourceObject": "原画板 B26、B27",
+            "sourcePsd": "dianping-sep-1-r2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "fc4872fec2603d81ef498287dbf2132d099167689a2a0e0f69b44d35f9adc7d1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 04",
+            "title": "大众点评 · 2024 年 9 月",
+            "description": "五张商户头图从开业组合切换到米布奶茶。"
+          }
+        },
+        {
+          "id": "N036-dianping-sep-2",
+          "type": "image",
+          "src": "/media/cases/N036/dianping-sep-2-5b315fa78a.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-dianping-sep-2",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 28,
+            "sourceObject": "原画板 B28",
+            "sourcePsd": "dianping-sep-2-r2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "5b315fa78af7cf69c88483411f66346e0794dd119c251b9cb767c44b560aebea",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-dianping-sep-3",
+          "type": "image",
+          "src": "/media/cases/N036/dianping-sep-3-ce4bbdbac4.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-dianping-sep-3",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 29,
+            "sourceObject": "原画板 B29、B30",
+            "sourcePsd": "dianping-sep-3.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "ce4bbdbac48975aaf4c8b345827d1d34c2fa96bdb9e01945fd5c474afe44943a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-qimai-menu-1",
+          "type": "image",
+          "src": "/media/cases/N036/qimai-menu-1-39452ea2b7.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-qimai-menu-1",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 7,
+            "sourceObject": "原画板 B07、B08、B09",
+            "sourcePsd": "qimai-menu-1.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "39452ea2b7b9b38298461c100fcdc9dbca942ef9f2979fd3923e76b1fdb5eb95",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 05",
+            "title": "企迈点餐 · 门店菜单",
+            "description": "三页展示西瓜茉莉茶、玫瑰乳扇冰淇淋和不同口味的米布奶茶。"
+          }
+        },
+        {
+          "id": "N036-qimai-menu-2",
+          "type": "image",
+          "src": "/media/cases/N036/qimai-menu-2-fee0c4f7f3.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-qimai-menu-2",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 10,
+            "sourceObject": "原画板 B10、B22、B23",
+            "sourcePsd": "qimai-menu-2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "fee0c4f7f34f7c8251064ad08c2af2cee065a33b59539983c36f532289ff7d00",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-qimai-menu-3",
+          "type": "image",
+          "src": "/media/cases/N036/qimai-menu-3-c1e77d66c3.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-qimai-menu-3",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 24,
+            "sourceObject": "原画板 B24、B25",
+            "sourcePsd": "qimai-menu-3.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "c1e77d66c37ec9baae295d15516674c3670fee127a4d1ab1d519f6325baa20cf",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
