@@ -9503,39 +9503,26 @@
         {
           "id": "SL001-W-store",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-W-store.webp",
-          "width": 1350,
-          "height": 2045,
+          "src": "/media/springlai/brand-evolution/2022-winter-meituan-27286d4a6d.webp",
+          "width": 2000,
+          "height": 1681,
           "layout": "full",
           "provenance": {
             "assetId": "SL001-W-store",
             "sourceType": "psd",
-            "sourcePsd": "SL001-W-store.psd",
-            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "d12186fabcb340f88e51904e81b5ce6a89d78b100cb00f38bba98544f6ec8f1a",
+            "sourcePsd": "春莱冬季美团补字/分层/SL001-冬季美团-框03.psd",
+            "extractionMethod": "沿用同案两态内屏，按 Gemini 拟写的示意文字补齐可见槽位，套入 03 号 PSD 双机并重开核验。",
+            "width": 2000,
+            "height": 1681,
+            "sha256": "27286d4a6d4c5709e6975680a9247e6ce3f4c6e709baf666a90ec3d2114551ef",
             "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-W-warm",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-W-warm.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-W-warm",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-W-warm.psd",
-            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "429e9798d3404ba19438d93b58acde00035be0770500158b18ab61e2a45f47b2",
-            "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "2022 冬季静态店招、头像、常规与热饮横幅及两款传统奶茶菜品图"
+          },
+          "section": {
+            "eyebrow": "2022 秋冬",
+            "title": "美团外卖 · 冬季店铺",
+            "description": "常规横幅与「热饮已上线」版本沿用同一店招，点菜区露出泰式传统红奶茶和绿奶茶。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
