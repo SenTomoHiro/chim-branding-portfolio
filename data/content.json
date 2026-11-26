@@ -9571,6 +9571,29 @@
           "layout": "full"
         },
         {
+          "id": "SL001-2023-headband",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/2023-hot-drinks-headband-d302a3ff47.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1152,
+          "section": {
+            "eyebrow": "2023 秋冬",
+            "title": "热饮上线发箍",
+            "description": "把海浪、椰树和春莱角色排进发箍的异形轮廓，延续同批海报的「热饮已上线」主题。"
+          },
+          "provenance": {
+            "assetId": "SL001-2023-headband",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202310/231021-热饮上线/231013-热饮上线发箍-250x150mm.jpg",
+            "extractionMethod": "复用同案交付 JPG，按原 ICC 转换为 sRGB 并输出网页 WebP。",
+            "width": 1920,
+            "height": 1152,
+            "sha256": "d302a3ff4777fddbb7330a7d9a9bd3b95228e0b420858f3d8c71ee49b133bada",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL001-18",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi03-03.jpg",
