@@ -15933,31 +15933,6 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
-        },
-        {
-          "id": "N046-phone-1",
-          "type": "image",
-          "src": "/media/cases/N046/phone-1-7e63d9412d.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 2341,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N046-phone-1",
-            "sourceType": "psd",
-            "sourcePsd": "高原滇红美团商品.psd",
-            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
-            "width": 1920,
-            "height": 2341,
-            "sha256": "7e63d9412defb25d3f35a054c2eefda229fa8b1f304173bf5bf611a77e046f01",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "线上应用",
-            "title": "美团外卖 · 高原滇红系列",
-            "description": "四幅原生商品画板按点菜列表展示，依次为滇红牛乳、滇红热柠、滇红姜枣与滇红可可。价格、销量及配送信息为样机展示示意。"
-          }
         }
       ],
       "published": true,
@@ -17420,30 +17395,6 @@
           }
         },
         {
-          "id": "N042-A04",
-          "type": "image",
-          "src": "/media/cases/N042/products-b10787d11f.webp",
-          "layout": "full",
-          "width": 1070,
-          "height": 2045,
-          "provenance": {
-            "sourceType": "psd",
-            "sourcePsd": "N042-r6-products.psd",
-            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
-            "assetId": "N042-A04",
-            "width": 1070,
-            "height": 2045,
-            "sha256": "b10787d11fa848790a513832ddc84ec4a04b5db0f8ed0ad3627952c2a105fc66",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "美团外卖",
-            "title": "三款山茶花饮品",
-            "description": "山茶花牛乳、山茶花青瓜薄荷柠檬和山茶花香橙爆柠按单品原稿列入菜单。部分商户资料、价格及销量为样机展示示意。"
-          }
-        },
-        {
           "id": "N042-A05",
           "type": "image",
           "src": "/media/cases/N042/small-c9ca76e1c2.webp",
@@ -17614,29 +17565,8 @@
           },
           "section": {
             "title": "大众点评",
-            "description": "五张头图依次呈现在三个横滑位置，接续展示点评二楼。商户资料、评分、价格及销量为样机展示示意。",
+            "description": "五张头图依次呈现在三个横滑位置，二楼底图用于详情头部。商户资料、评分、价格及销量为样机展示示意。",
             "eyebrow": "线上应用"
-          }
-        },
-        {
-          "id": "N054-A06",
-          "type": "image",
-          "src": "/media/cases/N054/06-dianping-floor-b3e600f434.webp",
-          "layout": "full",
-          "width": 1200,
-          "height": 2312,
-          "provenance": {
-            "assetId": "N054-A06",
-            "sourceType": "psd",
-            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
-            "sourceArtboard": 7,
-            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 02 号 PSD 并重开核对智能对象。",
-            "width": 1200,
-            "height": 2312,
-            "sha256": "b3e600f434846d6906b63ab0dc19641ed66521ed747c267118a4dfa6dccbec03",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "06-dianping-floor.psd"
           }
         },
         {
@@ -17716,7 +17646,7 @@
           },
           "section": {
             "title": "点餐小程序",
-            "description": "收录普通首页、活动首页、弹窗、个人中心、点餐和分享。抽奖样机展示可抽与次数用尽两态，转盘奖项文字为陈列示意。",
+            "description": "收录普通首页、活动首页、弹窗与个人中心。抽奖样机展示可抽与次数用尽两态，转盘奖项文字为展示示意。",
             "eyebrow": "线上应用"
           }
         },
@@ -17740,28 +17670,6 @@
             "finalWorkVerified": true,
             "sourcePsd": "11-mini-member.psd",
             "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 28 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 18 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 25 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 26 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 27 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板"
-          }
-        },
-        {
-          "id": "N054-A12",
-          "type": "image",
-          "src": "/media/cases/N054/12-mini-order-share-2e90e1a7b3.webp",
-          "layout": "full",
-          "width": 2200,
-          "height": 1932,
-          "provenance": {
-            "assetId": "N054-A12",
-            "sourceType": "psd",
-            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
-            "sourceArtboard": 13,
-            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
-            "width": 2200,
-            "height": 1932,
-            "sha256": "2e90e1a7b392b651c2d1d45080aa845b3d055ea6f6b76b6220a5a99611c64a81",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "12-mini-order-share.psd",
-            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 36 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板"
           }
         },
         {
@@ -17886,60 +17794,6 @@
               1679,
               1990
             ]
-          }
-        },
-        {
-          "id": "N053-A03",
-          "type": "image",
-          "src": "/media/cases/N053/03-meituan.webp",
-          "layout": "full",
-          "width": 1330,
-          "height": 1869,
-          "provenance": {
-            "assetId": "N053-A03",
-            "sourceType": "psd",
-            "sourceAi": "/硬盘备份/春莱23年/230721-蜜瓜系列新品/230718-密瓜美团外卖菜品图-1200x900px-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "以第 1、2 画板的嵌入图及原透明度重放美团商品列表，置入 02 号正面单机 PSD 的嵌入智能对象后导出。",
-            "width": 1330,
-            "height": 1869,
-            "sha256": "7f1a0115b694b4dc727f43ca1aa99728d1a02b2691515db7e1fd7e4e4d00b152",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceObject": "第 1 画板杯装 PDF XObject 235；第 2 画板袋装 PDF XObject 245（第 3 画板复用）",
-            "sourcePsd": "需要整理的设计案例/网站补录-20261125/N053可发布/样机/N053-美团菜品.psd"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "美团点菜里的杯装与袋装",
-            "description": "商品图取自 2023 年美团设计稿。品名与副字均据外观拟写，供档案展示。部分商户资料、价格及销量为样机展示示意。"
-          }
-        },
-        {
-          "id": "N053-A04",
-          "type": "image",
-          "src": "/media/cases/N053/A04-8f1e33be82.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2721,
-          "provenance": {
-            "assetId": "N053-A04",
-            "sourceType": "psd",
-            "sourceAi": "/硬盘备份/春莱23年/230721-蜜瓜系列新品/230718-密瓜美团外卖菜品图-1200x900px-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "提取原画板的商品嵌入图与软蒙版，保留杯身原字，将两件商品的放大视图置入 02 号正视实体机框。",
-            "width": 1350,
-            "height": 2721,
-            "sha256": "8f1e33be82d93c7ebadb01408f49a356cc36c419e2b212644aa83073e7c4fe60",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceObject": "第 1 画板杯装 PDF XObject 235；第 2 画板袋装 PDF XObject 245（第 3 画板复用）",
-            "sourcePsd": "N053-商品细节-实体机框-r2.psd"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 02",
-            "title": "同一系列，两种装法",
-            "description": "原稿选用的杯装素材带有「古早味奥利奥」字样和饼干碎顶。另两块袋装画板共用一张扎口袋图片，此处各收一件。"
           }
         }
       ],
@@ -18355,55 +18209,6 @@
             "sha256": "0b8ed7ea0a4bfd46181fb82883e04a63e5fad58f73b296efae8e6b85fd9950c9",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N080-products-4",
-          "type": "image",
-          "src": "/media/cases/N080/products-4-1892ab1788.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N080-products-4",
-            "sourceType": "psd",
-            "sourceAi": "231105-90度温暖-改2.ai",
-            "sourceArtboard": 4,
-            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "1892ab178808628d53b7ece224df51ca94f11321509bedeccab1ed70494e71f5",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N080-products-4.psd",
-            "sourceObject": "原画板 4"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 00",
-            "title": "美团外卖 · 冬日暖饮",
-            "description": "暖姜红枣茶和桂圆玫瑰茶的菜品画板分别置入美团冬日暖饮列表。"
-          }
-        },
-        {
-          "id": "N080-products-5",
-          "type": "image",
-          "src": "/media/cases/N080/products-5-eee85ecd82.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N080-products-5",
-            "sourceType": "psd",
-            "sourceAi": "231105-90度温暖-改2.ai",
-            "sourceArtboard": 5,
-            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "eee85ecd82db4842721b2ba579c017cfeef7c3795e3b0dee3b1a22d03424348b",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N080-products-5.psd",
-            "sourceObject": "原画板 5"
           }
         }
       ],
