@@ -10130,18 +10130,64 @@
         {
           "id": "SL001-23-dp",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-23-dp.webp",
-          "width": 1516,
-          "height": 2120,
+          "src": "/media/springlai/brand-evolution/SL001-23-dp-detail-77deaeecf5.webp",
           "layout": "full",
+          "width": 1800,
+          "height": 2420,
           "provenance": {
             "assetId": "SL001-23-dp",
             "sourceType": "psd",
             "sourcePsd": "大众点评.psd",
-            "extractionMethod": "作者同案分层 PSD 原有机框",
-            "width": 1516,
-            "height": 2120,
-            "sha256": "5cc411d1846f048c54e46cb4080a91f4bfae359c564a124b912561bcd79da118",
+            "sourceObject": "详情与搜索入口",
+            "extractionMethod": "保留同案 PSD 正视机框，从原智能对象恢复点评界面和头图，按三个滑动位置及原始正文滚动视口导出。",
+            "width": 1800,
+            "height": 2420,
+            "sha256": "77deaeecf5316bd72277b7fceeb97583ad623a9c492b015bbd3ee5203d7f8f52",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 04",
+            "title": "2023 秋冬 · 大众点评",
+            "description": "商户详情以五张头图呈现品牌、插画和三款袋装饮品。旁边的手机展示搜索入口，后续画面保留横滑、到店套餐、推荐菜与图片菜单。"
+          }
+        },
+        {
+          "id": "SL001-23-dp-swipes",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-23-dp-swipes-23c00d7972.webp",
+          "layout": "full",
+          "width": 1800,
+          "height": 2420,
+          "provenance": {
+            "assetId": "SL001-23-dp-swipes",
+            "sourceType": "psd",
+            "sourcePsd": "大众点评.psd",
+            "sourceObject": "商户头图横滑",
+            "extractionMethod": "保留同案 PSD 正视机框，从原智能对象恢复点评界面和头图，按三个滑动位置及原始正文滚动视口导出。",
+            "width": 1800,
+            "height": 2420,
+            "sha256": "23c00d7972dbaad3823b682dde12eeb70d2b408cbd928fb3844077533d3bbecf",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-23-dp-scroll",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/SL001-23-dp-scroll-9849f08595.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "SL001-23-dp-scroll",
+            "sourceType": "psd",
+            "sourcePsd": "大众点评.psd",
+            "sourceObject": "套餐推荐菜和图片菜单",
+            "extractionMethod": "保留同案 PSD 正视机框，从原智能对象恢复点评界面和头图，按三个滑动位置及原始正文滚动视口导出。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "9849f08595654ae07d41a2b8ad7963f747c0a9941c85d4290ccd970c86299f45",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -10171,7 +10217,7 @@
           "layout": "full",
           "portfolioPdfSelected": true,
           "section": {
-            "eyebrow": "CHAPTER 04",
+            "eyebrow": "CHAPTER 05",
             "title": "2025 品牌升级",
             "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。 部分商户资料、价格及销量为样机展示示意。 山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
           }
@@ -10892,7 +10938,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 05",
+            "eyebrow": "CHAPTER 06",
             "title": "泼水节主题营销视觉",
             "description": "这组海报记录了春莱 2025 年泼水节的活动设计。蓝黄配色和网点纹理贯穿四幅画面，从水枪与水花的主视觉，到 Phutawan 香氛与饮品海报，最后以泼水祝语收尾。饮品海报所列价格为 2025 年活动当期记录。"
           }
