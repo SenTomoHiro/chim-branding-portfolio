@@ -11469,28 +11469,28 @@
       "media": [
         {
           "id": "SL005-phone-O02",
-          "src": "/media/cases/SL005/phone-o02-afeb69c1cf.webp",
+          "src": "/media/cases/SL005/phone-o02-033c2bb36a.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1480,
+          "height": 3023,
           "provenance": {
             "assetId": "SL005-phone-O02",
             "sourceType": "psd",
-            "sourcePsd": "SL005-桂花艺人/成品/02-美团店铺.psd",
+            "sourcePsd": "SL005-O02.psd",
             "sourceObject": "桂花线上 AI 1、7、10、11、8/9/12；网页20/21与封面18",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "afeb69c1cf69eda4086b1b437ed2fa7fcc594cb67006041caa52ff8c1f9765e1",
+            "width": 1480,
+            "height": 3023,
+            "sha256": "033c2bb36a1de3f59d3bb6f48b328b2b78ddd2dc724103484b6b02ac5a052514",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "沿用同案原 AI 素材与页面版式，重放后写入真实机框 PSD 的屏槽。"
           },
           "portfolioPdfSelected": true,
           "section": {
             "eyebrow": "桂花艺人",
             "title": "桂花艺人 · 美团店铺",
-            "description": "封面取自桂花艺人线上 O 组，展示美团店铺视觉。"
+            "description": "封面采用桂花艺人 O 组的店招与承接横幅。部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -11498,32 +11498,6 @@
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/01.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL005-phone-T03",
-          "src": "/media/cases/SL005/phone-t03-b3348ffe40.webp",
-          "type": "image",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "SL005-phone-T03",
-            "sourceType": "psd",
-            "sourcePsd": "SL005-桃与乌龙/成品/03-美团点菜.psd",
-            "sourceObject": "231028 改3 三款菜品原导出；网页02",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "b3348ffe403c0b674156fe1453dd9c6b0b308085c7344a25a68bd0403e6f139c",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
-          },
-          "section": {
-            "title": "桃与乌龙",
-            "description": "部分商户资料、价格及销量为样机展示示意。",
-            "eyebrow": "CHAPTER 01"
-          },
           "portfolioPdfSelected": true
         },
         {
@@ -11551,26 +11525,31 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "桃与乌龙 · 美团店铺",
+            "description": "同案店招和横幅用于美团店铺首屏，商品在店铺下方露出。部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
           "id": "SL005-phone-W01",
-          "src": "/media/cases/SL005/phone-w01-2a2a7d1e28.webp",
+          "src": "/media/cases/SL005/phone-w01-497e9d93c6.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1480,
+          "height": 3531,
           "provenance": {
             "assetId": "SL005-phone-W01",
             "sourceType": "psd",
-            "sourcePsd": "SL005-冬至桃与乌龙/成品/01-冬至美团店铺.psd",
+            "sourcePsd": "SL005-W01.psd",
             "sourceObject": "冬至改2 AI 1头像、2横幅；复用同案231128店招及231028菜品",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "2a2a7d1e28f608c3d6a07a8f8da1e521ac4f0365bf88e2a59426c52679479ed6",
+            "width": 1480,
+            "height": 3531,
+            "sha256": "497e9d93c6c0cda9e09a1acefcd27c5584855baf68d6c403f5d6940809d346d0",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "沿用同案原 AI 素材与页面版式，重放后写入真实机框 PSD 的屏槽。"
           },
           "section": {
             "title": "冬至桃与乌龙",
@@ -11598,26 +11577,26 @@
         },
         {
           "id": "SL005-phone-P01",
-          "src": "/media/cases/SL005/phone-p01-e12ed15ab9.webp",
+          "src": "/media/cases/SL005/phone-p01-dcf5fc5b71.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
             "assetId": "SL005-phone-P01",
             "sourceType": "psd",
-            "sourcePsd": "SL005-桃花艺人/成品/01-点评五图.psd",
+            "sourcePsd": "SL005-P01.psd",
             "sourceObject": "桃花线上 AI 2–6；网页07",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "e12ed15ab9659eb9644b2bdecd56bb8fdc1df6b9cb46b769f38116ce26dbda71",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "dcf5fc5b71ec38c1cc77aa34949d5bad0ccaa5383dcc0ce71c09bc2173179566",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "沿用同案原 AI 素材与页面版式，重放后写入真实机框 PSD 的屏槽。"
           },
           "section": {
-            "title": "桃花艺人 · 平台视觉",
-            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "title": "桃花艺人 · 大众点评",
+            "description": "三个位移展示桃花艺人 P 组的五张横滑头图。部分商户资料、价格及销量为样机展示示意。",
             "eyebrow": "CHAPTER 04"
           }
         },
@@ -11636,26 +11615,6 @@
             "width": 1920,
             "height": 1440,
             "sha256": "5c50fbfeb794383fa7cf273e7ed10e1cf5a478f8af906418e7a367ad0ef833b6",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
-          }
-        },
-        {
-          "id": "SL005-phone-P03",
-          "src": "/media/cases/SL005/phone-p03-883a616c6b.webp",
-          "type": "image",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "SL005-phone-P03",
-            "sourceType": "psd",
-            "sourcePsd": "SL005-桃花艺人/成品/03-美团点菜.psd",
-            "sourceObject": "桃花线上 AI 8、9、12；网页10",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "883a616c6b3b0f0fff1240850b0f8d2255e7968dece51643adb15e39f404efb4",
             "classification": "final_design",
             "finalWorkVerified": true,
             "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
@@ -11787,48 +11746,27 @@
         },
         {
           "id": "SL005-phone-O01",
-          "src": "/media/cases/SL005/phone-o01-8caa8fa25d.webp",
+          "src": "/media/cases/SL005/phone-o01-314d66ae5e.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2400,
+          "height": 1876,
           "provenance": {
             "assetId": "SL005-phone-O01",
             "sourceType": "psd",
-            "sourcePsd": "SL005-桂花艺人/成品/01-点评五图.psd",
+            "sourcePsd": "SL005-O01.psd",
             "sourceObject": "桂花线上 AI 2–6；网页19",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "8caa8fa25d48b2c3eb351ca978a6499bbad1aabcaafc96977bd98a0956096cf2",
+            "width": 2400,
+            "height": 1876,
+            "sha256": "314d66ae5e42b231384831fa03f0a5fd142d9a9bf7a3cf7305c5b400245b745d",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "沿用同案原 AI 素材与页面版式，重放后写入真实机框 PSD 的屏槽。"
           },
           "section": {
-            "title": "桂花艺人 · 平台视觉",
-            "description": "案例封面的美团店铺、大众点评五张横滑头图和下一张美团商品样机均取自桂花艺人线上 O 组。部分商户资料、价格及销量为样机展示示意。",
+            "title": "桂花艺人 · 大众点评",
+            "description": "三个位移展示桂花艺人 O 组的五张横滑头图。部分商户资料、价格及销量为样机展示示意。",
             "eyebrow": "CHAPTER 07"
-          },
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL005-phone-O03",
-          "src": "/media/cases/SL005/phone-o03-9aff203fbd.webp",
-          "type": "image",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "SL005-phone-O03",
-            "sourceType": "psd",
-            "sourcePsd": "SL005-桂花艺人/成品/03-美团点菜.psd",
-            "sourceObject": "桂花线上 AI 8、9、12；网页21",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "9aff203fbd198f26d79e964a31bcac66af61c08f6b81dad23187265c19c1441a",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
           },
           "portfolioPdfSelected": true
         }
@@ -18719,6 +18657,69 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N074",
+      "brandName": "春莱",
+      "projectName": "满满一杯桂花香",
+      "intro": "2022 年桂花系列以白底双杯海报呈现桂花米酿红奶茶、绿奶茶，以及桂花米酿咖啡、桂花斑斓椰。两幅定稿保留原有中泰双语、桂花图案和饮品摄影。",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "business": "branding",
+      "includeInPortfolioPdf": false,
+      "published": true,
+      "media": [
+        {
+          "id": "N074-OS22-1",
+          "type": "image",
+          "src": "/media/cases/N074/os22-1-9d04d3914c.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "桂花米酿红奶茶与绿奶茶"
+          },
+          "provenance": {
+            "assetId": "N074-OS22-1",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "9d04d3914c9221c94e35af407aec2e602e2b47e5bf478c90d2b5e7f802d9b619",
+            "sourceAi": "202211-桂花新品海报-白底图版本-改1-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从定稿归档 Illustrator 原件完整导出。",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N074-OS22-2",
+          "type": "image",
+          "src": "/media/cases/N074/os22-2-8e6cac42ba.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "section": {
+            "eyebrow": "",
+            "title": "桂花米酿咖啡与桂花斑斓椰"
+          },
+          "provenance": {
+            "assetId": "N074-OS22-2",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "8e6cac42baa6ca25737c1b134aa2fd3672b71e0bb290cd3046bb6c1d17a13a66",
+            "sourceAi": "202211-桂花新品海报-白底图版本-改1-60x90cm.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从定稿归档 Illustrator 原件完整导出。",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ]
     }
   ],
   "defaultOrder": [
@@ -18814,7 +18815,8 @@
     "N073",
     "N070",
     "N081",
-    "N083"
+    "N083",
+    "N074"
   ],
   "photographyCaseOrder": [
     "L021",
