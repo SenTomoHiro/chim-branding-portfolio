@@ -10525,30 +10525,171 @@
         {
           "id": "SL002-07",
           "type": "image",
-          "src": "/media/springlai/vintage-coffee/07.jpg",
+          "src": "/media/cases/SL002/phone-1-877d324a36.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-07",
+            "sourceType": "psd",
+            "sourcePsd": "配套横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "877d324a36c72a3b21a869562bfe8500fe3b43ca45edc58e783a01db2ad89cf2",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 2
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "美团外卖 · 古早咖啡店铺",
+            "description": "同一幅店招下依次展示配套横幅、常规横幅和买一送一活动横幅。部分商户资料、价格及销量为样机展示示意。"
+          }
         },
         {
           "id": "SL002-08",
           "type": "image",
-          "src": "/media/springlai/vintage-coffee/08.jpg",
+          "src": "/media/cases/SL002/phone-2-1c7aa81369.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-08",
+            "sourceType": "psd",
+            "sourcePsd": "常规横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "1c7aa8136905535d1a52fd2849f53c45de338123c47eb9acbcb1410b0b1b25e9",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 3
+          }
         },
         {
           "id": "SL002-09",
           "type": "image",
-          "src": "/media/springlai/vintage-coffee/09.jpg",
+          "src": "/media/cases/SL002/phone-3-3e25d855a1.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-09",
+            "sourceType": "psd",
+            "sourcePsd": "买一送一横幅.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "3e25d855a1f030f2c7e19e6fbeeb4591ed89380a514cc81f24b19244c8f9e6a9",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 13
+          }
         },
         {
           "id": "SL002-10",
           "type": "image",
-          "src": "/media/springlai/vintage-coffee/10.jpg",
+          "src": "/media/cases/SL002/phone-4-c767da330d.webp",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-10",
+            "sourceType": "psd",
+            "sourcePsd": "美团三款商品.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "c767da330d5e5baec20bec91e02c138cb76e7c7251cb4c79f8a1482f73e4fc3c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 10
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "美团外卖 · 三款古早冰咖",
+            "description": "点菜页依次展示冰咖百香果、冰咖冬阴功和冰咖柠檬蜜。"
+          }
+        },
+        {
+          "id": "SL002-phone-5",
+          "type": "image",
+          "src": "/media/cases/SL002/phone-5-b19e6d8c8f.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-phone-5",
+            "sourceType": "psd",
+            "sourcePsd": "点评首屏.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "b19e6d8c8f94edf99d2c217e91b730a1db96d6f36229ee56a097ddc03339f8e6",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 4
+          },
+          "section": {
+            "eyebrow": "线上应用",
+            "title": "大众点评 · 五幅商户头图",
+            "description": "商户详情页顶部的五幅头图可以横向滑动。以下三张依次展示起始、中段和滑至末端的画面。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "SL002-phone-6",
+          "type": "image",
+          "src": "/media/cases/SL002/phone-6-01f45f21b4.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-phone-6",
+            "sourceType": "psd",
+            "sourcePsd": "点评中段.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "01f45f21b4306ad491538994f1aacc3c2803b76f94de10e3b29e7c0e69cbcd29",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 7
+          }
+        },
+        {
+          "id": "SL002-phone-7",
+          "type": "image",
+          "src": "/media/cases/SL002/phone-7-f2968600dd.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "portfolioPdfSelected": true,
+          "provenance": {
+            "assetId": "SL002-phone-7",
+            "sourceType": "psd",
+            "sourcePsd": "点评末段.psd",
+            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "f2968600dd46aab1ad52bd26d1a0eae7310d5b2aacbe97e551e5f67a37cdbbd9",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "230609-咖啡-线上-改1.ai",
+            "sourceArtboard": 8
+          }
         }
       ],
       "published": true,
