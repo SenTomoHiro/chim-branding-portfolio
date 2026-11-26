@@ -15753,6 +15753,170 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N036-meituan-aug-1",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-aug-1-71824dcd8d.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-aug-1",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 13,
+            "sourceObject": "原画板 A13、A14、A15、A16",
+            "sourcePsd": "meituan-aug-1.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "71824dcd8de863e1f5ae10c6650e95569435a6c16390bd13bec6a9253e4f72b2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 06",
+            "title": "美团外卖 · 8 月菜品图",
+            "description": "五页保留各款原始菜品画板，含滇红藕粉蹄和两种容器版本的红糖水牛乳。"
+          }
+        },
+        {
+          "id": "N036-meituan-aug-2",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-aug-2-a0a65e90e2.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-aug-2",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 17,
+            "sourceObject": "原画板 A17、A18、A19、A20",
+            "sourcePsd": "meituan-aug-2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "a0a65e90e233dcc34450bdc161066784f6154cae3aae4ad8bb9c754175a80cfb",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-meituan-aug-3",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-aug-3-2cf0fd731d.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-aug-3",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 21,
+            "sourceObject": "原画板 A21、A23、A24、A25",
+            "sourcePsd": "meituan-aug-3.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "2cf0fd731de89aec6715f01f4ccedb14ad1af1dceeab74f257ba835f471dfba8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-meituan-aug-4",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-aug-4-d0595f975d.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-aug-4",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 26,
+            "sourceObject": "原画板 A26、A27、A28、A29",
+            "sourcePsd": "meituan-aug-4.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "d0595f975d49c835abdfdaa04b93fdc039ba086c05d0fc781b8757c7e773c06d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-meituan-aug-5",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-aug-5-9dc1255693.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-aug-5",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 30,
+            "sourceObject": "原画板 A30、A31、A32、A33",
+            "sourcePsd": "meituan-aug-5.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "9dc1255693d07a1d8c05a261e3e9fff781cbbce4edc2a6107fe3b1f70d7fe5ba",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-meituan-sep-1",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-sep-1-52ab388c6d.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-sep-1",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 1,
+            "sourceObject": "原画板 B01、B02、B03、B04",
+            "sourcePsd": "meituan-sep-1.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "52ab388c6d643ee2d36706d082eeb9f97d18028d74ea67924998abc6f2b315e8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 07",
+            "title": "美团外卖 · 9 月菜品图",
+            "description": "两页展示开业推荐饮品及四款鲜米布。"
+          }
+        },
+        {
+          "id": "N036-meituan-sep-2",
+          "type": "image",
+          "src": "/media/cases/N036/meituan-sep-2-6eabfd499a.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 2602,
+          "provenance": {
+            "assetId": "N036-meituan-sep-2",
+            "sourceType": "psd",
+            "sourceAi": "240902-陈老板-线上.ai",
+            "sourceArtboard": 18,
+            "sourceObject": "原画板 B18、B19、B20、B21",
+            "sourcePsd": "meituan-sep-2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
+            "width": 1320,
+            "height": 2602,
+            "sha256": "6eabfd499a91b2f59eafdbba49bb9f46fd676ac120d969372c87a13b86916ac5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
