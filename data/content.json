@@ -16314,6 +16314,246 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N060",
+      "brandName": "春莱",
+      "projectName": "气泡噗噗",
+      "intro": "春莱气泡噗噗系列视觉物料设计，呈现泰国青柠气泡嗨、芭乐凤梨汽泡嗨及芭乐百香果汽泡嗨三款960ML饮品，包含系列宣传海报、横版画面及单品展示画面。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N060-35C11-01",
+          "type": "image",
+          "src": "/media/cases/N060/35c11-01-95fb29a83a.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N060-35C11-01",
+            "sourceType": "ai",
+            "sourceAi": "240621-气泡噗噗.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "95fb29a83ab72fba46896562401df3b0c7830d39b56c5ad1f708be0078add7d6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N060-35C11-02",
+          "type": "image",
+          "src": "/media/cases/N060/35c11-02-a4396e8e92.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1238,
+          "provenance": {
+            "assetId": "N060-35C11-02",
+            "sourceType": "ai",
+            "sourceAi": "240621-气泡噗噗.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 2200,
+            "height": 1238,
+            "sha256": "a4396e8e929f56e599816c955b518cf27c86244060a46c039b9bb28697676ea6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N068",
+      "brandName": "大胡子可可",
+      "projectName": "品牌手册",
+      "intro": "本画册围绕大胡子可可展开视觉编排，以黄黑高对比配色、人物与产品摄影呈现品牌形象，并展示基于胡子长度的浓度分级、产品介绍及品牌视觉应用。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "饮品",
+      "media": [
+        {
+          "id": "N068-2218D-01",
+          "type": "image",
+          "src": "/media/cases/N068/2218d-01-d417797090.webp",
+          "layout": "full",
+          "width": 1556,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N068-2218D-01",
+            "sourceType": "ai",
+            "sourceAi": "11月品牌手册out.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1556,
+            "height": 2200,
+            "sha256": "d417797090d38cb6407be74fcfaac0418e4e26ec9052ed8f9da0c7972600a7c1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N068-2218D-06",
+          "type": "image",
+          "src": "/media/cases/N068/2218d-06-b7f0b9cc5e.webp",
+          "layout": "full",
+          "width": 1556,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N068-2218D-06",
+            "sourceType": "ai",
+            "sourceAi": "11月品牌手册out.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1556,
+            "height": 2200,
+            "sha256": "b7f0b9cc5e58f3df8359fe9d1b46134822b7cb7d5b7794f950ec4d807cc213a2",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N068-2218D-07",
+          "type": "image",
+          "src": "/media/cases/N068/2218d-07-92b7863783.webp",
+          "layout": "full",
+          "width": 1556,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N068-2218D-07",
+            "sourceType": "ai",
+            "sourceAi": "11月品牌手册out.ai",
+            "sourceArtboard": 7,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1556,
+            "height": 2200,
+            "sha256": "92b7863783c0c9cbe9db4495d7eb6d0491517dedde86a23670fe557f383e9641",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N067",
+      "brandName": "春莱",
+      "projectName": "秋日·梦甜｜玫珑蜜瓜系列",
+      "intro": "以“秋日·梦甜”为主题，围绕春莱玫珑蜜瓜系列展开视觉设计。画面采用绿蓝渐变背景、水彩蜜瓜图像与醒目的文字排版，呈现清甜的秋日氛围。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N067-54023-01",
+          "type": "image",
+          "src": "/media/cases/N067/54023-01-638fbd6d21.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N067-54023-01",
+            "sourceType": "ai",
+            "sourceAi": "240907-蜜瓜线上.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "638fbd6d2186a3ea4115159af6b8e3af857cf434bb29fbeeb38046b8f509d590",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N067-54023-02",
+          "type": "image",
+          "src": "/media/cases/N067/54023-02-78c7fbdf7e.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N067-54023-02",
+            "sourceType": "ai",
+            "sourceAi": "240907-蜜瓜线上.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "78c7fbdf7edcb0ce8210070a7c925e2fbab83fc822b593fcaf692b650c4eab07",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N059",
+      "brandName": "春莱",
+      "projectName": "夏日酸奶酪酪",
+      "intro": "春莱内蒙古地区限定新品宣传海报，以蓝天、草地与两款酸奶酪酪产品为主视觉，呈现芒果与芭乐口味及对应价格，并以中英文文字和夏日户外场景营造清新氛围。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N059-6E8F2-02",
+          "type": "image",
+          "src": "/media/cases/N059/6e8f2-02-5dbe19c0e2.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N059-6E8F2-02",
+            "sourceType": "ai",
+            "sourceAi": "230714-预告及新品海报-60×90cm-改1.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "5dbe19c0e2afb560ba1cb278797d1f251179d3fdb3dd05bd1944072dcf75f655",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N059-6E8F2-01",
+          "type": "image",
+          "src": "/media/cases/N059/6e8f2-01-eac087daf3.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N059-6E8F2-01",
+            "sourceType": "ai",
+            "sourceAi": "230714-预告及新品海报-60×90cm-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "Illustrator 原件按原画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "eac087daf3dc6f819789cf2419b8991a29f21c35b3d28f9a01c2900130c2a1bd",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -16380,7 +16620,11 @@
     "N043",
     "N047",
     "N048",
-    "N051"
+    "N051",
+    "N060",
+    "N068",
+    "N067",
+    "N059"
   ],
   "photographyCaseOrder": [
     "L021",
