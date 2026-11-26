@@ -3544,7 +3544,7 @@
       "id": "L012",
       "brandName": "文柠记",
       "projectName": "",
-      "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。",
+      "intro": "以柠檬、植物插画和云南地域意象构建手打柠檬茶品牌，覆盖包装、菜单、平台与门店传播。 2023 年杨梅系列以红粉色海报呈现预告与三款饮品。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -3824,6 +3824,51 @@
             "width": 3200,
             "height": 2239,
             "sha256": "44372905f3d09ea8df5b9cbbe05d33bea49f896ca1aa211242f0373179d031c0",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "L012-yangmei-preview",
+          "type": "image",
+          "src": "/media/cases/L012/yangmei-preview-944f74af56.webp",
+          "layout": "half",
+          "width": 1267,
+          "height": 1900,
+          "provenance": {
+            "assetId": "L012-yangmei-preview",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/内部源文件/23年春夏/新品源文件/230703-文柠记杨梅海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从 Illustrator 原件的 PDF 兼容页按画板比例导出。",
+            "width": 1267,
+            "height": 1900,
+            "sha256": "944f74af565eedb1a2a5fa74386190867447bc2f528e8bf3d577364647856def",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2023 杨梅季",
+            "description": "预告海报先用杨梅果实铺陈主题，产品海报把三款饮品放进同一组红粉色画面。",
+            "eyebrow": "季节海报"
+          }
+        },
+        {
+          "id": "L012-yangmei-poster",
+          "type": "image",
+          "src": "/media/cases/L012/yangmei-poster-df28637aea.webp",
+          "layout": "half",
+          "width": 1267,
+          "height": 1900,
+          "provenance": {
+            "assetId": "L012-yangmei-poster",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/内部源文件/23年春夏/新品源文件/230703-文柠记杨梅海报-60x90cm.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从 Illustrator 原件的 PDF 兼容页按画板比例导出。",
+            "width": 1267,
+            "height": 1900,
+            "sha256": "df28637aea8c26dea99188e9cb62cdf2133d493f2a76801172a2895c4114aeb8",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -9332,6 +9377,31 @@
           "layout": "full"
         },
         {
+          "id": "SL001-2022-midautumn",
+          "type": "image",
+          "src": "/media/cases/SL001/2022-midautumn-4319f3d1f2.webp",
+          "layout": "full",
+          "width": 1267,
+          "height": 1900,
+          "provenance": {
+            "assetId": "SL001-2022-midautumn",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱21-22年/中秋海报/202208-中秋贴纸海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从 Illustrator 原件的 PDF 兼容页按画板比例导出。",
+            "width": 1267,
+            "height": 1900,
+            "sha256": "4319f3d1f20ca5a60429297369ad2221be6a5bec39514d05ffef2130d868b3ec",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2022 中秋贴纸活动",
+            "description": "用大象、玉兔与佛塔等插画呈现原创贴纸的中秋买赠活动。",
+            "eyebrow": "节日海报"
+          }
+        },
+        {
           "id": "SL001-09",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi02-01.jpg",
@@ -14254,6 +14324,31 @@
             "sha256": "405a13a16e632bb24c97ddd7638eefda584808f2c67cac8e439712525eaacc0d",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-farm-sign",
+          "type": "image",
+          "src": "/media/cases/N036/farm-sign-6dc3195663.webp",
+          "layout": "full",
+          "width": 1900,
+          "height": 559,
+          "provenance": {
+            "assetId": "N036-farm-sign",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/陈老板手作/240922-陈老板-门头-助农.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从 Illustrator 原件的 PDF 兼容页按画板比例导出。",
+            "width": 1900,
+            "height": 559,
+            "sha256": "6dc3195663e8e08e2272e59edd061e9b1f28ca30019f8e7aa7a0576273cab938",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "助农门头",
+            "description": "黄色品牌字标沿用圆形「手作」印记，右侧写有「助农」「时令手作」。",
+            "eyebrow": "门店应用"
           }
         },
         {
