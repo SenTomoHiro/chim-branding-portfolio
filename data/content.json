@@ -10318,25 +10318,6 @@
           }
         },
         {
-          "id": "SL001-VI-share",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-VI-share.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-VI-share",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-VI-share.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "574081cee488ea4cbd83a70e783598918bc52fddefbdcbe44189c274235d6282",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "SL001-VI-dp-0",
           "type": "image",
           "src": "/media/springlai/brand-evolution/SL001-VI-dp-0.webp",
@@ -10389,25 +10370,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "c686dcb67a07695dfb6a24e61531e4dbee4fb7605b6af81368a733a5b62db606",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-VI-floor",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-VI-floor.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-VI-floor",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-VI-floor.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "562c44552919058715f0bca1dca7c3d8fb16cba4495a7f6b7f246bf12c4331d1",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -10723,25 +10685,6 @@
           }
         },
         {
-          "id": "SL001-GU-floor",
-          "type": "image",
-          "src": "/media/cases/N041/N041-floor.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-GU-floor",
-            "sourceType": "psd",
-            "sourcePsd": "N041-floor.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "b4ef9e878f01b69788c4a59f38932ab65c08d6166db66b891fe75782758ea5da",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "SL001-GU-mt-small",
           "type": "image",
           "src": "/media/cases/N041/N041-mt-small.webp",
@@ -10889,25 +10832,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "319b2072e468316144f2c9c02c42204d5ca1209c91da83c82f6933a44e6a4ff4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-GU-share",
-          "type": "image",
-          "src": "/media/cases/N041/N041-share.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-GU-share",
-            "sourceType": "psd",
-            "sourcePsd": "N041-share.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "040ae93385ef3240453953ccd422a10be896529c4f85d198d54143543e67aa29",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -11117,33 +11041,6 @@
             "finalWorkVerified": true,
             "sourceAi": "230609-咖啡-线上-改1.ai",
             "sourceArtboard": 13
-          }
-        },
-        {
-          "id": "SL002-10",
-          "type": "image",
-          "src": "/media/cases/SL002/phone-4-c767da330d.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "SL002-10",
-            "sourceType": "psd",
-            "sourcePsd": "美团三款商品.psd",
-            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "c767da330d5e5baec20bec91e02c138cb76e7c7251cb4c79f8a1482f73e4fc3c",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceAi": "230609-咖啡-线上-改1.ai",
-            "sourceArtboard": 10
-          },
-          "section": {
-            "eyebrow": "线上应用",
-            "title": "美团外卖 · 三款古早冰咖",
-            "description": "点菜页依次展示冰咖百香果、冰咖冬阴功和冰咖柠檬蜜。"
           }
         },
         {
@@ -12142,19 +12039,6 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
-          }
-        },
-        {
-          "id": "SL007-components",
-          "type": "image",
-          "src": "/media/cases/SL007/components-phone-15f7442791.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "section": {
-            "title": "抽奖视觉组件",
-            "description": "原画板 33–39，依次展示背景、转盘、指针、按钮与三个任务图标。",
-            "eyebrow": "CHAPTER 04"
           }
         },
         {
@@ -16071,25 +15955,6 @@
           }
         },
         {
-          "id": "N041-floor",
-          "type": "image",
-          "src": "/media/cases/N041/N041-floor.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "N041-floor",
-            "sourceType": "psd",
-            "sourcePsd": "N041-floor.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "b4ef9e878f01b69788c4a59f38932ab65c08d6166db66b891fe75782758ea5da",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "N041-mt-small",
           "type": "image",
           "src": "/media/cases/N041/N041-mt-small.webp",
@@ -16237,25 +16102,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "319b2072e468316144f2c9c02c42204d5ca1209c91da83c82f6933a44e6a4ff4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N041-share",
-          "type": "image",
-          "src": "/media/cases/N041/N041-share.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "N041-share",
-            "sourceType": "psd",
-            "sourcePsd": "N041-share.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "040ae93385ef3240453953ccd422a10be896529c4f85d198d54143543e67aa29",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -16956,32 +16802,6 @@
             "description": "水墨山水与塔影沿杯身上下展开。",
             "eyebrow": "主题海报"
           }
-        },
-        {
-          "id": "N048-A03",
-          "type": "image",
-          "src": "/media/cases/N048/longjing-phone.jpg",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N048-A03",
-            "sourceType": "psd",
-            "sourceAi": "240415-江浙沪限定抹茶.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从原板导出菜品图，重放美团点菜视口，置入完整 18 号机框。",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "def81ca01ee128c00e471b4aecff79d31847c0b7a6532a55a2abb23ee5921fc0",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "限定商品.psd"
-          },
-          "section": {
-            "title": "美团外卖 · 江浙沪限定",
-            "description": "美团样机呈现原板的龙井抹茶水牛乳。部分商户资料、价格及销量为样机展示示意。",
-            "eyebrow": "美团外卖"
-          }
         }
       ],
       "published": true,
@@ -17670,6 +17490,32 @@
             "finalWorkVerified": true,
             "sourcePsd": "11-mini-member.psd",
             "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 28 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 18 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 25 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 26 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 27 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板"
+          }
+        },
+        {
+          "id": "N054-A12",
+          "type": "image",
+          "src": "/media/cases/N054/mini-menu-03-fffdf0b245.webp",
+          "layout": "full",
+          "width": 1440,
+          "height": 2617,
+          "provenance": {
+            "assetId": "N054-A12",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 13,
+            "extractionMethod": "沿用已审点餐内屏，从 03 号分层 PSD 独立导出左机，并重新打开核对屏幕智能对象。",
+            "width": 1440,
+            "height": 2617,
+            "sha256": "fffdf0b245c23038d86c67c3b552059c7137793a5e003d3e09d00e3d35c2870f",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N054-小程序点餐-框03左机.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 13、14、15 画板"
+          },
+          "section": {
+            "title": "点餐小程序 · 联名点餐",
+            "description": "自取点餐页收录咸蛋黄芝士可可啵啵冰、重可可牛乳脆脆冰和红茶牛乳可可啵啵冰。"
           }
         },
         {
