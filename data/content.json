@@ -14245,39 +14245,43 @@
         {
           "id": "N035-A02",
           "type": "image",
-          "src": "/media/cases/N035/02.webp",
           "layout": "full",
-          "width": 2000,
-          "height": 1125,
+          "src": "/media/cases/N035/dianping-carousel-98e73f93eb.webp",
+          "width": 2400,
+          "height": 1202,
           "provenance": {
             "assetId": "N035-A02",
-            "sourceType": "ai",
+            "sourceType": "psd",
+            "sourcePsd": "T24315 (4).psd",
             "sourceAi": "春暹-点评团购.ai",
-            "sourceArtboard": 4,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1125,
-            "sha256": "6e921f3f9e60f4761fb6e105996732c53bffad76aa05b80dd8afed84622b9baa",
+            "sourceObject": "第5、6、7板分别对应四幅宽封面的第2、3、4个滑位。",
+            "extractionMethod": "沿用同案大众点评内屏和 Illustrator 原画板，换入真实分层 PSD 的屏幕并导出。",
+            "width": 2400,
+            "height": 1202,
+            "sha256": "98e73f93ebe0b658db72dcc32a24027cbc1210db92cff3a4b1720e918da27a2e",
             "classification": "final_design",
             "finalWorkVerified": true
+          },
+          "section": {
+            "title": "大众点评商户详情",
+            "description": "首幅封面与后三个滑位展示四幅春暹宽图。团购视口保留服务原稿。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
-          "id": "N035-A03",
+          "id": "N035-A06",
           "type": "image",
-          "src": "/media/cases/N035/03.webp",
           "layout": "full",
-          "width": 2000,
-          "height": 1125,
+          "src": "/media/cases/N035/06-carousel-45ea74b787.webp",
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N035-A03",
-            "sourceType": "ai",
-            "sourceAi": "春暹-点评团购.ai",
-            "sourceArtboard": 6,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1125,
-            "sha256": "83b86140690b365c1c855d6f69f015aebf506e0d7c0cbdadd35b5be5b489692d",
+            "assetId": "N035-A06",
+            "sourceType": "psd",
+            "sourcePsd": "春暹-点评.psd",
+            "extractionMethod": "Same-case merchant PSD layout, Illustrator cover and service artboards, clear sample copy, Photoshop mockup export",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "45ea74b78778389523e7ffc1a9560e7a1c6a85370ee4b10afb54c228b1233210",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -14285,26 +14289,26 @@
         {
           "id": "N035-A04",
           "type": "image",
-          "src": "/media/cases/N035/04.webp",
           "layout": "full",
-          "width": 2000,
-          "height": 1125,
+          "src": "/media/cases/N035/dianping-deals-64de5a083a.webp",
+          "width": 1550,
+          "height": 1898,
           "provenance": {
             "assetId": "N035-A04",
-            "sourceType": "ai",
+            "sourceType": "psd",
+            "sourcePsd": "T22869(3).psd",
             "sourceAi": "春暹-点评团购.ai",
-            "sourceArtboard": 8,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1125,
-            "sha256": "11a958aa8529a6c185356d4a17faefe7001fb5421d470bb3b913af1abf8d95a6",
+            "sourceObject": "第8板「七十分钟 全身泰式拉伸」放在大众点评团购列表的第三个服务卡片。",
+            "extractionMethod": "沿用同案大众点评内屏和 Illustrator 原画板，换入真实分层 PSD 的屏幕并导出。",
+            "width": 1550,
+            "height": 1898,
+            "sha256": "64de5a083a7bd172a774d9312d984218a3ede0b92e72ee2686d756204cb5fcab",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "Chapter 01",
-            "title": "服务项目",
-            "description": "项目档案中的历史设计稿。"
+            "title": "团购服务列表",
+            "description": "在三条服务中，第三条「全身泰式拉伸」使用七十分钟服务画板。"
           }
         },
         {
@@ -14323,30 +14327,6 @@
             "width": 1415,
             "height": 2000,
             "sha256": "e5513e14673f4325b1afc346703f5ede9d0c4ab278d7799d8cab156e2ab51378",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N035-A06",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N035/06-carousel-45ea74b787.webp",
-          "width": 1920,
-          "height": 1440,
-          "section": {
-            "eyebrow": "Chapter 02",
-            "title": "平台界面",
-            "description": "大众点评商户详情采用大图轮播头部。封面与服务项目出自同案画板，部分商户资料、价格及销量为样机展示示意。"
-          },
-          "provenance": {
-            "assetId": "N035-A06",
-            "sourceType": "psd",
-            "sourcePsd": "春暹-点评.psd",
-            "extractionMethod": "Same-case merchant PSD layout, Illustrator cover and service artboards, clear sample copy, Photoshop mockup export",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "45ea74b78778389523e7ffc1a9560e7a1c6a85370ee4b10afb54c228b1233210",
             "classification": "final_design",
             "finalWorkVerified": true
           }
