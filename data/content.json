@@ -3829,6 +3829,29 @@
           }
         },
         {
+          "id": "L012-lotus",
+          "type": "image",
+          "src": "/media/cases/L012/lotus-ca56e412e6.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "L012-lotus",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/文柠记/202208-文柠记-荷花季海报-90x60cm文件夹(_F)/文柠记-荷花季海报-90x60cm.jpg",
+            "extractionMethod": "复用同案交付 JPG，按原构图转换为网页 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "ca56e412e6131a9238b006f9f4f5f9bb04783aa3d972a48e8e3ea0e52426206b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "季节海报",
+            "title": "2022 荷花季",
+            "description": "粉色荷花、青绿荷叶与竖排「荷花季」构成海报主视觉。"
+          }
+        },
+        {
           "id": "L012-yangmei-preview",
           "type": "image",
           "src": "/media/cases/L012/yangmei-preview-944f74af56.webp",
