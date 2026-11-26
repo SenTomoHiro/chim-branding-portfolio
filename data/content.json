@@ -15120,51 +15120,51 @@
         {
           "id": "N045-phone-01",
           "type": "image",
-          "src": "/media/cases/N045/phone-01-e125de9ca8.webp",
+          "src": "/media/cases/N045/meituan-store-b74ff779e2.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1450,
+          "height": 2408,
           "provenance": {
             "assetId": "N045-phone-01",
             "sourceType": "psd",
-            "sourcePsd": "N045/成品/01-美团联名横幅.psd",
-            "sourceObject": "TM 1、7/9、8、11/12",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "e125de9ca8e31d5a26210b4f0dec646106e342f8c9c52a17f80445aa60b8383c",
+            "sourcePsd": "N045/全实体机框复审/分层/N045-美团首屏-07.psd",
+            "sourceObject": "TM 1、8、9、11、12",
+            "width": 1450,
+            "height": 2408,
+            "sha256": "b74ff779e25f329c2254f9b839281a76cedd8ab3ee3b8278febf53b539476303",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "沿用同案复审内屏，套入 07 号实体 PSD，重开核对智能对象并导出。"
           },
           "section": {
             "eyebrow": "CHAPTER 02",
-            "title": "美团联名横幅",
-            "description": "两幅芒DAY横幅分别叠放在同案店招上，同时展示两款联名饮品。 部分商户资料、价格及销量为样机展示示意。"
+            "title": "美团外卖 · 芒DAY 联名店铺",
+            "description": "联名横幅叠在店招下缘，点菜区露出芒果百香果啵啵与芒果冰酒酿啵啵。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
           "id": "N045-phone-02",
           "type": "image",
-          "src": "/media/cases/N045/phone-02-615151265d.webp",
+          "src": "/media/cases/N045/mini-program-home-2486b2fce1.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2250,
+          "height": 1814,
           "provenance": {
             "assetId": "N045-phone-02",
             "sourceType": "psd",
-            "sourcePsd": "N045/成品/02-小程序首页轮播.psd",
+            "sourcePsd": "N045/全实体机框复审/分层/N045-小程序轮播-03.psd",
             "sourceObject": "TM 14/15、16、17–22、23/24",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "615151265d8ae4ba7d7a8d78819cdfcf547f379137438422cbc00f81a53fd81a",
+            "width": 2250,
+            "height": 1814,
+            "sha256": "2486b2fce1c3493092e24d7d3408d19f2fe589a9ec5762bb71428e1b2243002b",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "沿用同案复审内屏，套入 03 号实体 PSD，重开核对智能对象并导出。"
           },
           "section": {
             "eyebrow": "CHAPTER 03",
-            "title": "芒DAY点餐小程序",
-            "description": "首页轮播、会员区与业务入口沿用原画，两款芒果饮品在点餐页独立展示。 部分商户资料、价格及销量为样机展示示意。"
+            "title": "点餐小程序 · 首页轮播",
+            "description": "两种首页轮播画面分别置于独立手机，保留会员区与业务入口。点餐页展示两款芒果饮品。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
@@ -15269,46 +15269,50 @@
         {
           "id": "N040-phone-01",
           "type": "image",
-          "src": "/media/cases/N040/phone-01-a8e45e916b.webp",
+          "src": "/media/cases/N040/meituan-large-6944e51beb.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2250,
+          "height": 1127,
           "provenance": {
             "assetId": "N040-phone-01",
             "sourceType": "psd",
-            "sourcePsd": "N040/成品/01-美团大招三组.psd",
+            "sourcePsd": "N040/全实体机框复审/分层/N040-大店招-04.psd",
             "sourceObject": "AI 13+11、19+17、24+22；7–10 菜品",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "a8e45e916b58853379fa909419f63883f219d75b1c1245565f1ea7c703951f2c",
+            "width": 2250,
+            "height": 1127,
+            "sha256": "6944e51beb277cccef85577929e167c003ab4f8f443a9341091712288c73bfe6",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "沿用同案复审内屏，套入 04 号实体 PSD，重开核对智能对象并导出。"
           },
           "section": {
             "eyebrow": "CHAPTER 02",
-            "title": "美团外卖店铺",
-            "description": "同组三款小吃的大图招牌与小图招牌，分别配原活动横幅。 部分商户资料、价格及销量为样机展示示意。"
+            "title": "美团外卖 · 大店招与横幅",
+            "description": "芒果糯米饭、阿莱蛋卷、阿莱糯叽叽的大店招分别搭配同组横幅。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
           "id": "N040-phone-02",
           "type": "image",
-          "src": "/media/cases/N040/phone-02-3f84888b90.webp",
+          "src": "/media/cases/N040/meituan-compact-16c926589d.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2250,
+          "height": 1127,
           "provenance": {
             "assetId": "N040-phone-02",
             "sourceType": "psd",
-            "sourcePsd": "N040/成品/02-美团小招三组.psd",
+            "sourcePsd": "N040/全实体机框复审/分层/N040-小店招-04.psd",
             "sourceObject": "AI 12+11、18+17、23+22；7–10 菜品",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "3f84888b907cdceed379b02d4f6edff34bf6dc22ace22a7a4755eda761f7e223",
+            "width": 2250,
+            "height": 1127,
+            "sha256": "16c926589d12c0d6e44dcabd7865b053ba98b068a45a6cd60c390fd8cba94cee",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "沿用同案复审内屏，套入 04 号实体 PSD，重开核对智能对象并导出。"
+          },
+          "section": {
+            "title": "美团外卖 · 小店招与横幅",
+            "description": "三组小店招保留对应的活动横幅，菜品在点菜区自然露出。商户资料、评分、价格及销量为样机展示示意。"
           }
         }
       ],
@@ -15424,25 +15428,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "cbb742a5a372e30139097cc21a5402375275493c282a5d4fa96142d86b218056",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N043-avatar",
-          "type": "image",
-          "src": "/media/cases/N043/N043-avatar.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "N043-avatar",
-            "sourceType": "psd",
-            "sourcePsd": "N043-avatar.psd",
-            "extractionMethod": "全平台头像的门店身份应用示意",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "7b923b39154a0335795d258d3f7fd5f7da6ee4a4048514f1a105c118fc8397ad",
             "classification": "final_design",
             "finalWorkVerified": true
           }
