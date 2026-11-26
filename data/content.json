@@ -12050,102 +12050,53 @@
         },
         {
           "id": "SL007-phone-C01",
-          "src": "/media/cases/SL007/phone-c01-1f2bd9b99e.webp",
+          "src": "/media/cases/SL007/dianping-swipes-04-487f618228.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
             "assetId": "SL007-phone-C01",
             "sourceType": "psd",
-            "sourcePsd": "SL007-TATAN椰子/成品/01-点评五图.psd",
-            "sourceObject": "线上 AI 2–7；网页02",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "1f2bd9b99e6bedeb9a2f955c0702b2b11232f4b40f1966f8397d00c3361b05a9",
+            "sourcePsd": "SL007-点评五图-框04.psd",
+            "sourceObject": "线上 AI 2–7",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "487f618228259416acdc31244b7243f4f0a54c5b031995c916da0acfcf6dc8da",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "同案 Illustrator 头图按原有大众点评横滑位置重放，置入 04 号实体三机 PSD。"
           },
           "section": {
-            "title": "点评与美团",
-            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "title": "大众点评 · 五图横滑",
+            "description": "五张原画板在三个横滑位置依次完整出现。商户资料、评分、价格及销量为样机展示示意。",
             "eyebrow": "CHAPTER 01"
           },
           "portfolioPdfSelected": true
         },
         {
           "id": "SL007-phone-C02",
-          "src": "/media/cases/SL007/phone-c02-4edf0ee8db.webp",
+          "src": "/media/cases/SL007/meituan-store-21-f495df75bd.webp",
           "type": "image",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1600,
+          "height": 2471,
           "provenance": {
             "assetId": "SL007-phone-C02",
             "sourceType": "psd",
-            "sourcePsd": "SL007-TATAN椰子/成品/02-美团店铺.psd",
-            "sourceObject": "线上 AI 1、8–10、12–14；网页04/05",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "4edf0ee8db639b785a129feb30e98fbfe72a4019a015b42122b01a9efdadbf43",
+            "sourcePsd": "SL007-美团店铺-框21-r2.psd",
+            "sourceObject": "线上 AI 1、8、10、12–14",
+            "width": 1600,
+            "height": 2471,
+            "sha256": "f495df75bde7815a7b5bbe6b2794acd4cc9c1807108f4c2670b83637a143a25b",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+            "extractionMethod": "同案 Illustrator 店招、横幅与自然可见商品按历史美团店铺视口重放，置入 21 号 PSD。"
           },
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL007-phone-C04",
-          "src": "/media/cases/SL007/phone-c04-8f7a145b9b.webp",
-          "type": "image",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "SL007-phone-C04",
-            "sourceType": "psd",
-            "sourcePsd": "SL007-TATAN椰子/成品/04-美团橱窗.psd",
-            "sourceObject": "线上 AI 1、10、12–14、42；网页04/05",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "8f7a145b9b0617b17c923d05ff8ed0a3dd6067486ed868f5aee8a9817c233e6b",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
-          }
-        },
-        {
-          "id": "SL007-phone-C03",
-          "src": "/media/cases/SL007/phone-c03-7f1be37ef6.webp",
-          "type": "image",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "SL007-phone-C03",
-            "sourceType": "psd",
-            "sourcePsd": "SL007-TATAN椰子/成品/03-美团点菜.psd",
-            "sourceObject": "线上 AI 12–14；网页05",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "7f1be37ef64ffcb870ea382db0065fbc7f1f2734ed87a4c715773163d4482cd4",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
-          }
-        },
-        {
-          "id": "SL007-eleme",
-          "type": "image",
-          "src": "/media/cases/SL007/eleme-cb5cec844e.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "portfolioPdfSelected": true,
           "section": {
-            "title": "饿了么店铺视觉",
-            "description": "招牌与横幅按历史原稿独立陈列。",
-            "eyebrow": "CHAPTER 02"
+            "title": "美团外卖 · 店铺首屏",
+            "description": "店招和活动横幅同屏，点菜区可见南洋香椰红奶茶和南洋香水柠檬茶。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
@@ -12800,6 +12751,33 @@
             "sha256": "8b96c8748e1310cc76d21fd0a58edfa1a0ecece207dca689b0899c03badf7ab0",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N022-dianping-search",
+          "type": "image",
+          "src": "/media/cases/N022/dianping-search-17-f259d03f3a.webp",
+          "layout": "full",
+          "width": 1440,
+          "height": 3419,
+          "provenance": {
+            "assetId": "N022-dianping-search",
+            "sourceType": "psd",
+            "sourceAi": "真心茶事-线上-方案2.ai",
+            "sourceArtboard": 1,
+            "sourceObject": "原画板 1／历史点评搜索原屏",
+            "sourcePsd": "N022-点评搜索-框17.psd",
+            "extractionMethod": "同案点评搜索视口与方案二商户入口图，补齐可见商户资料，置入 17 号 PSD。",
+            "width": 1440,
+            "height": 3419,
+            "sha256": "f259d03f3abf0e577a119fc552928638f24b9ded5e38d8118097982746446ece",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "大众点评 · 搜索入口",
+            "description": "搜索结果采用方案二商户入口图，展示品牌、筛选与双杯套餐。商户资料、评分、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 02"
           }
         },
         {
