@@ -12511,6 +12511,82 @@
           }
         },
         {
+          "id": "N021-wheel-ready",
+          "type": "image",
+          "src": "/media/cases/N021/wheel-ready-3864483d28.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "N021-wheel-ready",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 27,
+            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "3864483d28a867e17b93f5bcd9ed99d4cc8304f3e83a46f97a9979f5e79f6195",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-wheel-ready.psd",
+            "sourceObject": "原画板 M27、M28、M29、M31、M32、M33"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 03",
+            "title": "点餐小程序 · 转盘抽奖",
+            "description": "并列展示立即抽奖与次数用尽。奖项和券面金额为样机展示示意。"
+          }
+        },
+        {
+          "id": "N021-wheel-used",
+          "type": "image",
+          "src": "/media/cases/N021/wheel-used-d3cca78d1e.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "N021-wheel-used",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 27,
+            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "d3cca78d1e49248a7e2c4a892cae0c8c00ba2d359446aaf01595c25937202b7d",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-wheel-used.psd",
+            "sourceObject": "原画板 M27、M28、M30、M31、M32、M33"
+          }
+        },
+        {
+          "id": "N021-share",
+          "type": "image",
+          "src": "/media/cases/N021/share-6970868470.webp",
+          "layout": "full",
+          "width": 2030,
+          "height": 1783,
+          "provenance": {
+            "assetId": "N021-share",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 34,
+            "extractionMethod": "同案 Illustrator 原画板置入 03 号实体机框。",
+            "width": 2030,
+            "height": 1783,
+            "sha256": "697086847067bc961ae6ab0b1af4d68bc0d905912c46bf2969bdbb4fe343f18d",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-share-r2.psd",
+            "sourceObject": "原画板 M34、M15、M17、M18、M19、M20、M21、M22"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 04",
+            "title": "点餐小程序 · 分享卡",
+            "description": "小程序首页与高山有机抹茶分享卡对应展示。"
+          }
+        },
+        {
           "id": "N021-body-7",
           "type": "image",
           "src": "/media/cases/N021/meituan-showcase-eff8353d02.webp",
@@ -12532,7 +12608,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 03",
+            "eyebrow": "CHAPTER 05",
             "title": "美团外卖 · 橱窗与点菜",
             "description": "可可开心果、椰子浓抹茶和薄荷椰子在店铺橱窗和点菜列表中对应展示。部分商户资料、价格及销量为样机展示示意。"
           }
@@ -12557,6 +12633,99 @@
             "sha256": "5f89d96806d415fc0b8397dfaf6163e08a1b89a5786206c875950239d2dc4a56",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N021-mt-products-41",
+          "type": "image",
+          "src": "/media/cases/N021/mt-products-41-3261226e5a.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-mt-products-41",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 41,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "3261226e5ac04428238acb0687b93c7e689793e2e91d33575d128127d34b178d",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-mt-products-41.psd",
+            "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 06",
+            "title": "美团外卖 · 通用菜品设计",
+            "description": "四组机框呈现两平台共用的 24 张菜品原画板，保留饮品及冰淇淋原名。"
+          }
+        },
+        {
+          "id": "N021-mt-products-47",
+          "type": "image",
+          "src": "/media/cases/N021/mt-products-47-07cc308c25.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-mt-products-47",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 47,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "07cc308c251c51d7e0cc0664bdb7d1584491236072d93b4f4392fef95a192bd8",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-mt-products-47.psd",
+            "sourceObject": "原画板 M47、M48、M49、M50、M51、M52"
+          }
+        },
+        {
+          "id": "N021-mt-products-53",
+          "type": "image",
+          "src": "/media/cases/N021/mt-products-53-7a18e853a9.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-mt-products-53",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 53,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "7a18e853a99c1c47c5eb4deb836863eaf0fa17e35c66f0e60096a25c3c4d0b29",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-mt-products-53.psd",
+            "sourceObject": "原画板 M53、M54、M55、M56、M57、M58"
+          }
+        },
+        {
+          "id": "N021-mt-products-59",
+          "type": "image",
+          "src": "/media/cases/N021/mt-products-59-3a9170effb.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-mt-products-59",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 59,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "3a9170effbbc1fbd9db7352cfdbceb2c74d83ef5fa702aa2aa7b12300d6f611a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-mt-products-59.psd",
+            "sourceObject": "原画板 M59、M60、M61、M62、M63、M64"
           }
         },
         {
@@ -12607,6 +12776,99 @@
             "sha256": "d18a6d359f814efaaf61c6f06b421339502c403fb3fdf1c201af1bab6701b0c5",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N021-ele-products-41",
+          "type": "image",
+          "src": "/media/cases/N021/ele-products-41-442901a849.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-ele-products-41",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 41,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "442901a849a17a35bdc232f820e000796f87b9b855219653e05ffbca73261f45",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-ele-products-41.psd",
+            "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 07",
+            "title": "饿了么 · 通用菜品设计",
+            "description": "沿用与美团共用的原菜品画板。"
+          }
+        },
+        {
+          "id": "N021-ele-products-47",
+          "type": "image",
+          "src": "/media/cases/N021/ele-products-47-f033278089.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-ele-products-47",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 47,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "f0332780895e2e1f360b8319b7426aea7901b6b1af853f684d0b3e64c4af9409",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-ele-products-47.psd",
+            "sourceObject": "原画板 M47、M48、M49、M50、M51、M52"
+          }
+        },
+        {
+          "id": "N021-ele-products-53",
+          "type": "image",
+          "src": "/media/cases/N021/ele-products-53-deabfff30a.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-ele-products-53",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 53,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "deabfff30ad4b8911b5be38636ca209f11888982035d397a5d6bfd9eb1bb96d5",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-ele-products-53.psd",
+            "sourceObject": "原画板 M53、M54、M55、M56、M57、M58"
+          }
+        },
+        {
+          "id": "N021-ele-products-59",
+          "type": "image",
+          "src": "/media/cases/N021/ele-products-59-ca609e489e.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1402,
+          "provenance": {
+            "assetId": "N021-ele-products-59",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 59,
+            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "ca609e489e74628b8c83b7d5b76c4c2809d794d90db4a07cd32df7abced06317",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-ele-products-59.psd",
+            "sourceObject": "原画板 M59、M60、M61、M62、M63、M64"
           }
         }
       ],
@@ -19162,6 +19424,41 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N075",
+      "brandName": "春莱",
+      "projectName": "2022 电解质系列",
+      "intro": "隐藏款海报以青瓜、青椰和袋装饮品呈现「青瓜小椰汁」，保留限时销售字样。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N075-hidden",
+          "type": "image",
+          "src": "/media/cases/N075/hidden-906cacf299.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N075-hidden",
+            "sourceType": "ai",
+            "sourceAi": "202212-电解质系列-隐藏款海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "在 Illustrator 恢复同案原字体，按原始画板导出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "906cacf299f60788950914f18c2bb8a89609f1e18babb0fc65e8dc48cff427f0",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -19252,7 +19549,8 @@
     "N058",
     "N066",
     "N079",
-    "N069"
+    "N069",
+    "N075"
   ],
   "photographyCaseOrder": [
     "L021",
