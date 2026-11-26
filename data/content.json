@@ -17969,6 +17969,29 @@
             "title": "爱玉系列产品海报",
             "eyebrow": ""
           }
+        },
+        {
+          "id": "N083-tv",
+          "type": "image",
+          "src": "/media/cases/N083/television-poster-b972790bb7.jpg",
+          "layout": "full",
+          "width": 3840,
+          "height": 2160,
+          "provenance": {
+            "assetId": "N083-tv",
+            "sourceType": "image",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202407/240704-爱玉系列/240704-爱玉系列海报_电视机海报.jpg",
+            "extractionMethod": "沿用网盘定稿目录的原交付 JPG，保留原画幅、原字和插画。",
+            "width": 3840,
+            "height": 2160,
+            "sha256": "b972790bb7a1dbc2667cc28c30e44304a394e4137e775f41c2abfc73128ec1b8",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "门店电视海报",
+            "description": "横版延用海滩插画，三款爱玉冰饮在画面中展开。"
+          }
         }
       ],
       "published": true,
