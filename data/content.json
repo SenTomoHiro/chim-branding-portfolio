@@ -18019,6 +18019,496 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N056",
+      "brandName": "春莱",
+      "projectName": "葡萄系列新品",
+      "intro": "绿葡萄、紫葡萄与杯装饮品在横幅、预告和单杯海报中依次展开。原稿标明「系列饮品内含元气森林气泡水」。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N056-3FA24-05",
+          "type": "image",
+          "src": "/media/cases/N056/3fa24-05-b5d236a319.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N056-3FA24-05",
+            "sourceType": "ai",
+            "sourceAi": "230821-葡萄-线下-改2.ai",
+            "sourceArtboard": 5,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "b5d236a3196e2581a7a32ef9ac2bb770bd5ed75cb4ce8dfbbadc1000f5c1f533",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N056-3FA24-03",
+          "type": "image",
+          "src": "/media/cases/N056/3fa24-03-a84dcf0b64.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 881,
+          "provenance": {
+            "assetId": "N056-3FA24-03",
+            "sourceType": "ai",
+            "sourceAi": "230821-葡萄-线下-改2.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 2200,
+            "height": 881,
+            "sha256": "a84dcf0b64d54b6900b2ce11662fb916acb6d678d62020c50e54fe83c81d77d5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N056-3FA24-04",
+          "type": "image",
+          "src": "/media/cases/N056/3fa24-04-f6c5d2e501.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N056-3FA24-04",
+            "sourceType": "ai",
+            "sourceAi": "230821-葡萄-线下-改2.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "f6c5d2e501131f206f23c6e05446bed0d3e271b504d413f0dc5e5abfe0a055fc",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N063",
+      "brandName": "春莱",
+      "projectName": "清斋茶 · 返璞归真",
+      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N063-D65DC-01",
+          "type": "image",
+          "src": "/media/cases/N063/d65dc-01-42a833505a.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N063-D65DC-01",
+            "sourceType": "ai",
+            "sourceAi": "230726-清斋茶-海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "42a833505a5284bb43907f003b6f72c2362fcbc7535cb1b8ddab79324cbc984d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N084",
+      "brandName": "春莱",
+      "projectName": "泰式咸法酪 2.0",
+      "intro": "以绿色肌理、奶酪形象和四杯饮品构成系列海报，延续春莱的中泰双语设计。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N084-EBFC3-02",
+          "type": "image",
+          "src": "/media/cases/N084/ebfc3-02-00a8a1683c.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N084-EBFC3-02",
+            "sourceType": "ai",
+            "sourceAi": "250522-春莱-泰式咸法酪2.0系列.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N064",
+      "brandName": "春莱",
+      "projectName": "芒果香香 2.0",
+      "intro": "芒果冰酒酿与百香果芒芒悬浮在蓝天和芒果果肉之间，杯贴上的中英文各自对应两款饮品。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N064-8F57F-01",
+          "type": "image",
+          "src": "/media/cases/N064/8f57f-01-23c387b4e5.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N064-8F57F-01",
+            "sourceType": "ai",
+            "sourceAi": "230821-芒果产品海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "23c387b4e5ddc14c47f53cfce6d8c9bc9fae21ea4ca6d111ffa946dedc0d551c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N071",
+      "brandName": "春莱",
+      "projectName": "夏日甜心 · 芭乐季",
+      "intro": "2022 年春夏横幅将三款芭乐饮品的杯装与袋装形态并列，搭配粉绿渐变与中泰双语。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N071-94FCC-01",
+          "type": "image",
+          "src": "/media/cases/N071/94fcc-01-7797c1f587.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 881,
+          "provenance": {
+            "assetId": "N071-94FCC-01",
+            "sourceType": "ai",
+            "sourceAi": "202204-芭乐季横幅-200x80cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 2200,
+            "height": 881,
+            "sha256": "7797c1f58739f33f8c4155bd113ef9105e29813e1caca98437df1c2fbaa739ca",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N076",
+      "brandName": "春莱",
+      "projectName": "夏日甜心 · 芭乐 2.0",
+      "intro": "2023 年芭乐 2.0 将四款袋装果饮放在粉红展台上，以暖黄色背景和新鲜芭乐衬托不同口味。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N076-B05FD-01",
+          "type": "image",
+          "src": "/media/cases/N076/b05fd-01-f85a4183d4.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N076-B05FD-01",
+            "sourceType": "ai",
+            "sourceAi": "230630-芭乐线下.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "f85a4183d439477702603f19e4885939b749abcf1d44880c3622bec480081542",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N062",
+      "brandName": "春莱",
+      "projectName": "古早味系列饮品",
+      "intro": "三款杯装饮品置于蓝底和金色展台之间，各自展示杯贴与古早味系列命名。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N062-20382-01",
+          "type": "image",
+          "src": "/media/cases/N062/20382-01-7c23698189.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N062-20382-01",
+            "sourceType": "ai",
+            "sourceAi": "230701-古早味蛋糕海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "7c23698189577ecf9857b675daa30ff227f7758504d12ee21a890cdd06fd9993",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N061",
+      "brandName": "春莱",
+      "projectName": "普吉热果茶",
+      "intro": "「酸酸甜甜，冬日维C」海报以切开的柑橘、草莓和插画角色串起甜橙草莓、草莓百香果两款热果茶。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N061-50C0D-03",
+          "type": "image",
+          "src": "/media/cases/N061/50c0d-03-4db2f11583.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N061-50C0D-03",
+            "sourceType": "ai",
+            "sourceAi": "241218-春莱-普吉热果茶.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "4db2f115837a48f8c82cba27b51b161498abbb1afc421188d12d7a12c80e9531",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N080",
+      "brandName": "春莱",
+      "projectName": "90 度的温暖",
+      "intro": "暖姜红枣茶和桂圆玫瑰茶从插画预告延展到双杯及单杯海报。版面用暖色摄影呈现饮品、配料和杯贴。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N080-5E83E-01",
+          "type": "image",
+          "src": "/media/cases/N080/5e83e-01-a9b299df87.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N080-5E83E-01",
+            "sourceType": "ai",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "a9b299df876c7b61ceb973d8a1177c416e0b34fbf9543ec00971b6cdaae51518",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-5E83E-02",
+          "type": "image",
+          "src": "/media/cases/N080/5e83e-02-f81993a335.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N080-5E83E-02",
+            "sourceType": "ai",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "f81993a335d9afc9a0522f1f68b85d9e093b954f389106b22faf176f5488346a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-5E83E-06",
+          "type": "image",
+          "src": "/media/cases/N080/5e83e-06-1fd7337d96.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N080-5E83E-06",
+            "sourceType": "ai",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "1fd7337d96108f73ffafdb86a91504bc6eaf61490bffb95893eb23be8c491986",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-5E83E-07",
+          "type": "image",
+          "src": "/media/cases/N080/5e83e-07-0b8ed7ea0a.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N080-5E83E-07",
+            "sourceType": "ai",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 7,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "0b8ed7ea0a4bfd46181fb82883e04a63e5fad58f73b296efae8e6b85fd9950c9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N082",
+      "brandName": "春莱",
+      "projectName": "夏日凉爽计划 · 薄荷",
+      "intro": "主海报用蓝底和荧光绿点缀三款袋装薄荷饮品，预告采用袋形线稿，端午海报延展至限量香片买赠。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N082-4F8A5-02",
+          "type": "image",
+          "src": "/media/cases/N082/4f8a5-02-d85c73b2c5.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N082-4F8A5-02",
+            "sourceType": "ai",
+            "sourceAi": "240514-薄荷-改2.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "d85c73b2c5efa2ecc065172953a34466d20d3348fdf88f62b4c43033da4f5099",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N082-4F8A5-09",
+          "type": "image",
+          "src": "/media/cases/N082/4f8a5-09-b0294c9bea.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N082-4F8A5-09",
+            "sourceType": "ai",
+            "sourceAi": "240514-薄荷-改2.ai",
+            "sourceArtboard": 9,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "b0294c9bea7e2296c3e8fc23290c454fd41915fc45b052e329ae5ec075b0f794",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N082-4F8A5-01",
+          "type": "image",
+          "src": "/media/cases/N082/4f8a5-01-bbc1eb718b.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N082-4F8A5-01",
+            "sourceType": "ai",
+            "sourceAi": "240514-薄荷-改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "bbc1eb718b260393565423a3d8f49199f7c08ce74996e53ca9bcb139981beddc",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18093,7 +18583,17 @@
     "N042",
     "N054",
     "N052",
-    "N053"
+    "N053",
+    "N056",
+    "N063",
+    "N084",
+    "N064",
+    "N071",
+    "N076",
+    "N062",
+    "N061",
+    "N080",
+    "N082"
   ],
   "photographyCaseOrder": [
     "L021",
