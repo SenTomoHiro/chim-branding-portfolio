@@ -17673,6 +17673,41 @@
           }
         }
       ]
+    },
+    {
+      "id": "N072",
+      "brandName": "春莱",
+      "projectName": "橄榄季 · 今日宜划水",
+      "intro": "以「今日宜划水」为题，海报用浅绿底色、油柑枝叶和中泰双语展示糯香油柑柚子茶、红毛丹油柑生椰汁与油柑上头泰绿柠檬茶。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N072-F4730-01",
+          "type": "image",
+          "src": "/media/cases/N072/f4730-01-709631c754.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N072-F4730-01",
+            "sourceType": "ai",
+            "sourceAi": "202205-橄榄季新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "709631c754cfd29950fcfea4f66184c961741734c1eb6bef467ea7cc9e3a175e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -17769,7 +17804,8 @@
     "N070",
     "N081",
     "N083",
-    "N074"
+    "N074",
+    "N072"
   ],
   "photographyCaseOrder": [
     "L021",
