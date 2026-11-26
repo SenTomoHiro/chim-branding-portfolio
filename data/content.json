@@ -17594,27 +17594,27 @@
         {
           "id": "N054-A05",
           "type": "image",
-          "src": "/media/cases/N054/05-dianping-c234ee5f66.webp",
+          "src": "/media/cases/N054/dianping-swipes-04-7e8e3bf970.webp",
           "layout": "full",
-          "width": 2700,
-          "height": 1527,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
             "assetId": "N054-A05",
             "sourceType": "psd",
             "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
             "sourceArtboard": 2,
-            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 04 号 PSD 并重开核对智能对象。",
-            "width": 2700,
-            "height": 1527,
-            "sha256": "c234ee5f66e6cdac83109eef8243686f4ccfa00de72da32b4ee28736903e4b00",
+            "extractionMethod": "原生画板按同案平台页面重放，补齐可见 UI，在实体 PSD 中替换智能对象。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "7e8e3bf97075816eee078572268f86ad48e9de08ac74e2b37e0378960ac8ac42",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "sourcePsd": "05-dianping.psd",
-            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 2 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 3 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 4 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 7 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 5 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 6 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板"
+            "sourcePsd": "N054-点评五图-框04.psd",
+            "sourceObject": "同案 Illustrator 原画板 B02–B07、B13、B14"
           },
           "section": {
             "title": "大众点评",
-            "description": "依原画板复原商户详情的五张头图滑位与二楼背景。部分商户资料、价格及销量为样机展示示意。",
+            "description": "五张头图依次呈现在三个横滑位置，接续展示点评二楼。商户资料、评分、价格及销量为样机展示示意。",
             "eyebrow": "线上应用"
           }
         },
@@ -17642,50 +17642,28 @@
         {
           "id": "N054-A07",
           "type": "image",
-          "src": "/media/cases/N054/07-meituan-store-a2f9e1dcef.webp",
+          "src": "/media/cases/N054/meituan-store-18-a6c38d44f7.webp",
           "layout": "full",
-          "width": 2200,
-          "height": 1932,
+          "width": 1440,
+          "height": 3437,
           "provenance": {
             "assetId": "N054-A07",
             "sourceType": "psd",
             "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
-            "sourceArtboard": 9,
-            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
-            "width": 2200,
-            "height": 1932,
-            "sha256": "a2f9e1dcef0aa9e056ffb59f8c35e7e30c6a7fc52402925d4045e1c43e06687f",
+            "sourceArtboard": 10,
+            "extractionMethod": "原生画板按同案平台页面重放，补齐可见 UI，在实体 PSD 中替换智能对象。",
+            "width": 1440,
+            "height": 3437,
+            "sha256": "a6c38d44f765cb1fb17e53fe0e902d6c48cd9de4c88bc73c18631e77d3f43471",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "sourcePsd": "07-meituan-store.psd",
-            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 9 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 8 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 10 画板"
+            "sourcePsd": "N054-美团店铺-框18.psd",
+            "sourceObject": "同案 Illustrator 原画板 B01、B08、B10、B13、B14"
           },
           "section": {
             "title": "美团外卖",
-            "description": "大小店招与店内横幅分别展示，随后进入橱窗和点菜列表。部分商户资料、价格及销量为样机展示示意。",
+            "description": "大店招和店内联名横幅同屏，点菜区露出咸蛋黄芝士可可啵啵冰和重可可牛乳脆脆冰。商户资料、评分、价格及销量为样机展示示意。",
             "eyebrow": "线上应用"
-          }
-        },
-        {
-          "id": "N054-A08",
-          "type": "image",
-          "src": "/media/cases/N054/08-meituan-products-5ebaf6d3a6.webp",
-          "layout": "full",
-          "width": 2200,
-          "height": 1932,
-          "provenance": {
-            "assetId": "N054-A08",
-            "sourceType": "psd",
-            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
-            "sourceArtboard": 10,
-            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
-            "width": 2200,
-            "height": 1932,
-            "sha256": "5ebaf6d3a624f0ae26ea4676b999af90fd98741b77c56a56cf1ee9faf0384898",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "08-meituan-products.psd",
-            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 10 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 16 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板"
           }
         },
         {
