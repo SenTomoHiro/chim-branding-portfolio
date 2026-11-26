@@ -14178,26 +14178,6 @@
           }
         },
         {
-          "id": "N036-A02",
-          "type": "image",
-          "src": "/media/cases/N036/02.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 1500,
-          "provenance": {
-            "assetId": "N036-A02",
-            "sourceType": "ai",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 3,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1500,
-            "sha256": "74816def95682f0022939acd8b02f61cec5ddb2f523c151239b7a26e6a485a22",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "N036-A03",
           "type": "image",
           "src": "/media/cases/N036/03.webp",
