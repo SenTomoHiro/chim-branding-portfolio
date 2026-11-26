@@ -16641,6 +16641,31 @@
             "title": "竖版海报",
             "description": "水墨山水与塔影沿杯身上下展开。"
           }
+        },
+        {
+          "id": "N048-A03",
+          "type": "image",
+          "src": "/media/cases/N048/longjing-phone.jpg",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N048-A03",
+            "sourceType": "psd",
+            "sourceAi": "240415-江浙沪限定抹茶.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从原板导出菜品图，重放美团点菜视口，置入完整 18 号机框。",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "def81ca01ee128c00e471b4aecff79d31847c0b7a6532a55a2abb23ee5921fc0",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "限定商品.psd"
+          },
+          "section": {
+            "title": "美团外卖 · 江浙沪限定",
+            "description": "美团样机呈现原板的龙井抹茶水牛乳。部分商户资料、价格及销量为样机展示示意。"
+          }
         }
       ],
       "published": true,
@@ -17126,6 +17151,333 @@
           }
         }
       ]
+    },
+    {
+      "id": "N054",
+      "brandName": "大胡子可可",
+      "projectName": "阿华田联名视觉",
+      "intro": "2025 年春季，大胡子可可与阿华田围绕三款联名冰饮展开视觉设计。黄色放射线、漫画分格与蓝色描边串联海报、立牌和收银物料，随后延展到大众点评、美团、饿了么与点餐小程序。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N054-A01",
+          "type": "image",
+          "src": "/media/cases/N054/01-cover-4baa5dc6d9.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1500,
+          "provenance": {
+            "assetId": "N054-A01",
+            "sourceType": "ai",
+            "sourceAi": "250314-大胡子-阿华田-改4.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原画板导出，按网页顺序编排。",
+            "width": 2400,
+            "height": 1500,
+            "sha256": "4baa5dc6d9b1362d6e994778cd65923f4503e5e78908cbebad98bbcd823b2260",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "caption": "联名主视觉"
+        },
+        {
+          "id": "N054-A02",
+          "type": "image",
+          "src": "/media/cases/N054/02-poster-4374112848.webp",
+          "layout": "full",
+          "width": 2050,
+          "height": 1450,
+          "provenance": {
+            "assetId": "N054-A02",
+            "sourceType": "ai",
+            "sourceAi": "250314-大胡子-阿华田-改4.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原画板导出，按网页顺序编排。",
+            "width": 2050,
+            "height": 1450,
+            "sha256": "43741128484444865db118e1b732421912427a972d0fb61aa32f620dda5dfc10",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "250314-大胡子-阿华田-改4.ai 第 3 画板、250314-大胡子-阿华田-改4.ai 第 4 画板"
+          },
+          "caption": "两版联名海报",
+          "section": {
+            "title": "海报、立牌与收银物料",
+            "description": "并排展示海报和立牌的两种描边处理，另收黑白小票印花。"
+          }
+        },
+        {
+          "id": "N054-A03",
+          "type": "image",
+          "src": "/media/cases/N054/03-standees-d228b19dbb.webp",
+          "layout": "full",
+          "width": 1820,
+          "height": 1510,
+          "provenance": {
+            "assetId": "N054-A03",
+            "sourceType": "ai",
+            "sourceAi": "250314-大胡子-阿华田-改4.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原画板导出，按网页顺序编排。",
+            "width": 1820,
+            "height": 1510,
+            "sha256": "d228b19dbbe649c36f0d40237b73b0a62d9529cdbbeec2e676166a36214dc08e",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "250314-大胡子-阿华田-改4.ai 第 2 画板、250314-大胡子-阿华田-改4.ai 第 5 画板"
+          },
+          "caption": "两版立牌"
+        },
+        {
+          "id": "N054-A04",
+          "type": "image",
+          "src": "/media/cases/N054/04-receipt-bd8e46ce27.webp",
+          "layout": "full",
+          "width": 1792,
+          "height": 1392,
+          "provenance": {
+            "assetId": "N054-A04",
+            "sourceType": "ai",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 37,
+            "extractionMethod": "从同案 Illustrator 原画板导出，按网页顺序编排。",
+            "width": 1792,
+            "height": 1392,
+            "sha256": "bd8e46ce27c16746d13834097735d580cf92a43e432688238276ed2e2201c7e6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "caption": "黑白小票印花"
+        },
+        {
+          "id": "N054-A05",
+          "type": "image",
+          "src": "/media/cases/N054/05-dianping-c234ee5f66.webp",
+          "layout": "full",
+          "width": 2700,
+          "height": 1527,
+          "provenance": {
+            "assetId": "N054-A05",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 04 号 PSD 并重开核对智能对象。",
+            "width": 2700,
+            "height": 1527,
+            "sha256": "c234ee5f66e6cdac83109eef8243686f4ccfa00de72da32b4ee28736903e4b00",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "05-dianping.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 2 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 3 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 4 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 7 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 5 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 6 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板"
+          },
+          "caption": "大众点评 · 五张头图横滑",
+          "section": {
+            "title": "大众点评",
+            "description": "依原画板复原商户详情的五张头图滑位与二楼背景。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N054-A06",
+          "type": "image",
+          "src": "/media/cases/N054/06-dianping-floor-b3e600f434.webp",
+          "layout": "full",
+          "width": 1200,
+          "height": 2312,
+          "provenance": {
+            "assetId": "N054-A06",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 7,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 02 号 PSD 并重开核对智能对象。",
+            "width": 1200,
+            "height": 2312,
+            "sha256": "b3e600f434846d6906b63ab0dc19641ed66521ed747c267118a4dfa6dccbec03",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "06-dianping-floor.psd"
+          },
+          "caption": "大众点评 · 二楼背景"
+        },
+        {
+          "id": "N054-A07",
+          "type": "image",
+          "src": "/media/cases/N054/07-meituan-store-a2f9e1dcef.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A07",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 9,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "a2f9e1dcef0aa9e056ffb59f8c35e7e30c6a7fc52402925d4045e1c43e06687f",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "07-meituan-store.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 9 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 8 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 10 画板"
+          },
+          "caption": "美团外卖 · 大小店招与横幅",
+          "section": {
+            "title": "美团外卖",
+            "description": "大小店招与店内横幅分别展示，随后进入橱窗和点菜列表。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N054-A08",
+          "type": "image",
+          "src": "/media/cases/N054/08-meituan-products-5ebaf6d3a6.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A08",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 10,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "5ebaf6d3a624f0ae26ea4676b999af90fd98741b77c56a56cf1ee9faf0384898",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "08-meituan-products.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 10 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 16 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板"
+          },
+          "caption": "美团外卖 · 橱窗与点菜列表"
+        },
+        {
+          "id": "N054-A09",
+          "type": "image",
+          "src": "/media/cases/N054/09-eleme-8f22779c12.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A09",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 12,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "8f22779c12390e2560880f9e46fc6fa51e10a3ccd4acda53a3bc3dda8c201b5b",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "09-eleme.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 12 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 11 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板"
+          },
+          "caption": "饿了么 · 店铺与商品",
+          "section": {
+            "title": "饿了么",
+            "description": "展示饿了么店铺、横幅和联名商品。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N054-A10",
+          "type": "image",
+          "src": "/media/cases/N054/10-mini-home-31bf6afcd8.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A10",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 17,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "31bf6afcd8a0bde3cb54c4269276d10adcc1b89df61f6140e547e501ed5d93c5",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "10-mini-home.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 17 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 23 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 19 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 20 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 21 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 22 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 24 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 18 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 25 画板"
+          },
+          "caption": "点餐小程序 · 普通首页与活动首页",
+          "section": {
+            "title": "点餐小程序",
+            "description": "收录普通首页、活动首页、弹窗、个人中心、点餐和分享。抽奖样机展示可抽与次数用尽两态，转盘奖项文字为陈列示意。"
+          }
+        },
+        {
+          "id": "N054-A11",
+          "type": "image",
+          "src": "/media/cases/N054/11-mini-member-320fc28fe0.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A11",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 28,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "320fc28fe0b36a8b816921f29472090d572e325db63a9ae6473594864ab974ed",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "11-mini-member.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 28 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 18 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 25 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 26 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 27 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板"
+          },
+          "caption": "点餐小程序 · 弹窗与个人中心"
+        },
+        {
+          "id": "N054-A12",
+          "type": "image",
+          "src": "/media/cases/N054/12-mini-order-share-2e90e1a7b3.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A12",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 13,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "2e90e1a7b392b651c2d1d45080aa845b3d055ea6f6b76b6220a5a99611c64a81",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "12-mini-order-share.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 13 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 14 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 15 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 36 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 1 画板"
+          },
+          "caption": "点餐小程序 · 点餐与分享"
+        },
+        {
+          "id": "N054-A13",
+          "type": "image",
+          "src": "/media/cases/N054/13-mini-lottery-d930698745.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "provenance": {
+            "assetId": "N054-A13",
+            "sourceType": "psd",
+            "sourceAi": "250409-大胡子可可-阿华田-线上全套-改4.ai",
+            "sourceArtboard": 29,
+            "extractionMethod": "从同案 Illustrator 原画板导出，重放页面，置入 03 号 PSD 并重开核对智能对象。",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "d9306987455b937a0b22951633b6b4d1f4bd6db0bc1b363909f1fc462835f00a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "13-mini-lottery.psd",
+            "sourceObject": "250409-大胡子可可-阿华田-线上全套-改4.ai 第 29 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 30 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 31 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 33 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 34 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 35 画板、250409-大胡子可可-阿华田-线上全套-改4.ai 第 32 画板"
+          },
+          "caption": "点餐小程序 · 抽奖两态"
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -17197,7 +17549,8 @@
     "N068",
     "N067",
     "N059",
-    "N042"
+    "N042",
+    "N054"
   ],
   "photographyCaseOrder": [
     "L021",
