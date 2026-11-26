@@ -16653,6 +16653,47 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N052-scent-card-1",
+          "type": "image",
+          "src": "/media/cases/N052/scent-card-1-5861e05a4a.webp",
+          "layout": "half",
+          "width": 827,
+          "height": 827,
+          "provenance": {
+            "assetId": "N052-scent-card-1",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202210/202210-玫瑰新品合集/202210-玫瑰香卡-改1-转曲-7x7cm_画板 1.jpg",
+            "extractionMethod": "复用同案转曲香卡的交付 JPG，按原构图转换为网页 WebP。",
+            "width": 827,
+            "height": 827,
+            "sha256": "5861e05a4ad8ab98a1f3086c9e5e53738f7cd28c75f383b8e2e8f330cafd2ec6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "线下周边",
+            "title": "墨红玫瑰香卡",
+            "description": "两款香卡沿玫瑰花瓣轮廓模切，顶部预留挂孔。"
+          }
+        },
+        {
+          "id": "N052-scent-card-2",
+          "type": "image",
+          "src": "/media/cases/N052/scent-card-2-4ea02dfbcb.webp",
+          "layout": "half",
+          "width": 827,
+          "height": 827,
+          "provenance": {
+            "assetId": "N052-scent-card-2",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202210/202210-玫瑰新品合集/202210-玫瑰香卡-改1-转曲-7x7cm_画板 1 副本.jpg",
+            "extractionMethod": "复用同案转曲香卡的交付 JPG，按原构图转换为网页 WebP。",
+            "width": 827,
+            "height": 827,
+            "sha256": "4ea02dfbcb0ced61191755ffb8cdd4b7027d857f5255e640415265ec0748645c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
