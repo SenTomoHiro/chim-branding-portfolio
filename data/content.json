@@ -11525,12 +11525,26 @@
       "primaryIndustry": "茶饮",
       "media": [
         {
-          "id": "SL005-cover",
+          "id": "SL005-phone-O02",
+          "src": "/media/cases/SL005/phone-o02-afeb69c1cf.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/18.jpg",
           "layout": "full",
-          "width": 1600,
-          "height": 1600
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-O02",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桂花艺人/成品/02-美团店铺.psd",
+            "sourceObject": "桂花线上 AI 1、7、10、11、8/9/12；网页20/21与封面18",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "afeb69c1cf69eda4086b1b437ed2fa7fcc594cb67006041caa52ff8c1f9765e1",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "portfolioPdfSelected": true,
+          "caption": "桂花艺人线上视觉 · 美团店铺"
         },
         {
           "id": "SL005-hero",
@@ -11540,16 +11554,30 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL005-02",
+          "id": "SL005-phone-T03",
+          "src": "/media/cases/SL005/phone-t03-b3348ffe40.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/02.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true,
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-T03",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃与乌龙/成品/03-美团点菜.psd",
+            "sourceObject": "231028 改3 三款菜品原导出；网页02",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "b3348ffe403c0b674156fe1453dd9c6b0b308085c7344a25a68bd0403e6f139c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
           "section": {
-            "eyebrow": "CHAPTER 01",
             "title": "桃与乌龙",
-            "description": "以粉桃色、暖饮与产品静物开启季节系列。"
-          }
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 01"
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "SL005-03",
@@ -11559,10 +11587,50 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL005-04",
+          "id": "SL005-phone-T02",
+          "src": "/media/cases/SL005/phone-t02-722b1d5036.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/04.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-T02",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃与乌龙/成品/02-美团店铺.psd",
+            "sourceObject": "231123 头像、231128 店招与配套横幅、231201 横幅；现网02、04",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "722b1d503680fb4c388c0b36af0a9ba622dd2cf81f0aca27968bbeff2e6ef343",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
+        },
+        {
+          "id": "SL005-phone-W01",
+          "src": "/media/cases/SL005/phone-w01-2a2a7d1e28.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-W01",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-冬至桃与乌龙/成品/01-冬至美团店铺.psd",
+            "sourceObject": "冬至改2 AI 1头像、2横幅；复用同案231128店招及231028菜品",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "2a2a7d1e28f608c3d6a07a8f8da1e521ac4f0365bf88e2a59426c52679479ed6",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "冬至桃与乌龙",
+            "description": "冬至头像和横幅搭配同期店招与饮品。部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 02"
+          },
+          "caption": "冬至改2头像与横幅，搭配同期店招与商品"
         },
         {
           "id": "SL005-05",
@@ -11571,7 +11639,7 @@
           "layout": "full",
           "portfolioPdfSelected": true,
           "section": {
-            "eyebrow": "CHAPTER 02",
+            "eyebrow": "CHAPTER 03",
             "title": "桃花艺人",
             "description": "桃花包装、艺人海报与线上平台构成完整发布链路。"
           }
@@ -11583,28 +11651,136 @@
           "layout": "full"
         },
         {
-          "id": "SL005-07",
+          "id": "SL005-phone-P01",
+          "src": "/media/cases/SL005/phone-p01-e12ed15ab9.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/07.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-P01",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃花艺人/成品/01-点评五图.psd",
+            "sourceObject": "桃花线上 AI 2–6；网页07",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "e12ed15ab9659eb9644b2bdecd56bb8fdc1df6b9cb46b769f38116ce26dbda71",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "桃花艺人 · 平台视觉",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 04"
+          }
         },
         {
-          "id": "SL005-08",
+          "id": "SL005-phone-P02",
+          "src": "/media/cases/SL005/phone-p02-5c50fbfeb7.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/08.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-P02",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃花艺人/成品/02-美团店铺.psd",
+            "sourceObject": "桃花线上 AI 1、7、10、11、8/9/12；网页08/09/10",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "5c50fbfeb794383fa7cf273e7ed10e1cf5a478f8af906418e7a367ad0ef833b6",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
         },
         {
-          "id": "SL005-09",
+          "id": "SL005-phone-P03",
+          "src": "/media/cases/SL005/phone-p03-883a616c6b.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/09.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-P03",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃花艺人/成品/03-美团点菜.psd",
+            "sourceObject": "桃花线上 AI 8、9、12；网页10",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "883a616c6b3b0f0fff1240850b0f8d2255e7968dece51643adb15e39f404efb4",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
         },
         {
-          "id": "SL005-10",
+          "id": "SL005-phone-M04",
+          "src": "/media/cases/SL005/phone-m04-c946f2513c.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/10.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-M04",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃与乌龙小程序/成品/04-小程序首页轮播一二.psd",
+            "sourceObject": "231224 小程序 AI 1/2、5–14；同桃花艺人网页05–10",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "c946f2513c83cc32f5de975d53906ce6cabf5e2efd24300d22c4b922144188cd",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "桃与乌龙 · 点餐小程序",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 05"
+          },
+          "caption": "小程序首页轮播 · 原稿第 1、2 张"
+        },
+        {
+          "id": "SL005-phone-M05",
+          "src": "/media/cases/SL005/phone-m05-56222a013b.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-M05",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃与乌龙小程序/成品/05-小程序首页轮播三四.psd",
+            "sourceObject": "231224 小程序 AI 3/4、5–14；同桃花艺人网页05–10",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "56222a013b8946e2e500b4ed1ac008f709074ae0d7871960561689e03e7c132c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "caption": "小程序首页轮播 · 原稿第 3、4 张"
+        },
+        {
+          "id": "SL005-phone-M07",
+          "src": "/media/cases/SL005/phone-m07-aa05cb272a.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-M07",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桃与乌龙小程序/成品/07-小程序点餐.psd",
+            "sourceObject": "231224 小程序 AI 5；同案桃花线上8、9、12",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "aa05cb272a258810600d4c0b2e88186b3dc4edc1328f38ff32558e34fc2ae14a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
         },
         {
           "id": "SL005-11",
@@ -11613,7 +11789,7 @@
           "layout": "full",
           "portfolioPdfSelected": true,
           "section": {
-            "eyebrow": "CHAPTER 03",
+            "eyebrow": "CHAPTER 06",
             "title": "桂花艺人",
             "description": "桂花包装与杯套先行，随后延展至布景海报、艺人视觉与产品应用。"
           }
@@ -11661,25 +11837,53 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL005-19",
+          "id": "SL005-phone-O01",
+          "src": "/media/cases/SL005/phone-o01-8caa8fa25d.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/19.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-O01",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桂花艺人/成品/01-点评五图.psd",
+            "sourceObject": "桂花线上 AI 2–6；网页19",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "8caa8fa25d48b2c3eb351ca978a6499bbad1aabcaafc96977bd98a0956096cf2",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "桂花艺人 · 平台视觉",
+            "description": "店铺样机见案例封面。部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 07"
+          },
+          "portfolioPdfSelected": true,
+          "caption": "桂花艺人线上视觉 · 大众点评五张头图横滑"
         },
         {
-          "id": "SL005-20",
+          "id": "SL005-phone-O03",
+          "src": "/media/cases/SL005/phone-o03-9aff203fbd.webp",
           "type": "image",
-          "src": "/media/springlai/peach-osmanthus/20.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL005-21",
-          "type": "image",
-          "src": "/media/springlai/peach-osmanthus/21.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL005-phone-O03",
+            "sourceType": "psd",
+            "sourcePsd": "SL005-桂花艺人/成品/03-美团点菜.psd",
+            "sourceObject": "桂花线上 AI 8、9、12；网页21",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "9aff203fbd198f26d79e964a31bcac66af61c08f6b81dad23187265c19c1441a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "portfolioPdfSelected": true,
+          "caption": "桂花艺人线上视觉 · 美团商品"
         }
       ],
       "published": true,
@@ -11795,30 +11999,227 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL007-02",
+          "id": "SL007-phone-C01",
+          "src": "/media/cases/SL007/phone-c01-1f2bd9b99e.webp",
           "type": "image",
-          "src": "/media/springlai/tatan-coconut/02.jpg",
           "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C01",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/01-点评五图.psd",
+            "sourceObject": "线上 AI 2–7；网页02",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "1f2bd9b99e6bedeb9a2f955c0702b2b11232f4b40f1966f8397d00c3361b05a9",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "点评与美团",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 01"
+          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL007-04",
+          "id": "SL007-phone-C02",
+          "src": "/media/cases/SL007/phone-c02-4edf0ee8db.webp",
           "type": "image",
-          "src": "/media/springlai/tatan-coconut/04.jpg",
           "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C02",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/02-美团店铺.psd",
+            "sourceObject": "线上 AI 1、8–10、12–14；网页04/05",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "4edf0ee8db639b785a129feb30e98fbfe72a4019a015b42122b01a9efdadbf43",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL007-05",
+          "id": "SL007-phone-C04",
+          "src": "/media/cases/SL007/phone-c04-8f7a145b9b.webp",
           "type": "image",
-          "src": "/media/springlai/tatan-coconut/05.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C04",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/04-美团橱窗.psd",
+            "sourceObject": "线上 AI 1、10、12–14、42；网页04/05",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "8f7a145b9b0617b17c923d05ff8ed0a3dd6067486ed868f5aee8a9817c233e6b",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
         },
         {
-          "id": "SL007-06",
+          "id": "SL007-phone-C03",
+          "src": "/media/cases/SL007/phone-c03-7f1be37ef6.webp",
           "type": "image",
-          "src": "/media/springlai/tatan-coconut/06.jpg",
-          "layout": "full"
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C03",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/03-美团点菜.psd",
+            "sourceObject": "线上 AI 12–14；网页05",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "7f1be37ef64ffcb870ea382db0065fbc7f1f2734ed87a4c715773163d4482cd4",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
+        },
+        {
+          "id": "SL007-eleme",
+          "type": "image",
+          "src": "/media/cases/SL007/eleme-cb5cec844e.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "section": {
+            "title": "饿了么店铺视觉",
+            "description": "招牌与横幅按历史原稿独立陈列。",
+            "eyebrow": "CHAPTER 02"
+          }
+        },
+        {
+          "id": "SL007-phone-C05",
+          "src": "/media/cases/SL007/phone-c05-76a972d840.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C05",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/05-小程序首页.psd",
+            "sourceObject": "线上 AI 22、24–29",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "76a972d840ea62375a1397bd3f6612b72ee8e9e3c2485a8346dad5756150d6a3",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "点餐小程序",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 03"
+          }
+        },
+        {
+          "id": "SL007-phone-C06",
+          "src": "/media/cases/SL007/phone-c06-6d95462cb3.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C06",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/06-小程序活动入口.psd",
+            "sourceObject": "线上 AI 23–28、30",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "6d95462cb3634ac5b9c83259e8ba72141fe97ae3203084414776b48756e6c100",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
+        },
+        {
+          "id": "SL007-components",
+          "type": "image",
+          "src": "/media/cases/SL007/components-phone-15f7442791.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "section": {
+            "title": "抽奖视觉组件",
+            "description": "原画板 33–39，依次展示背景、转盘、指针、按钮与三个任务图标。",
+            "eyebrow": "CHAPTER 04"
+          }
+        },
+        {
+          "id": "SL007-phone-C08",
+          "src": "/media/cases/SL007/phone-c08-5ca7a5d574.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C08",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/08-小程序弹窗.psd",
+            "sourceObject": "线上 AI 22、24–29、40",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "5ca7a5d57446f021af8b3c3c1b8c60e68175d8dc28d37aa53073a8e955f3c231",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          },
+          "section": {
+            "title": "弹窗、点餐与个人中心",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 05"
+          }
+        },
+        {
+          "id": "SL007-phone-C07",
+          "src": "/media/cases/SL007/phone-c07-07ebf187e9.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C07",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/07-小程序点餐.psd",
+            "sourceObject": "线上 AI 12–14、28",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "07ebf187e990b28dd978397dba98afed3b1e9525f62c2d168bf87fbe962bfcb2",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
+        },
+        {
+          "id": "SL007-phone-C09",
+          "src": "/media/cases/SL007/phone-c09-597badad35.webp",
+          "type": "image",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "SL007-phone-C09",
+            "sourceType": "psd",
+            "sourcePsd": "SL007-TATAN椰子/成品/09-小程序个人中心.psd",
+            "sourceObject": "线上 AI 1、28、31、32",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "597badad3553808ce1e6b963969128e7a21f43e3ff21ee1c889d295ff253026a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "原稿与同案导出图，已确认平台版式，Photoshop 智能对象换屏"
+          }
         }
       ]
     },
