@@ -15683,7 +15683,7 @@
       "id": "N048",
       "brandName": "春莱",
       "projectName": "江浙沪限定抹茶",
-      "intro": "2024 年江浙沪限定抹茶的历史设计稿。青绿色的山水和塔影衬出杯身，两幅原稿分别展示同一画面在横幅与竖版海报中的构图。",
+      "intro": "2024 年春莱江浙沪限定抹茶的设计。横版与竖版海报以青绿色山水和塔影衬托龙井抹茶水牛乳，随附杯贴展示杯身上的中泰文字与春莱标识。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -15738,6 +15738,30 @@
             "title": "竖版海报",
             "description": "水墨山水与塔影沿杯身上下展开。",
             "eyebrow": "主题海报"
+          }
+        },
+        {
+          "id": "N048-A03",
+          "type": "image",
+          "src": "/media/cases/N048/longjing-cup-label-1b4328a83e.webp",
+          "layout": "full",
+          "width": 1667,
+          "height": 2000,
+          "provenance": {
+            "assetId": "N048-A03",
+            "sourceType": "ai",
+            "sourceAi": "龙井抹茶-杯贴-65x85mm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 的唯一 PDF 兼容画板按原比例导出。",
+            "width": 1667,
+            "height": 2000,
+            "sha256": "1b4328a83e0cd2c524ad1b587c4f4bd70fe714192f886e32d8295f6ed083b855",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "龙井抹茶水牛乳杯贴",
+            "eyebrow": "包装设计"
           }
         }
       ],
