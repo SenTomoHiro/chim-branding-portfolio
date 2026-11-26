@@ -17688,6 +17688,41 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N065",
+      "brandName": "春莱",
+      "projectName": "油柑季 · 新品预告",
+      "intro": "2022 年 12 月的春莱油柑季预告。海报以手绘油柑、花枝与蜂蜜串起画面，衬线大字围绕「来自雨林茶山」的主题。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N065-preview",
+          "type": "image",
+          "src": "/media/cases/N065/oilgan-preview-eb19439465.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N065-preview",
+            "sourceType": "ai",
+            "sourceAi": "202212-油柑季预告海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 预告海报原件完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "eb19439465f19981d95b112205bcb6dd4550dcd05869bdfccdb9ecc84f5df6be",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -17785,7 +17820,8 @@
     "N081",
     "N083",
     "N074",
-    "N072"
+    "N072",
+    "N065"
   ],
   "photographyCaseOrder": [
     "L021",
