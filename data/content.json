@@ -18556,6 +18556,164 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N070",
+      "brandName": "春莱",
+      "projectName": "圣诞草莓 · 小蓝鸭联名",
+      "intro": "春莱与小蓝鸭的圣诞联名从新品预告延展到双杯产品海报与充值活动海报。产品海报收录香香草莓龙眼冰酿、山楂莓莓香柠茶，以及带小蓝鸭图案的杯身。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N070-148D5-03",
+          "type": "image",
+          "src": "/media/cases/N070/148d5-03-e4bc7df41c.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N070-148D5-03",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "e4bc7df41ce8af6f36ce389e440797c5e6fa461833188e63271b0cff88945b1c",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "241206-春莱-圣诞草莓-线下_老贴纸.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
+          },
+          "section": {
+            "title": "圣诞草莓双杯海报"
+          }
+        },
+        {
+          "id": "N070-148D5-01",
+          "type": "image",
+          "src": "/media/cases/N070/148d5-01-6ec8e6d9a7.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N070-148D5-01",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "6ec8e6d9a70ec051adb144fa9a4aa7a11a9d8aba46af0717d25dfd0638ddf9f3",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "241206-春莱-圣诞草莓-线下_老贴纸.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
+          },
+          "section": {
+            "title": "新品预告海报"
+          }
+        },
+        {
+          "id": "N070-148D5-02",
+          "type": "image",
+          "src": "/media/cases/N070/148d5-02-8759a2fa31.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N070-148D5-02",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "8759a2fa31c9c058d80cd51fcb4c4a23b1169b06d6b58257697663062d0ce0da",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "241206-春莱-圣诞草莓-线下_老贴纸.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
+          },
+          "section": {
+            "title": "充值活动海报"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N081",
+      "brandName": "春莱",
+      "projectName": "夏日香茶 · 新品预告",
+      "intro": "「茶中有凉意，悠悠度夏日」预告以浅蓝底色、放大的凤梨与花材构图，配以中泰双语和春莱标识。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N081-preview",
+          "type": "image",
+          "src": "/media/cases/N081/preview-e25db499b5.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N081-preview",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "e25db499b5e93eafcc429f6c44dd5ab89ccd9f8b8b3103401a6f8ce13b51feca",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "240506-夏日香茶预告海报.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
+          },
+          "section": {
+            "title": "夏日香茶预告海报"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N083",
+      "brandName": "春莱",
+      "projectName": "爱玉系列",
+      "intro": "三款爱玉冰饮以海滩为背景，搭配泳圈、沙滩椅与杯身插画。主海报并置芒果凤梨冰、百香果凤梨冰和椰青柠檬冰。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N083-product",
+          "type": "image",
+          "src": "/media/cases/N083/product-db526dd490.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N083-product",
+            "sourceType": "image",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "db526dd490751bda28fe68bfae97f5724a97a8ac79e222464dd0fe701764c725",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "从百度网盘 202407 定稿目录原产品海报 JPG 转出。"
+          },
+          "section": {
+            "title": "爱玉系列产品海报"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18648,7 +18806,10 @@
     "N079",
     "N069",
     "N075",
-    "N073"
+    "N073",
+    "N070",
+    "N081",
+    "N083"
   ],
   "photographyCaseOrder": [
     "L021",
