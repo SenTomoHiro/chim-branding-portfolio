@@ -10593,6 +10593,47 @@
           "portfolioPdfSelected": true
         },
         {
+          "id": "SL003-product-03",
+          "type": "image",
+          "src": "/media/cases/SL003/product-03-f2a4bdb9af.webp",
+          "layout": "half",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "SL003-product-03",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202310/231024-铁观音（第二次重做）/231013-铁观音-线下-改1_产品海报2-60x90cm.jpg",
+            "extractionMethod": "复用同案交付 JPG，按原色彩配置转换为 sRGB 并保持画幅输出 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "f2a4bdb9affeece6d437b10d685d304d5eea01ed2b8f8ecb43f2ea31df8d9cf9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2023 秋冬",
+            "title": "铁观音 · 单品海报",
+            "description": "兰香豆乳香茶与兰香抹茶椰椰沿用同一组兰花静物构图，分别以豆粉与抹茶粉区分两款。"
+          }
+        },
+        {
+          "id": "SL003-product-04",
+          "type": "image",
+          "src": "/media/cases/SL003/product-04-7afa108e60.webp",
+          "layout": "half",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "SL003-product-04",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202310/231024-铁观音（第二次重做）/231013-铁观音-线下-改1_产品海报3-60x90cm.jpg",
+            "extractionMethod": "复用同案交付 JPG，按原色彩配置转换为 sRGB 并保持画幅输出 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "7afa108e6041c428b95ca655a7105f4a535e4dd41fc3a119af542a43360f7e99",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL003-05",
           "type": "image",
           "src": "/media/cases/SL003/phone-1-242c04c3fe.webp",
