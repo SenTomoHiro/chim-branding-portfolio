@@ -17790,6 +17790,41 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N077",
+      "brandName": "春莱",
+      "projectName": "花椒茉莉冰萃茶",
+      "intro": "春莱 2023 年 6 月推出花椒茉莉冰萃茶。预告海报用花椒、柑橘和香茅静物表现风味，保留「爽！！！」「夏日限定」及原稿中的中泰英文字。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N077-1BF3A-01",
+          "type": "image",
+          "src": "/media/cases/N077/1bf3a-01-1b3320ec84.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N077-1BF3A-01",
+            "sourceType": "ai",
+            "sourceAi": "230614-花椒-改2.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "在 Illustrator 链接同案 AI 内嵌的第 1 画板，保留原文件内嵌字形，按画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "1b3320ec844a9733aaea34ca2853f8b6c8f2df898b5959253f4659246a4b3479",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -17889,7 +17924,8 @@
     "N074",
     "N072",
     "N065",
-    "N078"
+    "N078",
+    "N077"
   ],
   "photographyCaseOrder": [
     "L021",
