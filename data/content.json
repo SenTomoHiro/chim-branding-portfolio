@@ -18521,6 +18521,41 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N073",
+      "brandName": "春莱",
+      "projectName": "凤梨季 · 带汽的菠萝",
+      "intro": "2022 年夏季，春莱用凤梨、红毛丹和椰子插画围绕三款袋装饮品排版。海报保留中泰双语品名、进店赠气球及原稿的酒精提示。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N073-107CE-01",
+          "type": "image",
+          "src": "/media/cases/N073/107ce-01-386d0f1346.webp",
+          "layout": "full",
+          "width": 1408,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N073-107CE-01",
+            "sourceType": "ai",
+            "sourceAi": "202208-凤梨季新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "恢复同包字体后从 Illustrator 原画板完整导出。",
+            "width": 1408,
+            "height": 2100,
+            "sha256": "386d0f1346a0c5b1765f3b35d60c9a6dc7807b1cb9eaa4a9e8891492e01d561d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18612,7 +18647,8 @@
     "N066",
     "N079",
     "N069",
-    "N075"
+    "N075",
+    "N073"
   ],
   "photographyCaseOrder": [
     "L021",
