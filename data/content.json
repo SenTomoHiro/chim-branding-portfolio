@@ -15963,6 +15963,77 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N036-mini-home",
+          "type": "image",
+          "src": "/media/cases/N036/mini-home-8d215627b3.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-mini-home",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 41,
+            "sourceObject": "原画板 A41、A40、A39、A35、A36、A37、A38",
+            "sourcePsd": "mini-home-r2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "8d215627b3350878a7692436ee32fbe60b55239759018ce416e4ecdb3142402a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 08",
+            "title": "点餐小程序 · 开业活动",
+            "description": "首页、开业弹窗和个人中心使用西瓜饮品主题。"
+          }
+        },
+        {
+          "id": "N036-mini-popup",
+          "type": "image",
+          "src": "/media/cases/N036/mini-popup-e6656891b1.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-mini-popup",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 43,
+            "sourceObject": "原画板 A43、A41、A40",
+            "sourcePsd": "mini-popup-r2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "e6656891b1bcd08b93afad86eb8f68d80b807377abb3d87bc721f6eca2a29456",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N036-mini-profile",
+          "type": "image",
+          "src": "/media/cases/N036/mini-profile-c099a3f866.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N036-mini-profile",
+            "sourceType": "psd",
+            "sourceAi": "240826-陈老板-线上.ai",
+            "sourceArtboard": 34,
+            "sourceObject": "原画板 A34、A42、A01",
+            "sourcePsd": "mini-profile-r2.psd",
+            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "c099a3f86601d71a4dba17ad8857406dc7bdae8d30367779ed8f3f5dc400901c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ],
       "published": true,
