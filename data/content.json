@@ -15571,7 +15571,7 @@
       "id": "N047",
       "brandName": "春莱",
       "projectName": "老挝冰咖啡夏日海报",
-      "intro": "2024 年春夏的老挝冰咖啡活动设计稿。产品海报呈现三杯冰咖啡，三幅旅行海报分别以建筑与热气球城景为主体。图中活动时间、奖项和标识保留原稿当时的排版。",
+      "intro": "2024 年春夏的老挝冰咖啡活动设计稿。产品海报呈现三杯冰咖啡，三幅旅行海报分别以建筑与热气球城景为主体。图中活动时间、奖项和标识保留原稿当时的排版。 配套的凯旋门明信片延续了活动的旅行主题。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -15659,6 +15659,53 @@
             "width": 1334,
             "height": 2000,
             "sha256": "d7e495df813626159486faf760c79bbc01e226887a7a6b2e6c7ad5745b53f9af",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N047-postcard-patuxai",
+          "type": "image",
+          "src": "/media/cases/N047/postcard-patuxai-7e0ad0c392.webp",
+          "layout": "half",
+          "width": 1999,
+          "height": 1331,
+          "provenance": {
+            "assetId": "N047-postcard-patuxai",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240503-老挝咖啡/240503-老挝咖啡-明信片代金券.ai",
+            "sourceArtboard": 2,
+            "sourceObject": "明信片 2正",
+            "extractionMethod": "从 Illustrator 原画板导出，保留原版拼贴、地名和品牌字样。",
+            "width": 1999,
+            "height": 1331,
+            "sha256": "7e0ad0c3921ba615838c2d575f4eeb7b44a70cf028497e124e1180467c7e3a6e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "老挝文旅联名明信片",
+            "description": "凯旋门夜景沿用活动海报的拼贴手法。背面印有联名标识，预留邮票、邮编及地址的填写区域。",
+            "eyebrow": "活动印刷物料"
+          }
+        },
+        {
+          "id": "N047-postcard-reverse",
+          "type": "image",
+          "src": "/media/cases/N047/postcard-reverse-74bb94e6a1.webp",
+          "layout": "half",
+          "width": 1999,
+          "height": 1331,
+          "provenance": {
+            "assetId": "N047-postcard-reverse",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240503-老挝咖啡/240503-老挝咖啡-明信片代金券.ai",
+            "sourceArtboard": 4,
+            "sourceObject": "明信片2反",
+            "extractionMethod": "从 Illustrator 原画板导出，保留原版拼贴、地名和品牌字样。",
+            "width": 1999,
+            "height": 1331,
+            "sha256": "74bb94e6a13dfb1cddf8e019380b9e75663c5d2ea1a11a63f64e48ab874c9633",
             "classification": "final_design",
             "finalWorkVerified": true
           }
