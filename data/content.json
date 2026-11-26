@@ -12042,6 +12042,33 @@
           }
         },
         {
+          "id": "SL007-components",
+          "type": "image",
+          "src": "/media/cases/SL007/mini-lottery-7004dd45eb.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1932,
+          "section": {
+            "title": "点餐小程序 · 联名抽奖",
+            "description": "左屏展示立即抽奖，右屏展示次数用尽。两屏均有积分、邀请和消费入口，奖项为样机展示示意。",
+            "eyebrow": "CHAPTER 04"
+          },
+          "provenance": {
+            "assetId": "SL007-components",
+            "sourceType": "psd",
+            "sourceAi": "240526-TATAN椰子-线上.ai",
+            "sourceArtboard": 33,
+            "sourceObject": "原画板 33–39",
+            "sourcePsd": "SL007-联名抽奖两态.psd",
+            "width": 2200,
+            "height": 1932,
+            "sha256": "7004dd45eb3d3e952d9de792cb352031d623dd7441403325482ece421b76c67c",
+            "extractionMethod": "从 Illustrator 原画板导出组件，按已确认的活动布局组合两态，置入 03 号 PSD 并重开核对两个屏槽。",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL007-phone-C08",
           "src": "/media/cases/SL007/phone-c08-5ca7a5d574.webp",
           "type": "image",
