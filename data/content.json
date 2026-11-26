@@ -13310,7 +13310,7 @@
         {
           "id": "N028-A04",
           "type": "image",
-          "src": "/media/cases/N028/04-storefront-primary.webp",
+          "src": "/media/cases/N028/storefront-board-1-b044325043.webp",
           "layout": "full",
           "portfolioPdfSelected": true,
           "section": {
@@ -13321,33 +13321,37 @@
           "provenance": {
             "assetId": "N028-A04",
             "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+            "sourceAi": "/硬盘备份/春莱2025/已烂尾/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
             "sourceArtboard": 1,
-            "extractionMethod": "illustrator_30_artboard_export",
-            "width": 2200,
-            "height": 562,
-            "sha256": "ee6519a0e93efbe3a6f63552342b22bb87bb8867309b43a60bf123e90041915e",
+            "extractionMethod": "从 AI 第 1 板内嵌 PDF 保真渲染，保留原嵌入泰文字形，与 GAY老板历史文件同案转曲交付 PDF 对照。",
+            "width": 2401,
+            "height": 614,
+            "sha256": "b04432504319b5952c8824beb10e0f376b0db32589eb808e19afd4d89195d7a4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "width": 2401,
+          "height": 614
         },
         {
           "id": "N028-A05",
           "type": "image",
-          "src": "/media/cases/N028/05-storefront-secondary.webp",
+          "src": "/media/cases/N028/storefront-board-2-76ce12f0c0.webp",
           "layout": "full",
           "provenance": {
             "assetId": "N028-A05",
             "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
+            "sourceAi": "/硬盘备份/春莱2025/已烂尾/阿泰珍奶/250508-阿泰珍奶-牌匾门头-1800x460mm/250508-阿泰珍奶-牌匾门头-1800x460mm.ai",
             "sourceArtboard": 2,
-            "extractionMethod": "illustrator_30_artboard_export",
-            "width": 2200,
-            "height": 562,
-            "sha256": "8bbac9a99b823fa230103ba9d77c8630a29eacdc9b72fab6479bc854e2b140d1",
+            "extractionMethod": "从 AI 第 2 板内嵌 PDF 保真渲染，保留原嵌入泰文字形，与 GAY老板历史文件同案转曲交付 PDF 对照。",
+            "width": 2401,
+            "height": 614,
+            "sha256": "76ce12f0c0be1949e4176d69a22cd5f1c82628e1fd7e3a64966463bdd8ca9521",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
+          },
+          "width": 2401,
+          "height": 614
         },
         {
           "id": "N028-A06",
