@@ -10982,7 +10982,7 @@
           "section": {
             "eyebrow": "CHAPTER 06",
             "title": "桂花艺人",
-            "description": "桂花包装与杯套先行，随后延展至布景海报、艺人视觉与产品应用。"
+            "description": "桂花包装与杯套先行，随后延展至艺人限定明信片、门店布景海报与产品应用。"
           }
         },
         {
@@ -10990,7 +10990,21 @@
           "type": "image",
           "src": "/media/springlai/peach-osmanthus/12.jpg",
           "layout": "full",
-          "portfolioPdfSelected": true
+          "portfolioPdfSelected": true,
+          "width": 1920,
+          "height": 694,
+          "provenance": {
+            "assetId": "SL005-12",
+            "sourceType": "ai",
+            "sourceAi": "231212-艺人-桂花-包装立牌.ai",
+            "sourceObject": "第10、19板，明信片-150x100mm-1-背、明信片-150x100mm-2-背",
+            "extractionMethod": "沿用已刊 JPG。左右明信片均与同案 Illustrator 原画板逐一比对。",
+            "width": 1920,
+            "height": 694,
+            "sha256": "0849e186d53f61a378df86713fc6efc04be24c3a18918fddc409660c73fc1def",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         },
         {
           "id": "SL005-13",
