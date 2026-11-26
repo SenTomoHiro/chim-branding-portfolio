@@ -17794,7 +17794,7 @@
       "id": "N052",
       "brandName": "春莱",
       "projectName": "玫瑰秋冬热饮",
-      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，视觉延展至美团店铺头像、两版横幅和饿了么商品图。",
+      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，延续原稿的「秋冬热饮」主题。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17819,60 +17819,6 @@
             "sha256": "4ddf3dee6c4dd324091329d420bd32a872f171cf3bf6706aaffbd8f3f25b52f5",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N052-mt",
-          "type": "image",
-          "src": "/media/cases/N052/mt-f24960a882.webp",
-          "layout": "full",
-          "width": 2250,
-          "height": 1814,
-          "provenance": {
-            "assetId": "N052-mt",
-            "sourceType": "psd",
-            "sourceAi": "202210-玫瑰美团横幅海报-720x240px.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "使用同案原画板的头像和横幅，重放页面并置入 03 号双正视实体机框。",
-            "width": 2250,
-            "height": 1814,
-            "sha256": "f24960a8825bd3075df6ae559636adafeadc0286a4f9f7391899e9237ddf2986",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceObject": "202210-玫瑰美团横幅海报-720x240px.ai 第 1 画板、202210-玫瑰美团横幅海报-改1-720x240px.ai 第 1 画板、202210-玫瑰花-美团头像-改1-800x800px.ai 第 1 画板",
-            "sourcePsd": "美团头像与两版横幅-03.psd"
-          },
-          "section": {
-            "eyebrow": "美团外卖",
-            "title": "店铺头像与两版横幅",
-            "description": "左侧保留四款并列的初版，右侧呈现大杯居中的改一版。两版均保留原稿「秋冬热饮」字样。"
-          }
-        },
-        {
-          "id": "N052-eleme",
-          "type": "image",
-          "src": "/media/cases/N052/eleme-8692105a19.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N052-eleme",
-            "sourceType": "psd",
-            "sourceAi": "202210-春莱-玫瑰热饮饿了么外卖图.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "使用同案四张原画板，按两行两列陈列在 02 号正视实体机框内。",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "8692105a19ae452872f9b0ace49e40384d1e7571e268ca49978074d4af093f67",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceObject": "202210-春莱-玫瑰热饮饿了么外卖图.ai 第 1 画板、202210-春莱-玫瑰热饮饿了么外卖图.ai 第 2 画板、202210-春莱-玫瑰热饮饿了么外卖图.ai 第 3 画板、202210-春莱-玫瑰热饮饿了么外卖图.ai 第 4 画板",
-            "sourcePsd": "饿了么四款产品.psd"
-          },
-          "section": {
-            "eyebrow": "饿了么",
-            "title": "四款玫瑰饮品",
-            "description": "四张外卖原稿同屏展示。"
           }
         }
       ],
