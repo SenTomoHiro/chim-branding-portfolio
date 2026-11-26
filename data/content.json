@@ -12277,7 +12277,7 @@
       "id": "N021",
       "brandName": "大胡子抹茶",
       "projectName": "品牌视觉",
-      "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。",
+      "intro": "围绕人物肖像、抹茶色系与中泰文字语汇建立品牌识别，并延展至菜单、平台门店与空间应用。商户资料、评分、价格及销量为虚构展示示意。",
       "business": "branding",
       "categories": [
         "drinks",
@@ -12341,7 +12341,7 @@
         {
           "id": "N021-body-2",
           "type": "image",
-          "src": "/media/cases/N021/dp-start-r2-4951a9b86a.webp",
+          "src": "/media/cases/N021/dianping-start-84ecd43c5e.webp",
           "layout": "full",
           "width": 1350,
           "height": 2721,
@@ -12351,24 +12351,24 @@
             "sourceAi": "240905-大胡子-线上.ai",
             "sourceArtboard": 3,
             "sourceObject": "原画板 3、4、5、6、7、12、41、60",
-            "sourcePsd": "N021-dp-start-r2.psd",
-            "extractionMethod": "同案 Illustrator 原画板按商户详情轨道重放，保留正视视口并将整页置入 PSD。",
+            "sourcePsd": "N021-点评首位-补字.psd",
+            "extractionMethod": "同案 Illustrator 五幅头图重放大众点评商户详情首位，补齐商户、优惠与商品文字，使用 02 号 PSD。",
             "width": 1350,
             "height": 2721,
-            "sha256": "4951a9b86ad980e11e1e36c2edf1f807acf2f8a841396ea4d5eeb5ca64101acd",
+            "sha256": "84ecd43c5e118ae5446571f592decde25120d7b04be523753c3f9d33a5705aaf",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
             "eyebrow": "CHAPTER 01",
             "title": "大众点评 · 五张头图",
-            "description": "起点展示前两张，中途展示招牌饮品，末端展示最后两张。部分商户资料、价格及销量为样机展示示意。"
+            "description": "五张原画板依次经过三个横滑位置。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
           "id": "N021-dp-swipes",
           "type": "image",
-          "src": "/media/cases/N021/dp-swipes-r2-678f3949ff.webp",
+          "src": "/media/cases/N021/dianping-swipes-6db10ca6af.webp",
           "layout": "full",
           "width": 2250,
           "height": 1814,
@@ -12378,11 +12378,11 @@
             "sourceAi": "240905-大胡子-线上.ai",
             "sourceArtboard": 3,
             "sourceObject": "原画板 3、4、5、6、7、12、41、60",
-            "sourcePsd": "N021-dp-swipes-r2.psd",
-            "extractionMethod": "同案 Illustrator 原画板按商户详情轨道重放，保留正视视口并将整页置入 PSD。",
+            "sourcePsd": "N021-点评后两位-补字.psd",
+            "extractionMethod": "同案 Illustrator 五幅头图重放商户详情中段与末端，正文沿用首位，使用 03 号双机 PSD。",
             "width": 2250,
             "height": 1814,
-            "sha256": "678f3949ff95d9ecf347a7e742138c5a15a3694f998606340c0f8c4131ab5dff",
+            "sha256": "6db10ca6afcaf5a71df81d247978d976ee99918d4f344846c91666b4996c6f75",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -12560,33 +12560,6 @@
           }
         },
         {
-          "id": "N021-share",
-          "type": "image",
-          "src": "/media/cases/N021/share-6970868470.webp",
-          "layout": "full",
-          "width": 2030,
-          "height": 1783,
-          "provenance": {
-            "assetId": "N021-share",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 34,
-            "extractionMethod": "同案 Illustrator 原画板置入 03 号实体机框。",
-            "width": 2030,
-            "height": 1783,
-            "sha256": "697086847067bc961ae6ab0b1af4d68bc0d905912c46bf2969bdbb4fe343f18d",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-share-r2.psd",
-            "sourceObject": "原画板 M34、M15、M17、M18、M19、M20、M21、M22"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 04",
-            "title": "点餐小程序 · 分享卡",
-            "description": "小程序首页与高山有机抹茶分享卡对应展示。"
-          }
-        },
-        {
           "id": "N021-profile",
           "type": "image",
           "src": "/media/cases/N021/profile-cba0ef043e.webp",
@@ -12608,7 +12581,7 @@
             "sourceObject": "原画板 M24、M25、M01"
           },
           "section": {
-            "eyebrow": "CHAPTER 05",
+            "eyebrow": "CHAPTER 04",
             "title": "点餐小程序 · 个人中心",
             "description": "个人中心使用草帽人物头图和深绿色会员区。"
           }
@@ -12616,143 +12589,28 @@
         {
           "id": "N021-body-7",
           "type": "image",
-          "src": "/media/cases/N021/meituan-showcase-eff8353d02.webp",
+          "src": "/media/cases/N021/meituan-store-19-2fb76654ed.webp",
           "layout": "full",
-          "width": 1350,
-          "height": 2721,
+          "width": 1440,
+          "height": 3014,
           "provenance": {
             "assetId": "N021-body-7",
             "sourceType": "psd",
             "sourceAi": "240905-大胡子-线上.ai",
             "sourceArtboard": 9,
-            "sourceObject": "原画板 9、1、11、43、51、56",
-            "sourcePsd": "N021-meituan-showcase.psd",
-            "extractionMethod": "以同案大图店招、头像、橱窗背景和三张商品原画板重放美团橱窗，置入 02 号 PSD。",
-            "width": 1350,
-            "height": 2721,
-            "sha256": "eff8353d025acc29c2d19668b1705aaad679c5ab73dd309c2a0b10b5c3cc16d0",
+            "sourceObject": "原画板 9、1、10、11、43、51、56",
+            "sourcePsd": "N021-美团-框19-补字.psd",
+            "extractionMethod": "同案 Illustrator 店招、头像、橱窗与招牌饮品横幅按历史橱窗结构置入 19 号 PSD。",
+            "width": 1440,
+            "height": 3014,
+            "sha256": "2fb76654edf558584228f1268731d7c5699e727a91f3d100fb3edffaa862d35e",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 06",
+            "eyebrow": "CHAPTER 05",
             "title": "美团外卖 · 橱窗与点菜",
-            "description": "可可开心果、椰子浓抹茶和薄荷椰子在店铺橱窗和点菜列表中对应展示。部分商户资料、价格及销量为样机展示示意。"
-          }
-        },
-        {
-          "id": "N021-meituan-menu",
-          "type": "image",
-          "src": "/media/cases/N021/meituan-menu-5f89d96806.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2721,
-          "provenance": {
-            "assetId": "N021-meituan-menu",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 43,
-            "sourceObject": "原画板 43、51、56",
-            "sourcePsd": "N021-meituan-menu.psd",
-            "extractionMethod": "同案三张商品画板重放点菜列表，置入 02 号 PSD。",
-            "width": 1350,
-            "height": 2721,
-            "sha256": "5f89d96806d415fc0b8397dfaf6163e08a1b89a5786206c875950239d2dc4a56",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N021-mt-products-41",
-          "type": "image",
-          "src": "/media/cases/N021/mt-products-41-3261226e5a.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-mt-products-41",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 41,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "3261226e5ac04428238acb0687b93c7e689793e2e91d33575d128127d34b178d",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-mt-products-41.psd",
-            "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 07",
-            "title": "美团外卖 · 通用菜品设计",
-            "description": "四组机框呈现两平台共用的 24 张菜品原画板，保留饮品及冰淇淋原名。"
-          }
-        },
-        {
-          "id": "N021-mt-products-47",
-          "type": "image",
-          "src": "/media/cases/N021/mt-products-47-07cc308c25.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-mt-products-47",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 47,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "07cc308c251c51d7e0cc0664bdb7d1584491236072d93b4f4392fef95a192bd8",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-mt-products-47.psd",
-            "sourceObject": "原画板 M47、M48、M49、M50、M51、M52"
-          }
-        },
-        {
-          "id": "N021-mt-products-53",
-          "type": "image",
-          "src": "/media/cases/N021/mt-products-53-7a18e853a9.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-mt-products-53",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 53,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "7a18e853a99c1c47c5eb4deb836863eaf0fa17e35c66f0e60096a25c3c4d0b29",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-mt-products-53.psd",
-            "sourceObject": "原画板 M53、M54、M55、M56、M57、M58"
-          }
-        },
-        {
-          "id": "N021-mt-products-59",
-          "type": "image",
-          "src": "/media/cases/N021/mt-products-59-3a9170effb.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-mt-products-59",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 59,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "3a9170effbbc1fbd9db7352cfdbceb2c74d83ef5fa702aa2aa7b12300d6f611a",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-mt-products-59.psd",
-            "sourceObject": "原画板 M59、M60、M61、M62、M63、M64"
+            "description": "店招、橱窗三款饮品和「招牌饮品」横幅放在同一个美团店铺首屏。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
@@ -12804,126 +12662,6 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
-        },
-        {
-          "id": "N021-ele-store",
-          "type": "image",
-          "src": "/media/cases/N021/ele-store-9e14fd2774.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N021-ele-store",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 14,
-            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "9e14fd27746faa6073c4aa0b95b693cb976b6dc9a4aa00d744d39e0193f46d1a",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-ele-store-r2.psd",
-            "sourceObject": "原画板 M14、M13"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 08",
-            "title": "饿了么 · 店铺招牌与横幅",
-            "description": "同案店招和招牌饮品横幅按原比例展示。"
-          }
-        },
-        {
-          "id": "N021-ele-products-41",
-          "type": "image",
-          "src": "/media/cases/N021/ele-products-41-442901a849.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-ele-products-41",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 41,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "442901a849a17a35bdc232f820e000796f87b9b855219653e05ffbca73261f45",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-ele-products-41.psd",
-            "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 09",
-            "title": "饿了么 · 通用菜品设计",
-            "description": "沿用与美团共用的原菜品画板。"
-          }
-        },
-        {
-          "id": "N021-ele-products-47",
-          "type": "image",
-          "src": "/media/cases/N021/ele-products-47-f033278089.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-ele-products-47",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 47,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "f0332780895e2e1f360b8319b7426aea7901b6b1af853f684d0b3e64c4af9409",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-ele-products-47.psd",
-            "sourceObject": "原画板 M47、M48、M49、M50、M51、M52"
-          }
-        },
-        {
-          "id": "N021-ele-products-53",
-          "type": "image",
-          "src": "/media/cases/N021/ele-products-53-deabfff30a.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-ele-products-53",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 53,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "deabfff30ad4b8911b5be38636ca209f11888982035d397a5d6bfd9eb1bb96d5",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-ele-products-53.psd",
-            "sourceObject": "原画板 M53、M54、M55、M56、M57、M58"
-          }
-        },
-        {
-          "id": "N021-ele-products-59",
-          "type": "image",
-          "src": "/media/cases/N021/ele-products-59-ca609e489e.webp",
-          "layout": "full",
-          "width": 2400,
-          "height": 1402,
-          "provenance": {
-            "assetId": "N021-ele-products-59",
-            "sourceType": "psd",
-            "sourceAi": "240905-大胡子-线上.ai",
-            "sourceArtboard": 59,
-            "extractionMethod": "同案 Illustrator 原画板置入 04 号实体机框。",
-            "width": 2400,
-            "height": 1402,
-            "sha256": "ca609e489e74628b8c83b7d5b76c4c2809d794d90db4a07cd32df7abced06317",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourcePsd": "N021-ele-products-59.psd",
-            "sourceObject": "原画板 M59、M60、M61、M62、M63、M64"
-          }
         }
       ],
       "published": true,
@@ -12933,7 +12671,7 @@
       "id": "N022",
       "brandName": "真心茶事",
       "projectName": "品牌视觉",
-      "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。",
+      "intro": "以清淡留白、书写字与器物意象构成中式茶饮识别，再以花材和产品摄影延展季节传播。商户资料、评分、价格及销量为虚构展示示意。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -13065,36 +12803,9 @@
           }
         },
         {
-          "id": "N022-dianping-search",
-          "type": "image",
-          "src": "/media/cases/N022/dianping-search-f47c5c1233.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N022-dianping-search",
-            "sourceType": "psd",
-            "sourceAi": "真心茶事-线上-方案2.ai",
-            "sourceArtboard": 1,
-            "sourceObject": "原画板 1",
-            "sourcePsd": "dianping-search.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 02 号实体手机 PSD。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "f47c5c1233f9fc1d1db0e7e8ed7ee7e870e9050d76f1a644e9febd9faf93fbed",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 02",
-            "title": "大众点评 · 搜索入口",
-            "description": "搜索结果使用来自方案二的商户入口图，与下方五张商户详情头图区分。"
-          }
-        },
-        {
           "id": "N022-body-8",
           "type": "image",
-          "src": "/media/cases/N022/dp-start-r2-09eea6f879.webp",
+          "src": "/media/cases/N022/dianping-start-6da8bde831.webp",
           "layout": "full",
           "width": 1350,
           "height": 2721,
@@ -13104,24 +12815,24 @@
             "sourceAi": "真心茶事-线上-方案2.ai",
             "sourceArtboard": 3,
             "sourceObject": "原画板 3、4、5、6、7、8、11、9",
-            "sourcePsd": "N022-dp-start-r2.psd",
-            "extractionMethod": "同案 Illustrator 原画板按商户详情轨道重放，保留正视视口并将整页置入 PSD。",
+            "sourcePsd": "N022-点评首位-补字.psd",
+            "extractionMethod": "同案 Illustrator 五幅头图重放大众点评商户详情首位，补齐商户、优惠与商品文字，使用 02 号 PSD。",
             "width": 1350,
             "height": 2721,
-            "sha256": "09eea6f8795b095421e99385cc9af2b1de3895cd80fc12b212949561f581734d",
+            "sha256": "6da8bde8319890dcb829b95a146ac89cabe0d087838c14327e1a2b0a4bd98d34",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 03",
+            "eyebrow": "CHAPTER 02",
             "title": "大众点评 · 方案二",
-            "description": "五张商户通头图依序横滑，随后展示柑橘肉桂招牌菜和原稿套餐。图中套餐价格为历史设计内容。"
+            "description": "五张原画板依次经过三个横滑位置。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
           "id": "N022-dp-swipes",
           "type": "image",
-          "src": "/media/cases/N022/dp-swipes-r2-9259f10d1c.webp",
+          "src": "/media/cases/N022/dianping-swipes-06197e0b71.webp",
           "layout": "full",
           "width": 2250,
           "height": 1814,
@@ -13131,33 +12842,11 @@
             "sourceAi": "真心茶事-线上-方案2.ai",
             "sourceArtboard": 3,
             "sourceObject": "原画板 3、4、5、6、7、8、11、9",
-            "sourcePsd": "N022-dp-swipes-r2.psd",
-            "extractionMethod": "同案 Illustrator 原画板按商户详情轨道重放，保留正视视口并将整页置入 PSD。",
+            "sourcePsd": "N022-点评后两位-补字.psd",
+            "extractionMethod": "同案 Illustrator 五幅头图重放商户详情中段与末端，正文沿用首位，使用 03 号双机 PSD。",
             "width": 2250,
             "height": 1814,
-            "sha256": "9259f10d1ca660e10eeac77d236ee1fa983d19a81bac3d76ccb9d7bb352bb01d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N022-dp-offers",
-          "type": "image",
-          "src": "/media/cases/N022/dp-offers-native-ff974d7414.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2721,
-          "provenance": {
-            "assetId": "N022-dp-offers",
-            "sourceType": "psd",
-            "sourceAi": "真心茶事-线上-方案2.ai",
-            "sourceArtboard": 11,
-            "sourceObject": "原画板 11、9",
-            "sourcePsd": "N022-dp-offers-native.psd",
-            "extractionMethod": "同案第 11 和第 9 原画板分别陈列招牌与套餐，置入 02 号 PSD。",
-            "width": 1350,
-            "height": 2721,
-            "sha256": "ff974d7414e30af0e1b4d35ee4ac3c796217025e35d8a22c67d3ec362f9fa108",
+            "sha256": "06197e0b71d13305f37ceaaee6266b1bbb425ca04646ed46e0e4a0b028364d6e",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -13165,28 +12854,28 @@
         {
           "id": "N022-mt-products",
           "type": "image",
-          "src": "/media/cases/N022/mt-products-native-bb9a6395b4.webp",
+          "src": "/media/cases/N022/meituan-store-20-574d9e4e58.webp",
           "layout": "full",
-          "width": 1350,
-          "height": 2721,
+          "width": 1440,
+          "height": 3014,
           "provenance": {
             "assetId": "N022-mt-products",
             "sourceType": "psd",
             "sourceAi": "真心茶事-线上-方案2.ai",
-            "sourceArtboard": 22,
-            "sourceObject": "原画板 22、23",
-            "sourcePsd": "N022-mt-products-native.psd",
-            "extractionMethod": "同案第 22 和第 23 原画板纵排陈列，置入 02 号 PSD。",
-            "width": 1350,
-            "height": 2721,
-            "sha256": "bb9a6395b4f4951d2e2f8c363cd54aaed7949bff20a7b7fd7a7d6e5381c0d7a5",
+            "sourceArtboard": 21,
+            "sourceObject": "方案二原画板 21、01、20、22、23",
+            "sourcePsd": "N022-美团-框20-补字.psd",
+            "extractionMethod": "重放同案美团常规横幅 PSD，使用 Illustrator 原画板替换店招、头像、店内横幅和商品，置入 20 号 PSD。",
+            "width": 1440,
+            "height": 3014,
+            "sha256": "574d9e4e582066e39b049a59c2137615fe9da3b74592b728f7e9a50c825a6856",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 04",
+            "eyebrow": "CHAPTER 03",
             "title": "美团外卖 · 门店饮品",
-            "description": "柑橘肉桂的两张菜品画板在同一手机内依次展示。"
+            "description": "店招和店内横幅沿用同案历史首屏，点菜区展示柑橘肉桂。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
@@ -13196,7 +12885,7 @@
           "layout": "full",
           "portfolioPdfSelected": true,
           "section": {
-            "eyebrow": "CHAPTER 05",
+            "eyebrow": "CHAPTER 04",
             "title": "花与茶的四季叙事",
             "description": "以花材、器物与产品组合发展连续的季节传播系列。"
           },
@@ -15686,7 +15375,7 @@
       "id": "N036",
       "brandName": "陈老板手作",
       "projectName": "茶饮品牌视觉与开业物料设计",
-      "intro": "「手作好茶」四个大字叠着黄色陈字印，呼应招牌与菜单的黄棕配色。美团开业店招和轮播横幅用两张不同尺寸的画板呈现同一组红杯饮品。",
+      "intro": "「手作好茶」四个大字叠着黄色陈字印，呼应招牌与菜单的黄棕配色。美团开业店招和轮播横幅用两张不同尺寸的画板呈现同一组红杯饮品。商户资料、评分、价格及销量为虚构展示示意。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -15825,378 +15514,55 @@
         {
           "id": "N036-dianping-aug-1",
           "type": "image",
-          "src": "/media/cases/N036/dianping-aug-1-5984f8557a.webp",
+          "src": "/media/cases/N036/dianping-aug-swipes-eb94369f1d.webp",
           "layout": "full",
-          "width": 1400,
-          "height": 2392,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
             "assetId": "N036-dianping-aug-1",
             "sourceType": "psd",
             "sourceAi": "240826-陈老板-线上.ai",
             "sourceArtboard": 2,
-            "sourceObject": "原画板 A02、A03",
-            "sourcePsd": "dianping-aug-1-r2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "5984f8557aaf58ea798aa51dc00756886f806e43abe8a498afda9566e3710b27",
+            "sourceObject": "原画板 A02、A03、A04、A05、A06",
+            "sourcePsd": "N036-点评-aug-框04-补字.psd",
+            "extractionMethod": "同案 Illustrator 五组头图按点评详情横滑的三个位置合成，正文一致，使用 04 号三机 PSD。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "eb94369f1d0931f75763f73f7b2772fbcfecad16cfedc69d9f496da341671da0",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
             "eyebrow": "CHAPTER 03",
             "title": "大众点评 · 2024 年 8 月",
-            "description": "五张开业头图按起点、中段和末端依序展示。"
-          }
-        },
-        {
-          "id": "N036-dianping-aug-2",
-          "type": "image",
-          "src": "/media/cases/N036/dianping-aug-2-5b70335dd0.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-dianping-aug-2",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 4,
-            "sourceObject": "原画板 A04",
-            "sourcePsd": "dianping-aug-2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "5b70335dd0ed9c9f685934351283784b6ed5be0c69a2e6299294dd044610769d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-dianping-aug-3",
-          "type": "image",
-          "src": "/media/cases/N036/dianping-aug-3-26f969c410.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-dianping-aug-3",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 5,
-            "sourceObject": "原画板 A05、A06",
-            "sourcePsd": "dianping-aug-3.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "26f969c410a772b9d65cd5e7382a9ea5a1f1e7be2dae043c9923a12befb07756",
-            "classification": "final_design",
-            "finalWorkVerified": true
+            "description": "三处滑位依次显示开业、双杯活动、滇红与乌龙蛋糕奶茶头图。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
           "id": "N036-dianping-sep-1",
           "type": "image",
-          "src": "/media/cases/N036/dianping-sep-1-fc4872fec2.webp",
+          "src": "/media/cases/N036/dianping-sep-swipes-5593593832.webp",
           "layout": "full",
-          "width": 1400,
-          "height": 2392,
+          "width": 2400,
+          "height": 1402,
           "provenance": {
             "assetId": "N036-dianping-sep-1",
             "sourceType": "psd",
             "sourceAi": "240902-陈老板-线上.ai",
             "sourceArtboard": 26,
-            "sourceObject": "原画板 B26、B27",
-            "sourcePsd": "dianping-sep-1-r2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "fc4872fec2603d81ef498287dbf2132d099167689a2a0e0f69b44d35f9adc7d1",
+            "sourceObject": "原画板 B26、B27、B28、B29、B30",
+            "sourcePsd": "N036-点评-sep-框04-补字.psd",
+            "extractionMethod": "同案 Illustrator 五组头图按点评详情横滑的三个位置合成，正文一致，使用 04 号三机 PSD。",
+            "width": 2400,
+            "height": 1402,
+            "sha256": "55935938327e231bb61044d036cc446ca687c1264a8ada79bd21186702efd3cc",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "大众点评 · 2024 年 9 月",
-            "description": "五张商户头图从开业组合切换到米布奶茶。"
-          }
-        },
-        {
-          "id": "N036-dianping-sep-2",
-          "type": "image",
-          "src": "/media/cases/N036/dianping-sep-2-5b315fa78a.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-dianping-sep-2",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 28,
-            "sourceObject": "原画板 B28",
-            "sourcePsd": "dianping-sep-2-r2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "5b315fa78af7cf69c88483411f66346e0794dd119c251b9cb767c44b560aebea",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-dianping-sep-3",
-          "type": "image",
-          "src": "/media/cases/N036/dianping-sep-3-ce4bbdbac4.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-dianping-sep-3",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 29,
-            "sourceObject": "原画板 B29、B30",
-            "sourcePsd": "dianping-sep-3.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "ce4bbdbac48975aaf4c8b345827d1d34c2fa96bdb9e01945fd5c474afe44943a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-qimai-menu-1",
-          "type": "image",
-          "src": "/media/cases/N036/qimai-menu-1-39452ea2b7.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-qimai-menu-1",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 7,
-            "sourceObject": "原画板 B07、B08、B09",
-            "sourcePsd": "qimai-menu-1.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "39452ea2b7b9b38298461c100fcdc9dbca942ef9f2979fd3923e76b1fdb5eb95",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 05",
-            "title": "企迈点餐 · 门店菜单",
-            "description": "三页展示西瓜茉莉茶、玫瑰乳扇冰淇淋和不同口味的米布奶茶。"
-          }
-        },
-        {
-          "id": "N036-qimai-menu-2",
-          "type": "image",
-          "src": "/media/cases/N036/qimai-menu-2-fee0c4f7f3.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-qimai-menu-2",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 10,
-            "sourceObject": "原画板 B10、B22、B23",
-            "sourcePsd": "qimai-menu-2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "fee0c4f7f34f7c8251064ad08c2af2cee065a33b59539983c36f532289ff7d00",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-qimai-menu-3",
-          "type": "image",
-          "src": "/media/cases/N036/qimai-menu-3-c1e77d66c3.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2392,
-          "provenance": {
-            "assetId": "N036-qimai-menu-3",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 24,
-            "sourceObject": "原画板 B24、B25",
-            "sourcePsd": "qimai-menu-3.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 18 号实体手机 PSD。",
-            "width": 1400,
-            "height": 2392,
-            "sha256": "c1e77d66c37ec9baae295d15516674c3670fee127a4d1ab1d519f6325baa20cf",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-meituan-aug-1",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-aug-1-71824dcd8d.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-aug-1",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 13,
-            "sourceObject": "原画板 A13、A14、A15、A16",
-            "sourcePsd": "meituan-aug-1.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "71824dcd8de863e1f5ae10c6650e95569435a6c16390bd13bec6a9253e4f72b2",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 06",
-            "title": "美团外卖 · 8 月菜品图",
-            "description": "五页保留各款原始菜品画板，含滇红藕粉蹄和两种容器版本的红糖水牛乳。"
-          }
-        },
-        {
-          "id": "N036-meituan-aug-2",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-aug-2-a0a65e90e2.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-aug-2",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 17,
-            "sourceObject": "原画板 A17、A18、A19、A20",
-            "sourcePsd": "meituan-aug-2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "a0a65e90e233dcc34450bdc161066784f6154cae3aae4ad8bb9c754175a80cfb",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-meituan-aug-3",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-aug-3-2cf0fd731d.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-aug-3",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 21,
-            "sourceObject": "原画板 A21、A23、A24、A25",
-            "sourcePsd": "meituan-aug-3.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "2cf0fd731de89aec6715f01f4ccedb14ad1af1dceeab74f257ba835f471dfba8",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-meituan-aug-4",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-aug-4-d0595f975d.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-aug-4",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 26,
-            "sourceObject": "原画板 A26、A27、A28、A29",
-            "sourcePsd": "meituan-aug-4.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "d0595f975d49c835abdfdaa04b93fdc039ba086c05d0fc781b8757c7e773c06d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-meituan-aug-5",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-aug-5-9dc1255693.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-aug-5",
-            "sourceType": "psd",
-            "sourceAi": "240826-陈老板-线上.ai",
-            "sourceArtboard": 30,
-            "sourceObject": "原画板 A30、A31、A32、A33",
-            "sourcePsd": "meituan-aug-5.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "9dc1255693d07a1d8c05a261e3e9fff781cbbce4edc2a6107fe3b1f70d7fe5ba",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N036-meituan-sep-1",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-sep-1-52ab388c6d.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-sep-1",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 1,
-            "sourceObject": "原画板 B01、B02、B03、B04",
-            "sourcePsd": "meituan-sep-1.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "52ab388c6d643ee2d36706d082eeb9f97d18028d74ea67924998abc6f2b315e8",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 07",
-            "title": "美团外卖 · 9 月菜品图",
-            "description": "两页展示开业推荐饮品及四款鲜米布。"
-          }
-        },
-        {
-          "id": "N036-meituan-sep-2",
-          "type": "image",
-          "src": "/media/cases/N036/meituan-sep-2-6eabfd499a.webp",
-          "layout": "full",
-          "width": 1320,
-          "height": 2602,
-          "provenance": {
-            "assetId": "N036-meituan-sep-2",
-            "sourceType": "psd",
-            "sourceAi": "240902-陈老板-线上.ai",
-            "sourceArtboard": 18,
-            "sourceObject": "原画板 B18、B19、B20、B21",
-            "sourcePsd": "meituan-sep-2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 17 号实体手机 PSD。",
-            "width": 1320,
-            "height": 2602,
-            "sha256": "6eabfd499a91b2f59eafdbba49bb9f46fd676ac120d969372c87a13b86916ac5",
-            "classification": "final_design",
-            "finalWorkVerified": true
+            "description": "三处滑位依次显示开业、双杯活动、滇红与乌龙米布奶茶头图。商户资料、评分、价格及销量为虚构展示示意。"
           }
         },
         {
@@ -16221,7 +15587,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 08",
+            "eyebrow": "CHAPTER 05",
             "title": "点餐小程序 · 开业活动",
             "description": "首页、开业弹窗和个人中心使用西瓜饮品主题。"
           }
