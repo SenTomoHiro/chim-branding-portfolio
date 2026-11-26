@@ -12587,6 +12587,33 @@
           }
         },
         {
+          "id": "N021-profile",
+          "type": "image",
+          "src": "/media/cases/N021/profile-cba0ef043e.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2392,
+          "provenance": {
+            "assetId": "N021-profile",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 24,
+            "extractionMethod": "同案 Illustrator 原画板置入 18 号实体机框。",
+            "width": 1400,
+            "height": 2392,
+            "sha256": "cba0ef043ee71f15840aba5999d9e172b4f6d8983dfe138839c13ba08f7180c9",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-profile-r2.psd",
+            "sourceObject": "原画板 M24、M25、M01"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 05",
+            "title": "点餐小程序 · 个人中心",
+            "description": "个人中心使用草帽人物头图和深绿色会员区。"
+          }
+        },
+        {
           "id": "N021-body-7",
           "type": "image",
           "src": "/media/cases/N021/meituan-showcase-eff8353d02.webp",
@@ -12608,7 +12635,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 05",
+            "eyebrow": "CHAPTER 06",
             "title": "美团外卖 · 橱窗与点菜",
             "description": "可可开心果、椰子浓抹茶和薄荷椰子在店铺橱窗和点菜列表中对应展示。部分商户资料、价格及销量为样机展示示意。"
           }
@@ -12657,7 +12684,7 @@
             "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
           },
           "section": {
-            "eyebrow": "CHAPTER 06",
+            "eyebrow": "CHAPTER 07",
             "title": "美团外卖 · 通用菜品设计",
             "description": "四组机框呈现两平台共用的 24 张菜品原画板，保留饮品及冰淇淋原名。"
           }
@@ -12779,6 +12806,33 @@
           }
         },
         {
+          "id": "N021-ele-store",
+          "type": "image",
+          "src": "/media/cases/N021/ele-store-9e14fd2774.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "N021-ele-store",
+            "sourceType": "psd",
+            "sourceAi": "240905-大胡子-线上.ai",
+            "sourceArtboard": 14,
+            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "9e14fd27746faa6073c4aa0b95b693cb976b6dc9a4aa00d744d39e0193f46d1a",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N021-ele-store-r2.psd",
+            "sourceObject": "原画板 M14、M13"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 08",
+            "title": "饿了么 · 店铺招牌与横幅",
+            "description": "同案店招和招牌饮品横幅按原比例展示。"
+          }
+        },
+        {
           "id": "N021-ele-products-41",
           "type": "image",
           "src": "/media/cases/N021/ele-products-41-442901a849.webp",
@@ -12800,7 +12854,7 @@
             "sourceObject": "原画板 M41、M42、M43、M44、M45、M46"
           },
           "section": {
-            "eyebrow": "CHAPTER 07",
+            "eyebrow": "CHAPTER 09",
             "title": "饿了么 · 通用菜品设计",
             "description": "沿用与美团共用的原菜品画板。"
           }
@@ -19114,6 +19168,55 @@
             "sha256": "0b8ed7ea0a4bfd46181fb82883e04a63e5fad58f73b296efae8e6b85fd9950c9",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-products-4",
+          "type": "image",
+          "src": "/media/cases/N080/products-4-1892ab1788.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "N080-products-4",
+            "sourceType": "psd",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 4,
+            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "1892ab178808628d53b7ece224df51ca94f11321509bedeccab1ed70494e71f5",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N080-products-4.psd",
+            "sourceObject": "原画板 4"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 00",
+            "title": "美团外卖 · 冬日暖饮",
+            "description": "暖姜红枣茶和桂圆玫瑰茶的菜品画板分别置入美团冬日暖饮列表。"
+          }
+        },
+        {
+          "id": "N080-products-5",
+          "type": "image",
+          "src": "/media/cases/N080/products-5-eee85ecd82.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2500,
+          "provenance": {
+            "assetId": "N080-products-5",
+            "sourceType": "psd",
+            "sourceAi": "231105-90度温暖-改2.ai",
+            "sourceArtboard": 5,
+            "extractionMethod": "同案 Illustrator 原画板置入 02 号实体机框。",
+            "width": 1350,
+            "height": 2500,
+            "sha256": "eee85ecd82db4842721b2ba579c017cfeef7c3795e3b0dee3b1a22d03424348b",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourcePsd": "N080-products-5.psd",
+            "sourceObject": "原画板 5"
           }
         }
       ],
