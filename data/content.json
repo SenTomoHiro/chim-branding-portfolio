@@ -16627,7 +16627,7 @@
       "id": "N052",
       "brandName": "春莱",
       "projectName": "玫瑰秋冬热饮",
-      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，延续原稿的「秋冬热饮」主题。",
+      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，延续原稿的「秋冬热饮」主题。两款墨红玫瑰香卡沿花瓣轮廓模切，顶部预留挂孔。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16658,7 +16658,7 @@
           "id": "N052-scent-card-1",
           "type": "image",
           "src": "/media/cases/N052/scent-card-1-5861e05a4a.webp",
-          "layout": "half",
+          "layout": "full",
           "width": 827,
           "height": 827,
           "provenance": {
@@ -16670,18 +16670,13 @@
             "sha256": "5861e05a4ad8ab98a1f3086c9e5e53738f7cd28c75f383b8e2e8f330cafd2ec6",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "线下周边",
-            "title": "墨红玫瑰香卡",
-            "description": "两款香卡沿玫瑰花瓣轮廓模切，顶部预留挂孔。"
           }
         },
         {
           "id": "N052-scent-card-2",
           "type": "image",
           "src": "/media/cases/N052/scent-card-2-4ea02dfbcb.webp",
-          "layout": "half",
+          "layout": "full",
           "width": 827,
           "height": 827,
           "provenance": {
