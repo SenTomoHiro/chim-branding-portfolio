@@ -14756,7 +14756,7 @@
       "id": "N028",
       "brandName": "阿泰珍奶",
       "projectName": "",
-      "intro": "以泰茶摊车、蓝色大字和红色圆标建立品牌视觉，并延展至门店招牌、手提袋、海报及外卖平台。手机样机展示原画板对应的渠道和版位。",
+      "intro": "泰茶摊车、蓝色大字与红色圆标从海报延展到招牌、手提袋和平台画板。美团与大众点评样机采用阿泰珍奶原画板，商户资料、评分、价格及销量为虚构展示示意。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -14786,21 +14786,21 @@
         {
           "id": "N028-A02",
           "type": "image",
-          "src": "/media/cases/N028/meituan-store-9648bc68ba.webp",
+          "src": "/media/cases/N028/meituan-store-17-4558679a60.webp",
           "layout": "full",
-          "width": 1350,
-          "height": 2500,
+          "width": 1440,
+          "height": 3469,
           "provenance": {
             "assetId": "N028-A02",
             "sourceType": "psd",
             "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
             "sourceArtboard": 10,
-            "sourceObject": "原画板 10、1",
-            "sourcePsd": "meituan-store-r3.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 02 号实体手机 PSD。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "9648bc68ba86a88d5169c578321b7369dfadeeaf6c9caac47838ca56a4efb560",
+            "sourceObject": "Illustrator 原画板 01、08、10、13–16",
+            "sourcePsd": "N028-美团-框17-补字.psd",
+            "extractionMethod": "以同案 Illustrator 画板组合及同代美团橱窗结构重绘一个店铺视口，使用 T24315 (17).psd。",
+            "width": 1440,
+            "height": 3469,
+            "sha256": "4558679a606379cb0072effbba717d4573d82296decd1473e916fef6a643205e",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -14940,7 +14940,7 @@
         {
           "id": "N028-A10",
           "type": "image",
-          "src": "/media/cases/N028/dianping-swipes-f489c0a9c4.webp",
+          "src": "/media/cases/N028/dianping-swipes-04-50c28fd3c2.webp",
           "layout": "full",
           "width": 2400,
           "height": 1402,
@@ -14949,100 +14949,19 @@
             "sourceType": "psd",
             "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
             "sourceArtboard": 2,
-            "sourceObject": "原画板 2、3、4、5、6",
-            "sourcePsd": "dianping-swipes-r2.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 04 号实体手机 PSD。",
+            "sourceObject": "Illustrator 原画板 02–07、13–14",
+            "sourcePsd": "N028-点评-框04-补字.psd",
+            "extractionMethod": "以同案 Illustrator 头图重放点评详情五图横滑，使用 T24315 (4).psd。",
             "width": 2400,
             "height": 1402,
-            "sha256": "f489c0a9c4b707efcee0b37f82f542f620ac2f1eb607b38a1e8b1d6c20bdadaf",
+            "sha256": "50c28fd3c27fd1e57f1612d371bc8dcb79fcbbd91ef957ab6391a821425de09c",
             "classification": "final_design",
             "finalWorkVerified": true
           },
           "section": {
             "eyebrow": "CHAPTER 05",
             "title": "大众点评 · 五张商户头图",
-            "description": "三个滑位依次展示泰茶摊车拼图与三款饮品。"
-          }
-        },
-        {
-          "id": "N028-A09",
-          "type": "image",
-          "src": "/media/cases/N028/meituan-banner-2e298f7085.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N028-A09",
-            "sourceType": "psd",
-            "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
-            "sourceArtboard": 9,
-            "sourceObject": "原画板 9、8",
-            "sourcePsd": "meituan-banner.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 02 号实体手机 PSD。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "2e298f70856e8f712d2082562903351d3987e6a65df44e096e13a6d14aef43ad",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 06",
-            "title": "美团外卖 · 店招与常规横幅",
-            "description": "大小店招分别取自同案原画板，常规横幅使用三杯饮品的推荐画面。"
-          }
-        },
-        {
-          "id": "N028-A11",
-          "type": "image",
-          "src": "/media/cases/N028/meituan-products-4942de07a6.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N028-A11",
-            "sourceType": "psd",
-            "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
-            "sourceArtboard": 13,
-            "sourceObject": "原画板 13、14、15",
-            "sourcePsd": "meituan-products.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 02 号实体手机 PSD。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "4942de07a68a38e07019f2c3036476f5eff110c70207fbe2c4af86f1dcd9fc05",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 07",
-            "title": "美团外卖 · 菜品图",
-            "description": "原画板保留「品名品名品名」，屏内补充的三款名称用于作品展示。"
-          }
-        },
-        {
-          "id": "N028-A12",
-          "type": "image",
-          "src": "/media/cases/N028/eleme-store-77b2235c8c.webp",
-          "layout": "full",
-          "width": 1350,
-          "height": 2500,
-          "provenance": {
-            "assetId": "N028-A12",
-            "sourceType": "psd",
-            "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
-            "sourceArtboard": 12,
-            "sourceObject": "原画板 12、11",
-            "sourcePsd": "eleme-store.psd",
-            "extractionMethod": "Illustrator 原画板按原比例置入渠道设计档案，使用 02 号实体手机 PSD。",
-            "width": 1350,
-            "height": 2500,
-            "sha256": "77b2235c8cbae04fca1019b3da44b1af5b9adc38a9601dd8d1c8b34e8ecb7b62",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 08",
-            "title": "饿了么 · 招牌与横幅",
-            "description": "泰茶摊车与「瓦煲现熬」字样用于店招，推荐饮品另作横幅。"
+            "description": "三个滑位展示五张头图，依次呈现泰茶摊车拼图与三款饮品。商户资料、评分、价格及销量为虚构展示示意。"
           }
         }
       ],
