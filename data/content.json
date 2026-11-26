@@ -16762,21 +16762,19 @@
         {
           "id": "N052-cover",
           "type": "image",
-          "src": "/media/cases/N052/cover-4ddf3dee6c.webp",
+          "src": "/media/cases/N052/cover-e397412d82.webp",
           "layout": "full",
           "width": 1467,
           "height": 2200,
           "provenance": {
             "assetId": "N052-cover",
-            "sourceType": "ai",
-            "sourceAi": "202210-玫瑰新品海报-改5-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原画板完整导出。",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1467,
             "height": 2200,
-            "sha256": "4ddf3dee6c4dd324091329d420bd32a872f171cf3bf6706aaffbd8f3f25b52f5",
+            "sha256": "e397412d82dbbb43eaa9a8e519bf086da32cf1082594fba8317b7282e925f1a9",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202210/202210-玫瑰新品合集/202210-玫瑰新品海报-改5-90x60cm-01.jpg"
           }
         },
         {
@@ -17465,21 +17463,19 @@
         {
           "id": "N055-9ADF5-01",
           "type": "image",
-          "src": "/media/cases/N055/9adf5-01-d1b699a421.webp",
+          "src": "/media/cases/N055/9adf5-01-6b1eef7d67.webp",
           "layout": "full",
           "width": 1467,
           "height": 2200,
           "provenance": {
             "assetId": "N055-9ADF5-01",
-            "sourceType": "ai",
-            "sourceAi": "202302-泡鲁达海报-改3-文案修订-60x90cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1467,
             "height": 2200,
-            "sha256": "d1b699a421447562ec4bc868f01fa272fdae23fc3cdde2ae9516aad63c8ae85b",
+            "sha256": "6b1eef7d677af3c06588d7581074bb526d2e6ec3353e49a040131aa8ccd74a66",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202302/202302-泡鲁达海报-改3-文案修订-60x90cm_画板 1.jpg"
           }
         }
       ],
@@ -17500,21 +17496,19 @@
         {
           "id": "N057-08D84-01",
           "type": "image",
-          "src": "/media/cases/N057/08d84-01-fc8fc3e71f.webp",
+          "src": "/media/cases/N057/08d84-01-f1004c3956.webp",
           "layout": "full",
           "width": 1467,
           "height": 2200,
           "provenance": {
             "assetId": "N057-08D84-01",
-            "sourceType": "ai",
-            "sourceAi": "2303-橄榄海报-改2-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1467,
             "height": 2200,
-            "sha256": "fc8fc3e71fd1505e8984f3ab4e9395b3c618a2248daa008c81bc17d6cddda7b4",
+            "sha256": "f1004c3956e798a316439616c7f15f4e720010bca0a8fbad25b0548e0f3cd57f",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202304/2304-橄榄新品合集/2303-橄榄海报-改2-90x60cm_新品海报.jpg"
           }
         },
         {
