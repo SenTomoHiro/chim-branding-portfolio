@@ -19010,6 +19010,41 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N069",
+      "brandName": "春莱",
+      "projectName": "雨后山茶的香气 · 2022 山茶花系列",
+      "intro": "白色山茶花与枝叶衬托三款袋装饮品，海报按原稿保留泰式山茶花清奶茶、柠檬茶和凤梨冰茶的中泰双语。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N069-9BBAF-01",
+          "type": "image",
+          "src": "/media/cases/N069/9bbaf-01-a480e1cd24.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N069-9BBAF-01",
+            "sourceType": "ai",
+            "sourceAi": "202206-山茶花新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "a480e1cd24724de2568399f8f9b0589e46dae339a6a28b693a78f9e052c21d17",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -19099,7 +19134,8 @@
     "N057",
     "N058",
     "N066",
-    "N079"
+    "N079",
+    "N069"
   ],
   "photographyCaseOrder": [
     "L021",
