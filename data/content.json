@@ -9468,25 +9468,6 @@
           "layout": "full"
         },
         {
-          "id": "SL001-23-avatar",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-23-avatar.webp",
-          "width": 1165,
-          "height": 2120,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-23-avatar",
-            "sourceType": "psd",
-            "sourcePsd": "美团-头像界面.psd",
-            "extractionMethod": "作者同案分层 PSD 原有机框",
-            "width": 1165,
-            "height": 2120,
-            "sha256": "1e6a24397680892010d099bf182f96c6e8d76755ec882b3df2f4a73cd1c5de88",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "SL001-23-large",
           "type": "image",
           "src": "/media/springlai/brand-evolution/SL001-23-large.webp",
@@ -9616,7 +9597,7 @@
           "section": {
             "eyebrow": "CHAPTER 05",
             "title": "2025 品牌升级",
-            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。部分商户资料、价格及销量为样机展示示意。山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
+            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。部分商户资料、价格及销量为样机展示示意。山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。"
           }
         },
         {
