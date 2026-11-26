@@ -3660,7 +3660,7 @@
           "section": {
             "eyebrow": "品牌应用",
             "title": "早期美团店铺",
-            "description": "依同案早期美团店招、头像、横幅及历史首屏复原。商品按归档文件分组排列，顺序及点评横滑位置为展示推定。部分商户资料、价格及销量为样机展示示意。十一月头像按同案早期页面位置演示。正式、应急与热饮商品稿分别保留。"
+            "description": "店铺首屏沿用同案早期美团店招、头像和横幅。第二张呈现同案十一月头像版本。部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -3751,381 +3751,6 @@
             "eyebrow": "大众点评",
             "title": "商户详情 · 头图横滑末位",
             "description": "横向滑动头图，保留历史详情页的原有栏目。"
-          }
-        },
-        {
-          "id": "L012-rev-06",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-06-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-06",
-            "sourceObject": "正式商品01.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "25b0af4a51615562ee46840d667f58413eeb87a2b1548da115223468766e1fc2",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "品牌应用",
-            "title": "正式商品稿",
-            "description": "按归档顺序展示原稿。"
-          }
-        },
-        {
-          "id": "L012-rev-07",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-07-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-07",
-            "sourceObject": "正式商品02.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "ba9aeaab8a6432bace06691fa440690633849f6ceab2362aee93c7569c119710",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-08",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-08-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-08",
-            "sourceObject": "正式商品03.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "ed7aafdcdd732e82fc2a75a7d386477a6dcb2c19dbd8aff1c8f0f67225ace16f",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-09",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-09-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-09",
-            "sourceObject": "正式商品04.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "cca02613b4e6339c0c5ccd0cd889f07474397a836260c48131ac1dad5d65fc85",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-10",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-10-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-10",
-            "sourceObject": "正式商品05.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "8881d92d32007f24c8629b30c21d8c13fd6f807ab0d0f4e22540ef4aff6765ed",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-11",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-11-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-11",
-            "sourceObject": "正式商品06.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "72440e2bf1c5197405561db89f75c7d4056c1aaf84f753ec029eb8fd73db9a9e",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-12",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-12-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-12",
-            "sourceObject": "正式商品07.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "3e669f3d37b22e1e3997721fcac4fdd4820994bd6b0c61a1b94333916cc7d2ac",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-13",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-13-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-13",
-            "sourceObject": "正式商品08.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "2ae9e0bdfa3cdcbff0e11fbc80f91df197526845fcd0d1e4855938eb2cc54f5a",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-14",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-14-device.webp",
-          "width": 1920,
-          "height": 1439,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-14",
-            "sourceObject": "应急商品01.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "b811a4e2942260722752fe5abaf5f3a5acd17693722252bd31fdabf2e603e3a1",
-            "width": 1920,
-            "height": 1439,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "品牌应用",
-            "title": "应急商品稿",
-            "description": "按归档顺序展示原稿。"
-          }
-        },
-        {
-          "id": "L012-rev-15",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-15-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-15",
-            "sourceObject": "应急商品02.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "3996c9d43234069201771e46c043d4da4ea332149a7474e710060e02d55a4ac1",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-16",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-16-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-16",
-            "sourceObject": "应急商品03.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "ad4dfd14b9a3e8d545df79596888c4e2388e0bb8c9fc81cf0cb86b2dae72bcbe",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-17",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-17-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-17",
-            "sourceObject": "应急商品04.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "e56a6141f0c5b9cd6deabfc8a89a24256aaa37b007bcaa5018d29e14dfa3c854",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-18",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-18-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-18",
-            "sourceObject": "应急商品05.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "7ff866dc9c18e20aa24930283e7ad2df13f6ed70586b66e1905d71b2d4104546",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-19",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-19-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-19",
-            "sourceObject": "应急商品06.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "4ae88d1b55f62e769e6bd24b5c5cadb485cfb9fb6f81a4f795d46ee9ae4d95f3",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-20",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-20-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-20",
-            "sourceObject": "热饮商品01.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "b5276991ee67f3b698b71c1158638733e30865164988130e3e81187198e5f3d9",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "品牌应用",
-            "title": "热饮商品稿",
-            "description": "按归档顺序展示原稿。"
-          }
-        },
-        {
-          "id": "L012-rev-21",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-21-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-21",
-            "sourceObject": "热饮商品02.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "e454ea8032009afa0ee38c59d3d20528a2509730ce81a3b6219f6418db1322f6",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-22",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-22-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-22",
-            "sourceObject": "热饮商品03.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "56c10d028b7302df1b11cef98569751a1eb633912cb49a3029a82a82f781193d",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "L012-rev-23",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/L012/revision-23-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "L012-rev-23",
-            "sourceObject": "热饮商品04.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "608ed2e2333dc47e80e195b6bd1704085192ce3b8cb2b620861a22ff97166e42",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
           }
         },
         {
@@ -9742,25 +9367,6 @@
           }
         },
         {
-          "id": "SL001-W-single",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-W-single.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-W-single",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-W-single.psd",
-            "extractionMethod": "同案组件重构",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "fd8adec091c8221767bf8b086347bad55d41f128d68cc2ed241751aa78f10c52",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
           "id": "SL001-W-store",
           "type": "image",
           "src": "/media/springlai/brand-evolution/SL001-W-store.webp",
@@ -9794,215 +9400,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "429e9798d3404ba19438d93b58acde00035be0770500158b18ab61e2a45f47b2",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-01",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-01.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-01",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-01.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "96a10d71fdbce4c42e9a20d0a5d90f3e43b84ba034a2ea37c0e252b4a8ee50ee",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-07",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-07.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-07",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-07.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "48fbbc90c4d6b71fc6543ba21f82d5570fe31a6f81a4d01ec3eed0e2c7396b5d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-13",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-13.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-13",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-13.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "5889fb388ef97e4ca4e871941873d604d87e081fb3c2b78e8aad9c1b617b163a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-19",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-19.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-19",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-19.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "9e531d399bd3a8f1032579a224fd8b8e0af35b8590f88f835f1ef374af9d8dd4",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-25",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-25.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-25",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-25.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "d6ed328b73112032828330f259a1b415d93cbdc73e585109b6298de84334e6f1",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-31",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-31.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-31",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-31.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "7a26aff3d959de0cfc68e95035615665ad03119a1441db958f03469f37dd2985",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-37",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-37.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-37",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-37.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "827e36cd1fd3c0ede6d08831e0e87054b3e1f72e8d34be329dbaf790df03869d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-43",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-43.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-43",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-43.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "78e0ae46f2126f0cb22a9cbf111ae618a5e57ed92b2bb468fea8230c743d5a6f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-49",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-49.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-49",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-49.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "65e7f1038e608f24857e5c9a91a71ded2a8ff81058f886ec4e2868c6bbcbc699",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-55",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-55.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-55",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-55.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "64842efb3571280cb95ffeee99191e3e41ac61a746a586052013b27d659569df",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-winter-menu-61",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-winter-menu-61.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-winter-menu-61",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-winter-menu-61.psd",
-            "extractionMethod": "按冬季同案定稿重构的点菜滚动分段",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "d45b78c36cab1928bf293ede97bb1146637eb8680a457478694d191e5ef51427",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -10219,7 +9616,7 @@
           "section": {
             "eyebrow": "CHAPTER 05",
             "title": "2025 品牌升级",
-            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。 部分商户资料、价格及销量为样机展示示意。 山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
+            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。部分商户资料、价格及销量为样机展示示意。山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
           }
         },
         {
@@ -10503,101 +9900,6 @@
             "width": 1350,
             "height": 2045,
             "sha256": "5617f32ab1c9bdabbe73a1cdfc585b236c4e94d3e6aac4a49c2e456ef9c5c9cd",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-KM01",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-KM01.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-KM01",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-KM01.psd",
-            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "c326c54bf59b28dc9971ddb15c07070e503055b629e718787d5dcec5ce13ce1a",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-KM02",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-KM02.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-KM02",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-KM02.psd",
-            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "206dda13012dfe0763bfff8080ddfd05e056c8c804f2fec1895973c82e8a949e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-KM03",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-KM03.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-KM03",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-KM03.psd",
-            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "9914f34d9d78013d7237d515d0e3253547b91e1bc98c1f221ddc4e98c7a744bc",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-KM04",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-KM04.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-KM04",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-KM04.psd",
-            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "07f463c8b517b9d4d99968947ef39f8bf4a00698925db2c1fc4a0e86f691a70b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "SL001-KM05",
-          "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-KM05.webp",
-          "width": 1350,
-          "height": 2045,
-          "layout": "full",
-          "provenance": {
-            "assetId": "SL001-KM05",
-            "sourceType": "psd",
-            "sourcePsd": "SL001-KM05.psd",
-            "extractionMethod": "从现网同案合图按白色间隔提取，手机图片预览示意，具体渠道待核",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "8bf53d9df975fc7051b653c33cc4f14b6f3c5e295a5158bd50a99eb09d82d05d",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -11305,19 +10607,19 @@
         {
           "id": "SL004-06",
           "type": "image",
-          "src": "/media/cases/SL004/phone-1-45a5651101.webp",
+          "src": "/media/cases/SL004/sl004-06-9eb02f1e0d.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2350,
+          "height": 1373,
           "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "SL004-06",
             "sourceType": "psd",
-            "sourcePsd": "冷饮点评五图.psd",
-            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "45a5651101611076a1f2adf2b9ad4fbf89b96259999e529e102246fe7e214430",
+            "sourcePsd": "SL004-06.psd",
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。",
+            "width": 2350,
+            "height": 1373,
+            "sha256": "9eb02f1e0d9cb171597145ccd876301a516d455cb0576403c6ce6ea5d6b63642",
             "classification": "final_design",
             "finalWorkVerified": true
           },
@@ -11355,19 +10657,19 @@
         {
           "id": "SL004-08",
           "type": "image",
-          "src": "/media/cases/SL004/phone-3-a4e0c4bc18.webp",
+          "src": "/media/cases/SL004/sl004-08-94bbd1c9c4.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2350,
+          "height": 1373,
           "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "SL004-08",
             "sourceType": "psd",
-            "sourcePsd": "热饮点评五图.psd",
-            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "a4e0c4bc18959a3a6f30b0fadd32552c587ffa9a69d013e93685c46bd81f83cf",
+            "sourcePsd": "SL004-08.psd",
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。",
+            "width": 2350,
+            "height": 1373,
+            "sha256": "94bbd1c9c481f92979192507d73e978431c0fca7bc4b7f4f8316498484c182e1",
             "classification": "final_design",
             "finalWorkVerified": true
           },
@@ -11405,19 +10707,19 @@
         {
           "id": "SL004-phone-5",
           "type": "image",
-          "src": "/media/cases/SL004/phone-5-958a537925.webp",
+          "src": "/media/cases/SL004/sl004-phone-5-ff5c31c716.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2350,
+          "height": 1373,
           "portfolioPdfSelected": true,
           "provenance": {
             "assetId": "SL004-phone-5",
             "sourceType": "psd",
-            "sourcePsd": "冷热同版点评五图.psd",
-            "extractionMethod": "Original Illustrator artboards in platform-phone-mockups UI, placed in editable device PSD",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "958a537925ce5c3878a48df767527c834d3254b245f4738ebcf7e6ba2d884bd5",
+            "sourcePsd": "SL004-phone-5.psd",
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。",
+            "width": 2350,
+            "height": 1373,
+            "sha256": "ff5c31c7169c84024b31aa8b23ef9f1515fbb90104bbe1fde07e22e7c8fabcd4",
             "classification": "final_design",
             "finalWorkVerified": true
           },
@@ -11802,54 +11104,6 @@
           "src": "/media/springlai/inner-mongolia/02.jpg",
           "layout": "full",
           "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL006-03",
-          "type": "image",
-          "layout": "full",
-          "width": 1350,
-          "height": 2045,
-          "src": "/media/springlai/inner-mongolia/SL006-product-1.webp",
-          "provenance": {
-            "assetId": "SL006-03",
-            "sourceType": "psd",
-            "sourcePsd": "SL006-product-1.psd",
-            "sourceAi": "231230-内蒙古-线上.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "9235c504b7ca390beed4807ed500f6c8c09c9879d588a83ba1bd945f550cf204",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "线上应用",
-            "title": "内蒙古限定 · 美团商品详情",
-            "description": "两款商品按同案美团画板还原，界面为作品集陈列示意。"
-          }
-        },
-        {
-          "id": "SL006-product-2",
-          "type": "image",
-          "layout": "full",
-          "width": 1350,
-          "height": 2045,
-          "src": "/media/springlai/inner-mongolia/SL006-product-2.webp",
-          "provenance": {
-            "assetId": "SL006-product-2",
-            "sourceType": "psd",
-            "sourcePsd": "SL006-product-2.psd",
-            "sourceAi": "231230-内蒙古-线上.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "同案 AI 逐板导出，按原始组件重构页面，置入智能对象并重开 PSD 校验",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "14682a8ee63ef2720c371c3b52cefcaaee19522c39b8e92f33aa77661cbb787d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
         }
       ]
     },
@@ -12834,7 +12088,7 @@
           "section": {
             "eyebrow": "品牌应用",
             "title": "早期美团店铺",
-            "description": "依同案早期美团店招、头像、横幅及历史首屏复原。商品按归档文件分组排列，顺序及点评横滑位置为展示推定。部分商户资料、价格及销量为样机展示示意。历史美团提案沿用了饮品名称，本次依春莱小院菜品原稿复原。点评沿用历史商户名称。"
+            "description": "店铺首屏保留同案早期美团店招、头像和横幅，菜品按春莱小院原稿呈现。部分商户资料、价格及销量为样机展示示意。"
           }
         },
         {
@@ -12905,191 +12159,6 @@
             "eyebrow": "大众点评",
             "title": "商户详情 · 头图横滑末位",
             "description": "横向滑动头图，保留历史详情页的原有栏目。"
-          }
-        },
-        {
-          "id": "N023-rev-05",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-05-device.webp",
-          "width": 1920,
-          "height": 1439,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-05",
-            "sourceObject": "外卖菜品商品01.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "77c38f4fa25eec397c3eb883e0abc86412fefc553adfae58499740519627b8ac",
-            "width": 1920,
-            "height": 1439,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "品牌应用",
-            "title": "外卖菜品商品稿",
-            "description": "按归档顺序展示原稿。"
-          }
-        },
-        {
-          "id": "N023-rev-06",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-06-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-06",
-            "sourceObject": "外卖菜品商品02.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "64ed4e586656d0e5458b0640abd8d28c2d1dbda1092bfe04e80f1eaa03150ebd",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-07",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-07-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-07",
-            "sourceObject": "外卖菜品商品03.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "6e2f92942025da476d9e053f9a2fc9a90fec6ff07f211975a4ca587ac6ad0c75",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-08",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-08-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-08",
-            "sourceObject": "外卖菜品商品04.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "34f2a2f201595de3456d69edcff4b3b444d943892965e0bd4d6f8feafe118cd5",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-09",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-09-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-09",
-            "sourceObject": "外卖菜品商品05.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "23f260cb1e5c706c089d6f90993b34e4b6f3188f157602ec0e469eeae77acd75",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-10",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-10-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-10",
-            "sourceObject": "外卖菜品商品06.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "b5a70e3598e0e5ca3d3ea127130e644af445792265e49f045d722f378a309b6a",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-11",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-11-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-11",
-            "sourceObject": "外卖菜品商品07.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "f364eb0ae06d7ef49c0be9df63139e8ed7b13b9df2bb9710eb2accf13d2eddbe",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-12",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-12-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-12",
-            "sourceObject": "外卖菜品商品08.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "ca11b57c088cdac0a21e916c9103a5b9e2bc8d8f0c8d600cb3c2f3a2882f94e0",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N023-rev-13",
-          "type": "image",
-          "layout": "full",
-          "src": "/media/cases/N023/revision-13-device.webp",
-          "width": 1920,
-          "height": 1440,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N023-rev-13",
-            "sourceObject": "外卖菜品商品09.jpg",
-            "sourceType": "psd",
-            "extractionMethod": "同案画板、平台内屏与分层手机样机",
-            "sha256": "545417a7e146e14a7612080563128ab52a38936afc7a3d81ef942debe0976106",
-            "width": 1920,
-            "height": 1440,
-            "classification": "final_design",
-            "finalWorkVerified": true
           }
         },
         {
@@ -13211,27 +12280,6 @@
       "primaryIndustry": "冬季热饮",
       "media": [
         {
-          "id": "N024-phone-05",
-          "type": "image",
-          "src": "/media/cases/N024/phone-05-23295d287b.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N024-phone-05",
-            "sourceType": "psd",
-            "sourcePsd": "N024/成品/05-美团茶香两款.psd",
-            "sourceObject": "入库 body-10、12、13 和海报14",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "23295d287b5379b7dc7a56b6fe265a4a9a820e59815c560358939bccf56e6b80",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "已确认平台内屏与 Photoshop 智能对象换屏"
-          },
-          "portfolioPdfSelected": true
-        },
-        {
           "id": "N024-body-1",
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-01.jpg",
@@ -13254,11 +12302,6 @@
           "src": "/media/mustache-cocoa-winter/body-02.jpg",
           "layout": "half",
           "portfolioPdfSelected": true,
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "热可可启航",
-            "description": "以明黄色航海语汇发布首轮六款热饮，并建立统一产品肖像。 招牌热可可另附同款同价的两版商品图，区别在人物和杯标。 部分商户资料、价格及销量为样机展示示意。"
-          },
           "provenance": {
             "assetId": "N024-body-2",
             "sourceObject": "241016-大胡子可可-热饮6款-预告海报.jpg",
@@ -13286,86 +12329,51 @@
             "sha256": "1e2abc194298e727e151ad513a4d2e6acc6c7b6928d142bb8579cfc0a52ab3c4",
             "classification": "final_design",
             "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N024-phone-01A",
-          "type": "image",
-          "src": "/media/cases/N024/phone-01a-c067e99af7.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N024-phone-01A",
-            "sourceType": "psd",
-            "sourcePsd": "N024/成品/01A-美团首轮六款.psd",
-            "sourceObject": "01—06号商品据 body-04 六格，杯身与 body-01 海报逐一核名",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "c067e99af7aee886802a68c100339e5144f6bba76f8249b1af2d8609fbea7846",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
-          }
-        },
-        {
-          "id": "N024-phone-01B",
-          "type": "image",
-          "src": "/media/cases/N024/phone-01b-98ca8a6caf.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N024-phone-01B",
-            "sourceType": "psd",
-            "sourcePsd": "N024/成品/01B-美团招牌商品变体.psd",
-            "sourceObject": "241014 原板1、14、15，商品导出7/8，与板10同款",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "98ca8a6cafbcd1a4a0c30ca400b356c79d963a1c11324f913270f15fa9e166ea",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "热可可启航",
+            "description": "以明黄色航海语汇发布首轮六款热饮。大众点评头图经横滑呈现，商户资料、价格和销量为样机展示示意。"
           }
         },
         {
           "id": "N024-phone-02",
           "type": "image",
-          "src": "/media/cases/N024/phone-02-12cf7e1bfc.webp",
+          "src": "/media/cases/N024/n024-phone-02-7800489ff4.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1480,
+          "height": 3531,
           "provenance": {
             "assetId": "N024-phone-02",
             "sourceType": "psd",
-            "sourcePsd": "N024/成品/02-点评头图起始.psd",
+            "sourcePsd": "N024-phone-02.psd",
             "sourceObject": "body-05 点评头图1至5的起始滑位",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "12cf7e1bfcd68a5482d5f8293dc78e23d2da8ffdac11c08198d41d0f65d6d3b1",
+            "width": 1480,
+            "height": 3531,
+            "sha256": "7800489ff4aa9b2c0bdeaeaf4a4106b9c967ee280bdae84624bce58ab6229f77",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           }
         },
         {
           "id": "N024-phone-03",
           "type": "image",
-          "src": "/media/cases/N024/phone-03-81ab1ebe15.webp",
+          "src": "/media/cases/N024/n024-phone-03-d1caec70da.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2100,
+          "height": 1844,
           "provenance": {
             "assetId": "N024-phone-03",
             "sourceType": "psd",
-            "sourcePsd": "N024/成品/03-点评头图后段.psd",
+            "sourcePsd": "N024-phone-03.psd",
             "sourceObject": "body-05 点评头图1至5的中、末滑位",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "81ab1ebe153987314e40e691ff50fc05728f108094eae42192fd7a5c571ba483",
+            "width": 2100,
+            "height": 1844,
+            "sha256": "d1caec70dae51f6f6f22407dca287955609c44727768b2dcb367f36c80e8d329",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           }
         },
         {
@@ -13377,7 +12385,7 @@
           "section": {
             "eyebrow": "CHAPTER 02",
             "title": "可可航海系列",
-            "description": "以复古地图与探险家肖像扩展第二轮热饮风味。 部分商户资料、价格及销量为样机展示示意。"
+            "description": "以复古地图与探险家肖像扩展第二轮热饮风味。"
           },
           "provenance": {
             "assetId": "N024-body-6",
@@ -13408,26 +12416,6 @@
           }
         },
         {
-          "id": "N024-phone-04",
-          "type": "image",
-          "src": "/media/cases/N024/phone-04-42787b7c4f.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N024-phone-04",
-            "sourceType": "psd",
-            "sourcePsd": "N024/成品/04-美团航海两款.psd",
-            "sourceObject": "241024 同案归档 body-08、09 商品图，body-07 海报原字",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "42787b7c4fff2877323e1fa99ce13feff979227d4643b064664cdde36157e4af",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
-          }
-        },
-        {
           "id": "N024-body-14",
           "type": "image",
           "src": "/media/mustache-cocoa-winter/body-14.jpg",
@@ -13445,7 +12433,7 @@
           },
           "section": {
             "title": "茶香热可可",
-            "description": "茶香系列店铺样机见案例封面。",
+            "description": "海报以复古地图与两款茶香热可可延续冬季航海主题。",
             "eyebrow": "CHAPTER 03"
           }
         },
@@ -13467,28 +12455,7 @@
           },
           "section": {
             "title": "香蕉棉花糖可可",
-            "description": "部分商户资料、价格及销量为样机展示示意。",
             "eyebrow": "CHAPTER 04"
-          }
-        },
-        {
-          "id": "N024-phone-06",
-          "type": "image",
-          "src": "/media/cases/N024/phone-06-460fadaa7f.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N024-phone-06",
-            "sourceType": "psd",
-            "sourcePsd": "N024/成品/06-美团香蕉棉花糖.psd",
-            "sourceObject": "入库 body-11 和海报15",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "460fadaa7faaa6eaa53d065a391abad70a83951f133de643f57f0278ff31ebbb",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "已确认平台内屏与 Photoshop 智能对象换屏"
           }
         }
       ],
@@ -13528,21 +12495,21 @@
         {
           "id": "N025-phone-X01",
           "type": "image",
-          "src": "/media/cases/N025/phone-x01-9994080466.webp",
+          "src": "/media/cases/N025/n025-phone-x01-aaf41874e0.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2350,
+          "height": 1373,
           "provenance": {
             "assetId": "N025-phone-X01",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/X01-点评详情.psd",
+            "sourcePsd": "N025-phone-X01.psd",
             "sourceObject": "X 1、2–6、7、13/14",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "9994080466fecf732986e80813a16afa5e626df5d395d65525c45feafe029ad4",
+            "width": 2350,
+            "height": 1373,
+            "sha256": "aaf41874e0079324567e6d49b9e9538e123650df63593869bc9b5f156189b434",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           },
           "portfolioPdfSelected": true,
           "section": {
@@ -13554,21 +12521,21 @@
         {
           "id": "N025-phone-X02",
           "type": "image",
-          "src": "/media/cases/N025/phone-x02-c3dd8cae8b.webp",
+          "src": "/media/cases/N025/n025-phone-x02-0051856066.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1500,
+          "height": 4269,
           "provenance": {
             "assetId": "N025-phone-X02",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/X02-美团店铺.psd",
+            "sourcePsd": "N025-phone-X02.psd",
             "sourceObject": "X 1、8–10、13–16；Y15空白",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "c3dd8cae8b8188f4147914ad3523749a20ea6b24b411822d83e393e98ab3fcac",
+            "width": 1500,
+            "height": 4269,
+            "sha256": "00518560663a23fab334f386c3886c6c73eb92e41c9f3ff0f0002a7d721052ed",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           }
         },
         {
@@ -13684,21 +12651,21 @@
         {
           "id": "N025-phone-Y01",
           "type": "image",
-          "src": "/media/cases/N025/phone-y01-be63e36d03.webp",
+          "src": "/media/cases/N025/n025-phone-y01-f2074389a0.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 2350,
+          "height": 1373,
           "provenance": {
             "assetId": "N025-phone-Y01",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/Y01-点评详情.psd",
+            "sourcePsd": "N025-phone-Y01.psd",
             "sourceObject": "Y 1、2–6、7、13/14",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "be63e36d03d7cf541cfe308d362849ed6a3cf62044eb9a38a0e1abda5c6edd14",
+            "width": 2350,
+            "height": 1373,
+            "sha256": "f2074389a00bdc8e7ab59b7801377e11f78127d98789776e42c13812db358911",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           },
           "portfolioPdfSelected": true,
           "section": {
@@ -13710,21 +12677,21 @@
         {
           "id": "N025-phone-Y02",
           "type": "image",
-          "src": "/media/cases/N025/phone-y02-2e21dbd5de.webp",
+          "src": "/media/cases/N025/n025-phone-y02-8825a70c8a.webp",
           "layout": "full",
-          "width": 1920,
-          "height": 1440,
+          "width": 1500,
+          "height": 4269,
           "provenance": {
             "assetId": "N025-phone-Y02",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/Y02-美团店铺.psd",
+            "sourcePsd": "N025-phone-Y02.psd",
             "sourceObject": "Y 1、8–10、13–16；Y15空白",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "2e21dbd5de4a19c71e02c6c1aafc1bafc2cecd95398207a9a0dd288cbaefd80b",
+            "width": 1500,
+            "height": 4269,
+            "sha256": "8825a70c8a3b9dcf7947407be26434c18c191a8fb82ca3a27120d936b06c01e6",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按同案原画板及对应页面版式重放内屏，写入实物手机 PSD 的屏槽后导出。"
           },
           "portfolioPdfSelected": true
         },
@@ -18464,7 +17431,7 @@
       "id": "N073",
       "brandName": "春莱",
       "projectName": "凤梨季 · 带汽的菠萝",
-      "intro": "2022 年夏季，春莱用凤梨、红毛丹和椰子插画围绕三款袋装饮品排版。海报保留中泰双语品名、进店赠气球及原稿的酒精提示。",
+      "intro": "2022 年夏季，春莱用凤梨、红毛丹和椰子插画围绕三款袋装饮品排版。两幅海报分别呈现进店赠气球和常规新品宣传，保留中泰双语品名及原稿的酒精提示。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -18489,6 +17456,26 @@
             "sha256": "386d0f1346a0c5b1765f3b35d60c9a6dc7807b1cb9eaa4a9e8891492e01d561d",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N073-107CE-03",
+          "type": "image",
+          "layout": "full",
+          "src": "/media/cases/N073/107ce-03-dccd7e23b0.webp",
+          "width": 1408,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N073-107CE-03",
+            "sourceType": "ai",
+            "sourceAi": "202208-凤梨季新品海报-90x60cm.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "恢复同包字体后从 Illustrator 原画板完整导出。",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "width": 1408,
+            "height": 2100,
+            "sha256": "dccd7e23b0d4115833dacef43448d3a6e117d2d39b11b8b982896b30c0300caf"
           }
         }
       ],
