@@ -9302,20 +9302,26 @@
         {
           "id": "SL001-S-store",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-S-store.webp",
-          "width": 1350,
-          "height": 2045,
+          "src": "/media/springlai/brand-evolution/2022-summer-meituan-42dd56a7dc.webp",
+          "width": 1240,
+          "height": 2509,
           "layout": "full",
           "provenance": {
             "assetId": "SL001-S-store",
             "sourceType": "psd",
-            "sourcePsd": "SL001-S-store.psd",
-            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
-            "width": 1350,
-            "height": 2045,
-            "sha256": "472ddb24d330370258d9b22e22eb4e674e3032915381d151db1cfc7a21316f18",
+            "sourcePsd": "春莱夏季美团补字/分层/SL001-夏季美团-框19-r2.psd",
+            "extractionMethod": "保留原首屏和门店配送文案，按 Gemini 的建议补字，套入 19 号 PSD 并重新打开校对。",
+            "width": 1240,
+            "height": 2509,
+            "sha256": "42dd56a7dcf64c480c1829908358dec8a11edff2220790172b16c27a4b74a88a",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "2022 夏季同案店招、头像、横幅及两款传统奶茶图"
+          },
+          "section": {
+            "eyebrow": "2022 夏季",
+            "title": "美团外卖 · 夏季店铺",
+            "description": "春莱夏季店招与「来自东南亚」横幅同屏，点菜区露出泰式传统红奶茶与绿奶茶。商户资料、评分、价格及销量为样机展示示意。"
           }
         },
         {
@@ -9503,24 +9509,24 @@
         {
           "id": "SL001-W-store",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/2022-winter-meituan-27286d4a6d.webp",
+          "src": "/media/springlai/brand-evolution/2022-winter-meituan-dc79c54527.webp",
           "width": 2000,
           "height": 1681,
           "layout": "full",
           "provenance": {
             "assetId": "SL001-W-store",
             "sourceType": "psd",
-            "sourcePsd": "春莱冬季美团补字/分层/SL001-冬季美团-框03.psd",
-            "extractionMethod": "沿用同案两态内屏，按 Gemini 拟写的示意文字补齐可见槽位，套入 03 号 PSD 双机并重开核验。",
+            "sourcePsd": "春莱冬季美团补字/分层/SL001-冬季美团-框03-r2.psd",
+            "extractionMethod": "保留原首屏和门店配送文案，按 Gemini 的建议补字，套入 03 号 PSD 并重新打开校对。",
             "width": 2000,
             "height": 1681,
-            "sha256": "27286d4a6d4c5709e6975680a9247e6ce3f4c6e709baf666a90ec3d2114551ef",
+            "sha256": "dc79c5452754d8160391466ec17faf840db5e5aeefce5acd42faa190a750441c",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "sourceObject": "2022 冬季静态店招、头像、常规与热饮横幅及两款传统奶茶菜品图"
+            "sourceObject": "2022 冬季同案店招、头像、横幅及两款传统奶茶图"
           },
           "section": {
-            "eyebrow": "2022 秋冬",
+            "eyebrow": "2022 冬季",
             "title": "美团外卖 · 冬季店铺",
             "description": "常规横幅与「热饮已上线」版本沿用同一店招，点菜区露出泰式传统红奶茶和绿奶茶。商户资料、评分、价格及销量为样机展示示意。"
           }
