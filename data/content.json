@@ -18651,6 +18651,201 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N055",
+      "brandName": "春莱",
+      "projectName": "泡鲁达与椰子饭 · 全新升级 2.0",
+      "intro": "竖版海报以椰子、面包和产品摄影呈现榴莲泡鲁达、椰奶泡鲁达与椰子饭系列。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N055-9ADF5-01",
+          "type": "image",
+          "src": "/media/cases/N055/9adf5-01-d1b699a421.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N055-9ADF5-01",
+            "sourceType": "ai",
+            "sourceAi": "202302-泡鲁达海报-改3-文案修订-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "d1b699a421447562ec4bc868f01fa272fdae23fc3cdde2ae9516aad63c8ae85b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N057",
+      "brandName": "春莱",
+      "projectName": "云南山野橄榄 · 春季新品",
+      "intro": "玫瑰橄榄柠檬茶、橄榄蜜柠檬茶和橄榄香茅柠檬茶在棕榈叶间并列，以中泰双语呈现三款袋装果茶。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N057-08D84-01",
+          "type": "image",
+          "src": "/media/cases/N057/08d84-01-fc8fc3e71f.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N057-08D84-01",
+            "sourceType": "ai",
+            "sourceAi": "2303-橄榄海报-改2-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "fc8fc3e71fd1505e8984f3ab4e9395b3c618a2248daa008c81bc17d6cddda7b4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N058",
+      "brandName": "春莱",
+      "projectName": "泰芒啦 · 芒果系列",
+      "intro": "芒果黄与深绿呼应三款杯装芒果饮品，竖版产品海报以插画式构图呈现各款配料与名称。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N058-1889E-01",
+          "type": "image",
+          "src": "/media/cases/N058/1889e-01-93adf7bd71.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N058-1889E-01",
+            "sourceType": "ai",
+            "sourceAi": "2305-芒果-产品海报-改5.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "93adf7bd71c3b3fc5661f2062494e78638f16bd5e4d75cc4baf6d505abe89368",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N066",
+      "brandName": "春莱",
+      "projectName": "雨林橄榄 2.0",
+      "intro": "热带植物和浅蓝天空贯穿预告及新品海报。主海报展示泰凉橄榄百香冰、泰凉橄榄凤梨和泰凉橄榄鲜橙冰茶。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N066-DA310-02",
+          "type": "image",
+          "src": "/media/cases/N066/da310-02-6bde47a82d.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N066-DA310-02",
+            "sourceType": "ai",
+            "sourceAi": "230730-橄榄2.0预告及新品海报-60x90cm-改1.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "6bde47a82d87fadc32e1d693de62df0c82bfadc15516f7429404f51cce17b265",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N066-DA310-01",
+          "type": "image",
+          "src": "/media/cases/N066/da310-01-f2340ee690.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N066-DA310-01",
+            "sourceType": "ai",
+            "sourceAi": "230730-橄榄2.0预告及新品海报-60x90cm-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "f2340ee690daae8ce232572f2b2c9deea2ab9e6fafcf7bf984751f0ff692c628",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N079",
+      "brandName": "春莱",
+      "projectName": "橄榄刮油柠茶 · 臻清联名",
+      "intro": "联名海报以浅色背景和橄榄绿字样呈现杯装饮品，保留「无忧无虑，畅通无阻」主题与臻清、春莱两个品牌标识。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N079-8E4E3-01",
+          "type": "image",
+          "src": "/media/cases/N079/8e4e3-01-fab89efaec.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N079-8E4E3-01",
+            "sourceType": "ai",
+            "sourceAi": "231028-橄榄海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "fab89efaec55ab7ca2c452b678d7a103d16998167fdada169a65afd65aab9c9b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18735,7 +18930,12 @@
     "N062",
     "N061",
     "N080",
-    "N082"
+    "N082",
+    "N055",
+    "N057",
+    "N058",
+    "N066",
+    "N079"
   ],
   "photographyCaseOrder": [
     "L021",
