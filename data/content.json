@@ -12702,23 +12702,25 @@
       "primaryIndustry": "冬季热饮",
       "media": [
         {
-          "id": "N024-body-10",
+          "id": "N024-phone-05",
           "type": "image",
-          "src": "/media/mustache-cocoa-winter/body-10.jpg",
+          "src": "/media/cases/N024/phone-05-23295d287b.webp",
           "layout": "full",
-          "width": 1001,
-          "height": 1000,
-          "portfolioPdfSelected": true,
+          "width": 1920,
+          "height": 1440,
           "provenance": {
-            "assetId": "N024-body-10",
-            "sourceObject": "crop-04.jpg",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 1001,
-            "height": 1000,
-            "sha256": "aca20d9abc291bbbb53d676c00ed51df3afc46f177232df29c54b0eb434dd8fd",
+            "assetId": "N024-phone-05",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/05-美团茶香两款.psd",
+            "sourceObject": "入库 body-10、12、13 和海报14",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "23295d287b5379b7dc7a56b6fe265a4a9a820e59815c560358939bccf56e6b80",
             "classification": "final_design",
-            "finalWorkVerified": true
-          }
+            "finalWorkVerified": true,
+            "extractionMethod": "已确认平台内屏与 Photoshop 智能对象换屏"
+          },
+          "portfolioPdfSelected": true
         },
         {
           "id": "N024-body-1",
@@ -12931,6 +12933,11 @@
             "sha256": "9796ce5aced18bd6001e7713a7f50be72e7a21f45b06566677adf4e590d4469d",
             "classification": "final_design",
             "finalWorkVerified": true
+          },
+          "section": {
+            "title": "茶香热可可",
+            "description": "茶香系列店铺样机见案例封面。",
+            "eyebrow": "CHAPTER 03"
           }
         },
         {
@@ -12948,6 +12955,31 @@
             "sha256": "20f698bb42de13f766b8b302d6e6f6e2a112f9662ab23c8efc076b377a0d39c1",
             "classification": "final_design",
             "finalWorkVerified": true
+          },
+          "section": {
+            "title": "香蕉棉花糖可可",
+            "description": "部分商户资料、价格及销量为样机展示示意。",
+            "eyebrow": "CHAPTER 04"
+          }
+        },
+        {
+          "id": "N024-phone-06",
+          "type": "image",
+          "src": "/media/cases/N024/phone-06-460fadaa7f.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1440,
+          "provenance": {
+            "assetId": "N024-phone-06",
+            "sourceType": "psd",
+            "sourcePsd": "N024/成品/06-美团香蕉棉花糖.psd",
+            "sourceObject": "入库 body-11 和海报15",
+            "width": 1920,
+            "height": 1440,
+            "sha256": "460fadaa7faaa6eaa53d065a391abad70a83951f133de643f57f0278ff31ebbb",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "extractionMethod": "已确认平台内屏与 Photoshop 智能对象换屏"
           }
         }
       ],
@@ -12967,42 +12999,22 @@
       "primaryIndustry": "茶饮联名",
       "media": [
         {
-          "id": "N025-body-1",
+          "id": "N025-christmas",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-01.jpg",
+          "src": "/media/cases/N025/christmas-49dba87db3.webp",
           "layout": "full",
-          "width": 2800,
-          "height": 2800,
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N025-body-1",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 2800,
-            "sha256": "94fc57b2351bb37ce43539f3f53b58299f9385d10b17168a0dcea2c1d1d8d2cf",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "width": 1273,
+          "height": 1800,
+          "portfolioPdfSelected": true
         },
         {
-          "id": "N025-body-3",
+          "id": "N025-newyear",
           "type": "image",
-          "src": "/media/mustache-cocoa-tatan/body-03.jpg",
+          "src": "/media/cases/N025/newyear-d2ad0596bc.webp",
           "layout": "full",
-          "portfolioPdfSelected": true,
-          "provenance": {
-            "assetId": "N025-body-3",
-            "sourceType": "ai",
-            "sourceAi": "/Users/chim/Downloads/大胡子可可/241201-大胡子可可-tatan联名/241201-大胡子可可-tatan联名-圣诞-线上.ai",
-            "extractionMethod": "source-preserving deterministic JPEG export",
-            "width": 2800,
-            "height": 934,
-            "sha256": "b558cf1eeb64afe6728644577ccb684c3f1e182b01560dbe341bff898a6f1127",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
+          "width": 1273,
+          "height": 1800,
+          "portfolioPdfSelected": true
         },
         {
           "id": "N025-phone-X01",
