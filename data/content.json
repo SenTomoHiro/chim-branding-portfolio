@@ -10572,20 +10572,6 @@
           "portfolioPdfSelected": true
         },
         {
-          "id": "SL004-04",
-          "type": "image",
-          "src": "/media/springlai/xiaolanya/04.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
-          "id": "SL004-05",
-          "type": "image",
-          "src": "/media/springlai/xiaolanya/05.jpg",
-          "layout": "full",
-          "portfolioPdfSelected": true
-        },
-        {
           "id": "SL004-06",
           "type": "image",
           "src": "/media/cases/SL004/sl004-06-9eb02f1e0d.webp",
