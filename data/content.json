@@ -17709,6 +17709,87 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N078",
+      "brandName": "春莱",
+      "projectName": "夏日春莱招牌",
+      "intro": "2023 年 8 月的夏日招牌海报，从青柠荔枝碗的新品预告展开，再以浅绿与浅蓝两套画面呈现青柠荔枝碗和香水椰子冰沙。椰子冰沙海报也保留了带春莱字样的泳圈图形。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N078-aug-01",
+          "type": "image",
+          "src": "/media/cases/N078/aug-01-24f221fa03.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N078-aug-01",
+            "sourceType": "ai",
+            "sourceAi": "230808-夏日招牌.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按「青柠荔枝碗预告海报-60x90cm」画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "24f221fa0353e06aa931b96b25a5235be58ddf01b1a9692525345fbe430380cb",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N078-aug-02",
+          "type": "image",
+          "src": "/media/cases/N078/aug-02-829277ae7c.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N078-aug-02",
+            "sourceType": "ai",
+            "sourceAi": "230808-夏日招牌.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按「青柠荔枝碗产品海报-60x90cm」画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "829277ae7c4ea5c4abbab8d8af7dc210fddb186e8c17cd5ee21f4041e0f109d0",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "青柠荔枝碗"
+          }
+        },
+        {
+          "id": "N078-aug-03",
+          "type": "image",
+          "src": "/media/cases/N078/aug-03-fb3e38fb04.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N078-aug-03",
+            "sourceType": "ai",
+            "sourceAi": "230808-夏日招牌.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原件按「椰子冰沙产品海报-60x90cm」画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "fb3e38fb04ac2623ed68f9b46c5d6504d1a75a64d42bb04c4e6a6c5e9527099e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "香水椰子冰沙"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -17807,7 +17888,8 @@
     "N083",
     "N074",
     "N072",
-    "N065"
+    "N065",
+    "N078"
   ],
   "photographyCaseOrder": [
     "L021",
