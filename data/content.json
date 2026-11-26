@@ -16479,7 +16479,7 @@
       "id": "N053",
       "brandName": "春莱",
       "projectName": "2023 玫珑哈密瓜",
-      "intro": "2023 年夏季，春莱为玫珑蜜瓜系列设计了「夏日梦甜」字标。海报用细笔画和星芒排出主题，扇面则让粗白字压在蓝绿渐变上，瓜皮网纹沿着下缘展开。这里保留了扇面在加手绘前的平面稿和红色制版轮廓。",
+      "intro": "2023 年夏季，春莱为玫珑蜜瓜系列设计了「夏日梦甜」字标。封面用细笔画和星芒排出主题，异形扇保留手绘蜜瓜、黄花与叶片。杯装手提袋把同一组插画延展到正面，侧面排入泰文、手写文案和品牌标识。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16515,27 +16515,48 @@
         {
           "id": "N053-A02",
           "type": "image",
-          "src": "/media/cases/N053/02-fan.webp",
+          "src": "/media/cases/N053/melon-fan-05a33af98c.webp",
           "layout": "full",
-          "width": 1610,
-          "height": 1531,
+          "width": 1400,
+          "height": 1600,
           "provenance": {
             "assetId": "N053-A02",
             "sourceType": "ai",
-            "sourceAi": "/硬盘备份/春莱23年/230721-蜜瓜系列新品/加手绘前/玫珑哈密瓜-扇子图-改1.ai",
+            "sourceAi": "/硬盘备份/春莱23年/230721-蜜瓜系列新品/230718-密瓜-扇子-改2.ai",
             "sourceArtboard": 1,
-            "extractionMethod": "渲染加手绘前扇面平面稿，裁去外围空白，保留完整扇形与红色原稿轮廓。",
-            "width": 1610,
-            "height": 1531,
-            "sha256": "24743dd5daa3dd1953a267c946a3406f457d7368163f16168583362329c86d9c",
-            "classification": "mixed",
+            "extractionMethod": "原 AI 第 1 画板，保留完整扇面和手柄，裁去画心外的红色工艺标注。",
+            "width": 1400,
+            "height": 1600,
+            "sha256": "05a33af98c9547670c500a2e507a12be348c1a20b05c9da25e072640a3da2c27",
+            "classification": "final_design",
             "finalWorkVerified": true,
             "boundingBox": [
-              18,
-              410,
-              1679,
-              1990
+              28,
+              235,
+              1150,
+              1537
             ]
+          }
+        },
+        {
+          "id": "N053-bag",
+          "type": "image",
+          "src": "/media/cases/N053/melon-bag-802c504933.webp",
+          "layout": "full",
+          "width": 1920,
+          "height": 1536,
+          "provenance": {
+            "assetId": "N053-bag",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱23年/230721-蜜瓜系列新品/230718-密瓜杯装手提袋-270x210x110mm-改1.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "原 AI 第 1、2 画板，完整展示杯装手提袋正面和侧面。",
+            "width": 1920,
+            "height": 1536,
+            "sha256": "802c504933603602941a7ac17617d6e22e8f1184a70ecc5d5191a92a51d1347d",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "原画板 1、2"
           }
         }
       ],
