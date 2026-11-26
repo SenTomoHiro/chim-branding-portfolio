@@ -17761,21 +17761,19 @@
         {
           "id": "N075-teaser",
           "type": "image",
-          "src": "/media/cases/N075/teaser-e0ae2a24df.webp",
+          "src": "/media/cases/N075/teaser-f4b2d510ea.webp",
           "layout": "full",
           "width": 1467,
           "height": 2200,
           "provenance": {
             "assetId": "N075-teaser",
-            "sourceType": "ai",
-            "sourceAi": "202212-电解质系列-预告海报-60x90cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "在 Illustrator 恢复同案原字体，按原始画板导出。",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1467,
             "height": 2200,
-            "sha256": "e0ae2a24df0bfd3557d3ed5524cfc4c335b5ac7ce6fa845e8b2e660854b7d008",
+            "sha256": "f4b2d510eab08595d19e1b5a17b00b03ff0dea4065898ca5dc54dade1fa227c3",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-电解质系列-预告海报-60x90cm_画板 1.jpg"
           }
         },
         {
@@ -17801,21 +17799,19 @@
         {
           "id": "N075-hidden",
           "type": "image",
-          "src": "/media/cases/N075/hidden-906cacf299.webp",
+          "src": "/media/cases/N075/hidden-ea386b56ae.webp",
           "layout": "full",
           "width": 1467,
           "height": 2200,
           "provenance": {
             "assetId": "N075-hidden",
-            "sourceType": "ai",
-            "sourceAi": "202212-电解质系列-隐藏款海报-60x90cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "在 Illustrator 恢复同案原字体，按原始画板导出。",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1467,
             "height": 2200,
-            "sha256": "906cacf299f60788950914f18c2bb8a89609f1e18babb0fc65e8dc48cff427f0",
+            "sha256": "ea386b56ae5f3731e5003d3ff2bb41cb59572332748d56cb8c22e6a7f8ec190c",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-电解质系列/202212-电解质系列-隐藏款海报-60x90cm_画板 1.jpg"
           }
         }
       ],
@@ -18175,21 +18171,19 @@
         {
           "id": "N065-preview",
           "type": "image",
-          "src": "/media/cases/N065/oilgan-preview-eb19439465.webp",
+          "src": "/media/cases/N065/oilgan-preview-8da00a77b2.webp",
           "width": 1400,
           "height": 2100,
           "layout": "full",
           "provenance": {
             "assetId": "N065-preview",
-            "sourceType": "ai",
-            "sourceAi": "202212-油柑季预告海报-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 预告海报原件完整导出。",
+            "extractionMethod": "复用原交付 JPG，保留完整构图，转换为网站 WebP。",
             "width": 1400,
             "height": 2100,
-            "sha256": "eb19439465f19981d95b112205bcb6dd4550dcd05869bdfccdb9ecc84f5df6be",
+            "sha256": "8da00a77b21e5246b0bbfd4813f823e91a4c3e99ead72f28bb9761a127fb107e",
             "classification": "final_design",
-            "finalWorkVerified": true
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-橄榄新品/202212-油柑季预告海报-90x60cm-01.jpg"
           }
         }
       ],
