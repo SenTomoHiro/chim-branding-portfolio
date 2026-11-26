@@ -9173,6 +9173,47 @@
           "portfolioPdfSelected": true
         },
         {
+          "id": "SL001-2022-brand-manual",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/2022-brand-manual-758716eb10.jpg",
+          "layout": "half",
+          "width": 1749,
+          "height": 2481,
+          "provenance": {
+            "assetId": "SL001-2022-brand-manual",
+            "sourceObject": "品牌手册-01.jpg",
+            "extractionMethod": "复用 2022 年 7 月交付 JPG 封面。",
+            "width": 1749,
+            "height": 2481,
+            "sha256": "758716eb10f05cda77a1513d50177b3b6f5a1a3d6eaba7dc4715aa397fd457c6",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2022.07",
+            "title": "品牌手册与应用",
+            "description": "2022 年 7 月修订版品牌手册以「来自东南亚」呈现品牌定位。同批加盟手册延续标志和字体，应用于对外介绍。"
+          }
+        },
+        {
+          "id": "SL001-2022-franchise-manual",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/2022-franchise-manual-d29ed38697.jpg",
+          "layout": "half",
+          "width": 1749,
+          "height": 2481,
+          "provenance": {
+            "assetId": "SL001-2022-franchise-manual",
+            "sourceObject": "加盟手册_1.jpg",
+            "extractionMethod": "复用 2022 年 7 月交付 JPG 封面。",
+            "width": 1749,
+            "height": 2481,
+            "sha256": "d29ed386974e03bdc432d934819cd30e44ae1bade61baf2d5367b86d4f0166fe",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL001-01",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi01-01.jpg",
