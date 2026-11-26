@@ -17557,6 +17557,31 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N057-meituan",
+          "type": "image",
+          "src": "/media/cases/N057/meituan-ad5fe67898.webp",
+          "layout": "full",
+          "width": 1620,
+          "height": 2331,
+          "provenance": {
+            "assetId": "N057-meituan",
+            "sourceType": "psd",
+            "sourcePsd": "N057-美团-27.psd",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202304/2304-橄榄新品合集/2303-橄榄美团头像横幅/2304-橄榄-美团-_大尺寸店招实拍750x450px.jpg",
+            "extractionMethod": "用同案实拍店招、配套横幅、头像和菜品交付 JPG 还原店铺首屏，置入 27 号真实手持 PSD 样机。",
+            "width": 1620,
+            "height": 2331,
+            "sha256": "ad5fe678987b0279631548bd731a7b208290beb5e3d9a5433775e49270e69e15",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "美团外卖",
+            "title": "橄榄季店铺首屏",
+            "description": "实拍店招与配套横幅在店铺顶部衔接，点菜区露出一款橄榄蜜柠檬茶。商户资料、评分、价格及销量为样机展示示意。"
+          }
         }
       ],
       "published": true,
