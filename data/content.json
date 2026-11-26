@@ -10173,7 +10173,7 @@
           "section": {
             "eyebrow": "CHAPTER 04",
             "title": "2025 品牌升级",
-            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。 部分商户资料、价格及销量为样机展示示意。 山茶花的三个展示位置依据原画面和尺寸推定。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
+            "description": "以电子菜单与新店围挡为核心的持续视觉更新，并延展至 2025 春夏应用。 部分商户资料、价格及销量为样机展示示意。 山茶花系列分别展示美团小图招牌、美团大图招牌与店内横幅，以及饿了么招牌与横幅。昆明系列五幅以手机图片浏览方式呈现，具体投放渠道待考。"
           }
         },
         {
@@ -10445,18 +10445,18 @@
         {
           "id": "SL001-CM-small",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-CM-small.webp",
+          "src": "/media/cases/N042/small-c9ca76e1c2.webp",
           "width": 1350,
           "height": 2045,
           "layout": "full",
           "provenance": {
-            "assetId": "SL001-CM-small",
             "sourceType": "psd",
-            "sourcePsd": "SL001-CM-small.psd",
-            "extractionMethod": "依同案组件和确认槽位重构，复审后校正安全区",
+            "sourcePsd": "N042-r6-small.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "SL001-CM-small",
             "width": 1350,
             "height": 2045,
-            "sha256": "85e8f1889c35fc7ad4d7dcb5e811bfcc90b2bf695ff7a99044edcd71170706dd",
+            "sha256": "c9ca76e1c2c992a3e9d92ad63da120b16f0660f1b36e301279d9b77f9470d307",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -10464,18 +10464,18 @@
         {
           "id": "SL001-CM-large",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-CM-large.webp",
+          "src": "/media/cases/N042/large-36a18daba4.webp",
           "width": 1350,
           "height": 2045,
           "layout": "full",
           "provenance": {
-            "assetId": "SL001-CM-large",
             "sourceType": "psd",
-            "sourcePsd": "SL001-CM-large.psd",
-            "extractionMethod": "同案组件重构",
+            "sourcePsd": "N042-r6-large.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "SL001-CM-large",
             "width": 1350,
             "height": 2045,
-            "sha256": "0f7b609aa50b29a2f93e9754f813eb7f526837885fbf2641527c39ad69374293",
+            "sha256": "36a18daba41a114af725ed8a14e2a7781e303cacb90437da81508345101911b4",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -10483,18 +10483,18 @@
         {
           "id": "SL001-CM-ele",
           "type": "image",
-          "src": "/media/springlai/brand-evolution/SL001-CM-ele.webp",
+          "src": "/media/cases/N042/ele-5617f32ab1.webp",
           "width": 1350,
           "height": 2045,
           "layout": "full",
           "provenance": {
-            "assetId": "SL001-CM-ele",
             "sourceType": "psd",
-            "sourcePsd": "SL001-CM-ele.psd",
-            "extractionMethod": "同案组件重构",
+            "sourcePsd": "N042-r6-ele.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "SL001-CM-ele",
             "width": 1350,
             "height": 2045,
-            "sha256": "75839d27142ca017827faa9961f664719b5e946ff037a925e2b67646ab98d2c5",
+            "sha256": "5617f32ab1c9bdabbe73a1cdfc585b236c4e94d3e6aac4a49c2e456ef9c5c9cd",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -16563,6 +16563,168 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N042",
+      "brandName": "春莱",
+      "projectName": "春日花开 清爽之味 · 山茶花系列",
+      "intro": "春莱以一朵白色山茶花预告春季新品，再用同一组蓝绿渐变与明黄标题呈现三杯饮品。竖版海报换到门店电视横屏，外卖店铺则把系列视觉延伸到店招、横幅和点单列表。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "published": true,
+      "includeInPortfolioPdf": false,
+      "media": [
+        {
+          "id": "N042-A01",
+          "type": "image",
+          "src": "/media/cases/N042/teaser-c25f4dcbdf.webp",
+          "layout": "full",
+          "width": 1067,
+          "height": 1600,
+          "provenance": {
+            "sourceType": "ai",
+            "sourceAi": "250216-春莱-山茶花新品-改6.ai",
+            "sourceArtboard": 12,
+            "extractionMethod": "改六原生画板等比导出",
+            "assetId": "N042-A01",
+            "width": 1067,
+            "height": 1600,
+            "sha256": "c25f4dcbdf0437589d6f416dc87a60d107c1cb92046cd4bc957af6316dfb9393",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "新品预告",
+            "title": "春日花开 清爽之味",
+            "description": "白色山茶花占据画面下半部，花瓣旁的「新品预告」揭开本季主题。"
+          }
+        },
+        {
+          "id": "N042-A02",
+          "type": "image",
+          "src": "/media/cases/N042/poster-13829ad1a4.webp",
+          "layout": "full",
+          "width": 1067,
+          "height": 1600,
+          "provenance": {
+            "sourceType": "ai",
+            "sourceAi": "250216-春莱-山茶花新品-改6.ai",
+            "sourceArtboard": 11,
+            "extractionMethod": "改六原生画板等比导出",
+            "assetId": "N042-A02",
+            "width": 1067,
+            "height": 1600,
+            "sha256": "13829ad1a4d0f46a766091a761f4f3ef7c4830ea9de4e9857570ed0eff9a46ee",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "系列主视觉",
+            "title": "春 · 山茶花",
+            "description": "三杯饮品以黄色轮廓聚在一起。右下角的蓝色花朵角色与预告海报呼应。"
+          }
+        },
+        {
+          "id": "N042-A03",
+          "type": "image",
+          "src": "/media/cases/N042/tv-fa230ff83c.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 900,
+          "provenance": {
+            "sourceType": "ai",
+            "sourceAi": "250216-春莱-山茶花新品-改6.ai",
+            "sourceArtboard": 10,
+            "extractionMethod": "改六原生画板等比导出",
+            "assetId": "N042-A03",
+            "width": 1600,
+            "height": 900,
+            "sha256": "fa230ff83c03fcca885a301e14584c2efd6ea07ac3f54f986d149f9e0ee61677",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "门店电视",
+            "title": "山茶花横版海报",
+            "description": "同系列饮品铺开在横向画幅里，保留蓝绿渐变与明黄标题。"
+          }
+        },
+        {
+          "id": "N042-A04",
+          "type": "image",
+          "src": "/media/cases/N042/products-b10787d11f.webp",
+          "layout": "full",
+          "width": 1070,
+          "height": 2045,
+          "provenance": {
+            "sourceType": "psd",
+            "sourcePsd": "N042-r6-products.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "N042-A04",
+            "width": 1070,
+            "height": 2045,
+            "sha256": "b10787d11fa848790a513832ddc84ec4a04b5db0f8ed0ad3627952c2a105fc66",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "美团外卖",
+            "title": "三款山茶花饮品",
+            "description": "山茶花牛乳、山茶花青瓜薄荷柠檬和山茶花香橙爆柠按单品原稿列入菜单。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N042-A05",
+          "type": "image",
+          "src": "/media/cases/N042/small-c9ca76e1c2.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2045,
+          "provenance": {
+            "sourceType": "psd",
+            "sourcePsd": "N042-r6-small.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "N042-A05",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "c9ca76e1c2c992a3e9d92ad63da120b16f0660f1b36e301279d9b77f9470d307",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "美团外卖",
+            "title": "美团小图招牌",
+            "description": "小图招牌下接店铺头像和点单列表。部分商户资料、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N042-A06",
+          "type": "image",
+          "src": "/media/cases/N042/large-36a18daba4.webp",
+          "layout": "full",
+          "width": 1350,
+          "height": 2045,
+          "provenance": {
+            "sourceType": "psd",
+            "sourcePsd": "N042-r6-large.psd",
+            "extractionMethod": "改六原板置入对应平台内屏与分层手机样机",
+            "assetId": "N042-A06",
+            "width": 1350,
+            "height": 2045,
+            "sha256": "36a18daba41a114af725ed8a14e2a7781e303cacb90437da81508345101911b4",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "美团外卖",
+            "title": "大图招牌与店内横幅",
+            "description": "大图招牌给三杯饮品留出更多高度，店内横幅与圆角头像沿用系列视觉。部分商户资料、价格及销量为样机展示示意。"
+          }
+        }
+      ]
     }
   ],
   "defaultOrder": [
@@ -16633,7 +16795,8 @@
     "N060",
     "N068",
     "N067",
-    "N059"
+    "N059",
+    "N042"
   ],
   "photographyCaseOrder": [
     "L021",
