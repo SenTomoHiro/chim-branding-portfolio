@@ -17886,19 +17886,18 @@
         {
           "id": "N058-1889E-01",
           "type": "image",
-          "src": "/media/cases/N058/1889e-01-93adf7bd71.webp",
+          "src": "/media/cases/N058/mango-poster-60e61f0337.webp",
           "layout": "full",
-          "width": 1467,
-          "height": 2200,
+          "width": 1733,
+          "height": 2600,
           "provenance": {
             "assetId": "N058-1889E-01",
-            "sourceType": "ai",
-            "sourceAi": "2305-芒果-产品海报-改5.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "93adf7bd71c3b3fc5661f2062494e78638f16bd5e4d75cc4baf6d505abe89368",
+            "sourceType": "image",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202305/2305-芒果/2305-芒果-产品海报-改5_手绘-60x90cm.jpg",
+            "extractionMethod": "复用原交付 JPG，依嵌入色彩配置转为 sRGB，保持完整构图并转网页 WebP。",
+            "width": 1733,
+            "height": 2600,
+            "sha256": "60e61f0337a038d2270ca7450a817bfbc3f9c19ce585db5b4a34c531c62baa14",
             "classification": "final_design",
             "finalWorkVerified": true
           }
