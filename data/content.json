@@ -18132,7 +18132,7 @@
       "id": "N065",
       "brandName": "春莱",
       "projectName": "时令饮品海报选集",
-      "intro": "收录油柑季与夏日香茶的预告海报，以及臻清联名柠茶海报。",
+      "intro": "收录春莱油柑季预告、臻清联名柠茶海报，以及夏日香茶预告与 520 门店活动。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -18203,8 +18203,26 @@
           },
           "section": {
             "eyebrow": "CHAPTER 02",
-            "title": "夏日香茶 · 新品预告",
-            "description": "浅蓝色画面用凤梨和花材衬托「茶中有凉意，悠悠度夏日」的预告文案。"
+            "title": "夏日香茶 · 预告与 520 活动",
+            "description": "从凤梨与花材的新品预告，延伸至 5 月 20 日门店活动海报，展示古早凤梨乌龙与泰式青柚香茶。"
+          }
+        },
+        {
+          "id": "N081-520-offline",
+          "type": "image",
+          "src": "/media/cases/N081/summer-tea-520-00f57520d0.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N081-520-offline",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202405/240516-520/240516-520夏日香茶-04.jpg",
+            "extractionMethod": "采用原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "00f57520d08313949ce31ea9e3e73e877edd4f53561e57bcc6ae9fbe48799c18",
+            "classification": "final_design",
+            "finalWorkVerified": true
           }
         }
       ],
