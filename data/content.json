@@ -17264,7 +17264,7 @@
       "id": "N071",
       "brandName": "春莱",
       "projectName": "夏日甜心 · 芭乐季",
-      "intro": "2022 年春夏横幅将三款芭乐饮品的杯装与袋装形态并列，搭配粉绿渐变与中泰双语。",
+      "intro": "2022 年春夏横幅将三款芭乐饮品的杯装与袋装形态并列，搭配粉绿渐变与中泰双语。 扇面正反沿用横幅的粉绿渐变，正面加入芭乐插画与活动字样。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17287,6 +17287,24 @@
             "width": 2200,
             "height": 881,
             "sha256": "7797c1f58739f33f8c4155bd113ef9105e29813e1caca98437df1c2fbaa739ca",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N071-fan",
+          "type": "image",
+          "src": "/media/cases/N071/fan-16387a9c81.webp",
+          "layout": "full",
+          "width": 2300,
+          "height": 1632,
+          "provenance": {
+            "assetId": "N071-fan",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202204-2/202204-芭乐季扇子-01.jpg",
+            "extractionMethod": "使用芭乐季扇面原交付 JPG，保留画幅并转换为 sRGB WebP。",
+            "width": 2300,
+            "height": 1632,
+            "sha256": "16387a9c81e2697a8264da5991b8919652c21dcccd5a493516cc9c03ff054857",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -17334,7 +17352,7 @@
       "id": "N062",
       "brandName": "春莱",
       "projectName": "古早味系列饮品",
-      "intro": "三款杯装饮品置于蓝底和金色展台之间，各自展示杯贴与古早味系列命名。",
+      "intro": "三款杯装饮品置于蓝底和金色展台之间，各自展示杯贴与古早味系列命名。 三款杯装饮品在门店电视横版中并列展示。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17357,6 +17375,24 @@
             "width": 1467,
             "height": 2200,
             "sha256": "7c23698189577ecf9857b675daa30ff227f7758504d12ee21a890cdd06fd9993",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N062-tv",
+          "type": "image",
+          "src": "/media/cases/N062/tv-6c84819704.webp",
+          "layout": "full",
+          "width": 2300,
+          "height": 1294,
+          "provenance": {
+            "assetId": "N062-tv",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202307/230701-古早味蛋糕海报-3840x2160px_画板 1.jpg",
+            "extractionMethod": "使用门店电视海报原交付 JPG，保留画幅并转换为 sRGB WebP。",
+            "width": 2300,
+            "height": 1294,
+            "sha256": "6c8481970419b20da5797c1ac4ca657f58ff394ecb8796c4a515d3533e23e404",
             "classification": "final_design",
             "finalWorkVerified": true
           }
