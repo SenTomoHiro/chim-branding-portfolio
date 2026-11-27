@@ -9751,6 +9751,30 @@
           }
         },
         {
+          "id": "SL001-29",
+          "type": "image",
+          "src": "/media/springlai/brand-evolution/vi04-02.jpg",
+          "layout": "full",
+          "width": 2778,
+          "height": 3200,
+          "provenance": {
+            "assetId": "SL001-29",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/25年春莱品牌升级/250404-春莱-品牌升级-新店装修围挡-4X3m-改1.jpg",
+            "extractionMethod": "复用与原交付 JPG 对照一致的历史发布版。保留五幅围挡的原编排。",
+            "width": 2778,
+            "height": 3200,
+            "sha256": "a67d7faeee1a1b91d6088bc4e2ea837dc054123ee5d52237ba7b1ee74d2b0431",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "门店应用",
+            "title": "新店开业围挡",
+            "description": "五幅围挡设计把春莱角色置于海岛与城市背景，围绕「萨瓦迪卡 昆明」展开。"
+          }
+        },
+        {
           "id": "SL001-VI-lottery-home",
           "type": "image",
           "src": "/media/springlai/brand-evolution/SL001-VI-lottery-home.webp",
