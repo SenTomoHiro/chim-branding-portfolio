@@ -13496,7 +13496,7 @@
         {
           "id": "N028-A02",
           "type": "image",
-          "src": "/media/cases/N028/meituan-store-17-4558679a60.webp",
+          "src": "/media/cases/N028/meituan-store-17-ab91621935.webp",
           "layout": "full",
           "width": 1440,
           "height": 3469,
@@ -13506,11 +13506,11 @@
             "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
             "sourceArtboard": 10,
             "sourceObject": "Illustrator 原画板 01、08、10、13–16",
-            "sourcePsd": "N028-美团-框17-补字.psd",
-            "extractionMethod": "以同案 Illustrator 画板组合及同代美团橱窗结构重绘一个店铺视口，使用 T24315 (17).psd。",
+            "sourcePsd": "N028-美团-框17-品名修订.psd",
+            "extractionMethod": "以同案 Illustrator 画板组合及同代美团橱窗结构重绘一个店铺视口，使用 T24315 (17).psd。 同案 Illustrator 原画板由可编辑文字层补入演示品名后重新导出。",
             "width": 1440,
             "height": 3469,
-            "sha256": "4558679a606379cb0072effbba717d4573d82296decd1473e916fef6a643205e",
+            "sha256": "ab916219352fbf934b2eda0651f6147cdb4e6ec23cdd7819c89eed8087f38e41",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -13654,7 +13654,7 @@
         {
           "id": "N028-A10",
           "type": "image",
-          "src": "/media/cases/N028/dianping-swipes-04-50c28fd3c2.webp",
+          "src": "/media/cases/N028/dianping-swipes-04-822fdc3cc8.webp",
           "layout": "full",
           "width": 2400,
           "height": 1402,
@@ -13664,11 +13664,11 @@
             "sourceAi": "250630-阿泰珍奶-线上全套重做-改文案.ai",
             "sourceArtboard": 2,
             "sourceObject": "Illustrator 原画板 02–07、13–14",
-            "sourcePsd": "N028-点评-框04-补字.psd",
-            "extractionMethod": "以同案 Illustrator 头图重放点评详情五图横滑，使用 T24315 (4).psd。",
+            "sourcePsd": "N028-点评-框04-品名修订.psd",
+            "extractionMethod": "以同案 Illustrator 头图重放点评详情五图横滑，使用 T24315 (4).psd。 同案 Illustrator 原画板由可编辑文字层补入演示品名后重新导出。",
             "width": 2400,
             "height": 1402,
-            "sha256": "50c28fd3c27fd1e57f1612d371bc8dcb79fcbbd91ef957ab6391a821425de09c",
+            "sha256": "822fdc3cc8abeb533c49ec5747ebb484cde72d552e85823602de7ffd465b9bad",
             "classification": "final_design",
             "finalWorkVerified": true
           },
