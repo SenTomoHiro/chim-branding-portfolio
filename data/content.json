@@ -17529,7 +17529,7 @@
       "id": "N055",
       "brandName": "春莱",
       "projectName": "泡鲁达与椰子饭 · 全新升级 2.0",
-      "intro": "竖版海报以椰子、面包和产品摄影呈现榴莲泡鲁达、椰奶泡鲁达与椰子饭系列。",
+      "intro": "竖版海报以椰子、面包和产品摄影呈现榴莲泡鲁达、椰奶泡鲁达与椰子饭系列。 五月活动海报延续泡鲁达系列，浅色手提袋以椰肉肌理、拟人表情与泰文勾选栏延伸门店包装。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17552,6 +17552,50 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202302/202302-泡鲁达海报-改3-文案修订-60x90cm_画板 1.jpg"
+          }
+        },
+        {
+          "id": "N055-may-poster",
+          "type": "image",
+          "src": "/media/cases/N055/may-poster-1d89e2f144.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N055-may-poster",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "1d89e2f144d92a7c5615a575f30b4c887df0bba2f8a61685b2ebbd210fdedb7b",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202305/2305-泡鲁达/2305-泡鲁达海报-改2-60x90cm_加文案.jpg"
+          },
+          "section": {
+            "title": "五月活动海报",
+            "description": "粉色海报用椰肉、面包和叶片衬托两款泡鲁达，并呈现撕开杯贴的活动。"
+          }
+        },
+        {
+          "id": "N055-bag-coconut",
+          "type": "image",
+          "src": "/media/cases/N055/bag-coconut-943d117539.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 956,
+          "provenance": {
+            "assetId": "N055-bag-coconut",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 2200,
+            "height": 956,
+            "sha256": "943d117539e3e703e92f5420f42b894403deb30a888aa86b654e0632a07db423",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202302/202302-泡鲁达手提袋-椰肉底-210mmx270mmx110mm-05.jpg"
+          },
+          "section": {
+            "title": "手提袋展开图",
+            "description": "浅色椰肉肌理与拟人表情延伸到袋面，泰文品项旁保留门店勾选栏。"
           }
         }
       ],
