@@ -16683,6 +16683,65 @@
       "includeInPortfolioPdf": false
     },
     {
+      "id": "N084",
+      "brandName": "春莱",
+      "projectName": "泰式咸法酪 2.0",
+      "intro": "以绿色肌理、奶酪形象和四杯饮品构成系列海报，延续春莱的中泰双语设计。 异形杯贴沿用奶酪插画，交付稿展示两种底色及烫银和模切标注。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N084-EBFC3-02",
+          "type": "image",
+          "src": "/media/cases/N084/ebfc3-02-00a8a1683c.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N084-EBFC3-02",
+            "sourceType": "ai",
+            "sourceAi": "250522-春莱-泰式咸法酪2.0系列.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N084-cup-sticker",
+          "type": "image",
+          "src": "/media/cases/N084/cup-sticker-00fbef92e5.webp",
+          "layout": "full",
+          "width": 2232,
+          "height": 2400,
+          "section": {
+            "title": "异形杯贴印刷稿",
+            "description": "原稿保留两种配色、163 × 78 mm 尺寸、模切线和烫银标注。"
+          },
+          "provenance": {
+            "assetId": "N084-cup-sticker",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱2025/02 春莱/01 春莱稿件源文件/250522-春莱-泰式咸法酪2.0系列/250524-春莱-泰式咸法酪2.0系列贴纸.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件完整导出第一画板，再转换为 WebP。",
+            "width": 2232,
+            "height": 2400,
+            "sha256": "00fbef92e5fbbf907d7035435ca7240316e83536c8ba2f3e74b9c7cd1ab71716",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
       "id": "N064",
       "brandName": "春莱",
       "projectName": "芒果香香 2.0",
@@ -17946,10 +18005,69 @@
       ]
     },
     {
+      "id": "N072",
+      "brandName": "春莱",
+      "projectName": "橄榄季 · 今日宜划水",
+      "intro": "以「今日宜划水」为题，海报用浅绿底色、油柑枝叶和中泰双语展示糯香油柑柚子茶、红毛丹油柑生椰汁与油柑上头泰绿柠檬茶。 门店横幅沿用三款饮品插画，将标题、枝叶与产品横向排开。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N072-F4730-01",
+          "type": "image",
+          "src": "/media/cases/N072/f4730-01-709631c754.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N072-F4730-01",
+            "sourceType": "ai",
+            "sourceAi": "202205-橄榄季新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "709631c754cfd29950fcfea4f66184c961741734c1eb6bef467ea7cc9e3a175e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N072-banner",
+          "type": "image",
+          "src": "/media/cases/N072/banner-a457f8e171.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 960,
+          "section": {
+            "title": "门店横幅",
+            "description": "同一组油柑枝叶和三款饮品改为横向排版，保留中泰双语品名。"
+          },
+          "provenance": {
+            "assetId": "N072-banner",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202205/202205-橄榄季横幅-80x200cm文件夹(_F)/202205-橄榄季横幅-80x200cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件完整导出第一画板，再转换为 WebP。",
+            "width": 2400,
+            "height": 960,
+            "sha256": "a457f8e171b58bb6845b1668685b2e4b59ee4ce69488fe467476e412057b77d3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
       "id": "N065",
       "brandName": "春莱",
       "projectName": "时令饮品海报选集",
-      "intro": "从油柑季预告与「今日宜划水」橄榄季海报开篇，收录臻清联名柠茶、夏日香茶与泰式咸法酪的独立海报。",
+      "intro": "收录油柑季与夏日香茶的预告海报，以及臻清联名柠茶海报。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17972,26 +18090,6 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-橄榄新品/202212-油柑季预告海报-90x60cm-01.jpg"
-          }
-        },
-        {
-          "id": "N072-F4730-01",
-          "type": "image",
-          "src": "/media/cases/N072/f4730-01-709631c754.webp",
-          "width": 1400,
-          "height": 2100,
-          "layout": "full",
-          "provenance": {
-            "assetId": "N072-F4730-01",
-            "sourceType": "ai",
-            "sourceAi": "202205-橄榄季新品海报-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。",
-            "width": 1400,
-            "height": 2100,
-            "sha256": "709631c754cfd29950fcfea4f66184c961741734c1eb6bef467ea7cc9e3a175e",
-            "classification": "final_design",
-            "finalWorkVerified": true
           }
         },
         {
@@ -18042,31 +18140,6 @@
             "eyebrow": "CHAPTER 02",
             "title": "夏日香茶 · 新品预告",
             "description": "浅蓝色画面用凤梨和花材衬托「茶中有凉意，悠悠度夏日」的预告文案。"
-          }
-        },
-        {
-          "id": "N084-EBFC3-02",
-          "type": "image",
-          "src": "/media/cases/N084/ebfc3-02-00a8a1683c.webp",
-          "layout": "full",
-          "width": 1467,
-          "height": 2200,
-          "provenance": {
-            "assetId": "N084-EBFC3-02",
-            "sourceType": "ai",
-            "sourceAi": "250522-春莱-泰式咸法酪2.0系列.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 03",
-            "title": "泰式咸法酪 2.0",
-            "description": "深绿色肌理与奶酪形象衬托四杯饮品，系列海报延续中泰双语排版。"
           }
         }
       ],
@@ -18279,7 +18352,9 @@
     "N053",
     "N056",
     "N063",
+    "N072",
     "N065",
+    "N084",
     "N064",
     "N071",
     "N076",
