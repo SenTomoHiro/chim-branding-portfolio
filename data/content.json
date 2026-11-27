@@ -17317,7 +17317,7 @@
       "id": "N076",
       "brandName": "春莱",
       "projectName": "夏日甜心 · 芭乐 2.0",
-      "intro": "2023 年芭乐 2.0 将四款袋装果饮放在粉红展台上，以暖黄色背景和新鲜芭乐衬托不同口味。",
+      "intro": "2023 年芭乐 2.0 将四款袋装果饮放在粉红展台上，以暖黄色背景和新鲜芭乐衬托不同口味。 门店横版沿用四款饮品与粉红展台，按横屏重新安排标题、品名和品牌标识。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17340,6 +17340,24 @@
             "width": 1467,
             "height": 2200,
             "sha256": "f85a4183d439477702603f19e4885939b749abcf1d44880c3622bec480081542",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N076-tv",
+          "type": "image",
+          "src": "/media/cases/N076/tv-d2e64b746e.webp",
+          "layout": "full",
+          "width": 2300,
+          "height": 1294,
+          "provenance": {
+            "assetId": "N076-tv",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202306/2306-芭乐升级/230630-芭乐线下横_新品海报2-3840x2160px.jpg",
+            "extractionMethod": "复用门店横版海报原交付 JPG，保留画幅并转换为 sRGB WebP。",
+            "width": 2300,
+            "height": 1294,
+            "sha256": "d2e64b746e86af5ada9dea59b65ffaf691e5e391dde2f8a6fdb45e38ee34d58e",
             "classification": "final_design",
             "finalWorkVerified": true
           }
