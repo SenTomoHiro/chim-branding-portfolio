@@ -14919,7 +14919,7 @@
       "id": "N046",
       "brandName": "春莱",
       "projectName": "高原滇红系列海报",
-      "intro": "高原滇红系列以暖棕色花纹杯形成统一视觉。竖版海报将三杯饮品排在主标题下，店内电视横屏把三杯组合移到左侧，右侧留给标题与说明。",
+      "intro": "高原滇红系列以暖棕色花纹杯形成统一视觉。竖版海报将三杯饮品排在主标题下，店内电视横屏把三杯组合移到左侧，右侧留给标题与说明。金色预告先用光影和花形引出新品。滇红热柠香茶的竖版和电视横版把柠檬切片与杯身花纹放大。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -14964,6 +14964,78 @@
             "sha256": "1f05f911cc6dcc1e8bcd123528bb9a8476ede2cc47b5ce114b3ca36ed178b005",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N046-teaser",
+          "type": "image",
+          "src": "/media/cases/N046/teaser-fca92545bd.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N046-teaser",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202411～春节/241122-春莱-高原滇红系列/241122-春莱-高原滇红系列.ai",
+            "extractionMethod": "从同案 Illustrator 第 1 板完整导出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "fca92545bdf6b20eca4e4000157ce515654b6e26344e4552632505dcd1c964cd",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "241122-春莱-高原滇红系列.ai",
+            "sourceArtboard": 1
+          },
+          "section": {
+            "title": "新品预告"
+          }
+        },
+        {
+          "id": "N046-lemon-poster",
+          "type": "image",
+          "src": "/media/cases/N046/lemon-poster-74c0d874c8.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N046-lemon-poster",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202411～春节/241122-春莱-高原滇红系列/241122-春莱-高原滇红系列.ai",
+            "extractionMethod": "从同案 Illustrator 第 6 板上移原泰文字形组后完整导出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "74c0d874c85775ced8fc3bb1e0a2a0d53ab0401adb6787ba2733745d233f2fe3",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "241122-春莱-高原滇红系列.ai",
+            "sourceArtboard": 6
+          },
+          "section": {
+            "title": "滇红热柠香茶 · 竖版海报"
+          }
+        },
+        {
+          "id": "N046-lemon-tv",
+          "type": "image",
+          "src": "/media/cases/N046/lemon-tv-813d79da48.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1238,
+          "provenance": {
+            "assetId": "N046-lemon-tv",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202411～春节/241122-春莱-高原滇红系列/241122-春莱-高原滇红系列.ai",
+            "extractionMethod": "从同案 Illustrator 第 9 板完整导出。",
+            "width": 2200,
+            "height": 1238,
+            "sha256": "813d79da486da495397b1cb6d7636c97c5e278c13873255739260d0e1bf39ca7",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceType": "ai",
+            "sourceAi": "241122-春莱-高原滇红系列.ai",
+            "sourceArtboard": 9
+          },
+          "section": {
+            "title": "滇红热柠香茶 · 门店电视横版"
           }
         }
       ],
@@ -16752,7 +16824,7 @@
       "id": "N052",
       "brandName": "春莱",
       "projectName": "玫瑰秋冬热饮",
-      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，延续原稿的「秋冬热饮」主题。两款墨红玫瑰香卡沿花瓣轮廓模切，顶部预留挂孔。",
+      "intro": "2022 年秋冬，春莱推出泰式玫瑰可可、泰式生椰玫瑰、玫瑰清乌龙和泰式玫瑰咖啡。主海报以玫瑰红和花卉图像衬托四款饮品，延续原稿的「秋冬热饮」主题。单杯版放大玫瑰杯身，配上四款热饮的原料插图。两款墨红玫瑰香卡沿花瓣轮廓模切，顶部预留挂孔。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16775,6 +16847,27 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202210/202210-玫瑰新品合集/202210-玫瑰新品海报-改5-90x60cm-01.jpg"
+          }
+        },
+        {
+          "id": "N052-rose-poster-two",
+          "type": "image",
+          "src": "/media/cases/N052/rose-poster-two-cd979c3ab2.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N052-rose-poster-two",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202210/202210-玫瑰新品合集/202210-玫瑰新品海报-改5-90x60cm-02.jpg",
+            "extractionMethod": "复用同案原交付 JPG 的完整构图，转为网页 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "cd979c3ab2c2e51bea7d70905dabece11e4875c562789c1328da8360ac14186a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "玫瑰秋冬热饮 · 原料海报"
           }
         },
         {
