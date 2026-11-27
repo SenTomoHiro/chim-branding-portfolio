@@ -16975,6 +16975,30 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N056-tv",
+          "type": "image",
+          "src": "/media/cases/N056/grape-tv-d7890ae17f.jpg",
+          "layout": "full",
+          "width": 3840,
+          "height": 2160,
+          "provenance": {
+            "assetId": "N056-tv",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/232309/230821-葡萄系列/230821-葡萄-线上-改2_电视机海报-3840x2160px.jpg",
+            "extractionMethod": "直接复用字形完整的原交付 JPG，核对同案 Illustrator 第 12 画板。",
+            "width": 3840,
+            "height": 2160,
+            "sha256": "d7890ae17f3835c97f947c3820bdadc88b58dc6b96dfa2f603d8cbfedadd488e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "门店物料",
+            "title": "葡萄系列电子屏海报",
+            "description": "横版海报并列展示夏黑葡萄气泡和阳光玫瑰冰柠茶，保留原稿的中泰文和标价。"
+          }
         }
       ],
       "published": true,
