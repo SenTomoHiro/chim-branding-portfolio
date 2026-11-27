@@ -17229,7 +17229,7 @@
       "id": "N064",
       "brandName": "春莱",
       "projectName": "芒果香香 2.0",
-      "intro": "芒果冰酒酿与百香果芒芒悬浮在蓝天和芒果果肉之间，杯贴上的中英文各自对应两款饮品。",
+      "intro": "芒果冰酒酿与百香果芒芒悬浮在蓝天和芒果果肉之间，杯贴上的中英文各自对应两款饮品。 手提袋主面与侧面延续蓝天和芒果插画，侧面保留「芒果香香 2.0」标识。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17252,6 +17252,27 @@
             "width": 1467,
             "height": 2200,
             "sha256": "23c387b4e5ddc14c47f53cfce6d8c9bc9fae21ea4ca6d111ffa946dedc0d551c",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N064-bag",
+          "type": "image",
+          "src": "/media/cases/N064/bag-2de3693b75.webp",
+          "layout": "full",
+          "width": 1819,
+          "height": 1408,
+          "provenance": {
+            "assetId": "N064-bag",
+            "sourceType": "ai",
+            "sourceAi": "230821-芒果杯装手提袋-270x210x110mm.ai",
+            "sourceArtboard": 1,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/232309/230823-芒果2.0/230821-芒果杯装手提袋-270x210x110mm.ai｜原画板 1、2",
+            "extractionMethod": "从同案 Illustrator 原件导出第 1、2 板，分别展示手提袋主面和侧面。",
+            "width": 1819,
+            "height": 1408,
+            "sha256": "2de3693b75f05f5d06922cbdc6758b7b275a1f2a66474cb8490cf867028992c9",
             "classification": "final_design",
             "finalWorkVerified": true
           }
