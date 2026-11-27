@@ -17060,7 +17060,7 @@
       "id": "N063",
       "brandName": "春莱",
       "projectName": "清斋茶 · 返璞归真",
-      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。",
+      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。横版电视海报以棕榈叶和水面衬托四款茶饮，沿用中泰双语排版。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17085,6 +17085,28 @@
             "sha256": "42a833505a5284bb43907f003b6f72c2362fcbc7535cb1b8ddab79324cbc984d",
             "classification": "final_design",
             "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N063-tv",
+          "type": "image",
+          "src": "/media/cases/N063/tv-27ce627d1b.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1238,
+          "provenance": {
+            "assetId": "N063-tv",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 2200,
+            "height": 1238,
+            "sha256": "27ce627d1ba074f76a97275288752313183f6b22f8c32b2fcfcdcf21cf6c38db",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/232309/230814-清斋茶/230726-电视机海报3840x2160px_画板 1.jpg"
+          },
+          "section": {
+            "title": "电视海报",
+            "description": "「返璞归真」横版将四款茶饮陈列于水面与棕榈叶之间。"
           }
         }
       ],
