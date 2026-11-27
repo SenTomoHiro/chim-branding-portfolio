@@ -17901,6 +17901,31 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N058-meituan",
+          "type": "image",
+          "src": "/media/cases/N058/meituan-4e908541c2.webp",
+          "width": 1600,
+          "height": 2471,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N058-meituan",
+            "sourceType": "psd",
+            "sourcePsd": "N058-美团-21.psd",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202305/2305-芒果/2305-芒果-线上-改1_美团口袋店长店招-750x450px.jpg、/硬盘备份/GAY老板历史文件/春莱/定稿文件/202305/2305-芒果/2305-芒果-线上-改1_美团口袋店长配套横幅-720x240px.jpg、/硬盘备份/GAY老板历史文件/春莱/定稿文件/202305/2305-芒果/2305-芒果-线上-改1_美团头像-1600x1600px.jpg、/硬盘备份/GAY老板历史文件/春莱/定稿文件/202304/2304-芒果新品/2304-芒果美团菜品-_泰式芒果爆柠茶-杯装.jpg",
+            "extractionMethod": "复用同案交付的店招、配套横幅、头像与菜品，放入美团店铺首屏示意和 21 号实体手机 PSD 样机。",
+            "width": 1600,
+            "height": 2471,
+            "sha256": "4e908541c223447c1dd52ca90d02ca75b5b74a2580a4e0b42e81d33a6696b721",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2023 年 5 月 · 美团外卖",
+            "title": "泰芒啦店铺首屏",
+            "description": "店招和配套横幅沿用同一组人物摄影，点菜区露出泰式芒果爆柠茶。商户资料、评分、价格及销量为样机展示示意。"
+          }
         }
       ],
       "published": true,
