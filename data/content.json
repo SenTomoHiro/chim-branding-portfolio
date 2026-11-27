@@ -18173,11 +18173,6 @@
             "sha256": "5a55e6ae2b7c51e0aceeacf9ecef4c315b7257f07ddf1751cf131e81f5c15845",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "油柑季 · 印刷包材",
-            "description": "2022 年 12 月油柑季的封口纸沿用果实与枝叶插画，吊牌保留正反面、打孔和尺寸标注。"
           }
         },
         {
@@ -18196,6 +18191,11 @@
             "sha256": "2110ac1fb7ac3b6d0cce7d2d3a5ca8f766de37ba3149c112f5de06a4d08ed365",
             "classification": "final_design",
             "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "油柑季 · 印刷包材",
+            "description": "2022 年 12 月油柑季的封口纸沿用果实与枝叶插画，吊牌保留正反面、打孔和尺寸标注。"
           }
         },
         {
