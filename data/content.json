@@ -18131,8 +18131,8 @@
     {
       "id": "N065",
       "brandName": "春莱",
-      "projectName": "时令饮品海报选集",
-      "intro": "收录春莱油柑季预告、臻清联名柠茶海报，以及夏日香茶预告与 520 门店活动。",
+      "projectName": "时令饮品海报与包材",
+      "intro": "收录春莱油柑季预告与印刷包材、臻清联名柠茶海报，以及夏日香茶预告与 520 门店活动。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -18158,6 +18158,47 @@
           }
         },
         {
+          "id": "N065-oilgan-seal",
+          "type": "image",
+          "src": "/media/cases/N065/oilgan-seal-5a55e6ae2b.webp",
+          "layout": "full",
+          "width": 1654,
+          "height": 1654,
+          "provenance": {
+            "assetId": "N065-oilgan-seal",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-油柑季封口纸-改2-转曲-14x14cm_画板 1.jpg",
+            "extractionMethod": "采用原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1654,
+            "height": 1654,
+            "sha256": "5a55e6ae2b7c51e0aceeacf9ecef4c315b7257f07ddf1751cf131e81f5c15845",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "油柑季 · 印刷包材",
+            "description": "2022 年 12 月油柑季的封口纸沿用果实与枝叶插画，吊牌保留正反面、打孔和尺寸标注。"
+          }
+        },
+        {
+          "id": "N065-oilgan-hang-tag",
+          "type": "image",
+          "src": "/media/cases/N065/oilgan-hang-tag-2110ac1fb7.webp",
+          "layout": "full",
+          "width": 1501,
+          "height": 1177,
+          "provenance": {
+            "assetId": "N065-oilgan-hang-tag",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-橄榄新品/202212-油柑季吊牌-改1-40x60mm（异形打孔）-转曲_画板 1.jpg",
+            "extractionMethod": "采用原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1501,
+            "height": 1177,
+            "sha256": "2110ac1fb7ac3b6d0cce7d2d3a5ca8f766de37ba3149c112f5de06a4d08ed365",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "N079-8E4E3-01",
           "type": "image",
           "src": "/media/cases/N079/8e4e3-01-fab89efaec.webp",
@@ -18177,7 +18218,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 01",
+            "eyebrow": "CHAPTER 02",
             "title": "橄榄刮油柠茶 · 臻清联名",
             "description": "浅色背景衬托橄榄绿字样和杯装柠茶，画面保留臻清与春莱的联名标识。"
           }
@@ -18202,9 +18243,27 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "eyebrow": "CHAPTER 02",
+            "eyebrow": "CHAPTER 03",
             "title": "夏日香茶 · 预告与 520 活动",
-            "description": "从凤梨与花材的新品预告，延伸至 5 月 20 日门店活动海报，展示古早凤梨乌龙与泰式青柚香茶。"
+            "description": "以凤梨与花材预告夏日香茶，接续三款饮品的夏日 LUCKY 海报，以及 520 爱意＋1 和告白季物料。"
+          }
+        },
+        {
+          "id": "N081-summer-lucky",
+          "type": "image",
+          "src": "/media/cases/N081/summer-lucky-9847d55151.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N081-summer-lucky",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202405/240516-520/240516-520夏日香茶-03.jpg",
+            "extractionMethod": "采用原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "9847d5515161bb4da1cb72b5a7e508bb61234fa06b6d77ec6dec23125f509478",
+            "classification": "final_design",
+            "finalWorkVerified": true
           }
         },
         {
@@ -18221,6 +18280,24 @@
             "width": 1467,
             "height": 2200,
             "sha256": "00f57520d08313949ce31ea9e3e73e877edd4f53561e57bcc6ae9fbe48799c18",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N081-summer-confession",
+          "type": "image",
+          "src": "/media/cases/N081/summer-confession-db30330fec.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N081-summer-confession",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202405/240516-520/240516-520夏日香茶_画板 1 副本.jpg",
+            "extractionMethod": "采用原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "db30330fece8dab63189d82012aaf8f29ee74ffd62f5ceac21d9d7a0a8066fb2",
             "classification": "final_design",
             "finalWorkVerified": true
           }
