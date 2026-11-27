@@ -16999,6 +16999,58 @@
             "title": "葡萄系列电子屏海报",
             "description": "横版海报并列展示夏黑葡萄气泡和阳光玫瑰冰柠茶，保留原稿的中泰文和标价。"
           }
+        },
+        {
+          "id": "N056-meituan",
+          "type": "image",
+          "src": "/media/cases/N056/meituan-fbe992fe33.webp",
+          "layout": "full",
+          "width": 1380,
+          "height": 2993,
+          "provenance": {
+            "assetId": "N056-meituan",
+            "sourceType": "psd",
+            "sourcePsd": "N056-meituan.psd",
+            "sourceAi": "/硬盘备份/春莱23年/230821-葡萄/230821-葡萄-线上-改2.ai",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/232309/230821-葡萄系列/230821-葡萄-美团/230821-葡萄-线上-改2_美团口袋店长店招-750x450px.jpg",
+            "extractionMethod": "复用同案店招、配套横幅、头像及菜品的原交付 JPG，还原店铺首屏，使用 18 号实体手机 PSD 样机。",
+            "width": 1380,
+            "height": 2993,
+            "sha256": "fbe992fe33fe6c52d483f92382112d9ccf7a501c22e81a52d3f5d63e3d7ae483",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "美团外卖",
+            "title": "葡萄季店铺首屏",
+            "description": "口袋店长店招与配套横幅上下衔接，点菜区露出夏黑葡萄气泡。商户资料、评分、价格及销量为样机展示示意。"
+          }
+        },
+        {
+          "id": "N056-dianping",
+          "type": "image",
+          "src": "/media/cases/N056/dianping-66341effab.webp",
+          "layout": "full",
+          "width": 2520,
+          "height": 1337,
+          "provenance": {
+            "assetId": "N056-dianping",
+            "sourceType": "psd",
+            "sourcePsd": "N056-dianping.psd",
+            "sourceAi": "/硬盘备份/春莱23年/230821-葡萄/230821-葡萄-线上-改2.ai",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/232309/230821-葡萄系列/230821-葡萄-点评/230821-葡萄-线上-改2_大众点评头图-商户通5张版-800x600px-1.jpg",
+            "extractionMethod": "复用同案商户通五图原交付 JPG，保留五张头图的横滑顺序，使用 04 号三机实体 PSD 样机。",
+            "width": 2520,
+            "height": 1337,
+            "sha256": "66341effab38213dd38969dd47d663bbcce983d0b2e75cae0b70787e9a091b0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "大众点评",
+            "title": "葡萄季商户头图",
+            "description": "商户详情页的三个横滑位置依次展示五张葡萄季头图。商户资料、评分、价格及销量为样机展示示意。"
+          }
         }
       ],
       "published": true,
