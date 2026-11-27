@@ -15463,6 +15463,58 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N047-meituan",
+          "type": "image",
+          "src": "/media/cases/N047/N047-meituan-1fb9a75311.webp",
+          "layout": "full",
+          "width": 1540,
+          "height": 2984,
+          "provenance": {
+            "assetId": "N047-meituan",
+            "sourceType": "psd",
+            "sourcePsd": "N047-框19.psd",
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240524-各种线上补全/240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 9,
+            "extractionMethod": "同案 Illustrator 画板、历史平台版式、PSD 嵌入式智能对象。",
+            "width": 1540,
+            "height": 2984,
+            "sha256": "1fb9a753114b7319862263074501db84ca779155b8c78610a35a3f1e17cd0963",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2024 年渠道设计",
+            "title": "美团外卖店铺首屏",
+            "description": "大图店招与横幅叠接，点菜区露出同系列饮品。 商户资料、评分、价格及销量均为样机展示示意。"
+          }
+        },
+        {
+          "id": "N047-dianping",
+          "type": "image",
+          "src": "/media/cases/N047/N047-dianping-066a720342.webp",
+          "layout": "full",
+          "width": 2500,
+          "height": 1462,
+          "provenance": {
+            "assetId": "N047-dianping",
+            "sourceType": "psd",
+            "sourcePsd": "N047-框4.psd",
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240524-各种线上补全/240524-老挝咖啡-线上补全-改3.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "同案 Illustrator 画板、历史平台版式、PSD 嵌入式智能对象。",
+            "width": 2500,
+            "height": 1462,
+            "sha256": "066a7203422fbc08a1096bc33d686bf89d05e6eba3c72b79dca9e92e3c9b9c15",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2024 年渠道设计",
+            "title": "大众点评商户详情",
+            "description": "三台手机呈现五张头图依次横滑的三个位置。 商户资料、评分、价格及销量均为样机展示示意。"
+          }
         }
       ],
       "published": true,
