@@ -17296,6 +17296,31 @@
             "classification": "final_design",
             "finalWorkVerified": true
           }
+        },
+        {
+          "id": "N061-tv",
+          "type": "image",
+          "src": "/media/cases/N061/tv-poster-2c79358f8c.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1238,
+          "provenance": {
+            "assetId": "N061-tv",
+            "sourceType": "ai",
+            "sourceAi": "241218-春莱-普吉热果茶.ai",
+            "sourceArtboard": 4,
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202411～春节/241218-春莱-普吉热果茶/241218-春莱-普吉热果茶.ai",
+            "extractionMethod": "从同案 Illustrator 原件第 4 画板完整导出，按原构图转换为网页 WebP。",
+            "width": 2200,
+            "height": 1238,
+            "sha256": "2c79358f8c9c374267a9920ade7697dc67c93bb0544ea465a6fddea196da0ddf",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "店内电视横版",
+            "description": "横版将「酸酸甜甜 冬日维C」放在左侧，右侧并排呈现甜橙草莓热果茶与草莓百香果热果茶。"
+          }
         }
       ],
       "published": true,
