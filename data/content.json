@@ -17503,6 +17503,113 @@
       "includeInPortfolioPdf": false
     },
     {
+      "id": "N069",
+      "brandName": "春莱",
+      "projectName": "雨后山茶的香气 · 2022 山茶花系列",
+      "intro": "白色山茶花与枝叶衬托三款袋装饮品，海报按原稿保留泰式山茶花清奶茶、柠檬茶和凤梨冰茶的中泰双语。 同一套山茶花插画也用于门店横幅、手提袋和香卡套装。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N069-9BBAF-01",
+          "type": "image",
+          "src": "/media/cases/N069/9bbaf-01-a480e1cd24.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N069-9BBAF-01",
+            "sourceType": "ai",
+            "sourceAi": "202206-山茶花新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "a480e1cd24724de2568399f8f9b0589e46dae339a6a28b693a78f9e052c21d17",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N069-banner",
+          "type": "image",
+          "src": "/media/cases/N069/banner-5ba698c31d.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 960,
+          "section": {
+            "title": "门店横幅",
+            "description": "三款饮品沿横向排开，白色山茶花从画面左侧展开。"
+          },
+          "provenance": {
+            "assetId": "N069-banner",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/内部源文件/22年夏/202206-山茶花横幅-80x200cm文件夹(_F)/202206-山茶花横幅-80x200cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件完整导出第一画板，再转换为 WebP。",
+            "width": 2400,
+            "height": 960,
+            "sha256": "5ba698c31dedb79729e62a69d359112754f97ea35d216bd77d1d631844245ba9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N069-bag",
+          "type": "image",
+          "src": "/media/cases/N069/bag-ecacb633c5.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1458,
+          "section": {
+            "title": "手提袋",
+            "description": "正面沿用山茶花插画，侧面设置泰文品名和门店勾选栏。"
+          },
+          "provenance": {
+            "assetId": "N069-bag",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202206/202206-A山茶花手提袋-13x8x18cm_转曲.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件完整导出第一画板，再转换为 WebP。",
+            "width": 2400,
+            "height": 1458,
+            "sha256": "ecacb633c5025202154be274752bc9a7504ef2bfc3e5bd3025333ffcc19bb1ab",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N069-scent",
+          "type": "image",
+          "src": "/media/cases/N069/scent-784d117391.webp",
+          "layout": "full",
+          "width": 2399,
+          "height": 926,
+          "section": {
+            "title": "香卡套装",
+            "description": "圆形香卡、卡包和品牌丝带的印刷图，保留原画板的工艺与尺寸标注。"
+          },
+          "provenance": {
+            "assetId": "N069-scent",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202206/202206-A山茶花香卡套装-6cm_转曲.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件完整导出第一画板，再转换为 WebP。",
+            "width": 2399,
+            "height": 926,
+            "sha256": "784d11739182b28ffac8df84473422a2aaf3b70f27a59b1dc56d7e5897ba11e0",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
+    },
+    {
       "id": "N075",
       "brandName": "春莱",
       "projectName": "2022 电解质系列",
@@ -17842,7 +17949,7 @@
       "id": "N065",
       "brandName": "春莱",
       "projectName": "时令饮品海报选集",
-      "intro": "从油柑季预告与「今日宜划水」橄榄季海报开篇，收录臻清联名柠茶、2022 山茶花、夏日香茶与泰式咸法酪的独立海报。",
+      "intro": "从油柑季预告与「今日宜划水」橄榄季海报开篇，收录臻清联名柠茶、夏日香茶与泰式咸法酪的独立海报。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17913,31 +18020,6 @@
           }
         },
         {
-          "id": "N069-9BBAF-01",
-          "type": "image",
-          "src": "/media/cases/N069/9bbaf-01-a480e1cd24.webp",
-          "layout": "full",
-          "width": 1467,
-          "height": 2200,
-          "provenance": {
-            "assetId": "N069-9BBAF-01",
-            "sourceType": "ai",
-            "sourceAi": "202206-山茶花新品海报-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "a480e1cd24724de2568399f8f9b0589e46dae339a6a28b693a78f9e052c21d17",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "CHAPTER 02",
-            "title": "雨后山茶的香气 · 2022 山茶花系列",
-            "description": "白色山茶花与枝叶衬托泰式山茶花清奶茶、柠檬茶和凤梨冰茶，保留原稿中泰双语。"
-          }
-        },
-        {
           "id": "N081-preview",
           "type": "image",
           "src": "/media/cases/N081/preview-e25db499b5.webp",
@@ -17957,7 +18039,7 @@
             "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
           },
           "section": {
-            "eyebrow": "CHAPTER 03",
+            "eyebrow": "CHAPTER 02",
             "title": "夏日香茶 · 新品预告",
             "description": "浅蓝色画面用凤梨和花材衬托「茶中有凉意，悠悠度夏日」的预告文案。"
           }
@@ -17982,7 +18064,7 @@
             "finalWorkVerified": true
           },
           "section": {
-            "eyebrow": "CHAPTER 04",
+            "eyebrow": "CHAPTER 03",
             "title": "泰式咸法酪 2.0",
             "description": "深绿色肌理与奶酪形象衬托四杯饮品，系列海报延续中泰双语排版。"
           }
@@ -18209,6 +18291,7 @@
     "N057",
     "N058",
     "N066",
+    "N069",
     "N075",
     "N073",
     "N070",
