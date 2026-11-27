@@ -11264,7 +11264,7 @@
     },
     {
       "id": "SL006",
-      "intro": "2024，为内蒙古区域限定热饮建立简洁的地域视觉。草原地貌、暖黄色与两款产品共同构成一组短而完整的门店传播单元。",
+      "intro": "2024，为内蒙古区域限定热饮建立简洁的地域视觉。草原地貌、暖黄色与两款产品共同构成一组短而完整的门店传播单元。 蓝黄配色杯贴沿用「咸、香、厚、浓」的文字编排和草原线描。",
       "published": true,
       "business": "branding",
       "categories": [
@@ -11290,6 +11290,29 @@
           "src": "/media/springlai/inner-mongolia/02.jpg",
           "layout": "full",
           "portfolioPdfSelected": true
+        },
+        {
+          "id": "SL006-cup-label",
+          "type": "image",
+          "src": "/media/springlai/inner-mongolia/cup-label-84254a3f56.webp",
+          "layout": "full",
+          "width": 569,
+          "height": 714,
+          "section": {
+            "title": "内蒙古限定杯贴",
+            "description": "蓝黄配色呼应海报中的杯身，保留「内蒙古限定」标识和草原线描。"
+          },
+          "provenance": {
+            "assetId": "SL006-cup-label",
+            "sourceType": "jpg",
+            "sourceJpg": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202312/231230-内蒙古-杯贴-90x115mm.jpg",
+            "extractionMethod": "从正式交付 JPG 取右侧蓝黄配色完整杯贴，保留留白并转为 WebP。",
+            "width": 569,
+            "height": 714,
+            "sha256": "84254a3f56e5d07935b1599b01dee6ec93872ba6889c04cb2b0fa5f78cdf186f",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
         }
       ]
     },
