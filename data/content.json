@@ -13737,101 +13737,6 @@
       "includeInPortfolioPdf": false
     },
     {
-      "id": "N030",
-      "brandName": "ITONJUICE",
-      "projectName": "东南亚奶昔门头与水果图案",
-      "intro": "门头以不规则的英文大字为主体，「东南亚奶昔」置于字标下方。水果图案沿用浅蓝与亮黄，以香蕉、浆果状图形及切开的水果围绕字标铺陈。木纹底招牌展示了同一套字形的另一种用法。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "奶昔",
-      "media": [
-        {
-          "id": "N030-A01",
-          "type": "image",
-          "src": "/media/cases/N030/01.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 960,
-          "provenance": {
-            "assetId": "N030-A01",
-            "sourceType": "ai",
-            "sourceAi": "240716-ITONJUICE-门头-1400x450mm-改色.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 960,
-            "sha256": "0f546fe2a72f8bcc1ebf1e48acff3b1096078420f4dcd301840a6aff12f98012",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N030-A02",
-          "type": "image",
-          "src": "/media/cases/N030/02.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 1116,
-          "provenance": {
-            "assetId": "N030-A02",
-            "sourceType": "ai",
-            "sourceAi": "241209-itonjuice-纸杯-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1116,
-            "sha256": "f1e24ff823f835a49e75a7b74b5af401b74a9b5efddb463e18eef690b5ea7647",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N030-A03",
-          "type": "image",
-          "src": "/media/cases/N030/03.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 643,
-          "provenance": {
-            "assetId": "N030-A03",
-            "sourceType": "ai",
-            "sourceAi": "240716-ITONJUICE-门头-1400x450mm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 643,
-            "sha256": "7325ddbffffbbe976a8d7fbef13d8241846d8582c67bc091c291868ec848cc04",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N030-A04",
-          "type": "image",
-          "src": "/media/cases/N030/04.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 643,
-          "provenance": {
-            "assetId": "N030-A04",
-            "sourceType": "ai",
-            "sourceAi": "240716-ITONJUICE-门头-1400x450mm-改色.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 643,
-            "sha256": "6a127a2eb012e3e5480b0221fea2aff0db03e7ad42396fe4aa4f4a5cec37ef6d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
       "id": "N031",
       "brandName": "永珍咖啡",
       "projectName": "中泰双语菜单",
@@ -13898,81 +13803,6 @@
             "width": 1415,
             "height": 2000,
             "sha256": "818d8c372ebe89d508e814f3b6d3a3e25ae7e4b3a9d0a88c617845c8e1d3b83d",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
-      "id": "N032",
-      "brandName": "糯泰",
-      "projectName": "品牌标志与团子形象",
-      "intro": "两枚表情不同的团子靠在同一片绿叶上，下面是细线手写的 NuoTai。另一组标志把微笑藏进绿色方框，再与中英文字标组合。四款小插画用团子的颜色区分形象。",
-      "business": "branding",
-      "categories": [
-        "food"
-      ],
-      "primaryIndustry": "餐饮",
-      "media": [
-        {
-          "id": "N032-A01",
-          "type": "image",
-          "src": "/media/cases/N032/01.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 1050,
-          "provenance": {
-            "assetId": "N032-A01",
-            "sourceType": "ai",
-            "sourceAi": "糯泰LOGO.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 1050,
-            "sha256": "b8fc3cbc7e305893a35b12d79e197d07524bd94932cf59ec19143a693892b093",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N032-A02",
-          "type": "image",
-          "src": "/media/cases/N032/02.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 1000,
-          "provenance": {
-            "assetId": "N032-A02",
-            "sourceType": "ai",
-            "sourceAi": "糯泰LOGO.ai",
-            "sourceArtboard": 3,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 1000,
-            "sha256": "a0bd3cb22c6040f908834b335630af0aef65d9eceeb98bff3c067bdf3641178b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N032-A03",
-          "type": "image",
-          "src": "/media/cases/N032/03.webp",
-          "layout": "full",
-          "width": 1516,
-          "height": 2000,
-          "provenance": {
-            "assetId": "N032-A03",
-            "sourceType": "ai",
-            "sourceAi": "糯泰LOGO.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1516,
-            "height": 2000,
-            "sha256": "0145fabd22ec0be1d806ff8ec6ced36413d41c6e7fea2641440ed09be1ed5eb8",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -14088,121 +13918,6 @@
             "width": 1184,
             "height": 1584,
             "sha256": "848279ca9cc2481c90a6e7fb6d2134295273e4a4a41d4393170cb8f574594b1c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
-      "id": "N034",
-      "brandName": "大胡子雪糕",
-      "projectName": "字标与包装图案",
-      "intro": "海边小屋、椰树、落日与海浪以几笔彩线勾勒，组成轻松的海滨主题插画。另一组图案将椰树、遮阳伞和太阳等元素铺陈成满版纹样，重复排列的 ice iton 字标则采用红、黄等品牌色，呼应主标识的层叠效果。",
-      "business": "branding",
-      "categories": [
-        "food"
-      ],
-      "primaryIndustry": "冰淇淋",
-      "media": [
-        {
-          "id": "N034-A01",
-          "type": "image",
-          "src": "/media/cases/N034/01.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 2000,
-          "provenance": {
-            "assetId": "N034-A01",
-            "sourceType": "ai",
-            "sourceAi": "241122-大胡子雪糕-油纸.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 2000,
-            "sha256": "51c1099232c06b9380b76fe1605eb15b0d56d32c7ec1055b5d03c0e9b29c22b1",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N034-A02",
-          "type": "image",
-          "src": "/media/cases/N034/02.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 1000,
-          "provenance": {
-            "assetId": "N034-A02",
-            "sourceType": "ai",
-            "sourceAi": "241030-大胡子雪糕-发光字-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 1000,
-            "sha256": "c27cd3320fb2dea074bf25516a5b52a0e07092ef5a822f1bee9fd58df7da025e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N034-A03",
-          "type": "image",
-          "src": "/media/cases/N034/03.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 2000,
-          "provenance": {
-            "assetId": "N034-A03",
-            "sourceType": "ai",
-            "sourceAi": "241122-大胡子雪糕-油纸.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 2000,
-            "sha256": "1fc142897b5e8a27a028d64ba5120b39d62b3fa53738cfbacc99cfd0d7fa6652",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N034-A04",
-          "type": "image",
-          "src": "/media/cases/N034/04.webp",
-          "layout": "full",
-          "width": 2000,
-          "height": 1995,
-          "provenance": {
-            "assetId": "N034-A04",
-            "sourceType": "ai",
-            "sourceAi": "241105-大胡子雪糕-冰淇淋杯 纸巾.ai",
-            "sourceArtboard": 5,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 2000,
-            "height": 1995,
-            "sha256": "dd82d69753e1cb7d6d16dae56e4d2a9e30bc73678cf123101b62f7f90ad08a73",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N034-A05",
-          "type": "image",
-          "src": "/media/cases/N034/05.webp",
-          "layout": "full",
-          "width": 1763,
-          "height": 2000,
-          "provenance": {
-            "assetId": "N034-A05",
-            "sourceType": "ai",
-            "sourceAi": "大胡子雪糕-logo-改3.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1763,
-            "height": 2000,
-            "sha256": "2e0d9f13fdce6f059af212ddc6dc82a68abf847c27658759dbf4467b4f3e8b19",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -14601,101 +14316,6 @@
             "width": 1400,
             "height": 2392,
             "sha256": "c099a3f86601d71a4dba17ad8857406dc7bdae8d30367779ed8f3f5dc400901c",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
-      "id": "N037",
-      "brandName": "清迈咖啡",
-      "projectName": "门头与外带包装提案",
-      "intro": "深绿色衬出奶油色泰文字标，下方配有中文店名、小花和 ITON’CAFE 字样。小花在外带物料上单独出现，纸袋则用浅粉色字标覆盖牛皮色底。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "咖啡",
-      "media": [
-        {
-          "id": "N037-A01",
-          "type": "image",
-          "src": "/media/cases/N037/01.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 1000,
-          "provenance": {
-            "assetId": "N037-A01",
-            "sourceType": "ai",
-            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
-            "sourceArtboard": 3,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 1000,
-            "sha256": "2ed871ca4aa0cad9ae001827ee29c9d9508cc71f443c11fc7cb2c719c17d651f",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N037-A02",
-          "type": "image",
-          "src": "/media/cases/N037/02.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 960,
-          "provenance": {
-            "assetId": "N037-A02",
-            "sourceType": "ai",
-            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1600,
-            "height": 960,
-            "sha256": "589fda9abc4b12a69745dadc13ff2d1068fbafeb02ded51225a0f6ae619746df",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N037-A03",
-          "type": "image",
-          "src": "/media/cases/N037/03.webp",
-          "layout": "full",
-          "width": 1500,
-          "height": 950,
-          "provenance": {
-            "assetId": "N037-A03",
-            "sourceType": "ai",
-            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
-            "sourceArtboard": 4,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1500,
-            "height": 950,
-            "sha256": "82111f4b5ce57aa2d66970b1bc03e51497696f2b123449b1049d9d5dc4b87410",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        },
-        {
-          "id": "N037-A04",
-          "type": "image",
-          "src": "/media/cases/N037/04.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 900,
-          "provenance": {
-            "assetId": "N037-A04",
-            "sourceType": "ai",
-            "sourceAi": "250426-清迈咖啡-包装-改1.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "AI compatible artboard render; artwork crop and presentation margin",
-            "width": 1400,
-            "height": 900,
-            "sha256": "b168f66088855d7e9c6fac51f423bd7f6b9583b3efea4d09e3b02a962e9ce39e",
             "classification": "final_design",
             "finalWorkVerified": true
           }
@@ -15432,134 +15052,6 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
-      "id": "N040",
-      "brandName": "阿莱妈妈 Alai Mamma",
-      "projectName": "泰式小吃海报与美团橱窗",
-      "intro": "这组历史提案收录阿莱妈妈的三语标志、蛋卷海报与美团橱窗。蛋卷海报用透明盒装呈现不同口味，美团橱窗则把三款小吃排成一列。",
-      "business": "branding",
-      "categories": [
-        "food"
-      ],
-      "primaryIndustry": "泰式小吃",
-      "media": [
-        {
-          "id": "N040-A01",
-          "type": "image",
-          "src": "/media/cases/N040/01-0b4c77ac0f.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 950,
-          "provenance": {
-            "assetId": "N040-A01",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceType": "ai",
-            "sourceAi": "阿莱妈妈logo定稿.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "Retained approved three-script logo from archived N040-A01, original WebP bytes",
-            "width": 1600,
-            "height": 950,
-            "sha256": "0b4c77ac0fb3e0f92da60f634c592b46153038795da9047bebdc40eff74938f4"
-          }
-        },
-        {
-          "id": "N040-A02",
-          "type": "image",
-          "src": "/media/cases/N040/02-10fc410712.webp",
-          "layout": "full",
-          "width": 1600,
-          "height": 2400,
-          "provenance": {
-            "assetId": "N040-A02",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceType": "ai",
-            "sourceAi": "240524-阿莱妈妈-产品3个.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "Complete compatible Illustrator artboard, converted to sRGB WebP",
-            "width": 1600,
-            "height": 2400,
-            "sha256": "10fc410712f120b251ea274b51a3a56ceba6daf820c25c565d1a49f9bee94058"
-          }
-        },
-        {
-          "id": "N040-A03",
-          "type": "image",
-          "src": "/media/cases/N040/03-63c89582ed.webp",
-          "layout": "full",
-          "width": 1920,
-          "height": 1440,
-          "provenance": {
-            "assetId": "N040-A03",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceType": "psd",
-            "sourcePsd": "样机.psd",
-            "extractionMethod": "Same-case Illustrator artboards, approved manifest renderer and editable Photoshop phone mockup",
-            "width": 1920,
-            "height": 1440,
-            "sha256": "63c89582edb114112398adcf87c198ede481b232b6f6ec22eb0de7f143a35b1a"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 01",
-            "title": "美团外卖橱窗",
-            "description": "三张商品卡沿用历史提案的美团菜品画板，左上角的“春莱 ChunLai”与“阿莱妈妈”均为原稿标识。店铺及商品信息按提案复现，部分价格、销量和配送数据为样机展示示意。"
-          }
-        },
-        {
-          "id": "N040-phone-01",
-          "type": "image",
-          "src": "/media/cases/N040/meituan-large-6944e51beb.webp",
-          "layout": "full",
-          "width": 2250,
-          "height": 1127,
-          "provenance": {
-            "assetId": "N040-phone-01",
-            "sourceType": "psd",
-            "sourcePsd": "N040/全实体机框复审/分层/N040-大店招-04.psd",
-            "sourceObject": "AI 13+11、19+17、24+22；7–10 菜品",
-            "width": 2250,
-            "height": 1127,
-            "sha256": "6944e51beb277cccef85577929e167c003ab4f8f443a9341091712288c73bfe6",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "沿用同案复审内屏，套入 04 号实体 PSD，重开核对智能对象并导出。"
-          },
-          "section": {
-            "eyebrow": "CHAPTER 02",
-            "title": "美团外卖 · 大店招与横幅",
-            "description": "芒果糯米饭、阿莱蛋卷、阿莱糯叽叽的大店招分别搭配同组横幅。商户资料、评分、价格及销量为样机展示示意。"
-          }
-        },
-        {
-          "id": "N040-phone-02",
-          "type": "image",
-          "src": "/media/cases/N040/meituan-compact-16c926589d.webp",
-          "layout": "full",
-          "width": 2250,
-          "height": 1127,
-          "provenance": {
-            "assetId": "N040-phone-02",
-            "sourceType": "psd",
-            "sourcePsd": "N040/全实体机框复审/分层/N040-小店招-04.psd",
-            "sourceObject": "AI 12+11、18+17、23+22；7–10 菜品",
-            "width": 2250,
-            "height": 1127,
-            "sha256": "16c926589d12c0d6e44dcabd7865b053ba98b068a45a6cd60c390fd8cba94cee",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "extractionMethod": "沿用同案复审内屏，套入 04 号实体 PSD，重开核对智能对象并导出。"
-          },
-          "section": {
-            "title": "美团外卖 · 小店招与横幅",
-            "description": "三组小店招保留对应的活动横幅，菜品在点菜区自然露出。商户资料、评分、价格及销量为样机展示示意。"
           }
         }
       ],
@@ -17191,41 +16683,6 @@
       "includeInPortfolioPdf": false
     },
     {
-      "id": "N084",
-      "brandName": "春莱",
-      "projectName": "泰式咸法酪 2.0",
-      "intro": "以绿色肌理、奶酪形象和四杯饮品构成系列海报，延续春莱的中泰双语设计。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮",
-      "media": [
-        {
-          "id": "N084-EBFC3-02",
-          "type": "image",
-          "src": "/media/cases/N084/ebfc3-02-00a8a1683c.webp",
-          "layout": "full",
-          "width": 1467,
-          "height": 2200,
-          "provenance": {
-            "assetId": "N084-EBFC3-02",
-            "sourceType": "ai",
-            "sourceAi": "250522-春莱-泰式咸法酪2.0系列.ai",
-            "sourceArtboard": 2,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
       "id": "N064",
       "brandName": "春莱",
       "projectName": "芒果香香 2.0",
@@ -18046,76 +17503,6 @@
       "includeInPortfolioPdf": false
     },
     {
-      "id": "N079",
-      "brandName": "春莱",
-      "projectName": "橄榄刮油柠茶 · 臻清联名",
-      "intro": "联名海报以浅色背景和橄榄绿字样呈现杯装饮品，保留「无忧无虑，畅通无阻」主题与臻清、春莱两个品牌标识。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮",
-      "media": [
-        {
-          "id": "N079-8E4E3-01",
-          "type": "image",
-          "src": "/media/cases/N079/8e4e3-01-fab89efaec.webp",
-          "layout": "full",
-          "width": 1467,
-          "height": 2200,
-          "provenance": {
-            "assetId": "N079-8E4E3-01",
-            "sourceType": "ai",
-            "sourceAi": "231028-橄榄海报-60x90cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "fab89efaec55ab7ca2c452b678d7a103d16998167fdada169a65afd65aab9c9b",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
-      "id": "N069",
-      "brandName": "春莱",
-      "projectName": "雨后山茶的香气 · 2022 山茶花系列",
-      "intro": "白色山茶花与枝叶衬托三款袋装饮品，海报按原稿保留泰式山茶花清奶茶、柠檬茶和凤梨冰茶的中泰双语。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮",
-      "media": [
-        {
-          "id": "N069-9BBAF-01",
-          "type": "image",
-          "src": "/media/cases/N069/9bbaf-01-a480e1cd24.webp",
-          "layout": "full",
-          "width": 1467,
-          "height": 2200,
-          "provenance": {
-            "assetId": "N069-9BBAF-01",
-            "sourceType": "ai",
-            "sourceAi": "202206-山茶花新品海报-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
-            "width": 1467,
-            "height": 2200,
-            "sha256": "a480e1cd24724de2568399f8f9b0589e46dae339a6a28b693a78f9e052c21d17",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
       "id": "N075",
       "brandName": "春莱",
       "projectName": "2022 电解质系列",
@@ -18329,45 +17716,6 @@
       "includeInPortfolioPdf": false
     },
     {
-      "id": "N081",
-      "brandName": "春莱",
-      "projectName": "夏日香茶 · 新品预告",
-      "intro": "「茶中有凉意，悠悠度夏日」预告以浅蓝底色、放大的凤梨与花材构图，配以中泰双语和春莱标识。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮",
-      "media": [
-        {
-          "id": "N081-preview",
-          "type": "image",
-          "src": "/media/cases/N081/preview-e25db499b5.webp",
-          "layout": "full",
-          "width": 1400,
-          "height": 2100,
-          "provenance": {
-            "assetId": "N081-preview",
-            "sourceType": "ai",
-            "width": 1400,
-            "height": 2100,
-            "sha256": "e25db499b5e93eafcc429f6c44dd5ab89ccd9f8b8b3103401a6f8ce13b51feca",
-            "classification": "final_design",
-            "finalWorkVerified": true,
-            "sourceAi": "240506-夏日香茶预告海报.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
-          },
-          "section": {
-            "title": "夏日香茶预告海报",
-            "eyebrow": ""
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
       "id": "N083",
       "brandName": "春莱",
       "projectName": "爱玉系列",
@@ -18491,45 +17839,10 @@
       ]
     },
     {
-      "id": "N072",
-      "brandName": "春莱",
-      "projectName": "橄榄季 · 今日宜划水",
-      "intro": "以「今日宜划水」为题，海报用浅绿底色、油柑枝叶和中泰双语展示糯香油柑柚子茶、红毛丹油柑生椰汁与油柑上头泰绿柠檬茶。",
-      "business": "branding",
-      "categories": [
-        "drinks"
-      ],
-      "primaryIndustry": "茶饮",
-      "media": [
-        {
-          "id": "N072-F4730-01",
-          "type": "image",
-          "src": "/media/cases/N072/f4730-01-709631c754.webp",
-          "width": 1400,
-          "height": 2100,
-          "layout": "full",
-          "provenance": {
-            "assetId": "N072-F4730-01",
-            "sourceType": "ai",
-            "sourceAi": "202205-橄榄季新品海报-90x60cm.ai",
-            "sourceArtboard": 1,
-            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。",
-            "width": 1400,
-            "height": 2100,
-            "sha256": "709631c754cfd29950fcfea4f66184c961741734c1eb6bef467ea7cc9e3a175e",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
-        }
-      ],
-      "published": true,
-      "includeInPortfolioPdf": false
-    },
-    {
       "id": "N065",
       "brandName": "春莱",
-      "projectName": "油柑季 · 新品预告",
-      "intro": "2022 年 12 月的春莱油柑季预告。海报以手绘油柑、花枝与蜂蜜串起画面，衬线大字围绕「来自雨林茶山」的主题。",
+      "projectName": "时令饮品海报选集",
+      "intro": "从油柑季预告与「今日宜划水」橄榄季海报开篇，收录臻清联名柠茶、2022 山茶花、夏日香茶与泰式咸法酪的独立海报。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -18552,6 +17865,126 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202212/202212-橄榄新品/202212-油柑季预告海报-90x60cm-01.jpg"
+          }
+        },
+        {
+          "id": "N072-F4730-01",
+          "type": "image",
+          "src": "/media/cases/N072/f4730-01-709631c754.webp",
+          "width": 1400,
+          "height": 2100,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N072-F4730-01",
+            "sourceType": "ai",
+            "sourceAi": "202205-橄榄季新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "709631c754cfd29950fcfea4f66184c961741734c1eb6bef467ea7cc9e3a175e",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N079-8E4E3-01",
+          "type": "image",
+          "src": "/media/cases/N079/8e4e3-01-fab89efaec.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N079-8E4E3-01",
+            "sourceType": "ai",
+            "sourceAi": "231028-橄榄海报-60x90cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "fab89efaec55ab7ca2c452b678d7a103d16998167fdada169a65afd65aab9c9b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 01",
+            "title": "橄榄刮油柠茶 · 臻清联名",
+            "description": "浅色背景衬托橄榄绿字样和杯装柠茶，画面保留臻清与春莱的联名标识。"
+          }
+        },
+        {
+          "id": "N069-9BBAF-01",
+          "type": "image",
+          "src": "/media/cases/N069/9bbaf-01-a480e1cd24.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N069-9BBAF-01",
+            "sourceType": "ai",
+            "sourceAi": "202206-山茶花新品海报-90x60cm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "a480e1cd24724de2568399f8f9b0589e46dae339a6a28b693a78f9e052c21d17",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 02",
+            "title": "雨后山茶的香气 · 2022 山茶花系列",
+            "description": "白色山茶花与枝叶衬托泰式山茶花清奶茶、柠檬茶和凤梨冰茶，保留原稿中泰双语。"
+          }
+        },
+        {
+          "id": "N081-preview",
+          "type": "image",
+          "src": "/media/cases/N081/preview-e25db499b5.webp",
+          "layout": "full",
+          "width": 1400,
+          "height": 2100,
+          "provenance": {
+            "assetId": "N081-preview",
+            "sourceType": "ai",
+            "width": 1400,
+            "height": 2100,
+            "sha256": "e25db499b5e93eafcc429f6c44dd5ab89ccd9f8b8b3103401a6f8ce13b51feca",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "240506-夏日香茶预告海报.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出。"
+          },
+          "section": {
+            "eyebrow": "CHAPTER 03",
+            "title": "夏日香茶 · 新品预告",
+            "description": "浅蓝色画面用凤梨和花材衬托「茶中有凉意，悠悠度夏日」的预告文案。"
+          }
+        },
+        {
+          "id": "N084-EBFC3-02",
+          "type": "image",
+          "src": "/media/cases/N084/ebfc3-02-00a8a1683c.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N084-EBFC3-02",
+            "sourceType": "ai",
+            "sourceAi": "250522-春莱-泰式咸法酪2.0系列.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按画板完整导出",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "CHAPTER 04",
+            "title": "泰式咸法酪 2.0",
+            "description": "深绿色肌理与奶酪形象衬托四杯饮品，系列海报延续中泰双语排版。"
           }
         }
       ],
@@ -18741,20 +18174,15 @@
     "N027",
     "N028",
     "N029",
-    "N030",
     "N031",
-    "N032",
     "N033",
-    "N034",
     "N035",
     "N036",
-    "N037",
     "N038",
     "N039",
     "N046",
     "N041",
     "N045",
-    "N040",
     "N043",
     "N047",
     "N048",
@@ -18769,7 +18197,7 @@
     "N053",
     "N056",
     "N063",
-    "N084",
+    "N065",
     "N064",
     "N071",
     "N076",
@@ -18781,16 +18209,11 @@
     "N057",
     "N058",
     "N066",
-    "N079",
-    "N069",
     "N075",
     "N073",
     "N070",
-    "N081",
     "N083",
     "N074",
-    "N072",
-    "N065",
     "N078",
     "N077"
   ],
