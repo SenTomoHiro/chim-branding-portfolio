@@ -17043,7 +17043,7 @@
       "id": "N080",
       "brandName": "春莱",
       "projectName": "90 度的温暖",
-      "intro": "暖姜红枣茶和桂圆玫瑰茶从插画预告延展到双杯及单杯海报。版面用暖色摄影呈现饮品、配料和杯贴。",
+      "intro": "暖姜红枣茶与桂圆玫瑰茶从插画预告延展到双杯及单杯海报，并配有两款以粉紫色边框和原料插画区分的杯贴。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17126,6 +17126,48 @@
             "width": 1467,
             "height": 2200,
             "sha256": "0b8ed7ea0a4bfd46181fb82883e04a63e5fad58f73b296efae8e6b85fd9950c9",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-ginger-jujube-label",
+          "type": "image",
+          "src": "/media/cases/N080/ginger-jujube-label-e2ce827fd4.webp",
+          "layout": "full",
+          "width": 1063,
+          "height": 1358,
+          "provenance": {
+            "assetId": "N080-ginger-jujube-label",
+            "sourceType": "jpg",
+            "sourceJpg": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202311/231113-90度温暖/231105-90度温暖-杯贴-90x115mm-改2_暖姜红枣茶.jpg",
+            "extractionMethod": "复用同案正式交付 JPG，按原尺寸保留完整画面并转换为 WebP。",
+            "width": 1063,
+            "height": 1358,
+            "sha256": "e2ce827fd4a1cad4ed71fd02c6b4365fa7d9656c22e082d838e0e67b98b7a3cd",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "两款热茶杯贴",
+            "description": "粉紫色边框内，以大字标出暖姜红枣茶和桂圆玫瑰茶，搭配各自的原料插画。"
+          }
+        },
+        {
+          "id": "N080-longan-rose-label",
+          "type": "image",
+          "src": "/media/cases/N080/longan-rose-label-66b129eac3.webp",
+          "layout": "full",
+          "width": 1063,
+          "height": 1358,
+          "provenance": {
+            "assetId": "N080-longan-rose-label",
+            "sourceType": "jpg",
+            "sourceJpg": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202311/231113-90度温暖/231105-90度温暖-杯贴-90x115mm-改2_桂圆玫瑰茶.jpg",
+            "extractionMethod": "复用同案正式交付 JPG，按原尺寸保留完整画面并转换为 WebP。",
+            "width": 1063,
+            "height": 1358,
+            "sha256": "66b129eac39c6e4929fbd599d012c580ecbec4af992e834ad6591214c0cd7c7f",
             "classification": "final_design",
             "finalWorkVerified": true
           }
