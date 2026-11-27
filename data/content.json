@@ -16871,6 +16871,31 @@
           }
         },
         {
+          "id": "N052-mt",
+          "type": "image",
+          "src": "/media/cases/N052/winter-meituan-988bb179bf.webp",
+          "width": 1550,
+          "height": 1836,
+          "layout": "full",
+          "provenance": {
+            "assetId": "N052-mt",
+            "sourceType": "psd",
+            "sourcePsd": "N052-冬季美团.psd",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/冬季物料定稿/美团/202212-A美团静态店招-750x288PX.jpg；/硬盘备份/GAY老板历史文件/春莱/冬季物料定稿/美团/202212-A美团头像-800x800px.jpg；/硬盘备份/GAY老板历史文件/春莱/冬季物料定稿/美团/202212-A美团横幅海报-热饮上线版-720x240px_1.jpg；/硬盘备份/GAY老板历史文件/春莱/冬季物料定稿/美团/外卖菜品图-袋装/202212-冬季菜品图_云南本地玫瑰浓奶茶.jpg；/硬盘备份/GAY老板历史文件/春莱/冬季物料定稿/美团/外卖菜品图-袋装/202212-冬季菜品图_云南本地玫瑰青柠茶.jpg",
+            "extractionMethod": "复用 2022 年 12 月冬季美团交付 JPG，按同批已确认旧版店铺视口重放，写入 T25764(3) PSD 并重开核验。",
+            "width": 1550,
+            "height": 1836,
+            "sha256": "988bb179bf79754975a762c0328ef9dd1b87115b526319fa44c1c2e312571e3b",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "eyebrow": "2022 年 12 月 · 美团外卖",
+            "title": "冬季店铺首屏样机",
+            "description": "冬季店招和「热饮已上线」横幅使用同批交付稿，点菜区露出云南本地玫瑰浓奶茶和云南本地玫瑰青柠茶。商户资料、评分、价格及销量为样机展示示意。"
+          }
+        },
+        {
           "id": "N052-scent-card-1",
           "type": "image",
           "src": "/media/cases/N052/scent-card-1-5861e05a4a.webp",
