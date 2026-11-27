@@ -10722,47 +10722,6 @@
             "title": "美团外卖 · 铁观音系列",
             "description": "门店头像沿用春莱的“老挝冰咖啡、泰式奶茶”字样。同一店招分别搭配两款横幅。部分经营信息为样机展示示意。"
           }
-        },
-        {
-          "id": "SL003-wechat-matcha",
-          "type": "image",
-          "src": "/media/cases/SL003/wechat-matcha-2a06a96d05.jpg",
-          "layout": "half",
-          "width": 1200,
-          "height": 5771,
-          "provenance": {
-            "assetId": "SL003-wechat-matcha",
-            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202310/231024-铁观音（第二次重做）/231026-铁观音推送长图-改2_抹茶椰椰.jpg",
-            "extractionMethod": "使用原交付 JPG，保留 sRGB、全部文字与画幅，等比缩至 1200 像素宽。",
-            "width": 1200,
-            "height": 5771,
-            "sha256": "2a06a96d0515cd7e28ae6234cd4d98b7033db8ce8a294bed10b710b505b24368",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          },
-          "section": {
-            "eyebrow": "2023 秋冬",
-            "title": "公众号推文长图",
-            "description": "兰香抹茶椰椰与兰香豆乳香茶分别以原料静物展开，末段落在各自的杯身与「暖」字。"
-          }
-        },
-        {
-          "id": "SL003-wechat-soy",
-          "type": "image",
-          "src": "/media/cases/SL003/wechat-soy-db83306526.jpg",
-          "layout": "half",
-          "width": 1200,
-          "height": 4016,
-          "provenance": {
-            "assetId": "SL003-wechat-soy",
-            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202310/231024-铁观音（第二次重做）/231026-铁观音推送长图-改2_豆乳茶.jpg",
-            "extractionMethod": "使用原交付 JPG，保留 sRGB、全部文字与画幅，等比缩至 1200 像素宽。",
-            "width": 1200,
-            "height": 4016,
-            "sha256": "db8330652690e294ee096593bbe91527d138e4f92c845f9a9de64e26689d7b73",
-            "classification": "final_design",
-            "finalWorkVerified": true
-          }
         }
       ],
       "published": true,
@@ -18609,7 +18568,7 @@
       "id": "N077",
       "brandName": "春莱",
       "projectName": "花椒茉莉冰萃茶",
-      "intro": "春莱 2023 年 6 月推出花椒茉莉冰萃茶。预告海报用花椒、柑橘和香茅静物表现风味，保留「爽！！！」「夏日限定」及原稿中的中泰英文字。",
+      "intro": "春莱 2023 年 6 月推出花椒茉莉冰萃茶。预告海报用花椒、柑橘和香茅静物表现风味，保留「爽！！！」「夏日限定」及原稿中的中泰英文字。 杯贴以花椒枝叶和茉莉花延续海报的绿色主视觉。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -18632,6 +18591,27 @@
             "classification": "final_design",
             "finalWorkVerified": true,
             "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202306/230614-花椒-改2_预告海报-60x90cm.jpg"
+          }
+        },
+        {
+          "id": "N077-cup-label",
+          "type": "image",
+          "src": "/media/cases/N077/cup-label-46744afad0.webp",
+          "layout": "full",
+          "width": 623,
+          "height": 344,
+          "provenance": {
+            "assetId": "N077-cup-label",
+            "sourceType": "ai",
+            "sourceAi": "230614-花椒杯贴-改5-44.4x95mm-转曲.ai",
+            "sourceArtboard": 1,
+            "sourceObject": "/硬盘备份/春莱23年/230614-花椒/230614-花椒杯贴-改5-44.4x95mm-转曲.ai",
+            "extractionMethod": "从同案 Illustrator 转曲原件导出第 1 板，取画板右侧完整杯贴展开图。",
+            "width": 623,
+            "height": 344,
+            "sha256": "46744afad0fb7333c8240a4591110eeab0560b24a9f7d658e7788c82912be12e",
+            "classification": "final_design",
+            "finalWorkVerified": true
           }
         }
       ],

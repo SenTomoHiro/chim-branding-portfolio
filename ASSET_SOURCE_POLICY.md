@@ -31,3 +31,7 @@ For website publication, the permitted roots under `/硬盘备份/` are:
 Verify the full source path under a permitted root before staging Baidu Netdisk artwork, including local copies. A matching basename alone does not establish origin.
 
 Exclude the 滇回堂 fold-out menu shown in the review screenshot, including individual pages, printer spreads, mockups, and other derivatives, from the site's public files. The exclusion applies regardless of where a copy is stored.
+
+## WeChat Official Account long-form artwork
+
+Keep WeChat Official Account article artwork in the project archive. Exclude it from public case covers and galleries.
