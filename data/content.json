@@ -9553,6 +9553,30 @@
           "portfolioPdfSelected": true
         },
         {
+          "id": "SL001-2022-shrimp-chips",
+          "type": "image",
+          "src": "/media/cases/SL001/2022-shrimp-chips-f949d8108e.webp",
+          "layout": "full",
+          "width": 1019,
+          "height": 1400,
+          "section": {
+            "eyebrow": "2022 冬季",
+            "title": "2022 春莱虾片包装正面"
+          },
+          "provenance": {
+            "assetId": "SL001-2022-shrimp-chips",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱21-22年/202211-虾片/虾片包装.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从 Illustrator 原件第 1 画板导出包装正面。",
+            "width": 1019,
+            "height": 1400,
+            "sha256": "f949d8108e56fb12828305a22ee9d8016266c90ac74cf0ed1a188d29c2640e5d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL001-16",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi03-01.jpg",
@@ -12895,21 +12919,21 @@
         {
           "id": "N025-phone-X06",
           "type": "image",
-          "src": "/media/cases/N025/phone-x06-65ea15da9e.webp",
+          "src": "/media/cases/N025/phone-x06-82a6aecd62.webp",
           "layout": "full",
           "width": 1920,
           "height": 1440,
           "provenance": {
             "assetId": "N025-phone-X06",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/X06-小程序点餐.psd",
+            "sourcePsd": "逐图终验/点餐原屏复核/定稿/N025-X06.psd",
             "sourceObject": "X 13–15、23；Y15空白，菜品跨渠道复用",
             "width": 1920,
             "height": 1440,
-            "sha256": "65ea15da9e5da6b1cb71cb917774343d601fab43ca474b20fb07eb2747127da2",
+            "sha256": "82a6aecd624ee6f32ff3508dd8320cdac2739fdfa2928b4f4cbe9051bddeb032",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按原点餐样机的商品清单补齐价格，在原 02 号 PSD 智能对象内换屏，导出 sRGB WebP。样机价格仅为展示示意。"
           }
         },
         {
@@ -13052,21 +13076,21 @@
         {
           "id": "N025-phone-Y06",
           "type": "image",
-          "src": "/media/cases/N025/phone-y06-4e63f4861e.webp",
+          "src": "/media/cases/N025/phone-y06-3df18c8c0a.webp",
           "layout": "full",
           "width": 1920,
           "height": 1440,
           "provenance": {
             "assetId": "N025-phone-Y06",
             "sourceType": "psd",
-            "sourcePsd": "N025/成品/Y06-小程序点餐.psd",
+            "sourcePsd": "逐图终验/点餐原屏复核/定稿/N025-Y06.psd",
             "sourceObject": "Y 13–15、23；Y15空白，菜品跨渠道复用",
             "width": 1920,
             "height": 1440,
-            "sha256": "4e63f4861e35238420a50a22e37a32eb7559cfe08c0e32c50c1f8520569a97fe",
+            "sha256": "3df18c8c0a4f1b8e0f97f1d32a87522df0cba15a89666851053c31623c2bc0c3",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按原点餐样机的商品清单补齐价格，在原 02 号 PSD 智能对象内换屏，导出 sRGB WebP。样机价格仅为展示示意。"
           },
           "portfolioPdfSelected": true
         },
@@ -15185,21 +15209,21 @@
         {
           "id": "N045-phone-03",
           "type": "image",
-          "src": "/media/cases/N045/phone-03-b6fe857d24.webp",
+          "src": "/media/cases/N045/phone-03-2b08c657dd.webp",
           "layout": "full",
           "width": 1920,
           "height": 1440,
           "provenance": {
             "assetId": "N045-phone-03",
             "sourceType": "psd",
-            "sourcePsd": "N045/成品/03-小程序点餐.psd",
+            "sourcePsd": "逐图终验/点餐原屏复核/定稿/N045-03.psd",
             "sourceObject": "TM 11/12、16；菜品按原品名复用",
             "width": 1920,
             "height": 1440,
-            "sha256": "b6fe857d2460997e32adbebac002c47338019e613fe038b21dbe2e9fc99174b6",
+            "sha256": "2b08c657ddc223cd4de554c31f207f7cc976e9c31d7ea494b5eead357e2e528d",
             "classification": "final_design",
             "finalWorkVerified": true,
-            "extractionMethod": "同案原画、已确认平台组件与 Photoshop 智能对象换屏，sRGB WebP"
+            "extractionMethod": "按原点餐样机的商品清单补齐价格，在原 02 号 PSD 智能对象内换屏，导出 sRGB WebP。样机价格仅为展示示意。"
           }
         }
       ],
