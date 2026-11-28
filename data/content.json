@@ -9775,6 +9775,71 @@
           "layout": "full"
         },
         {
+          "id": "SL001-ny24-dragon-poster",
+          "type": "image",
+          "src": "/media/cases/SL001/ny24-dragon-poster-8981b25379.webp",
+          "layout": "full",
+          "width": 1334,
+          "height": 2000,
+          "section": {
+            "eyebrow": "2024 春节",
+            "title": "云南甲马 × 春莱 · 龙年春节物料",
+            "description": "云南甲马的龙纹贯穿龙年海报、年历与春联。年历保留原稿，公历标题为 2024 年，泰文标注为佛历 2566 年。"
+          },
+          "provenance": {
+            "assetId": "SL001-ny24-dragon-poster",
+            "sourceType": "ai",
+            "sourceAi": "240106-新年物料-转曲.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "第 6 画板完整导出。",
+            "width": 1334,
+            "height": 2000,
+            "sha256": "8981b2537946431e3bd68a67fcdfe308357a58c34be0ea3611aa2878dd3d2d99",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-ny24-calendar",
+          "type": "image",
+          "src": "/media/cases/SL001/ny24-calendar-8535dbc476.webp",
+          "layout": "full",
+          "width": 1415,
+          "height": 2000,
+          "provenance": {
+            "assetId": "SL001-ny24-calendar",
+            "sourceType": "ai",
+            "sourceAi": "240106-新年物料-转曲.ai",
+            "sourceArtboard": 11,
+            "extractionMethod": "第 11 画板完整导出。",
+            "width": 1415,
+            "height": 2000,
+            "sha256": "8535dbc4760843193d29eb586df526060f069cfa94b2c91873d73c403eb55ab1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-ny24-couplets",
+          "type": "image",
+          "src": "/media/cases/SL001/ny24-couplets-247772726b.webp",
+          "layout": "full",
+          "width": 1320,
+          "height": 1470,
+          "provenance": {
+            "assetId": "SL001-ny24-couplets",
+            "sourceType": "ai",
+            "sourceAi": "240110-新年物料-对联补充.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "第 1、2、3 画板分别完整导出，双联与横批合为一图。",
+            "width": 1320,
+            "height": 1470,
+            "sha256": "247772726b816583bbc5219062962317119cb12eb35f6c76a56d06c0c65f8763",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL001-28",
           "type": "image",
           "src": "/media/springlai/brand-evolution/vi04-01.jpg",
