@@ -16854,7 +16854,7 @@
       "id": "N084",
       "brandName": "春莱",
       "projectName": "泰式咸法酪 2.0",
-      "intro": "2024 年秋冬首轮以产品海报呈现红茶、绿茶及红茶可可三款饮品，并以奶酪和奶牛插画制作热饮预告。2025 年「泰式咸法酪 2.0」另有四杯饮品主海报和异形杯贴。",
+      "intro": "泰式咸奶酪系列的三次季节换装。2024 年秋冬首轮为红茶、绿茶和红茶可可制作产品海报与热饮预告。2025 年新春版以红金配色呈现红茶、绿茶和鸳鸯咖啡。同年 5 月的泰式咸法酪 2.0 使用绿色主视觉，并为四款饮品设计异形杯贴。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16879,10 +16879,6 @@
             "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
             "classification": "final_design",
             "finalWorkVerified": true
-          },
-          "section": {
-            "title": "2025 泰式咸法酪 2.0",
-            "description": "绿色肌理衬托四杯饮品与奶酪插画。"
           }
         },
         {
@@ -16892,10 +16888,6 @@
           "layout": "full",
           "width": 2232,
           "height": 2400,
-          "section": {
-            "title": "异形杯贴印刷稿",
-            "description": "原稿保留两种配色、163 × 78 mm 尺寸、模切线和烫银标注。"
-          },
           "provenance": {
             "assetId": "N084-cup-sticker",
             "sourceType": "ai",
@@ -16947,6 +16939,50 @@
             "width": 1600,
             "height": 2400,
             "sha256": "14162c49c0ba76043af88403a179c78405ad8db820f7699063c8e97269fcc675",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N084-che-ny-tv",
+          "type": "image",
+          "src": "/media/cases/N084/che-ny-tv-ae4b14b494.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1350,
+          "provenance": {
+            "assetId": "N084-che-ny-tv",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱2025/02 春莱/01 春莱稿件源文件/250116-春莱-奶酪系列-新年/250116-春莱-奶酪系列-新年-改2.ai",
+            "sourceArtboard": 47,
+            "extractionMethod": "用同案 Illustrator 原件的 PDF 兼容画板及其内嵌中泰字体完整输出，与原交付 JPG 逐项核对。",
+            "width": 2400,
+            "height": 1350,
+            "sha256": "ae4b14b494d233e832fd6253eb991eaf04d25fe4cc5a603b496d41d322d5fd6a",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2025 新春特别版",
+            "description": "以红金配色、烟花纹样与奶酪插画呈现泰式咸奶酪红茶、绿茶和鸳鸯咖啡，延展为电视横版和竖版海报。"
+          }
+        },
+        {
+          "id": "N084-che-ny-portrait",
+          "type": "image",
+          "src": "/media/cases/N084/che-ny-portrait-8705eccdea.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N084-che-ny-portrait",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/春莱2025/02 春莱/01 春莱稿件源文件/250116-春莱-奶酪系列-新年/250116-春莱-奶酪系列-新年-改2.ai",
+            "sourceArtboard": 48,
+            "extractionMethod": "用同案 Illustrator 原件的 PDF 兼容画板及其内嵌中泰字体完整输出，与原交付 JPG 逐项核对。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "8705eccdea418cb504bb6aa26d847e76064bccf578bd25cf3142625b112fdde5",
             "classification": "final_design",
             "finalWorkVerified": true
           }
