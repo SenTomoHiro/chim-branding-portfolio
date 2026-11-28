@@ -9618,6 +9618,42 @@
           "layout": "full"
         },
         {
+          "id": "SL001-kunming-2023-bag",
+          "type": "image",
+          "src": "/media/cases/SL001/kunming-2023-bag-5bce4e1050.webp",
+          "layout": "full",
+          "width": 2000,
+          "height": 1333,
+          "provenance": {
+            "assetId": "SL001-kunming-2023-bag",
+            "sourceObject": "2304-春莱-城市手提袋-昆明-13x8x18cm-改1-转曲.jpg",
+            "extractionMethod": "复用原交付应用图，保留完整构图并转换为 WebP。",
+            "width": 2000,
+            "height": 1333,
+            "sha256": "5bce4e10503b3c16f5211949f0819b33e77bfb630647d05f9a66e9f28c6baf21",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "SL001-daqing-2023-bag",
+          "type": "image",
+          "src": "/media/cases/SL001/daqing-2023-bag-74f5e03116.webp",
+          "layout": "full",
+          "width": 1356,
+          "height": 1500,
+          "provenance": {
+            "assetId": "SL001-daqing-2023-bag",
+            "sourceObject": "231029-大庆城市手提袋.jpg",
+            "extractionMethod": "从原交付 JPG 提取完整的成品手提袋样机。",
+            "width": 1356,
+            "height": 1500,
+            "sha256": "74f5e03116dc04534e62b73f09b4e35f1b6ccd4363c4210293a86c9df37780c1",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
           "id": "SL001-23-large",
           "type": "image",
           "src": "/media/springlai/brand-evolution/SL001-23-large.webp",
@@ -17270,7 +17306,7 @@
       "id": "N080",
       "brandName": "春莱",
       "projectName": "90 度的温暖",
-      "intro": "暖姜红枣茶与桂圆玫瑰茶从插画预告延展到双杯及单杯海报，并配有两款以粉紫色边框和原料插画区分的杯贴。",
+      "intro": "暖姜红枣茶与桂圆玫瑰茶从插画预告延展到双杯及单杯海报，并配有两款以粉紫色边框和原料插画区分的杯贴，以及提醒小心烫口的封口贴。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -17395,6 +17431,26 @@
             "width": 1063,
             "height": 1358,
             "sha256": "66b129eac39c6e4929fbd599d012c580ecbec4af992e834ad6591214c0cd7c7f",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N080-hot90-seal",
+          "type": "image",
+          "src": "/media/cases/N080/hot90-seal-40cf167cc8.webp",
+          "layout": "full",
+          "width": 460,
+          "height": 1040,
+          "provenance": {
+            "assetId": "N080-hot90-seal",
+            "sourceType": "ai",
+            "sourceAi": "231105-90度温暖-贴纸-10x60mm.ai",
+            "sourceArtboard": 1,
+            "extractionMethod": "从转曲 Illustrator 原件完整导出第一画板。",
+            "width": 460,
+            "height": 1040,
+            "sha256": "40cf167cc8ca2d5d9a270cc98627a10f0b8872276976de3151cd8ffe6f185835",
             "classification": "final_design",
             "finalWorkVerified": true
           }
