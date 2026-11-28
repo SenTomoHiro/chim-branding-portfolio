@@ -16728,7 +16728,7 @@
       "id": "N063",
       "brandName": "春莱",
       "projectName": "清斋茶 · 返璞归真",
-      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。横版电视海报以棕榈叶和水面衬托四款茶饮，沿用中泰双语排版。 2024 新年版以「恭贺新禧」为主题，四款茶饮沿用中泰双语排版，搭配龙年杯贴。",
+      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。横版电视海报以棕榈叶和水面衬托四款茶饮，沿用中泰双语排版。 2024 新年版以「恭贺新禧」为主题，四款茶饮沿用中泰双语排版，搭配龙年杯贴。 2025 蛇年特别版延续「恭贺新禧」，以红金杯贴和棕榈叶串联横竖两版海报。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16798,6 +16798,52 @@
           "section": {
             "title": "2024 新年版",
             "description": "「恭贺新禧」电视海报以四款茶饮搭配龙年杯贴。"
+          }
+        },
+        {
+          "id": "N063-fast25-tv",
+          "type": "image",
+          "src": "/media/cases/N063/fast25-tv-f629eed2fd.webp",
+          "layout": "full",
+          "width": 2200,
+          "height": 1238,
+          "provenance": {
+            "assetId": "N063-fast25-tv",
+            "sourceType": "ai",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/源文件/02 春莱/01 春莱稿件源文件/250111-春莱-清斋茶-新年/250111-春莱-清斋茶-新年.ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/源文件/02 春莱/01 春莱稿件源文件/250111-春莱-清斋茶-新年/250111-春莱-清斋茶-新年.ai",
+            "sourceArtboard": 6,
+            "extractionMethod": "使用同案 Illustrator 原件的 PDF 兼容画板及其内嵌字体完整输出。",
+            "width": 2200,
+            "height": 1238,
+            "sha256": "f629eed2fd47d9a69870113eb62c8e0797777ca74cb18b52a9faa6d4d8bae563",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2025 蛇年特别版",
+            "description": "横竖两版新年海报搭配红金杯贴，呈现蜜桃、英红、玫瑰和桂花四款冰茶。"
+          }
+        },
+        {
+          "id": "N063-fast25-portrait",
+          "type": "image",
+          "src": "/media/cases/N063/fast25-portrait-ebc1ba11ca.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N063-fast25-portrait",
+            "sourceType": "ai",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/源文件/02 春莱/01 春莱稿件源文件/250111-春莱-清斋茶-新年/250111-春莱-清斋茶-新年.ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/源文件/02 春莱/01 春莱稿件源文件/250111-春莱-清斋茶-新年/250111-春莱-清斋茶-新年.ai",
+            "sourceArtboard": 7,
+            "extractionMethod": "使用同案 Illustrator 原件的 PDF 兼容画板及其内嵌字体完整输出。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "ebc1ba11ca8f13684b28cd98d119cd0282246743c270496b3a359cb83b7df3e9",
+            "classification": "final_design",
+            "finalWorkVerified": true
           }
         }
       ],
