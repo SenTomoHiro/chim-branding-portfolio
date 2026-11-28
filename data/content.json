@@ -18665,6 +18665,61 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N086",
+      "brandName": "春莱",
+      "projectName": "抹茶第二季",
+      "intro": "2024 年 7 月的 960 mL 抹茶系列，以大字泰文、花朵和两款杯贴表现香水柚子抹茶及粉玫瑰抹茶牛乳。展出竖版产品海报与两款杯贴印刷稿。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N086-mat2-price-portrait",
+          "type": "image",
+          "src": "/media/cases/N086/mat2-price-portrait-3d8702a9fc.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N086-mat2-price-portrait",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202407/240713-抹茶第二季-价格海报/240713-抹茶第二季-价格海报_等级1-60X90产品海报.jpg",
+            "extractionMethod": "复用同案原交付竖版 JPG，保留完整构图与中泰文字，转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "3d8702a9fc24ba8490b6ea0d5b1320f89c642ec5ce301e00e30be8975daf29f7",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N086-mat2-label",
+          "type": "image",
+          "src": "/media/cases/N086/mat2-label-c8efe0eebd.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1213,
+          "provenance": {
+            "assetId": "N086-mat2-label",
+            "sourceType": "ai",
+            "sourceObject": "/硬盘备份/春莱2024/稿件源文件/240630-抹茶第二季/240709-抹茶第二季-杯贴.ai",
+            "extractionMethod": "从同案 Illustrator 原件完整导出第 1 画板，保留品名、图案及印刷版式。",
+            "width": 2400,
+            "height": 1213,
+            "sha256": "c8efe0eebd29f1aee173fdc9bc21deefb078237216f3f5d4a3e81babd3735674",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240630-抹茶第二季/240709-抹茶第二季-杯贴.ai",
+            "sourceArtboard": 1
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18727,6 +18782,7 @@
     "N047",
     "N048",
     "N085",
+    "N086",
     "N051",
     "N060",
     "N068",
