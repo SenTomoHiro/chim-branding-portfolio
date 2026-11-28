@@ -18802,6 +18802,61 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N087",
+      "brandName": "春莱",
+      "projectName": "鲜打黄柠冰萃",
+      "intro": "2024 年 10 月的黄柠系列。预告海报以整颗柠檬的近景铺满画面，产品海报用亮蓝衬出黄柠与冰块，呈现整颗黄柠鲜萃咖啡和整颗黄柠鲜萃抹茶。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N087-lemon24-product",
+          "type": "image",
+          "src": "/media/cases/N087/lemon24-product-2878c6f2a6.webp",
+          "layout": "full",
+          "width": 1467,
+          "height": 2200,
+          "provenance": {
+            "assetId": "N087-lemon24-product",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202410/241015-春莱柠檬新品/241002-柠檬新品.ai",
+            "sourceArtboard": 3,
+            "extractionMethod": "从同案 Illustrator 原件按独立画板完整导出，再转换为网站 WebP。",
+            "width": 1467,
+            "height": 2200,
+            "sha256": "2878c6f2a644ca42495203c7cf1b093392a3c41c2e2bb04113a699d72c7858c3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N087-lemon24-teaser",
+          "type": "image",
+          "src": "/media/cases/N087/lemon24-teaser-75dd704839.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N087-lemon24-teaser",
+            "sourceType": "ai",
+            "sourceAi": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202410/241015-春莱柠檬新品/241002-柠檬新品.ai",
+            "sourceArtboard": 2,
+            "extractionMethod": "从同案 Illustrator 原件按独立画板完整导出，再转换为网站 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "75dd704839e44b464d9a231cf22a40ce3bd148dcfb67726309911f197549fa2d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18865,6 +18920,7 @@
     "N048",
     "N085",
     "N086",
+    "N087",
     "N051",
     "N060",
     "N068",
