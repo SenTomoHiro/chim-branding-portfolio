@@ -18585,6 +18585,86 @@
       ],
       "published": true,
       "includeInPortfolioPdf": false
+    },
+    {
+      "id": "N085",
+      "brandName": "春莱",
+      "projectName": "水牛乳抹茶",
+      "intro": "2024 年春季的水牛乳抹茶系列，以笔刷、水牛乳与双杯构图呈现抹茶茉莉水牛乳和抹茶可可水牛乳。作品包括竖版产品海报、电视横版及「春日来信」新品预告。",
+      "business": "branding",
+      "categories": [
+        "drinks"
+      ],
+      "primaryIndustry": "茶饮",
+      "media": [
+        {
+          "id": "N085-mat1-product",
+          "type": "image",
+          "src": "/media/cases/N085/mat1-product-49743cd6e9.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N085-mat1-product",
+            "sourceType": "ai",
+            "sourceObject": "/硬盘备份/春莱2024/稿件源文件/240329-抹茶新品2个/240329-抹茶新品2个-改3.ai",
+            "extractionMethod": "从同案 Illustrator 文件的 PDF 兼容画板完整输出，保留原稿中泰文字。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "49743cd6e932fefd94f9dd0b793d89c030541e2289be751cb02fcc8d3fe96ca0",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240329-抹茶新品2个/240329-抹茶新品2个-改3.ai",
+            "sourceArtboard": 4
+          }
+        },
+        {
+          "id": "N085-mat1-tv",
+          "type": "image",
+          "src": "/media/cases/N085/mat1-tv-1491f9c0a6.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1350,
+          "provenance": {
+            "assetId": "N085-mat1-tv",
+            "sourceType": "ai",
+            "sourceObject": "/硬盘备份/春莱2024/稿件源文件/240329-抹茶新品2个/240329-抹茶新品2个-改3.ai",
+            "extractionMethod": "从同案 Illustrator 文件的 PDF 兼容画板完整输出，保留原稿中泰文字。",
+            "width": 2400,
+            "height": 1350,
+            "sha256": "1491f9c0a6859a76366a81f28546c97e88ce5e52833f996bd33bc7af1d5483d4",
+            "classification": "final_design",
+            "finalWorkVerified": true,
+            "sourceAi": "/硬盘备份/春莱2024/稿件源文件/240329-抹茶新品2个/240329-抹茶新品2个-改3.ai",
+            "sourceArtboard": 3
+          }
+        },
+        {
+          "id": "N085-mat1-teaser",
+          "type": "image",
+          "src": "/media/cases/N085/mat1-teaser-6a36332db9.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N085-mat1-teaser",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202404/240329-抹茶新品2个/240407-抹茶水牛乳预告海报-改1.jpg",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "6a36332db9bbb80356b3695ef3e43a9fc247097edcb7d890767b8c4f33fb213d",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "春日来信",
+            "description": "绿色光影与手写标题构成新品预告。"
+          }
+        }
+      ],
+      "published": true,
+      "includeInPortfolioPdf": false
     }
   ],
   "defaultOrder": [
@@ -18646,6 +18726,7 @@
     "N043",
     "N047",
     "N048",
+    "N085",
     "N051",
     "N060",
     "N068",
