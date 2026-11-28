@@ -16728,7 +16728,7 @@
       "id": "N063",
       "brandName": "春莱",
       "projectName": "清斋茶 · 返璞归真",
-      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。横版电视海报以棕榈叶和水面衬托四款茶饮，沿用中泰双语排版。",
+      "intro": "「返璞归真」预告海报以插花、折扇和暖色字样表现清斋茶系列。横版电视海报以棕榈叶和水面衬托四款茶饮，沿用中泰双语排版。 2024 新年版以「恭贺新禧」为主题，四款茶饮沿用中泰双语排版，搭配龙年杯贴。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16776,6 +16776,29 @@
             "title": "电视海报",
             "description": "「返璞归真」横版将四款茶饮陈列于水面与棕榈叶之间。"
           }
+        },
+        {
+          "id": "N063-fast24-tv",
+          "type": "image",
+          "src": "/media/cases/N063/fast24-tv-9193dccfb8.webp",
+          "layout": "full",
+          "width": 2400,
+          "height": 1350,
+          "provenance": {
+            "assetId": "N063-fast24-tv",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202401/240122-清斋茶新年版-改 1/240122-清斋茶新年版电视机海报-3840x2160px-改1.jpg",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 2400,
+            "height": 1350,
+            "sha256": "9193dccfb8794e0ba23470c7db6399eed839c52494dd9f7e8215b211db8d29f5",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2024 新年版",
+            "description": "「恭贺新禧」电视海报以四款茶饮搭配龙年杯贴。"
+          }
         }
       ],
       "published": true,
@@ -16785,7 +16808,7 @@
       "id": "N084",
       "brandName": "春莱",
       "projectName": "泰式咸法酪 2.0",
-      "intro": "以绿色肌理、奶酪形象和四杯饮品构成系列海报，延续春莱的中泰双语设计。 异形杯贴沿用奶酪插画，交付稿展示两种底色及烫银和模切标注。",
+      "intro": "2024 年秋冬首轮以产品海报呈现红茶、绿茶及红茶可可三款饮品，并以奶酪和奶牛插画制作热饮预告。2025 年「泰式咸法酪 2.0」另有四杯饮品主海报和异形杯贴。",
       "business": "branding",
       "categories": [
         "drinks"
@@ -16810,6 +16833,10 @@
             "sha256": "00a8a1683c5f8b0e0eeb37063242d4d47e88cc72aeb85c61f02ef084fe574d0b",
             "classification": "final_design",
             "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2025 泰式咸法酪 2.0",
+            "description": "绿色肌理衬托四杯饮品与奶酪插画。"
           }
         },
         {
@@ -16832,6 +16859,48 @@
             "width": 2232,
             "height": 2400,
             "sha256": "00fbef92e5fbbf907d7035435ca7240316e83536c8ba2f3e74b9c7cd1ab71716",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          }
+        },
+        {
+          "id": "N084-sal24-product",
+          "type": "image",
+          "src": "/media/cases/N084/sal24-product-2a1d18076c.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N084-sal24-product",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202410/241015-春莱泰式咸奶酪新品物料/241015-春莱泰式咸奶酪新品-无杯套/241013-春莱-咸奶酪新品_产品海报.jpg",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "2a1d18076c0e6d6c4cf2257082a8d77a3a84ab777958e6e4727b33d2b3c1a3a3",
+            "classification": "final_design",
+            "finalWorkVerified": true
+          },
+          "section": {
+            "title": "2024 秋冬首轮",
+            "description": "「泰式咸奶酪 / 超浓芝士」产品海报展示红茶、绿茶和红茶可可三款饮品。"
+          }
+        },
+        {
+          "id": "N084-sal24-teaser",
+          "type": "image",
+          "src": "/media/cases/N084/sal24-teaser-14162c49c0.webp",
+          "layout": "full",
+          "width": 1600,
+          "height": 2400,
+          "provenance": {
+            "assetId": "N084-sal24-teaser",
+            "sourceType": "jpg",
+            "sourceObject": "/硬盘备份/GAY老板历史文件/春莱/定稿文件/202410/241015-春莱泰式咸奶酪新品物料/241015-春莱泰式咸奶酪新品-无杯套/241013-春莱-咸奶酪新品_预告海报.jpg",
+            "extractionMethod": "复用同案原交付 JPG，保留完整构图，转换为网站 WebP。",
+            "width": 1600,
+            "height": 2400,
+            "sha256": "14162c49c0ba76043af88403a179c78405ad8db820f7699063c8e97269fcc675",
             "classification": "final_design",
             "finalWorkVerified": true
           }
